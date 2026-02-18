@@ -426,6 +426,10 @@ format:
           <a href="[RUBRIC_URL]" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Download Rubric Pack →</a>
           <a href="[TOOLKIT_URL]" target="_blank" style="display: inline-block; background: white; color: #4F46E5; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4F46E5;">Browse AI Toolkit</a>
         </div>
+        <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid #C7D2FE;">
+          <p style="margin: 0 0 8px 0; font-size: 13px; color: #4338CA;">📗 <strong>Want to go deeper?</strong></p>
+          <p style="margin: 0; font-size: 14px;"><a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="color: #312E81; text-decoration: none;"><em>Partner, Don't Police: AI in the Business Classroom</em></a> — a complete guide to integrating AI into teaching with discipline-specific examples.</p>
+        </div>
       </div>
     </div>
   </div>

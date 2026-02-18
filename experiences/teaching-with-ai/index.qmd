@@ -600,6 +600,22 @@ Then suggest how I should frame my proposal to address these concerns proactivel
     </div>
   </div>
 
+  <!-- Next Steps -->
+  <div style="background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 12px; padding: 24px; margin-bottom: 25px;">
+    <div style="display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+      <span style="font-size: 40px;">📗</span>
+      <div style="flex: 1; min-width: 250px;">
+        <h3 style="margin: 0 0 8px 0; color: #166534; font-size: 18px;">Want to Go Deeper?</h3>
+        <p style="margin: 0 0 12px 0; color: #14532D; line-height: 1.5;"><strong><em>Partner, Don't Police: AI in the Business Classroom</em></strong> — a complete guide to integrating AI into teaching, with examples from Marketing, Management, HR, Accounting, and more.</p>
+        <p style="margin: 0 0 16px 0; color: #166534; font-size: 14px; line-height: 1.5;">Covers progressive implementation, prompt engineering foundations, and discipline-specific applications.</p>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="display: inline-block; background: #22C55E; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Read the Book →</a>
+          <a href="[TOOLKIT_URL]" target="_blank" style="display: inline-block; background: white; color: #22C55E; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #22C55E;">Browse AI Toolkit</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Completion Section -->
   <div id="completion-section" style="background: #f0fff4; padding: 30px; border-radius: 8px; margin-bottom: 25px; border: 2px solid #38a169; display: none;">
     <div style="text-align: center;">

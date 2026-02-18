@@ -111,6 +111,8 @@ format:
           <strong>The Bottom Line:</strong><br>
           Value process literacy over output chasing. The goal isn't to get AI to do your work — it's to become more capable yourself, with AI as your thinking partner.
         </div>
+
+        <p style="margin-top: 20px;"><a href="https://michael-borck.github.io/conversation-not-delegation/" target="_blank" style="color: #4F46E5; font-weight: bold;">📖 Read the full book →</a></p>
       `
     },
     {
@@ -953,6 +955,60 @@ Now write feedback in my style for:
         <p style="font-size: 13px; color: #64748B;"><strong>Tip:</strong> Add your discipline (e.g., AND marketing AND business) for relevant results.</p>
       `
     },
+    // BOOKS
+    {
+      id: 'book-conversation',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Conversation, Not Delegation (Book)',
+      emoji: '📕',
+      summary: 'Mastering Human-AI Development — the full methodology.',
+      content: `
+        <p><strong>By Michael Borck</strong></p>
+        <p>The complete guide to the "Conversation, Not Delegation" methodology. This book presents a framework for integrating AI tools into your work while maintaining human oversight and developing genuine capability.</p>
+
+        <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          <strong>What you'll learn:</strong>
+          <ul style="margin: 8px 0 0 0; padding-left: 20px;">
+            <li>Intentional prompting techniques</li>
+            <li>The human-AI partnership model</li>
+            <li>A structured six-step methodology</li>
+            <li>How to think differently about AI collaboration</li>
+          </ul>
+        </div>
+
+        <p><a href="https://michael-borck.github.io/conversation-not-delegation/" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">Read Online →</a></p>
+      `
+    },
+    {
+      id: 'book-partner',
+      category: 'reading',
+      roles: ['teaching'],
+      title: 'Partner, Don\'t Police (Book)',
+      emoji: '📗',
+      summary: 'AI in the Business Classroom — a practical guide for educators.',
+      content: `
+        <p><strong>By Michael Borck</strong></p>
+        <p>A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines. Built around the principle of "transparency over prohibition."</p>
+
+        <div style="background: #F0FDF4; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          <strong>What you'll learn:</strong>
+          <ul style="margin: 8px 0 0 0; padding-left: 20px;">
+            <li>AI as a pedagogical tool that enhances, not replaces, your expertise</li>
+            <li>Prompt engineering as a foundational skill</li>
+            <li>Progressive implementation strategies</li>
+            <li>Discipline-specific applications (Marketing, Management, HR, Accounting, and more)</li>
+          </ul>
+        </div>
+
+        <div style="background: #EEF2FF; padding: 12px; border-radius: 8px; margin-bottom: 16px;">
+          <em>"You don't need to revolutionize your entire curriculum overnight."</em>
+        </div>
+
+        <p><a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="display: inline-block; background: #22C55E; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">Read Online →</a></p>
+      `
+    },
+
     {
       id: 'external-hubs',
       category: 'reading',
