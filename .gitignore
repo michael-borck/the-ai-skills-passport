@@ -6,9 +6,16 @@ dist/
 _output/
 _site/
 
+# Secrets
+.env
+
 # Python
 __pycache__/
 *.pyc
+
+# Email previews
+ai-in-5/preview.html
+ai-in-5/subscribers.csv
 
 # SQLite databases
 *.db
