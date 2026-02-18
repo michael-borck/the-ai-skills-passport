@@ -46,7 +46,7 @@ These are the content. Everything else — AI in 5, workshops, pathways — is a
 | 2 | **What Would You Do?** | Ethics & Dilemmas | 20–90 min | All roles |
 | 3 | **Rules of Engagement** | Policy & Governance | 30–120 min | All roles |
 | 4 | **AI-Proof Your Assessments** | Assessment Design | 45–75 min | Teaching-focused (with research and admin angles) |
-| 5 | **Teaching WITH AI** | Co-Creation & Integration | 30–60 min | Teaching-focused (with research and admin angles) |
+| 5 | **Working WITH AI** | Co-Creation & Integration | 30–60 min | All roles |
 
 Each experience is self-contained, requires no prior knowledge, and includes examples and scenarios from teaching, research, and administrative contexts. A sceptic and an enthusiast can sit in the same session and both leave with applicable skills.
 
@@ -114,7 +114,7 @@ Blackboard is the single platform for all structured learning, daily micro-chall
 | **What Would You Do?** | Content Area | Experience 2: Ethics & Dilemmas |
 | **Rules of Engagement** | Content Area | Experience 3: Policy & Governance |
 | **AI-Proof Your Assessments** | Content Area | Experience 4: Assessment Design |
-| **Teaching WITH AI** | Content Area | Experience 5: Co-Creation & Integration |
+| **Working WITH AI** | Content Area | Experience 5: Co-Creation & Integration |
 | **My Passport** | Content Area | Badge overview, progress tracking |
 
 Everything else hidden: Information, Contacts, Discussions, Tools, Collaborate Ultra, Groups, My Grades.
@@ -238,7 +238,7 @@ The two platforms reference each other at natural points but operate independent
 
 | Task | Detail |
 |---|---|
-| Populate remaining 3 experiences | "Rules of Engagement", "AI-Proof Your Assessments", "Teaching WITH AI" |
+| Populate remaining 3 experiences | "Rules of Engagement", "AI-Proof Your Assessments", "Working WITH AI" |
 | Open AI Exchange for broad registration | Announce with seeded content visible |
 | Run second workshop | Different experience, potentially for a specific discipline group |
 | Issue first badges | Update Grade Centre for early completers |

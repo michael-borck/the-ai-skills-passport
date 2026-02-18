@@ -22,7 +22,7 @@ The AI Skills Passport is a flexible, self-paced program that builds AI literacy
 | 2 | 🤔 What Would You Do? | Ethics & Dilemmas | 20–90 min |
 | 3 | 📋 Rules of Engagement | Policy & Governance | 30–120 min |
 | 4 | 🛡️ AI-Proof Your Assessments | Assessment Design | 45–75 min |
-| 5 | 🤝 Teaching WITH AI | Co-Creation & Integration | 30–60 min |
+| 5 | 🤝 Working WITH AI | Co-Creation & Integration | 30–60 min |
 
 ## Additional Components
 

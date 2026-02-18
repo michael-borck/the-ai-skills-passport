@@ -109,7 +109,7 @@ format:
     { id: 'what-would-you-do', name: 'What Would You Do?', emoji: '🤔', subtitle: 'Ethics & Dilemmas' },
     { id: 'rules-of-engagement', name: 'Rules of Engagement', emoji: '📋', subtitle: 'Policy & Governance' },
     { id: 'ai-proof-assessments', name: 'AI-Proof Your Assessments', emoji: '🛡️', subtitle: 'Assessment Design' },
-    { id: 'teaching-with-ai', name: 'Teaching WITH AI', emoji: '🤝', subtitle: 'Co-Creation & Integration' }
+    { id: 'teaching-with-ai', name: 'Working WITH AI', emoji: '🤝', subtitle: 'Co-Creation & Integration' }
   ];
 
   // Badge definitions

@@ -387,7 +387,7 @@ format:
     },
     'teaching-with-ai': {
       emoji: '🤝',
-      title: 'Teaching WITH AI',
+      title: 'Working WITH AI',
       subtitle: 'Co-Creation & Integration',
       time: '30-60 min',
       description: 'Master prompting techniques and build a reusable prompt library.'

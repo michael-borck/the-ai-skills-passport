@@ -1,5 +1,5 @@
 ---
-title: "Teaching WITH AI"
+title: "Working WITH AI"
 format:
   html:
     self-contained: true
@@ -13,7 +13,7 @@ format:
   <!-- Header -->
   <div style="background: linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #3182ce 100%); color: white; padding: 40px; border-radius: 12px; text-align: center; margin-bottom: 30px;">
     <div style="font-size: 4rem; margin-bottom: 10px;">🤝</div>
-    <h1 style="margin: 0; font-size: 2.5rem; font-weight: normal; letter-spacing: 2px;">TEACHING WITH AI</h1>
+    <h1 style="margin: 0; font-size: 2.5rem; font-weight: normal; letter-spacing: 2px;">WORKING WITH AI</h1>
     <p style="margin: 10px 0 0 0; font-size: 1.3rem; opacity: 0.9;">Co-Creation & Integration</p>
     <p style="margin: 15px 0 0 0; font-size: 1rem; opacity: 0.7;">30-60 minutes</p>
   </div>
@@ -22,7 +22,7 @@ format:
   <div style="background: white; padding: 30px; border-radius: 8px; margin-bottom: 25px; border-left: 4px solid #3182ce;">
     <h2 style="margin-top: 0; color: #1a365d; font-weight: normal;">Welcome</h2>
     <p style="font-size: 1.1rem; line-height: 1.7; color: #333;">
-      AI isn't here to replace you—it's a collaborator that can amplify your expertise. In this experience, you'll learn practical prompting techniques that transform AI from a novelty into a genuine teaching partner. You'll build a personal library of prompts tailored to your work.
+      AI isn't here to replace you—it's a collaborator that can amplify your expertise. In this experience, you'll learn practical prompting techniques that transform AI from a novelty into a genuine work partner. You'll build a personal library of prompts tailored to your role—whether you teach, research, or keep the school running.
     </p>
   </div>
 
@@ -77,17 +77,17 @@ format:
       <div style="background: linear-gradient(135deg, #e53e3e 0%, #c53030 100%); color: white; padding: 20px; border-radius: 8px;">
         <h4 style="margin: 0 0 10px 0; font-size: 1.3rem;">R - Role</h4>
         <p style="margin: 0; font-size: 0.95rem; opacity: 0.95;">Who should AI be?</p>
-        <p style="margin: 10px 0 0 0; font-size: 0.85rem; font-style: italic; opacity: 0.85;">"You are an experienced curriculum designer..."</p>
+        <p style="margin: 10px 0 0 0; font-size: 0.85rem; font-style: italic; opacity: 0.85;">"You are an experienced professional who specialises in..."</p>
       </div>
       <div style="background: linear-gradient(135deg, #dd6b20 0%, #c05621 100%); color: white; padding: 20px; border-radius: 8px;">
         <h4 style="margin: 0 0 10px 0; font-size: 1.3rem;">T - Task</h4>
         <p style="margin: 0; font-size: 0.95rem; opacity: 0.95;">What should it do?</p>
-        <p style="margin: 10px 0 0 0; font-size: 0.85rem; font-style: italic; opacity: 0.85;">"Create a rubric for assessing critical thinking..."</p>
+        <p style="margin: 10px 0 0 0; font-size: 0.85rem; font-style: italic; opacity: 0.85;">"Create a summary of... / Draft an email about... / Analyse..."</p>
       </div>
       <div style="background: linear-gradient(135deg, #38a169 0%, #2f855a 100%); color: white; padding: 20px; border-radius: 8px;">
         <h4 style="margin: 0 0 10px 0; font-size: 1.3rem;">C - Context</h4>
         <p style="margin: 0; font-size: 0.95rem; opacity: 0.95;">What background does it need?</p>
-        <p style="margin: 10px 0 0 0; font-size: 0.85rem; font-style: italic; opacity: 0.85;">"Second-year marketing students, group project, 30% weighting..."</p>
+        <p style="margin: 10px 0 0 0; font-size: 0.85rem; font-style: italic; opacity: 0.85;">"The audience is... The deadline is... This is for..."</p>
       </div>
       <div style="background: linear-gradient(135deg, #3182ce 0%, #2b6cb0 100%); color: white; padding: 20px; border-radius: 8px;">
         <h4 style="margin: 0 0 10px 0; font-size: 1.3rem;">F - Format</h4>
@@ -99,7 +99,14 @@ format:
     <!-- Interactive Example -->
     <div style="background: #f7fafc; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
       <h4 style="margin: 0 0 15px 0; color: #1a365d;">See RTCF in Action</h4>
-      <p style="margin: 0 0 15px 0; color: #555;">Click each button to see how RTCF transforms a vague prompt:</p>
+      <p style="margin: 0 0 15px 0; color: #555;">Choose your role, then click each button to see how RTCF transforms a vague prompt:</p>
+
+      <!-- Role selector -->
+      <div style="display: flex; border-bottom: 2px solid #e2e8f0; margin-bottom: 15px;">
+        <button onclick="setRTCFRole('teaching')" id="rtcf-tab-teaching" style="padding: 10px 20px; background: #3182ce; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem; margin-right: 5px;">Teaching</button>
+        <button onclick="setRTCFRole('research')" id="rtcf-tab-research" style="padding: 10px 20px; background: #e2e8f0; color: #333; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem; margin-right: 5px;">Research</button>
+        <button onclick="setRTCFRole('admin')" id="rtcf-tab-admin" style="padding: 10px 20px; background: #e2e8f0; color: #333; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem;">Admin</button>
+      </div>
 
       <div style="margin-bottom: 15px;">
         <button onclick="showRTCFExample('vague')" style="padding: 10px 20px; margin-right: 10px; margin-bottom: 5px; border: 2px solid #3182ce; background: white; color: #3182ce; border-radius: 6px; cursor: pointer; font-family: inherit;">Vague Prompt</button>
@@ -193,11 +200,28 @@ Fill in the fields above to build your prompt...
     <div style="background: #f0fff4; padding: 20px; border-radius: 8px;">
       <h4 style="margin: 0 0 15px 0; color: #276749;">Quick Start Templates</h4>
       <p style="margin: 0 0 15px 0; color: #555;">Click a template to load it into the builder:</p>
-      <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        <button onclick="loadTemplate('lecture')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Lecture Outline</button>
-        <button onclick="loadTemplate('quiz')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Quiz Questions</button>
-        <button onclick="loadTemplate('feedback')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Student Feedback</button>
-        <button onclick="loadTemplate('rubric')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Assessment Rubric</button>
+      <div style="margin-bottom: 12px;">
+        <p style="margin: 0 0 8px 0; color: #1a365d; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Teaching</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <button onclick="loadTemplate('lecture')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Lecture Outline</button>
+          <button onclick="loadTemplate('quiz')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Quiz Questions</button>
+          <button onclick="loadTemplate('feedback')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Student Feedback</button>
+          <button onclick="loadTemplate('rubric')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Assessment Rubric</button>
+        </div>
+      </div>
+      <div style="margin-bottom: 12px;">
+        <p style="margin: 0 0 8px 0; color: #1a365d; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Research</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <button onclick="loadTemplate('litreview')" style="padding: 8px 16px; background: white; border: 1px solid #3182ce; color: #2b6cb0; border-radius: 6px; cursor: pointer; font-family: inherit;">Literature Synthesis</button>
+          <button onclick="loadTemplate('methodology')" style="padding: 8px 16px; background: white; border: 1px solid #3182ce; color: #2b6cb0; border-radius: 6px; cursor: pointer; font-family: inherit;">Methodology Critique</button>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 0 0 8px 0; color: #1a365d; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Admin</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <button onclick="loadTemplate('email')" style="padding: 8px 16px; background: white; border: 1px solid #805ad5; color: #6b46c1; border-radius: 6px; cursor: pointer; font-family: inherit;">Email Draft</button>
+          <button onclick="loadTemplate('meeting')" style="padding: 8px 16px; background: white; border: 1px solid #805ad5; color: #6b46c1; border-radius: 6px; cursor: pointer; font-family: inherit;">Meeting Preparation</button>
+        </div>
       </div>
     </div>
 
@@ -340,7 +364,7 @@ Fill in the fields above to build your prompt...
     </div>
 
     <p style="font-size: 1.05rem; line-height: 1.7; color: #333; margin-bottom: 25px;">
-      The most effective AI users build a personal library of reusable prompts. Create three prompts tailored to tasks you do regularly. These will be saved locally so you can return to them.
+      The most effective AI users build a personal library of reusable prompts. Create three prompts tailored to tasks you do regularly—whether that's teaching, research, or admin. These will be saved locally so you can return to them.
     </p>
 
     <!-- Prompt Library Builder -->
@@ -622,7 +646,7 @@ Then suggest how I should frame my proposal to address these concerns proactivel
       <div style="font-size: 4rem; margin-bottom: 15px;">🎉</div>
       <h2 style="margin: 0 0 15px 0; color: #276749; font-weight: normal;">Experience Complete!</h2>
       <p style="margin: 0 0 20px 0; color: #333; font-size: 1.1rem;">
-        You've completed "Teaching WITH AI" and earned the skills to use AI as a genuine teaching partner.
+        You've completed "Working WITH AI" and earned the skills to use AI as a genuine work partner.
       </p>
       <div style="background: white; padding: 20px; border-radius: 8px; display: inline-block;">
         <p style="margin: 0 0 10px 0; color: #666;">Your progress has been saved.</p>
@@ -704,14 +728,62 @@ function checkCompletion() {
 }
 
 // RTCF Example Display
+var currentRTCFRole = 'teaching';
+
+var rtcfExamples = {
+  teaching: {
+    vague: {
+      prompt: '"Help me make a rubric for my class."',
+      explanation: 'This prompt lacks specificity. AI doesn\'t know what class, what assessment, what criteria matter, or how detailed you want the rubric.'
+    },
+    rtcf: '<strong style="color: #e53e3e;">Role:</strong> You are an experienced curriculum designer who specialises in outcome-based assessment.\n\n<strong style="color: #dd6b20;">Task:</strong> Create a rubric for assessing critical thinking in student essays.\n\n<strong style="color: #38a169;">Context:</strong> This is for a second-year marketing strategy unit. Students write 2000-word case analyses. The rubric is worth 30% of their grade. The cohort includes many international students.\n\n<strong style="color: #3182ce;">Format:</strong> 4-point scale (Excellent, Good, Developing, Beginning) with clear descriptors for each level. Table format that can be pasted into Word.',
+    result: 'The result? A rubric you can actually use, not a generic template you\'ll spend an hour customising.'
+  },
+  research: {
+    vague: {
+      prompt: '"Help me with my literature review."',
+      explanation: 'AI doesn\'t know your research question, which papers you\'re working with, what kind of synthesis you need, or how far along you are.'
+    },
+    rtcf: '<strong style="color: #e53e3e;">Role:</strong> You are a research methodologist who specialises in systematic literature reviews in the social sciences.\n\n<strong style="color: #dd6b20;">Task:</strong> Synthesise the following five paper summaries into a coherent narrative that identifies themes, agreements, and gaps.\n\n<strong style="color: #38a169;">Context:</strong> I\'m writing a literature review for a journal article on AI adoption in higher education marketing. My research question is: How are marketing educators integrating AI tools into assessment design?\n\n<strong style="color: #3182ce;">Format:</strong> A 500-word synthesis narrative organised by theme (not paper-by-paper). End with a paragraph identifying gaps my study could address.',
+    result: 'The result? A structured synthesis you can build on, not a generic summary that reads like an annotated bibliography.'
+  },
+  admin: {
+    vague: {
+      prompt: '"Write an email about the new policy."',
+      explanation: 'AI doesn\'t know which policy, who the audience is, what tone is appropriate, or what action you need people to take.'
+    },
+    rtcf: '<strong style="color: #e53e3e;">Role:</strong> You are a professional university communications specialist who writes clear, approachable messages.\n\n<strong style="color: #dd6b20;">Task:</strong> Draft an email announcing the new AI acceptable-use policy to all school staff.\n\n<strong style="color: #38a169;">Context:</strong> The policy was approved last week by the Head of School. Staff are anxious about AI restrictions. The tone should be reassuring—the policy enables AI use, it doesn\'t ban it. Some staff have never used AI.\n\n<strong style="color: #3182ce;">Format:</strong> Under 250 words. Include a brief summary of what the policy allows, one clear call to action (read the full policy), and a contact for questions.',
+    result: 'The result? A message that lands well with anxious staff, not a bureaucratic wall of text nobody reads.'
+  }
+};
+
+function setRTCFRole(role) {
+  currentRTCFRole = role;
+  // Update tab styling
+  ['teaching', 'research', 'admin'].forEach(function(r) {
+    var tab = document.getElementById('rtcf-tab-' + r);
+    if (r === role) {
+      tab.style.background = '#3182ce';
+      tab.style.color = 'white';
+    } else {
+      tab.style.background = '#e2e8f0';
+      tab.style.color = '#333';
+    }
+  });
+  // Reset display
+  document.getElementById('rtcf-example-display').innerHTML = '<p style="color: #666; font-style: italic; margin: 0;">Click a button above to compare prompts...</p>';
+}
+
 function showRTCFExample(type) {
-  const display = document.getElementById('rtcf-example-display');
+  var display = document.getElementById('rtcf-example-display');
+  var example = rtcfExamples[currentRTCFRole];
+
   if (type === 'vague') {
-    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #e53e3e; font-weight: bold;">Vague Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; color: #333;">"Help me make a rubric for my class."</p><p style="margin: 15px 0 0 0; color: #666; font-style: italic;">This prompt lacks specificity. AI doesn\'t know what class, what assessment, what criteria matter, or how detailed you want the rubric.</p>';
+    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #e53e3e; font-weight: bold;">Vague Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; color: #333;">' + example.vague.prompt + '</p><p style="margin: 15px 0 0 0; color: #666; font-style: italic;">' + example.vague.explanation + '</p>';
   } else if (type === 'rtcf') {
-    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #38a169; font-weight: bold;">RTCF Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #333; white-space: pre-wrap;"><strong style="color: #e53e3e;">Role:</strong> You are an experienced curriculum designer who specializes in outcome-based assessment.\n\n<strong style="color: #dd6b20;">Task:</strong> Create a rubric for assessing critical thinking in student essays.\n\n<strong style="color: #38a169;">Context:</strong> This is for a second-year marketing strategy unit. Students write 2000-word case analyses. The rubric is worth 30% of their grade. The cohort includes many international students.\n\n<strong style="color: #3182ce;">Format:</strong> 4-point scale (Excellent, Good, Developing, Beginning) with clear descriptors for each level. Table format that can be pasted into Word.</p>';
+    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #38a169; font-weight: bold;">RTCF Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #333; white-space: pre-wrap;">' + example.rtcf + '</p>';
   } else if (type === 'result') {
-    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #805ad5; font-weight: bold;">Why the RTCF Version Works:</p><ul style="margin: 0; color: #333; line-height: 1.8;"><li><strong>Role</strong> primes AI with relevant expertise and perspective</li><li><strong>Task</strong> is specific and actionable—AI knows exactly what to produce</li><li><strong>Context</strong> provides the constraints and audience info AI needs</li><li><strong>Format</strong> ensures output is immediately usable</li></ul><p style="margin: 15px 0 0 0; color: #666;">The result? A rubric you can actually use, not a generic template you\'ll spend an hour customising.</p>';
+    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #805ad5; font-weight: bold;">Why the RTCF Version Works:</p><ul style="margin: 0; color: #333; line-height: 1.8;"><li><strong>Role</strong> primes AI with relevant expertise and perspective</li><li><strong>Task</strong> is specific and actionable—AI knows exactly what to produce</li><li><strong>Context</strong> provides the constraints and audience info AI needs</li><li><strong>Format</strong> ensures output is immediately usable</li></ul><p style="margin: 15px 0 0 0; color: #666;">' + example.result + '</p>';
   }
 }
 
@@ -760,10 +832,34 @@ function loadTemplate(type) {
       format: 'Start with strengths, then areas for improvement with specific suggestions, end with encouragement.'
     },
     rubric: {
-      role: 'You are a curriculum designer specializing in criterion-referenced assessment.',
+      role: 'You are a curriculum designer specialising in criterion-referenced assessment.',
       task: 'Create an assessment rubric for [ASSIGNMENT TYPE].',
       context: 'Unit: [UNIT NAME]\nLearning outcomes being assessed: [LIST]\nWeighting: [%] of final grade\nSubmission format: [TYPE]',
       format: '4-point scale (Excellent/Good/Developing/Beginning) in table format with clear, observable descriptors.'
+    },
+    litreview: {
+      role: 'You are a research methodologist who specialises in systematic literature reviews.',
+      task: 'Synthesise the following paper summaries into a coherent narrative identifying themes, agreements, and gaps.',
+      context: 'Research question: [YOUR RQ]\nField: [DISCIPLINE]\nNumber of papers: [N]\nI will paste summaries below.\n\n[PASTE PAPER SUMMARIES]',
+      format: 'A 500-word synthesis narrative organised by theme (not paper-by-paper). End with a paragraph identifying gaps.'
+    },
+    methodology: {
+      role: 'You are a rigorous journal reviewer (Reviewer 2 on a bad day).',
+      task: 'Critique the following methodology section and identify weaknesses before I submit.',
+      context: 'Paper topic: [TOPIC]\nTarget journal: [JOURNAL]\nMethodology: [QUAL/QUANT/MIXED]\n\n[PASTE METHODOLOGY SECTION]',
+      format: 'Numbered list of issues, each with: the problem, why it matters, and a specific suggestion for improvement.'
+    },
+    email: {
+      role: 'You are a professional university communications specialist who writes clear, approachable messages.',
+      task: 'Draft an email about [TOPIC/SITUATION].',
+      context: 'Audience: [WHO]\nPurpose: [WHAT YOU WANT TO ACHIEVE]\nTone: Professional but approachable\nSensitivities: [NOTE ANY]',
+      format: 'Under 200 words. Include a clear call to action. Provide two versions: one more formal, one warmer.'
+    },
+    meeting: {
+      role: 'You are a strategic adviser who helps people prepare for high-stakes meetings.',
+      task: 'Help me prepare for a meeting about [TOPIC/PROPOSAL].',
+      context: 'Attendees: [WHO WILL BE THERE]\nMy goal: [WHAT I WANT TO ACHIEVE]\nPotential concerns: [ANY KNOWN ISSUES]\nTime allocated: [DURATION]',
+      format: 'Provide: (1) likely questions from each attendee, (2) potential objections, (3) suggested talking points, (4) a recommended framing for my opening.'
     }
   };
 
@@ -877,7 +973,7 @@ function exportLibrary() {
   };
 
   let text = 'MY AI PROMPT LIBRARY\n';
-  text += 'Teaching WITH AI - AI Skills Passport\n';
+  text += 'Working WITH AI - AI Skills Passport\n';
   text += '====================================\n\n';
 
   if (library.task1 || library.prompt1) {

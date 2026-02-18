@@ -51,7 +51,7 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 | 2 | What Would You Do? | Ethics & Dilemmas | 20-90 min | All roles |
 | 3 | Rules of Engagement | Policy & Governance | 30-120 min | All roles |
 | 4 | AI-Proof Your Assessments | Assessment Design | 45-75 min | Teaching-focused |
-| 5 | Teaching WITH AI | Co-Creation & Integration | 30-60 min | Teaching-focused |
+| 5 | Working WITH AI | Co-Creation & Integration | 30-60 min | All roles |
 
 ## Additional Components
 

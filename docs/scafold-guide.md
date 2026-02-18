@@ -15,7 +15,7 @@
 3. What Would You Do?
 4. Rules of Engagement
 5. AI-Proof Your Assessments
-6. Teaching WITH AI
+6. Working WITH AI
 7. My Passport
 
 **Rename Announcements** → **AI in 5**
@@ -32,7 +32,7 @@ Is This AI?                ← experience 1
 What Would You Do?         ← experience 2
 Rules of Engagement        ← experience 3
 AI-Proof Your Assessments  ← experience 4
-Teaching WITH AI           ← experience 5
+Working WITH AI           ← experience 5
 My Passport                ← badge tracking
 ```
 
@@ -57,7 +57,7 @@ For each content area, create an **Item** (Build Content > Item), switch to **HT
 | What Would You Do? | `coming-soon.html` | Replace with actual content when available |
 | Rules of Engagement | `coming-soon.html` | Replace with actual content when available |
 | AI-Proof Your Assessments | `coming-soon.html` | Replace with actual content when available |
-| Teaching WITH AI | `coming-soon.html` | Replace with actual content when available |
+| Working WITH AI | `coming-soon.html` | Replace with actual content when available |
 | My Passport | `my-passport.html` | Badge overview and how it works |
 
 ---
