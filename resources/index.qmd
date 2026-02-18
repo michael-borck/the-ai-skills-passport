@@ -735,110 +735,124 @@ Now write feedback in my style for:
       `
     },
 
-    // FURTHER READING
+    // FURTHER READING - Search Queries
     {
-      id: 'ai-shame-paper',
+      id: 'search-google-scholar',
       category: 'reading',
       roles: ['teaching', 'research', 'admin'],
-      title: 'AI Shaming: The Silent Stigma',
-      emoji: '📄',
-      summary: 'Research on stigma faced by academics using AI tools (Giray, 2024).',
+      title: 'Google Scholar Searches',
+      emoji: '🎓',
+      summary: 'Pre-built searches for AI in higher education research.',
       content: `
-        <p><strong>Citation:</strong></p>
-        <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; margin: 16px 0; font-size: 13px;">
-          Giray, L. (2024). AI Shaming: The Silent Stigma among Academic Writers and Researchers. <em>Annals of Biomedical Engineering</em>, 52(9), 2319–2324.
+        <p><strong>Click any search to find current research:</strong></p>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin: 16px 0;">
+          <a href="https://scholar.google.com/scholar?q=generative+AI+higher+education+assessment" target="_blank" style="display: block; background: #F1F5F9; padding: 12px 16px; border-radius: 8px; color: #1E293B; text-decoration: none; border-left: 4px solid #4F46E5;">
+            <strong>AI & Assessment</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">generative AI higher education assessment</span>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=ChatGPT+academic+integrity+university" target="_blank" style="display: block; background: #F1F5F9; padding: 12px 16px; border-radius: 8px; color: #1E293B; text-decoration: none; border-left: 4px solid #4F46E5;">
+            <strong>Academic Integrity</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">ChatGPT academic integrity university</span>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=AI+literacy+faculty+professional+development" target="_blank" style="display: block; background: #F1F5F9; padding: 12px 16px; border-radius: 8px; color: #1E293B; text-decoration: none; border-left: 4px solid #4F46E5;">
+            <strong>Faculty AI Literacy</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">AI literacy faculty professional development</span>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=AI+detection+tools+accuracy+limitations" target="_blank" style="display: block; background: #F1F5F9; padding: 12px 16px; border-radius: 8px; color: #1E293B; text-decoration: none; border-left: 4px solid #4F46E5;">
+            <strong>AI Detection Tools</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">AI detection tools accuracy limitations</span>
+          </a>
+          <a href="https://scholar.google.com/scholar?q=%22AI+shame%22+OR+%22AI+shaming%22+academic" target="_blank" style="display: block; background: #F1F5F9; padding: 12px 16px; border-radius: 8px; color: #1E293B; text-decoration: none; border-left: 4px solid #4F46E5;">
+            <strong>AI Shame & Stigma</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">"AI shame" OR "AI shaming" academic</span>
+          </a>
         </div>
-        <p><strong>Key Points:</strong></p>
-        <ul>
-          <li>Documents the phenomenon of "AI shaming" in academic settings</li>
-          <li>Explores how stigma affects adoption and disclosure</li>
-          <li>Argues for normalizing transparent AI use in research</li>
-        </ul>
-        <p><a href="https://doi.org/10.1007/s10439-024-03582-1" target="_blank" style="color: #4F46E5; text-decoration: underline;">Read the paper →</a></p>
+        <p style="font-size: 13px; color: #64748B;"><strong>Tip:</strong> Click "Since 2024" on results page for the latest research.</p>
       `
     },
     {
-      id: 'shame-in-machine',
+      id: 'search-arxiv',
       category: 'reading',
-      roles: ['teaching', 'research', 'admin'],
-      title: 'Shame in the Machine',
-      emoji: '📄',
-      summary: 'Affective accountability and the ethics of AI (McNealis, 2025).',
+      roles: ['research', 'teaching'],
+      title: 'arXiv Searches',
+      emoji: '📑',
+      summary: 'Pre-prints and cutting-edge AI research.',
       content: `
-        <p><strong>Citation:</strong></p>
-        <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; margin: 16px 0; font-size: 13px;">
-          McNealis, R. (2025). Shame in the machine: affective accountability and the ethics of AI. <em>AI & Society</em>.
+        <p><strong>arXiv has the latest research before peer review:</strong></p>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin: 16px 0;">
+          <a href="https://arxiv.org/search/?query=large+language+models+education&searchtype=all" target="_blank" style="display: block; background: #FEF3C7; padding: 12px 16px; border-radius: 8px; color: #1E293B; text-decoration: none; border-left: 4px solid #F59E0B;">
+            <strong>LLMs in Education</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">large language models education</span>
+          </a>
+          <a href="https://arxiv.org/search/?query=AI+writing+detection&searchtype=all" target="_blank" style="display: block; background: #FEF3C7; padding: 12px 16px; border-radius: 8px; color: #1E293B; text-decoration: none; border-left: 4px solid #F59E0B;">
+            <strong>AI Writing Detection</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">AI writing detection</span>
+          </a>
+          <a href="https://arxiv.org/search/?query=prompt+engineering+techniques&searchtype=all" target="_blank" style="display: block; background: #FEF3C7; padding: 12px 16px; border-radius: 8px; color: #1E293B; text-decoration: none; border-left: 4px solid #F59E0B;">
+            <strong>Prompt Engineering</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">prompt engineering techniques</span>
+          </a>
         </div>
-        <p><strong>Key Points:</strong></p>
-        <ul>
-          <li>Examines emotional dimensions of AI ethics</li>
-          <li>Explores shame as a barrier to productive AI engagement</li>
-          <li>Proposes frameworks for affective accountability</li>
-        </ul>
-        <p><a href="https://doi.org/10.1007/s00146-025-02472-x" target="_blank" style="color: #4F46E5; text-decoration: underline;">Read the paper →</a></p>
+        <p style="font-size: 13px; color: #64748B;"><strong>Note:</strong> arXiv papers are pre-prints — not yet peer-reviewed. Great for cutting-edge ideas, but verify claims.</p>
       `
     },
     {
-      id: 'curtin-ai-principles',
+      id: 'search-library',
       category: 'reading',
       roles: ['teaching', 'research', 'admin'],
-      title: 'Curtin AI in Learning & Teaching',
+      title: 'Library & Institutional',
       emoji: '🏛️',
-      summary: 'Curtin University principles and guidelines for AI use.',
+      summary: 'Search terms for Curtin Library and institutional resources.',
       content: `
-        <p><strong>Overview:</strong></p>
-        <p>Curtin's official position on AI in education, including principles for ethical use, assessment guidelines, and support resources.</p>
-        <p><strong>Key Resources:</strong></p>
-        <ul>
-          <li>AI in Learning and Teaching Framework</li>
-          <li>Assessment design guidelines</li>
-          <li>Student communication templates</li>
-          <li>Staff professional development</li>
+        <p><strong>Use these in Curtin Library search or your institution's database:</strong></p>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin: 16px 0;">
+          <div style="background: #E0E7FF; padding: 12px 16px; border-radius: 8px;">
+            <span style="font-family: 'Courier New', monospace; font-size: 13px;">artificial intelligence AND assessment AND "higher education"</span>
+          </div>
+          <div style="background: #E0E7FF; padding: 12px 16px; border-radius: 8px;">
+            <span style="font-family: 'Courier New', monospace; font-size: 13px;">ChatGPT AND (teaching OR pedagogy)</span>
+          </div>
+          <div style="background: #E0E7FF; padding: 12px 16px; border-radius: 8px;">
+            <span style="font-family: 'Courier New', monospace; font-size: 13px;">"generative AI" AND ethics AND education</span>
+          </div>
+          <div style="background: #E0E7FF; padding: 12px 16px; border-radius: 8px;">
+            <span style="font-family: 'Courier New', monospace; font-size: 13px;">"AI policy" AND university</span>
+          </div>
+        </div>
+        <p><strong>Useful databases:</strong></p>
+        <ul style="margin: 8px 0; color: #334155;">
+          <li>ERIC (education research)</li>
+          <li>ProQuest Education</li>
+          <li>Scopus / Web of Science</li>
+          <li>JSTOR</li>
         </ul>
-        <p><a href="https://www.curtin.edu.au/teaching-learning/ai/" target="_blank" style="color: #4F46E5; text-decoration: underline;">Visit Curtin AI Hub →</a></p>
-        <p style="color: #64748B; font-size: 13px; margin-top: 16px;"><em>Note: Link may require Curtin login or may change. Check current intranet resources.</em></p>
+        <p style="font-size: 13px; color: #64748B;"><strong>Tip:</strong> Add your discipline (e.g., AND marketing AND business) for relevant results.</p>
       `
     },
     {
-      id: 'ai-edu-resources',
-      category: 'reading',
-      roles: ['teaching'],
-      title: 'UNESCO AI in Education',
-      emoji: '🌍',
-      summary: 'Global guidance on AI and education from UNESCO.',
-      content: `
-        <p><strong>Overview:</strong></p>
-        <p>UNESCO's comprehensive resources on artificial intelligence in education, including policy guidance, ethical frameworks, and implementation strategies.</p>
-        <p><strong>Topics Covered:</strong></p>
-        <ul>
-          <li>Ethical considerations for AI in education</li>
-          <li>Teacher preparation for AI integration</li>
-          <li>Student data privacy and protection</li>
-          <li>Equity and access considerations</li>
-        </ul>
-        <p><a href="https://www.unesco.org/en/artificial-intelligence/education" target="_blank" style="color: #4F46E5; text-decoration: underline;">Explore UNESCO Resources →</a></p>
-      `
-    },
-    {
-      id: 'placeholder-papers',
+      id: 'external-hubs',
       category: 'reading',
       roles: ['teaching', 'research', 'admin'],
-      title: 'More Resources Coming',
-      emoji: '📚',
-      summary: 'This section will grow with recommended papers and resources.',
+      title: 'Curated Resource Hubs',
+      emoji: '🌐',
+      summary: 'External sites that maintain AI in education resources.',
       content: `
-        <p>We're building a curated collection of research papers, reports, and external resources relevant to AI in higher education.</p>
-        <p><strong>Suggest a resource:</strong></p>
-        <p>If you've found a paper or resource that should be here, email Michael Borck with the details.</p>
-        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px; margin: 16px 0;">
-          <strong>Coming soon:</strong>
-          <ul style="margin: 8px 0 0 0; color: #4338CA;">
-            <li>AI detection tool studies</li>
-            <li>Assessment redesign case studies</li>
-            <li>Discipline-specific AI research</li>
-            <li>Student perspectives on AI</li>
-          </ul>
+        <p><strong>Let others do the curation:</strong></p>
+        <div style="display: flex; flex-direction: column; gap: 12px; margin: 16px 0;">
+          <a href="https://www.unesco.org/en/artificial-intelligence/education" target="_blank" style="display: block; background: #DCFCE7; padding: 16px; border-radius: 8px; color: #1E293B; text-decoration: none;">
+            <strong>UNESCO AI & Education</strong><br>
+            <span style="color: #166534; font-size: 13px;">Global guidance, policy frameworks, ethical considerations</span>
+          </a>
+          <a href="https://www.jisc.ac.uk/guides/artificial-intelligence" target="_blank" style="display: block; background: #DCFCE7; padding: 16px; border-radius: 8px; color: #1E293B; text-decoration: none;">
+            <strong>JISC AI Guides (UK)</strong><br>
+            <span style="color: #166534; font-size: 13px;">Practical guides for UK higher education</span>
+          </a>
+          <a href="https://www.educause.edu/research-and-publications" target="_blank" style="display: block; background: #DCFCE7; padding: 16px; border-radius: 8px; color: #1E293B; text-decoration: none;">
+            <strong>EDUCAUSE</strong><br>
+            <span style="color: #166534; font-size: 13px;">US higher ed technology research and resources</span>
+          </a>
         </div>
+        <p style="font-size: 13px; color: #64748B;">These sites are actively maintained — bookmark them for ongoing updates.</p>
       `
     }
   ];
