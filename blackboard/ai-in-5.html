@@ -4,58 +4,18 @@
 
 <div style="font-family: Georgia, serif; max-width: 640px; margin: 0 auto;">
 
-<div style="background: linear-gradient(135deg, #4F46E5, #7C3AED, #A855F7); color: white; padding: 28px; border-radius: 12px; text-align: center; margin-bottom: 20px;">
-<div style="font-size: 2.5rem;">⚡</div>
-<div style="font-size: 1.8rem; font-weight: bold; letter-spacing: 2px;">AI in 5</div>
-<div style="font-size: 1.05rem; opacity: 0.9;">Daily micro-challenges, straight to your inbox</div>
+<!-- Header -->
+<div style="background: linear-gradient(135deg, #4F46E5, #7C3AED, #A855F7); color: white; padding: 24px; border-radius: 12px; text-align: center; margin-bottom: 20px;">
+<div style="font-size: 2rem;">⚡</div>
+<div style="font-size: 1.6rem; font-weight: bold; letter-spacing: 2px;">AI in 5</div>
+<div style="font-size: 0.95rem; opacity: 0.9;">One challenge. Five minutes. Every weekday.</div>
 </div>
 
-<div style="background: #F8FAFC; padding: 18px; border-radius: 8px; margin-bottom: 18px; border-left: 4px solid #4F46E5;">
-<p style="margin: 0; font-size: 1.05rem; line-height: 1.7; color: #333;">
-<strong>One challenge. Five minutes. Every weekday.</strong><br>
-A short, practical AI challenge in your inbox each morning. No prep needed — just open, try, and learn something new. For all SoMM staff.
-</p>
-</div>
-
-<div style="font-weight: bold; color: #1E293B; margin-bottom: 10px;">Your week at a glance</div>
-<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-bottom: 20px;">
-<div style="background: #EEF2FF; padding: 12px 6px; border-radius: 8px; text-align: center;">
-<div style="font-size: 1.3rem;">🔧</div>
-<div style="font-size: 0.7rem; color: #6366F1; font-weight: bold;">MON</div>
-<div style="font-size: 0.85rem; color: #1E293B; font-weight: bold;">Tools</div>
-</div>
-<div style="background: #FFF7ED; padding: 12px 6px; border-radius: 8px; text-align: center;">
-<div style="font-size: 1.3rem;">💬</div>
-<div style="font-size: 0.7rem; color: #EA580C; font-weight: bold;">TUE</div>
-<div style="font-size: 0.85rem; color: #1E293B; font-weight: bold;">Prompts</div>
-</div>
-<div style="background: #FDF2F8; padding: 12px 6px; border-radius: 8px; text-align: center;">
-<div style="font-size: 1.3rem;">⚖️</div>
-<div style="font-size: 0.7rem; color: #DB2777; font-weight: bold;">WED</div>
-<div style="font-size: 0.85rem; color: #1E293B; font-weight: bold;">Ethics</div>
-</div>
-<div style="background: #F0FDF4; padding: 12px 6px; border-radius: 8px; text-align: center;">
-<div style="font-size: 1.3rem;">🛠️</div>
-<div style="font-size: 0.7rem; color: #16A34A; font-weight: bold;">THU</div>
-<div style="font-size: 0.85rem; color: #1E293B; font-weight: bold;">Practice</div>
-</div>
-<div style="background: #FFFBEB; padding: 12px 6px; border-radius: 8px; text-align: center;">
-<div style="font-size: 1.3rem;">🤝</div>
-<div style="font-size: 0.7rem; color: #CA8A04; font-weight: bold;">FRI</div>
-<div style="font-size: 0.85rem; color: #1E293B; font-weight: bold;">Share</div>
-</div>
-</div>
-
-<div style="background: #1E293B; color: white; padding: 18px; border-radius: 8px; margin-bottom: 24px;">
-<div style="font-size: 0.75rem; color: #94A3B8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">Sample Challenge</div>
-<div style="font-size: 1rem; line-height: 1.6; color: #E2E8F0;">"Write a prompt asking AI to summarise something from your field. What did it get right? What did it miss?"</div>
-<div style="margin-top: 10px; font-size: 0.85rem; color: #94A3B8;">⏱️ ~5 minutes</div>
-</div>
-
-<!-- Subscribe Form -->
-<div id="ai5-form" style="background: white; border: 2px solid #E2E8F0; border-radius: 12px; padding: 24px; text-align: center;">
-<div style="font-size: 1.1rem; font-weight: bold; color: #1E293B; margin-bottom: 12px;">Join AI in 5</div>
-<div style="margin-bottom: 16px;">
+<!-- Subscribe Form — the main action, always visible -->
+<div id="ai5-form" style="background: white; border: 2px solid #E2E8F0; border-radius: 12px; padding: 24px; text-align: center; margin-bottom: 20px;">
+<div style="font-size: 1.1rem; font-weight: bold; color: #1E293B; margin-bottom: 4px;">Get daily AI micro-challenges in your inbox</div>
+<div style="font-size: 0.85rem; color: #64748B; margin-bottom: 14px;">No prep needed — just open, try, and learn something new.</div>
+<div style="margin-bottom: 14px;">
 <input type="email" id="ai5-email" placeholder="your.name@curtin.edu.au" style="width: 80%; max-width: 320px; padding: 12px 16px; border: 2px solid #E2E8F0; border-radius: 8px; font-family: inherit; font-size: 1rem; box-sizing: border-box;">
 </div>
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
@@ -64,6 +24,48 @@ A short, practical AI challenge in your inbox each morning. No prep needed — j
 </div>
 <div id="ai5-msg" style="margin-top: 14px; font-size: 0.95rem; display: none;"></div>
 </div>
+
+<!-- Weekly Themes -->
+<details style="margin-bottom: 16px;">
+<summary style="font-size: 0.85rem; font-weight: bold; color: #475569; cursor: pointer; padding: 6px 0; list-style: none;">▸ What will I get each day?</summary>
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 10px;">
+<div style="background: #EEF2FF; padding: 10px 4px; border-radius: 8px; text-align: center;">
+<div style="font-size: 1.2rem;">🔧</div>
+<div style="font-size: 0.65rem; color: #6366F1; font-weight: bold;">MON</div>
+<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Tools</div>
+</div>
+<div style="background: #FFF7ED; padding: 10px 4px; border-radius: 8px; text-align: center;">
+<div style="font-size: 1.2rem;">💬</div>
+<div style="font-size: 0.65rem; color: #EA580C; font-weight: bold;">TUE</div>
+<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Prompts</div>
+</div>
+<div style="background: #FDF2F8; padding: 10px 4px; border-radius: 8px; text-align: center;">
+<div style="font-size: 1.2rem;">⚖️</div>
+<div style="font-size: 0.65rem; color: #DB2777; font-weight: bold;">WED</div>
+<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Ethics</div>
+</div>
+<div style="background: #F0FDF4; padding: 10px 4px; border-radius: 8px; text-align: center;">
+<div style="font-size: 1.2rem;">🛠️</div>
+<div style="font-size: 0.65rem; color: #16A34A; font-weight: bold;">THU</div>
+<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Practice</div>
+</div>
+<div style="background: #FFFBEB; padding: 10px 4px; border-radius: 8px; text-align: center;">
+<div style="font-size: 1.2rem;">🤝</div>
+<div style="font-size: 0.65rem; color: #CA8A04; font-weight: bold;">FRI</div>
+<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Share</div>
+</div>
+</div>
+</details>
+
+<!-- Sample Challenge -->
+<details style="margin-bottom: 16px;">
+<summary style="font-size: 0.85rem; font-weight: bold; color: #475569; cursor: pointer; padding: 6px 0; list-style: none;">▸ Show me a sample challenge</summary>
+<div style="background: #1E293B; color: white; padding: 16px; border-radius: 8px; margin-top: 10px;">
+<div style="font-size: 0.7rem; color: #94A3B8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">Tuesday — Prompts</div>
+<div style="font-size: 0.95rem; line-height: 1.6; color: #E2E8F0;">"Write a prompt asking AI to summarise something from your field. What did it get right? What did it miss?"</div>
+<div style="margin-top: 8px; font-size: 0.8rem; color: #94A3B8;">⏱️ ~5 minutes</div>
+</div>
+</details>
 
 </div>
 
