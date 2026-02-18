@@ -1,12 +1,325 @@
 ---
-title: "What Would You Do"
+title: "What Would You Do?"
 format:
   html:
     self-contained: true
+    toc: false
 ---
 
-# What Would You Do
+```{=html}
+<!-- What Would You Do? — Experience 2: Ethics & Dilemmas -->
+<!-- 20-90 minutes | All roles -->
 
-<!-- TODO: Build out this experience -->
+<div id="experience-app" data-experience-id="what-would-you-do" style="font-family: Georgia, 'Times New Roman', serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #1E293B;">
 
-This experience is under development.
+  <!-- Header -->
+  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 28px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">Experience 2 of 5</div>
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
+      <span style="font-size: 48px;">🤔</span>
+      <div>
+        <h1 style="font-family: 'Courier New', monospace; font-size: 28px; color: #F1F5F9; margin: 0; letter-spacing: 1px;">WHAT WOULD YOU DO?</h1>
+        <p style="font-size: 14px; color: #94A3B8; margin: 4px 0 0 0;">Ethics & Dilemmas</p>
+      </div>
+    </div>
+    <p style="font-size: 15px; color: #94A3B8; margin: 0; line-height: 1.6;">Navigate real-world AI dilemmas with no easy answers. Explore different perspectives, examine your assumptions, and build a personal ethical framework for AI use.</p>
+    <div style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
+      <span style="background: rgba(255,255,255,0.1); padding: 6px 12px; border-radius: 6px; font-size: 12px; color: #94A3B8; font-family: 'Courier New', monospace;">⏱️ 20-90 min</span>
+      <span style="background: rgba(255,255,255,0.1); padding: 6px 12px; border-radius: 6px; font-size: 12px; color: #94A3B8; font-family: 'Courier New', monospace;">📚 All Roles</span>
+    </div>
+  </div>
+
+  <!-- Learning Outcomes -->
+  <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
+    <h3 style="font-size: 14px; color: #14532D; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
+    <ul style="margin: 0; padding-left: 20px; color: #166534; line-height: 1.8;">
+      <li>Recognize the ethical complexity of AI decisions</li>
+      <li>Examine multiple stakeholder perspectives</li>
+      <li>Develop strategies for navigating grey areas</li>
+      <li>Articulate your own ethical principles for AI use</li>
+    </ul>
+  </div>
+
+  <!-- Reframing Section -->
+  <div style="background: #FEF3C7; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
+    <h3 style="font-size: 16px; color: #92400E; margin: 0 0 12px 0;">Before we begin...</h3>
+    <p style="color: #78350F; line-height: 1.6; margin: 0;">There's often shame associated with using AI — a feeling that it's somehow "cheating" or undermines authentic work. But AI is a tool, and like any tool, the ethics lie in <em>how</em> we use it, not whether we use it at all.</p>
+    <p style="color: #78350F; line-height: 1.6; margin: 12px 0 0 0;">This experience isn't about proving AI is good or bad. It's about developing your judgment for the many situations where the "right" answer isn't obvious.</p>
+  </div>
+
+  <!-- Activity 1: Dilemma Navigator -->
+  <div style="margin-bottom: 32px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 1</div>
+    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">The Dilemma Navigator</h2>
+    <p style="color: #64748B; margin-bottom: 20px;">Work through these scenarios. There are no "right" answers — the goal is to examine your reasoning and consider perspectives you might have missed.</p>
+
+    <div id="scenarios-container">
+      <!-- Scenario 1 -->
+      <div class="scenario-card" data-scenario="1" style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SCENARIO 1: THE STUDENT EMAIL</div>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7;">
+          <p style="margin: 0;">A student sends you an email asking for an extension. The writing is polished and uses phrases you recognize as typical AI output. The student has always been a strong communicator, but this email feels... different.</p>
+        </div>
+        <div style="font-weight: bold; margin-bottom: 12px;">What would you do?</div>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
+          <button onclick="selectChoice(1, 'a')" class="choice-btn" data-choice="a" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            A) Ignore it — whether they used AI for an email doesn't matter
+          </button>
+          <button onclick="selectChoice(1, 'b')" class="choice-btn" data-choice="b" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            B) Ask to meet in person to discuss the extension
+          </button>
+          <button onclick="selectChoice(1, 'c')" class="choice-btn" data-choice="c" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            C) Directly ask if they used AI to write the email
+          </button>
+          <button onclick="selectChoice(1, 'd')" class="choice-btn" data-choice="d" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            D) Grant the extension and move on — focus on the actual work
+          </button>
+        </div>
+        <div id="reflection-1" style="display: none; background: #EEF2FF; padding: 16px; border-radius: 8px;"></div>
+      </div>
+
+      <!-- Scenario 2 -->
+      <div class="scenario-card" data-scenario="2" style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SCENARIO 2: THE COLLEAGUE'S DRAFT</div>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7;">
+          <p style="margin: 0;">A colleague asks you to review a grant application they've drafted. It's well-written but seems generic. They mention they used "some AI assistance" but don't specify how much. The grant is important for the school.</p>
+        </div>
+        <div style="font-weight: bold; margin-bottom: 12px;">What would you do?</div>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
+          <button onclick="selectChoice(2, 'a')" class="choice-btn" data-choice="a" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            A) Review it on its merits — the outcome matters more than the process
+          </button>
+          <button onclick="selectChoice(2, 'b')" class="choice-btn" data-choice="b" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            B) Ask how AI was used before providing feedback
+          </button>
+          <button onclick="selectChoice(2, 'c')" class="choice-btn" data-choice="c" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            C) Suggest they disclose AI use in the grant application itself
+          </button>
+          <button onclick="selectChoice(2, 'd')" class="choice-btn" data-choice="d" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            D) Decline to review until you understand the extent of AI involvement
+          </button>
+        </div>
+        <div id="reflection-2" style="display: none; background: #EEF2FF; padding: 16px; border-radius: 8px;"></div>
+      </div>
+
+      <!-- Scenario 3 -->
+      <div class="scenario-card" data-scenario="3" style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SCENARIO 3: THE STUDENT WITH BARRIERS</div>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7;">
+          <p style="margin: 0;">A student with a documented learning disability has submitted work significantly better than their usual standard. You suspect AI involvement. The student hasn't disclosed AI use, but they have legitimate reasons to struggle with writing tasks.</p>
+        </div>
+        <div style="font-weight: bold; margin-bottom: 12px;">What would you do?</div>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
+          <button onclick="selectChoice(3, 'a')" class="choice-btn" data-choice="a" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            A) Treat it like any other submission — apply the same standards
+          </button>
+          <button onclick="selectChoice(3, 'b')" class="choice-btn" data-choice="b" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            B) Consider whether AI might be functioning as an accessibility tool
+          </button>
+          <button onclick="selectChoice(3, 'c')" class="choice-btn" data-choice="c" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            C) Have a private conversation about their process
+          </button>
+          <button onclick="selectChoice(3, 'd')" class="choice-btn" data-choice="d" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            D) Consult with accessibility services before taking any action
+          </button>
+        </div>
+        <div id="reflection-3" style="display: none; background: #EEF2FF; padding: 16px; border-radius: 8px;"></div>
+      </div>
+
+      <!-- Scenario 4 -->
+      <div class="scenario-card" data-scenario="4" style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SCENARIO 4: YOUR OWN WORK</div>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7;">
+          <p style="margin: 0;">You're writing a paper and use AI to help structure your literature review. The AI suggests sources and synthesizes themes. You verify the sources exist and are relevant. You're not sure how much to acknowledge this assistance.</p>
+        </div>
+        <div style="font-weight: bold; margin-bottom: 12px;">What would you do?</div>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
+          <button onclick="selectChoice(4, 'a')" class="choice-btn" data-choice="a" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            A) No disclosure needed — AI was just a tool, like a search engine
+          </button>
+          <button onclick="selectChoice(4, 'b')" class="choice-btn" data-choice="b" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            B) Add a brief acknowledgment in the methods section
+          </button>
+          <button onclick="selectChoice(4, 'c')" class="choice-btn" data-choice="c" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            C) Check the journal's AI policy and follow their guidelines
+          </button>
+          <button onclick="selectChoice(4, 'd')" class="choice-btn" data-choice="d" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            D) Remove the AI-assisted sections and redo them manually
+          </button>
+        </div>
+        <div id="reflection-4" style="display: none; background: #EEF2FF; padding: 16px; border-radius: 8px;"></div>
+      </div>
+
+      <!-- Scenario 5 -->
+      <div class="scenario-card" data-scenario="5" style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SCENARIO 5: THE STAFF MEETING</div>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7;">
+          <p style="margin: 0;">In a school meeting, a colleague advocates for banning all AI use in assessments. Another says that's unrealistic and disadvantages students. The Head of School asks for your view.</p>
+        </div>
+        <div style="font-weight: bold; margin-bottom: 12px;">What would you do?</div>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
+          <button onclick="selectChoice(5, 'a')" class="choice-btn" data-choice="a" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            A) Support the ban — clear rules are better than ambiguity
+          </button>
+          <button onclick="selectChoice(5, 'b')" class="choice-btn" data-choice="b" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            B) Argue against the ban — AI is here to stay
+          </button>
+          <button onclick="selectChoice(5, 'c')" class="choice-btn" data-choice="c" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            C) Suggest a nuanced approach with clear guidelines per assessment
+          </button>
+          <button onclick="selectChoice(5, 'd')" class="choice-btn" data-choice="d" style="padding: 12px 16px; background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; line-height: 1.5;">
+            D) Ask for time to pilot different approaches before deciding
+          </button>
+        </div>
+        <div id="reflection-5" style="display: none; background: #EEF2FF; padding: 16px; border-radius: 8px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Activity 2: Build Your Framework -->
+  <div style="margin-bottom: 32px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 2</div>
+    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Build Your Ethical Framework</h2>
+
+    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+      <h3 style="font-size: 16px; color: #0F172A; margin: 0 0 16px 0;">Three Questions for Any AI Decision</h3>
+
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; border-left: 4px solid #4F46E5;">
+          <strong style="color: #4F46E5;">1. Transparency</strong>
+          <p style="margin: 8px 0 0 0; color: #64748B; line-height: 1.6;">Would I be comfortable if my AI use were fully visible? Am I being honest about the level of AI involvement?</p>
+        </div>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; border-left: 4px solid #4F46E5;">
+          <strong style="color: #4F46E5;">2. Understanding</strong>
+          <p style="margin: 8px 0 0 0; color: #64748B; line-height: 1.6;">Can I explain and defend this work without AI? Do I actually understand the content I'm presenting?</p>
+        </div>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; border-left: 4px solid #4F46E5;">
+          <strong style="color: #4F46E5;">3. Purpose</strong>
+          <p style="margin: 8px 0 0 0; color: #64748B; line-height: 1.6;">Does this use of AI serve the underlying goal? Am I using AI to enhance my work or to avoid doing it?</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px;">
+      <h3 style="font-size: 16px; color: #14532D; margin: 0 0 12px 0;">The "Billboard Test"</h3>
+      <p style="margin: 0; color: #166534; line-height: 1.6;">Imagine your AI use was displayed on a billboard outside your building. Would you be comfortable with colleagues, students, and leadership seeing exactly how you used AI? If yes, you're in good ethical territory. If you feel the need to hide or minimize, that's worth examining.</p>
+    </div>
+  </div>
+
+  <!-- In Your Context Tabs -->
+  <div style="margin-bottom: 32px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">In Your Context</div>
+    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Ethical Considerations for Your Role</h2>
+
+    <div style="display: flex; gap: 4px; margin-bottom: 0; border-bottom: 2px solid #E2E8F0;">
+      <button class="context-tab active" data-tab="teaching" onclick="switchTab('teaching')" style="padding: 12px 20px; background: #4F46E5; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px; font-weight: bold;">📚 Teaching</button>
+      <button class="context-tab" data-tab="research" onclick="switchTab('research')" style="padding: 12px 20px; background: #F1F5F9; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">🔬 Research</button>
+      <button class="context-tab" data-tab="admin" onclick="switchTab('admin')" style="padding: 12px 20px; background: #F1F5F9; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">⚙️ Admin</button>
+    </div>
+
+    <div id="tab-content" style="background: white; border: 1px solid #E2E8F0; border-top: none; border-radius: 0 0 12px 12px; padding: 24px;">
+      <div class="tab-panel" data-panel="teaching" style="display: block;">
+        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">Teaching Dilemmas</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Assessment Design:</strong> How do you design assessments that remain meaningful when AI can generate content?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Disclosure Requirements:</strong> What level of AI disclosure should you require from students?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Your Own Use:</strong> Should you disclose to students when you use AI for teaching materials?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Grading Assistance:</strong> Is it ethical to use AI to help generate feedback on student work?</div>
+        </div>
+      </div>
+      <div class="tab-panel" data-panel="research" style="display: none;">
+        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">Research Dilemmas</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Co-Authorship:</strong> If AI contributes substantially to a paper, should it be acknowledged?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Data Analysis:</strong> Where's the line between AI as tool and AI as collaborator?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Literature Reviews:</strong> AI can summarize papers. Is this labor-saving or avoiding scholarly engagement?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>HDR Supervision:</strong> How do you guide students on AI use when practices are evolving?</div>
+        </div>
+      </div>
+      <div class="tab-panel" data-panel="admin" style="display: none;">
+        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">Admin Dilemmas</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Decision Making:</strong> What accountability should exist when AI helps with decisions affecting people?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Communication:</strong> When does efficiency in AI-assisted writing cross into inauthenticity?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Data Privacy:</strong> What information is appropriate to input into AI tools?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Policy Development:</strong> How do you maintain human judgment when AI helps draft AI policies?</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Key Takeaways -->
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+    <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 16px 0;">Key Takeaways</h2>
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: flex-start; gap: 12px;"><span style="color: #22C55E; font-size: 20px;">✓</span><p style="margin: 0; color: #334155;"><strong>Most AI ethics are contextual</strong> — What's appropriate depends on purpose, audience, and expectations</p></div>
+      <div style="display: flex; align-items: flex-start; gap: 12px;"><span style="color: #22C55E; font-size: 20px;">✓</span><p style="margin: 0; color: #334155;"><strong>Transparency is usually the right default</strong> — When in doubt, disclose</p></div>
+      <div style="display: flex; align-items: flex-start; gap: 12px;"><span style="color: #22C55E; font-size: 20px;">✓</span><p style="margin: 0; color: #334155;"><strong>Understanding matters more than process</strong> — Can you explain and defend your work?</p></div>
+      <div style="display: flex; align-items: flex-start; gap: 12px;"><span style="color: #22C55E; font-size: 20px;">✓</span><p style="margin: 0; color: #334155;"><strong>Norms are evolving</strong> — Stay engaged in conversations about best practices</p></div>
+    </div>
+  </div>
+
+  <!-- Completion -->
+  <div id="completion-section" style="display: none; background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+    <div style="font-size: 48px; margin-bottom: 16px;">🎉</div>
+    <h2 style="font-size: 24px; color: #14532D; margin: 0 0 12px 0;">Experience Complete!</h2>
+    <div id="badge-progress" style="background: white; border-radius: 12px; padding: 16px; margin-bottom: 20px;"></div>
+  </div>
+
+  <div id="completion-trigger" style="background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+    <h3 style="font-size: 20px; color: #0F172A; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
+    <p style="font-size: 14px; color: #64748B; margin: 0 0 20px 0;">Once you've worked through the scenarios above, click below to record your progress.</p>
+    <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Mark as Complete</button>
+  </div>
+</div>
+
+<script>
+(function() {
+  const experienceId = 'what-would-you-do';
+  const reflections = {
+    1: { a: "Pragmatic. But consider: if AI helps craft extension requests, does it change how you evaluate sincerity?", b: "Reasonable middle ground without accusations. But are you applying this consistently?", c: "Direct, but potentially confrontational. What would you do with the answer?", d: "Focuses on what matters most. But if you see a pattern, should you address it?" },
+    2: { a: "Acknowledges AI is increasingly normal. But does the level of involvement matter?", b: "Shows concern for process. How would you react if they said 'AI wrote most of it'?", c: "Proactive about transparency. Might this disadvantage your colleague?", d: "Strong stance. What threshold would make you comfortable?" },
+    3: { a: "Principled consistency. But are accessibility accommodations also 'exceptions'?", b: "Thoughtful reframing. Where's the line between assistance and replacement?", c: "Humanizing approach. How do you avoid implying accusation?", d: "Collaborative and cautious. How might the student experience the wait?" },
+    4: { a: "Common view, but increasingly contested. Why does AI feel different from a database?", b: "Balanced transparency. Does 'AI assisted' capture the involvement?", c: "Wisely defers to emerging norms. What if there's no policy yet?", d: "Cautious. Is the concern about AI, or about standing behind the work?" },
+    5: { a: "Values clarity. But how do you enforce a ban?", b: "Pragmatic. How do you address colleagues feeling their expertise is devalued?", c: "Middle path. Does this burden individual staff to navigate ambiguity?", d: "Evidence-based. How do you support staff in the meantime?" }
+  };
+
+  window.selectChoice = function(scenario, choice) {
+    const card = document.querySelector(`.scenario-card[data-scenario="${scenario}"]`);
+    card.querySelectorAll('.choice-btn').forEach(btn => {
+      btn.style.borderColor = btn.dataset.choice === choice ? '#4F46E5' : '#E2E8F0';
+      btn.style.background = btn.dataset.choice === choice ? '#EEF2FF' : '#F1F5F9';
+    });
+    const ref = document.getElementById(`reflection-${scenario}`);
+    ref.style.display = 'block';
+    ref.innerHTML = `<strong style="color: #312E81;">Consider:</strong><p style="margin: 8px 0 0 0; color: #4338CA;">${reflections[scenario][choice]}</p>`;
+  };
+
+  window.switchTab = function(tab) {
+    document.querySelectorAll('.context-tab').forEach(t => {
+      t.style.background = t.dataset.tab === tab ? '#4F46E5' : '#F1F5F9';
+      t.style.color = t.dataset.tab === tab ? 'white' : '#64748B';
+      t.style.fontWeight = t.dataset.tab === tab ? 'bold' : 'normal';
+    });
+    document.querySelectorAll('.tab-panel').forEach(p => p.style.display = p.dataset.panel === tab ? 'block' : 'none');
+  };
+
+  window.recordCompletion = function() {
+    document.getElementById('complete-btn').disabled = true;
+    document.getElementById('complete-btn').textContent = 'Recording...';
+    const completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    completions[experienceId] = { completedAt: new Date().toISOString() };
+    localStorage.setItem('ai-passport-completions', JSON.stringify(completions));
+    document.getElementById('completion-trigger').style.display = 'none';
+    document.getElementById('completion-section').style.display = 'block';
+    const count = Object.keys(completions).length;
+    document.getElementById('badge-progress').innerHTML = `<p style="font-size: 13px; color: #64748B; margin: 0;">${count} experience${count !== 1 ? 's' : ''} completed</p>`;
+  };
+
+  const completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+  if (completions[experienceId]) {
+    document.getElementById('completion-trigger').innerHTML = `<div style="color: #22C55E; font-size: 24px;">✓</div><p style="color: #64748B;">Completed on ${new Date(completions[experienceId].completedAt).toLocaleDateString()}</p>`;
+  }
+})();
+</script>
+```

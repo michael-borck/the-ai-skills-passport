@@ -1,0 +1,957 @@
+---
+title: "AI Toolkit"
+format:
+  html:
+    self-contained: true
+    toc: false
+---
+
+```{=html}
+<!-- AI Toolkit — AI Skills Passport Resource Hub -->
+<!-- Searchable reference for frameworks, techniques, templates, and guides -->
+
+<div id="toolkit-app" style="font-family: Georgia, 'Times New Roman', serif; max-width: 960px; margin: 0 auto; padding: 20px; color: #1E293B;">
+
+  <!-- Header -->
+  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 24px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">AI Skills Passport</div>
+    <h1 style="font-family: 'Courier New', monospace; font-size: 28px; color: #F1F5F9; margin: 0 0 12px 0; letter-spacing: 1px;">AI TOOLKIT</h1>
+    <p style="font-size: 15px; color: #94A3B8; margin: 0; line-height: 1.5;">Quick reference for frameworks, techniques, templates, and guides. Search or filter to find what you need.</p>
+  </div>
+
+  <!-- Search and Filters -->
+  <div style="margin-bottom: 24px;">
+    <div style="position: relative; margin-bottom: 16px;">
+      <input type="text" id="search-input" placeholder="Search toolkit..." oninput="filterResources()" style="width: 100%; padding: 14px 20px 14px 48px; border: 2px solid #E2E8F0; border-radius: 12px; font-size: 16px; font-family: Georgia, serif; box-sizing: border-box;">
+      <span style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 20px; color: #94A3B8;">🔍</span>
+    </div>
+
+    <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px;">
+      <span style="font-size: 12px; color: #64748B; font-family: 'Courier New', monospace; padding: 8px 0;">CATEGORY:</span>
+      <button class="filter-btn category-btn active" data-category="all" onclick="setCategory('all')" style="background: #4F46E5; color: white; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">All</button>
+      <button class="filter-btn category-btn" data-category="framework" onclick="setCategory('framework')" style="background: #F1F5F9; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Frameworks</button>
+      <button class="filter-btn category-btn" data-category="technique" onclick="setCategory('technique')" style="background: #F1F5F9; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Techniques</button>
+      <button class="filter-btn category-btn" data-category="template" onclick="setCategory('template')" style="background: #F1F5F9; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Templates</button>
+      <button class="filter-btn category-btn" data-category="guide" onclick="setCategory('guide')" style="background: #F1F5F9; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Guides</button>
+      <button class="filter-btn category-btn" data-category="reading" onclick="setCategory('reading')" style="background: #F1F5F9; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Further Reading</button>
+    </div>
+
+    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+      <span style="font-size: 12px; color: #64748B; font-family: 'Courier New', monospace; padding: 8px 0;">ROLE:</span>
+      <button class="filter-btn role-btn active" data-role="all" onclick="setRole('all')" style="background: #4F46E5; color: white; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">All Roles</button>
+      <button class="filter-btn role-btn" data-role="teaching" onclick="setRole('teaching')" style="background: #F1F5F9; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">📚 Teaching</button>
+      <button class="filter-btn role-btn" data-role="research" onclick="setRole('research')" style="background: #F1F5F9; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">🔬 Research</button>
+      <button class="filter-btn role-btn" data-role="admin" onclick="setRole('admin')" style="background: #F1F5F9; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">⚙️ Admin</button>
+    </div>
+  </div>
+
+  <!-- Results count -->
+  <div id="results-count" style="font-size: 13px; color: #64748B; margin-bottom: 16px; font-family: 'Courier New', monospace;"></div>
+
+  <!-- Resources Container -->
+  <div id="resources-container">
+    <!-- Populated by JS -->
+  </div>
+
+</div>
+
+<script>
+(function() {
+  let currentCategory = 'all';
+  let currentRole = 'all';
+  let searchQuery = '';
+
+  // Resource data
+  const resources = [
+    // FRAMEWORKS
+    {
+      id: 'rtcf',
+      category: 'framework',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'RTCF Prompt Framework',
+      emoji: '📐',
+      summary: 'Write effective prompts using Role, Task, Context, and Format.',
+      content: `
+        <p><strong>Purpose:</strong> Structure your prompts to get useful AI output every time.</p>
+        <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+          <tr style="background: #F1F5F9;">
+            <td style="padding: 12px; border: 1px solid #E2E8F0; font-weight: bold;">R - Role</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Who should AI be?</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">"You are an experienced event coordinator"</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border: 1px solid #E2E8F0; font-weight: bold;">T - Task</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">What should it do?</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">"Create an outline for a networking event"</td>
+          </tr>
+          <tr style="background: #F1F5F9;">
+            <td style="padding: 12px; border: 1px solid #E2E8F0; font-weight: bold;">C - Context</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">What background?</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">"For 50 postgrad students, 2-hour event, $500 budget"</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border: 1px solid #E2E8F0; font-weight: bold;">F - Format</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">How should output look?</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">"Bullet points with timeline and budget breakdown"</td>
+          </tr>
+        </table>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap;">You are [ROLE].
+
+[TASK - what you want done].
+
+Context:
+- [Audience/recipient]
+- [Constraints]
+- [Purpose]
+
+Please provide this as [FORMAT].</div>
+      `
+    },
+    {
+      id: 'opportunity-finder',
+      category: 'framework',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'AI Opportunity Finder',
+      emoji: '🎯',
+      summary: 'Identify where AI adds value using Automate, Assist, Generate, Analyse.',
+      content: `
+        <p><strong>Purpose:</strong> Find the right tasks for AI in your workflow.</p>
+        <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+          <tr style="background: #F1F5F9;">
+            <td style="padding: 12px; border: 1px solid #E2E8F0; font-weight: bold;">Automate</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Repetitive, high-volume tasks</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Formatting, categorizing, data entry</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border: 1px solid #E2E8F0; font-weight: bold;">Assist</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Information synthesis</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Research, summaries, meeting notes</td>
+          </tr>
+          <tr style="background: #F1F5F9;">
+            <td style="padding: 12px; border: 1px solid #E2E8F0; font-weight: bold;">Generate</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Content creation</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Drafts, outlines, feedback templates</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border: 1px solid #E2E8F0; font-weight: bold;">Analyse</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Pattern detection</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">Survey responses, performance data</td>
+          </tr>
+        </table>
+        <p><strong>Quick Audit:</strong></p>
+        <ol>
+          <li>List your recurring weekly tasks</li>
+          <li>Categorize each by opportunity type</li>
+          <li>Start with highest-frequency, lowest-stakes task</li>
+        </ol>
+      `
+    },
+    {
+      id: 'verification-mindset',
+      category: 'framework',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Verification Mindset',
+      emoji: '✅',
+      summary: 'Three questions to ask before using any AI output.',
+      content: `
+        <p><strong>Core principle:</strong> AI finds patterns fast; humans decide what patterns mean.</p>
+        <div style="background: #FEF3C7; border: 1px solid #F59E0B; border-radius: 8px; padding: 16px; margin: 16px 0;">
+          <strong>The Intern Analogy</strong><br>
+          Think of AI as a smart, enthusiastic intern who works incredibly fast, has read a lot, sounds confident even when wrong, and needs your expertise to verify their work.
+        </div>
+        <p><strong>Three Verification Questions:</strong></p>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; border-left: 4px solid #4F46E5;">
+            <strong>1. Is this factually accurate?</strong><br>
+            <span style="color: #64748B;">Check claims, dates, references</span>
+          </div>
+          <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; border-left: 4px solid #4F46E5;">
+            <strong>2. Is this appropriate for my context?</strong><br>
+            <span style="color: #64748B;">Tone, audience, purpose</span>
+          </div>
+          <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; border-left: 4px solid #4F46E5;">
+            <strong>3. Would I stake my reputation on this?</strong><br>
+            <span style="color: #64748B;">The "billboard test"</span>
+          </div>
+        </div>
+      `
+    },
+
+    // TECHNIQUES
+    {
+      id: 'board-of-directors',
+      category: 'technique',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Board of Directors Prompting',
+      emoji: '👥',
+      summary: 'Get multiple stakeholder perspectives on any decision.',
+      content: `
+        <p><strong>When to use:</strong> Planning projects, making strategic decisions, reviewing documents, understanding stakeholder concerns.</p>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">I have [document/plan/decision].
+
+Please analyse this from the perspectives of:
+- A [stakeholder 1]
+- A [stakeholder 2]
+- A [stakeholder 3]
+- A [stakeholder 4]
+
+For each perspective, identify:
+1. Their primary concerns
+2. What they would want changed
+3. How they would evaluate success</div>
+        <p><strong>Example - Policy Review:</strong></p>
+        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap;">I'm reviewing our department's AI usage policy.
+
+Please analyse it from the perspectives of:
+- A new staff member unfamiliar with AI
+- A power user who relies on AI daily
+- The IT security team
+- A student who wants to use AI for assignments</div>
+      `
+    },
+    {
+      id: 'devils-advocate',
+      category: 'technique',
+      roles: ['teaching', 'research', 'admin'],
+      title: "Devil's Advocate",
+      emoji: '😈',
+      summary: 'Stress-test your thinking by having AI argue against your position.',
+      content: `
+        <p><strong>When to use:</strong> Before finalizing major decisions, when you suspect you're overlooking something, to prepare for objections.</p>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">I believe [your position/plan/decision].
+
+Please argue against this as strongly as possible.
+Identify:
+1. The weakest parts of my reasoning
+2. Counterarguments I haven't considered
+3. Scenarios where this approach would fail
+4. What a thoughtful critic would say</div>
+        <p><strong>Example - Assessment Design:</strong></p>
+        <div style="background: #FEE2E2; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap;">I'm planning to ban AI tools from my course assessments.
+
+Please argue against this position as strongly as possible.
+What are the weaknesses in this approach? What am I overlooking?
+What might go wrong?</div>
+      `
+    },
+    {
+      id: 'reverse-prompting',
+      category: 'technique',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Reverse Prompting',
+      emoji: '🔄',
+      summary: 'Let AI interview you first to get personalized advice.',
+      content: `
+        <p><strong>When to use:</strong> Complex problems with many variables, when you're not sure what to ask, for personalized recommendations.</p>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">I want to [goal], but I'm not sure of the best approach.
+
+Before giving advice, please interview me with 5-7 questions
+to understand my specific situation, constraints, and preferences.
+
+Ask one question at a time and wait for my response.</div>
+        <p><strong>Example - Course Design:</strong></p>
+        <div style="background: #DCFCE7; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap;">I want to redesign my course to integrate AI tools effectively.
+
+Before giving recommendations, please interview me to understand:
+- My course context
+- My students
+- My concerns
+- What I've already tried
+
+Ask me 5-6 questions, one at a time.</div>
+      `
+    },
+    {
+      id: 'assessment-stress-test',
+      category: 'technique',
+      roles: ['teaching'],
+      title: 'Assessment Stress-Testing',
+      emoji: '🧪',
+      summary: 'Test whether your assessment actually measures what you think it does.',
+      content: `
+        <p><strong>When to use:</strong> Designing new assessments, updating existing assessments, checking for AI-vulnerability.</p>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">I'm designing a student assessment with these requirements:
+[paste assessment brief]
+
+Please attempt this assessment as a student would, using AI.
+Then analyse:
+1. What skills does this actually assess?
+2. How could a student pass without demonstrating the intended learning?
+3. What would distinguish an excellent submission from a mediocre one?
+4. How should I redesign to better assess critical thinking?</div>
+        <p><strong>Three Redesign Pathways:</strong></p>
+        <ol>
+          <li><strong>Process Documentation:</strong> Require students to document their process, submit prompts used, explain decisions</li>
+          <li><strong>In-Class Components:</strong> Viva voce, in-class synthesis, real-time problem-solving</li>
+          <li><strong>Personal Application:</strong> Connect to student's own experience, require reflection, apply to unique scenarios</li>
+        </ol>
+      `
+    },
+    {
+      id: 'iterative-refinement',
+      category: 'technique',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Iterative Refinement',
+      emoji: '🔧',
+      summary: 'Develop high-quality output through progressive improvement.',
+      content: `
+        <p><strong>When to use:</strong> Any content creation task, when first output isn't quite right, for complex, nuanced work.</p>
+        <p><strong>The Pattern:</strong></p>
+        <ol>
+          <li>Start with RTCF prompt</li>
+          <li>Get initial output</li>
+          <li>Refine with follow-ups</li>
+        </ol>
+        <p><strong>Power Refinement Prompts:</strong></p>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin: 16px 0;">
+          <div style="background: #F1F5F9; padding: 12px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 13px;">"Make it more concise"</div>
+          <div style="background: #F1F5F9; padding: 12px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 13px;">"Expand the section on X"</div>
+          <div style="background: #F1F5F9; padding: 12px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 13px;">"Add more specific examples"</div>
+          <div style="background: #F1F5F9; padding: 12px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 13px;">"What's missing from this?"</div>
+          <div style="background: #F1F5F9; padding: 12px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 13px;">"How would you improve this?"</div>
+          <div style="background: #EEF2FF; padding: 12px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 13px; border: 1px solid #4F46E5;">"What questions should I be asking that I haven't asked?"</div>
+        </div>
+        <p style="color: #64748B; font-style: italic;">Remember: First output is a draft. Real value comes from the conversation.</p>
+      `
+    },
+    {
+      id: 'chain-of-thought',
+      category: 'technique',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Chain of Thought',
+      emoji: '🔗',
+      summary: 'Get better reasoning by asking AI to show its work step by step.',
+      content: `
+        <p><strong>When to use:</strong> Complex analysis, multi-step problems, when you need to verify AI's reasoning.</p>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">[Your question or problem]
+
+Please think through this step by step.
+Show your reasoning at each stage.</div>
+        <p><strong>Example:</strong></p>
+        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap;">Should our department require students to disclose AI use in assessments?
+
+Please think through this step by step, considering:
+- The arguments for
+- The arguments against
+- Implementation challenges
+- What other institutions are doing
+- Your recommendation and reasoning</div>
+      `
+    },
+    {
+      id: 'few-shot-learning',
+      category: 'technique',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Few-Shot Learning',
+      emoji: '📝',
+      summary: 'Teach AI your preferred style through examples.',
+      content: `
+        <p><strong>When to use:</strong> Consistent output across multiple items, matching a specific style, when generic output isn't appropriate.</p>
+        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">I want you to [task] in a specific style. Here are examples:
+
+Example 1:
+[Input] → [Your preferred output]
+
+Example 2:
+[Input] → [Your preferred output]
+
+Now, using the same style, please do:
+[New input]</div>
+        <p><strong>Example - Feedback Comments:</strong></p>
+        <div style="background: #DCFCE7; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap;">I want you to write feedback in my style.
+
+Example 1:
+Student wrote: "AI will replace all jobs"
+My feedback: "This is a bold claim. What evidence supports it? Consider: which jobs are most/least vulnerable, and why? Dig into the nuances."
+
+Example 2:
+Student wrote: "The data shows sales increased"
+My feedback: "Good observation. Now push deeper: increased compared to what? Is this statistically significant? What might explain the increase?"
+
+Now write feedback in my style for:
+[Student's work]</div>
+      `
+    },
+
+    // TEMPLATES
+    {
+      id: 'syllabus-policy',
+      category: 'template',
+      roles: ['teaching'],
+      title: 'Syllabus AI Policy Statements',
+      emoji: '📄',
+      summary: 'Ready-to-use AI policy statements for unit outlines.',
+      content: `
+        <p><strong>Option A: Encouraging Approach</strong></p>
+        <div style="background: #DCFCE7; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #22C55E;">
+          <strong>Artificial Intelligence (AI) Policy</strong><br><br>
+          AI tools like ChatGPT are rapidly becoming part of professional practice in [field]. Learning to use them effectively is part of your education. In this unit:<br><br>
+          • You are ENCOURAGED to explore AI tools for learning<br>
+          • You MUST acknowledge all AI use in your assignments<br>
+          • You MUST understand and be able to explain all submitted work<br>
+          • You CANNOT replace your own critical thinking with AI output<br><br>
+          View AI as a research assistant or tutor—helpful for learning, but not a substitute for your own understanding.
+        </div>
+        <p><strong>Option B: Structured Approach</strong></p>
+        <div style="background: #FEF3C7; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #F59E0B;">
+          <strong>AI Use Guidelines</strong><br><br>
+          <strong>Permitted AI uses:</strong><br>
+          - Brainstorming and idea generation<br>
+          - Grammar and style checking<br>
+          - Finding information (with verification)<br>
+          - Creating study materials<br><br>
+          <strong>Required when using AI:</strong><br>
+          - Include an AI use statement with each assignment<br>
+          - Verify all AI-generated facts<br>
+          - Show your editing and improvement process<br>
+          - Be prepared to explain your work orally<br><br>
+          <strong>Prohibited:</strong><br>
+          - Submitting unedited AI content<br>
+          - Using AI during exams (unless specified)<br>
+          - Having AI complete assessments for you
+        </div>
+      `
+    },
+    {
+      id: 'ai-disclosure',
+      category: 'template',
+      roles: ['teaching'],
+      title: 'Student AI Disclosure Template',
+      emoji: '✍️',
+      summary: 'Template for students to document their AI use in assignments.',
+      content: `
+        <p><strong>Standard Disclosure (add to assignment instructions):</strong></p>
+        <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          <strong>AI Use Disclosure</strong><br><br>
+          If you use AI tools for this assignment, include a brief statement describing:<br>
+          1. Which AI tools you used (e.g., ChatGPT, Grammarly)<br>
+          2. How you used them (e.g., brainstorming, proofreading)<br>
+          3. What changes you made to the AI output
+        </div>
+        <p><strong>Example Student Disclosure:</strong></p>
+        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px; margin: 16px 0; font-style: italic;">
+          "I used ChatGPT to generate initial topic ideas and outline structure. I then researched all points independently, wrote the content myself, and used Grammarly for final proofreading."
+        </div>
+        <p><strong>For Assignments Requiring AI Use:</strong></p>
+        <div style="background: #DCFCE7; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          This assignment requires you to use AI as part of your process:<br>
+          1. Generate an initial response using an AI tool<br>
+          2. Critically evaluate the AI output (submit this evaluation)<br>
+          3. Improve and personalise the content with your knowledge<br>
+          4. Submit both the original AI output and your final version<br>
+          5. Include a 200-word reflection on how AI helped and hindered
+        </div>
+      `
+    },
+    {
+      id: 'email-templates',
+      category: 'template',
+      roles: ['teaching'],
+      title: 'Email Response Templates',
+      emoji: '📧',
+      summary: 'Ready-to-use email responses for common AI-related student queries.',
+      content: `
+        <p><strong>When a Student Asks: "Can I use ChatGPT?"</strong></p>
+        <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          Subject: Re: AI Use in [Unit Name]<br><br>
+          Hi [Student],<br><br>
+          Thanks for asking—it shows you're thinking carefully about academic integrity.<br><br>
+          For this unit, you can use AI tools like ChatGPT for:<br>
+          - Brainstorming and exploring ideas<br>
+          - Understanding difficult concepts<br>
+          - Checking grammar and structure<br><br>
+          However, you must:<br>
+          - Acknowledge all AI use in your assignments<br>
+          - Verify any facts or citations from AI<br>
+          - Ensure you understand and can explain everything you submit<br><br>
+          Check the specific assignment instructions, as some assessments may have different requirements.<br><br>
+          Best regards,<br>
+          [Your name]
+        </div>
+        <p><strong>When You Suspect Undisclosed AI Use:</strong></p>
+        <div style="background: #FEF3C7; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          Subject: Clarification Needed - [Assignment Name]<br><br>
+          Hi [Student],<br><br>
+          I'm reviewing your [assignment] and would like to discuss it with you. I've noticed some aspects that I'd like to understand better, particularly your approach to [specific element].<br><br>
+          Could we meet during my office hours this week? Please bring any notes, drafts, or resources you used. This will help me better understand your work and provide more targeted feedback.<br><br>
+          This is a learning opportunity, and I appreciate your cooperation.<br><br>
+          Best regards,<br>
+          [Your name]
+        </div>
+      `
+    },
+    {
+      id: 'discipline-prompts',
+      category: 'template',
+      roles: ['teaching'],
+      title: 'Discipline-Specific Prompts',
+      emoji: '🎓',
+      summary: 'Ready-to-use prompt templates for Marketing, Management, HR, Accounting.',
+      content: `
+        <p><strong>Marketing - Consumer Behaviour Analysis:</strong></p>
+        <div style="background: #F8FAFC; padding: 12px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 12px; white-space: pre-wrap; margin: 12px 0;">Analyse the psychological factors that would influence a [demographic] consumer's decision to purchase [product/service] in the Australian market. Consider cultural values, social influences, and personal motivations. Structure your response using the Theory of Planned Behaviour.</div>
+
+        <p><strong>Management - Leadership Scenario:</strong></p>
+        <div style="background: #F8FAFC; padding: 12px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 12px; white-space: pre-wrap; margin: 12px 0;">A team leader discovers that two high-performing team members have been in conflict for weeks, affecting team morale. One is technically excellent but poor at communication; the other is collaborative but less skilled. Provide three intervention strategies using different leadership styles.</div>
+
+        <p><strong>Accounting - Audit Scenario:</strong></p>
+        <div style="background: #F8FAFC; padding: 12px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 12px; white-space: pre-wrap; margin: 12px 0;">Design an internal control scenario where there are two control weaknesses that could enable fraud in [business process]. Describe the situation without making the weaknesses obvious. Include enough detail for students to identify risks and recommend controls.</div>
+
+        <p><strong>HR - Performance Management:</strong></p>
+        <div style="background: #F8FAFC; padding: 12px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 12px; white-space: pre-wrap; margin: 12px 0;">Create a performance review scenario where an employee is technically excellent but has interpersonal issues affecting team dynamics. Include specific behavioural examples, peer feedback, and customer complaints. Design this for practicing difficult conversations using the SBI (Situation-Behaviour-Impact) model.</div>
+      `
+    },
+
+    // GUIDES
+    {
+      id: 'ai-shame-guide',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Moving Past AI Shame',
+      emoji: '💪',
+      summary: 'Addressing resistance and stigma around using AI tools.',
+      content: `
+        <p><strong>Understanding AI Shame</strong></p>
+        <p>AI shaming is the stigma directed at academics who use AI tools, seen as undermining the ideal that scholarship should be entirely "human intellect-driven."</p>
+
+        <div style="background: #FEE2E2; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          <strong>Types of AI Resistance:</strong><br>
+          - <strong>Traditionalists:</strong> Value established methods, resist change<br>
+          - <strong>Technophobes:</strong> Fear technology and AI generally<br>
+          - <strong>Elitists:</strong> See AI as threat to status or expertise<br>
+          - <strong>Misunderstanders:</strong> Don't grasp AI capabilities, default to sci-fi fears
+        </div>
+
+        <p><strong>Reframing Our Relationship with AI</strong></p>
+        <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+          <tr style="background: #FEE2E2;">
+            <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Old View</strong></td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>New View</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">"Real scholarship is purely human"</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0; background: #DCFCE7;">"Scholarship is human intellect directing appropriate tools"</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">"Using AI is cheating"</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0; background: #DCFCE7;">"Using AI without disclosure or understanding is problematic"</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border: 1px solid #E2E8F0;">"AI will replace academics"</td>
+            <td style="padding: 12px; border: 1px solid #E2E8F0; background: #DCFCE7;">"AI augments capabilities for those who master it"</td>
+          </tr>
+        </table>
+
+        <p><strong>Moving Forward:</strong></p>
+        <ul>
+          <li>Experiment with one small task</li>
+          <li>Document and share your process</li>
+          <li>Practice transparent disclosure</li>
+          <li>Shift from "human vs. machine" to "human + machine"</li>
+        </ul>
+      `
+    },
+    {
+      id: 'teaching-integration',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Progressive AI Integration',
+      emoji: '📈',
+      summary: 'A phased approach to integrating AI into your teaching practice.',
+      content: `
+        <p><strong>Week-by-Week Integration Model</strong></p>
+
+        <div style="display: flex; flex-direction: column; gap: 12px; margin: 16px 0;">
+          <div style="background: #EEF2FF; padding: 16px; border-radius: 8px; border-left: 4px solid #4F46E5;">
+            <strong>Foundation (Weeks 1-4)</strong><br>
+            <span style="color: #64748B;">Instructor demonstrates AI use. Students observe and discuss. Focus: Understanding capabilities/limitations.</span>
+          </div>
+          <div style="background: #FEF3C7; padding: 16px; border-radius: 8px; border-left: 4px solid #F59E0B;">
+            <strong>Guided Practice (Weeks 5-8)</strong><br>
+            <span style="color: #64748B;">Structured AI activities in class. Clear parameters for use. Focus: Developing critical evaluation.</span>
+          </div>
+          <div style="background: #DCFCE7; padding: 16px; border-radius: 8px; border-left: 4px solid #22C55E;">
+            <strong>Independent Application (Weeks 9-12)</strong><br>
+            <span style="color: #64748B;">Students choose when/how to use AI. Justify their decisions. Focus: Strategic tool selection.</span>
+          </div>
+          <div style="background: #F0F9FF; padding: 16px; border-radius: 8px; border-left: 4px solid #0EA5E9;">
+            <strong>Synthesis (Final Weeks)</strong><br>
+            <span style="color: #64748B;">Reflect on AI's role in learning. Evaluate impact on understanding. Focus: Meta-cognitive awareness.</span>
+          </div>
+        </div>
+
+        <p><strong>Quick Implementation Ideas:</strong></p>
+        <ul>
+          <li><strong>Monday:</strong> Generate lecture examples with AI, share process with students</li>
+          <li><strong>Tuesday:</strong> Create discussion questions with AI, add context</li>
+          <li><strong>Wednesday:</strong> Draft rubric with AI, modify for objectives</li>
+          <li><strong>Thursday:</strong> Create study guides with AI, add expertise</li>
+          <li><strong>Friday:</strong> Document what worked, adjust for next week</li>
+        </ul>
+      `
+    },
+    {
+      id: 'classroom-activities',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'AI Classroom Activities',
+      emoji: '🎯',
+      summary: 'Ready-to-run classroom activities for teaching AI literacy.',
+      content: `
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div style="background: #F1F5F9; padding: 16px; border-radius: 8px;">
+            <strong>1. AI Error Hunt (15 minutes)</strong><br>
+            <strong>Setup:</strong> Generate course content with deliberate errors<br>
+            <strong>Activity:</strong> Students identify and correct mistakes<br>
+            <strong>Learning:</strong> Critical evaluation, subject mastery<br>
+            <strong>Debrief:</strong> Why did AI make these errors?
+          </div>
+
+          <div style="background: #F1F5F9; padding: 16px; border-radius: 8px;">
+            <strong>2. Prompt Engineering Challenge (20 minutes)</strong><br>
+            <strong>Setup:</strong> Same question, groups craft different prompts<br>
+            <strong>Activity:</strong> Compare AI outputs from various prompts<br>
+            <strong>Learning:</strong> Importance of clear communication<br>
+            <strong>Debrief:</strong> What made prompts more/less effective?
+          </div>
+
+          <div style="background: #F1F5F9; padding: 16px; border-radius: 8px;">
+            <strong>3. Human vs AI Debate (30 minutes)</strong><br>
+            <strong>Setup:</strong> AI generates one side of argument<br>
+            <strong>Activity:</strong> Students argue opposite position<br>
+            <strong>Learning:</strong> Critical thinking, argument construction<br>
+            <strong>Debrief:</strong> What did AI miss about context/nuance?
+          </div>
+
+          <div style="background: #F1F5F9; padding: 16px; border-radius: 8px;">
+            <strong>4. AI Improvement Workshop (25 minutes)</strong><br>
+            <strong>Setup:</strong> AI creates initial solution/answer<br>
+            <strong>Activity:</strong> Groups enhance with human insight<br>
+            <strong>Learning:</strong> Value of domain expertise<br>
+            <strong>Debrief:</strong> What uniquely human elements were added?
+          </div>
+        </div>
+      `
+    },
+    {
+      id: 'red-flags-green-flags',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Red Flags vs Green Flags',
+      emoji: '🚦',
+      summary: 'Signs of problematic vs. good AI use in student work.',
+      content: `
+        <div style="display: flex; gap: 16px; flex-wrap: wrap; margin: 16px 0;">
+          <div style="flex: 1; min-width: 280px; background: #FEE2E2; padding: 16px; border-radius: 8px;">
+            <strong style="color: #DC2626;">🚩 Red Flags (Need Intervention)</strong>
+            <ul style="margin: 12px 0 0 0; padding-left: 20px; color: #7F1D1D;">
+              <li>Cannot explain their work</li>
+              <li>Inconsistent voice/knowledge level</li>
+              <li>Missing assignment-specific requirements</li>
+              <li>No personal connection to content</li>
+              <li>"It's important to note that..."</li>
+              <li>"In today's dynamic landscape..."</li>
+              <li>Sudden shifts in writing sophistication</li>
+              <li>Generic examples instead of course-specific</li>
+            </ul>
+          </div>
+
+          <div style="flex: 1; min-width: 280px; background: #DCFCE7; padding: 16px; border-radius: 8px;">
+            <strong style="color: #16A34A;">🟢 Green Flags (Good Practice)</strong>
+            <ul style="margin: 12px 0 0 0; padding-left: 20px; color: #14532D;">
+              <li>Clear about AI's role</li>
+              <li>Shows iteration and improvement</li>
+              <li>Demonstrates critical thinking</li>
+              <li>Adds personal/local context</li>
+              <li>Can discuss topic intelligently</li>
+              <li>Acknowledges AI limitations</li>
+              <li>Uses AI as starting point, not endpoint</li>
+              <li>Verifies and corrects AI errors</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="background: #FEF3C7; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>The Key Question:</strong><br>
+          "If you can't explain your work without AI, you've used too much. AI should help you learn and express ideas, not learn for you."
+        </div>
+      `
+    },
+
+    {
+      id: 'ai-rubric-framework',
+      category: 'template',
+      roles: ['teaching'],
+      title: 'AI-Integrated Assessment Rubrics',
+      emoji: '📊',
+      summary: 'Complete rubric framework for assessing AI-integrated assignments.',
+      content: `
+        <p><strong>A ready-to-use rubric framework</strong> for assignments where students use AI tools. Developed for Curtin's A2030 initiative.</p>
+
+        <p><strong>The 5 Criteria:</strong></p>
+        <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+          <tr style="background: #F1F5F9;">
+            <td style="padding: 10px; border: 1px solid #E2E8F0; font-weight: bold;">Critical Engagement with AI</td>
+            <td style="padding: 10px; border: 1px solid #E2E8F0; text-align: center;">30%</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #E2E8F0; font-weight: bold;">Quality of Inquiry</td>
+            <td style="padding: 10px; border: 1px solid #E2E8F0; text-align: center;">25%</td>
+          </tr>
+          <tr style="background: #F1F5F9;">
+            <td style="padding: 10px; border: 1px solid #E2E8F0; font-weight: bold;">Reflective Practice & Accountability</td>
+            <td style="padding: 10px; border: 1px solid #E2E8F0; text-align: center;">20%</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border: 1px solid #E2E8F0; font-weight: bold;">Communication</td>
+            <td style="padding: 10px; border: 1px solid #E2E8F0; text-align: center;">15%</td>
+          </tr>
+          <tr style="background: #F1F5F9;">
+            <td style="padding: 10px; border: 1px solid #E2E8F0; font-weight: bold;">Disciplinary Integration</td>
+            <td style="padding: 10px; border: 1px solid #E2E8F0; text-align: center;">10%</td>
+          </tr>
+        </table>
+
+        <p><strong>What's Included:</strong></p>
+        <ul>
+          <li><strong>Getting Started Guide</strong> — Philosophy and overview</li>
+          <li><strong>Generic Rubric Template</strong> — 5 criteria × 4 levels, ready to adapt</li>
+          <li><strong>Adaptation Guide</strong> — Customizing for your discipline and AI tools</li>
+          <li><strong>Worked Example</strong> — Information security audit case study</li>
+        </ul>
+
+        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          <strong>Core Philosophy:</strong>
+          <ul style="margin: 8px 0 0 0; color: #4338CA;">
+            <li>Critical thinking over tool efficiency</li>
+            <li>Transparency as integrity</li>
+            <li>AI as "junior intern" students must manage</li>
+          </ul>
+        </div>
+
+        <p><strong>Download:</strong></p>
+        <p><a href="[RUBRIC_URL]" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">Download Rubric Pack →</a></p>
+        <p style="font-size: 13px; color: #64748B;">Word documents (.docx) — customize for your unit context</p>
+      `
+    },
+
+    // FURTHER READING
+    {
+      id: 'ai-shame-paper',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'AI Shaming: The Silent Stigma',
+      emoji: '📄',
+      summary: 'Research on stigma faced by academics using AI tools (Giray, 2024).',
+      content: `
+        <p><strong>Citation:</strong></p>
+        <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; margin: 16px 0; font-size: 13px;">
+          Giray, L. (2024). AI Shaming: The Silent Stigma among Academic Writers and Researchers. <em>Annals of Biomedical Engineering</em>, 52(9), 2319–2324.
+        </div>
+        <p><strong>Key Points:</strong></p>
+        <ul>
+          <li>Documents the phenomenon of "AI shaming" in academic settings</li>
+          <li>Explores how stigma affects adoption and disclosure</li>
+          <li>Argues for normalizing transparent AI use in research</li>
+        </ul>
+        <p><a href="https://doi.org/10.1007/s10439-024-03582-1" target="_blank" style="color: #4F46E5; text-decoration: underline;">Read the paper →</a></p>
+      `
+    },
+    {
+      id: 'shame-in-machine',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Shame in the Machine',
+      emoji: '📄',
+      summary: 'Affective accountability and the ethics of AI (McNealis, 2025).',
+      content: `
+        <p><strong>Citation:</strong></p>
+        <div style="background: #F1F5F9; padding: 16px; border-radius: 8px; margin: 16px 0; font-size: 13px;">
+          McNealis, R. (2025). Shame in the machine: affective accountability and the ethics of AI. <em>AI & Society</em>.
+        </div>
+        <p><strong>Key Points:</strong></p>
+        <ul>
+          <li>Examines emotional dimensions of AI ethics</li>
+          <li>Explores shame as a barrier to productive AI engagement</li>
+          <li>Proposes frameworks for affective accountability</li>
+        </ul>
+        <p><a href="https://doi.org/10.1007/s00146-025-02472-x" target="_blank" style="color: #4F46E5; text-decoration: underline;">Read the paper →</a></p>
+      `
+    },
+    {
+      id: 'curtin-ai-principles',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Curtin AI in Learning & Teaching',
+      emoji: '🏛️',
+      summary: 'Curtin University principles and guidelines for AI use.',
+      content: `
+        <p><strong>Overview:</strong></p>
+        <p>Curtin's official position on AI in education, including principles for ethical use, assessment guidelines, and support resources.</p>
+        <p><strong>Key Resources:</strong></p>
+        <ul>
+          <li>AI in Learning and Teaching Framework</li>
+          <li>Assessment design guidelines</li>
+          <li>Student communication templates</li>
+          <li>Staff professional development</li>
+        </ul>
+        <p><a href="https://www.curtin.edu.au/teaching-learning/ai/" target="_blank" style="color: #4F46E5; text-decoration: underline;">Visit Curtin AI Hub →</a></p>
+        <p style="color: #64748B; font-size: 13px; margin-top: 16px;"><em>Note: Link may require Curtin login or may change. Check current intranet resources.</em></p>
+      `
+    },
+    {
+      id: 'ai-edu-resources',
+      category: 'reading',
+      roles: ['teaching'],
+      title: 'UNESCO AI in Education',
+      emoji: '🌍',
+      summary: 'Global guidance on AI and education from UNESCO.',
+      content: `
+        <p><strong>Overview:</strong></p>
+        <p>UNESCO's comprehensive resources on artificial intelligence in education, including policy guidance, ethical frameworks, and implementation strategies.</p>
+        <p><strong>Topics Covered:</strong></p>
+        <ul>
+          <li>Ethical considerations for AI in education</li>
+          <li>Teacher preparation for AI integration</li>
+          <li>Student data privacy and protection</li>
+          <li>Equity and access considerations</li>
+        </ul>
+        <p><a href="https://www.unesco.org/en/artificial-intelligence/education" target="_blank" style="color: #4F46E5; text-decoration: underline;">Explore UNESCO Resources →</a></p>
+      `
+    },
+    {
+      id: 'placeholder-papers',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'More Resources Coming',
+      emoji: '📚',
+      summary: 'This section will grow with recommended papers and resources.',
+      content: `
+        <p>We're building a curated collection of research papers, reports, and external resources relevant to AI in higher education.</p>
+        <p><strong>Suggest a resource:</strong></p>
+        <p>If you've found a paper or resource that should be here, email Michael Borck with the details.</p>
+        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          <strong>Coming soon:</strong>
+          <ul style="margin: 8px 0 0 0; color: #4338CA;">
+            <li>AI detection tool studies</li>
+            <li>Assessment redesign case studies</li>
+            <li>Discipline-specific AI research</li>
+            <li>Student perspectives on AI</li>
+          </ul>
+        </div>
+      `
+    }
+  ];
+
+  function renderResources() {
+    const container = document.getElementById('resources-container');
+    const query = searchQuery.toLowerCase();
+
+    const filtered = resources.filter(r => {
+      const matchesCategory = currentCategory === 'all' || r.category === currentCategory;
+      const matchesRole = currentRole === 'all' || r.roles.includes(currentRole);
+      const matchesSearch = query === '' ||
+        r.title.toLowerCase().includes(query) ||
+        r.summary.toLowerCase().includes(query) ||
+        r.content.toLowerCase().includes(query);
+
+      return matchesCategory && matchesRole && matchesSearch;
+    });
+
+    document.getElementById('results-count').textContent = `${filtered.length} resource${filtered.length !== 1 ? 's' : ''} found`;
+
+    if (filtered.length === 0) {
+      container.innerHTML = `
+        <div style="text-align: center; padding: 48px; color: #64748B;">
+          <div style="font-size: 48px; margin-bottom: 16px;">🔍</div>
+          <p>No resources match your filters. Try adjusting your search or filters.</p>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = filtered.map(r => `
+      <div class="resource-card" data-id="${r.id}" style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; margin-bottom: 12px; overflow: hidden;">
+        <div class="resource-header" onclick="toggleResource('${r.id}')" style="padding: 20px; cursor: pointer; display: flex; align-items: flex-start; gap: 16px;">
+          <span style="font-size: 28px; flex-shrink: 0;">${r.emoji}</span>
+          <div style="flex: 1;">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+              <span style="font-weight: bold; font-size: 16px; color: #0F172A;">${r.title}</span>
+              <span style="background: ${getCategoryColor(r.category)}; color: white; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-family: 'Courier New', monospace; text-transform: uppercase;">${r.category}</span>
+            </div>
+            <p style="font-size: 14px; color: #64748B; margin: 0; line-height: 1.5;">${r.summary}</p>
+          </div>
+          <span class="expand-icon" style="font-size: 20px; color: #94A3B8; transition: transform 0.2s ease;">▼</span>
+        </div>
+        <div class="resource-content" style="display: none; padding: 0 20px 20px 64px; border-top: 1px solid #E2E8F0;">
+          <div style="padding-top: 16px; font-size: 14px; line-height: 1.6; color: #334155;">
+            ${r.content}
+          </div>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function getCategoryColor(category) {
+    const colors = {
+      framework: '#4F46E5',
+      technique: '#7C3AED',
+      template: '#0EA5E9',
+      guide: '#22C55E',
+      reading: '#F59E0B'
+    };
+    return colors[category] || '#64748B';
+  }
+
+  window.toggleResource = function(id) {
+    const card = document.querySelector(`.resource-card[data-id="${id}"]`);
+    const content = card.querySelector('.resource-content');
+    const icon = card.querySelector('.expand-icon');
+
+    if (content.style.display === 'none') {
+      content.style.display = 'block';
+      icon.style.transform = 'rotate(180deg)';
+    } else {
+      content.style.display = 'none';
+      icon.style.transform = 'rotate(0deg)';
+    }
+  };
+
+  window.setCategory = function(category) {
+    currentCategory = category;
+    document.querySelectorAll('.category-btn').forEach(btn => {
+      if (btn.dataset.category === category) {
+        btn.style.background = '#4F46E5';
+        btn.style.color = 'white';
+      } else {
+        btn.style.background = '#F1F5F9';
+        btn.style.color = '#64748B';
+      }
+    });
+    renderResources();
+  };
+
+  window.setRole = function(role) {
+    currentRole = role;
+    document.querySelectorAll('.role-btn').forEach(btn => {
+      if (btn.dataset.role === role) {
+        btn.style.background = '#4F46E5';
+        btn.style.color = 'white';
+      } else {
+        btn.style.background = '#F1F5F9';
+        btn.style.color = '#64748B';
+      }
+    });
+    renderResources();
+  };
+
+  window.filterResources = function() {
+    searchQuery = document.getElementById('search-input').value;
+    renderResources();
+  };
+
+  // Initialize
+  renderResources();
+})();
+</script>
+```

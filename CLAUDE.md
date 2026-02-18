@@ -8,21 +8,22 @@ The project lead is Michael Borck, AI Facilitator for SoMM. He is the sole devel
 
 ## Architecture
 
-Two platforms, each with one job:
+### 1. Blackboard (LMS) — "The Shell"
 
-### 1. Blackboard (LMS) — "The Launcher"
+Blackboard is intentionally minimal — just authentication, announcements, and a launch point. All real UX happens in SPAs.
+
 - Blackboard Classic/Original Organisation site
-- Serves as a **menu with links**, not a content host
-- Sidebar has 8 items: The Arrivals Hall, AI in 5, five experience links, My Passport
+- **3 sidebar items only:** The Arrivals Hall, AI in 5, My Passport
+- The Arrivals Hall is the hub — contains links to everything else
 - "AI in 5" is renamed Announcements — daily micro-challenges emailed to enrolled staff
-- Experiences open as standalone SPAs in new browser tabs via Blackboard links
+- All experiences, toolkit, and quiz open as standalone SPAs in new browser tabs
 - Blackboard URL variable substitution passes user identity: `?uid=@X@user.batch_uid@X@`
-- My Passport is an embedded page that calls BadgeQuest API to show live progress
-- All HTML in Blackboard uses **inline CSS only** — Blackboard strips `<style>` tags and external CSS
-- Blackboard is being retired end of 2026, replaced by Canvas. Do not over-invest in BB-specific features
-- The Arrivals Hall can contain embedded HTML/JS in a Blackboard content item
+- All HTML uses **inline CSS only** — Blackboard strips `<style>` tags
+- Blackboard retiring end of 2026, replaced by Canvas — minimal BB investment intentional
+- Goal: "wow" users with polished SPAs, not typical LMS clutter
 
 ### 2. The AI Exchange — "The Registry"
+
 - Separate project: https://github.com/michael-borck/the-ai-exchange
 - FastAPI + React/TypeScript, Docker deployment
 - Voluntary registry for recording/discovering/connecting around AI use cases
@@ -30,14 +31,15 @@ Two platforms, each with one job:
 - NOT a learning platform — does not host courseware or pathways
 - Hosted on desktop machine, Curtin internal network, VPN-accessible
 
-### 3. BadgeQuest — Progress Tracking
-- Separate project: https://github.com/michael-borck/badge-quest
-- Flask-based badge/gamification server
-- SPAs submit completion events to BadgeQuest API on module finish
-- My Passport page reads from BadgeQuest API to display live progress
-- Emoji-based badges: 🧪 Explorer (1 exp) → 🧠 Thinker (3) → 🛠️ Builder (5) → 🏆 Champion
-- Additional: ☕ AI in 5 Streak, 🎓 Workshop Participant
-- Hosted alongside AI Exchange on same desktop machine
+### 3. Progress Tracker — Completion Recording
+
+- Simplified FastAPI server in `server/app.py` (~75 lines)
+- Two endpoints: `POST /complete`, `GET /progress/{uid}`
+- SQLite database for persistence
+- Emoji badges: 🧪 Explorer (1) → 🧠 Thinker (3) → 🛠️ Builder (5)
+- SPAs use localStorage as fallback when server unavailable
+- Runs on desktop machine, Curtin internal network
+- Interactive docs at `/docs` (Swagger UI)
 
 ## The Five Core Experiences
 
@@ -51,72 +53,98 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 | 4 | AI-Proof Your Assessments | Assessment Design | 45-75 min | Teaching-focused |
 | 5 | Teaching WITH AI | Co-Creation & Integration | 30-60 min | Teaching-focused |
 
-Future Phase 2 additions (research/admin-specific):
-- The AI Research Toolkit
-- Integrity in the Age of AI
-- Automate the Mundane
-- AI for Better Communication
+## Additional Components
+
+- **Find Your Path** — Onboarding quiz recommending starting experience (`onboarding/`)
+- **AI Toolkit** — Searchable reference library of frameworks, techniques, templates (`resources/`)
+- **My Passport** — Badge progress display (`passport/`)
 
 ## Content Authoring
 
 - **Quarto** is the primary authoring tool
 - Single source → multiple outputs: interactive HTML (SPA), PDF, slides
-- Each experience is a Quarto project in `experiences/[name]/`
-- Output is a self-contained interactive HTML page (SPA)
-- SPAs include a completion trigger that POSTs to BadgeQuest on finish
-- Quarto supports OJS (Observable JS) for interactivity
+- Each component is a Quarto project with `index.qmd`
+- Output is a self-contained HTML page (SPA) in `_site/`
+- SPAs include completion triggers (POST to server, localStorage fallback)
+- All CSS inline for Blackboard compatibility
 
 ## Pacing Options (not separate content)
 
 | Pace | Mechanism |
 |---|---|
-| Self-paced | Work through SPAs from Blackboard links at own speed |
+| Self-paced | Work through SPAs from Arrivals Hall links at own speed |
 | AI in 5 | Daily 5-min micro-challenge via Blackboard Announcements (emailed) |
-| Weekly | One experience per week for 5 weeks (self-directed, suggested on Arrivals Hall) |
+| Weekly | One experience per week for 5 weeks (suggested on Arrivals Hall) |
 | Workshop | 2-hour face-to-face, same content, guided by facilitator |
 
 ## Technical Environment
 
-- **Network:** Curtin University internal network, locked down. VPN required for external access
-- **Hosting:** Desktop machine running Docker containers (AI Exchange, BadgeQuest, SPAs)
-- **Microsoft:** Enterprise M365 license, Copilot in tools. No confirmed API access to Azure OpenAI or Anthropic
+- **Network:** Curtin University internal network, VPN required for external access
+- **Hosting:** Desktop machine (progress tracker, AI Exchange)
 - **LMS:** Blackboard Classic now, Canvas late 2026
-- **Blackboard constraints:** Inline CSS only, no `<style>` tags, no external CSS/JS files. CAN embed JS inline. CAN use Blackboard URL variables for user identity
+- **Blackboard constraints:** Inline CSS only, no `<style>` tags, no external files. CAN embed JS inline. CAN use URL variables for user identity
 - **Version control:** Git + GitHub
-- **No Blackboard API access** from Curtin — cannot programmatically post announcements
+- **No Blackboard API access** — cannot programmatically post announcements
 
 ## Design Principles
 
 - **Start Anywhere** — no prerequisites, no forced sequences
 - **Everyone Belongs** — teaching, research, admin all have relevant content
 - **Practical Over Theoretical** — staff use their own materials
-- **Two Platforms, Two Jobs** — Blackboard launches, Exchange connects
+- **Blackboard is a Shell** — minimal LMS footprint, SPAs are the product
+- **Migration-Ready** — SPAs survive platform changes, just update URLs
 - **Don't Over-Build** — pilot first, iterate based on real feedback
 
 ## Key Decisions Made
 
-- Terminals (T/R/A) were explored as a structural concept but rejected — they work as entry framing but not as content silos. Each module includes examples from all contexts instead
-- Teams was explored and dropped — academics don't live there, adds unnecessary platform
-- Power Automate was explored and dropped — Blackboard announcements handle daily delivery natively for the pilot scale
-- Content lives in SPAs, not in Blackboard — enables rich interactivity and survives LMS migration
-- BadgeQuest handles all progress tracking — Grade Centre not used
+- **3-item sidebar** — Arrivals Hall is the hub, not a cluttered menu
+- **SPAs over Blackboard content** — rich interactivity, platform-independent
+- **Simplified progress tracker** — not full BadgeQuest, just completions + badges
+- **localStorage fallback** — works without server for proof of concept
+- **Inline CSS everywhere** — Blackboard strips `<style>` tags
+- Terminals (T/R/A) rejected as structure — role tabs inside each experience instead
+- Teams dropped — academics don't live there
+- Power Automate dropped — Blackboard announcements work for pilot scale
+- Grade Centre not used — progress tracker handles badges
 
-## Existing Assets
+## Project Structure
 
-Michael has existing interactive SPAs (teaching style quiz, AI journey assessment) that demonstrate the SPA-from-Blackboard approach works. These could be integrated as orientation tools.
+```
+the-ai-skills-passport/
+├── blackboard/
+│   └── arrivals-hall.html      # Landing page (paste into BB)
+├── onboarding/                  # Find Your Path quiz
+├── resources/                   # AI Toolkit
+├── passport/                    # My Passport
+├── experiences/
+│   ├── is-this-ai/
+│   ├── what-would-you-do/
+│   ├── rules-of-engagement/
+│   ├── ai-proof-assessments/
+│   └── teaching-with-ai/
+├── server/
+│   ├── app.py                  # Progress tracker (FastAPI)
+│   └── requirements.txt
+└── docs/
+    ├── scaffold-guide.md       # Blackboard setup
+    └── deployment-guide.md     # Build and deploy
+```
 
 ## Commands
 
 ```bash
-# Quarto render a single experience
-cd experiences/is-this-ai && quarto render
+# Render all SPAs
+for dir in onboarding resources passport experiences/*/; do
+  quarto render "$dir"
+done
 
-# Run BadgeQuest locally
-cd ../badge-quest && source .venv/bin/activate && badgequest run-server --port 5000
+# Run progress tracker
+cd server
+pip install -r requirements.txt
+python app.py
+# Open http://localhost:5050/docs
 
-# Run AI Exchange locally
-cd ../the-ai-exchange && docker-compose up -d
-
-# Serve SPAs locally for testing
-python -m http.server 8080 --directory experiences/
+# Preview a single SPA
+cd experiences/is-this-ai
+quarto preview
 ```

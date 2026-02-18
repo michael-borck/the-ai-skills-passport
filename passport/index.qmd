@@ -1,0 +1,239 @@
+---
+title: "My Passport"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    toc: false
+---
+
+```{=html}
+<div style="font-family: Georgia, 'Times New Roman', serif; max-width: 900px; margin: 0 auto; padding: 20px; color: #1E293B;">
+
+  <!-- Header -->
+  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 40px 36px; margin-bottom: 28px; text-align: center;">
+    <div style="font-size: 64px; margin-bottom: 12px;">🛂</div>
+    <div style="font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">AI Skills Passport</div>
+    <h1 style="font-family: 'Courier New', Consolas, monospace; font-size: 28px; font-weight: bold; color: #F1F5F9; margin: 0 0 8px 0; letter-spacing: 2px;">MY PASSPORT</h1>
+    <p style="font-size: 16px; color: #94A3B8; margin: 0;">Track your progress and collect your badges</p>
+  </div>
+
+  <!-- Badge Collection -->
+  <div style="background: white; border: 1px solid #E2E8F0; border-radius: 16px; padding: 32px; margin-bottom: 28px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 16px;">Your Badges</div>
+
+    <div id="badge-display" style="display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 24px;">
+      <!-- Badges inserted by JS -->
+    </div>
+
+    <div id="badge-message" style="text-align: center; color: #64748B; font-size: 15px;">
+      <!-- Progress message inserted by JS -->
+    </div>
+  </div>
+
+  <!-- Experience Progress -->
+  <div style="background: white; border: 1px solid #E2E8F0; border-radius: 16px; padding: 32px; margin-bottom: 28px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 20px;">Experience Progress</div>
+
+    <div id="experience-list" style="display: flex; flex-direction: column; gap: 12px;">
+      <!-- Experience cards inserted by JS -->
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 28px;">
+    <div style="flex: 1; min-width: 150px; background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; text-align: center;">
+      <div id="stat-completed" style="font-size: 36px; font-weight: bold; color: #16A34A;">0</div>
+      <div style="font-size: 13px; color: #166534;">Completed</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; background: #EEF2FF; border: 1px solid #C7D2FE; border-radius: 12px; padding: 20px; text-align: center;">
+      <div id="stat-remaining" style="font-size: 36px; font-weight: bold; color: #4F46E5;">5</div>
+      <div style="font-size: 13px; color: #4338CA;">Remaining</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; background: #FEF3C7; border: 1px solid #FDE68A; border-radius: 12px; padding: 20px; text-align: center;">
+      <div id="stat-badges" style="font-size: 36px; font-weight: bold; color: #D97706;">0</div>
+      <div style="font-size: 13px; color: #B45309;">Badges Earned</div>
+    </div>
+  </div>
+
+  <!-- Badge Legend -->
+  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 16px;">Badge Guide</div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 32px;">🧪</span>
+        <div>
+          <div style="font-weight: bold; color: #0F172A;">Explorer</div>
+          <div style="font-size: 13px; color: #64748B;">Complete 1 experience</div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 32px;">🧠</span>
+        <div>
+          <div style="font-weight: bold; color: #0F172A;">Thinker</div>
+          <div style="font-size: 13px; color: #64748B;">Complete 3 experiences</div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 32px;">🛠️</span>
+        <div>
+          <div style="font-weight: bold; color: #0F172A;">Builder</div>
+          <div style="font-size: 13px; color: #64748B;">Complete all 5 experiences</div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 32px;">🏆</span>
+        <div>
+          <div style="font-weight: bold; color: #0F172A;">Champion</div>
+          <div style="font-size: 13px; color: #64748B;">Complete all + attend workshop</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data Notice -->
+  <div style="margin-top: 24px; padding: 16px; background: #FEF3C7; border-radius: 8px; text-align: center;">
+    <p style="margin: 0; font-size: 13px; color: #92400E;">
+      <strong>Note:</strong> Progress is stored in this browser only. If you switch browsers or clear your data, your progress will reset. A persistent tracking system is coming soon.
+    </p>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  // Experience definitions
+  const experiences = [
+    { id: 'is-this-ai', name: 'Is This AI?', emoji: '🔍', subtitle: 'Detection & Awareness' },
+    { id: 'what-would-you-do', name: 'What Would You Do?', emoji: '🤔', subtitle: 'Ethics & Dilemmas' },
+    { id: 'rules-of-engagement', name: 'Rules of Engagement', emoji: '📋', subtitle: 'Policy & Governance' },
+    { id: 'ai-proof-assessments', name: 'AI-Proof Your Assessments', emoji: '🛡️', subtitle: 'Assessment Design' },
+    { id: 'teaching-with-ai', name: 'Teaching WITH AI', emoji: '🤝', subtitle: 'Co-Creation & Integration' }
+  ];
+
+  // Badge definitions
+  const badges = [
+    { id: 'explorer', emoji: '🧪', name: 'Explorer', requirement: 1 },
+    { id: 'thinker', emoji: '🧠', name: 'Thinker', requirement: 3 },
+    { id: 'builder', emoji: '🛠️', name: 'Builder', requirement: 5 },
+    { id: 'champion', emoji: '🏆', name: 'Champion', requirement: 6 } // 5 + workshop
+  ];
+
+  // Get completions from localStorage
+  function getCompletions() {
+    try {
+      return JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    } catch (e) {
+      return {};
+    }
+  }
+
+  // Count completed experiences
+  function countCompleted() {
+    const completions = getCompletions();
+    return experiences.filter(exp => completions[exp.id]).length;
+  }
+
+  // Check for workshop attendance (stored separately)
+  function hasWorkshopBadge() {
+    try {
+      return localStorage.getItem('ai-passport-workshop') === 'true';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  // Render badge display
+  function renderBadges() {
+    const container = document.getElementById('badge-display');
+    const completedCount = countCompleted();
+    const hasWorkshop = hasWorkshopBadge();
+    const totalForChampion = completedCount + (hasWorkshop ? 1 : 0);
+
+    let badgeHtml = '';
+    let earnedCount = 0;
+
+    badges.forEach(badge => {
+      const earned = (badge.id === 'champion')
+        ? (completedCount >= 5 && hasWorkshop)
+        : completedCount >= badge.requirement;
+
+      if (earned) earnedCount++;
+
+      badgeHtml += `
+        <div style="text-align: center; opacity: ${earned ? '1' : '0.3'}; transition: opacity 0.3s;">
+          <div style="font-size: 48px; ${earned ? '' : 'filter: grayscale(100%);'}">${badge.emoji}</div>
+          <div style="font-size: 13px; font-weight: bold; color: ${earned ? '#0F172A' : '#94A3B8'}; margin-top: 4px;">${badge.name}</div>
+          ${earned ? '<div style="font-size: 11px; color: #22C55E;">✓ Earned</div>' : ''}
+        </div>
+      `;
+    });
+
+    container.innerHTML = badgeHtml;
+    document.getElementById('stat-badges').textContent = earnedCount;
+
+    // Update message
+    const messageEl = document.getElementById('badge-message');
+    if (completedCount === 0) {
+      messageEl.innerHTML = 'Complete your first experience to earn the <strong>🧪 Explorer</strong> badge!';
+    } else if (completedCount < 3) {
+      messageEl.innerHTML = `${3 - completedCount} more experience${3 - completedCount > 1 ? 's' : ''} to earn <strong>🧠 Thinker</strong>`;
+    } else if (completedCount < 5) {
+      messageEl.innerHTML = `${5 - completedCount} more experience${5 - completedCount > 1 ? 's' : ''} to earn <strong>🛠️ Builder</strong>`;
+    } else if (!hasWorkshop) {
+      messageEl.innerHTML = 'All experiences complete! Attend a workshop to earn <strong>🏆 Champion</strong>';
+    } else {
+      messageEl.innerHTML = '🎉 <strong>Congratulations!</strong> You\'ve earned all badges!';
+    }
+  }
+
+  // Render experience list
+  function renderExperiences() {
+    const container = document.getElementById('experience-list');
+    const completions = getCompletions();
+
+    let html = '';
+    experiences.forEach((exp, index) => {
+      const completion = completions[exp.id];
+      const isComplete = !!completion;
+      const completedDate = completion ? new Date(completion.completedAt).toLocaleDateString() : null;
+
+      html += `
+        <div style="display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: ${isComplete ? '#F0FDF4' : '#F8FAFC'}; border: 1px solid ${isComplete ? '#BBF7D0' : '#E2E8F0'}; border-radius: 10px;">
+          <span style="font-size: 28px;">${exp.emoji}</span>
+          <div style="flex: 1;">
+            <div style="font-weight: bold; color: #0F172A;">${index + 1}. ${exp.name}</div>
+            <div style="font-size: 13px; color: #64748B;">${exp.subtitle}</div>
+          </div>
+          <div style="text-align: right;">
+            ${isComplete
+              ? `<div style="color: #22C55E; font-weight: bold;">✓ Complete</div>
+                 <div style="font-size: 12px; color: #64748B;">${completedDate}</div>`
+              : `<div style="color: #94A3B8;">Not started</div>`
+            }
+          </div>
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
+
+    // Update stats
+    const completedCount = countCompleted();
+    document.getElementById('stat-completed').textContent = completedCount;
+    document.getElementById('stat-remaining').textContent = 5 - completedCount;
+  }
+
+  // Initialize
+  renderBadges();
+  renderExperiences();
+
+  // Refresh on focus (in case user completed something in another tab)
+  window.addEventListener('focus', function() {
+    renderBadges();
+    renderExperiences();
+  });
+})();
+</script>
+```

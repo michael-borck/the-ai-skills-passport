@@ -8,11 +8,11 @@ The AI Skills Passport is a flexible, self-paced program that builds AI literacy
 
 **Blackboard** is the launcher — a menu of links and daily micro-challenges via email.
 
-**Five interactive SPAs** are the learning — standalone web apps that open in new tabs, rich and interactive, hosted independently of any LMS.
+**Interactive SPAs** are the learning — standalone web apps that open in new tabs, rich and interactive.
 
-**BadgeQuest** tracks progress — SPAs report completions, and a live passport page shows your badges.
+**Progress Tracker** records completions — SPAs report progress, My Passport shows your badges.
 
-**The AI Exchange** connects people — a voluntary registry where staff record, discover, and discuss AI use cases across the school.
+**The AI Exchange** connects people — a voluntary registry where staff discover and discuss AI use cases.
 
 ## The Five Experiences
 
@@ -24,12 +24,19 @@ The AI Skills Passport is a flexible, self-paced program that builds AI literacy
 | 4 | 🛡️ AI-Proof Your Assessments | Assessment Design | 45–75 min |
 | 5 | 🤝 Teaching WITH AI | Co-Creation & Integration | 30–60 min |
 
+## Additional Components
+
+- **Find Your Path** — 2-minute onboarding quiz to recommend your starting point
+- **AI Toolkit** — Searchable reference library (frameworks, techniques, templates)
+- **My Passport** — Track progress and collect badges
+- **AI in 5** — Daily 5-minute micro-challenges via email
+
 ## Pacing Options
 
-All pacing options use the same content — they're just different rhythms:
+All options use the same content — just different rhythms:
 
-- **Self-Paced** — work through SPAs on Blackboard at your own speed
-- **AI in 5** — 5-minute daily micro-challenge in your inbox every morning
+- **Self-Paced** — work through SPAs at your own speed
+- **AI in 5** — 5-minute daily challenge in your inbox
 - **Weekly** — one experience per week for five weeks
 - **Workshop** — 2-hour face-to-face guided session
 
@@ -37,74 +44,70 @@ All pacing options use the same content — they're just different rhythms:
 
 ```
 the-ai-skills-passport/
-├── CLAUDE.md                        # Project context for Claude Code
-├── README.md                        # This file
-├── docs/
-│   └── architecture.md              # Full architecture specification
 ├── blackboard/
-│   ├── arrivals-hall.html           # Landing page (inline CSS for BB)
-│   ├── my-passport.html             # Badge progress page (calls BadgeQuest API)
-│   └── coming-soon.html             # Placeholder for unpopulated experiences
+│   └── arrivals-hall.html       # Landing page (paste into Blackboard)
+├── onboarding/
+│   └── index.qmd                # Find Your Path quiz
+├── resources/
+│   └── index.qmd                # AI Toolkit
+├── passport/
+│   └── index.qmd                # My Passport (badge tracker)
 ├── experiences/
 │   ├── is-this-ai/
-│   │   ├── _quarto.yml
-│   │   ├── index.qmd                # Quarto source
-│   │   └── _output/                 # Built SPA (HTML)
 │   ├── what-would-you-do/
-│   │   ├── _quarto.yml
-│   │   ├── index.qmd
-│   │   └── _output/
 │   ├── rules-of-engagement/
-│   │   ├── _quarto.yml
-│   │   ├── index.qmd
-│   │   └── _output/
 │   ├── ai-proof-assessments/
-│   │   ├── _quarto.yml
-│   │   ├── index.qmd
-│   │   └── _output/
 │   └── teaching-with-ai/
-│       ├── _quarto.yml
-│       ├── index.qmd
-│       └── _output/
+├── server/
+│   ├── app.py                   # Progress tracker (FastAPI)
+│   └── requirements.txt
 ├── ai-in-5/
-│   ├── content-bank.csv             # Daily challenge content library
-│   └── README.md                    # Posting guide and theme schedule
+│   └── README.md                # Daily challenge guide
 ├── workshops/
-│   ├── README.md                    # Workshop facilitation notes
-│   └── slides/                      # Quarto-generated slide decks
-├── assets/
-│   ├── images/
-│   └── badges/                      # Badge emoji/image assets
-└── scripts/
-    └── setup.sh                     # Repo scaffold script
+│   └── README.md                # Facilitation notes
+└── docs/
+    ├── scaffold-guide.md        # Blackboard setup
+    └── deployment-guide.md      # Build and deploy SPAs
 ```
-
-## Related Projects
-
-- **[BadgeQuest](https://github.com/michael-borck/badge-quest)** — Gamified badge progression system (Flask)
-- **[The AI Exchange](https://github.com/michael-borck/the-ai-exchange)** — AI use case registry and peer discovery (FastAPI + React)
-
-## Tech Stack
-
-- **Content Authoring:** [Quarto](https://quarto.org/) (single source → HTML SPA, PDF, slides)
-- **Badge Tracking:** [BadgeQuest](https://github.com/michael-borck/badge-quest) (Flask + SQLite)
-- **LMS:** Blackboard Classic (transitioning to Canvas late 2026)
-- **Hosting:** Docker on Curtin internal network
 
 ## Quick Start
 
 ```bash
-# Clone and set up
+# Clone
 git clone https://github.com/michael-borck/the-ai-skills-passport.git
 cd the-ai-skills-passport
 
-# Render a specific experience
+# Render an experience
 cd experiences/is-this-ai
 quarto render
-
-# Preview locally
 quarto preview
+
+# Run progress tracker
+cd server
+pip install -r requirements.txt
+python app.py
+# Open http://localhost:5050/docs
 ```
+
+## Deployment
+
+See `docs/deployment-guide.md` for full instructions:
+
+1. Render all Quarto projects to HTML
+2. Upload HTML files to Blackboard
+3. Update placeholder URLs in arrivals-hall.html
+4. Paste arrivals-hall into Blackboard content item
+5. (Optional) Run progress tracker server
+
+## Related Projects
+
+- **[The AI Exchange](https://github.com/michael-borck/the-ai-exchange)** — AI use case registry (FastAPI + React)
+
+## Tech Stack
+
+- **Content:** [Quarto](https://quarto.org/) → self-contained HTML SPAs
+- **Progress:** FastAPI + SQLite (minimal server)
+- **LMS:** Blackboard Classic (Canvas late 2026)
 
 ## Author
 
@@ -114,4 +117,4 @@ quarto preview
 
 **Code:** MIT License
 
-**Content:** Currently distributed under MIT. Learning content and course materials may transition to Creative Commons (CC BY 4.0 or similar) in future releases to better reflect educational reuse expectations.
+**Content:** MIT (may transition to CC BY 4.0 for educational content)

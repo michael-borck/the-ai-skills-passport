@@ -1,0 +1,134 @@
+<!-- BadgeQuest Completion Tracker Component -->
+<!-- Include this at the end of each experience to enable progress tracking -->
+<!-- Usage: Add experienceId="experience-name" as a data attribute when including -->
+
+<div id="completion-section" style="display: none; background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+  <div style="font-size: 48px; margin-bottom: 16px;">🎉</div>
+  <h2 style="font-family: Georgia, serif; font-size: 24px; color: #14532D; margin: 0 0 12px 0;">Experience Complete!</h2>
+  <p style="font-size: 16px; color: #166534; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
+  <div id="badge-progress" style="background: white; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
+    <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
+  </div>
+  <a href="#" id="next-experience-link" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Return to Arrivals Hall</a>
+</div>
+
+<div id="completion-trigger" style="background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+  <h3 style="font-family: Georgia, serif; font-size: 20px; color: #0F172A; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
+  <p style="font-size: 14px; color: #64748B; line-height: 1.6; margin: 0 0 20px 0;">Once you've worked through the activities above, click below to record your progress.</p>
+  <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease;">
+    Mark as Complete
+  </button>
+</div>
+
+<script>
+(function() {
+  // Get experience ID from script tag or default
+  const scriptTag = document.currentScript;
+  const experienceId = scriptTag?.getAttribute('data-experience') ||
+                       document.querySelector('[data-experience-id]')?.getAttribute('data-experience-id') ||
+                       'unknown-experience';
+
+  // Get user ID from URL parameters (Blackboard passes this as uid)
+  const urlParams = new URLSearchParams(window.location.search);
+  const uid = urlParams.get('uid') || 'anonymous';
+
+  // BadgeQuest API configuration
+  const BADGEQUEST_URL = 'https://localhost:5000'; // Update with actual server
+  const COURSE_ID = 'ai-skills-passport';
+
+  // Badge progression
+  const badges = {
+    1: { emoji: '🧪', name: 'Explorer', description: '1 experience completed' },
+    3: { emoji: '🧠', name: 'Thinker', description: '3 experiences completed' },
+    5: { emoji: '🛠️', name: 'Builder', description: '5 experiences completed' },
+    6: { emoji: '🏆', name: 'Champion', description: 'All experiences completed' }
+  };
+
+  window.recordCompletion = function() {
+    const btn = document.getElementById('complete-btn');
+    btn.disabled = true;
+    btn.textContent = 'Recording...';
+    btn.style.background = '#94A3B8';
+
+    // Try to POST to BadgeQuest
+    fetch(`${BADGEQUEST_URL}/api/stamp`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        student_id: uid,
+        course_id: COURSE_ID,
+        week_id: experienceId,
+        text: `Completed ${experienceId} experience`,
+        timestamp: new Date().toISOString()
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      showCompletionSuccess(data);
+    })
+    .catch(error => {
+      console.warn('BadgeQuest API unavailable, using localStorage fallback:', error);
+      saveToLocalStorage();
+      showCompletionSuccess(null);
+    });
+  };
+
+  function saveToLocalStorage() {
+    const key = `ai-passport-${experienceId}`;
+    const completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    completions[experienceId] = {
+      completedAt: new Date().toISOString(),
+      uid: uid
+    };
+    localStorage.setItem('ai-passport-completions', JSON.stringify(completions));
+    localStorage.setItem(key, new Date().toISOString());
+  }
+
+  function showCompletionSuccess(apiData) {
+    document.getElementById('completion-trigger').style.display = 'none';
+    document.getElementById('completion-section').style.display = 'block';
+
+    // Calculate badge progress
+    const completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    const completedCount = Object.keys(completions).length;
+
+    let badgeHtml = '';
+    let nextBadge = null;
+
+    for (const [count, badge] of Object.entries(badges)) {
+      if (completedCount >= parseInt(count)) {
+        badgeHtml += `<span style="font-size: 24px; margin: 0 4px;" title="${badge.name}">${badge.emoji}</span>`;
+      } else if (!nextBadge) {
+        nextBadge = { count: parseInt(count), ...badge };
+      }
+    }
+
+    let progressText = `<div style="margin-bottom: 8px;">${badgeHtml || '<span style="color: #94A3B8;">Start your collection!</span>'}</div>`;
+    progressText += `<p style="font-size: 13px; color: #64748B; margin: 0;">${completedCount} experience${completedCount !== 1 ? 's' : ''} completed</p>`;
+
+    if (nextBadge) {
+      progressText += `<p style="font-size: 12px; color: #94A3B8; margin: 4px 0 0 0;">Next badge: ${nextBadge.emoji} ${nextBadge.name} (${nextBadge.count - completedCount} more)</p>`;
+    }
+
+    document.getElementById('badge-progress').innerHTML = progressText;
+  }
+
+  // Check if already completed
+  function checkExistingCompletion() {
+    const completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    if (completions[experienceId]) {
+      document.getElementById('completion-trigger').innerHTML = `
+        <div style="color: #22C55E; font-size: 24px; margin-bottom: 8px;">✓</div>
+        <p style="font-size: 14px; color: #64748B; margin: 0;">You completed this experience on ${new Date(completions[experienceId].completedAt).toLocaleDateString()}</p>
+      `;
+    }
+  }
+
+  // Initialize on load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', checkExistingCompletion);
+  } else {
+    checkExistingCompletion();
+  }
+})();
+</script>

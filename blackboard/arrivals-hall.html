@@ -1,6 +1,21 @@
 <!-- THE ARRIVALS HALL — AI Skills Passport Landing Page -->
 <!-- Paste into: The Arrivals Hall > Build Content > Item > Toggle HTML Code View -->
 
+<!-- URL PLACEHOLDERS - Replace these with your Blackboard URLs before pasting:
+     [ONBOARDING_URL] = Find Your Path quiz
+     [EXP1_URL]       = Is This AI?
+     [EXP2_URL]       = What Would You Do?
+     [EXP3_URL]       = Rules of Engagement
+     [EXP4_URL]       = AI-Proof Your Assessments
+     [EXP5_URL]       = Teaching WITH AI
+     [TOOLKIT_URL]    = AI Toolkit (Resources)
+     [PASSPORT_URL]   = My Passport
+     [EXCHANGE_URL]   = The AI Exchange (external app, no uid needed)
+     [RUBRIC_URL]     = AI Assessment Rubrics download (Word docs)
+
+     The @X@user.batch_uid@X@ is a Blackboard variable that inserts the user's ID
+-->
+
 <div style="font-family: Georgia, 'Times New Roman', serif; max-width: 960px; margin: 0 auto; color: #1E293B;">
 
   <!-- Header -->
@@ -8,6 +23,16 @@
     <div style="font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">School of Marketing &amp; Management • Curtin University</div>
     <h1 style="font-family: 'Courier New', Consolas, monospace; font-size: 28px; font-weight: bold; color: #F1F5F9; margin: 0 0 12px 0; letter-spacing: 2px;">THE AI SKILLS PASSPORT</h1>
     <p style="font-size: 16px; color: #94A3B8; line-height: 1.6; margin: 0; max-width: 640px;">Build your AI literacy at your own pace. Five standalone experiences, no prerequisites, no fixed path. Whether you teach, research, or run the school — start anywhere.</p>
+  </div>
+
+  <!-- Find Your Path Banner -->
+  <div style="background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 14px; padding: 24px; margin-bottom: 28px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+    <span style="font-size: 48px; flex-shrink: 0;">🧭</span>
+    <div style="flex: 1; min-width: 200px;">
+      <div style="font-weight: bold; font-size: 18px; color: #14532D; margin-bottom: 4px;">Not sure where to start?</div>
+      <p style="font-size: 14px; color: #166534; line-height: 1.5; margin: 0;">Take a 2-minute quiz to discover your recommended path through the AI Skills Passport.</p>
+    </div>
+    <a href="[ONBOARDING_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #22C55E, #16A34A); color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; font-size: 15px; white-space: nowrap;">Find Your Path</a>
   </div>
 
   <!-- How Much Time Do You Have? -->
@@ -40,59 +65,69 @@
   <div style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 32px;">
 
     <!-- 1. Is This AI? -->
-    <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;">
-      <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🔍</span>
-      <div style="flex: 1;">
-        <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Is This AI?</div>
-        <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Detection &amp; Awareness</div>
-        <div style="font-size: 14px; color: #334155; line-height: 1.6;">Can you tell the difference? Play detective games, test detection tools, and analyse real examples. Leave with practical strategies for identifying AI-generated work.</div>
+    <a href="[EXP1_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+      <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF; transition: border-color 0.2s; cursor: pointer;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+        <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🔍</span>
+        <div style="flex: 1;">
+          <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Is This AI?</div>
+          <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Detection &amp; Awareness</div>
+          <div style="font-size: 14px; color: #334155; line-height: 1.6;">Can you tell the difference? Play detective games, test detection tools, and analyse real examples. Leave with practical strategies for identifying AI-generated work.</div>
+        </div>
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">15–60 min</div>
       </div>
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">15–60 min</div>
-    </div>
+    </a>
 
     <!-- 2. What Would You Do? -->
-    <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;">
-      <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🤔</span>
-      <div style="flex: 1;">
-        <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">What Would You Do?</div>
-        <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Ethics &amp; Dilemmas</div>
-        <div style="font-size: 14px; color: #334155; line-height: 1.6;">Real-world AI scenarios with no right answers. Role-play ethical dilemmas from teaching, research, and admin contexts. Leave with a personal ethical framework.</div>
+    <a href="[EXP2_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+      <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF; transition: border-color 0.2s; cursor: pointer;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+        <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🤔</span>
+        <div style="flex: 1;">
+          <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">What Would You Do?</div>
+          <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Ethics &amp; Dilemmas</div>
+          <div style="font-size: 14px; color: #334155; line-height: 1.6;">Real-world AI scenarios with no right answers. Role-play ethical dilemmas from teaching, research, and admin contexts. Leave with a personal ethical framework.</div>
+        </div>
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">20–90 min</div>
       </div>
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">20–90 min</div>
-    </div>
+    </a>
 
     <!-- 3. Rules of Engagement -->
-    <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;">
-      <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">📋</span>
-      <div style="flex: 1;">
-        <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Rules of Engagement</div>
-        <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Policy &amp; Governance</div>
-        <div style="font-size: 14px; color: #334155; line-height: 1.6;">Build, stress-test, and refine AI use policies for your context — whether a unit outline, research group, or school-wide procedure. Leave with a ready-to-use policy.</div>
+    <a href="[EXP3_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+      <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF; transition: border-color 0.2s; cursor: pointer;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+        <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">📋</span>
+        <div style="flex: 1;">
+          <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Rules of Engagement</div>
+          <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Policy &amp; Governance</div>
+          <div style="font-size: 14px; color: #334155; line-height: 1.6;">Build, stress-test, and refine AI use policies for your context — whether a unit outline, research group, or school-wide procedure. Leave with a ready-to-use policy.</div>
+        </div>
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">30–120 min</div>
       </div>
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">30–120 min</div>
-    </div>
+    </a>
 
     <!-- 4. AI-Proof Your Assessments -->
-    <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;">
-      <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🛡️</span>
-      <div style="flex: 1;">
-        <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">AI-Proof Your Assessments</div>
-        <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Assessment Design</div>
-        <div style="font-size: 14px; color: #334155; line-height: 1.6;">Transform your assessments to be resilient in an AI era. Bring your own tasks, test them against AI, and leave with redesigned versions you can use tomorrow.</div>
+    <a href="[EXP4_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+      <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF; transition: border-color 0.2s; cursor: pointer;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+        <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🛡️</span>
+        <div style="flex: 1;">
+          <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">AI-Proof Your Assessments</div>
+          <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Assessment Design</div>
+          <div style="font-size: 14px; color: #334155; line-height: 1.6;">Transform your assessments to be resilient in an AI era. Bring your own tasks, test them against AI, and leave with redesigned versions you can use tomorrow.</div>
+        </div>
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">45–75 min</div>
       </div>
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">45–75 min</div>
-    </div>
+    </a>
 
     <!-- 5. Teaching WITH AI -->
-    <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;">
-      <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🤝</span>
-      <div style="flex: 1;">
-        <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Teaching WITH AI</div>
-        <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Co-Creation &amp; Integration</div>
-        <div style="font-size: 14px; color: #334155; line-height: 1.6;">Practice prompting, create AI-enhanced resources, and build reusable workflows. Leave with a prompt library and materials you can use in your next class.</div>
+    <a href="[EXP5_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+      <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF; transition: border-color 0.2s; cursor: pointer;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+        <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🤝</span>
+        <div style="flex: 1;">
+          <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Teaching WITH AI</div>
+          <div style="font-size: 13px; color: #64748B; margin-bottom: 8px;">Co-Creation &amp; Integration</div>
+          <div style="font-size: 14px; color: #334155; line-height: 1.6;">Practice prompting, create AI-enhanced resources, and build reusable workflows. Leave with a prompt library and materials you can use in your next class.</div>
+        </div>
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">30–60 min</div>
       </div>
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #475569; font-weight: bold; white-space: nowrap; margin-top: 4px;">30–60 min</div>
-    </div>
+    </a>
 
   </div>
 
@@ -116,21 +151,32 @@
   <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; margin-bottom: 14px;">Quick Links</div>
 
   <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 28px;">
-    <div style="flex: 1; min-width: 250px; background: #F1F5F9; border-radius: 10px; padding: 16px 20px;">
+    <div style="flex: 1; min-width: 200px; background: #F1F5F9; border-radius: 10px; padding: 16px 20px;">
       <div style="font-size: 20px; margin-bottom: 6px;">📬</div>
       <div style="font-weight: bold; font-size: 14px; color: #0F172A; margin-bottom: 4px;">AI in 5</div>
-      <div style="font-size: 13px; color: #64748B; line-height: 1.5;">A 5-minute challenge in your inbox every weekday. Already enrolled? You're already subscribed.</div>
+      <div style="font-size: 13px; color: #64748B; line-height: 1.5;">A 5-minute challenge in your inbox every weekday.</div>
     </div>
-    <div style="flex: 1; min-width: 250px; background: #F1F5F9; border-radius: 10px; padding: 16px 20px;">
-      <div style="font-size: 20px; margin-bottom: 6px;">🌐</div>
-      <div style="font-weight: bold; font-size: 14px; color: #0F172A; margin-bottom: 4px;">The AI Exchange</div>
-      <div style="font-size: 13px; color: #64748B; line-height: 1.5;">See what others across the school are doing with AI. Share your own experiments. Find collaborators.</div>
-    </div>
-    <div style="flex: 1; min-width: 250px; background: #F1F5F9; border-radius: 10px; padding: 16px 20px;">
-      <div style="font-size: 20px; margin-bottom: 6px;">🏅</div>
-      <div style="font-weight: bold; font-size: 14px; color: #0F172A; margin-bottom: 4px;">My Passport</div>
-      <div style="font-size: 13px; color: #64748B; line-height: 1.5;">Track your progress and collect badge stamps as you complete experiences.</div>
-    </div>
+    <a href="[TOOLKIT_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="flex: 1; min-width: 200px; text-decoration: none; display: block;">
+      <div style="background: #EEF2FF; border: 1px solid #C7D2FE; border-radius: 10px; padding: 16px 20px; height: 100%; box-sizing: border-box; cursor: pointer;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#C7D2FE'">
+        <div style="font-size: 20px; margin-bottom: 6px;">🧰</div>
+        <div style="font-weight: bold; font-size: 14px; color: #312E81; margin-bottom: 4px;">AI Toolkit</div>
+        <div style="font-size: 13px; color: #4338CA; line-height: 1.5;">Frameworks, techniques, templates, and guides — searchable reference library.</div>
+      </div>
+    </a>
+    <a href="[EXCHANGE_URL]" target="_blank" style="flex: 1; min-width: 200px; text-decoration: none; display: block;">
+      <div style="background: #FDF4FF; border: 1px solid #E879F9; border-radius: 10px; padding: 16px 20px; height: 100%; box-sizing: border-box; cursor: pointer;" onmouseover="this.style.borderColor='#A855F7'" onmouseout="this.style.borderColor='#E879F9'">
+        <div style="font-size: 20px; margin-bottom: 6px;">🌐</div>
+        <div style="font-weight: bold; font-size: 14px; color: #701A75; margin-bottom: 4px;">The AI Exchange</div>
+        <div style="font-size: 13px; color: #86198F; line-height: 1.5;">See what others are doing with AI. Share experiments. Find collaborators.</div>
+      </div>
+    </a>
+    <a href="[PASSPORT_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="flex: 1; min-width: 200px; text-decoration: none; display: block;">
+      <div style="background: #F1F5F9; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; height: 100%; box-sizing: border-box; cursor: pointer;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+        <div style="font-size: 20px; margin-bottom: 6px;">🏅</div>
+        <div style="font-weight: bold; font-size: 14px; color: #0F172A; margin-bottom: 4px;">My Passport</div>
+        <div style="font-size: 13px; color: #64748B; line-height: 1.5;">Track your progress and collect badge stamps.</div>
+      </div>
+    </a>
   </div>
 
   <!-- Footer -->

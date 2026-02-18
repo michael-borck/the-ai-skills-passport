@@ -1,0 +1,630 @@
+---
+title: "Find Your Path"
+format:
+  html:
+    self-contained: true
+    toc: false
+---
+
+```{=html}
+<!-- Find Your Path — AI Skills Passport Onboarding Quiz -->
+<!-- Self-contained SPA with inline CSS for Blackboard compatibility -->
+
+<div id="quiz-app" style="font-family: Georgia, 'Times New Roman', serif; max-width: 720px; margin: 0 auto; padding: 20px; color: #1E293B;">
+
+  <!-- Header -->
+  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 24px; text-align: center;">
+    <div style="font-size: 48px; margin-bottom: 12px;">🧭</div>
+    <h1 style="font-family: 'Courier New', monospace; font-size: 24px; color: #F1F5F9; margin: 0 0 8px 0; letter-spacing: 1px;">FIND YOUR PATH</h1>
+    <p style="font-size: 15px; color: #94A3B8; margin: 0; line-height: 1.5;">Answer a few questions to discover your recommended starting point in the AI Skills Passport.</p>
+  </div>
+
+  <!-- Progress Bar -->
+  <div id="progress-container" style="margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
+      <span id="progress-label" style="font-size: 12px; color: #64748B; font-family: 'Courier New', monospace;">Question 1 of 10</span>
+      <span id="progress-percent" style="font-size: 12px; color: #64748B; font-family: 'Courier New', monospace;">0%</span>
+    </div>
+    <div style="height: 6px; background: #E2E8F0; border-radius: 3px; overflow: hidden;">
+      <div id="progress-bar" style="height: 100%; background: linear-gradient(90deg, #4F46E5, #7C3AED); width: 0%; transition: width 0.3s ease;"></div>
+    </div>
+  </div>
+
+  <!-- Questions Container -->
+  <div id="questions-container">
+
+    <!-- Question 1: Primary Role -->
+    <div class="question" data-question="1" style="display: block;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part A: Your Role</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">What is your primary role at the university?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q1" value="teaching" style="display: none;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="font-size: 24px;">📚</span>
+            <div>
+              <div style="font-weight: bold; color: #0F172A;">Teaching Academic</div>
+              <div style="font-size: 13px; color: #64748B;">Lecturing, tutoring, course coordination</div>
+            </div>
+          </div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q1" value="research" style="display: none;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="font-size: 24px;">🔬</span>
+            <div>
+              <div style="font-weight: bold; color: #0F172A;">Researcher</div>
+              <div style="font-size: 13px; color: #64748B;">Research-focused, HDR supervision, publishing</div>
+            </div>
+          </div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q1" value="admin" style="display: none;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="font-size: 24px;">⚙️</span>
+            <div>
+              <div style="font-weight: bold; color: #0F172A;">Professional/Admin Staff</div>
+              <div style="font-size: 13px; color: #64748B;">School operations, student services, administration</div>
+            </div>
+          </div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q1" value="mixed" style="display: none;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="font-size: 24px;">🔀</span>
+            <div>
+              <div style="font-weight: bold; color: #0F172A;">Combined Role</div>
+              <div style="font-size: 13px; color: #64748B;">Mix of teaching, research, and/or admin responsibilities</div>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 2: Secondary Interests -->
+    <div class="question" data-question="2" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part A: Your Role</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">Which area would you most like to improve with AI?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q2" value="assessment" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Assessment design and grading</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q2" value="content" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Content creation and preparation</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q2" value="research-work" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Research and writing</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q2" value="efficiency" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Automating repetitive tasks</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 3: AI Tool Usage -->
+    <div class="question" data-question="3" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part B: AI Experience</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">How often do you currently use AI tools like ChatGPT or Copilot?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q3" value="never" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Never tried them</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q3" value="rarely" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Tried once or twice</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q3" value="sometimes" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Occasionally (few times a month)</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q3" value="often" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Regularly (weekly or more)</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 4: Prompting Comfort -->
+    <div class="question" data-question="4" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part B: AI Experience</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">When using AI tools, how comfortable are you with crafting effective prompts?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q4" value="none" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Not sure what prompting means</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q4" value="basic" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">I type simple questions and hope for the best</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q4" value="intermediate" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">I can refine prompts to get better results</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q4" value="advanced" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">I use structured approaches (roles, context, format)</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 5: Verification Habits -->
+    <div class="question" data-question="5" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part B: AI Experience</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">When AI gives you an answer, what do you typically do?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q5" value="accept" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Use it as-is — AI is usually right</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q5" value="skim" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Quick scan to see if it looks reasonable</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q5" value="verify" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Check key facts and adapt to my needs</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q5" value="critical" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Treat it as a starting point, verify everything important</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 6: Confidence Level -->
+    <div class="question" data-question="6" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part B: AI Experience</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">How confident do you feel explaining AI tools to a colleague?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q6" value="not-confident" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Not confident — still learning myself</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q6" value="somewhat" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Could share basics but not advanced techniques</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q6" value="confident" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Fairly confident in explaining practical uses</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q6" value="expert" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Very confident — I help others regularly</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 7: Time Availability -->
+    <div class="question" data-question="7" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part C: Learning Preferences</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">How much time can you dedicate to AI professional development?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q7" value="micro" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">5 minutes a day (AI in 5 challenges)</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q7" value="short" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">15-30 minutes per session</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q7" value="medium" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">1 hour per week</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q7" value="workshop" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">I'd prefer a 2-hour workshop session</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 8: Learning Style -->
+    <div class="question" data-question="8" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part C: Learning Preferences</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">How do you prefer to learn new skills?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q8" value="hands-on" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Hands-on practice — learn by doing</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q8" value="conceptual" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Conceptual understanding first, then practice</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q8" value="examples" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">See examples and adapt them</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q8" value="discussion" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Discussion and collaboration with peers</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 9: Primary Concerns -->
+    <div class="question" data-question="9" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part C: Learning Preferences</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">What's your biggest concern about AI in your work?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q9" value="integrity" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Academic integrity and student cheating</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q9" value="ethics" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Ethical implications and responsible use</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q9" value="policy" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Unclear policies and guidelines</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q9" value="skills" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Keeping up with rapidly changing technology</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Question 10: Goals -->
+    <div class="question" data-question="10" style="display: none;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">Part C: Learning Preferences</div>
+      <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 20px 0; line-height: 1.4;">What would success look like for you?</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q10" value="understand" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Understand what AI can and can't do</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q10" value="practical" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Use AI daily to save time and improve quality</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q10" value="confidence" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Feel confident discussing AI with students/colleagues</div>
+        </label>
+        <label style="display: block; background: #F8FAFC; border: 2px solid #E2E8F0; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#E2E8F0'">
+          <input type="radio" name="q10" value="lead" style="display: none;">
+          <div style="font-weight: bold; color: #0F172A;">Help shape AI policy and practice in my area</div>
+        </label>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Navigation -->
+  <div id="nav-container" style="display: flex; justify-content: space-between; margin-top: 24px;">
+    <button id="prev-btn" onclick="previousQuestion()" disabled style="background: #E2E8F0; color: #64748B; border: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; cursor: pointer; opacity: 0.5;">
+      ← Previous
+    </button>
+    <button id="next-btn" onclick="nextQuestion()" disabled style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; cursor: pointer; opacity: 0.5;">
+      Next →
+    </button>
+  </div>
+
+  <!-- Results Container (hidden initially) -->
+  <div id="results-container" style="display: none;">
+    <div style="background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin-bottom: 24px;">
+      <div style="font-size: 48px; margin-bottom: 12px; text-align: center;" id="result-emoji">🎯</div>
+      <h2 id="result-title" style="font-size: 22px; color: #14532D; margin: 0 0 12px 0; text-align: center;">Your Recommended Path</h2>
+      <p id="result-description" style="font-size: 15px; color: #166534; line-height: 1.6; text-align: center; margin: 0;"></p>
+    </div>
+
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px;">Recommended Starting Experience</div>
+    <div id="recommended-experience" style="background: white; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+      <!-- Filled by JS -->
+    </div>
+
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px;">Your Suggested Pathway</div>
+    <div id="pathway-list" style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px;">
+      <!-- Filled by JS -->
+    </div>
+
+    <div style="background: #F8FAFC; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+      <p style="font-size: 14px; color: #64748B; margin: 0; line-height: 1.6;">
+        <strong>Remember:</strong> There's no required order. These are just suggestions based on your responses. You can start with any experience that interests you.
+      </p>
+    </div>
+
+    <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+      <a href="#" id="start-btn" style="flex: 1; min-width: 200px; display: block; background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; text-decoration: none; padding: 14px 24px; border-radius: 8px; font-size: 16px; font-weight: bold; text-align: center;">
+        Start First Experience
+      </a>
+      <button onclick="restartQuiz()" style="flex: 1; min-width: 200px; background: white; color: #4F46E5; border: 2px solid #4F46E5; padding: 14px 24px; border-radius: 8px; font-size: 16px; cursor: pointer;">
+        Retake Quiz
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const TOTAL_QUESTIONS = 10;
+  let currentQuestion = 1;
+  const answers = {};
+
+  // Get uid from URL for tracking
+  const urlParams = new URLSearchParams(window.location.search);
+  const uid = urlParams.get('uid') || 'anonymous';
+
+  // Experience data
+  const experiences = {
+    'is-this-ai': {
+      emoji: '🔍',
+      title: 'Is This AI?',
+      subtitle: 'Detection & Awareness',
+      time: '15-60 min',
+      description: 'Learn to identify AI-generated content and understand detection tool limitations.'
+    },
+    'what-would-you-do': {
+      emoji: '🤔',
+      title: 'What Would You Do?',
+      subtitle: 'Ethics & Dilemmas',
+      time: '20-90 min',
+      description: 'Navigate real-world AI dilemmas and build your personal ethical framework.'
+    },
+    'rules-of-engagement': {
+      emoji: '📋',
+      title: 'Rules of Engagement',
+      subtitle: 'Policy & Governance',
+      time: '30-120 min',
+      description: 'Create and stress-test AI use policies for your context.'
+    },
+    'ai-proof-assessments': {
+      emoji: '🛡️',
+      title: 'AI-Proof Your Assessments',
+      subtitle: 'Assessment Design',
+      time: '45-75 min',
+      description: 'Transform your assessments to be resilient in an AI era.'
+    },
+    'teaching-with-ai': {
+      emoji: '🤝',
+      title: 'Teaching WITH AI',
+      subtitle: 'Co-Creation & Integration',
+      time: '30-60 min',
+      description: 'Master prompting techniques and build a reusable prompt library.'
+    }
+  };
+
+  // Profile-based recommendations
+  const profiles = {
+    'new-to-ai': {
+      emoji: '🌱',
+      title: 'Getting Started',
+      description: 'You\'re at the beginning of your AI journey. Start with understanding what AI can and can\'t do before diving into practical applications.',
+      firstExperience: 'is-this-ai',
+      pathway: ['is-this-ai', 'what-would-you-do', 'rules-of-engagement', 'teaching-with-ai', 'ai-proof-assessments']
+    },
+    'ethics-focused': {
+      emoji: '⚖️',
+      title: 'Ethics First',
+      description: 'Your primary concern is doing the right thing with AI. Building an ethical foundation first will help you navigate other decisions confidently.',
+      firstExperience: 'what-would-you-do',
+      pathway: ['what-would-you-do', 'rules-of-engagement', 'is-this-ai', 'ai-proof-assessments', 'teaching-with-ai']
+    },
+    'assessment-focused': {
+      emoji: '📝',
+      title: 'Assessment Designer',
+      description: 'Assessment integrity is your top priority. Start by learning to design AI-resilient assessments, then build supporting skills.',
+      firstExperience: 'ai-proof-assessments',
+      pathway: ['ai-proof-assessments', 'is-this-ai', 'teaching-with-ai', 'rules-of-engagement', 'what-would-you-do']
+    },
+    'practical-skills': {
+      emoji: '🛠️',
+      title: 'Practical Implementer',
+      description: 'You want to use AI effectively right away. Start with practical skills, then build policy and ethical understanding around your practice.',
+      firstExperience: 'teaching-with-ai',
+      pathway: ['teaching-with-ai', 'ai-proof-assessments', 'rules-of-engagement', 'what-would-you-do', 'is-this-ai']
+    },
+    'policy-focused': {
+      emoji: '📋',
+      title: 'Policy Builder',
+      description: 'Clear guidelines matter most to you. Start with policy, then build practical skills within that framework.',
+      firstExperience: 'rules-of-engagement',
+      pathway: ['rules-of-engagement', 'what-would-you-do', 'is-this-ai', 'ai-proof-assessments', 'teaching-with-ai']
+    }
+  };
+
+  function updateProgress() {
+    const percent = Math.round(((currentQuestion - 1) / TOTAL_QUESTIONS) * 100);
+    document.getElementById('progress-bar').style.width = percent + '%';
+    document.getElementById('progress-label').textContent = `Question ${currentQuestion} of ${TOTAL_QUESTIONS}`;
+    document.getElementById('progress-percent').textContent = percent + '%';
+  }
+
+  function updateNavigation() {
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+
+    prevBtn.disabled = currentQuestion === 1;
+    prevBtn.style.opacity = currentQuestion === 1 ? '0.5' : '1';
+    prevBtn.style.cursor = currentQuestion === 1 ? 'not-allowed' : 'pointer';
+
+    const hasAnswer = answers['q' + currentQuestion];
+    nextBtn.disabled = !hasAnswer;
+    nextBtn.style.opacity = hasAnswer ? '1' : '0.5';
+    nextBtn.style.cursor = hasAnswer ? 'pointer' : 'not-allowed';
+    nextBtn.textContent = currentQuestion === TOTAL_QUESTIONS ? 'See Results' : 'Next →';
+  }
+
+  function showQuestion(num) {
+    document.querySelectorAll('.question').forEach(q => q.style.display = 'none');
+    const question = document.querySelector(`.question[data-question="${num}"]`);
+    if (question) question.style.display = 'block';
+    updateProgress();
+    updateNavigation();
+  }
+
+  window.nextQuestion = function() {
+    if (currentQuestion < TOTAL_QUESTIONS) {
+      currentQuestion++;
+      showQuestion(currentQuestion);
+    } else {
+      showResults();
+    }
+  };
+
+  window.previousQuestion = function() {
+    if (currentQuestion > 1) {
+      currentQuestion--;
+      showQuestion(currentQuestion);
+    }
+  };
+
+  function determineProfile() {
+    // Score different profiles based on answers
+    const scores = {
+      'new-to-ai': 0,
+      'ethics-focused': 0,
+      'assessment-focused': 0,
+      'practical-skills': 0,
+      'policy-focused': 0
+    };
+
+    // AI experience level (Q3, Q4, Q6)
+    if (answers.q3 === 'never' || answers.q3 === 'rarely') scores['new-to-ai'] += 3;
+    if (answers.q4 === 'none' || answers.q4 === 'basic') scores['new-to-ai'] += 2;
+    if (answers.q6 === 'not-confident') scores['new-to-ai'] += 2;
+
+    // Primary concerns (Q9)
+    if (answers.q9 === 'integrity') scores['assessment-focused'] += 3;
+    if (answers.q9 === 'ethics') scores['ethics-focused'] += 3;
+    if (answers.q9 === 'policy') scores['policy-focused'] += 3;
+    if (answers.q9 === 'skills') scores['practical-skills'] += 2;
+
+    // Goals (Q10)
+    if (answers.q10 === 'understand') scores['new-to-ai'] += 2;
+    if (answers.q10 === 'practical') scores['practical-skills'] += 3;
+    if (answers.q10 === 'lead') scores['policy-focused'] += 2;
+
+    // Interest area (Q2)
+    if (answers.q2 === 'assessment') scores['assessment-focused'] += 2;
+    if (answers.q2 === 'content') scores['practical-skills'] += 2;
+    if (answers.q2 === 'efficiency') scores['practical-skills'] += 1;
+
+    // Role adjustments (Q1)
+    if (answers.q1 === 'teaching' && answers.q2 === 'assessment') scores['assessment-focused'] += 1;
+    if (answers.q1 === 'admin') scores['practical-skills'] += 1;
+
+    // Find highest scoring profile
+    let maxScore = 0;
+    let profile = 'new-to-ai';
+    for (const [key, score] of Object.entries(scores)) {
+      if (score > maxScore) {
+        maxScore = score;
+        profile = key;
+      }
+    }
+
+    return profile;
+  }
+
+  function showResults() {
+    document.getElementById('questions-container').style.display = 'none';
+    document.getElementById('nav-container').style.display = 'none';
+    document.getElementById('progress-container').style.display = 'none';
+    document.getElementById('results-container').style.display = 'block';
+
+    const profileKey = determineProfile();
+    const profile = profiles[profileKey];
+    const firstExp = experiences[profile.firstExperience];
+
+    // Save results
+    const results = {
+      answers: answers,
+      profile: profileKey,
+      pathway: profile.pathway,
+      timestamp: new Date().toISOString(),
+      uid: uid
+    };
+    localStorage.setItem('ai-passport-quiz-results', JSON.stringify(results));
+
+    // Update UI
+    document.getElementById('result-emoji').textContent = profile.emoji;
+    document.getElementById('result-title').textContent = profile.title;
+    document.getElementById('result-description').textContent = profile.description;
+
+    // Recommended first experience
+    document.getElementById('recommended-experience').innerHTML = `
+      <div style="display: flex; align-items: flex-start; gap: 16px;">
+        <span style="font-size: 32px;">${firstExp.emoji}</span>
+        <div style="flex: 1;">
+          <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">${firstExp.title}</div>
+          <div style="font-size: 13px; color: #4F46E5; margin-bottom: 6px;">${firstExp.subtitle} • ${firstExp.time}</div>
+          <div style="font-size: 14px; color: #64748B; line-height: 1.5;">${firstExp.description}</div>
+        </div>
+      </div>
+    `;
+
+    // Pathway list
+    const pathwayHtml = profile.pathway.map((expKey, idx) => {
+      const exp = experiences[expKey];
+      const isFirst = idx === 0;
+      return `
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; background: ${isFirst ? '#EEF2FF' : '#F8FAFC'}; border-radius: 8px; ${isFirst ? 'border: 2px solid #4F46E5;' : ''}">
+          <span style="font-size: 20px;">${exp.emoji}</span>
+          <div style="flex: 1;">
+            <div style="font-weight: ${isFirst ? 'bold' : 'normal'}; color: #0F172A; font-size: 14px;">${exp.title}</div>
+          </div>
+          <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #94A3B8;">${idx + 1}</span>
+        </div>
+      `;
+    }).join('');
+    document.getElementById('pathway-list').innerHTML = pathwayHtml;
+
+    // Update start button (placeholder URL - update with actual)
+    document.getElementById('start-btn').textContent = `Start: ${firstExp.title}`;
+    // In production, this would link to the actual experience
+    // document.getElementById('start-btn').href = `../experiences/${profile.firstExperience}/index.html?uid=${uid}`;
+  }
+
+  window.restartQuiz = function() {
+    currentQuestion = 1;
+    Object.keys(answers).forEach(key => delete answers[key]);
+
+    document.querySelectorAll('input[type="radio"]').forEach(input => {
+      input.checked = false;
+      input.closest('label').style.borderColor = '#E2E8F0';
+      input.closest('label').style.background = '#F8FAFC';
+    });
+
+    document.getElementById('questions-container').style.display = 'block';
+    document.getElementById('nav-container').style.display = 'flex';
+    document.getElementById('progress-container').style.display = 'block';
+    document.getElementById('results-container').style.display = 'none';
+
+    showQuestion(1);
+  };
+
+  // Handle option selection
+  document.addEventListener('change', function(e) {
+    if (e.target.type === 'radio') {
+      const questionDiv = e.target.closest('.question');
+      answers[e.target.name] = e.target.value;
+
+      // Update visual state
+      questionDiv.querySelectorAll('label').forEach(label => {
+        label.style.borderColor = '#E2E8F0';
+        label.style.background = '#F8FAFC';
+      });
+      e.target.closest('label').style.borderColor = '#4F46E5';
+      e.target.closest('label').style.background = '#EEF2FF';
+
+      updateNavigation();
+    }
+  });
+
+  // Initialize
+  updateProgress();
+  updateNavigation();
+})();
+</script>
+```

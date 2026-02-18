@@ -1,0 +1,9 @@
+project:
+  type: website
+  output-dir: _site
+
+format:
+  html:
+    theme: none
+    minimal: true
+    self-contained: true
