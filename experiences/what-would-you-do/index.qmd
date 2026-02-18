@@ -1,0 +1,12 @@
+---
+title: "What Would You Do"
+format:
+  html:
+    self-contained: true
+---
+
+# What Would You Do
+
+<!-- TODO: Build out this experience -->
+
+This experience is under development.
