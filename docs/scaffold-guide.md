@@ -92,11 +92,33 @@ Get the URL for each file (right-click → copy link).
 
 ---
 
-## Step 7: AI in 5 (Daily Announcements)
+## Step 7: AI in 5 Self-Enrollment Group
 
-This is the one Blackboard feature we actively use:
+> ⚠️ **Curtin-specific:** These steps may vary. Check with eLearning support if menus differ.
 
-1. Go to **AI in 5** in sidebar
+To let staff opt-in to daily emails:
+
+### Option A: Self-Enrollment Group (if available)
+
+1. **Control Panel** → **Users and Groups** → **Groups**
+2. **Create** → **Self-Enroll**
+3. Settings:
+   - Name: "AI in 5 Daily Challenges"
+   - Allow sign-up: Yes
+   - Max members: Unlimited
+4. Add sign-up link to The Arrivals Hall or sidebar
+5. When posting announcements, select this group as recipient
+
+### Option B: Use Organisation Enrollment (simpler)
+
+If group features aren't available on Organisation sites:
+1. Anyone enrolled in the site receives announcements
+2. Promote the site enrollment link
+3. All announcements go to all enrolled users
+
+### Posting Daily Challenges
+
+1. Go to **AI in 5** in sidebar (renamed Announcements)
 2. **Create Announcement**
 3. Write daily challenge (~50-100 words)
 4. Check **"Send a copy immediately"**

@@ -61,13 +61,11 @@ the-ai-skills-passport/
 ├── server/
 │   ├── app.py                   # Progress tracker (FastAPI)
 │   └── requirements.txt
-├── ai-in-5/
-│   └── README.md                # Daily challenge guide
-├── workshops/
-│   └── README.md                # Facilitation notes
 └── docs/
     ├── scaffold-guide.md        # Blackboard setup
-    └── deployment-guide.md      # Build and deploy SPAs
+    ├── deployment-guide.md      # Build and deploy SPAs
+    ├── facilitator-guide.md     # Workshop facilitation
+    └── brand-guide.md           # Colours, typography, style
 ```
 
 ## Quick Start
