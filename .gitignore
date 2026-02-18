@@ -4,6 +4,7 @@ dist/
 
 # Quarto render outputs
 _output/
+_site/
 
 # Python
 __pycache__/
