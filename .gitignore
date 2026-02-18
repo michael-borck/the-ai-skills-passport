@@ -1,0 +1,16 @@
+# Build outputs
+dist/
+*.zip
+
+# Quarto render outputs
+_output/
+
+# Python
+__pycache__/
+*.pyc
+
+# SQLite databases
+*.db
+
+# macOS
+.DS_Store
