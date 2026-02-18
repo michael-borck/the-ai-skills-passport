@@ -37,16 +37,29 @@ echo ""
 
 # --- Collect outputs ---
 
+# Find the rendered index.html in a Quarto project (_output or _site)
+find_output() {
+  for candidate in "$1/_output/index.html" "$1/_site/index.html"; do
+    if [ -f "$candidate" ]; then
+      echo "$candidate"
+      return
+    fi
+  done
+  echo "ERROR: No rendered output found in $1" >&2
+  return 1
+}
+
 # Top-level SPAs (onboarding, resources, passport)
 for name in onboarding resources passport; do
-  cp "$ROOT/$name/_output/index.html" "$DIST/$name.html"
+  src="$(find_output "$ROOT/$name")"
+  cp "$src" "$DIST/$name.html"
   echo "  Collected $name.html"
 done
 
 # Experience SPAs
-for exp_dir in "$ROOT"/experiences/*/; do
-  exp_name="$(basename "$exp_dir")"
-  cp "$exp_dir/_output/index.html" "$DIST/experiences/$exp_name.html"
+for exp_name in is-this-ai what-would-you-do rules-of-engagement ai-proof-assessments teaching-with-ai; do
+  src="$(find_output "$ROOT/experiences/$exp_name")"
+  cp "$src" "$DIST/experiences/$exp_name.html"
   echo "  Collected experiences/$exp_name.html"
 done
 
