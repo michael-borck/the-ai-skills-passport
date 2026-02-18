@@ -33,7 +33,7 @@ format:
   <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
     <h3 style="font-size: 14px; color: #14532D; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
     <ul style="margin: 0; padding-left: 20px; color: #166534; line-height: 1.8;">
-      <li>Recognize the ethical complexity of AI decisions</li>
+      <li>Recognise the ethical complexity of AI decisions</li>
       <li>Examine multiple stakeholder perspectives</li>
       <li>Develop strategies for navigating grey areas</li>
       <li>Articulate your own ethical principles for AI use</li>
@@ -58,7 +58,7 @@ format:
       <div class="scenario-card" data-scenario="1" style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
         <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SCENARIO 1: THE STUDENT EMAIL</div>
         <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7;">
-          <p style="margin: 0;">A student sends you an email asking for an extension. The writing is polished and uses phrases you recognize as typical AI output. The student has always been a strong communicator, but this email feels... different.</p>
+          <p style="margin: 0;">A student sends you an email asking for an extension. The writing is polished and uses phrases you recognise as typical AI output. The student has always been a strong communicator, but this email feels... different.</p>
         </div>
         <div style="font-weight: bold; margin-bottom: 12px;">What would you do?</div>
         <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
@@ -232,7 +232,7 @@ format:
         <div style="display: flex; flex-direction: column; gap: 12px;">
           <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Co-Authorship:</strong> If AI contributes substantially to a paper, should it be acknowledged?</div>
           <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Data Analysis:</strong> Where's the line between AI as tool and AI as collaborator?</div>
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Literature Reviews:</strong> AI can summarize papers. Is this labor-saving or avoiding scholarly engagement?</div>
+          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>Literature Reviews:</strong> AI can summarise papers. Is this labor-saving or avoiding scholarly engagement?</div>
           <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;"><strong>HDR Supervision:</strong> How do you guide students on AI use when practices are evolving?</div>
         </div>
       </div>

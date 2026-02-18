@@ -473,7 +473,7 @@ format:
         <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px;">
           <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
             <strong style="color: #0F172A;">Appropriate Tasks:</strong>
-            <span style="color: #64748B;"> Drafting routine communications, summarizing documents, creating templates, scheduling assistance.</span>
+            <span style="color: #64748B;"> Drafting routine communications, summarising documents, creating templates, scheduling assistance.</span>
           </div>
           <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
             <strong style="color: #0F172A;">Review Requirements:</strong>
@@ -623,7 +623,7 @@ format:
 
     document.getElementById('policy-output').textContent = policy;
     document.getElementById('generated-policy').style.display = 'block';
-    document.getElementById('generated-policy').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.getElementById('generated-policy').scrollIntoView({ behaviour: 'smooth', block: 'center' });
   };
 
   // Tab switching

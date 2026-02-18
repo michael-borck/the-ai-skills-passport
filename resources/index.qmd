@@ -842,7 +842,7 @@ Now write feedback in my style for:
         <ul>
           <li><strong>Getting Started Guide</strong> — Philosophy and overview</li>
           <li><strong>Generic Rubric Template</strong> — 5 criteria × 4 levels, ready to adapt</li>
-          <li><strong>Adaptation Guide</strong> — Customizing for your discipline and AI tools</li>
+          <li><strong>Adaptation Guide</strong> — Customising for your discipline and AI tools</li>
           <li><strong>Worked Example</strong> — Information security audit case study</li>
         </ul>
 
@@ -857,7 +857,7 @@ Now write feedback in my style for:
 
         <p><strong>Download:</strong></p>
         <p><a href="[RUBRIC_URL]" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">Download Rubric Pack →</a></p>
-        <p style="font-size: 13px; color: #64748B;">Word documents (.docx) — customize for your unit context</p>
+        <p style="font-size: 13px; color: #64748B;">Word documents (.docx) — customise for your unit context</p>
       `
     },
 

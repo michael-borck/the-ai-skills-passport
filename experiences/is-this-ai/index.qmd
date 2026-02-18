@@ -33,7 +33,7 @@ format:
   <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
     <h3 style="font-size: 14px; color: #14532D; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
     <ul style="margin: 0; padding-left: 20px; color: #166534; line-height: 1.8;">
-      <li>Recognize common patterns in AI-generated text</li>
+      <li>Recognise common patterns in AI-generated text</li>
       <li>Understand why detection tools are unreliable</li>
       <li>Apply practical strategies for identifying AI content</li>
       <li>Make informed decisions about detection in your context</li>

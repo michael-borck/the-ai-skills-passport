@@ -711,7 +711,7 @@ function showRTCFExample(type) {
   } else if (type === 'rtcf') {
     display.innerHTML = '<p style="margin: 0 0 10px 0; color: #38a169; font-weight: bold;">RTCF Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #333; white-space: pre-wrap;"><strong style="color: #e53e3e;">Role:</strong> You are an experienced curriculum designer who specializes in outcome-based assessment.\n\n<strong style="color: #dd6b20;">Task:</strong> Create a rubric for assessing critical thinking in student essays.\n\n<strong style="color: #38a169;">Context:</strong> This is for a second-year marketing strategy unit. Students write 2000-word case analyses. The rubric is worth 30% of their grade. The cohort includes many international students.\n\n<strong style="color: #3182ce;">Format:</strong> 4-point scale (Excellent, Good, Developing, Beginning) with clear descriptors for each level. Table format that can be pasted into Word.</p>';
   } else if (type === 'result') {
-    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #805ad5; font-weight: bold;">Why the RTCF Version Works:</p><ul style="margin: 0; color: #333; line-height: 1.8;"><li><strong>Role</strong> primes AI with relevant expertise and perspective</li><li><strong>Task</strong> is specific and actionable—AI knows exactly what to produce</li><li><strong>Context</strong> provides the constraints and audience info AI needs</li><li><strong>Format</strong> ensures output is immediately usable</li></ul><p style="margin: 15px 0 0 0; color: #666;">The result? A rubric you can actually use, not a generic template you\'ll spend an hour customizing.</p>';
+    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #805ad5; font-weight: bold;">Why the RTCF Version Works:</p><ul style="margin: 0; color: #333; line-height: 1.8;"><li><strong>Role</strong> primes AI with relevant expertise and perspective</li><li><strong>Task</strong> is specific and actionable—AI knows exactly what to produce</li><li><strong>Context</strong> provides the constraints and audience info AI needs</li><li><strong>Format</strong> ensures output is immediately usable</li></ul><p style="margin: 15px 0 0 0; color: #666;">The result? A rubric you can actually use, not a generic template you\'ll spend an hour customising.</p>';
   }
 }
 
@@ -812,7 +812,7 @@ function showTechnique(technique) {
   title.textContent = t.title;
   content.innerHTML = t.content;
   detail.style.display = 'block';
-  detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  detail.scrollIntoView({ behaviour: 'smooth', block: 'nearest' });
 }
 
 function closeTechnique() {

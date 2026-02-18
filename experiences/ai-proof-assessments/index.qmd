@@ -48,8 +48,8 @@ format:
 
     <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <label style="display: block; font-weight: bold; margin-bottom: 12px; color: #0F172A;">Paste or type your assessment brief:</label>
-      <textarea id="assessment-brief" placeholder="Example: Write a 2000-word essay analyzing the marketing strategy of a company of your choice. Include theory from weeks 1-6 and provide recommendations for improvement." style="width: 100%; box-sizing: border-box; min-height: 120px; padding: 16px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical;"></textarea>
-      <button onclick="analyzeAssessment()" style="margin-top: 16px; background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: bold; cursor: pointer;">Analyze Vulnerabilities</button>
+      <textarea id="assessment-brief" placeholder="Example: Write a 2000-word essay analysing the marketing strategy of a company of your choice. Include theory from weeks 1-6 and provide recommendations for improvement." style="width: 100%; box-sizing: border-box; min-height: 120px; padding: 16px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical;"></textarea>
+      <button onclick="analyseAssessment()" style="margin-top: 16px; background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: bold; cursor: pointer;">Analyse Vulnerabilities</button>
     </div>
 
     <div id="vulnerability-analysis" style="display: none;">
@@ -184,7 +184,7 @@ format:
 
           <div style="background: #FCE7F3; padding: 16px; border-radius: 8px;">
             <strong style="color: #9D174D;">Example transformation:</strong>
-            <p style="margin: 8px 0 0 0; color: #BE185D; font-style: italic;">"Analyze marketing strategy" becomes "Interview someone at an organization you're connected to about their marketing challenges, then develop recommendations using concepts from weeks 3-5."</p>
+            <p style="margin: 8px 0 0 0; color: #BE185D; font-style: italic;">"Analyse marketing strategy" becomes "Interview someone at an organization you're connected to about their marketing challenges, then develop recommendations using concepts from weeks 3-5."</p>
           </div>
         </div>
       </div>
@@ -462,10 +462,10 @@ format:
   const uid = urlParams.get('uid') || 'anonymous';
 
   // Activity 1: Vulnerability Analysis
-  window.analyzeAssessment = function() {
+  window.analyseAssessment = function() {
     const brief = document.getElementById('assessment-brief').value.trim();
     if (!brief) {
-      alert('Please enter an assessment brief to analyze.');
+      alert('Please enter an assessment brief to analyse.');
       return;
     }
 
@@ -483,7 +483,7 @@ format:
       vulnerabilities.push({ icon: '📝', text: 'Generic written output that sounds competent but lacks personal voice', risk: 'high' });
     }
 
-    if (briefLower.includes('analyze') || briefLower.includes('analysis') || briefLower.includes('evaluate')) {
+    if (briefLower.includes('analyse') || briefLower.includes('analysis') || briefLower.includes('evaluate')) {
       aiApproach += ' For analysis tasks, AI can apply standard frameworks competently and identify obvious patterns, but may miss nuances that come from deep engagement with the material.';
       vulnerabilities.push({ icon: '🔍', text: 'Surface-level analysis using standard frameworks without deeper insight', risk: 'high' });
     }
@@ -535,7 +535,7 @@ format:
     document.getElementById('vulnerability-checklist').innerHTML = checklistHtml;
 
     // Scroll to analysis
-    analysisDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    analysisDiv.scrollIntoView({ behaviour: 'smooth', block: 'start' });
   };
 
   // Activity 2: Pathway cards toggle
