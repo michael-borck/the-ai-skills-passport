@@ -112,4 +112,6 @@ quarto preview
 
 ## License
 
-MIT
+**Code:** MIT License
+
+**Content:** Currently distributed under MIT. Learning content and course materials may transition to Creative Commons (CC BY 4.0 or similar) in future releases to better reflect educational reuse expectations.
