@@ -79,12 +79,18 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 
 ## Technical Environment
 
+- **Platform:** macOS with zsh
 - **Network:** Curtin University internal network, VPN required for external access
 - **Hosting:** Desktop machine (progress tracker, AI Exchange)
 - **LMS:** Blackboard Classic now, Canvas late 2026
 - **Blackboard constraints:** Inline CSS only, no `<style>` tags, no external files. CAN embed JS inline. CAN use URL variables for user identity
-- **Version control:** Git + GitHub
+- **Version control:** Git + GitHub (SSH for push)
 - **No Blackboard API access** — cannot programmatically post announcements
+
+## Style Guide
+
+- **Spelling:** Australian/British (analyse, behaviour, recognise, summarise, customise)
+- **Shell:** Use `perl -pi -e` for in-place text substitution (BSD `sed` on macOS has quirks)
 
 ## Design Principles
 
