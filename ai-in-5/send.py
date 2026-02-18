@@ -92,17 +92,36 @@ def load_content_bank(path=None):
 
 
 def load_subscribers(path=None):
-    """Load email addresses from subscribers.csv.
+    """Load email addresses from the API server or a local CSV fallback.
 
-    Expects at minimum a column called 'email'. Ignores other columns,
-    so a Blackboard group export (which has name, username, email) works.
+    Tries the progress tracker API first (GET /subscribers/export).
+    Falls back to a local subscribers.csv if the server is unavailable.
     """
+    load_env()
+    server_url = os.environ.get("API_URL", "http://localhost:5050")
+
+    # Try API first
+    try:
+        import urllib.request
+        url = f"{server_url}/subscribers/export"
+        with urllib.request.urlopen(url, timeout=5) as resp:
+            text = resp.read().decode("utf-8")
+        reader = csv.DictReader(text.splitlines())
+        emails = [row["email"] for row in reader if row.get("email", "").strip()]
+        if emails:
+            print(f"  Loaded {len(emails)} subscribers from API")
+            return emails
+    except Exception as e:
+        print(f"  API unavailable ({e}), trying local CSV...")
+
+    # Fallback to local CSV
     if path is None:
         path = Path(__file__).parent / "subscribers.csv"
+    if not path.exists():
+        return []
     emails = []
     with open(path, newline="") as f:
         reader = csv.DictReader(f)
-        # Be flexible about column naming
         for row in reader:
             email = (
                 row.get("email")
@@ -113,6 +132,7 @@ def load_subscribers(path=None):
             ).strip()
             if email and "@" in email:
                 emails.append(email)
+    print(f"  Loaded {len(emails)} subscribers from local CSV")
     return emails
 
 

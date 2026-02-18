@@ -1,21 +1,24 @@
 """
-AI Skills Passport - Progress Tracker (FastAPI)
+AI Skills Passport - Progress Tracker & Subscriptions (FastAPI)
 Run: uvicorn app:app --host 0.0.0.0 --port 5050 --reload
 Docs: http://localhost:5050/docs
 """
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from typing import Literal
 import sqlite3
+import io
+import csv
 from datetime import datetime
 import os
 
 app = FastAPI(
     title="AI Skills Passport",
-    description="Track experience completions and badges",
-    version="1.0"
+    description="Track experience completions, badges, and AI in 5 subscriptions",
+    version="1.1"
 )
 
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
@@ -37,6 +40,10 @@ class CompletionRequest(BaseModel):
     experience: ExperienceType
 
 
+class SubscribeRequest(BaseModel):
+    email: str
+
+
 def get_db():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
@@ -56,6 +63,14 @@ def init_db():
             )
         """)
         conn.execute("CREATE INDEX IF NOT EXISTS idx_uid ON completions(uid)")
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS subscribers (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                email TEXT NOT NULL UNIQUE,
+                subscribed_at TEXT NOT NULL,
+                active INTEGER NOT NULL DEFAULT 1
+            )
+        """)
     print(f"✓ Database ready: {DB_PATH}")
 
 
@@ -94,6 +109,63 @@ def get_progress(uid: str):
         "total_experiences": len(EXPERIENCES),
         "badges": earned_badges,
     }
+
+
+# ---------------------------------------------------------------------------
+# AI in 5 — Subscriptions
+# ---------------------------------------------------------------------------
+
+
+@app.post("/subscribe")
+def subscribe(req: SubscribeRequest):
+    """Subscribe an email to AI in 5"""
+    email = req.email.strip().lower()
+    if "@" not in email:
+        raise HTTPException(status_code=400, detail="Invalid email address")
+    with get_db() as conn:
+        conn.execute(
+            "INSERT INTO subscribers (email, subscribed_at, active) VALUES (?, ?, 1) "
+            "ON CONFLICT(email) DO UPDATE SET active = 1",
+            (email, datetime.utcnow().isoformat())
+        )
+    return {"success": True, "email": email, "status": "subscribed"}
+
+
+@app.post("/unsubscribe")
+def unsubscribe(req: SubscribeRequest):
+    """Unsubscribe an email from AI in 5"""
+    email = req.email.strip().lower()
+    with get_db() as conn:
+        conn.execute("UPDATE subscribers SET active = 0 WHERE email = ?", (email,))
+    return {"success": True, "email": email, "status": "unsubscribed"}
+
+
+@app.get("/subscribers")
+def list_subscribers():
+    """List active subscriber count"""
+    with get_db() as conn:
+        count = conn.execute("SELECT COUNT(*) FROM subscribers WHERE active = 1").fetchone()[0]
+    return {"active_subscribers": count}
+
+
+@app.get("/subscribers/export")
+def export_subscribers():
+    """Export active subscribers as CSV (for send.py)"""
+    with get_db() as conn:
+        rows = conn.execute(
+            "SELECT email, subscribed_at FROM subscribers WHERE active = 1 ORDER BY email"
+        ).fetchall()
+    output = io.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["email", "subscribed_at"])
+    for row in rows:
+        writer.writerow([row["email"], row["subscribed_at"]])
+    output.seek(0)
+    return StreamingResponse(
+        output,
+        media_type="text/csv",
+        headers={"Content-Disposition": "attachment; filename=subscribers.csv"}
+    )
 
 
 if __name__ == "__main__":
