@@ -7,7 +7,8 @@
      [EXP2_URL]       = What Would You Do?
      [EXP3_URL]       = Rules of Engagement
      [EXP4_URL]       = AI-Proof Your Assessments
-     [EXP5_URL]       = Working WITH AI
+     [EXP5_URL]       = Working with AI
+     [EXP6_URL]       = AI in Your Research
      [TOOLKIT_URL]    = AI Toolkit (Resources)
      [PASSPORT_URL]   = My Passport
      [EXCHANGE_URL]   = The AI Exchange (external app, no uid needed)
@@ -16,158 +17,176 @@
      The @X@user.batch_uid@X@ is a Blackboard variable that inserts the user's ID
 -->
 
-<div style="font-family: Georgia, 'Times New Roman', serif; max-width: 960px; margin: 0 auto; color: #1E293B;">
+<div style="font-family: Georgia, 'Times New Roman', serif; color: #1E293B;">
 
-  <!-- Header -->
-  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 40px 36px 32px; margin-bottom: 28px;">
-    <div style="font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">School of Marketing &amp; Management • Curtin University</div>
-    <h1 style="font-family: 'Courier New', Consolas, monospace; font-size: 28px; font-weight: bold; color: #F1F5F9; margin: 0 0 12px 0; letter-spacing: 2px;">THE AI SKILLS PASSPORT</h1>
-    <p style="font-size: 16px; color: #94A3B8; line-height: 1.6; margin: 0; max-width: 640px;">Build your AI literacy at your own pace. Five standalone experiences, no prerequisites, no fixed path. Whether you teach, research, or run the school — start anywhere.</p>
+  <!-- Compact Header Bar -->
+  <div style="background: #0F172A; padding: 14px 20px; margin-bottom: 16px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td><span style="font-family: 'Courier New', monospace; font-size: 18px; font-weight: bold; color: #F1F5F9; letter-spacing: 2px;">THE AI SKILLS PASSPORT</span></td>
+      <td style="text-align: right;"><span style="font-family: 'Courier New', monospace; font-size: 11px; color: #64748B;">SoMM &bull; Curtin University</span></td>
+    </tr></table>
+    <div style="font-size: 14px; color: #94A3B8; margin-top: 4px;">Build your AI literacy at your own pace. Six standalone experiences — start anywhere.</div>
   </div>
 
-  <!-- Find Your Path Banner -->
-  <div style="background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 14px; padding: 24px; margin-bottom: 28px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-    <span style="font-size: 48px; flex-shrink: 0;">🧭</span>
-    <div style="flex: 1; min-width: 200px;">
-      <div style="font-weight: bold; font-size: 18px; color: #14532D; margin-bottom: 4px;">Not sure where to start?</div>
-      <p style="font-size: 14px; color: #166534; line-height: 1.5; margin: 0;">Take a 2-minute quiz to discover your recommended path through the AI Skills Passport.</p>
-    </div>
-    <a href="[ONBOARDING_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #22C55E, #16A34A); color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; font-size: 15px; white-space: nowrap;">Find Your Path</a>
+  <!-- Find Your Path — compact inline -->
+  <div style="background: #F0FDF4; border: 1px solid #22C55E; padding: 10px 16px; margin-bottom: 16px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td style="font-size: 24px; width: 36px;">🧭</td>
+      <td style="font-size: 14px; color: #166534;"><strong>Not sure where to start?</strong> Take a 2-minute quiz to find your recommended path.</td>
+      <td style="text-align: right; width: 130px;"><a href="[ONBOARDING_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px;">Find Your Path</a></td>
+    </tr></table>
   </div>
 
-  <!-- The Five Experiences -->
-  <details open style="margin-bottom: 28px;">
-    <summary style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; cursor: pointer; padding: 8px 0; list-style: none;">▸ The Five Experiences</summary>
+  <!-- The Six Experiences — accordion -->
+  <details style="margin-bottom: 8px;">
+    <summary style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; cursor: pointer; padding: 4px 0; list-style: none;">&#9656; The Six Experiences</summary>
 
-    <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 14px;">
-
-      <a href="[EXP1_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
-        <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
-          <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🔍</span>
-          <div style="flex: 1;">
-            <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Is This AI?</div>
-            <div style="font-size: 13px; color: #64748B;">Detection &amp; Awareness • 15–60 min</div>
+  <table width="100%" cellpadding="0" cellspacing="8" border="0" style="margin-top: 8px;">
+    <tr>
+      <td width="50%" style="vertical-align: top;">
+        <a href="[EXP1_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+          <div style="border: 1px solid #E2E8F0; padding: 12px 14px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+            <div style="font-size: 15px; color: #0F172A;"><span style="font-size: 20px; margin-right: 6px;">🔍</span><strong>Is This AI?</strong></div>
+            <div style="font-size: 12px; color: #64748B; margin-top: 2px; padding-left: 28px;">Detection &amp; Awareness &bull; 15–60 min</div>
           </div>
-        </div>
-      </a>
-
-      <a href="[EXP2_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
-        <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
-          <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🤔</span>
-          <div style="flex: 1;">
-            <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">What Would You Do?</div>
-            <div style="font-size: 13px; color: #64748B;">Ethics &amp; Dilemmas • 20–90 min</div>
+        </a>
+      </td>
+      <td width="50%" style="vertical-align: top;">
+        <a href="[EXP2_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+          <div style="border: 1px solid #E2E8F0; padding: 12px 14px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+            <div style="font-size: 15px; color: #0F172A;"><span style="font-size: 20px; margin-right: 6px;">🤔</span><strong>What Would You Do?</strong></div>
+            <div style="font-size: 12px; color: #64748B; margin-top: 2px; padding-left: 28px;">Ethics &amp; Dilemmas &bull; 20–90 min</div>
           </div>
-        </div>
-      </a>
-
-      <a href="[EXP3_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
-        <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
-          <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">📋</span>
-          <div style="flex: 1;">
-            <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Rules of Engagement</div>
-            <div style="font-size: 13px; color: #64748B;">Policy &amp; Governance • 30–120 min</div>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" style="vertical-align: top;">
+        <a href="[EXP3_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+          <div style="border: 1px solid #E2E8F0; padding: 12px 14px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+            <div style="font-size: 15px; color: #0F172A;"><span style="font-size: 20px; margin-right: 6px;">📋</span><strong>Rules of Engagement</strong></div>
+            <div style="font-size: 12px; color: #64748B; margin-top: 2px; padding-left: 28px;">Policy &amp; Governance &bull; 30–120 min</div>
           </div>
-        </div>
-      </a>
-
-      <a href="[EXP4_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
-        <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
-          <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🛡️</span>
-          <div style="flex: 1;">
-            <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">AI-Proof Your Assessments</div>
-            <div style="font-size: 13px; color: #64748B;">Assessment Design • 45–75 min</div>
+        </a>
+      </td>
+      <td width="50%" style="vertical-align: top;">
+        <a href="[EXP5_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+          <div style="border: 1px solid #E2E8F0; padding: 12px 14px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+            <div style="font-size: 15px; color: #0F172A;"><span style="font-size: 20px; margin-right: 6px;">🤝</span><strong>Working with AI</strong></div>
+            <div style="font-size: 12px; color: #64748B; margin-top: 2px; padding-left: 28px;">Co-Creation &amp; Integration &bull; 30–60 min</div>
           </div>
-        </div>
-      </a>
-
-      <a href="[EXP5_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
-        <div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 16px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
-          <span style="font-size: 28px; flex-shrink: 0; margin-top: 2px;">🤝</span>
-          <div style="flex: 1;">
-            <div style="font-weight: bold; font-size: 17px; color: #0F172A; margin-bottom: 2px;">Working WITH AI</div>
-            <div style="font-size: 13px; color: #64748B;">Co-Creation &amp; Integration • 30–60 min</div>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" style="vertical-align: top;">
+        <a href="[EXP4_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+          <div style="border: 1px solid #E2E8F0; padding: 12px 14px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+            <div style="font-size: 15px; color: #0F172A;"><span style="font-size: 20px; margin-right: 6px;">🛡️</span><strong>AI-Proof Your Assessments</strong></div>
+            <div style="font-size: 12px; color: #64748B; margin-top: 2px; padding-left: 28px;">Assessment Design &bull; 45–75 min</div>
           </div>
+        </a>
+      </td>
+      <td width="50%" style="vertical-align: top;">
+        <a href="[EXP6_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+          <div style="border: 1px solid #E2E8F0; padding: 12px 14px; background: #FFFFFF;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+            <div style="font-size: 15px; color: #0F172A;"><span style="font-size: 20px; margin-right: 6px;">🔬</span><strong>AI in Your Research</strong></div>
+            <div style="font-size: 12px; color: #64748B; margin-top: 2px; padding-left: 28px;">Research Workflows &amp; Integrity &bull; 30–60 min</div>
+          </div>
+        </a>
+      </td>
+    </tr>
+  </table>
+  </details>
+
+  <!-- Quick Links — accordion -->
+  <details style="margin-bottom: 8px;">
+    <summary style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; cursor: pointer; padding: 4px 0; list-style: none;">&#9656; Quick Links</summary>
+
+  <table width="100%" cellpadding="0" cellspacing="8" border="0" style="margin-top: 8px;">
+    <tr>
+      <td width="25%" style="vertical-align: top;">
+        <div style="background: #F1F5F9; padding: 10px 12px;">
+          <div style="font-size: 16px;">📬</div>
+          <div style="font-weight: bold; font-size: 13px; color: #0F172A; margin-top: 4px;">AI in 5</div>
+          <div style="font-size: 12px; color: #64748B; line-height: 1.4;">Daily 5-min challenge in your inbox.</div>
         </div>
-      </a>
+      </td>
+      <td width="25%" style="vertical-align: top;">
+        <a href="[TOOLKIT_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+          <div style="background: #EEF2FF; border: 1px solid #C7D2FE; padding: 10px 12px;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#C7D2FE'">
+            <div style="font-size: 16px;">🧰</div>
+            <div style="font-weight: bold; font-size: 13px; color: #312E81; margin-top: 4px;">AI Toolkit</div>
+            <div style="font-size: 12px; color: #4338CA; line-height: 1.4;">Frameworks, templates &amp; guides.</div>
+          </div>
+        </a>
+      </td>
+      <td width="25%" style="vertical-align: top;">
+        <a href="[EXCHANGE_URL]" target="_blank" style="text-decoration: none; display: block;">
+          <div style="background: #FDF4FF; border: 1px solid #E879F9; padding: 10px 12px;" onmouseover="this.style.borderColor='#A855F7'" onmouseout="this.style.borderColor='#E879F9'">
+            <div style="font-size: 16px;">🌐</div>
+            <div style="font-weight: bold; font-size: 13px; color: #701A75; margin-top: 4px;">AI Exchange</div>
+            <div style="font-size: 12px; color: #86198F; line-height: 1.4;">See what others are trying.</div>
+          </div>
+        </a>
+      </td>
+      <td width="25%" style="vertical-align: top;">
+        <a href="[PASSPORT_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+          <div style="background: #F1F5F9; border: 1px solid #E2E8F0; padding: 10px 12px;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
+            <div style="font-size: 16px;">🏅</div>
+            <div style="font-weight: bold; font-size: 13px; color: #0F172A; margin-top: 4px;">My Passport</div>
+            <div style="font-size: 12px; color: #64748B; line-height: 1.4;">Track progress &amp; collect badges.</div>
+          </div>
+        </a>
+      </td>
+    </tr>
+  </table>
+  </details>
 
-    </div>
+  <!-- Pacing Options — collapsed -->
+  <details style="margin-bottom: 8px;">
+    <summary style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; cursor: pointer; padding: 4px 0; list-style: none;">&#9656; How Much Time Do You Have?</summary>
+    <table width="100%" cellpadding="0" cellspacing="8" border="0" style="margin-top: 8px;">
+      <tr>
+        <td width="33%" style="vertical-align: top;">
+          <div style="background: #EEF2FF; border: 1px solid #C7D2FE; padding: 12px;">
+            <div style="font-size: 18px;">⚡</div>
+            <div style="font-weight: bold; font-size: 14px; color: #312E81; margin-top: 4px;">5 minutes a day</div>
+            <div style="font-size: 12px; color: #64748B; line-height: 1.4;">AI in 5 micro-challenges in your inbox every morning.</div>
+          </div>
+        </td>
+        <td width="33%" style="vertical-align: top;">
+          <div style="background: #F0FDF4; border: 1px solid #BBF7D0; padding: 12px;">
+            <div style="font-size: 18px;">🗺️</div>
+            <div style="font-weight: bold; font-size: 14px; color: #14532D; margin-top: 4px;">One experience a week</div>
+            <div style="font-size: 12px; color: #64748B; line-height: 1.4;">Self-directed, structured progress over five weeks.</div>
+          </div>
+        </td>
+        <td width="33%" style="vertical-align: top;">
+          <div style="background: #FFF7ED; border: 1px solid #FED7AA; padding: 12px;">
+            <div style="font-size: 18px;">🎓</div>
+            <div style="font-weight: bold; font-size: 14px; color: #7C2D12; margin-top: 4px;">2-hour hands-on session</div>
+            <div style="font-size: 12px; color: #64748B; line-height: 1.4;">Same content, guided face-to-face by the AI Facilitator.</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </details>
 
-    <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 16px 20px; margin-top: 14px; display: flex; align-items: center; gap: 14px;">
-      <span style="font-size: 24px; flex-shrink: 0;">✅</span>
-      <div style="font-size: 14px; color: #334155; line-height: 1.5;">Zero prerequisites. Every experience stands alone. Start with whatever interests you most.</div>
+  <!-- Upcoming Workshops — collapsed -->
+  <details style="margin-bottom: 16px;">
+    <summary style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; cursor: pointer; padding: 4px 0; list-style: none;">&#9656; Upcoming Workshops</summary>
+    <div style="background: #F8FAFC; border: 1px solid #E2E8F0; padding: 12px 16px; margin-top: 8px;">
+      <div style="font-size: 13px; color: #64748B; line-height: 1.5;">No workshops scheduled yet. Check back soon or keep an eye on AI in 5 for announcements. Want a session for your team? Contact Michael Borck.</div>
     </div>
   </details>
 
-  <!-- How Much Time Do You Have? -->
-  <details style="margin-bottom: 28px;">
-    <summary style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; cursor: pointer; padding: 8px 0; list-style: none;">▸ How Much Time Do You Have?</summary>
-
-    <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 14px;">
-      <div style="flex: 1; min-width: 200px; background: #EEF2FF; border: 2px solid #C7D2FE; border-radius: 12px; padding: 20px;">
-        <div style="font-size: 24px; margin-bottom: 8px;">⚡</div>
-        <div style="font-weight: bold; font-size: 16px; color: #312E81; margin-bottom: 4px;">5 minutes a day</div>
-        <div style="font-size: 13px; color: #64748B; line-height: 1.5;">AI in 5 micro-challenges in your inbox every morning.</div>
-      </div>
-      <div style="flex: 1; min-width: 200px; background: #F0FDF4; border: 2px solid #BBF7D0; border-radius: 12px; padding: 20px;">
-        <div style="font-size: 24px; margin-bottom: 8px;">🗺️</div>
-        <div style="font-weight: bold; font-size: 16px; color: #14532D; margin-bottom: 4px;">One experience a week</div>
-        <div style="font-size: 13px; color: #64748B; line-height: 1.5;">Self-directed, structured progress over five weeks.</div>
-      </div>
-      <div style="flex: 1; min-width: 200px; background: #FFF7ED; border: 2px solid #FED7AA; border-radius: 12px; padding: 20px;">
-        <div style="font-size: 24px; margin-bottom: 8px;">🎓</div>
-        <div style="font-weight: bold; font-size: 16px; color: #7C2D12; margin-bottom: 4px;">2-hour hands-on session</div>
-        <div style="font-size: 13px; color: #64748B; line-height: 1.5;">Same content, guided face-to-face by the AI Facilitator.</div>
-      </div>
-    </div>
-  </details>
-
-  <!-- Upcoming Workshops -->
-  <details style="margin-bottom: 28px;">
-    <summary style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; cursor: pointer; padding: 8px 0; list-style: none;">▸ Upcoming Workshops</summary>
-    <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-top: 14px;">
-      <p style="font-size: 14px; color: #64748B; margin: 0; line-height: 1.6;">No workshops scheduled yet. Check back soon or keep an eye on AI in 5 for announcements. Want a session for your discipline group or team? Contact Michael Borck.</p>
-    </div>
-  </details>
-
-  <!-- Quick Links -->
-  <details style="margin-bottom: 28px;">
-    <summary style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #475569; text-transform: uppercase; cursor: pointer; padding: 8px 0; list-style: none;">▸ Quick Links</summary>
-
-    <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 14px;">
-      <div style="flex: 1; min-width: 200px; background: #F1F5F9; border-radius: 10px; padding: 16px 20px;">
-        <div style="font-size: 20px; margin-bottom: 6px;">📬</div>
-        <div style="font-weight: bold; font-size: 14px; color: #0F172A; margin-bottom: 4px;">AI in 5</div>
-        <div style="font-size: 13px; color: #64748B; line-height: 1.5;">5-minute challenge in your inbox every weekday.</div>
-      </div>
-      <a href="[TOOLKIT_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="flex: 1; min-width: 200px; text-decoration: none; display: block;">
-        <div style="background: #EEF2FF; border: 1px solid #C7D2FE; border-radius: 10px; padding: 16px 20px; height: 100%; box-sizing: border-box;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#C7D2FE'">
-          <div style="font-size: 20px; margin-bottom: 6px;">🧰</div>
-          <div style="font-weight: bold; font-size: 14px; color: #312E81; margin-bottom: 4px;">AI Toolkit</div>
-          <div style="font-size: 13px; color: #4338CA; line-height: 1.5;">Frameworks, techniques, templates, and guides.</div>
-        </div>
-      </a>
-      <a href="[EXCHANGE_URL]" target="_blank" style="flex: 1; min-width: 200px; text-decoration: none; display: block;">
-        <div style="background: #FDF4FF; border: 1px solid #E879F9; border-radius: 10px; padding: 16px 20px; height: 100%; box-sizing: border-box;" onmouseover="this.style.borderColor='#A855F7'" onmouseout="this.style.borderColor='#E879F9'">
-          <div style="font-size: 20px; margin-bottom: 6px;">🌐</div>
-          <div style="font-weight: bold; font-size: 14px; color: #701A75; margin-bottom: 4px;">The AI Exchange</div>
-          <div style="font-size: 13px; color: #86198F; line-height: 1.5;">Discover what others in the school are trying with AI.</div>
-        </div>
-      </a>
-      <a href="[PASSPORT_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="flex: 1; min-width: 200px; text-decoration: none; display: block;">
-        <div style="background: #F1F5F9; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px 20px; height: 100%; box-sizing: border-box;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='#E2E8F0'">
-          <div style="font-size: 20px; margin-bottom: 6px;">🏅</div>
-          <div style="font-weight: bold; font-size: 14px; color: #0F172A; margin-bottom: 4px;">My Passport</div>
-          <div style="font-size: 13px; color: #64748B; line-height: 1.5;">Track your progress and collect badge stamps.</div>
-        </div>
-      </a>
-    </div>
-  </details>
-
-  <!-- Footer -->
-  <div style="padding-top: 16px; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between;">
-    <span style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8;">AI SKILLS PASSPORT v1.0 • SoMM • CURTIN UNIVERSITY</span>
-    <span style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8;">2026 SEMESTER 1</span>
+  <!-- Compact Footer -->
+  <div style="padding-top: 8px; border-top: 1px solid #E2E8F0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td><span style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8;">AI SKILLS PASSPORT v1.0 &bull; SoMM &bull; CURTIN UNIVERSITY</span></td>
+      <td style="text-align: right;"><span style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8;">2026 SEMESTER 1</span></td>
+    </tr></table>
   </div>
 
 </div>
