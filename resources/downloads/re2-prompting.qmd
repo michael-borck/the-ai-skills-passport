@@ -1,0 +1,224 @@
+---
+title: "RE2 Prompting: Re-Read for Better Reasoning"
+---
+
+## The Simple Version
+
+Want better results from AI? Repeat the question.
+
+That's it. That's the technique.
+
+```
+Q: What are the key differences between transformational
+and transactional leadership?
+
+Read the question again: What are the key differences
+between transformational and transactional leadership?
+```
+
+This is **RE2 Prompting** (Re-Reading). It sounds almost too simple to work, but it consistently improves AI reasoning across arithmetic, commonsense, and complex analysis tasks. It's been validated across 14 benchmarks and 112 experiments.
+
+---
+
+## Why It Works
+
+To understand why repeating a question helps, you need to know one thing about how large language models process text.
+
+### The Causal Masking Problem
+
+LLMs read text **left to right, one token at a time**. When the model processes the first word of your prompt, it hasn't "seen" the last word yet. Each token can only attend to what came before it — never what comes after.
+
+This is called **causal masking**, and it means:
+
+- Early parts of your prompt are processed without full context
+- Instructions buried at the end may not influence how the model interpreted the beginning
+- Key details can be missed because the model commits to an interpretation before it has all the information
+
+### How RE2 Fixes This
+
+When you repeat the question:
+
+1. **First pass (Copy A):** The model processes your question normally, building initial understanding — but with the causal masking limitation
+2. **Second pass (Copy B):** Every token in the second copy can attend to *all* tokens in the first copy. The model now has full context when processing the question again
+
+Copy A acts as a kind of "virtual scratchpad." By the time the model reaches Copy B, it's already seen the entire question once. The second reading happens with the benefit of complete context — effectively simulating the bidirectional understanding that causal masking normally prevents.
+
+It's not just "saying it twice." It's architecturally forcing the model to see the whole picture before answering.
+
+---
+
+## The Evidence
+
+RE2 isn't just a clever idea — it's backed by rigorous research.
+
+### Key Results
+
+| Test | Without RE2 | With RE2 |
+|---|---|---|
+| Needle-in-Haystack retrieval (Gemini 2 Flash) | 21.3% | **97.3%** |
+| General knowledge (MMLU Pro) | Baseline | Consistent gains across all models tested |
+| Mathematical reasoning | Frequent hallucination | Significant reduction in errors |
+
+In head-to-head comparisons across 7 major models (including GPT-4, Claude, and Gemini), RE2 **won 47 out of 70 tests with no losses** — meaning it either helped or made no difference, but never made things worse.
+
+### Research
+
+- **Original paper:** "Re-Reading Improves Reasoning in Large Language Models" (Xu et al., 2024, ACL EMNLP)
+- **Follow-up:** "Prompt Repetition Improves Non-Reasoning LLMs" (Google Research)
+
+---
+
+## How to Use RE2
+
+### Basic Template
+
+```
+Q: {your question}
+
+Read the question again: {your question}
+```
+
+That's the core pattern. Copy your question, add the directive "Read the question again:", and paste the question a second time.
+
+### Combined with Chain of Thought
+
+RE2 works even better when combined with Chain of Thought (CoT) prompting:
+
+```
+Q: {your question}
+
+Read the question again: {your question}
+
+A: Let's think step by step.
+```
+
+This gives you both benefits: RE2 improves the model's *comprehension* of the question, and CoT improves its *reasoning* toward the answer.
+
+### Practical Examples
+
+**Assessment design:**
+
+```
+Q: I'm designing a group project for second-year management
+students on change management. The assessment needs to be
+AI-resilient, include peer evaluation, and align with
+Curtin's graduate attributes. What assessment structure
+would you recommend?
+
+Read the question again: I'm designing a group project
+for second-year management students on change management.
+The assessment needs to be AI-resilient, include peer
+evaluation, and align with Curtin's graduate attributes.
+What assessment structure would you recommend?
+```
+
+**Research analysis:**
+
+```
+Q: Analyse the methodological strengths and limitations
+of using sentiment analysis on student feedback surveys
+in higher education. Consider sample size effects,
+language ambiguity, and cultural factors.
+
+Read the question again: Analyse the methodological
+strengths and limitations of using sentiment analysis
+on student feedback surveys in higher education.
+Consider sample size effects, language ambiguity,
+and cultural factors.
+
+Let's think step by step.
+```
+
+**Policy review:**
+
+```
+Q: Review this draft AI usage policy for a university
+business school. Identify gaps in coverage, potential
+staff concerns, and implementation challenges.
+[paste policy text]
+
+Read the question again: Review this draft AI usage
+policy for a university business school. Identify gaps
+in coverage, potential staff concerns, and
+implementation challenges.
+```
+
+---
+
+## When to Use RE2
+
+### Most Effective For
+
+- **Complex, multi-part questions** where the model might focus on one part and forget another
+- **Long prompts with context** where key details might be buried
+- **Reasoning tasks** requiring careful attention to constraints and conditions
+- **Retrieval tasks** where the model needs to find specific information within provided text
+- **Analysis tasks** with multiple evaluation criteria
+
+### Less Necessary For
+
+- Very simple, single-part questions
+- Short prompts with no ambiguity
+- Tasks where the most advanced models already perform well
+- Creative generation where precision matters less than fluency
+
+### The Cost-Benefit
+
+RE2 increases input length (you're sending the question twice), which means slightly higher token costs and marginally longer processing time. But input tokens are significantly cheaper and faster than output tokens, so the cost is minimal compared to the improvement in quality.
+
+One repetition is the sweet spot. Research shows that repeating the question three times offers diminishing returns — the gain from the first repetition captures most of the benefit.
+
+---
+
+## How RE2 Compares to Other Techniques
+
+| Technique | Focus | What It Does |
+|---|---|---|
+| **RE2 (Re-Reading)** | Input comprehension | Improves the model's understanding of your question |
+| **Chain of Thought** | Output reasoning | Improves the model's step-by-step thinking |
+| **CRAFT Framework** | Prompt structure | Organises your prompt for clarity |
+| **Few-Shot Learning** | Style matching | Teaches the model your preferred format |
+| **Iterative Refinement** | Output quality | Improves results through follow-up prompts |
+
+RE2 is **complementary** to all of these. It focuses on the *input* side — making sure the model fully understands your question before it starts generating. The other techniques focus on the *output* side — shaping how the model responds.
+
+This is why combining RE2 with Chain of Thought is particularly powerful: RE2 ensures the model understands the question correctly, and CoT ensures it reasons through the answer carefully.
+
+---
+
+## Best Practices
+
+1. **Use the exact phrase "Read the question again:"** — Clear, directive language works better than vague instructions
+
+2. **Repeat the question verbatim** — Don't paraphrase. The value comes from the model processing the identical tokens with full context from the first pass
+
+3. **Repeat once, not multiple times** — One repetition captures the vast majority of the benefit. More than that wastes tokens
+
+4. **Position the repetition before the answer instruction** — The re-read should be the last thing before the model starts generating
+
+5. **Combine with Chain of Thought for complex reasoning** — Add "Let's think step by step" after the re-read for the best of both techniques
+
+6. **Don't pad with filler** — Adding random text to match the length of RE2 doesn't work. It's the *information* that matters, not the length
+
+---
+
+## Try It Now
+
+Take a prompt you've used recently that gave a mediocre result. Apply the RE2 template:
+
+```
+Q: [your original question]
+
+Read the question again: [your original question]
+```
+
+Compare the output to what you got before. For complex, multi-part, or detail-sensitive questions, you'll likely see a noticeable improvement — especially in how thoroughly the model addresses all parts of your question.
+
+It's the simplest prompting improvement you can make, and it costs almost nothing.
+
+---
+
+## Further Reading
+
+- Xu et al. (2024). "Re-Reading Improves Reasoning in Large Language Models." *ACL EMNLP*.
+- The technique pairs well with the **CRAFT Prompting Framework** (for structuring your initial prompt) and **Chain of Thought** (for improving reasoning in the output).

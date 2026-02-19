@@ -400,6 +400,34 @@ Please think through this step by step, considering:
       `
     },
     {
+      id: 're2-prompting',
+      category: 'technique',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'RE2 Prompting (Re-Reading)',
+      emoji: '🔁',
+      summary: 'Improve AI reasoning by repeating the question — simple, evidence-backed, and surprisingly effective.',
+      downloads: {
+        html: 'downloads/re2-prompting.html',
+        docx: 'downloads/re2-prompting.docx',
+        pdf: 'downloads/re2-prompting.pdf'
+      },
+      content: `
+        <p><strong>The simplest prompting improvement you can make:</strong> repeat the question.</p>
+        <div style="background: #16162A; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">Q: [your question]
+
+Read the question again: [your question]</div>
+        <p><strong>Why it works:</strong> LLMs process text left-to-right. The first pass is limited by causal masking — early tokens can't see later ones. When you repeat the question, the second copy can attend to <em>all</em> tokens from the first copy, giving the model full context before answering.</p>
+        <p><strong>Evidence:</strong> Validated across 14 benchmarks and 112 experiments. Won 47 of 70 head-to-head tests across GPT-4, Claude, and Gemini with zero losses.</p>
+        <p><strong>Combine with Chain of Thought for best results:</strong></p>
+        <div style="background: #16162A; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">Q: [your question]
+
+Read the question again: [your question]
+
+A: Let's think step by step.</div>
+        <p style="color: #64748B; font-style: italic;">One repetition is the sweet spot — additional repeats offer diminishing returns.</p>
+      `
+    },
+    {
       id: 'few-shot-learning',
       category: 'technique',
       roles: ['teaching', 'research', 'admin'],
