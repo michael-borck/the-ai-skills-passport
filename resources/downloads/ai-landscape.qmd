@@ -1,0 +1,274 @@
+---
+title: "The AI Landscape: Which Tool Do I Actually Need?"
+---
+
+## Start Here, Not With the Tools
+
+Before we talk about models, platforms, and features, one thing matters more than all of them:
+
+**Every AI tool is built on the same foundation — the prompt.**
+
+Whether you're using ChatGPT, Claude, Gemini, Copilot, or a local open-source model, the core interaction is the same: you write a prompt, the AI responds, you refine. The chat interface is where it all happens.
+
+If you learn to prompt well — to structure your thinking, iterate effectively, and evaluate output critically — you can move between tools with ease. The tool is secondary. The skill is primary.
+
+So if you're feeling overwhelmed by the number of AI tools available: relax. Learn the fundamentals (see the **CRAFT Prompting Framework** and **Conversation, Not Delegation** in this toolkit), and the specific tools become interchangeable.
+
+---
+
+## The Chat Interface: Where Everything Starts
+
+All major AI tools share the same basic interaction model:
+
+1. You type a prompt
+2. The AI generates a response
+3. You refine, follow up, or start again
+
+This conversational interface is the foundation of everything else — whether you're writing, analysing, coding, creating images, or building automated workflows. Master the conversation, and the rest follows.
+
+### Different Providers, Different Personalities
+
+Each AI provider has a slightly different "feel":
+
+| Provider | Known For |
+|---|---|
+| **ChatGPT** (OpenAI) | Versatile, conversational, widely adopted |
+| **Claude** (Anthropic) | Thoughtful, careful, strong on nuance and long documents |
+| **Gemini** (Google) | Integrated with Google ecosystem, strong on search and multimodal |
+| **Copilot** (Microsoft) | Embedded in Microsoft 365, good for workplace tasks |
+
+These differences are real but subtle. Each model has its own tone, phrasing, and tendencies. You may find one "clicks" with how you think more than another. That's fine — use what feels productive.
+
+**The important thing:** the core prompting skills transfer across all of them.
+
+---
+
+## Understanding Model Tiers
+
+### Frontier Models
+
+These are the most capable, most expensive models from major providers:
+
+- **GPT-4o / GPT-4.5** (OpenAI)
+- **Claude Opus / Sonnet** (Anthropic)
+- **Gemini Ultra / Pro** (Google)
+
+They excel at complex reasoning, nuanced writing, and multi-step analysis. They're available through paid subscriptions (typically $20–30/month) or API access.
+
+**Do you need a frontier model?** For everyday brainstorming, drafting, and iteration — often not. The free tiers are surprisingly capable for most tasks. Frontier models matter when you need deep reasoning, very long document processing, or high-stakes accuracy.
+
+### Free Tiers
+
+Every major provider offers a free tier:
+
+| Provider | Free Access |
+|---|---|
+| **ChatGPT** | Free tier with GPT-4o mini |
+| **Claude** | Free tier with usage limits |
+| **Gemini** | Free tier, generous limits, integrated with Google |
+| **Copilot** | Free tier in Bing and Windows |
+
+For most exploration and learning, the free tiers are more than sufficient. Start here.
+
+### A Note on FOMO
+
+There's constant pressure to have the latest model — "GPT-5 just dropped!", "Claude's new version is incredible!", "Gemini can now do X!"
+
+Take a breath.
+
+If you're having conversations with AI — brainstorming, iterating, thinking together — you don't need the latest and greatest. You need a tool that helps you think. Last month's model does that just fine.
+
+The goal is to **amplify your thinking, not chase benchmarks**. A thoughtful conversation with a "lesser" model will outperform a lazy prompt to the most advanced model every time.
+
+---
+
+## Beyond Chat: Specialised AI Tools
+
+### NotebookLM (Google)
+
+A research and note-taking tool that lets you upload documents and have AI conversations grounded in your own materials.
+
+- **What it does:** Upload PDFs, docs, web pages, YouTube videos. Ask questions. AI answers based *only* on your uploaded sources — reducing hallucination
+- **Standout feature:** Generates podcast-style audio summaries of your documents
+- **Best for:** Literature review, research synthesis, understanding complex documents, study aids
+- **Cost:** Free (Google account required)
+
+### AI for Images and Art
+
+- **DALL-E** (OpenAI, via ChatGPT) — Text-to-image generation
+- **Midjourney** — High-quality artistic image generation
+- **Adobe Firefly** — AI image generation integrated with Creative Cloud
+- **Google Imagen** (via Gemini) — Google's image generation
+
+**Use cases in higher education:** Creating teaching materials, generating diagrams, visualising concepts, designing presentations.
+
+### AI for Music and Audio
+
+- **Suno** — Text-to-music generation (surprisingly good)
+- **NotebookLM Audio** — Document-to-podcast conversion
+- **ElevenLabs** — Text-to-speech with natural voices
+
+### AI for Video
+
+- **Runway** — AI video generation and editing
+- **Synthesia** — AI avatar videos for presentations and training
+- **Google Veo** (via Gemini) — Google's video generation
+
+### AI for Code and App Development
+
+- **GitHub Copilot** — AI-assisted coding in your editor
+- **Claude Code** — AI-assisted development from the command line
+- **Cursor** — AI-native code editor
+- **Replit** — Browser-based coding with AI assistance
+- **Google AI Studio** — Prototype AI applications
+
+### Google's Free Tier (Worth Knowing)
+
+Google offers an unusually generous free tier through **Google AI Studio** and **Gemini**:
+
+- Chat with Gemini models (free)
+- NotebookLM (free)
+- Image generation via Gemini (free)
+- AI Studio for prototyping (free tier with API access)
+- Integration with Google Docs, Sheets, Slides
+
+If you're exploring and don't want to pay for subscriptions, Google's ecosystem is a strong starting point.
+
+---
+
+## Running AI Locally
+
+You don't have to send your data to the cloud. Open-source models can run on your own machine.
+
+### Why Run Locally?
+
+- **Privacy:** Your data never leaves your computer
+- **No subscription:** Free after initial setup
+- **Offline:** Works without internet
+- **Control:** Choose exactly which model to use
+
+### How to Get Started
+
+**Ollama** — The simplest way to run open-source models locally.
+
+- Install from [ollama.com](https://ollama.com)
+- Run a model: `ollama run llama3` (or mistral, phi, gemma, etc.)
+- Chat in your terminal — that's it
+
+**LM Studio** — A desktop app with a visual interface for running local models.
+
+- Download from [lmstudio.ai](https://lmstudio.ai)
+- Browse and download models from a built-in catalogue
+- Chat interface similar to ChatGPT, but entirely local
+
+### Popular Open-Source Models
+
+| Model | Developer | Strengths |
+|---|---|---|
+| **Llama 3** | Meta | General-purpose, very capable |
+| **Mistral / Mixtral** | Mistral AI | Efficient, good reasoning |
+| **Phi** | Microsoft | Small but surprisingly capable |
+| **Gemma** | Google | Lightweight, good for experimentation |
+
+### Honest Limitations
+
+- Local models are generally less capable than frontier cloud models
+- They require a reasonably powerful computer (8GB+ RAM minimum, 16GB+ recommended)
+- Setup requires some technical comfort
+- No internet access for the model (can't search or browse)
+
+**Best for:** Privacy-sensitive work, experimentation, learning how AI works under the hood, situations where you can't use cloud services.
+
+---
+
+## Choosing the Right Tool for Your Use Case
+
+### For Teaching Academics
+
+| Use Case | Recommended Starting Point |
+|---|---|
+| General brainstorming and lesson planning | ChatGPT or Claude (free tier) |
+| Creating assessments and rubrics | Claude or ChatGPT |
+| Research grounded in your documents | NotebookLM |
+| Creating visual materials | DALL-E (via ChatGPT) or Gemini |
+| Working within Microsoft 365 | Copilot |
+| Privacy-sensitive student data | Local model (Ollama/LM Studio) |
+
+### For Researchers
+
+| Use Case | Recommended Starting Point |
+|---|---|
+| Literature review and synthesis | NotebookLM or Claude (handles long documents well) |
+| Data analysis and coding | ChatGPT or Claude |
+| Writing and editing | Claude or ChatGPT |
+| Working with sensitive data | Local model (Ollama/LM Studio) |
+| Exploring AI capabilities | Google AI Studio (free) |
+
+### For Professional Staff
+
+| Use Case | Recommended Starting Point |
+|---|---|
+| Email and communication drafting | Copilot (if available) or ChatGPT |
+| Document summarisation | Gemini or Claude |
+| Process documentation | ChatGPT or Claude |
+| Meeting notes and action items | Copilot (Teams integration) |
+| Policy plain-language translation | Claude or ChatGPT |
+
+### For Students
+
+| Use Case | Recommended Starting Point |
+|---|---|
+| Study and revision | ChatGPT or Gemini (free tiers) |
+| Understanding difficult concepts | ChatGPT, Claude, or Gemini |
+| Research grounded in course materials | NotebookLM |
+| Writing feedback and improvement | Claude or ChatGPT |
+| Coding assignments | GitHub Copilot (free for students) or ChatGPT |
+
+**Student recommendation:** Start with the free tiers. Gemini and ChatGPT both offer strong free access. NotebookLM is excellent for studying — upload your lecture notes and textbook chapters, then ask questions. GitHub Copilot is free for students with a `.edu` email.
+
+---
+
+## A Note for Staff: Data Governance Matters
+
+Before using any AI tool with work-related data, consider:
+
+**Use your institution's enterprise version when available.** Enterprise versions of Copilot, ChatGPT, and others typically have:
+
+- Data protection agreements with the university
+- Assurance that your data isn't used for training
+- Compliance with institutional privacy policies
+- Audit trails and administrative controls
+
+**What NOT to put into free-tier AI tools:**
+
+- Student names, IDs, or personal information
+- Unpublished research data
+- HR or personnel information
+- Financial or sensitive institutional data
+- Anything covered by ethics approval or confidentiality agreements
+
+**When in doubt:** Use the enterprise version, use a local model, or anonymise the data first.
+
+For detailed guidance, see the **Ethics, Data Governance & Integrity** and **Secure & Sustainable AI Use** guides in this toolkit.
+
+---
+
+## The Landscape Changes Fast (And That's Okay)
+
+New models launch monthly. Features change. Pricing shifts. Today's breakthrough is tomorrow's baseline.
+
+This can feel overwhelming. But here's the thing: **the fundamentals don't change.**
+
+- Prompting well matters more than which model you use
+- Conversation and iteration beat one-shot queries on any model
+- Human judgement remains essential regardless of AI capability
+- Privacy and ethics apply to every tool
+
+Learn the fundamentals. Pick a tool that works for you. Use it well. When something better comes along, your skills transfer.
+
+The AI landscape is a buffet, not a race. Sample what's useful. Ignore the hype. Focus on what helps you think better.
+
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*

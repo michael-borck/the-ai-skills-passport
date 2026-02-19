@@ -1629,6 +1629,35 @@ Now write feedback in my style for:
       `
     },
     {
+      id: 'dl-ai-landscape',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'The AI Landscape: Which Tool Do I Need?',
+      emoji: '🗺️',
+      summary: 'ChatGPT vs Claude vs Gemini vs Copilot, open-source models, NotebookLM, image/video/music AI — and why the prompt matters more than the tool.',
+      downloads: {
+        html: 'downloads/ai-landscape.html',
+        docx: 'downloads/ai-landscape.docx',
+        pdf: 'downloads/ai-landscape.pdf'
+      },
+      content: `
+        <p><strong>Feeling overwhelmed by AI tools?</strong> Start here.</p>
+        <p>Every AI tool is built on the same foundation — the prompt. Learn to prompt well, and the tools become interchangeable.</p>
+        <p>This guide covers:</p>
+        <ul>
+          <li><strong>Chat providers compared</strong> — ChatGPT, Claude, Gemini, Copilot: strengths and personalities</li>
+          <li><strong>Model tiers</strong> — Frontier vs free, and why you probably don't need the latest model</li>
+          <li><strong>Specialised tools</strong> — NotebookLM, image/music/video AI, coding assistants</li>
+          <li><strong>Running AI locally</strong> — Ollama, LM Studio, and open-source models for privacy</li>
+          <li><strong>Use case recommendations</strong> — Tables for teaching, research, professional staff, and students</li>
+          <li><strong>Data governance reminder</strong> — Use enterprise versions for work data</li>
+        </ul>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>On FOMO:</strong> The goal is to amplify your thinking, not chase benchmarks. A thoughtful conversation with a "lesser" model will outperform a lazy prompt to the most advanced model every time.
+        </div>
+      `
+    },
+    {
       id: 'dl-copilot-setup',
       category: 'guide',
       roles: ['teaching', 'research', 'admin'],
