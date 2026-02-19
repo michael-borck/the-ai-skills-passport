@@ -701,6 +701,35 @@ Now write feedback in my style for:
       `
     },
     {
+      id: 'cognitive-offload',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Cognitive Offload and the "AI Makes Us Dumber" Question',
+      emoji: '🧠',
+      summary: 'Does AI reduce critical thinking? The honest answer — metacognitive laziness, hybrid intelligence, and why pedagogy determines everything.',
+      downloads: {
+        html: 'downloads/cognitive-offload.html',
+        docx: 'downloads/cognitive-offload.docx',
+        pdf: 'downloads/cognitive-offload.pdf'
+      },
+      content: `
+        <div style="background: linear-gradient(135deg, #3D2E0A, #4A3510); padding: 20px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid #F59E0B;">
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #FCD34D; line-height: 1.6;">"AI doesn't make us dumber. But it does make it easier to be dumber — to coast, to accept, to stop thinking."</p>
+        </div>
+        <p>This guide addresses the strongest argument against AI in education — honestly, without dismissing legitimate concerns:</p>
+        <ul>
+          <li><strong>Metacognitive laziness</strong> — The real risk: students stop monitoring their own thinking</li>
+          <li><strong>Learning differently ≠ learning less</strong> — Engagement with material is learning, even if it doesn't look like how you learned</li>
+          <li><strong>Hybrid intelligence</strong> — The future is symbiotic human-AI thinking, not unaided cognition vs. AI dependence</li>
+          <li><strong>Pedagogy determines everything</strong> — The same AI tool can deepen or weaken learning; design makes the difference</li>
+          <li><strong>What to actually worry about</strong> — Loss of productive struggle, illusion of understanding, foundational skill erosion</li>
+        </ul>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>The bottom line:</strong> Cognitive offload isn't the enemy. Cognitive abdication is. And the difference is pedagogy.
+        </div>
+      `
+    },
+    {
       id: 'ai-shame-guide',
       category: 'guide',
       roles: ['teaching', 'research', 'admin'],
