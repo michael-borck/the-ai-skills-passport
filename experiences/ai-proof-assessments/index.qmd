@@ -10,7 +10,7 @@ format:
 <!-- AI-Proof Your Assessments — Experience 4: Assessment Design -->
 <!-- 45-75 minutes | Teaching-focused -->
 
-<div id="experience-app" data-experience-id="ai-proof-assessments" style="font-family: Georgia, 'Times New Roman', serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #1E293B;">
+<div id="experience-app" data-experience-id="ai-proof-assessments" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #E2E8F0;">
 
   <!-- Header -->
   <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 28px;">
@@ -30,9 +30,9 @@ format:
   </div>
 
   <!-- Learning Outcomes -->
-  <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
-    <h3 style="font-size: 14px; color: #14532D; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
-    <ul style="margin: 0; padding-left: 20px; color: #166534; line-height: 1.8;">
+  <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
+    <h3 style="font-size: 14px; color: #86EFAC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
+    <ul style="margin: 0; padding-left: 20px; color: #4ADE80; line-height: 1.8;">
       <li>Identify vulnerabilities in traditional assessments that AI can exploit</li>
       <li>Apply three distinct pathways for redesigning assessments</li>
       <li>Transform an existing assessment using AI-resilient principles</li>
@@ -43,34 +43,34 @@ format:
   <!-- Activity 1: Stress-Test Your Assessment -->
   <div style="margin-bottom: 32px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 1</div>
-    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Stress-Test Your Assessment</h2>
+    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Stress-Test Your Assessment</h2>
     <p style="color: #64748B; margin-bottom: 20px;">Before you can redesign, you need to understand the vulnerability. Enter an assessment brief below to see how AI might attempt it—and where that approach would fall short.</p>
 
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-      <label style="display: block; font-weight: bold; margin-bottom: 12px; color: #0F172A;">Paste or type your assessment brief:</label>
-      <textarea id="assessment-brief" placeholder="Example: Write a 2000-word essay analysing the marketing strategy of a company of your choice. Include theory from weeks 1-6 and provide recommendations for improvement." style="width: 100%; box-sizing: border-box; min-height: 120px; padding: 16px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical;"></textarea>
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+      <label style="display: block; font-weight: bold; margin-bottom: 12px; color: #E2E8F0;">Paste or type your assessment brief:</label>
+      <textarea id="assessment-brief" placeholder="Example: Write a 2000-word essay analysing the marketing strategy of a company of your choice. Include theory from weeks 1-6 and provide recommendations for improvement." style="width: 100%; box-sizing: border-box; min-height: 120px; padding: 16px; border: 1px solid #2D2D4A; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6; resize: vertical; background: #1E1E36; color: #E2E8F0;"></textarea>
       <button onclick="analyseAssessment()" style="margin-top: 16px; background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 14px; font-weight: bold; cursor: pointer;">Analyse Vulnerabilities</button>
     </div>
 
     <div id="vulnerability-analysis" style="display: none;">
-      <div style="background: #FEF3C7; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
         <div style="display: flex; align-items: flex-start; gap: 12px;">
           <span style="font-size: 24px;">⚠️</span>
           <div>
-            <strong style="color: #92400E;">How AI might approach this:</strong>
-            <div id="ai-approach" style="margin: 12px 0 0 0; color: #78350F; line-height: 1.6;"></div>
+            <strong style="color: #FBBF24;">How AI might approach this:</strong>
+            <div id="ai-approach" style="margin: 12px 0 0 0; color: #FCD34D; line-height: 1.6;"></div>
           </div>
         </div>
       </div>
 
-      <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px;">
-        <h3 style="font-size: 16px; color: #0F172A; margin: 0 0 16px 0;">Vulnerability Checklist</h3>
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">Vulnerability Checklist</h3>
         <div id="vulnerability-checklist" style="display: flex; flex-direction: column; gap: 12px;"></div>
       </div>
 
-      <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; margin-top: 16px;">
-        <strong style="color: #14532D;">The key insight:</strong>
-        <p style="margin: 8px 0 0 0; color: #166534; line-height: 1.6;">Traditional assessments often test whether students can produce content that sounds right. AI excels at this. Effective redesign focuses on what AI cannot do: demonstrate personal growth, apply knowledge to unique contexts, and explain the reasoning behind decisions.</p>
+      <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-top: 16px;">
+        <strong style="color: #86EFAC;">The key insight:</strong>
+        <p style="margin: 8px 0 0 0; color: #4ADE80; line-height: 1.6;">Traditional assessments often test whether students can produce content that sounds right. AI excels at this. Effective redesign focuses on what AI cannot do: demonstrate personal growth, apply knowledge to unique contexts, and explain the reasoning behind decisions.</p>
       </div>
     </div>
   </div>
@@ -78,27 +78,27 @@ format:
   <!-- Activity 2: Choose Your Pathway -->
   <div style="margin-bottom: 32px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 2</div>
-    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Choose Your Pathway</h2>
+    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Choose Your Pathway</h2>
     <p style="color: #64748B; margin-bottom: 20px;">There's no single solution to AI-proofing assessments. Instead, consider three complementary approaches. Click each card to explore how it works and when to use it.</p>
 
     <div style="display: flex; flex-direction: column; gap: 16px;">
 
       <!-- Pathway A: Process Documentation -->
-      <div id="pathway-a" class="pathway-card" onclick="togglePathway('a')" style="background: white; border: 2px solid #E2E8F0; border-radius: 12px; padding: 24px; cursor: pointer; transition: all 0.3s ease;">
+      <div id="pathway-a" class="pathway-card" onclick="togglePathway('a')" style="background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 24px; cursor: pointer; transition: all 0.3s ease;">
         <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
-          <div style="background: #EEF2FF; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px;">📝</div>
+          <div style="background: #1E1B4B; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px;">📝</div>
           <div style="flex: 1;">
-            <h3 style="font-size: 18px; color: #0F172A; margin: 0;">Pathway A: Process Documentation</h3>
+            <h3 style="font-size: 18px; color: #E2E8F0; margin: 0;">Pathway A: Process Documentation</h3>
             <p style="font-size: 13px; color: #64748B; margin: 4px 0 0 0;">Show the journey, not just the destination</p>
           </div>
           <span id="pathway-a-arrow" style="font-size: 20px; color: #94A3B8; transition: transform 0.3s ease;">▼</span>
         </div>
-        <div id="pathway-a-content" style="display: none; padding-top: 16px; border-top: 1px solid #E2E8F0;">
-          <p style="color: #334155; line-height: 1.7; margin: 0 0 16px 0;">Instead of just submitting a final product, students document their entire process—including any AI assistance.</p>
+        <div id="pathway-a-content" style="display: none; padding-top: 16px; border-top: 1px solid #2D2D4A;">
+          <p style="color: #CBD5E1; line-height: 1.7; margin: 0 0 16px 0;">Instead of just submitting a final product, students document their entire process—including any AI assistance.</p>
 
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-            <strong style="color: #0F172A;">What students submit:</strong>
-            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #334155; line-height: 1.8;">
+          <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong style="color: #E2E8F0;">What students submit:</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #CBD5E1; line-height: 1.8;">
               <li>AI conversation transcripts (if used)</li>
               <li>Annotations explaining where AI was wrong or limited</li>
               <li>Reflection on how human expertise improved the output</li>
@@ -106,34 +106,34 @@ format:
             </ul>
           </div>
 
-          <div style="background: #F0FDF4; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-            <strong style="color: #14532D;">Best for:</strong>
-            <p style="margin: 8px 0 0 0; color: #166534;">Written assignments, reports, case analyses—any task where the thinking process matters as much as the output.</p>
+          <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong style="color: #86EFAC;">Best for:</strong>
+            <p style="margin: 8px 0 0 0; color: #4ADE80;">Written assignments, reports, case analyses—any task where the thinking process matters as much as the output.</p>
           </div>
 
-          <div style="background: #EEF2FF; padding: 16px; border-radius: 8px;">
-            <strong style="color: #312E81;">Example transformation:</strong>
-            <p style="margin: 8px 0 0 0; color: #4338CA; font-style: italic;">"Write a marketing plan" becomes "Submit your marketing plan with a 500-word process reflection explaining your key decisions, what sources (including AI) you consulted, and what you would do differently."</p>
+          <div style="background: #1E1B4B; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Example transformation:</strong>
+            <p style="margin: 8px 0 0 0; color: #A5B4FC; font-style: italic;">"Write a marketing plan" becomes "Submit your marketing plan with a 500-word process reflection explaining your key decisions, what sources (including AI) you consulted, and what you would do differently."</p>
           </div>
         </div>
       </div>
 
       <!-- Pathway B: In-Class Components -->
-      <div id="pathway-b" class="pathway-card" onclick="togglePathway('b')" style="background: white; border: 2px solid #E2E8F0; border-radius: 12px; padding: 24px; cursor: pointer; transition: all 0.3s ease;">
+      <div id="pathway-b" class="pathway-card" onclick="togglePathway('b')" style="background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 24px; cursor: pointer; transition: all 0.3s ease;">
         <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
-          <div style="background: #FEF3C7; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px;">🎤</div>
+          <div style="background: #3D2E0A; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px;">🎤</div>
           <div style="flex: 1;">
-            <h3 style="font-size: 18px; color: #0F172A; margin: 0;">Pathway B: In-Class Components</h3>
+            <h3 style="font-size: 18px; color: #E2E8F0; margin: 0;">Pathway B: In-Class Components</h3>
             <p style="font-size: 13px; color: #64748B; margin: 4px 0 0 0;">Demonstrate understanding in real-time</p>
           </div>
           <span id="pathway-b-arrow" style="font-size: 20px; color: #94A3B8; transition: transform 0.3s ease;">▼</span>
         </div>
-        <div id="pathway-b-content" style="display: none; padding-top: 16px; border-top: 1px solid #E2E8F0;">
-          <p style="color: #334155; line-height: 1.7; margin: 0 0 16px 0;">Add live components where students must demonstrate understanding without AI assistance—not as "gotcha" tests, but as opportunities to show mastery.</p>
+        <div id="pathway-b-content" style="display: none; padding-top: 16px; border-top: 1px solid #2D2D4A;">
+          <p style="color: #CBD5E1; line-height: 1.7; margin: 0 0 16px 0;">Add live components where students must demonstrate understanding without AI assistance—not as "gotcha" tests, but as opportunities to show mastery.</p>
 
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-            <strong style="color: #0F172A;">Formats that work:</strong>
-            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #334155; line-height: 1.8;">
+          <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong style="color: #E2E8F0;">Formats that work:</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #CBD5E1; line-height: 1.8;">
               <li><strong>Viva voce:</strong> 10-15 minute conversation about their submission</li>
               <li><strong>Real-time synthesis:</strong> Apply their work to a new scenario in class</li>
               <li><strong>Oral defense:</strong> Present findings and respond to questions</li>
@@ -141,34 +141,34 @@ format:
             </ul>
           </div>
 
-          <div style="background: #F0FDF4; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-            <strong style="color: #14532D;">Best for:</strong>
-            <p style="margin: 8px 0 0 0; color: #166534;">High-stakes assessments, verifying understanding of complex submissions, developing professional communication skills.</p>
+          <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong style="color: #86EFAC;">Best for:</strong>
+            <p style="margin: 8px 0 0 0; color: #4ADE80;">High-stakes assessments, verifying understanding of complex submissions, developing professional communication skills.</p>
           </div>
 
-          <div style="background: #FEF3C7; padding: 16px; border-radius: 8px;">
-            <strong style="color: #92400E;">Example transformation:</strong>
-            <p style="margin: 8px 0 0 0; color: #78350F; font-style: italic;">"Submit a business case" becomes "Submit your business case, then present the key recommendation in a 5-minute presentation where you'll respond to questions about your analysis."</p>
+          <div style="background: #3D2E0A; padding: 16px; border-radius: 8px;">
+            <strong style="color: #FBBF24;">Example transformation:</strong>
+            <p style="margin: 8px 0 0 0; color: #FCD34D; font-style: italic;">"Submit a business case" becomes "Submit your business case, then present the key recommendation in a 5-minute presentation where you'll respond to questions about your analysis."</p>
           </div>
         </div>
       </div>
 
       <!-- Pathway C: Personal Application -->
-      <div id="pathway-c" class="pathway-card" onclick="togglePathway('c')" style="background: white; border: 2px solid #E2E8F0; border-radius: 12px; padding: 24px; cursor: pointer; transition: all 0.3s ease;">
+      <div id="pathway-c" class="pathway-card" onclick="togglePathway('c')" style="background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 24px; cursor: pointer; transition: all 0.3s ease;">
         <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
-          <div style="background: #FCE7F3; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px;">🎯</div>
+          <div style="background: #4A1942; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px;">🎯</div>
           <div style="flex: 1;">
-            <h3 style="font-size: 18px; color: #0F172A; margin: 0;">Pathway C: Personal Application</h3>
+            <h3 style="font-size: 18px; color: #E2E8F0; margin: 0;">Pathway C: Personal Application</h3>
             <p style="font-size: 13px; color: #64748B; margin: 4px 0 0 0;">Connect to unique contexts AI cannot know</p>
           </div>
           <span id="pathway-c-arrow" style="font-size: 20px; color: #94A3B8; transition: transform 0.3s ease;">▼</span>
         </div>
-        <div id="pathway-c-content" style="display: none; padding-top: 16px; border-top: 1px solid #E2E8F0;">
-          <p style="color: #334155; line-height: 1.7; margin: 0 0 16px 0;">Design tasks that require information only the student has—their experiences, their data, their specific context. AI can help, but cannot replace the personal element.</p>
+        <div id="pathway-c-content" style="display: none; padding-top: 16px; border-top: 1px solid #2D2D4A;">
+          <p style="color: #CBD5E1; line-height: 1.7; margin: 0 0 16px 0;">Design tasks that require information only the student has—their experiences, their data, their specific context. AI can help, but cannot replace the personal element.</p>
 
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-            <strong style="color: #0F172A;">Elements that create uniqueness:</strong>
-            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #334155; line-height: 1.8;">
+          <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong style="color: #E2E8F0;">Elements that create uniqueness:</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #CBD5E1; line-height: 1.8;">
               <li>Specific local organizations or contexts</li>
               <li>Primary data the student collects themselves</li>
               <li>Personal work or volunteer experiences</li>
@@ -177,22 +177,22 @@ format:
             </ul>
           </div>
 
-          <div style="background: #F0FDF4; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-            <strong style="color: #14532D;">Best for:</strong>
-            <p style="margin: 8px 0 0 0; color: #166534;">Developing professional identity, connecting theory to practice, capstone projects, reflective learning.</p>
+          <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong style="color: #86EFAC;">Best for:</strong>
+            <p style="margin: 8px 0 0 0; color: #4ADE80;">Developing professional identity, connecting theory to practice, capstone projects, reflective learning.</p>
           </div>
 
-          <div style="background: #FCE7F3; padding: 16px; border-radius: 8px;">
-            <strong style="color: #9D174D;">Example transformation:</strong>
-            <p style="margin: 8px 0 0 0; color: #BE185D; font-style: italic;">"Analyse marketing strategy" becomes "Interview someone at an organization you're connected to about their marketing challenges, then develop recommendations using concepts from weeks 3-5."</p>
+          <div style="background: #4A1942; padding: 16px; border-radius: 8px;">
+            <strong style="color: #F9A8D4;">Example transformation:</strong>
+            <p style="margin: 8px 0 0 0; color: #F472B6; font-style: italic;">"Analyse marketing strategy" becomes "Interview someone at an organization you're connected to about their marketing challenges, then develop recommendations using concepts from weeks 3-5."</p>
           </div>
         </div>
       </div>
 
     </div>
 
-    <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; margin-top: 20px;">
-      <strong style="color: #0F172A;">Combining pathways:</strong>
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px; margin-top: 20px;">
+      <strong style="color: #E2E8F0;">Combining pathways:</strong>
       <p style="margin: 8px 0 0 0; color: #64748B; line-height: 1.6;">These approaches work together. A strong AI-resilient assessment might combine personal application (Pathway C) with process documentation (Pathway A) and a brief oral component (Pathway B). Start with one, then layer as needed.</p>
     </div>
   </div>
@@ -200,50 +200,50 @@ format:
   <!-- Activity 3: Redesign Workshop -->
   <div style="margin-bottom: 32px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 3</div>
-    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Redesign Workshop</h2>
+    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Redesign Workshop</h2>
     <p style="color: #64748B; margin-bottom: 20px;">Now put it into practice. Work through this guided redesign of one of your assessments.</p>
 
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px;">
 
       <!-- Step 1 -->
       <div style="margin-bottom: 24px;">
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
           <div style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">1</div>
-          <h3 style="font-size: 16px; color: #0F172A; margin: 0;">What are you really assessing?</h3>
+          <h3 style="font-size: 16px; color: #E2E8F0; margin: 0;">What are you really assessing?</h3>
         </div>
         <p style="color: #64748B; margin: 0 0 12px 0; padding-left: 40px;">Strip away the format. What capability or understanding should students demonstrate?</p>
-        <textarea id="redesign-step-1" placeholder="Example: Students should be able to critically evaluate a real marketing strategy and recommend evidence-based improvements." style="width: 100%; box-sizing: border-box; min-height: 80px; padding: 12px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical;"></textarea>
+        <textarea id="redesign-step-1" placeholder="Example: Students should be able to critically evaluate a real marketing strategy and recommend evidence-based improvements." style="width: 100%; box-sizing: border-box; min-height: 80px; padding: 12px; border: 1px solid #2D2D4A; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6; resize: vertical; background: #1E1E36; color: #E2E8F0;"></textarea>
       </div>
 
       <!-- Step 2 -->
       <div style="margin-bottom: 24px;">
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
           <div style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">2</div>
-          <h3 style="font-size: 16px; color: #0F172A; margin: 0;">What would AI struggle with?</h3>
+          <h3 style="font-size: 16px; color: #E2E8F0; margin: 0;">What would AI struggle with?</h3>
         </div>
         <p style="color: #64748B; margin: 0 0 12px 0; padding-left: 40px;">What aspects require human judgment, personal experience, or real-time demonstration?</p>
-        <textarea id="redesign-step-2" placeholder="Example: AI doesn't know our case study from week 4, can't interview local business owners, and can't defend recommendations in person." style="width: 100%; box-sizing: border-box; min-height: 80px; padding: 12px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical;"></textarea>
+        <textarea id="redesign-step-2" placeholder="Example: AI doesn't know our case study from week 4, can't interview local business owners, and can't defend recommendations in person." style="width: 100%; box-sizing: border-box; min-height: 80px; padding: 12px; border: 1px solid #2D2D4A; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6; resize: vertical; background: #1E1E36; color: #E2E8F0;"></textarea>
       </div>
 
       <!-- Step 3 -->
       <div style="margin-bottom: 24px;">
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
           <div style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">3</div>
-          <h3 style="font-size: 16px; color: #0F172A; margin: 0;">Which pathway(s) fit best?</h3>
+          <h3 style="font-size: 16px; color: #E2E8F0; margin: 0;">Which pathway(s) fit best?</h3>
         </div>
         <p style="color: #64748B; margin: 0 0 12px 0; padding-left: 40px;">Select one or more approaches for your redesign:</p>
         <div style="padding-left: 40px; display: flex; flex-direction: column; gap: 8px;">
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" id="pathway-check-a" style="width: 18px; height: 18px;">
-            <span style="color: #334155;"><strong>Process Documentation</strong> — Submit drafts, prompts, reflections</span>
+            <span style="color: #CBD5E1;"><strong>Process Documentation</strong> — Submit drafts, prompts, reflections</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" id="pathway-check-b" style="width: 18px; height: 18px;">
-            <span style="color: #334155;"><strong>In-Class Components</strong> — Viva, presentation, live application</span>
+            <span style="color: #CBD5E1;"><strong>In-Class Components</strong> — Viva, presentation, live application</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" id="pathway-check-c" style="width: 18px; height: 18px;">
-            <span style="color: #334155;"><strong>Personal Application</strong> — Unique context, primary data, reflection</span>
+            <span style="color: #CBD5E1;"><strong>Personal Application</strong> — Unique context, primary data, reflection</span>
           </label>
         </div>
       </div>
@@ -252,51 +252,51 @@ format:
       <div style="margin-bottom: 24px;">
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
           <div style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">4</div>
-          <h3 style="font-size: 16px; color: #0F172A; margin: 0;">Draft your redesigned assessment brief</h3>
+          <h3 style="font-size: 16px; color: #E2E8F0; margin: 0;">Draft your redesigned assessment brief</h3>
         </div>
         <p style="color: #64748B; margin: 0 0 12px 0; padding-left: 40px;">Rewrite the assessment incorporating your chosen approach(es):</p>
-        <textarea id="redesign-step-4" placeholder="Example: Choose a local Perth business you have access to. Conduct a brief interview about their marketing challenges, then develop three evidence-based recommendations using frameworks from weeks 3-5. Submit: (1) interview notes, (2) your analysis with clear connections to course concepts, (3) a 300-word reflection on your process. Be prepared to present one recommendation in a 5-minute class slot." style="width: 100%; box-sizing: border-box; min-height: 120px; padding: 12px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical;"></textarea>
+        <textarea id="redesign-step-4" placeholder="Example: Choose a local Perth business you have access to. Conduct a brief interview about their marketing challenges, then develop three evidence-based recommendations using frameworks from weeks 3-5. Submit: (1) interview notes, (2) your analysis with clear connections to course concepts, (3) a 300-word reflection on your process. Be prepared to present one recommendation in a 5-minute class slot." style="width: 100%; box-sizing: border-box; min-height: 120px; padding: 12px; border: 1px solid #2D2D4A; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6; resize: vertical; background: #1E1E36; color: #E2E8F0;"></textarea>
       </div>
 
       <!-- Step 5 -->
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
           <div style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">5</div>
-          <h3 style="font-size: 16px; color: #0F172A; margin: 0;">Update your rubric criteria</h3>
+          <h3 style="font-size: 16px; color: #E2E8F0; margin: 0;">Update your rubric criteria</h3>
         </div>
         <p style="color: #64748B; margin: 0 0 12px 0; padding-left: 40px;">What should your rubric now emphasize? Check what matters:</p>
         <div style="padding-left: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" style="width: 16px; height: 16px;">
-            <span style="color: #334155; font-size: 14px;">Application to specific context</span>
+            <span style="color: #CBD5E1; font-size: 14px;">Application to specific context</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" style="width: 16px; height: 16px;">
-            <span style="color: #334155; font-size: 14px;">Quality of reasoning</span>
+            <span style="color: #CBD5E1; font-size: 14px;">Quality of reasoning</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" style="width: 16px; height: 16px;">
-            <span style="color: #334155; font-size: 14px;">Evidence of iteration</span>
+            <span style="color: #CBD5E1; font-size: 14px;">Evidence of iteration</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" style="width: 16px; height: 16px;">
-            <span style="color: #334155; font-size: 14px;">Connection to course content</span>
+            <span style="color: #CBD5E1; font-size: 14px;">Connection to course content</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" style="width: 16px; height: 16px;">
-            <span style="color: #334155; font-size: 14px;">Ability to explain/defend</span>
+            <span style="color: #CBD5E1; font-size: 14px;">Ability to explain/defend</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" style="width: 16px; height: 16px;">
-            <span style="color: #334155; font-size: 14px;">Personal reflection quality</span>
+            <span style="color: #CBD5E1; font-size: 14px;">Personal reflection quality</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" style="width: 16px; height: 16px;">
-            <span style="color: #334155; font-size: 14px;">Primary data quality</span>
+            <span style="color: #CBD5E1; font-size: 14px;">Primary data quality</span>
           </label>
           <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
             <input type="checkbox" style="width: 16px; height: 16px;">
-            <span style="color: #334155; font-size: 14px;">Synthesis across sources</span>
+            <span style="color: #CBD5E1; font-size: 14px;">Synthesis across sources</span>
           </label>
         </div>
       </div>
@@ -309,144 +309,144 @@ format:
   <!-- In Your Context Tabs -->
   <div style="margin-bottom: 32px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">In Your Context</div>
-    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Applying These Ideas to Your Role</h2>
+    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Applying These Ideas to Your Role</h2>
 
     <!-- Tab Navigation -->
-    <div style="display: flex; gap: 4px; margin-bottom: 0; border-bottom: 2px solid #E2E8F0;">
+    <div style="display: flex; gap: 4px; margin-bottom: 0; border-bottom: 2px solid #2D2D4A;">
       <button class="context-tab active" data-tab="teaching" onclick="switchTab('teaching')" style="padding: 12px 20px; background: #4F46E5; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px; font-weight: bold;">📚 Teaching</button>
-      <button class="context-tab" data-tab="research" onclick="switchTab('research')" style="padding: 12px 20px; background: #F1F5F9; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">🔬 Research</button>
-      <button class="context-tab" data-tab="admin" onclick="switchTab('admin')" style="padding: 12px 20px; background: #F1F5F9; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">⚙️ Admin</button>
+      <button class="context-tab" data-tab="research" onclick="switchTab('research')" style="padding: 12px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">🔬 Research</button>
+      <button class="context-tab" data-tab="admin" onclick="switchTab('admin')" style="padding: 12px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">⚙️ Admin</button>
     </div>
 
     <!-- Tab Content -->
-    <div id="tab-content" style="background: white; border: 1px solid #E2E8F0; border-top: none; border-radius: 0 0 12px 12px; padding: 24px;">
+    <div id="tab-content" style="background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 12px 12px; padding: 24px;">
 
       <!-- Teaching Tab -->
       <div class="tab-panel" data-panel="teaching" style="display: block;">
-        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">Assessment Redesign Priorities</h3>
+        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Assessment Redesign Priorities</h3>
 
-        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
           <strong>The mindset shift:</strong>
-          <p style="margin: 8px 0 0 0; color: #4338CA;">Move from "How do I stop students using AI?" to "How do I assess what students can actually do?"</p>
+          <p style="margin: 8px 0 0 0; color: #A5B4FC;">Move from "How do I stop students using AI?" to "How do I assess what students can actually do?"</p>
         </div>
 
         <p style="margin-bottom: 16px;"><strong>Quick wins for next semester:</strong></p>
-        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #334155;">
+        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
           <li>Add a 300-word process reflection to existing written assignments</li>
           <li>Include one in-class component (even a brief Q&A) for major submissions</li>
           <li>Require connection to a specific example from class discussion</li>
           <li>Update rubrics to value reasoning over polish</li>
         </ul>
 
-        <div style="background: #F0FDF4; padding: 16px; border-radius: 8px; margin-top: 16px;">
+        <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
           <strong>Sample syllabus statement:</strong>
-          <p style="margin: 8px 0 0 0; color: #166534; font-style: italic;">"AI tools may be used for brainstorming and drafting. All AI use must be disclosed. Assessments are designed to demonstrate your understanding—you'll be asked to explain your work in class discussions and may be invited to an individual conversation about your submission."</p>
+          <p style="margin: 8px 0 0 0; color: #4ADE80; font-style: italic;">"AI tools may be used for brainstorming and drafting. All AI use must be disclosed. Assessments are designed to demonstrate your understanding—you'll be asked to explain your work in class discussions and may be invited to an individual conversation about your submission."</p>
         </div>
       </div>
 
       <!-- Research Tab -->
       <div class="tab-panel" data-panel="research" style="display: none;">
-        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">HDR Supervision in an AI Era</h3>
+        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">HDR Supervision in an AI Era</h3>
 
-        <div style="background: #E0E7FF; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+        <div style="background: #2E1065; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
           <strong>The challenge:</strong>
-          <p style="margin: 8px 0 0 0; color: #4338CA;">How do you verify a research student's understanding when drafts might be AI-assisted?</p>
+          <p style="margin: 8px 0 0 0; color: #A5B4FC;">How do you verify a research student's understanding when drafts might be AI-assisted?</p>
         </div>
 
         <p style="margin-bottom: 16px;"><strong>Process-focused supervision:</strong></p>
-        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #334155;">
+        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
           <li>Require verbal explanation of written work in supervision meetings</li>
           <li>Ask students to walk you through their literature review choices</li>
           <li>Have them defend methodology decisions without referring to documents</li>
           <li>Discuss limitations and alternatives to assess depth of understanding</li>
         </ul>
 
-        <div style="background: #F0FDF4; padding: 16px; border-radius: 8px; margin-top: 16px;">
+        <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
           <strong>Establishing norms early:</strong>
-          <p style="margin: 8px 0 0 0; color: #166534;">"In our supervisions, I'll ask you to explain your work verbally. This isn't about catching AI use—it's about ensuring you're developing the research skills you'll need for your career."</p>
+          <p style="margin: 8px 0 0 0; color: #4ADE80;">"In our supervisions, I'll ask you to explain your work verbally. This isn't about catching AI use—it's about ensuring you're developing the research skills you'll need for your career."</p>
         </div>
       </div>
 
       <!-- Admin Tab -->
       <div class="tab-panel" data-panel="admin" style="display: none;">
-        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">Evaluating AI-Assisted Work</h3>
+        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Evaluating AI-Assisted Work</h3>
 
-        <div style="background: #FEE2E2; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+        <div style="background: #3B1010; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
           <strong>The reality:</strong>
-          <p style="margin: 8px 0 0 0; color: #991B1B;">Staff using AI to draft reports, emails, and documents is now common. The question is quality control, not detection.</p>
+          <p style="margin: 8px 0 0 0; color: #FCA5A5;">Staff using AI to draft reports, emails, and documents is now common. The question is quality control, not detection.</p>
         </div>
 
         <p style="margin-bottom: 16px;"><strong>What to look for in submissions/reports:</strong></p>
-        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #334155;">
+        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
           <li><strong>Accuracy:</strong> Are facts and figures verifiable?</li>
           <li><strong>Context:</strong> Does it show understanding of our specific situation?</li>
           <li><strong>Accountability:</strong> Can the author answer questions about content?</li>
           <li><strong>Judgment:</strong> Are recommendations appropriate for our context?</li>
         </ul>
 
-        <div style="background: #F0FDF4; padding: 16px; border-radius: 8px; margin-top: 16px;">
+        <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
           <strong>Practical approach:</strong>
-          <p style="margin: 8px 0 0 0; color: #166534;">Ask clarifying questions about key decisions or recommendations. If someone can explain and defend their work, the tool used to draft it matters less than the quality of thinking behind it.</p>
+          <p style="margin: 8px 0 0 0; color: #4ADE80;">Ask clarifying questions about key decisions or recommendations. If someone can explain and defend their work, the tool used to draft it matters less than the quality of thinking behind it.</p>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Key Takeaways -->
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
-    <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 16px 0;">Key Takeaways</h2>
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+    <h2 style="font-size: 20px; color: #E2E8F0; margin: 0 0 16px 0;">Key Takeaways</h2>
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Shift from detection to design</strong> — Create assessments where AI assistance doesn't undermine learning</p>
+        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Shift from detection to design</strong> — Create assessments where AI assistance doesn't undermine learning</p>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Three pathways available</strong> — Process documentation, in-class components, and personal application</p>
+        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Three pathways available</strong> — Process documentation, in-class components, and personal application</p>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Focus on understanding</strong> — Can students explain, extend, and apply what they've submitted?</p>
+        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Focus on understanding</strong> — Can students explain, extend, and apply what they've submitted?</p>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Update rubrics</strong> — Value reasoning, context, and process over polish</p>
+        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Update rubrics</strong> — Value reasoning, context, and process over polish</p>
       </div>
     </div>
   </div>
 
   <!-- Next Steps: Rubric Framework -->
-  <div style="background: linear-gradient(135deg, #EEF2FF, #E0E7FF); border: 2px solid #4F46E5; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+  <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); border: 2px solid #4F46E5; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
     <div style="display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
       <span style="font-size: 40px;">📊</span>
       <div style="flex: 1; min-width: 250px;">
-        <h3 style="margin: 0 0 8px 0; color: #312E81; font-size: 18px;">Ready to Build Your Rubric?</h3>
-        <p style="margin: 0 0 12px 0; color: #4338CA; line-height: 1.5;">Download our complete rubric framework for AI-integrated assessments. Includes a 5-criterion template, adaptation guide, and worked examples.</p>
+        <h3 style="margin: 0 0 8px 0; color: #C7D2FE; font-size: 18px;">Ready to Build Your Rubric?</h3>
+        <p style="margin: 0 0 12px 0; color: #A5B4FC; line-height: 1.5;">Download our complete rubric framework for AI-integrated assessments. Includes a 5-criterion template, adaptation guide, and worked examples.</p>
         <div style="display: flex; gap: 12px; flex-wrap: wrap;">
           <a href="[RUBRIC_URL]" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Download Rubric Pack →</a>
-          <a href="[TOOLKIT_URL]" target="_blank" style="display: inline-block; background: white; color: #4F46E5; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4F46E5;">Browse AI Toolkit</a>
+          <a href="[TOOLKIT_URL]" target="_blank" style="display: inline-block; background: #16162A; color: #A5B4FC; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4F46E5;">Browse AI Toolkit</a>
         </div>
-        <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid #C7D2FE;">
-          <p style="margin: 0 0 8px 0; font-size: 13px; color: #4338CA;">📗 <strong>Want to go deeper?</strong></p>
-          <p style="margin: 0; font-size: 14px;"><a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="color: #312E81; text-decoration: none;"><em>Partner, Don't Police: AI in the Business Classroom</em></a> — a complete guide to integrating AI into teaching with discipline-specific examples.</p>
+        <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid #4338CA;">
+          <p style="margin: 0 0 8px 0; font-size: 13px; color: #A5B4FC;">📗 <strong>Want to go deeper?</strong></p>
+          <p style="margin: 0; font-size: 14px;"><a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="color: #C7D2FE; text-decoration: none;"><em>Partner, Don't Police: AI in the Business Classroom</em></a> — a complete guide to integrating AI into teaching with discipline-specific examples.</p>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Completion Section -->
-  <div id="completion-section" style="display: none; background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+  <div id="completion-section" style="display: none; background: linear-gradient(135deg, #0D2818, #1A3A2A); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
     <div style="font-size: 48px; margin-bottom: 16px;">🎉</div>
-    <h2 style="font-family: Georgia, serif; font-size: 24px; color: #14532D; margin: 0 0 12px 0;">Experience Complete!</h2>
-    <p style="font-size: 16px; color: #166534; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
-    <div id="badge-progress" style="background: white; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
+    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; color: #86EFAC; margin: 0 0 12px 0;">Experience Complete!</h2>
+    <p style="font-size: 16px; color: #4ADE80; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
+    <div id="badge-progress" style="background: #16162A; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
       <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
     </div>
     <a href="#" id="next-experience-link" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Continue to Next Experience</a>
   </div>
 
-  <div id="completion-trigger" style="background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
-    <h3 style="font-family: Georgia, serif; font-size: 20px; color: #0F172A; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
+  <div id="completion-trigger" style="background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+    <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; color: #E2E8F0; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
     <p style="font-size: 14px; color: #64748B; line-height: 1.6; margin: 0 0 20px 0;">Once you've worked through the activities above, click below to record your progress.</p>
     <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease;">
       Mark as Complete
@@ -519,9 +519,9 @@ format:
 
     const checklistHtml = vulnerabilities.map(v => {
       const riskColors = {
-        high: { bg: '#FEE2E2', border: '#EF4444', text: '#991B1B' },
-        medium: { bg: '#FEF3C7', border: '#F59E0B', text: '#92400E' },
-        low: { bg: '#F0FDF4', border: '#22C55E', text: '#166534' }
+        high: { bg: '#3B1010', border: '#EF4444', text: '#FCA5A5' },
+        medium: { bg: '#3D2E0A', border: '#F59E0B', text: '#FBBF24' },
+        low: { bg: '#0D2818', border: '#22C55E', text: '#4ADE80' }
       };
       const colors = riskColors[v.risk];
       return `
@@ -550,7 +550,7 @@ format:
     ['a', 'b', 'c'].forEach(p => {
       document.getElementById(`pathway-${p}-content`).style.display = 'none';
       document.getElementById(`pathway-${p}-arrow`).style.transform = 'rotate(0deg)';
-      document.getElementById(`pathway-${p}`).style.borderColor = '#E2E8F0';
+      document.getElementById(`pathway-${p}`).style.borderColor = '#2D2D4A';
     });
 
     // Open clicked one if it was closed
@@ -606,7 +606,7 @@ format:
         t.style.color = 'white';
         t.style.fontWeight = 'bold';
       } else {
-        t.style.background = '#F1F5F9';
+        t.style.background = '#1E1E36';
         t.style.color = '#64748B';
         t.style.fontWeight = 'normal';
       }
@@ -677,7 +677,7 @@ format:
     if (completions[experienceId]) {
       document.getElementById('completion-trigger').innerHTML = `
         <div style="color: #22C55E; font-size: 24px; margin-bottom: 8px;">✓</div>
-        <p style="font-size: 14px; color: #64748B; margin: 0;">You completed this experience on ${new Date(completions[experienceId].completedAt).toLocaleDateString()}</p>
+        <p style="font-size: 14px; color: #94A3B8; margin: 0;">You completed this experience on ${new Date(completions[experienceId].completedAt).toLocaleDateString()}</p>
       `;
     }
   }

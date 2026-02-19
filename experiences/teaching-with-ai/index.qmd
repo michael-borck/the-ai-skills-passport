@@ -8,10 +8,10 @@ format:
 ---
 
 ```{=html}
-<div style="font-family: Georgia, 'Times New Roman', serif; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #fafafa;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #16162A; color: #E2E8F0;">
 
   <!-- Header -->
-  <div style="background: linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #3182ce 100%); color: white; padding: 40px; border-radius: 12px; text-align: center; margin-bottom: 30px;">
+  <div style="background: linear-gradient(135deg, #1E1E36 0%, #2D2D4A 50%, #4F46E5 100%); color: white; padding: 40px; border-radius: 12px; text-align: center; margin-bottom: 30px;">
     <div style="font-size: 4rem; margin-bottom: 10px;">🤝</div>
     <h1 style="margin: 0; font-size: 2.5rem; font-weight: normal; letter-spacing: 2px;">WORKING WITH AI</h1>
     <p style="margin: 10px 0 0 0; font-size: 1.3rem; opacity: 0.9;">Co-Creation & Integration</p>
@@ -19,17 +19,17 @@ format:
   </div>
 
   <!-- Introduction -->
-  <div style="background: white; padding: 30px; border-radius: 8px; margin-bottom: 25px; border-left: 4px solid #3182ce;">
-    <h2 style="margin-top: 0; color: #1a365d; font-weight: normal;">Welcome</h2>
-    <p style="font-size: 1.1rem; line-height: 1.7; color: #333;">
+  <div style="background: #16162A; padding: 30px; border-radius: 8px; margin-bottom: 25px; border-left: 4px solid #818CF8;">
+    <h2 style="margin-top: 0; color: #E2E8F0; font-weight: normal;">Welcome</h2>
+    <p style="font-size: 1.1rem; line-height: 1.7; color: #CBD5E1;">
       AI isn't here to replace you—it's a collaborator that can amplify your expertise. In this experience, you'll learn practical prompting techniques that transform AI from a novelty into a genuine work partner. You'll build a personal library of prompts tailored to your role—whether you teach, research, or keep the school running.
     </p>
   </div>
 
   <!-- Learning Outcomes -->
-  <div style="background: #e6f3ff; padding: 25px; border-radius: 8px; margin-bottom: 30px;">
-    <h3 style="margin-top: 0; color: #1a365d; font-weight: normal;">By the end of this experience, you will be able to:</h3>
-    <ul style="line-height: 1.8; color: #333; margin-bottom: 0;">
+  <div style="background: #1E1B4B; padding: 25px; border-radius: 8px; margin-bottom: 30px;">
+    <h3 style="margin-top: 0; color: #E2E8F0; font-weight: normal;">By the end of this experience, you will be able to:</h3>
+    <ul style="line-height: 1.8; color: #CBD5E1; margin-bottom: 0;">
       <li>Apply the RTCF framework to write effective prompts</li>
       <li>Use at least three advanced prompting techniques</li>
       <li>Identify which technique works best for different tasks</li>
@@ -39,36 +39,36 @@ format:
   </div>
 
   <!-- Progress Tracker -->
-  <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #e2e8f0;">
-    <h3 style="margin-top: 0; color: #1a365d; font-weight: normal;">Your Progress</h3>
+  <div style="background: #16162A; padding: 20px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #2D2D4A;">
+    <h3 style="margin-top: 0; color: #E2E8F0; font-weight: normal;">Your Progress</h3>
     <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
-      <div id="progress-activity1" style="flex: 1; min-width: 120px; padding: 10px; background: #f7fafc; border-radius: 6px; text-align: center;">
+      <div id="progress-activity1" style="flex: 1; min-width: 120px; padding: 10px; background: #1E1E36; border-radius: 6px; text-align: center;">
         <div style="font-size: 1.5rem;">1</div>
-        <div style="font-size: 0.85rem; color: #666;">RTCF Framework</div>
+        <div style="font-size: 0.85rem; color: #94A3B8;">RTCF Framework</div>
       </div>
-      <div id="progress-activity2" style="flex: 1; min-width: 120px; padding: 10px; background: #f7fafc; border-radius: 6px; text-align: center;">
+      <div id="progress-activity2" style="flex: 1; min-width: 120px; padding: 10px; background: #1E1E36; border-radius: 6px; text-align: center;">
         <div style="font-size: 1.5rem;">2</div>
-        <div style="font-size: 0.85rem; color: #666;">Prompt Lab</div>
+        <div style="font-size: 0.85rem; color: #94A3B8;">Prompt Lab</div>
       </div>
-      <div id="progress-activity3" style="flex: 1; min-width: 120px; padding: 10px; background: #f7fafc; border-radius: 6px; text-align: center;">
+      <div id="progress-activity3" style="flex: 1; min-width: 120px; padding: 10px; background: #1E1E36; border-radius: 6px; text-align: center;">
         <div style="font-size: 1.5rem;">3</div>
-        <div style="font-size: 0.85rem; color: #666;">Technique Picker</div>
+        <div style="font-size: 0.85rem; color: #94A3B8;">Technique Picker</div>
       </div>
-      <div id="progress-activity4" style="flex: 1; min-width: 120px; padding: 10px; background: #f7fafc; border-radius: 6px; text-align: center;">
+      <div id="progress-activity4" style="flex: 1; min-width: 120px; padding: 10px; background: #1E1E36; border-radius: 6px; text-align: center;">
         <div style="font-size: 1.5rem;">4</div>
-        <div style="font-size: 0.85rem; color: #666;">Prompt Library</div>
+        <div style="font-size: 0.85rem; color: #94A3B8;">Prompt Library</div>
       </div>
     </div>
   </div>
 
   <!-- Activity 1: The RTCF Framework -->
-  <div style="background: white; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div style="background: #16162A; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
-      <span style="background: #3182ce; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-weight: bold;">1</span>
-      <h2 style="margin: 0; color: #1a365d; font-weight: normal;">The RTCF Framework</h2>
+      <span style="background: #4F46E5; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-weight: bold;">1</span>
+      <h2 style="margin: 0; color: #E2E8F0; font-weight: normal;">The RTCF Framework</h2>
     </div>
 
-    <p style="font-size: 1.05rem; line-height: 1.7; color: #333; margin-bottom: 25px;">
+    <p style="font-size: 1.05rem; line-height: 1.7; color: #CBD5E1; margin-bottom: 25px;">
       The difference between a mediocre AI response and a brilliant one often comes down to how you ask. RTCF is a simple framework that transforms vague requests into precise prompts.
     </p>
 
@@ -89,7 +89,7 @@ format:
         <p style="margin: 0; font-size: 0.95rem; opacity: 0.95;">What background does it need?</p>
         <p style="margin: 10px 0 0 0; font-size: 0.85rem; font-style: italic; opacity: 0.85;">"The audience is... The deadline is... This is for..."</p>
       </div>
-      <div style="background: linear-gradient(135deg, #3182ce 0%, #2b6cb0 100%); color: white; padding: 20px; border-radius: 8px;">
+      <div style="background: linear-gradient(135deg, #4F46E5 0%, #4338CA 100%); color: white; padding: 20px; border-radius: 8px;">
         <h4 style="margin: 0 0 10px 0; font-size: 1.3rem;">F - Format</h4>
         <p style="margin: 0; font-size: 0.95rem; opacity: 0.95;">How should output look?</p>
         <p style="margin: 10px 0 0 0; font-size: 0.85rem; font-style: italic; opacity: 0.85;">"4-point scale with descriptors, table format..."</p>
@@ -97,151 +97,151 @@ format:
     </div>
 
     <!-- Interactive Example -->
-    <div style="background: #f7fafc; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-      <h4 style="margin: 0 0 15px 0; color: #1a365d;">See RTCF in Action</h4>
-      <p style="margin: 0 0 15px 0; color: #555;">Choose your role, then click each button to see how RTCF transforms a vague prompt:</p>
+    <div style="background: #1E1E36; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+      <h4 style="margin: 0 0 15px 0; color: #E2E8F0;">See RTCF in Action</h4>
+      <p style="margin: 0 0 15px 0; color: #94A3B8;">Choose your role, then click each button to see how RTCF transforms a vague prompt:</p>
 
       <!-- Role selector -->
-      <div style="display: flex; border-bottom: 2px solid #e2e8f0; margin-bottom: 15px;">
-        <button onclick="setRTCFRole('teaching')" id="rtcf-tab-teaching" style="padding: 10px 20px; background: #3182ce; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem; margin-right: 5px;">Teaching</button>
-        <button onclick="setRTCFRole('research')" id="rtcf-tab-research" style="padding: 10px 20px; background: #e2e8f0; color: #333; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem; margin-right: 5px;">Research</button>
-        <button onclick="setRTCFRole('admin')" id="rtcf-tab-admin" style="padding: 10px 20px; background: #e2e8f0; color: #333; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem;">Admin</button>
+      <div style="display: flex; border-bottom: 2px solid #2D2D4A; margin-bottom: 15px;">
+        <button onclick="setRTCFRole('teaching')" id="rtcf-tab-teaching" style="padding: 10px 20px; background: #4F46E5; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem; margin-right: 5px;">Teaching</button>
+        <button onclick="setRTCFRole('research')" id="rtcf-tab-research" style="padding: 10px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem; margin-right: 5px;">Research</button>
+        <button onclick="setRTCFRole('admin')" id="rtcf-tab-admin" style="padding: 10px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 0.95rem;">Admin</button>
       </div>
 
       <div style="margin-bottom: 15px;">
-        <button onclick="showRTCFExample('vague')" style="padding: 10px 20px; margin-right: 10px; margin-bottom: 5px; border: 2px solid #3182ce; background: white; color: #3182ce; border-radius: 6px; cursor: pointer; font-family: inherit;">Vague Prompt</button>
-        <button onclick="showRTCFExample('rtcf')" style="padding: 10px 20px; margin-right: 10px; margin-bottom: 5px; border: 2px solid #38a169; background: white; color: #38a169; border-radius: 6px; cursor: pointer; font-family: inherit;">RTCF Prompt</button>
-        <button onclick="showRTCFExample('result')" style="padding: 10px 20px; margin-bottom: 5px; border: 2px solid #805ad5; background: white; color: #805ad5; border-radius: 6px; cursor: pointer; font-family: inherit;">Why It Works</button>
+        <button onclick="showRTCFExample('vague')" style="padding: 10px 20px; margin-right: 10px; margin-bottom: 5px; border: 2px solid #818CF8; background: #16162A; color: #818CF8; border-radius: 6px; cursor: pointer; font-family: inherit;">Vague Prompt</button>
+        <button onclick="showRTCFExample('rtcf')" style="padding: 10px 20px; margin-right: 10px; margin-bottom: 5px; border: 2px solid #4ADE80; background: #16162A; color: #4ADE80; border-radius: 6px; cursor: pointer; font-family: inherit;">RTCF Prompt</button>
+        <button onclick="showRTCFExample('result')" style="padding: 10px 20px; margin-bottom: 5px; border: 2px solid #C7D2FE; background: #16162A; color: #C7D2FE; border-radius: 6px; cursor: pointer; font-family: inherit;">Why It Works</button>
       </div>
 
-      <div id="rtcf-example-display" style="background: white; padding: 20px; border-radius: 6px; border: 1px solid #e2e8f0; min-height: 120px;">
-        <p style="color: #666; font-style: italic; margin: 0;">Click a button above to compare prompts...</p>
+      <div id="rtcf-example-display" style="background: #16162A; padding: 20px; border-radius: 6px; border: 1px solid #2D2D4A; min-height: 120px;">
+        <p style="color: #94A3B8; font-style: italic; margin: 0;">Click a button above to compare prompts...</p>
       </div>
     </div>
 
     <!-- Common Mistakes -->
-    <div style="background: #fff5f5; padding: 20px; border-radius: 8px; border-left: 4px solid #e53e3e;">
-      <h4 style="margin: 0 0 15px 0; color: #c53030;">Common Mistakes to Avoid</h4>
+    <div style="background: #3B1010; padding: 20px; border-radius: 8px; border-left: 4px solid #F87171;">
+      <h4 style="margin: 0 0 15px 0; color: #F87171;">Common Mistakes to Avoid</h4>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
         <div>
-          <p style="margin: 0; color: #333;"><strong>Too vague:</strong> "Help me with my lecture"</p>
-          <p style="margin: 5px 0 0 0; color: #38a169; font-size: 0.9rem;">Fix: Be specific about what help you need</p>
+          <p style="margin: 0; color: #CBD5E1;"><strong>Too vague:</strong> "Help me with my lecture"</p>
+          <p style="margin: 5px 0 0 0; color: #4ADE80; font-size: 0.9rem;">Fix: Be specific about what help you need</p>
         </div>
         <div>
-          <p style="margin: 0; color: #333;"><strong>No context:</strong> "Write quiz questions"</p>
-          <p style="margin: 5px 0 0 0; color: #38a169; font-size: 0.9rem;">Fix: Include topic, level, purpose</p>
+          <p style="margin: 0; color: #CBD5E1;"><strong>No context:</strong> "Write quiz questions"</p>
+          <p style="margin: 5px 0 0 0; color: #4ADE80; font-size: 0.9rem;">Fix: Include topic, level, purpose</p>
         </div>
         <div>
-          <p style="margin: 0; color: #333;"><strong>No format:</strong> "Explain this concept"</p>
-          <p style="margin: 5px 0 0 0; color: #38a169; font-size: 0.9rem;">Fix: Specify length, structure, style</p>
+          <p style="margin: 0; color: #CBD5E1;"><strong>No format:</strong> "Explain this concept"</p>
+          <p style="margin: 5px 0 0 0; color: #4ADE80; font-size: 0.9rem;">Fix: Specify length, structure, style</p>
         </div>
         <div>
-          <p style="margin: 0; color: #333;"><strong>One-shot thinking:</strong> Taking first output as final</p>
-          <p style="margin: 5px 0 0 0; color: #38a169; font-size: 0.9rem;">Fix: Iterate—first output is a draft</p>
+          <p style="margin: 0; color: #CBD5E1;"><strong>One-shot thinking:</strong> Taking first output as final</p>
+          <p style="margin: 5px 0 0 0; color: #4ADE80; font-size: 0.9rem;">Fix: Iterate—first output is a draft</p>
         </div>
       </div>
     </div>
 
     <!-- Completion checkbox -->
-    <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
+    <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #2D2D4A;">
       <label style="display: flex; align-items: center; cursor: pointer;">
         <input type="checkbox" id="complete-activity1" onchange="markComplete(1)" style="width: 20px; height: 20px; margin-right: 12px; cursor: pointer;">
-        <span style="color: #333;">I understand the RTCF framework</span>
+        <span style="color: #CBD5E1;">I understand the RTCF framework</span>
       </label>
     </div>
   </div>
 
   <!-- Activity 2: Prompt Lab -->
-  <div style="background: white; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div style="background: #16162A; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
-      <span style="background: #3182ce; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-weight: bold;">2</span>
-      <h2 style="margin: 0; color: #1a365d; font-weight: normal;">Prompt Lab</h2>
+      <span style="background: #4F46E5; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-weight: bold;">2</span>
+      <h2 style="margin: 0; color: #E2E8F0; font-weight: normal;">Prompt Lab</h2>
     </div>
 
-    <p style="font-size: 1.05rem; line-height: 1.7; color: #333; margin-bottom: 25px;">
+    <p style="font-size: 1.05rem; line-height: 1.7; color: #CBD5E1; margin-bottom: 25px;">
       Now it's your turn. Build a prompt using the RTCF structure. Fill in each element below and watch your prompt come together.
     </p>
 
     <!-- RTCF Builder -->
-    <div style="background: #f7fafc; padding: 25px; border-radius: 8px; margin-bottom: 20px;">
-      <h4 style="margin: 0 0 20px 0; color: #1a365d;">Build Your Prompt</h4>
+    <div style="background: #1E1E36; padding: 25px; border-radius: 8px; margin-bottom: 20px;">
+      <h4 style="margin: 0 0 20px 0; color: #E2E8F0;">Build Your Prompt</h4>
 
       <div style="margin-bottom: 20px;">
-        <label style="display: block; margin-bottom: 8px; color: #e53e3e; font-weight: bold;">Role - Who should AI be?</label>
-        <input type="text" id="rtcf-role" placeholder="e.g., You are an experienced learning designer who specializes in active learning..." style="width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 6px; font-family: inherit; font-size: 1rem; box-sizing: border-box;" oninput="updatePromptPreview()">
+        <label style="display: block; margin-bottom: 8px; color: #F87171; font-weight: bold;">Role - Who should AI be?</label>
+        <input type="text" id="rtcf-role" placeholder="e.g., You are an experienced learning designer who specializes in active learning..." style="width: 100%; padding: 12px; border: 2px solid #2D2D4A; border-radius: 6px; font-family: inherit; font-size: 1rem; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="updatePromptPreview()">
       </div>
 
       <div style="margin-bottom: 20px;">
-        <label style="display: block; margin-bottom: 8px; color: #dd6b20; font-weight: bold;">Task - What should it do?</label>
-        <input type="text" id="rtcf-task" placeholder="e.g., Create a set of discussion questions that promote critical thinking..." style="width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 6px; font-family: inherit; font-size: 1rem; box-sizing: border-box;" oninput="updatePromptPreview()">
+        <label style="display: block; margin-bottom: 8px; color: #FBBF24; font-weight: bold;">Task - What should it do?</label>
+        <input type="text" id="rtcf-task" placeholder="e.g., Create a set of discussion questions that promote critical thinking..." style="width: 100%; padding: 12px; border: 2px solid #2D2D4A; border-radius: 6px; font-family: inherit; font-size: 1rem; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="updatePromptPreview()">
       </div>
 
       <div style="margin-bottom: 20px;">
-        <label style="display: block; margin-bottom: 8px; color: #38a169; font-weight: bold;">Context - What background is needed?</label>
-        <textarea id="rtcf-context" placeholder="e.g., The topic is digital marketing analytics. Students are third-year undergraduates. This is for a 2-hour tutorial with 25 students..." style="width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 6px; font-family: inherit; font-size: 1rem; min-height: 80px; box-sizing: border-box;" oninput="updatePromptPreview()"></textarea>
+        <label style="display: block; margin-bottom: 8px; color: #4ADE80; font-weight: bold;">Context - What background is needed?</label>
+        <textarea id="rtcf-context" placeholder="e.g., The topic is digital marketing analytics. Students are third-year undergraduates. This is for a 2-hour tutorial with 25 students..." style="width: 100%; padding: 12px; border: 2px solid #2D2D4A; border-radius: 6px; font-family: inherit; font-size: 1rem; min-height: 80px; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="updatePromptPreview()"></textarea>
       </div>
 
       <div style="margin-bottom: 20px;">
-        <label style="display: block; margin-bottom: 8px; color: #3182ce; font-weight: bold;">Format - How should output look?</label>
-        <input type="text" id="rtcf-format" placeholder="e.g., Provide 5 questions, each with a suggested follow-up prompt and estimated discussion time..." style="width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 6px; font-family: inherit; font-size: 1rem; box-sizing: border-box;" oninput="updatePromptPreview()">
+        <label style="display: block; margin-bottom: 8px; color: #818CF8; font-weight: bold;">Format - How should output look?</label>
+        <input type="text" id="rtcf-format" placeholder="e.g., Provide 5 questions, each with a suggested follow-up prompt and estimated discussion time..." style="width: 100%; padding: 12px; border: 2px solid #2D2D4A; border-radius: 6px; font-family: inherit; font-size: 1rem; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="updatePromptPreview()">
       </div>
     </div>
 
     <!-- Preview -->
-    <div style="background: #1a365d; padding: 25px; border-radius: 8px; margin-bottom: 20px;">
+    <div style="background: #1E1E36; padding: 25px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #2D2D4A;">
       <h4 style="margin: 0 0 15px 0; color: white;">Your Complete Prompt</h4>
-      <div id="prompt-preview" style="background: #2d3748; padding: 20px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 0.95rem; color: #e2e8f0; white-space: pre-wrap; min-height: 100px;">
+      <div id="prompt-preview" style="background: #16162A; padding: 20px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 0.95rem; color: #e2e8f0; white-space: pre-wrap; min-height: 100px;">
 Fill in the fields above to build your prompt...
       </div>
-      <button onclick="copyPrompt()" style="margin-top: 15px; padding: 10px 20px; background: #38a169; color: white; border: none; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 1rem;">Copy to Clipboard</button>
+      <button onclick="copyPrompt()" style="margin-top: 15px; padding: 10px 20px; background: #4ADE80; color: #16162A; border: none; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 1rem;">Copy to Clipboard</button>
     </div>
 
     <!-- Quick Templates -->
-    <div style="background: #f0fff4; padding: 20px; border-radius: 8px;">
-      <h4 style="margin: 0 0 15px 0; color: #276749;">Quick Start Templates</h4>
-      <p style="margin: 0 0 15px 0; color: #555;">Click a template to load it into the builder:</p>
+    <div style="background: #0D2818; padding: 20px; border-radius: 8px;">
+      <h4 style="margin: 0 0 15px 0; color: #4ADE80;">Quick Start Templates</h4>
+      <p style="margin: 0 0 15px 0; color: #94A3B8;">Click a template to load it into the builder:</p>
       <div style="margin-bottom: 12px;">
-        <p style="margin: 0 0 8px 0; color: #1a365d; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Teaching</p>
+        <p style="margin: 0 0 8px 0; color: #E2E8F0; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Teaching</p>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-          <button onclick="loadTemplate('lecture')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Lecture Outline</button>
-          <button onclick="loadTemplate('quiz')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Quiz Questions</button>
-          <button onclick="loadTemplate('feedback')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Student Feedback</button>
-          <button onclick="loadTemplate('rubric')" style="padding: 8px 16px; background: white; border: 1px solid #38a169; color: #276749; border-radius: 6px; cursor: pointer; font-family: inherit;">Assessment Rubric</button>
+          <button onclick="loadTemplate('lecture')" style="padding: 8px 16px; background: #16162A; border: 1px solid #4ADE80; color: #4ADE80; border-radius: 6px; cursor: pointer; font-family: inherit;">Lecture Outline</button>
+          <button onclick="loadTemplate('quiz')" style="padding: 8px 16px; background: #16162A; border: 1px solid #4ADE80; color: #4ADE80; border-radius: 6px; cursor: pointer; font-family: inherit;">Quiz Questions</button>
+          <button onclick="loadTemplate('feedback')" style="padding: 8px 16px; background: #16162A; border: 1px solid #4ADE80; color: #4ADE80; border-radius: 6px; cursor: pointer; font-family: inherit;">Student Feedback</button>
+          <button onclick="loadTemplate('rubric')" style="padding: 8px 16px; background: #16162A; border: 1px solid #4ADE80; color: #4ADE80; border-radius: 6px; cursor: pointer; font-family: inherit;">Assessment Rubric</button>
         </div>
       </div>
       <div style="margin-bottom: 12px;">
-        <p style="margin: 0 0 8px 0; color: #1a365d; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Research</p>
+        <p style="margin: 0 0 8px 0; color: #E2E8F0; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Research</p>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-          <button onclick="loadTemplate('litreview')" style="padding: 8px 16px; background: white; border: 1px solid #3182ce; color: #2b6cb0; border-radius: 6px; cursor: pointer; font-family: inherit;">Literature Synthesis</button>
-          <button onclick="loadTemplate('methodology')" style="padding: 8px 16px; background: white; border: 1px solid #3182ce; color: #2b6cb0; border-radius: 6px; cursor: pointer; font-family: inherit;">Methodology Critique</button>
+          <button onclick="loadTemplate('litreview')" style="padding: 8px 16px; background: #16162A; border: 1px solid #818CF8; color: #818CF8; border-radius: 6px; cursor: pointer; font-family: inherit;">Literature Synthesis</button>
+          <button onclick="loadTemplate('methodology')" style="padding: 8px 16px; background: #16162A; border: 1px solid #818CF8; color: #818CF8; border-radius: 6px; cursor: pointer; font-family: inherit;">Methodology Critique</button>
         </div>
       </div>
       <div>
-        <p style="margin: 0 0 8px 0; color: #1a365d; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Admin</p>
+        <p style="margin: 0 0 8px 0; color: #E2E8F0; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Admin</p>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-          <button onclick="loadTemplate('email')" style="padding: 8px 16px; background: white; border: 1px solid #805ad5; color: #6b46c1; border-radius: 6px; cursor: pointer; font-family: inherit;">Email Draft</button>
-          <button onclick="loadTemplate('meeting')" style="padding: 8px 16px; background: white; border: 1px solid #805ad5; color: #6b46c1; border-radius: 6px; cursor: pointer; font-family: inherit;">Meeting Preparation</button>
+          <button onclick="loadTemplate('email')" style="padding: 8px 16px; background: #16162A; border: 1px solid #C7D2FE; color: #C7D2FE; border-radius: 6px; cursor: pointer; font-family: inherit;">Email Draft</button>
+          <button onclick="loadTemplate('meeting')" style="padding: 8px 16px; background: #16162A; border: 1px solid #C7D2FE; color: #C7D2FE; border-radius: 6px; cursor: pointer; font-family: inherit;">Meeting Preparation</button>
         </div>
       </div>
     </div>
 
     <!-- Completion checkbox -->
-    <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
+    <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #2D2D4A;">
       <label style="display: flex; align-items: center; cursor: pointer;">
         <input type="checkbox" id="complete-activity2" onchange="markComplete(2)" style="width: 20px; height: 20px; margin-right: 12px; cursor: pointer;">
-        <span style="color: #333;">I have practiced building a prompt with RTCF</span>
+        <span style="color: #CBD5E1;">I have practiced building a prompt with RTCF</span>
       </label>
     </div>
   </div>
 
   <!-- Activity 3: Technique Picker -->
-  <div style="background: white; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div style="background: #16162A; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
-      <span style="background: #3182ce; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-weight: bold;">3</span>
-      <h2 style="margin: 0; color: #1a365d; font-weight: normal;">Technique Picker</h2>
+      <span style="background: #4F46E5; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-weight: bold;">3</span>
+      <h2 style="margin: 0; color: #E2E8F0; font-weight: normal;">Technique Picker</h2>
     </div>
 
-    <p style="font-size: 1.05rem; line-height: 1.7; color: #333; margin-bottom: 25px;">
+    <p style="font-size: 1.05rem; line-height: 1.7; color: #CBD5E1; margin-bottom: 25px;">
       Beyond basic prompting, these six techniques unlock AI's full potential as a thinking partner. Click each card to explore the technique and see examples.
     </p>
 
@@ -273,7 +273,7 @@ Fill in the fields above to build your prompt...
       </div>
 
       <!-- Assessment Stress-Testing -->
-      <div class="technique-card" onclick="showTechnique('stress')" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #333; padding: 25px; border-radius: 12px; cursor: pointer; transition: transform 0.2s;">
+      <div class="technique-card" onclick="showTechnique('stress')" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: #1E1E36; padding: 25px; border-radius: 12px; cursor: pointer; transition: transform 0.2s;">
         <div style="font-size: 2rem; margin-bottom: 10px;">🧪</div>
         <h4 style="margin: 0 0 10px 0; font-size: 1.2rem;">Assessment Stress-Testing</h4>
         <p style="margin: 0; font-size: 0.95rem; opacity: 0.9;">Discover if your assessment measures what you think it does</p>
@@ -281,7 +281,7 @@ Fill in the fields above to build your prompt...
       </div>
 
       <!-- Chain of Thought -->
-      <div class="technique-card" onclick="showTechnique('chain')" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #333; padding: 25px; border-radius: 12px; cursor: pointer; transition: transform 0.2s;">
+      <div class="technique-card" onclick="showTechnique('chain')" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #1E1E36; padding: 25px; border-radius: 12px; cursor: pointer; transition: transform 0.2s;">
         <div style="font-size: 2rem; margin-bottom: 10px;">🔗</div>
         <h4 style="margin: 0 0 10px 0; font-size: 1.2rem;">Chain of Thought</h4>
         <p style="margin: 0; font-size: 0.95rem; opacity: 0.9;">Get better reasoning by asking AI to show its work step by step</p>
@@ -289,7 +289,7 @@ Fill in the fields above to build your prompt...
       </div>
 
       <!-- Few-Shot Learning -->
-      <div class="technique-card" onclick="showTechnique('fewshot')" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: #333; padding: 25px; border-radius: 12px; cursor: pointer; transition: transform 0.2s;">
+      <div class="technique-card" onclick="showTechnique('fewshot')" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: #1E1E36; padding: 25px; border-radius: 12px; cursor: pointer; transition: transform 0.2s;">
         <div style="font-size: 2rem; margin-bottom: 10px;">📋</div>
         <h4 style="margin: 0 0 10px 0; font-size: 1.2rem;">Few-Shot Learning</h4>
         <p style="margin: 0; font-size: 0.95rem; opacity: 0.9;">Teach AI your preferred style by providing examples</p>
@@ -298,47 +298,47 @@ Fill in the fields above to build your prompt...
     </div>
 
     <!-- Technique Detail Modal -->
-    <div id="technique-detail" style="display: none; background: #f7fafc; padding: 25px; border-radius: 8px; margin-bottom: 20px; border: 2px solid #3182ce;">
+    <div id="technique-detail" style="display: none; background: #1E1E36; padding: 25px; border-radius: 8px; margin-bottom: 20px; border: 2px solid #4F46E5;">
       <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 20px;">
-        <h4 id="technique-title" style="margin: 0; color: #1a365d; font-size: 1.3rem;"></h4>
-        <button onclick="closeTechnique()" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #666;">&times;</button>
+        <h4 id="technique-title" style="margin: 0; color: #E2E8F0; font-size: 1.3rem;"></h4>
+        <button onclick="closeTechnique()" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #94A3B8;">&times;</button>
       </div>
       <div id="technique-content"></div>
     </div>
 
     <!-- Quick Reference Table -->
-    <div style="background: #f7fafc; padding: 20px; border-radius: 8px;">
-      <h4 style="margin: 0 0 15px 0; color: #1a365d;">Quick Reference: Choosing a Technique</h4>
+    <div style="background: #1E1E36; padding: 20px; border-radius: 8px;">
+      <h4 style="margin: 0 0 15px 0; color: #E2E8F0;">Quick Reference: Choosing a Technique</h4>
       <div style="overflow-x: auto;">
-        <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; color: #CBD5E1;">
           <thead>
-            <tr style="background: #1a365d; color: white;">
+            <tr style="background: #4F46E5; color: white;">
               <th style="padding: 12px; text-align: left; border-radius: 6px 0 0 0;">If you want to...</th>
               <th style="padding: 12px; text-align: left; border-radius: 0 6px 0 0;">Use...</th>
             </tr>
           </thead>
           <tbody>
-            <tr style="background: white;">
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Get multiple perspectives</td>
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Board of Directors</td>
+            <tr style="background: #16162A;">
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Get multiple perspectives</td>
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Board of Directors</td>
             </tr>
-            <tr style="background: #f7fafc;">
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Test your assumptions</td>
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Devil's Advocate</td>
+            <tr style="background: #1E1E36;">
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Test your assumptions</td>
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Devil's Advocate</td>
             </tr>
-            <tr style="background: white;">
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Get personalized advice</td>
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Reverse Prompting</td>
+            <tr style="background: #16162A;">
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Get personalized advice</td>
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Reverse Prompting</td>
             </tr>
-            <tr style="background: #f7fafc;">
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Check assessment validity</td>
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Assessment Stress-Testing</td>
+            <tr style="background: #1E1E36;">
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Check assessment validity</td>
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Assessment Stress-Testing</td>
             </tr>
-            <tr style="background: white;">
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Get better reasoning</td>
-              <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Chain of Thought</td>
+            <tr style="background: #16162A;">
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Get better reasoning</td>
+              <td style="padding: 12px; border-bottom: 1px solid #2D2D4A;">Chain of Thought</td>
             </tr>
-            <tr style="background: #f7fafc;">
+            <tr style="background: #1E1E36;">
               <td style="padding: 12px;">Match your specific style</td>
               <td style="padding: 12px;">Few-Shot Learning</td>
             </tr>
@@ -348,110 +348,110 @@ Fill in the fields above to build your prompt...
     </div>
 
     <!-- Completion checkbox -->
-    <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
+    <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #2D2D4A;">
       <label style="display: flex; align-items: center; cursor: pointer;">
         <input type="checkbox" id="complete-activity3" onchange="markComplete(3)" style="width: 20px; height: 20px; margin-right: 12px; cursor: pointer;">
-        <span style="color: #333;">I have explored at least three techniques</span>
+        <span style="color: #CBD5E1;">I have explored at least three techniques</span>
       </label>
     </div>
   </div>
 
   <!-- Activity 4: Build Your Prompt Library -->
-  <div style="background: white; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div style="background: #16162A; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
-      <span style="background: #3182ce; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-weight: bold;">4</span>
-      <h2 style="margin: 0; color: #1a365d; font-weight: normal;">Build Your Prompt Library</h2>
+      <span style="background: #4F46E5; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; font-weight: bold;">4</span>
+      <h2 style="margin: 0; color: #E2E8F0; font-weight: normal;">Build Your Prompt Library</h2>
     </div>
 
-    <p style="font-size: 1.05rem; line-height: 1.7; color: #333; margin-bottom: 25px;">
+    <p style="font-size: 1.05rem; line-height: 1.7; color: #CBD5E1; margin-bottom: 25px;">
       The most effective AI users build a personal library of reusable prompts. Create three prompts tailored to tasks you do regularly—whether that's teaching, research, or admin. These will be saved locally so you can return to them.
     </p>
 
     <!-- Prompt Library Builder -->
-    <div style="background: #f7fafc; padding: 25px; border-radius: 8px; margin-bottom: 20px;">
+    <div style="background: #1E1E36; padding: 25px; border-radius: 8px; margin-bottom: 20px;">
 
       <!-- Prompt 1 -->
-      <div style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #e2e8f0;">
-        <h4 style="margin: 0 0 15px 0; color: #1a365d;">Prompt 1: <span style="color: #666; font-weight: normal;">Weekly Task</span></h4>
+      <div style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #2D2D4A;">
+        <h4 style="margin: 0 0 15px 0; color: #E2E8F0;">Prompt 1: <span style="color: #94A3B8; font-weight: normal;">Weekly Task</span></h4>
         <div style="margin-bottom: 15px;">
-          <label style="display: block; margin-bottom: 5px; color: #555; font-size: 0.9rem;">What task is this prompt for?</label>
-          <input type="text" id="library-task-1" placeholder="e.g., Generating discussion questions for tutorials" style="width: 100%; padding: 10px; border: 1px solid #e2e8f0; border-radius: 6px; font-family: inherit; box-sizing: border-box;" oninput="saveLibrary()">
+          <label style="display: block; margin-bottom: 5px; color: #94A3B8; font-size: 0.9rem;">What task is this prompt for?</label>
+          <input type="text" id="library-task-1" placeholder="e.g., Generating discussion questions for tutorials" style="width: 100%; padding: 10px; border: 1px solid #2D2D4A; border-radius: 6px; font-family: inherit; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="saveLibrary()">
         </div>
         <div>
-          <label style="display: block; margin-bottom: 5px; color: #555; font-size: 0.9rem;">Your reusable prompt:</label>
-          <textarea id="library-prompt-1" placeholder="Write your complete prompt here. Include placeholders like [TOPIC] or [WEEK] for parts that change each time..." style="width: 100%; padding: 10px; border: 1px solid #e2e8f0; border-radius: 6px; font-family: inherit; min-height: 100px; box-sizing: border-box;" oninput="saveLibrary()"></textarea>
+          <label style="display: block; margin-bottom: 5px; color: #94A3B8; font-size: 0.9rem;">Your reusable prompt:</label>
+          <textarea id="library-prompt-1" placeholder="Write your complete prompt here. Include placeholders like [TOPIC] or [WEEK] for parts that change each time..." style="width: 100%; padding: 10px; border: 1px solid #2D2D4A; border-radius: 6px; font-family: inherit; min-height: 100px; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="saveLibrary()"></textarea>
         </div>
       </div>
 
       <!-- Prompt 2 -->
-      <div style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #e2e8f0;">
-        <h4 style="margin: 0 0 15px 0; color: #1a365d;">Prompt 2: <span style="color: #666; font-weight: normal;">Communication Task</span></h4>
+      <div style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #2D2D4A;">
+        <h4 style="margin: 0 0 15px 0; color: #E2E8F0;">Prompt 2: <span style="color: #94A3B8; font-weight: normal;">Communication Task</span></h4>
         <div style="margin-bottom: 15px;">
-          <label style="display: block; margin-bottom: 5px; color: #555; font-size: 0.9rem;">What task is this prompt for?</label>
-          <input type="text" id="library-task-2" placeholder="e.g., Drafting email responses to student queries" style="width: 100%; padding: 10px; border: 1px solid #e2e8f0; border-radius: 6px; font-family: inherit; box-sizing: border-box;" oninput="saveLibrary()">
+          <label style="display: block; margin-bottom: 5px; color: #94A3B8; font-size: 0.9rem;">What task is this prompt for?</label>
+          <input type="text" id="library-task-2" placeholder="e.g., Drafting email responses to student queries" style="width: 100%; padding: 10px; border: 1px solid #2D2D4A; border-radius: 6px; font-family: inherit; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="saveLibrary()">
         </div>
         <div>
-          <label style="display: block; margin-bottom: 5px; color: #555; font-size: 0.9rem;">Your reusable prompt:</label>
-          <textarea id="library-prompt-2" placeholder="Write your complete prompt here..." style="width: 100%; padding: 10px; border: 1px solid #e2e8f0; border-radius: 6px; font-family: inherit; min-height: 100px; box-sizing: border-box;" oninput="saveLibrary()"></textarea>
+          <label style="display: block; margin-bottom: 5px; color: #94A3B8; font-size: 0.9rem;">Your reusable prompt:</label>
+          <textarea id="library-prompt-2" placeholder="Write your complete prompt here..." style="width: 100%; padding: 10px; border: 1px solid #2D2D4A; border-radius: 6px; font-family: inherit; min-height: 100px; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="saveLibrary()"></textarea>
         </div>
       </div>
 
       <!-- Prompt 3 -->
       <div>
-        <h4 style="margin: 0 0 15px 0; color: #1a365d;">Prompt 3: <span style="color: #666; font-weight: normal;">Creative Task</span></h4>
+        <h4 style="margin: 0 0 15px 0; color: #E2E8F0;">Prompt 3: <span style="color: #94A3B8; font-weight: normal;">Creative Task</span></h4>
         <div style="margin-bottom: 15px;">
-          <label style="display: block; margin-bottom: 5px; color: #555; font-size: 0.9rem;">What task is this prompt for?</label>
-          <input type="text" id="library-task-3" placeholder="e.g., Brainstorming assessment alternatives" style="width: 100%; padding: 10px; border: 1px solid #e2e8f0; border-radius: 6px; font-family: inherit; box-sizing: border-box;" oninput="saveLibrary()">
+          <label style="display: block; margin-bottom: 5px; color: #94A3B8; font-size: 0.9rem;">What task is this prompt for?</label>
+          <input type="text" id="library-task-3" placeholder="e.g., Brainstorming assessment alternatives" style="width: 100%; padding: 10px; border: 1px solid #2D2D4A; border-radius: 6px; font-family: inherit; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="saveLibrary()">
         </div>
         <div>
-          <label style="display: block; margin-bottom: 5px; color: #555; font-size: 0.9rem;">Your reusable prompt:</label>
-          <textarea id="library-prompt-3" placeholder="Write your complete prompt here..." style="width: 100%; padding: 10px; border: 1px solid #e2e8f0; border-radius: 6px; font-family: inherit; min-height: 100px; box-sizing: border-box;" oninput="saveLibrary()"></textarea>
+          <label style="display: block; margin-bottom: 5px; color: #94A3B8; font-size: 0.9rem;">Your reusable prompt:</label>
+          <textarea id="library-prompt-3" placeholder="Write your complete prompt here..." style="width: 100%; padding: 10px; border: 1px solid #2D2D4A; border-radius: 6px; font-family: inherit; min-height: 100px; box-sizing: border-box; background: #16162A; color: #E2E8F0;" oninput="saveLibrary()"></textarea>
         </div>
       </div>
     </div>
 
     <!-- Export Options -->
     <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-      <button onclick="exportLibrary()" style="padding: 12px 24px; background: #3182ce; color: white; border: none; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 1rem;">Download Prompt Library</button>
-      <button onclick="clearLibrary()" style="padding: 12px 24px; background: white; color: #e53e3e; border: 2px solid #e53e3e; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 1rem;">Clear All</button>
+      <button onclick="exportLibrary()" style="padding: 12px 24px; background: #4F46E5; color: white; border: none; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 1rem;">Download Prompt Library</button>
+      <button onclick="clearLibrary()" style="padding: 12px 24px; background: #16162A; color: #F87171; border: 2px solid #F87171; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 1rem;">Clear All</button>
     </div>
 
     <!-- Completion checkbox -->
-    <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
+    <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #2D2D4A;">
       <label style="display: flex; align-items: center; cursor: pointer;">
         <input type="checkbox" id="complete-activity4" onchange="markComplete(4)" style="width: 20px; height: 20px; margin-right: 12px; cursor: pointer;">
-        <span style="color: #333;">I have created at least one reusable prompt</span>
+        <span style="color: #CBD5E1;">I have created at least one reusable prompt</span>
       </label>
     </div>
   </div>
 
   <!-- In Your Context Tabs -->
-  <div style="background: white; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-    <h2 style="margin: 0 0 20px 0; color: #1a365d; font-weight: normal;">In Your Context</h2>
+  <div style="background: #16162A; padding: 30px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">
+    <h2 style="margin: 0 0 20px 0; color: #E2E8F0; font-weight: normal;">In Your Context</h2>
 
-    <p style="font-size: 1.05rem; line-height: 1.7; color: #333; margin-bottom: 25px;">
+    <p style="font-size: 1.05rem; line-height: 1.7; color: #CBD5E1; margin-bottom: 25px;">
       Different roles have different AI use cases. Explore prompts tailored to your work context.
     </p>
 
     <!-- Tab Navigation -->
-    <div style="display: flex; border-bottom: 2px solid #e2e8f0; margin-bottom: 0;">
-      <button onclick="showContextTab('teaching')" id="tab-teaching" style="padding: 15px 25px; background: #3182ce; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 1rem; margin-right: 5px;">Teaching</button>
-      <button onclick="showContextTab('research')" id="tab-research" style="padding: 15px 25px; background: #e2e8f0; color: #333; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 1rem; margin-right: 5px;">Research</button>
-      <button onclick="showContextTab('admin')" id="tab-admin" style="padding: 15px 25px; background: #e2e8f0; color: #333; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 1rem;">Admin</button>
+    <div style="display: flex; border-bottom: 2px solid #2D2D4A; margin-bottom: 0;">
+      <button onclick="showContextTab('teaching')" id="tab-teaching" style="padding: 15px 25px; background: #4F46E5; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 1rem; margin-right: 5px;">Teaching</button>
+      <button onclick="showContextTab('research')" id="tab-research" style="padding: 15px 25px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 1rem; margin-right: 5px;">Research</button>
+      <button onclick="showContextTab('admin')" id="tab-admin" style="padding: 15px 25px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-family: inherit; font-size: 1rem;">Admin</button>
     </div>
 
     <!-- Tab Content -->
-    <div style="background: #f7fafc; padding: 25px; border-radius: 0 0 8px 8px; border: 2px solid #e2e8f0; border-top: none;">
+    <div style="background: #1E1E36; padding: 25px; border-radius: 0 0 8px 8px; border: 2px solid #2D2D4A; border-top: none;">
 
       <!-- Teaching Tab -->
       <div id="context-teaching">
-        <h4 style="margin: 0 0 20px 0; color: #1a365d;">Teaching Applications</h4>
+        <h4 style="margin: 0 0 20px 0; color: #E2E8F0;">Teaching Applications</h4>
 
         <div style="margin-bottom: 25px;">
-          <h5 style="margin: 0 0 10px 0; color: #3182ce;">Lecture Preparation</h5>
-          <div style="background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #3182ce;">
-            <p style="margin: 0 0 10px 0; color: #333; font-weight: bold;">Example Prompt:</p>
-            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #555; white-space: pre-wrap;">You are an expert in [SUBJECT] with experience teaching university students.
+          <h5 style="margin: 0 0 10px 0; color: #818CF8;">Lecture Preparation</h5>
+          <div style="background: #16162A; padding: 15px; border-radius: 6px; border-left: 4px solid #818CF8;">
+            <p style="margin: 0 0 10px 0; color: #CBD5E1; font-weight: bold;">Example Prompt:</p>
+            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #94A3B8; white-space: pre-wrap;">You are an expert in [SUBJECT] with experience teaching university students.
 
 Create a 50-minute lecture outline on [TOPIC] that includes:
 - An engaging opening hook
@@ -467,10 +467,10 @@ Format as a structured outline with timing for each section.</p>
         </div>
 
         <div style="margin-bottom: 25px;">
-          <h5 style="margin: 0 0 10px 0; color: #38a169;">Quiz Generation</h5>
-          <div style="background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #38a169;">
-            <p style="margin: 0 0 10px 0; color: #333; font-weight: bold;">Example Prompt:</p>
-            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #555; white-space: pre-wrap;">You are an assessment specialist who creates questions that test understanding, not just recall.
+          <h5 style="margin: 0 0 10px 0; color: #4ADE80;">Quiz Generation</h5>
+          <div style="background: #16162A; padding: 15px; border-radius: 6px; border-left: 4px solid #4ADE80;">
+            <p style="margin: 0 0 10px 0; color: #CBD5E1; font-weight: bold;">Example Prompt:</p>
+            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #94A3B8; white-space: pre-wrap;">You are an assessment specialist who creates questions that test understanding, not just recall.
 
 Create 10 multiple-choice questions on [TOPIC] at varying difficulty levels:
 - 3 questions testing basic recall and definitions
@@ -488,10 +488,10 @@ Context: [COURSE LEVEL], students have completed readings on [CHAPTERS/TOPICS].<
         </div>
 
         <div>
-          <h5 style="margin: 0 0 10px 0; color: #805ad5;">Student Feedback</h5>
-          <div style="background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #805ad5;">
-            <p style="margin: 0 0 10px 0; color: #333; font-weight: bold;">Example Prompt (Few-Shot Style):</p>
-            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #555; white-space: pre-wrap;">I want you to write feedback for student work in my style.
+          <h5 style="margin: 0 0 10px 0; color: #C7D2FE;">Student Feedback</h5>
+          <div style="background: #16162A; padding: 15px; border-radius: 6px; border-left: 4px solid #C7D2FE;">
+            <p style="margin: 0 0 10px 0; color: #CBD5E1; font-weight: bold;">Example Prompt (Few-Shot Style):</p>
+            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #94A3B8; white-space: pre-wrap;">I want you to write feedback for student work in my style.
 
 Example 1:
 Student wrote: "Social media marketing is important for businesses"
@@ -509,13 +509,13 @@ Now write feedback in my style for:
 
       <!-- Research Tab -->
       <div id="context-research" style="display: none;">
-        <h4 style="margin: 0 0 20px 0; color: #1a365d;">Research Applications</h4>
+        <h4 style="margin: 0 0 20px 0; color: #E2E8F0;">Research Applications</h4>
 
         <div style="margin-bottom: 25px;">
-          <h5 style="margin: 0 0 10px 0; color: #3182ce;">Literature Review Synthesis</h5>
-          <div style="background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #3182ce;">
-            <p style="margin: 0 0 10px 0; color: #333; font-weight: bold;">Example Prompt:</p>
-            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #555; white-space: pre-wrap;">You are a research assistant helping me synthesize literature for a systematic review.
+          <h5 style="margin: 0 0 10px 0; color: #818CF8;">Literature Review Synthesis</h5>
+          <div style="background: #16162A; padding: 15px; border-radius: 6px; border-left: 4px solid #818CF8;">
+            <p style="margin: 0 0 10px 0; color: #CBD5E1; font-weight: bold;">Example Prompt:</p>
+            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #94A3B8; white-space: pre-wrap;">You are a research assistant helping me synthesize literature for a systematic review.
 
 I will provide summaries of several papers on [TOPIC]. Please:
 1. Identify common themes across the papers
@@ -531,10 +531,10 @@ Present this as a synthesis narrative, not a paper-by-paper summary.
         </div>
 
         <div>
-          <h5 style="margin: 0 0 10px 0; color: #38a169;">Writing Improvement</h5>
-          <div style="background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #38a169;">
-            <p style="margin: 0 0 10px 0; color: #333; font-weight: bold;">Example Prompt (Devil's Advocate):</p>
-            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #555; white-space: pre-wrap;">I'm drafting the methodology section of my paper. Please critique it as if you were Reviewer 2 having a bad day.
+          <h5 style="margin: 0 0 10px 0; color: #4ADE80;">Writing Improvement</h5>
+          <div style="background: #16162A; padding: 15px; border-radius: 6px; border-left: 4px solid #4ADE80;">
+            <p style="margin: 0 0 10px 0; color: #CBD5E1; font-weight: bold;">Example Prompt (Devil's Advocate):</p>
+            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #94A3B8; white-space: pre-wrap;">I'm drafting the methodology section of my paper. Please critique it as if you were Reviewer 2 having a bad day.
 
 Identify:
 1. Weaknesses in my justification for methodological choices
@@ -551,13 +551,13 @@ Be specific and rigorous. I want to strengthen this before submission.
 
       <!-- Admin Tab -->
       <div id="context-admin" style="display: none;">
-        <h4 style="margin: 0 0 20px 0; color: #1a365d;">Administrative Applications</h4>
+        <h4 style="margin: 0 0 20px 0; color: #E2E8F0;">Administrative Applications</h4>
 
         <div style="margin-bottom: 25px;">
-          <h5 style="margin: 0 0 10px 0; color: #3182ce;">Communication Drafting</h5>
-          <div style="background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #3182ce;">
-            <p style="margin: 0 0 10px 0; color: #333; font-weight: bold;">Example Prompt:</p>
-            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #555; white-space: pre-wrap;">You are a professional communication specialist in a university setting.
+          <h5 style="margin: 0 0 10px 0; color: #818CF8;">Communication Drafting</h5>
+          <div style="background: #16162A; padding: 15px; border-radius: 6px; border-left: 4px solid #818CF8;">
+            <p style="margin: 0 0 10px 0; color: #CBD5E1; font-weight: bold;">Example Prompt:</p>
+            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #94A3B8; white-space: pre-wrap;">You are a professional communication specialist in a university setting.
 
 Draft an email about [TOPIC/SITUATION].
 
@@ -574,10 +574,10 @@ Draft two versions: one more formal, one warmer. I'll choose which fits better.<
         </div>
 
         <div>
-          <h5 style="margin: 0 0 10px 0; color: #38a169;">Meeting Preparation</h5>
-          <div style="background: white; padding: 15px; border-radius: 6px; border-left: 4px solid #38a169;">
-            <p style="margin: 0 0 10px 0; color: #333; font-weight: bold;">Example Prompt (Board of Directors):</p>
-            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #555; white-space: pre-wrap;">I'm preparing for a meeting about [TOPIC/PROPOSAL].
+          <h5 style="margin: 0 0 10px 0; color: #4ADE80;">Meeting Preparation</h5>
+          <div style="background: #16162A; padding: 15px; border-radius: 6px; border-left: 4px solid #4ADE80;">
+            <p style="margin: 0 0 10px 0; color: #CBD5E1; font-weight: bold;">Example Prompt (Board of Directors):</p>
+            <p style="margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #94A3B8; white-space: pre-wrap;">I'm preparing for a meeting about [TOPIC/PROPOSAL].
 
 Please help me anticipate the discussion by analysing this from the perspectives of:
 - The budget holder (financial concerns)
@@ -598,7 +598,7 @@ Then suggest how I should frame my proposal to address these concerns proactivel
   </div>
 
   <!-- Key Takeaways -->
-  <div style="background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%); color: white; padding: 30px; border-radius: 8px; margin-bottom: 25px;">
+  <div style="background: linear-gradient(135deg, #1E1E36 0%, #2D2D4A 100%); color: white; padding: 30px; border-radius: 8px; margin-bottom: 25px;">
     <h2 style="margin: 0 0 20px 0; font-weight: normal;">Key Takeaways</h2>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
       <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
@@ -625,38 +625,38 @@ Then suggest how I should frame my proposal to address these concerns proactivel
   </div>
 
   <!-- Next Steps -->
-  <div style="background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 12px; padding: 24px; margin-bottom: 25px;">
+  <div style="background: linear-gradient(135deg, #0D2818, #1a3a2a); border: 2px solid #4ADE80; border-radius: 12px; padding: 24px; margin-bottom: 25px;">
     <div style="display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
       <span style="font-size: 40px;">📗</span>
       <div style="flex: 1; min-width: 250px;">
-        <h3 style="margin: 0 0 8px 0; color: #166534; font-size: 18px;">Want to Go Deeper?</h3>
-        <p style="margin: 0 0 12px 0; color: #14532D; line-height: 1.5;"><strong><em>Partner, Don't Police: AI in the Business Classroom</em></strong> — a complete guide to integrating AI into teaching, with examples from Marketing, Management, HR, Accounting, and more.</p>
-        <p style="margin: 0 0 16px 0; color: #166534; font-size: 14px; line-height: 1.5;">Covers progressive implementation, prompt engineering foundations, and discipline-specific applications.</p>
+        <h3 style="margin: 0 0 8px 0; color: #4ADE80; font-size: 18px;">Want to Go Deeper?</h3>
+        <p style="margin: 0 0 12px 0; color: #CBD5E1; line-height: 1.5;"><strong><em>Partner, Don't Police: AI in the Business Classroom</em></strong> — a complete guide to integrating AI into teaching, with examples from Marketing, Management, HR, Accounting, and more.</p>
+        <p style="margin: 0 0 16px 0; color: #94A3B8; font-size: 14px; line-height: 1.5;">Covers progressive implementation, prompt engineering foundations, and discipline-specific applications.</p>
         <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-          <a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="display: inline-block; background: #22C55E; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Read the Book →</a>
-          <a href="[TOOLKIT_URL]" target="_blank" style="display: inline-block; background: white; color: #22C55E; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #22C55E;">Browse AI Toolkit</a>
+          <a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="display: inline-block; background: #4ADE80; color: #16162A; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Read the Book →</a>
+          <a href="[TOOLKIT_URL]" target="_blank" style="display: inline-block; background: #16162A; color: #4ADE80; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4ADE80;">Browse AI Toolkit</a>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Completion Section -->
-  <div id="completion-section" style="background: #f0fff4; padding: 30px; border-radius: 8px; margin-bottom: 25px; border: 2px solid #38a169; display: none;">
+  <div id="completion-section" style="background: #0D2818; padding: 30px; border-radius: 8px; margin-bottom: 25px; border: 2px solid #4ADE80; display: none;">
     <div style="text-align: center;">
       <div style="font-size: 4rem; margin-bottom: 15px;">🎉</div>
-      <h2 style="margin: 0 0 15px 0; color: #276749; font-weight: normal;">Experience Complete!</h2>
-      <p style="margin: 0 0 20px 0; color: #333; font-size: 1.1rem;">
+      <h2 style="margin: 0 0 15px 0; color: #4ADE80; font-weight: normal;">Experience Complete!</h2>
+      <p style="margin: 0 0 20px 0; color: #CBD5E1; font-size: 1.1rem;">
         You've completed "Working WITH AI" and earned the skills to use AI as a genuine work partner.
       </p>
-      <div style="background: white; padding: 20px; border-radius: 8px; display: inline-block;">
-        <p style="margin: 0 0 10px 0; color: #666;">Your progress has been saved.</p>
-        <p style="margin: 0; font-size: 0.9rem; color: #888;">Experience 5 of 5 in the AI Skills Passport</p>
+      <div style="background: #1E1E36; padding: 20px; border-radius: 8px; display: inline-block;">
+        <p style="margin: 0 0 10px 0; color: #94A3B8;">Your progress has been saved.</p>
+        <p style="margin: 0; font-size: 0.9rem; color: #64748B;">Experience 5 of 5 in the AI Skills Passport</p>
       </div>
     </div>
   </div>
 
   <!-- Footer -->
-  <div style="text-align: center; padding: 20px; color: #666; font-size: 0.9rem;">
+  <div style="text-align: center; padding: 20px; color: #94A3B8; font-size: 0.9rem;">
     <p style="margin: 0;">AI Skills Passport | School of Marketing and Management | Curtin University</p>
   </div>
 
@@ -701,10 +701,10 @@ function updateProgressDisplay() {
     const el = document.getElementById('progress-activity' + i);
     if (el) {
       if (progress['activity' + i]) {
-        el.style.background = '#c6f6d5';
-        el.style.border = '2px solid #38a169';
+        el.style.background = '#0D2818';
+        el.style.border = '2px solid #4ADE80';
       } else {
-        el.style.background = '#f7fafc';
+        el.style.background = '#1E1E36';
         el.style.border = 'none';
       }
     }
@@ -736,7 +736,7 @@ var rtcfExamples = {
       prompt: '"Help me make a rubric for my class."',
       explanation: 'This prompt lacks specificity. AI doesn\'t know what class, what assessment, what criteria matter, or how detailed you want the rubric.'
     },
-    rtcf: '<strong style="color: #e53e3e;">Role:</strong> You are an experienced curriculum designer who specialises in outcome-based assessment.\n\n<strong style="color: #dd6b20;">Task:</strong> Create a rubric for assessing critical thinking in student essays.\n\n<strong style="color: #38a169;">Context:</strong> This is for a second-year marketing strategy unit. Students write 2000-word case analyses. The rubric is worth 30% of their grade. The cohort includes many international students.\n\n<strong style="color: #3182ce;">Format:</strong> 4-point scale (Excellent, Good, Developing, Beginning) with clear descriptors for each level. Table format that can be pasted into Word.',
+    rtcf: '<strong style="color: #F87171;">Role:</strong> You are an experienced curriculum designer who specialises in outcome-based assessment.\n\n<strong style="color: #FBBF24;">Task:</strong> Create a rubric for assessing critical thinking in student essays.\n\n<strong style="color: #4ADE80;">Context:</strong> This is for a second-year marketing strategy unit. Students write 2000-word case analyses. The rubric is worth 30% of their grade. The cohort includes many international students.\n\n<strong style="color: #818CF8;">Format:</strong> 4-point scale (Excellent, Good, Developing, Beginning) with clear descriptors for each level. Table format that can be pasted into Word.',
     result: 'The result? A rubric you can actually use, not a generic template you\'ll spend an hour customising.'
   },
   research: {
@@ -744,7 +744,7 @@ var rtcfExamples = {
       prompt: '"Help me with my literature review."',
       explanation: 'AI doesn\'t know your research question, which papers you\'re working with, what kind of synthesis you need, or how far along you are.'
     },
-    rtcf: '<strong style="color: #e53e3e;">Role:</strong> You are a research methodologist who specialises in systematic literature reviews in the social sciences.\n\n<strong style="color: #dd6b20;">Task:</strong> Synthesise the following five paper summaries into a coherent narrative that identifies themes, agreements, and gaps.\n\n<strong style="color: #38a169;">Context:</strong> I\'m writing a literature review for a journal article on AI adoption in higher education marketing. My research question is: How are marketing educators integrating AI tools into assessment design?\n\n<strong style="color: #3182ce;">Format:</strong> A 500-word synthesis narrative organised by theme (not paper-by-paper). End with a paragraph identifying gaps my study could address.',
+    rtcf: '<strong style="color: #F87171;">Role:</strong> You are a research methodologist who specialises in systematic literature reviews in the social sciences.\n\n<strong style="color: #FBBF24;">Task:</strong> Synthesise the following five paper summaries into a coherent narrative that identifies themes, agreements, and gaps.\n\n<strong style="color: #4ADE80;">Context:</strong> I\'m writing a literature review for a journal article on AI adoption in higher education marketing. My research question is: How are marketing educators integrating AI tools into assessment design?\n\n<strong style="color: #818CF8;">Format:</strong> A 500-word synthesis narrative organised by theme (not paper-by-paper). End with a paragraph identifying gaps my study could address.',
     result: 'The result? A structured synthesis you can build on, not a generic summary that reads like an annotated bibliography.'
   },
   admin: {
@@ -752,7 +752,7 @@ var rtcfExamples = {
       prompt: '"Write an email about the new policy."',
       explanation: 'AI doesn\'t know which policy, who the audience is, what tone is appropriate, or what action you need people to take.'
     },
-    rtcf: '<strong style="color: #e53e3e;">Role:</strong> You are a professional university communications specialist who writes clear, approachable messages.\n\n<strong style="color: #dd6b20;">Task:</strong> Draft an email announcing the new AI acceptable-use policy to all school staff.\n\n<strong style="color: #38a169;">Context:</strong> The policy was approved last week by the Head of School. Staff are anxious about AI restrictions. The tone should be reassuring—the policy enables AI use, it doesn\'t ban it. Some staff have never used AI.\n\n<strong style="color: #3182ce;">Format:</strong> Under 250 words. Include a brief summary of what the policy allows, one clear call to action (read the full policy), and a contact for questions.',
+    rtcf: '<strong style="color: #F87171;">Role:</strong> You are a professional university communications specialist who writes clear, approachable messages.\n\n<strong style="color: #FBBF24;">Task:</strong> Draft an email announcing the new AI acceptable-use policy to all school staff.\n\n<strong style="color: #4ADE80;">Context:</strong> The policy was approved last week by the Head of School. Staff are anxious about AI restrictions. The tone should be reassuring—the policy enables AI use, it doesn\'t ban it. Some staff have never used AI.\n\n<strong style="color: #818CF8;">Format:</strong> Under 250 words. Include a brief summary of what the policy allows, one clear call to action (read the full policy), and a contact for questions.',
     result: 'The result? A message that lands well with anxious staff, not a bureaucratic wall of text nobody reads.'
   }
 };
@@ -763,15 +763,15 @@ function setRTCFRole(role) {
   ['teaching', 'research', 'admin'].forEach(function(r) {
     var tab = document.getElementById('rtcf-tab-' + r);
     if (r === role) {
-      tab.style.background = '#3182ce';
+      tab.style.background = '#4F46E5';
       tab.style.color = 'white';
     } else {
-      tab.style.background = '#e2e8f0';
-      tab.style.color = '#333';
+      tab.style.background = '#1E1E36';
+      tab.style.color = '#64748B';
     }
   });
   // Reset display
-  document.getElementById('rtcf-example-display').innerHTML = '<p style="color: #666; font-style: italic; margin: 0;">Click a button above to compare prompts...</p>';
+  document.getElementById('rtcf-example-display').innerHTML = '<p style="color: #94A3B8; font-style: italic; margin: 0;">Click a button above to compare prompts...</p>';
 }
 
 function showRTCFExample(type) {
@@ -779,11 +779,11 @@ function showRTCFExample(type) {
   var example = rtcfExamples[currentRTCFRole];
 
   if (type === 'vague') {
-    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #e53e3e; font-weight: bold;">Vague Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; color: #333;">' + example.vague.prompt + '</p><p style="margin: 15px 0 0 0; color: #666; font-style: italic;">' + example.vague.explanation + '</p>';
+    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #F87171; font-weight: bold;">Vague Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; color: #CBD5E1;">' + example.vague.prompt + '</p><p style="margin: 15px 0 0 0; color: #94A3B8; font-style: italic;">' + example.vague.explanation + '</p>';
   } else if (type === 'rtcf') {
-    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #38a169; font-weight: bold;">RTCF Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #333; white-space: pre-wrap;">' + example.rtcf + '</p>';
+    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #4ADE80; font-weight: bold;">RTCF Prompt:</p><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #CBD5E1; white-space: pre-wrap;">' + example.rtcf + '</p>';
   } else if (type === 'result') {
-    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #805ad5; font-weight: bold;">Why the RTCF Version Works:</p><ul style="margin: 0; color: #333; line-height: 1.8;"><li><strong>Role</strong> primes AI with relevant expertise and perspective</li><li><strong>Task</strong> is specific and actionable—AI knows exactly what to produce</li><li><strong>Context</strong> provides the constraints and audience info AI needs</li><li><strong>Format</strong> ensures output is immediately usable</li></ul><p style="margin: 15px 0 0 0; color: #666;">' + example.result + '</p>';
+    display.innerHTML = '<p style="margin: 0 0 10px 0; color: #C7D2FE; font-weight: bold;">Why the RTCF Version Works:</p><ul style="margin: 0; color: #CBD5E1; line-height: 1.8;"><li><strong>Role</strong> primes AI with relevant expertise and perspective</li><li><strong>Task</strong> is specific and actionable—AI knows exactly what to produce</li><li><strong>Context</strong> provides the constraints and audience info AI needs</li><li><strong>Format</strong> ensures output is immediately usable</li></ul><p style="margin: 15px 0 0 0; color: #94A3B8;">' + example.result + '</p>';
   }
 }
 
@@ -880,27 +880,27 @@ function showTechnique(technique) {
   const techniques = {
     board: {
       title: 'Board of Directors Prompting',
-      content: '<p style="margin: 0 0 15px 0; color: #333;"><strong>Purpose:</strong> Get multiple perspectives on any decision, plan, or document.</p><p style="margin: 0 0 15px 0; color: #333;"><strong>When to use:</strong> Planning projects, making strategic decisions, reviewing documents before finalizing, understanding stakeholder concerns.</p><div style="background: #1a365d; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I have [document/plan/decision].\n\nPlease analyse this from the perspectives of:\n- A [stakeholder 1]\n- A [stakeholder 2]\n- A [stakeholder 3]\n- A [stakeholder 4]\n\nFor each perspective, identify:\n1. Their primary concerns\n2. What they would want changed\n3. How they would evaluate success</p></div><p style="margin: 0; color: #666; font-style: italic;"><strong>Tip:</strong> Choose stakeholders with genuinely different interests—not just different job titles.</p>'
+      content: '<p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>Purpose:</strong> Get multiple perspectives on any decision, plan, or document.</p><p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>When to use:</strong> Planning projects, making strategic decisions, reviewing documents before finalizing, understanding stakeholder concerns.</p><div style="background: #16162A; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I have [document/plan/decision].\n\nPlease analyse this from the perspectives of:\n- A [stakeholder 1]\n- A [stakeholder 2]\n- A [stakeholder 3]\n- A [stakeholder 4]\n\nFor each perspective, identify:\n1. Their primary concerns\n2. What they would want changed\n3. How they would evaluate success</p></div><p style="margin: 0; color: #94A3B8; font-style: italic;"><strong>Tip:</strong> Choose stakeholders with genuinely different interests—not just different job titles.</p>'
     },
     devil: {
       title: 'Devil\'s Advocate',
-      content: '<p style="margin: 0 0 15px 0; color: #333;"><strong>Purpose:</strong> Stress-test your own thinking, plans, or decisions.</p><p style="margin: 0 0 15px 0; color: #333;"><strong>When to use:</strong> Before finalizing major decisions, when you suspect you\'re overlooking something, to prepare for objections.</p><div style="background: #1a365d; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I believe [your position/plan/decision].\n\nPlease argue against this as strongly as possible.\nIdentify:\n1. The weakest parts of my reasoning\n2. Counterarguments I haven\'t considered\n3. Scenarios where this approach would fail\n4. What a thoughtful critic would say</p></div><p style="margin: 0; color: #666; font-style: italic;"><strong>Tip:</strong> This technique is uncomfortable but valuable. The goal is to strengthen your thinking, not change your mind.</p>'
+      content: '<p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>Purpose:</strong> Stress-test your own thinking, plans, or decisions.</p><p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>When to use:</strong> Before finalizing major decisions, when you suspect you\'re overlooking something, to prepare for objections.</p><div style="background: #16162A; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I believe [your position/plan/decision].\n\nPlease argue against this as strongly as possible.\nIdentify:\n1. The weakest parts of my reasoning\n2. Counterarguments I haven\'t considered\n3. Scenarios where this approach would fail\n4. What a thoughtful critic would say</p></div><p style="margin: 0; color: #94A3B8; font-style: italic;"><strong>Tip:</strong> This technique is uncomfortable but valuable. The goal is to strengthen your thinking, not change your mind.</p>'
     },
     reverse: {
       title: 'Reverse Prompting (Interview First)',
-      content: '<p style="margin: 0 0 15px 0; color: #333;"><strong>Purpose:</strong> Get personalized advice by letting AI understand your context first.</p><p style="margin: 0 0 15px 0; color: #333;"><strong>When to use:</strong> Complex problems with many variables, when you\'re not sure what to ask, when generic advice won\'t help.</p><div style="background: #1a365d; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I want to [goal], but I\'m not sure of the best approach.\n\nBefore giving advice, please interview me with 5-7 questions to understand my specific situation, constraints, and preferences.\n\nAsk one question at a time and wait for my response.</p></div><p style="margin: 0; color: #666; font-style: italic;"><strong>Tip:</strong> The back-and-forth conversation produces far better results than a single prompt.</p>'
+      content: '<p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>Purpose:</strong> Get personalized advice by letting AI understand your context first.</p><p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>When to use:</strong> Complex problems with many variables, when you\'re not sure what to ask, when generic advice won\'t help.</p><div style="background: #16162A; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I want to [goal], but I\'m not sure of the best approach.\n\nBefore giving advice, please interview me with 5-7 questions to understand my specific situation, constraints, and preferences.\n\nAsk one question at a time and wait for my response.</p></div><p style="margin: 0; color: #94A3B8; font-style: italic;"><strong>Tip:</strong> The back-and-forth conversation produces far better results than a single prompt.</p>'
     },
     stress: {
       title: 'Assessment Stress-Testing',
-      content: '<p style="margin: 0 0 15px 0; color: #333;"><strong>Purpose:</strong> Discover whether your assessment actually measures what you think it does.</p><p style="margin: 0 0 15px 0; color: #333;"><strong>When to use:</strong> Designing new assessments, updating existing ones, checking for AI-vulnerability.</p><div style="background: #1a365d; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I\'m designing a student assessment with these requirements:\n[paste assessment brief]\n\nPlease attempt this assessment as a student would, using AI. Then analyse:\n1. What skills does this actually assess?\n2. How could a student pass without demonstrating the intended learning?\n3. What would distinguish an excellent submission from a mediocre one?\n4. How should I redesign to better assess critical thinking?</p></div><p style="margin: 0; color: #666; font-style: italic;"><strong>Tip:</strong> If AI can easily complete your assessment, consider adding process documentation, in-class components, or personal application requirements.</p>'
+      content: '<p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>Purpose:</strong> Discover whether your assessment actually measures what you think it does.</p><p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>When to use:</strong> Designing new assessments, updating existing ones, checking for AI-vulnerability.</p><div style="background: #16162A; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I\'m designing a student assessment with these requirements:\n[paste assessment brief]\n\nPlease attempt this assessment as a student would, using AI. Then analyse:\n1. What skills does this actually assess?\n2. How could a student pass without demonstrating the intended learning?\n3. What would distinguish an excellent submission from a mediocre one?\n4. How should I redesign to better assess critical thinking?</p></div><p style="margin: 0; color: #94A3B8; font-style: italic;"><strong>Tip:</strong> If AI can easily complete your assessment, consider adding process documentation, in-class components, or personal application requirements.</p>'
     },
     chain: {
       title: 'Chain of Thought',
-      content: '<p style="margin: 0 0 15px 0; color: #333;"><strong>Purpose:</strong> Get better reasoning on complex problems by asking AI to show its work.</p><p style="margin: 0 0 15px 0; color: #333;"><strong>When to use:</strong> Complex analysis, multi-step problems, when you need to verify AI\'s reasoning.</p><div style="background: #1a365d; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">[Your question or problem]\n\nPlease think through this step by step.\nShow your reasoning at each stage.</p></div><p style="margin: 0 0 15px 0; color: #333;"><strong>Example:</strong></p><div style="background: #f7fafc; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #555;">Should our department require students to disclose AI use in assessments?\n\nPlease think through this step by step, considering:\n- The arguments for and against\n- Implementation challenges\n- What other institutions are doing\n- Your recommendation and reasoning</p></div><p style="margin: 0; color: #666; font-style: italic;"><strong>Tip:</strong> Chain of thought makes AI\'s reasoning transparent so you can check for flawed logic.</p>'
+      content: '<p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>Purpose:</strong> Get better reasoning on complex problems by asking AI to show its work.</p><p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>When to use:</strong> Complex analysis, multi-step problems, when you need to verify AI\'s reasoning.</p><div style="background: #16162A; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">[Your question or problem]\n\nPlease think through this step by step.\nShow your reasoning at each stage.</p></div><p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>Example:</strong></p><div style="background: #1E1E36; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #94A3B8;">Should our department require students to disclose AI use in assessments?\n\nPlease think through this step by step, considering:\n- The arguments for and against\n- Implementation challenges\n- What other institutions are doing\n- Your recommendation and reasoning</p></div><p style="margin: 0; color: #94A3B8; font-style: italic;"><strong>Tip:</strong> Chain of thought makes AI\'s reasoning transparent so you can check for flawed logic.</p>'
     },
     fewshot: {
       title: 'Few-Shot Learning',
-      content: '<p style="margin: 0 0 15px 0; color: #333;"><strong>Purpose:</strong> Teach AI your preferred style or format through examples.</p><p style="margin: 0 0 15px 0; color: #333;"><strong>When to use:</strong> Consistent output across multiple items, matching a specific style, when generic output isn\'t appropriate.</p><div style="background: #1a365d; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I want you to [task] in a specific style. Here are examples:\n\nExample 1:\n[Input] → [Your preferred output]\n\nExample 2:\n[Input] → [Your preferred output]\n\nNow, using the same style, please do:\n[New input]</p></div><p style="margin: 0; color: #666; font-style: italic;"><strong>Tip:</strong> 2-3 examples are usually enough. Make sure your examples clearly demonstrate the pattern you want.</p>'
+      content: '<p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>Purpose:</strong> Teach AI your preferred style or format through examples.</p><p style="margin: 0 0 15px 0; color: #CBD5E1;"><strong>When to use:</strong> Consistent output across multiple items, matching a specific style, when generic output isn\'t appropriate.</p><div style="background: #16162A; padding: 15px; border-radius: 6px; margin-bottom: 15px;"><p style="margin: 0; font-family: \'Courier New\', monospace; font-size: 0.9rem; color: #e2e8f0; white-space: pre-wrap;">I want you to [task] in a specific style. Here are examples:\n\nExample 1:\n[Input] → [Your preferred output]\n\nExample 2:\n[Input] → [Your preferred output]\n\nNow, using the same style, please do:\n[New input]</p></div><p style="margin: 0; color: #94A3B8; font-style: italic;"><strong>Tip:</strong> 2-3 examples are usually enough. Make sure your examples clearly demonstrate the pattern you want.</p>'
     }
   };
 
@@ -923,16 +923,16 @@ function showContextTab(tab) {
   document.getElementById('context-admin').style.display = 'none';
 
   // Reset all tab buttons
-  document.getElementById('tab-teaching').style.background = '#e2e8f0';
-  document.getElementById('tab-teaching').style.color = '#333';
-  document.getElementById('tab-research').style.background = '#e2e8f0';
-  document.getElementById('tab-research').style.color = '#333';
-  document.getElementById('tab-admin').style.background = '#e2e8f0';
-  document.getElementById('tab-admin').style.color = '#333';
+  document.getElementById('tab-teaching').style.background = '#1E1E36';
+  document.getElementById('tab-teaching').style.color = '#64748B';
+  document.getElementById('tab-research').style.background = '#1E1E36';
+  document.getElementById('tab-research').style.color = '#64748B';
+  document.getElementById('tab-admin').style.background = '#1E1E36';
+  document.getElementById('tab-admin').style.color = '#64748B';
 
   // Show selected tab
   document.getElementById('context-' + tab).style.display = 'block';
-  document.getElementById('tab-' + tab).style.background = '#3182ce';
+  document.getElementById('tab-' + tab).style.background = '#4F46E5';
   document.getElementById('tab-' + tab).style.color = 'white';
 }
 

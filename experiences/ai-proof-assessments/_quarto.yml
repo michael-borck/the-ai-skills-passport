@@ -8,3 +8,4 @@ format:
     minimal: true
     self-contained: true
     toc: false
+    css: ../../shared/brand.css

@@ -10,7 +10,7 @@ format:
 <!-- Rules of Engagement — Experience 3: Policy & Governance -->
 <!-- 30-120 minutes | All roles -->
 
-<div id="experience-app" data-experience-id="rules-of-engagement" style="font-family: Georgia, 'Times New Roman', serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #1E293B;">
+<div id="experience-app" data-experience-id="rules-of-engagement" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #E2E8F0;">
 
   <!-- Header -->
   <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 28px;">
@@ -30,9 +30,9 @@ format:
   </div>
 
   <!-- Learning Outcomes -->
-  <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
-    <h3 style="font-size: 14px; color: #14532D; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
-    <ul style="margin: 0; padding-left: 20px; color: #166534; line-height: 1.8;">
+  <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
+    <h3 style="font-size: 14px; color: #86EFAC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
+    <ul style="margin: 0; padding-left: 20px; color: #4ADE80; line-height: 1.8;">
       <li>Understand different approaches to AI policy (restrictive, permissive, structured)</li>
       <li>Identify strengths and weaknesses in existing policies</li>
       <li>Use the Devil's Advocate technique to stress-test guidelines</li>
@@ -43,16 +43,16 @@ format:
   <!-- Activity 1: Policy Gallery -->
   <div style="margin-bottom: 32px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 1</div>
-    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">The Policy Gallery</h2>
+    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">The Policy Gallery</h2>
     <p style="color: #64748B; margin-bottom: 20px;">Review these four different approaches to AI policy. Each takes a different stance on how to handle AI use. Consider what situation each might work best for.</p>
 
     <!-- Policy A: Restrictive -->
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
         <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8;">POLICY A</div>
-        <span style="background: #FEE2E2; color: #991B1B; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">Restrictive</span>
+        <span style="background: #3B1010; color: #FCA5A5; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">Restrictive</span>
       </div>
-      <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; font-style: italic;">
+      <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; font-style: italic;">
         <p style="margin: 0 0 12px 0; font-weight: bold; font-style: normal;">Independent Work Requirement</p>
         <p style="margin: 0 0 8px 0;">This assessment must be completed without AI assistance to evaluate your personal understanding. This includes no use of:</p>
         <ul style="margin: 0 0 8px 0; padding-left: 20px;">
@@ -63,20 +63,20 @@ format:
         <p style="margin: 0;">You may use: Library databases, course materials, standard spell check.</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-        <span style="background: #F0FDF4; color: #166534; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Clear boundaries</span>
-        <span style="background: #F0FDF4; color: #166534; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Easy to enforce</span>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- May be unrealistic</span>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- Hard to detect violations</span>
+        <span style="background: #0D2818; color: #4ADE80; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Clear boundaries</span>
+        <span style="background: #0D2818; color: #4ADE80; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Easy to enforce</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- May be unrealistic</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- Hard to detect violations</span>
       </div>
     </div>
 
     <!-- Policy B: Permissive/Encouraging -->
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
         <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8;">POLICY B</div>
-        <span style="background: #DCFCE7; color: #166534; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">Encouraging</span>
+        <span style="background: #1A3A2A; color: #4ADE80; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">Encouraging</span>
       </div>
-      <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; font-style: italic;">
+      <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; font-style: italic;">
         <p style="margin: 0 0 12px 0; font-weight: bold; font-style: normal;">Artificial Intelligence (AI) Policy</p>
         <p style="margin: 0 0 8px 0;">AI tools like ChatGPT are rapidly becoming part of professional practice. Learning to use them effectively is part of your education. In this unit:</p>
         <ul style="margin: 0; padding-left: 20px;">
@@ -88,20 +88,20 @@ format:
         <p style="margin: 12px 0 0 0;">View AI as a research assistant or tutor — helpful for learning, but not a substitute for your own understanding.</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-        <span style="background: #F0FDF4; color: #166534; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Future-focused</span>
-        <span style="background: #F0FDF4; color: #166534; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Skill development</span>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- Vague boundaries</span>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- "Explain" is hard to verify</span>
+        <span style="background: #0D2818; color: #4ADE80; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Future-focused</span>
+        <span style="background: #0D2818; color: #4ADE80; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Skill development</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- Vague boundaries</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- "Explain" is hard to verify</span>
       </div>
     </div>
 
     <!-- Policy C: Structured -->
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
         <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8;">POLICY C</div>
-        <span style="background: #E0E7FF; color: #3730A3; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">Structured</span>
+        <span style="background: #2E1065; color: #A5B4FC; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">Structured</span>
       </div>
-      <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; font-style: italic;">
+      <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; font-style: italic;">
         <p style="margin: 0 0 12px 0; font-weight: bold; font-style: normal;">AI Use Guidelines</p>
         <p style="margin: 0 0 8px 0;"><strong>Permitted AI uses:</strong></p>
         <ul style="margin: 0 0 12px 0; padding-left: 20px;">
@@ -125,20 +125,20 @@ format:
         </ul>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-        <span style="background: #F0FDF4; color: #166534; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Specific guidance</span>
-        <span style="background: #F0FDF4; color: #166534; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Balances use and limits</span>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- Complex to follow</span>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- May not cover all cases</span>
+        <span style="background: #0D2818; color: #4ADE80; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Specific guidance</span>
+        <span style="background: #0D2818; color: #4ADE80; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Balances use and limits</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- Complex to follow</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- May not cover all cases</span>
       </div>
     </div>
 
     <!-- Policy D: Collaborative/Adaptive -->
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
         <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8;">POLICY D</div>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">Collaborative</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">Collaborative</span>
       </div>
-      <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; font-style: italic;">
+      <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.7; font-style: italic;">
         <p style="margin: 0 0 12px 0; font-weight: bold; font-style: normal;">Working with AI in This Unit</p>
         <p style="margin: 0 0 12px 0;">We'll explore AI as a tool for enhancing your learning. Some assignments will require AI use, others will prohibit it, and many will make it optional. Each assignment will specify:</p>
         <ul style="margin: 0 0 12px 0; padding-left: 20px;">
@@ -149,238 +149,238 @@ format:
         <p style="margin: 0;">Let's learn together how to use these tools professionally and ethically.</p>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-        <span style="background: #F0FDF4; color: #166534; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Flexible per task</span>
-        <span style="background: #F0FDF4; color: #166534; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Models real-world variation</span>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- Requires per-task clarity</span>
-        <span style="background: #FEF3C7; color: #92400E; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- More work to implement</span>
+        <span style="background: #0D2818; color: #4ADE80; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Flexible per task</span>
+        <span style="background: #0D2818; color: #4ADE80; padding: 4px 10px; border-radius: 4px; font-size: 12px;">+ Models real-world variation</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- Requires per-task clarity</span>
+        <span style="background: #3D2E0A; color: #FBBF24; padding: 4px 10px; border-radius: 4px; font-size: 12px;">- More work to implement</span>
       </div>
     </div>
 
     <!-- Quick Reflection -->
-    <div style="background: #EEF2FF; border: 1px solid #C7D2FE; border-radius: 12px; padding: 20px;">
-      <h4 style="margin: 0 0 12px 0; color: #3730A3;">Quick Reflection</h4>
-      <p style="margin: 0 0 12px 0; color: #4338CA;">Which policy approach resonates most with your context? Select one:</p>
+    <div style="background: #1E1B4B; border: 1px solid #C7D2FE; border-radius: 12px; padding: 20px;">
+      <h4 style="margin: 0 0 12px 0; color: #C7D2FE;">Quick Reflection</h4>
+      <p style="margin: 0 0 12px 0; color: #A5B4FC;">Which policy approach resonates most with your context? Select one:</p>
       <div style="display: flex; flex-direction: column; gap: 8px;">
-        <button onclick="selectPolicy('A')" id="policy-btn-A" style="padding: 10px 16px; background: white; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px;">A) Restrictive — When clear boundaries matter most</button>
-        <button onclick="selectPolicy('B')" id="policy-btn-B" style="padding: 10px 16px; background: white; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px;">B) Encouraging — When building AI literacy is the goal</button>
-        <button onclick="selectPolicy('C')" id="policy-btn-C" style="padding: 10px 16px; background: white; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px;">C) Structured — When detailed guidance is needed</button>
-        <button onclick="selectPolicy('D')" id="policy-btn-D" style="padding: 10px 16px; background: white; border: 2px solid #E2E8F0; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px;">D) Collaborative — When flexibility per task makes sense</button>
+        <button onclick="selectPolicy('A')" id="policy-btn-A" style="padding: 10px 16px; background: #16162A; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; color: #CBD5E1;">A) Restrictive — When clear boundaries matter most</button>
+        <button onclick="selectPolicy('B')" id="policy-btn-B" style="padding: 10px 16px; background: #16162A; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; color: #CBD5E1;">B) Encouraging — When building AI literacy is the goal</button>
+        <button onclick="selectPolicy('C')" id="policy-btn-C" style="padding: 10px 16px; background: #16162A; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; color: #CBD5E1;">C) Structured — When detailed guidance is needed</button>
+        <button onclick="selectPolicy('D')" id="policy-btn-D" style="padding: 10px 16px; background: #16162A; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; text-align: left; font-size: 14px; color: #CBD5E1;">D) Collaborative — When flexibility per task makes sense</button>
       </div>
-      <div id="policy-reflection" style="display: none; margin-top: 16px; padding: 16px; background: white; border-radius: 8px;"></div>
+      <div id="policy-reflection" style="display: none; margin-top: 16px; padding: 16px; background: #16162A; border-radius: 8px;"></div>
     </div>
   </div>
 
   <!-- Activity 2: Stress-Test a Policy -->
   <div style="margin-bottom: 32px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 2</div>
-    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Stress-Test a Policy</h2>
+    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Stress-Test a Policy</h2>
 
-    <div style="background: #FEF3C7; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
-      <h4 style="margin: 0 0 8px 0; color: #92400E;">The Devil's Advocate Technique</h4>
-      <p style="margin: 0; color: #78350F; line-height: 1.6;">A powerful way to test your policies is to argue against them as strongly as possible. This helps you identify weaknesses before they become problems. Ask: What are the weakest parts? What counterarguments exist? What scenarios would cause this to fail?</p>
+    <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+      <h4 style="margin: 0 0 8px 0; color: #FBBF24;">The Devil's Advocate Technique</h4>
+      <p style="margin: 0; color: #FCD34D; line-height: 1.6;">A powerful way to test your policies is to argue against them as strongly as possible. This helps you identify weaknesses before they become problems. Ask: What are the weakest parts? What counterarguments exist? What scenarios would cause this to fail?</p>
     </div>
 
     <p style="color: #64748B; margin-bottom: 20px;">Select a policy from the gallery above, then work through these challenges. Click each challenge to reveal how the policy might struggle.</p>
 
     <div id="stress-test-container">
       <!-- Challenge 1 -->
-      <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
         <button onclick="toggleChallenge(1)" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background: none; border: none; cursor: pointer; padding: 0;">
-          <span style="font-weight: bold; color: #0F172A; text-align: left;">Challenge 1: The Accessibility Argument</span>
+          <span style="font-weight: bold; color: #E2E8F0; text-align: left;">Challenge 1: The Accessibility Argument</span>
           <span id="challenge-arrow-1" style="color: #64748B; transition: transform 0.2s;">▼</span>
         </button>
         <div id="challenge-content-1" style="display: none; margin-top: 16px;">
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-            <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Scenario:</strong> A student argues that AI tools function as accessibility aids for their dyslexia. Banning AI would unfairly disadvantage them compared to neurotypical students who don't need such support.</p>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+            <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Scenario:</strong> A student argues that AI tools function as accessibility aids for their dyslexia. Banning AI would unfairly disadvantage them compared to neurotypical students who don't need such support.</p>
           </div>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <div style="background: #FEE2E2; padding: 12px; border-radius: 8px;">
-              <strong style="color: #991B1B;">Policy A weakness:</strong>
-              <span style="color: #7F1D1D;"> A blanket ban may conflict with accessibility obligations and create inequity.</span>
+            <div style="background: #3B1010; padding: 12px; border-radius: 8px;">
+              <strong style="color: #FCA5A5;">Policy A weakness:</strong>
+              <span style="color: #F87171;"> A blanket ban may conflict with accessibility obligations and create inequity.</span>
             </div>
-            <div style="background: #DCFCE7; padding: 12px; border-radius: 8px;">
-              <strong style="color: #166534;">Policy C strength:</strong>
-              <span style="color: #14532D;"> Allowing grammar/style checking provides some accommodation while maintaining limits.</span>
+            <div style="background: #1A3A2A; padding: 12px; border-radius: 8px;">
+              <strong style="color: #4ADE80;">Policy C strength:</strong>
+              <span style="color: #86EFAC;"> Allowing grammar/style checking provides some accommodation while maintaining limits.</span>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Challenge 2 -->
-      <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
         <button onclick="toggleChallenge(2)" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background: none; border: none; cursor: pointer; padding: 0;">
-          <span style="font-weight: bold; color: #0F172A; text-align: left;">Challenge 2: The Enforcement Problem</span>
+          <span style="font-weight: bold; color: #E2E8F0; text-align: left;">Challenge 2: The Enforcement Problem</span>
           <span id="challenge-arrow-2" style="color: #64748B; transition: transform 0.2s;">▼</span>
         </button>
         <div id="challenge-content-2" style="display: none; margin-top: 16px;">
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-            <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Scenario:</strong> You suspect a student used AI but cannot prove it. Detection tools are unreliable. The student denies using AI. Your policy says undisclosed AI use is misconduct.</p>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+            <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Scenario:</strong> You suspect a student used AI but cannot prove it. Detection tools are unreliable. The student denies using AI. Your policy says undisclosed AI use is misconduct.</p>
           </div>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <div style="background: #FEE2E2; padding: 12px; border-radius: 8px;">
-              <strong style="color: #991B1B;">All policies weakness:</strong>
-              <span style="color: #7F1D1D;"> No policy can be perfectly enforced. Detection is unreliable.</span>
+            <div style="background: #3B1010; padding: 12px; border-radius: 8px;">
+              <strong style="color: #FCA5A5;">All policies weakness:</strong>
+              <span style="color: #F87171;"> No policy can be perfectly enforced. Detection is unreliable.</span>
             </div>
-            <div style="background: #DCFCE7; padding: 12px; border-radius: 8px;">
-              <strong style="color: #166534;">Mitigation strategy:</strong>
-              <span style="color: #14532D;"> Build in oral defence or process documentation requirements. Assess understanding, not just output.</span>
+            <div style="background: #1A3A2A; padding: 12px; border-radius: 8px;">
+              <strong style="color: #4ADE80;">Mitigation strategy:</strong>
+              <span style="color: #86EFAC;"> Build in oral defence or process documentation requirements. Assess understanding, not just output.</span>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Challenge 3 -->
-      <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
         <button onclick="toggleChallenge(3)" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background: none; border: none; cursor: pointer; padding: 0;">
-          <span style="font-weight: bold; color: #0F172A; text-align: left;">Challenge 3: The Industry Reality</span>
+          <span style="font-weight: bold; color: #E2E8F0; text-align: left;">Challenge 3: The Industry Reality</span>
           <span id="challenge-arrow-3" style="color: #64748B; transition: transform 0.2s;">▼</span>
         </button>
         <div id="challenge-content-3" style="display: none; margin-top: 16px;">
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-            <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Scenario:</strong> Industry partners point out that graduates who cannot effectively use AI tools will be at a disadvantage. They ask why we're preparing students for a world that no longer exists.</p>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+            <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Scenario:</strong> Industry partners point out that graduates who cannot effectively use AI tools will be at a disadvantage. They ask why we're preparing students for a world that no longer exists.</p>
           </div>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <div style="background: #FEE2E2; padding: 12px; border-radius: 8px;">
-              <strong style="color: #991B1B;">Policy A weakness:</strong>
-              <span style="color: #7F1D1D;"> Full restriction doesn't develop AI literacy skills needed in the workforce.</span>
+            <div style="background: #3B1010; padding: 12px; border-radius: 8px;">
+              <strong style="color: #FCA5A5;">Policy A weakness:</strong>
+              <span style="color: #F87171;"> Full restriction doesn't develop AI literacy skills needed in the workforce.</span>
             </div>
-            <div style="background: #DCFCE7; padding: 12px; border-radius: 8px;">
-              <strong style="color: #166534;">Policy B/D strength:</strong>
-              <span style="color: #14532D;"> Treating AI as a skill to develop prepares students for actual workplace expectations.</span>
+            <div style="background: #1A3A2A; padding: 12px; border-radius: 8px;">
+              <strong style="color: #4ADE80;">Policy B/D strength:</strong>
+              <span style="color: #86EFAC;"> Treating AI as a skill to develop prepares students for actual workplace expectations.</span>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Challenge 4 -->
-      <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
         <button onclick="toggleChallenge(4)" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background: none; border: none; cursor: pointer; padding: 0;">
-          <span style="font-weight: bold; color: #0F172A; text-align: left;">Challenge 4: The Shifting Baseline</span>
+          <span style="font-weight: bold; color: #E2E8F0; text-align: left;">Challenge 4: The Shifting Baseline</span>
           <span id="challenge-arrow-4" style="color: #64748B; transition: transform 0.2s;">▼</span>
         </button>
         <div id="challenge-content-4" style="display: none; margin-top: 16px;">
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-            <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Scenario:</strong> AI capabilities change faster than policy review cycles. Your "permitted tools" list from 6 months ago doesn't include the new features students are using. Is using a newer AI model a violation?</p>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+            <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Scenario:</strong> AI capabilities change faster than policy review cycles. Your "permitted tools" list from 6 months ago doesn't include the new features students are using. Is using a newer AI model a violation?</p>
           </div>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <div style="background: #FEE2E2; padding: 12px; border-radius: 8px;">
-              <strong style="color: #991B1B;">Policy C weakness:</strong>
-              <span style="color: #7F1D1D;"> Detailed tool lists become outdated quickly. Specificity creates ambiguity.</span>
+            <div style="background: #3B1010; padding: 12px; border-radius: 8px;">
+              <strong style="color: #FCA5A5;">Policy C weakness:</strong>
+              <span style="color: #F87171;"> Detailed tool lists become outdated quickly. Specificity creates ambiguity.</span>
             </div>
-            <div style="background: #DCFCE7; padding: 12px; border-radius: 8px;">
-              <strong style="color: #166534;">Better approach:</strong>
-              <span style="color: #14532D;"> Focus on principles (transparency, understanding) rather than specific tool lists.</span>
+            <div style="background: #1A3A2A; padding: 12px; border-radius: 8px;">
+              <strong style="color: #4ADE80;">Better approach:</strong>
+              <span style="color: #86EFAC;"> Focus on principles (transparency, understanding) rather than specific tool lists.</span>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Challenge 5 -->
-      <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px; margin-bottom: 12px;">
         <button onclick="toggleChallenge(5)" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background: none; border: none; cursor: pointer; padding: 0;">
-          <span style="font-weight: bold; color: #0F172A; text-align: left;">Challenge 5: The Cognitive Load</span>
+          <span style="font-weight: bold; color: #E2E8F0; text-align: left;">Challenge 5: The Cognitive Load</span>
           <span id="challenge-arrow-5" style="color: #64748B; transition: transform 0.2s;">▼</span>
         </button>
         <div id="challenge-content-5" style="display: none; margin-top: 16px;">
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-            <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Scenario:</strong> Students complain they have different AI policies for each unit, each with different requirements. They're spending more time understanding policies than learning content.</p>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+            <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Scenario:</strong> Students complain they have different AI policies for each unit, each with different requirements. They're spending more time understanding policies than learning content.</p>
           </div>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <div style="background: #FEE2E2; padding: 12px; border-radius: 8px;">
-              <strong style="color: #991B1B;">Policy D weakness:</strong>
-              <span style="color: #7F1D1D;"> Per-task flexibility creates complexity when multiplied across courses.</span>
+            <div style="background: #3B1010; padding: 12px; border-radius: 8px;">
+              <strong style="color: #FCA5A5;">Policy D weakness:</strong>
+              <span style="color: #F87171;"> Per-task flexibility creates complexity when multiplied across courses.</span>
             </div>
-            <div style="background: #DCFCE7; padding: 12px; border-radius: 8px;">
-              <strong style="color: #166534;">Mitigation:</strong>
-              <span style="color: #14532D;"> School-level baseline policy with unit-level variations only where needed.</span>
+            <div style="background: #1A3A2A; padding: 12px; border-radius: 8px;">
+              <strong style="color: #4ADE80;">Mitigation:</strong>
+              <span style="color: #86EFAC;"> School-level baseline policy with unit-level variations only where needed.</span>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; margin-top: 20px;">
-      <h4 style="margin: 0 0 8px 0; color: #14532D;">Key Insight</h4>
-      <p style="margin: 0; color: #166534; line-height: 1.6;">No policy is perfect. The best policies acknowledge their limitations and build in mechanisms for handling edge cases. Consider: What will you do when the policy doesn't clearly apply?</p>
+    <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-top: 20px;">
+      <h4 style="margin: 0 0 8px 0; color: #86EFAC;">Key Insight</h4>
+      <p style="margin: 0; color: #4ADE80; line-height: 1.6;">No policy is perfect. The best policies acknowledge their limitations and build in mechanisms for handling edge cases. Consider: What will you do when the policy doesn't clearly apply?</p>
     </div>
   </div>
 
   <!-- Activity 3: Build Your Policy -->
   <div style="margin-bottom: 32px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 3</div>
-    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Build Your Policy</h2>
+    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Build Your Policy</h2>
     <p style="color: #64748B; margin-bottom: 20px;">Use this framework to draft AI guidelines for your context. Work through each section, considering what makes sense for your specific situation.</p>
 
     <!-- Section 1: Scope -->
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
         <span style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">1</span>
-        <h3 style="margin: 0; color: #0F172A; font-size: 18px;">Scope & Purpose</h3>
+        <h3 style="margin: 0; color: #E2E8F0; font-size: 18px;">Scope & Purpose</h3>
       </div>
       <p style="color: #64748B; margin-bottom: 16px;">Define what this policy covers and why it exists.</p>
-      <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-        <p style="margin: 0 0 8px 0; font-weight: bold; color: #334155;">Consider:</p>
+      <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin: 0 0 8px 0; font-weight: bold; color: #CBD5E1;">Consider:</p>
         <ul style="margin: 0; padding-left: 20px; color: #64748B; line-height: 1.8;">
           <li>Does this apply to all assessments or specific types?</li>
           <li>Does it cover coursework only, or also exams?</li>
           <li>What is the underlying goal? (Skill development? Integrity? Fairness?)</li>
         </ul>
       </div>
-      <textarea id="policy-scope" placeholder="Draft your scope statement here... e.g., 'This policy applies to all written assessments in [Unit Code]. It aims to ensure academic integrity while developing AI literacy skills.'" style="width: 100%; min-height: 100px; padding: 12px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      <textarea id="policy-scope" placeholder="Draft your scope statement here... e.g., 'This policy applies to all written assessments in [Unit Code]. It aims to ensure academic integrity while developing AI literacy skills.'" style="width: 100%; min-height: 100px; padding: 12px; border: 1px solid #2D2D4A; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box; background: #1E1E36; color: #CBD5E1;"></textarea>
     </div>
 
     <!-- Section 2: Permitted Uses -->
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
         <span style="background: #22C55E; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">2</span>
-        <h3 style="margin: 0; color: #0F172A; font-size: 18px;">Permitted Uses</h3>
+        <h3 style="margin: 0; color: #E2E8F0; font-size: 18px;">Permitted Uses</h3>
       </div>
       <p style="color: #64748B; margin-bottom: 16px;">What AI uses are explicitly allowed?</p>
-      <div style="background: #F0FDF4; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-        <p style="margin: 0 0 8px 0; font-weight: bold; color: #166534;">Common permitted uses:</p>
+      <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin: 0 0 8px 0; font-weight: bold; color: #4ADE80;">Common permitted uses:</p>
         <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #166534; border: 1px solid #BBF7D0;">Brainstorming</span>
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #166534; border: 1px solid #BBF7D0;">Grammar checking</span>
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #166534; border: 1px solid #BBF7D0;">Finding sources</span>
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #166534; border: 1px solid #BBF7D0;">Explaining concepts</span>
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #166534; border: 1px solid #BBF7D0;">Creating study notes</span>
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #166534; border: 1px solid #BBF7D0;">Code debugging</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #4ADE80; border: 1px solid #1A4731;">Brainstorming</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #4ADE80; border: 1px solid #1A4731;">Grammar checking</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #4ADE80; border: 1px solid #1A4731;">Finding sources</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #4ADE80; border: 1px solid #1A4731;">Explaining concepts</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #4ADE80; border: 1px solid #1A4731;">Creating study notes</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #4ADE80; border: 1px solid #1A4731;">Code debugging</span>
         </div>
       </div>
-      <textarea id="policy-permitted" placeholder="List what's permitted... e.g., 'You may use AI for: brainstorming initial ideas, checking grammar and spelling, generating practice questions for study.'" style="width: 100%; min-height: 100px; padding: 12px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      <textarea id="policy-permitted" placeholder="List what's permitted... e.g., 'You may use AI for: brainstorming initial ideas, checking grammar and spelling, generating practice questions for study.'" style="width: 100%; min-height: 100px; padding: 12px; border: 1px solid #2D2D4A; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box; background: #1E1E36; color: #CBD5E1;"></textarea>
     </div>
 
     <!-- Section 3: Required Disclosures -->
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
         <span style="background: #F59E0B; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">3</span>
-        <h3 style="margin: 0; color: #0F172A; font-size: 18px;">Required Disclosures</h3>
+        <h3 style="margin: 0; color: #E2E8F0; font-size: 18px;">Required Disclosures</h3>
       </div>
       <p style="color: #64748B; margin-bottom: 16px;">What must people disclose about their AI use?</p>
-      <div style="background: #FEF3C7; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-        <p style="margin: 0 0 8px 0; font-weight: bold; color: #92400E;">Disclosure template example:</p>
-        <p style="margin: 0; color: #78350F; font-style: italic; line-height: 1.6;">"If you use AI tools, include a statement describing: (1) Which tools you used, (2) How you used them, (3) What changes you made to any AI output."</p>
+      <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin: 0 0 8px 0; font-weight: bold; color: #FBBF24;">Disclosure template example:</p>
+        <p style="margin: 0; color: #FCD34D; font-style: italic; line-height: 1.6;">"If you use AI tools, include a statement describing: (1) Which tools you used, (2) How you used them, (3) What changes you made to any AI output."</p>
       </div>
-      <textarea id="policy-disclosures" placeholder="Define disclosure requirements... e.g., 'All AI use must be acknowledged in an appendix that describes the tools used and how they contributed to the work.'" style="width: 100%; min-height: 100px; padding: 12px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      <textarea id="policy-disclosures" placeholder="Define disclosure requirements... e.g., 'All AI use must be acknowledged in an appendix that describes the tools used and how they contributed to the work.'" style="width: 100%; min-height: 100px; padding: 12px; border: 1px solid #2D2D4A; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box; background: #1E1E36; color: #CBD5E1;"></textarea>
     </div>
 
     <!-- Section 4: Prohibited Uses -->
-    <div style="background: white; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
         <span style="background: #EF4444; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px;">4</span>
-        <h3 style="margin: 0; color: #0F172A; font-size: 18px;">Prohibited Uses</h3>
+        <h3 style="margin: 0; color: #E2E8F0; font-size: 18px;">Prohibited Uses</h3>
       </div>
       <p style="color: #64748B; margin-bottom: 16px;">What AI uses are explicitly not allowed?</p>
-      <div style="background: #FEE2E2; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
-        <p style="margin: 0 0 8px 0; font-weight: bold; color: #991B1B;">Common prohibitions:</p>
+      <div style="background: #3B1010; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin: 0 0 8px 0; font-weight: bold; color: #FCA5A5;">Common prohibitions:</p>
         <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #991B1B; border: 1px solid #FECACA;">Submitting unedited AI text</span>
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #991B1B; border: 1px solid #FECACA;">Using AI in exams</span>
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #991B1B; border: 1px solid #FECACA;">Undisclosed AI use</span>
-          <span style="background: white; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #991B1B; border: 1px solid #FECACA;">AI for individual reflection tasks</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #FCA5A5; border: 1px solid #FECACA;">Submitting unedited AI text</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #FCA5A5; border: 1px solid #FECACA;">Using AI in exams</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #FCA5A5; border: 1px solid #FECACA;">Undisclosed AI use</span>
+          <span style="background: #16162A; padding: 6px 12px; border-radius: 4px; font-size: 13px; color: #FCA5A5; border: 1px solid #FECACA;">AI for individual reflection tasks</span>
         </div>
       </div>
-      <textarea id="policy-prohibited" placeholder="List what's prohibited... e.g., 'You may NOT: submit AI-generated content as your own work, use AI during invigilated exams, fail to disclose AI assistance.'" style="width: 100%; min-height: 100px; padding: 12px; border: 1px solid #E2E8F0; border-radius: 8px; font-family: Georgia, serif; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      <textarea id="policy-prohibited" placeholder="List what's prohibited... e.g., 'You may NOT: submit AI-generated content as your own work, use AI during invigilated exams, fail to disclose AI assistance.'" style="width: 100%; min-height: 100px; padding: 12px; border: 1px solid #2D2D4A; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box; background: #1E1E36; color: #CBD5E1;"></textarea>
     </div>
 
     <!-- Generate Policy Button -->
@@ -389,9 +389,9 @@ format:
     </div>
 
     <!-- Generated Policy Output -->
-    <div id="generated-policy" style="display: none; background: #F8FAFC; border: 2px solid #4F46E5; border-radius: 12px; padding: 24px; margin-top: 24px;">
-      <h4 style="margin: 0 0 16px 0; color: #312E81;">Your Draft Policy</h4>
-      <div id="policy-output" style="background: white; padding: 20px; border-radius: 8px; white-space: pre-wrap; font-family: Georgia, serif; line-height: 1.8; color: #334155;"></div>
+    <div id="generated-policy" style="display: none; background: #1E1E36; border: 2px solid #4F46E5; border-radius: 12px; padding: 24px; margin-top: 24px;">
+      <h4 style="margin: 0 0 16px 0; color: #C7D2FE;">Your Draft Policy</h4>
+      <div id="policy-output" style="background: #16162A; padding: 20px; border-radius: 8px; white-space: pre-wrap; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.8; color: #CBD5E1;"></div>
       <p style="margin: 16px 0 0 0; font-size: 13px; color: #64748B;">Copy this draft and refine it for your specific context. Consider sharing with colleagues for feedback before implementing.</p>
     </div>
   </div>
@@ -399,140 +399,140 @@ format:
   <!-- In Your Context Tabs -->
   <div style="margin-bottom: 32px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">In Your Context</div>
-    <h2 style="font-size: 22px; color: #0F172A; margin: 0 0 16px 0;">Policy Implementation by Role</h2>
+    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Policy Implementation by Role</h2>
 
     <!-- Tab Navigation -->
-    <div style="display: flex; gap: 4px; margin-bottom: 0; border-bottom: 2px solid #E2E8F0;">
+    <div style="display: flex; gap: 4px; margin-bottom: 0; border-bottom: 2px solid #2D2D4A;">
       <button class="context-tab active" data-tab="teaching" onclick="switchTab('teaching')" style="padding: 12px 20px; background: #4F46E5; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px; font-weight: bold;">📚 Teaching</button>
-      <button class="context-tab" data-tab="research" onclick="switchTab('research')" style="padding: 12px 20px; background: #F1F5F9; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">🔬 Research</button>
-      <button class="context-tab" data-tab="admin" onclick="switchTab('admin')" style="padding: 12px 20px; background: #F1F5F9; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">⚙️ Admin</button>
+      <button class="context-tab" data-tab="research" onclick="switchTab('research')" style="padding: 12px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">🔬 Research</button>
+      <button class="context-tab" data-tab="admin" onclick="switchTab('admin')" style="padding: 12px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">⚙️ Admin</button>
     </div>
 
     <!-- Tab Content -->
-    <div id="tab-content" style="background: white; border: 1px solid #E2E8F0; border-top: none; border-radius: 0 0 12px 12px; padding: 24px;">
+    <div id="tab-content" style="background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 12px 12px; padding: 24px;">
 
       <!-- Teaching Tab -->
       <div class="tab-panel" data-panel="teaching" style="display: block;">
-        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">Unit Outline AI Statements</h3>
+        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Unit Outline AI Statements</h3>
 
         <p style="color: #64748B; margin-bottom: 16px;">Your unit outline needs a clear AI policy statement. Here are templates to adapt:</p>
 
-        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-          <p style="margin: 0 0 8px 0; font-weight: bold; color: #0F172A;">Template 1: Learning-Focused</p>
+        <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #E2E8F0;">Template 1: Learning-Focused</p>
           <p style="margin: 0; color: #64748B; font-style: italic; line-height: 1.6;">"In this unit, you will learn to use AI tools professionally and ethically. AI may be used for [specific tasks] with appropriate acknowledgment. All submitted work must demonstrate your understanding of the material. You should be able to explain and extend any work you submit."</p>
         </div>
 
-        <div style="background: #F8FAFC; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-          <p style="margin: 0 0 8px 0; font-weight: bold; color: #0F172A;">Template 2: Task-Specific</p>
+        <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #E2E8F0;">Template 2: Task-Specific</p>
           <p style="margin: 0; color: #64748B; font-style: italic; line-height: 1.6;">"AI policies vary by assessment in this unit. Each assignment will specify whether AI use is permitted, required, or prohibited, and what disclosure is needed. When in doubt, ask before the due date."</p>
         </div>
 
-        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px;">
-          <p style="margin: 0 0 8px 0; font-weight: bold; color: #312E81;">First Day Communication</p>
-          <p style="margin: 0; color: #4338CA; line-height: 1.6;">Consider discussing AI use explicitly in your first class. Normalize asking questions. Share your own AI use. Set the tone that transparency matters more than perfection.</p>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #C7D2FE;">First Day Communication</p>
+          <p style="margin: 0; color: #A5B4FC; line-height: 1.6;">Consider discussing AI use explicitly in your first class. Normalize asking questions. Share your own AI use. Set the tone that transparency matters more than perfection.</p>
         </div>
       </div>
 
       <!-- Research Tab -->
       <div class="tab-panel" data-panel="research" style="display: none;">
-        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">Research Group AI Guidelines</h3>
+        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Research Group AI Guidelines</h3>
 
         <p style="color: #64748B; margin-bottom: 16px;">Research groups benefit from explicit conversations about AI. Consider developing guidelines that address:</p>
 
         <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px;">
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
-            <strong style="color: #0F172A;">Data & Privacy:</strong>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #E2E8F0;">Data & Privacy:</strong>
             <span style="color: #64748B;"> What data can be input to AI tools? How do you handle confidential or pre-publication information?</span>
           </div>
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
-            <strong style="color: #0F172A;">Authorship & Attribution:</strong>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #E2E8F0;">Authorship & Attribution:</strong>
             <span style="color: #64748B;"> How should AI assistance be acknowledged in publications? What do target journals require?</span>
           </div>
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
-            <strong style="color: #0F172A;">Quality Assurance:</strong>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #E2E8F0;">Quality Assurance:</strong>
             <span style="color: #64748B;"> How do you verify AI-assisted analysis? What human review processes are required?</span>
           </div>
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
-            <strong style="color: #0F172A;">HDR Students:</strong>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #E2E8F0;">HDR Students:</strong>
             <span style="color: #64748B;"> What AI use is appropriate for thesis work? How should it be documented and disclosed?</span>
           </div>
         </div>
 
-        <div style="background: #EEF2FF; padding: 16px; border-radius: 8px;">
-          <p style="margin: 0 0 8px 0; font-weight: bold; color: #312E81;">Journal Policies Are Evolving</p>
-          <p style="margin: 0; color: #4338CA; line-height: 1.6;">Check target journals before submission. Many now require AI disclosure statements. Some prohibit AI for certain tasks. Build disclosure into your workflow from the start.</p>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #C7D2FE;">Journal Policies Are Evolving</p>
+          <p style="margin: 0; color: #A5B4FC; line-height: 1.6;">Check target journals before submission. Many now require AI disclosure statements. Some prohibit AI for certain tasks. Build disclosure into your workflow from the start.</p>
         </div>
       </div>
 
       <!-- Admin Tab -->
       <div class="tab-panel" data-panel="admin" style="display: none;">
-        <h3 style="font-size: 18px; color: #0F172A; margin: 0 0 16px 0;">Office AI Procedure Protocols</h3>
+        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Office AI Procedure Protocols</h3>
 
         <p style="color: #64748B; margin-bottom: 16px;">Administrative teams can benefit from shared protocols about AI use. Consider:</p>
 
         <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px;">
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
-            <strong style="color: #0F172A;">Appropriate Tasks:</strong>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #E2E8F0;">Appropriate Tasks:</strong>
             <span style="color: #64748B;"> Drafting routine communications, summarising documents, creating templates, scheduling assistance.</span>
           </div>
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
-            <strong style="color: #0F172A;">Review Requirements:</strong>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #E2E8F0;">Review Requirements:</strong>
             <span style="color: #64748B;"> All AI-assisted communications should be reviewed before sending. Check facts, tone, and appropriateness.</span>
           </div>
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
-            <strong style="color: #0F172A;">Data Restrictions:</strong>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #E2E8F0;">Data Restrictions:</strong>
             <span style="color: #64748B;"> Never input confidential information, personal data, or sensitive institutional information into public AI tools.</span>
           </div>
-          <div style="background: #F8FAFC; padding: 16px; border-radius: 8px;">
-            <strong style="color: #0F172A;">Accountability:</strong>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #E2E8F0;">Accountability:</strong>
             <span style="color: #64748B;"> The person sending a communication is responsible for its content, regardless of AI assistance.</span>
           </div>
         </div>
 
-        <div style="background: #FEF3C7; padding: 16px; border-radius: 8px;">
-          <p style="margin: 0 0 8px 0; font-weight: bold; color: #92400E;">Human-in-the-Loop</p>
-          <p style="margin: 0; color: #78350F; line-height: 1.6;">AI can draft, but humans decide. Any communication, decision, or document that affects people should have meaningful human review, not just rubber-stamping.</p>
+        <div style="background: #3D2E0A; padding: 16px; border-radius: 8px;">
+          <p style="margin: 0 0 8px 0; font-weight: bold; color: #FBBF24;">Human-in-the-Loop</p>
+          <p style="margin: 0; color: #FCD34D; line-height: 1.6;">AI can draft, but humans decide. Any communication, decision, or document that affects people should have meaningful human review, not just rubber-stamping.</p>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Key Takeaways -->
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
-    <h2 style="font-size: 20px; color: #0F172A; margin: 0 0 16px 0;">Key Takeaways</h2>
+  <div style="background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+    <h2 style="font-size: 20px; color: #E2E8F0; margin: 0 0 16px 0;">Key Takeaways</h2>
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Good policies are clear and contextual</strong> — They tell people what to do, not just what not to do</p>
+        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Good policies are clear and contextual</strong> — They tell people what to do, not just what not to do</p>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>No policy is perfect</strong> — Build in mechanisms for edge cases and regular review</p>
+        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>No policy is perfect</strong> — Build in mechanisms for edge cases and regular review</p>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Principles over tool lists</strong> — Focus on transparency and understanding, not specific software</p>
+        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Principles over tool lists</strong> — Focus on transparency and understanding, not specific software</p>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #334155; line-height: 1.6;"><strong>Communication matters</strong> — The best policy is useless if people don't understand it</p>
+        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Communication matters</strong> — The best policy is useless if people don't understand it</p>
       </div>
     </div>
   </div>
 
   <!-- Completion Section -->
-  <div id="completion-section" style="display: none; background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+  <div id="completion-section" style="display: none; background: linear-gradient(135deg, #0D2818, #1A3A2A); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
     <div style="font-size: 48px; margin-bottom: 16px;">🎉</div>
-    <h2 style="font-family: Georgia, serif; font-size: 24px; color: #14532D; margin: 0 0 12px 0;">Experience Complete!</h2>
-    <p style="font-size: 16px; color: #166534; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
-    <div id="badge-progress" style="background: white; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
+    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; color: #86EFAC; margin: 0 0 12px 0;">Experience Complete!</h2>
+    <p style="font-size: 16px; color: #4ADE80; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
+    <div id="badge-progress" style="background: #16162A; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
       <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
     </div>
     <a href="#" id="next-experience-link" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Continue to Next Experience</a>
   </div>
 
-  <div id="completion-trigger" style="background: #F1F5F9; border: 2px solid #E2E8F0; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
-    <h3 style="font-family: Georgia, serif; font-size: 20px; color: #0F172A; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
+  <div id="completion-trigger" style="background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+    <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; color: #E2E8F0; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
     <p style="font-size: 14px; color: #64748B; line-height: 1.6; margin: 0 0 20px 0;">Once you've worked through the activities above, click below to record your progress.</p>
     <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease;">
       Mark as Complete
@@ -560,16 +560,16 @@ format:
       const btn = document.getElementById(`policy-btn-${p}`);
       if (p === policy) {
         btn.style.borderColor = '#4F46E5';
-        btn.style.background = '#EEF2FF';
+        btn.style.background = '#1E1B4B';
       } else {
-        btn.style.borderColor = '#E2E8F0';
-        btn.style.background = 'white';
+        btn.style.borderColor = '#2D2D4A';
+        btn.style.background = '#16162A';
       }
     });
 
     const reflectionDiv = document.getElementById('policy-reflection');
     reflectionDiv.style.display = 'block';
-    reflectionDiv.innerHTML = `<strong style="color: #312E81;">Why this might fit:</strong><p style="margin: 8px 0 0 0; color: #4338CA; line-height: 1.6;">${policyFeedback[policy]}</p>`;
+    reflectionDiv.innerHTML = `<strong style="color: #C7D2FE;">Why this might fit:</strong><p style="margin: 8px 0 0 0; color: #A5B4FC; line-height: 1.6;">${policyFeedback[policy]}</p>`;
   };
 
   // Challenge toggle
@@ -634,7 +634,7 @@ format:
         t.style.color = 'white';
         t.style.fontWeight = 'bold';
       } else {
-        t.style.background = '#F1F5F9';
+        t.style.background = '#1E1E36';
         t.style.color = '#64748B';
         t.style.fontWeight = 'normal';
       }
@@ -705,7 +705,7 @@ format:
     if (completions[experienceId]) {
       document.getElementById('completion-trigger').innerHTML = `
         <div style="color: #22C55E; font-size: 24px; margin-bottom: 8px;">✓</div>
-        <p style="font-size: 14px; color: #64748B; margin: 0;">You completed this experience on ${new Date(completions[experienceId].completedAt).toLocaleDateString()}</p>
+        <p style="font-size: 14px; color: #94A3B8; margin: 0;">You completed this experience on ${new Date(completions[experienceId].completedAt).toLocaleDateString()}</p>
       `;
     }
   }

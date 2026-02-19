@@ -7,3 +7,4 @@ format:
     theme: none
     minimal: true
     self-contained: true
+    css: ../shared/brand.css
