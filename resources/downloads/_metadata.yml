@@ -1,7 +1,7 @@
 # Shared format config for downloadable resources
 # Each QMD in this directory renders to HTML + DOCX + PDF
 
-author: "Michael Borck, AI Facilitator, School of Management and Marketing, Curtin University"
+author: "AI Skills Passport — School of Management and Marketing, Curtin University"
 date: today
 
 format:
