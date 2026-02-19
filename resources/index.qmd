@@ -645,6 +645,34 @@ Now write feedback in my style for:
       }
     },
     {
+      id: 'human-element',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'The Human Element',
+      emoji: '🌟',
+      summary: 'Why AI makes people more valuable, not less — Jevons Paradox, the university survival story, and the human premium.',
+      downloads: {
+        html: 'downloads/human-element.html',
+        docx: 'downloads/human-element.docx',
+        pdf: 'downloads/human-element.pdf'
+      },
+      content: `
+        <p>The biggest unspoken fear about AI: <strong>will it make us irrelevant?</strong></p>
+        <p>History says no — and the economics explain why. This guide brings together:</p>
+        <ul>
+          <li><strong>The Radiologist Fallacy</strong> — Why predictions of job replacement keep being wrong</li>
+          <li><strong>Jevons Paradox</strong> — When technology makes work cheaper, demand for it <em>increases</em></li>
+          <li><strong>The University Survival Story</strong> — Online courses, MOOCs, and every other technology that was supposed to kill universities… didn't</li>
+          <li><strong>The Two Sigma Opportunity</strong> — How AI could give every student personalised tutoring (Sal Khan's vision)</li>
+          <li><strong>The Human Premium</strong> — Judgement, ethical reasoning, relationships, creativity, and contextual understanding</li>
+        </ul>
+        <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin: 16px 0; border-left: 4px solid #4F46E5;">
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"The human element isn't the part AI replaces. It's the part AI makes essential."</p>
+        </div>
+        <p>The real choice: accept mediocrity at scale, or use AI to elevate what makes us human.</p>
+      `
+    },
+    {
       id: 'ai-shame-guide',
       category: 'guide',
       roles: ['teaching', 'research', 'admin'],
