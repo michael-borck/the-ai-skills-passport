@@ -49,12 +49,22 @@ find_output() {
   return 1
 }
 
-# Top-level SPAs (onboarding, resources, passport)
-for name in onboarding resources passport; do
+# Top-level SPAs (onboarding, passport)
+for name in onboarding passport; do
   src="$(find_output "$ROOT/$name")"
   cp "$src" "$DIST/$name.html"
   echo "  Collected $name.html"
 done
+
+# Resources (SPA + downloads folder — keeps relative links intact)
+cp "$ROOT/resources/_output/index.html" "$DIST/resources.html"
+if [ -d "$ROOT/resources/_output/downloads" ]; then
+  mkdir -p "$DIST/downloads"
+  cp "$ROOT/resources/_output/downloads/"* "$DIST/downloads/"
+  echo "  Collected resources.html + downloads/ ($(ls "$DIST/downloads/" | wc -l | tr -d ' ') files)"
+else
+  echo "  Collected resources.html"
+fi
 
 # Experience SPAs
 for exp_name in is-this-ai what-would-you-do rules-of-engagement ai-proof-assessments teaching-with-ai; do
