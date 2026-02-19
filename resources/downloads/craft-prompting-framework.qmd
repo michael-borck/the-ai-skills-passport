@@ -427,3 +427,8 @@ Then try your CRAFT prompt in an AI tool and see how the output improves.
 - **"The Art of the Prompt"** - Seven Techniques guide (for pedagogical prompts)
 - **"Prompt Chaining Techniques"** - Multi-step workflows and reasoning
 - **Seven Essential Prompt Techniques for Business Teaching** - Deep dive into discipline-specific prompts
+
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*

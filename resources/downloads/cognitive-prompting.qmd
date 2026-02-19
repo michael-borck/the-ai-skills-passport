@@ -31,3 +31,8 @@ Cognitive prompting represents a fundamental shift in how educators approach AI 
 **Analogy:** The evolution of cognitive prompting is like the development of aviation. Early pilots (basic AI users) could handle simple flights in good weather. Modern pilots (advanced prompters) must understand complex systems, weather patterns, and emergency procedures (sophisticated prompting strategies) to navigate challenging conditions safely. However, no matter how advanced the autopilot becomes, passengers still need human pilots for judgement, empathy, and critical decision-making during turbulence.
 
 > **Wisdom in a Nutshell:** "Prompting isn't about getting better AI responses—it's about thinking more intentionally about our goals, methods, and how we design learning for students." This mindset shift transforms AI from a tool into a catalyst for pedagogical innovation.
+
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*

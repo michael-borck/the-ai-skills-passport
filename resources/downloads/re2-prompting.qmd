@@ -222,3 +222,8 @@ It's the simplest prompting improvement you can make, and it costs almost nothin
 
 - Xu et al. (2024). "Re-Reading Improves Reasoning in Large Language Models." *ACL EMNLP*.
 - The technique pairs well with the **CRAFT Prompting Framework** (for structuring your initial prompt) and **Chain of Thought** (for improving reasoning in the output).
+
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*

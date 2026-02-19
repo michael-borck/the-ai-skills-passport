@@ -19,6 +19,13 @@ format:
     <p style="font-size: 15px; color: #94A3B8; margin: 0; line-height: 1.5;">Quick reference for frameworks, techniques, templates, and guides. Search or filter to find what you need.</p>
   </div>
 
+  <!-- Framing Note -->
+  <div style="background: #1E1B4B; border: 1px solid #3730A3; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+    <p style="font-size: 14px; color: #C7D2FE; margin: 0; line-height: 1.6;">
+      <strong style="color: #A5B4FC;">A note on these resources:</strong> These reflect one practitioner's perspective, informed by research, experience, and ongoing experimentation. They're starting points — baselines to work from as you discover your own approach to AI. Where references exist, they're cited; where they don't yet, treat these as discussion starters. Challenge them, adapt them, improve them.
+    </p>
+  </div>
+
   <!-- Search and Filters -->
   <div style="margin-bottom: 24px;">
     <div style="position: relative; margin-bottom: 16px;">

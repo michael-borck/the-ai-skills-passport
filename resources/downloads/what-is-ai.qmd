@@ -397,3 +397,8 @@ AI isn't "set it and forget it." The world changes, and AI needs to adapt.
 4. **AI needs good data, clear goals, and human oversight** - it's not magic, it's math
 
 5. **Most value comes from simple, well-scoped applications** - you don't need cutting-edge AI to get 80% of the benefits
+
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
