@@ -3,80 +3,63 @@
 <!-- Replace [SERVER_URL] with your progress tracker URL (e.g. http://10.x.x.x:5050) -->
 <!-- Replace [ARCHIVE_URL] with the past challenges archive page URL -->
 
-<div style="font-family: Georgia, serif;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: -8px; padding: 0; background: #1A1A2E;">
 
-<!-- Compact Header Bar -->
-<div style="background: linear-gradient(135deg, #4F46E5, #7C3AED); padding: 14px 20px; margin-bottom: 14px;">
-<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-<td style="font-size: 20px; width: 32px;">⚡</td>
-<td>
-<span style="font-size: 18px; font-weight: bold; color: white; letter-spacing: 2px;">AI in 5</span>
-<span style="font-size: 13px; color: rgba(255,255,255,0.85); margin-left: 12px;">One challenge. Five minutes. Every week.</span>
-</td>
-</tr></table>
-</div>
+<!-- ===== HERO SECTION ===== -->
+<div style="background: #1A1A2E; padding: 40px 36px 36px; position: relative; overflow: hidden;">
 
-<!-- Subscribe Form -->
-<div id="ai5-form" style="background: white; border: 2px solid #E2E8F0; padding: 16px 20px; text-align: center; margin-bottom: 14px;">
-<div style="font-size: 1rem; font-weight: bold; color: #1E293B; margin-bottom: 4px;">Get weekly AI micro-challenges in your inbox</div>
-<div style="font-size: 0.85rem; color: #64748B; margin-bottom: 10px;">No prep needed — just open, try, and learn something new in about five minutes.</div>
-<div style="margin-bottom: 10px;">
-<input type="email" id="ai5-email" placeholder="your.name@curtin.edu.au" style="width: 80%; max-width: 400px; padding: 10px 14px; border: 2px solid #E2E8F0; border-radius: 6px; font-family: inherit; font-size: 1rem; box-sizing: border-box;">
-</div>
-<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-<button onclick="ai5Subscribe()" id="ai5-sub-btn" style="padding: 10px 24px; background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; border-radius: 6px; font-size: 1rem; font-weight: bold; cursor: pointer; font-family: inherit;">Subscribe</button>
-<button onclick="ai5Unsubscribe()" style="padding: 10px 24px; background: white; color: #64748B; border: 2px solid #E2E8F0; border-radius: 6px; font-size: 1rem; cursor: pointer; font-family: inherit;">Unsubscribe</button>
-</div>
-<div id="ai5-msg" style="margin-top: 10px; font-size: 0.95rem; display: none;"></div>
+<!-- Bold headline — left-aligned, multi-line, colour variation -->
+<div style="margin-bottom: 6px;">
+<div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px;">Stay curious.</div>
+<div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px;">Try something new.</div>
+<div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #FBBF24; letter-spacing: -0.5px;">Five minutes.</div>
 </div>
 
-<!-- Challenge Types -->
-<details style="margin-bottom: 10px;">
-<summary style="font-size: 0.85rem; font-weight: bold; color: #475569; cursor: pointer; padding: 4px 0; list-style: none;">&#9656; What kinds of challenges?</summary>
-<table width="100%" cellpadding="0" cellspacing="4" border="0" style="margin-top: 8px;">
-<tr>
-<td width="20%" style="background: #EEF2FF; padding: 8px 4px; text-align: center;">
-<div style="font-size: 1.1rem;">🔧</div>
-<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Try a Tool</div>
-</td>
-<td width="20%" style="background: #FFF7ED; padding: 8px 4px; text-align: center;">
-<div style="font-size: 1.1rem;">💬</div>
-<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Try a Technique</div>
-</td>
-<td width="20%" style="background: #FDF2F8; padding: 8px 4px; text-align: center;">
-<div style="font-size: 1.1rem;">⚖️</div>
-<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Quick Dilemma</div>
-</td>
-<td width="20%" style="background: #F0FDF4; padding: 8px 4px; text-align: center;">
-<div style="font-size: 1.1rem;">🛠️</div>
-<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Real Task</div>
-</td>
-<td width="20%" style="background: #FFFBEB; padding: 8px 4px; text-align: center;">
-<div style="font-size: 1.1rem;">💭</div>
-<div style="font-size: 0.8rem; color: #1E293B; font-weight: bold;">Reflect</div>
-</td>
-</tr>
-</table>
-</details>
-
-<!-- Past Challenges -->
-<details style="margin-bottom: 10px;">
-<summary style="font-size: 0.85rem; font-weight: bold; color: #475569; cursor: pointer; padding: 4px 0; list-style: none;">&#9656; Past challenges</summary>
-<div style="padding: 10px 0 4px; margin-top: 8px;">
-<div style="font-size: 0.85rem; color: #64748B; margin-bottom: 10px;">Missed one? Browse the full archive of past micro-challenges.</div>
-<a href="[ARCHIVE_URL]" target="_blank" style="display: inline-block; padding: 8px 20px; background: #F1F5F9; border: 1px solid #E2E8F0; border-radius: 6px; font-size: 0.85rem; font-weight: bold; color: #334155; text-decoration: none;">View Archive</a>
+<!-- Tagline -->
+<div style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin-top: 16px; max-width: 520px;">
+Weekly AI micro-challenges delivered to your inbox. No prep needed — just open, try, and learn something new.
 </div>
-</details>
 
-<!-- Sample Challenge -->
-<details style="margin-bottom: 10px;">
-<summary style="font-size: 0.85rem; font-weight: bold; color: #475569; cursor: pointer; padding: 4px 0; list-style: none;">&#9656; Show me a sample challenge</summary>
-<div style="background: #1E293B; color: white; padding: 12px 16px; margin-top: 8px;">
-<div style="font-size: 0.7rem; color: #94A3B8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">Try a Technique</div>
-<div style="font-size: 0.9rem; line-height: 1.5; color: #E2E8F0;">"Write a prompt asking AI to summarise something from your field. What did it get right? What did it miss?"</div>
-<div style="margin-top: 6px; font-size: 0.8rem; color: #94A3B8;">⏱️ ~5 minutes</div>
+<!-- Subscribe form — inline, left-aligned -->
+<div style="margin-top: 24px; display: flex; gap: 0; flex-wrap: wrap; max-width: 520px;">
+<input type="email" id="ai5-email" placeholder="your.name@curtin.edu.au"
+  style="flex: 1; min-width: 220px; padding: 12px 16px; background: #16162A; border: 2px solid #2D2D4A; border-right: none; border-radius: 8px 0 0 8px; font-family: inherit; font-size: 1rem; color: #E2E8F0; box-sizing: border-box; outline: none;">
+<button onclick="ai5Subscribe()" id="ai5-sub-btn"
+  style="padding: 12px 28px; background: #6366F1; color: white; border: 2px solid #6366F1; border-radius: 0 8px 8px 0; font-size: 1rem; font-weight: 700; cursor: pointer; font-family: inherit; white-space: nowrap;">Subscribe</button>
 </div>
-</details>
+
+<!-- Status message -->
+<div id="ai5-msg" style="margin-top: 10px; font-size: 0.9rem; display: none;"></div>
+
+<!-- Unsubscribe as subtle link -->
+<div style="margin-top: 10px;">
+<a href="javascript:void(0)" onclick="ai5Unsubscribe()" style="font-size: 0.8rem; color: #64748B; text-decoration: underline; cursor: pointer;">Unsubscribe from challenges</a>
+</div>
+
+<!-- Decorative icons — right side -->
+<div style="position: absolute; right: 30px; bottom: 28px; text-align: right; opacity: 0.15;">
+<div style="font-size: 4rem; line-height: 1;">⚡</div>
+</div>
+
+</div>
+
+<!-- ===== SECONDARY SECTION ===== -->
+<div style="background: #1A1A2E; padding: 20px 36px 36px; border-top: 1px solid #2D2D4A;">
+
+<!-- Sample challenge — a dilemma to hook curiosity -->
+<div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 24px; margin-bottom: 16px;">
+<div style="font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px;">⚖️ Sample Challenge — Quick Dilemma</div>
+<div style="font-size: 1.1rem; font-weight: 700; line-height: 1.5; color: #F8FAFC; margin-bottom: 8px;">Your colleague uses AI to write all their student feedback. The comments are detailed, personalised, and helpful — better than what most staff write manually.</div>
+<div style="font-size: 0.95rem; line-height: 1.6; color: #94A3B8;">Is this good practice or a shortcut? Does it matter if students can't tell? Where's the line between using AI as a tool and outsourcing your role?</div>
+<div style="margin-top: 12px; font-size: 0.8rem; color: #64748B;">⏱️ ~5 minutes &nbsp;&bull;&nbsp; No right answer — just your thinking</div>
+</div>
+
+<!-- Past challenges link -->
+<div style="text-align: left;">
+<a href="[ARCHIVE_URL]" target="_blank" style="font-size: 0.85rem; font-weight: 600; color: #818CF8; text-decoration: none;">Browse past challenges →</a>
+</div>
+
+</div>
 
 </div>
 
@@ -94,7 +77,7 @@
   function getEmail() {
     var email = document.getElementById('ai5-email').value.trim().toLowerCase();
     if (!email || email.indexOf('@') === -1) {
-      showMsg('Please enter a valid email address.', '#DC2626');
+      showMsg('Please enter a valid email address.', '#F87171');
       return null;
     }
     return email;
@@ -113,12 +96,12 @@
     })
     .then(function(r) { return r.json(); })
     .then(function() {
-      showMsg('You\'re in! Watch your inbox for daily challenges.', '#16A34A');
+      showMsg('You\'re in! Watch your inbox for weekly challenges.', '#4ADE80');
       btn.textContent = 'Subscribe';
       btn.disabled = false;
     })
     .catch(function() {
-      showMsg('Could not connect to server. Are you on the Curtin network or VPN?', '#DC2626');
+      showMsg('Could not connect to server. Are you on the Curtin network or VPN?', '#F87171');
       btn.textContent = 'Subscribe';
       btn.disabled = false;
     });
@@ -134,10 +117,10 @@
     })
     .then(function(r) { return r.json(); })
     .then(function() {
-      showMsg('You\'ve been unsubscribed. You can rejoin any time.', '#64748B');
+      showMsg('You\'ve been unsubscribed. You can rejoin any time.', '#94A3B8');
     })
     .catch(function() {
-      showMsg('Could not connect to server. Are you on the Curtin network or VPN?', '#DC2626');
+      showMsg('Could not connect to server. Are you on the Curtin network or VPN?', '#F87171');
     });
   };
 })();
