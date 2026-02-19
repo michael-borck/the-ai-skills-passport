@@ -114,7 +114,12 @@ format:
         </div>
 
         <p style="margin-top: 20px;"><a href="https://michael-borck.github.io/conversation-not-delegation/" target="_blank" style="color: #4F46E5; font-weight: bold;">📖 Read the full book →</a></p>
-      `
+      `,
+      downloads: {
+        html: 'downloads/conversation-not-delegation.html',
+        docx: 'downloads/conversation-not-delegation.docx',
+        pdf: 'downloads/conversation-not-delegation.pdf'
+      }
     },
     {
       id: 'rtcf',
@@ -632,7 +637,12 @@ Now write feedback in my style for:
           <strong>The Bottom Line:</strong><br>
           The question isn't "will AI replace human judgement?" It's "how do we ensure human judgement scales alongside AI capability?"
         </div>
-      `
+      `,
+      downloads: {
+        html: 'downloads/agentic-ai.html',
+        docx: 'downloads/agentic-ai.docx',
+        pdf: 'downloads/agentic-ai.pdf'
+      }
     },
     {
       id: 'ai-shame-guide',

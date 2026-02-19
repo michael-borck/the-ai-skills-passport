@@ -1,0 +1,291 @@
+---
+title: "Agentic AI: Understanding Autonomous Systems and Human Oversight"
+---
+
+## What is Agentic AI?
+
+Most AI tools today are **reactive** — you give them a prompt, they give you a response. You stay in control of every step.
+
+**Agentic AI is different.** These systems can:
+
+- Pursue goals across multiple steps
+- Make decisions about what to do next
+- Use tools (browse the web, write files, call APIs, send messages)
+- Adapt their approach when something doesn't work
+- Operate with minimal human intervention
+
+Instead of responding to a single prompt, an AI agent takes a goal and figures out how to accomplish it — choosing its own sequence of actions, evaluating results, and adjusting along the way.
+
+### Examples of Agentic Behaviour
+
+| Reactive AI | Agentic AI |
+|---|---|
+| "Summarise this document" | "Research this topic, find relevant sources, synthesise findings, and draft a report" |
+| "Fix this error in my code" | "Review the entire codebase, identify bugs, fix them, run tests, and report what changed" |
+| "Draft a reply to this email" | "Monitor my inbox, draft replies based on context, flag anything that needs my attention" |
+| "Analyse this spreadsheet" | "Connect to the database, pull the relevant data, run analysis, generate visualisations, and email the report to stakeholders" |
+
+The shift is from **single-turn interactions** to **multi-step autonomous workflows**.
+
+---
+
+## The Agentic AI Paradox
+
+Here's the irony:
+
+> **The more autonomous these systems become, the more critical human judgement gets — not less.**
+
+This feels counterintuitive. If AI can do more on its own, shouldn't humans be less involved? But the opposite is true, because the *nature* of human involvement changes.
+
+### The Role Shift
+
+Roles shift from **doing the work** to:
+
+- **Defining what "good" looks like** — AI can optimise, but humans must define the goal worth optimising for
+- **Setting constraints** — What should AI never do? What boundaries matter? What are the ethical limits?
+- **Knowing when to override** — Recognising when AI confidence exceeds AI competence
+
+This is a higher-order skill set. It requires deeper understanding, not less.
+
+### Delegation vs Amplification
+
+| Approach | What It Looks Like | Result |
+|---|---|---|
+| **Delegation** | Let AI run autonomously, check outputs occasionally | Confident, unsupervised mediocrity at scale |
+| **Amplification** | Strong human-in-the-loop governance, clear constraints, thoughtful oversight | Dramatic outperformance |
+
+The businesses and institutions that treat agentic AI as delegation will get polished-looking output that nobody has properly evaluated. The ones that treat it as amplification — with clear human oversight at the right level — will outperform dramatically.
+
+---
+
+## Where Human Judgement Operates
+
+Even in fully automated systems, human judgement doesn't disappear — it moves up the stack.
+
+Consider software development: there are already teams where no human writes the code and no human reviews individual lines of code. But humans are still essential. They're assessing at a higher level:
+
+- What features should the product have?
+- Does the user experience make sense?
+- Does this align with our vision?
+- Is this solving the right problem?
+
+The same pattern applies across every domain:
+
+| Domain | Lower-Level (Automatable) | Higher-Level (Human Judgement) |
+|---|---|---|
+| **Teaching** | Generating quiz questions, formatting materials | Deciding what students need to learn and why |
+| **Research** | Literature search, data cleaning | Choosing the right methodology, interpreting findings |
+| **Administration** | Drafting emails, scheduling, data entry | Setting policy priorities, resolving exceptions |
+| **Marketing** | Generating ad copy, A/B test variants | Brand strategy, understanding audience values |
+| **Management** | Reporting, process documentation | Organisational culture, ethical leadership |
+
+**The work doesn't disappear. It transforms.** And the humans who understand this transformation — who can operate effectively at the higher level — become more valuable, not less.
+
+---
+
+## Understanding AI Agents
+
+### How Agents Work
+
+An AI agent typically has:
+
+1. **A goal or objective** — What it's trying to accomplish
+2. **A set of tools** — Actions it can take (search, write, calculate, send, etc.)
+3. **A planning capability** — How it decides what to do next
+4. **A memory or context** — What it knows about what's happened so far
+5. **An evaluation loop** — How it assesses whether it's making progress
+
+The agent runs in a cycle: **plan → act → observe → evaluate → plan again**. This continues until the goal is achieved, a limit is reached, or the agent determines it needs human input.
+
+### Types of Agents
+
+**Simple Agents** complete a defined task with a fixed set of tools. They follow a relatively predictable path.
+
+> Example: An agent that takes a meeting transcript, extracts action items, creates tasks in a project management tool, and sends summary emails to attendees.
+
+**Complex Agents** handle open-ended goals with flexible tool use and multi-step reasoning.
+
+> Example: An agent that monitors student feedback across multiple channels, identifies emerging patterns, drafts response strategies, and recommends policy changes.
+
+**Multi-Agent Systems** involve multiple specialised agents that collaborate, each handling a different aspect of a workflow.
+
+> Example: One agent handles data collection, another handles analysis, a third handles report generation, and an orchestrator agent coordinates the workflow.
+
+---
+
+## Agentic Workflows in Practice
+
+You don't need to build agents from scratch to benefit from agentic workflows. Several platforms make it possible to create automated, multi-step AI workflows with minimal or no coding.
+
+### Microsoft Power Automate
+
+Power Automate is Microsoft's workflow automation platform, integrated with the Microsoft 365 ecosystem.
+
+- **What it does:** Connects Microsoft apps (Outlook, Teams, SharePoint, Excel) with hundreds of other services through automated workflows ("flows")
+- **AI integration:** Copilot in Power Automate can help build flows from natural language descriptions; AI Builder adds document processing, text classification, and other AI capabilities
+- **Typical uses:**
+  - Automatically process form submissions and route to the right team
+  - Extract data from invoices or receipts and enter into spreadsheets
+  - Send notifications when specific conditions are met
+  - Create approval workflows for documents or requests
+- **Good for:** Organisations already in the Microsoft ecosystem; structured, repeatable processes; workflows that connect multiple Microsoft tools
+- **Limitations:** Best within Microsoft's ecosystem; complex logic can be fiddly; enterprise licensing required for advanced features
+
+### n8n
+
+n8n (pronounced "n-eight-n") is an open-source workflow automation platform with a visual, node-based editor.
+
+- **What it does:** Connects hundreds of apps and services through visual workflows; supports custom code nodes for complex logic
+- **AI integration:** Native nodes for OpenAI, Anthropic (Claude), and other AI providers; can build sophisticated AI agent workflows with tool use, branching logic, and human-in-the-loop steps
+- **Typical uses:**
+  - Build custom AI chatbots with access to your organisation's documents
+  - Create content pipelines (draft → review → publish)
+  - Automate data processing with AI-powered classification and extraction
+  - Monitor sources and trigger actions based on AI analysis
+- **Good for:** Technical users who want flexibility; self-hosted for data privacy; prototyping and experimentation; workflows that span many different services
+- **Limitations:** Requires some technical comfort; self-hosting needs infrastructure; steeper learning curve than Power Automate for simple flows
+
+### Other Platforms Worth Knowing
+
+- **Zapier** — Similar to Power Automate but platform-agnostic; good for connecting diverse services; AI features emerging
+- **Make (formerly Integromat)** — Visual workflow builder with strong data transformation capabilities
+- **LangChain / CrewAI** — Developer frameworks for building custom AI agents in Python (requires programming)
+
+### The Key Insight
+
+These tools share a common pattern: they let you define **what** should happen and **when**, while AI handles **how**. But they all benefit from — and increasingly require — human oversight of the overall workflow design, the quality of outputs, and the handling of edge cases.
+
+---
+
+## The Human-in-the-Loop
+
+"Human-in-the-loop" is the design principle that keeps humans involved at critical decision points in automated systems.
+
+### Where to Put the Human
+
+Not every step needs human review. The art is knowing where human judgement adds the most value:
+
+**Always involve humans for:**
+
+- Decisions with significant consequences (hiring, grading, policy changes)
+- Situations involving ethical judgement or competing values
+- Novel situations the system hasn't encountered before
+- Anything that goes out under a person's name or institutional authority
+
+**Consider automating:**
+
+- Routine, well-defined tasks with clear success criteria
+- Data transformation and formatting
+- Initial drafts and first passes that will be reviewed
+- Notifications and routing
+
+**The checkpoint model:**
+
+```
+[AI does initial work] → [Human reviews at checkpoint] → [AI continues] → [Human approves final output]
+```
+
+This gives you the speed of automation with the quality assurance of human oversight. The human doesn't need to do the work — they need to evaluate it.
+
+---
+
+## Governance for Agentic AI
+
+As AI agents become more capable, governance becomes essential. This isn't bureaucracy — it's the difference between useful automation and uncontrolled chaos.
+
+### Key Governance Questions
+
+1. **Scope:** What is this agent allowed to do? What is it explicitly *not* allowed to do?
+2. **Authority:** What decisions can the agent make autonomously? What requires human approval?
+3. **Transparency:** Can we see what the agent did and why? Is there an audit trail?
+4. **Accountability:** When something goes wrong, who is responsible?
+5. **Quality:** How do we measure whether the agent is doing a good job?
+6. **Data:** What data does the agent access? Is that appropriate? Is it secure?
+
+### A Simple Governance Framework
+
+For any agentic workflow, define:
+
+| Element | Question | Example |
+|---|---|---|
+| **Purpose** | What is this agent for? | "Process student extension requests" |
+| **Boundaries** | What can't it do? | "Cannot approve extensions > 7 days" |
+| **Checkpoints** | Where does a human review? | "Before sending any denial" |
+| **Escalation** | When does it hand off to a human? | "Compassionate grounds, repeat requests" |
+| **Monitoring** | How do we know it's working well? | "Weekly review of decisions and outcomes" |
+| **Review cycle** | When do we reassess? | "Monthly for first semester, then quarterly" |
+
+---
+
+## What This Means for Different Roles
+
+### For Teaching Academics
+
+- **Understanding agents** helps you prepare students for workplaces where agentic AI is standard
+- **Assessment design** needs to account for what agents can do (not just chatbots)
+- **Teach the governance mindset** — students who understand oversight and constraints will be more valuable than those who just know how to use tools
+- **Model the amplification approach** — show students how you evaluate and constrain AI, not just how you prompt it
+
+### For Researchers
+
+- **Research workflows** are increasingly agentic — literature review tools, data pipelines, and analysis frameworks are all moving toward autonomous operation
+- **Methodology** must account for agentic AI — how do you validate results from a multi-step automated pipeline?
+- **Reproducibility** depends on understanding what agents did and why
+- **Research ethics** needs to evolve to address autonomous data collection and analysis
+
+### For Professional Staff
+
+- **Workflow automation** is where agentic AI delivers the most immediate value — processes that involve multiple systems, approvals, and handoffs
+- **Governance is your superpower** — understanding how to set appropriate boundaries and oversight makes you essential
+- **Change management** skills matter — helping colleagues adapt to agentic workflows is a critical role
+- **Institutional knowledge** becomes more valuable, not less — agents need human context about exceptions, precedents, and institutional culture
+
+---
+
+## Common Misconceptions
+
+### "Agentic AI means fully autonomous AI"
+
+Not necessarily. Most practical agentic systems are **semi-autonomous** — they handle routine steps independently but involve humans at key decision points. Full autonomy is rare and usually undesirable for consequential work.
+
+### "This replaces the need for human expertise"
+
+The opposite. Agentic AI makes expertise *more* important because you need to evaluate at a higher level. It's easier to check a single AI response than to assess whether a ten-step automated workflow produced the right outcome.
+
+### "We need to build our own agents"
+
+Most people won't build agents from scratch. They'll use platforms like Power Automate, n8n, or purpose-built tools. Understanding how agents work helps you use these platforms effectively — and critically.
+
+### "This is only relevant for technical roles"
+
+Agentic AI affects every role. If your work involves processes, decisions, and workflows — and whose doesn't? — then agentic AI is relevant to you. The question isn't whether you'll encounter it, but whether you'll understand it well enough to shape how it's used.
+
+---
+
+## Getting Started
+
+1. **Understand the concept.** You've done this by reading this guide. The key idea: as AI becomes more autonomous, human judgement at the strategic level becomes more important.
+
+2. **Identify your workflows.** Which of your recurring processes involve multiple steps, multiple tools, or multiple handoffs? These are candidates for agentic automation.
+
+3. **Start with observation.** Before automating anything, map out what happens at each step. Where are the decisions? Where are the quality checks? Where do things go wrong?
+
+4. **Experiment with a platform.** If you're in the Microsoft ecosystem, try Power Automate. If you want more flexibility, explore n8n. Start with a simple, low-stakes workflow.
+
+5. **Design for oversight.** When you build any automated workflow, ask: "Where does a human need to review? What should trigger an escalation? How will I know if this is working well?"
+
+6. **Stay informed.** Agentic AI is evolving rapidly. The principles in this guide — human oversight, governance, amplification over delegation — will remain relevant even as the technology changes.
+
+---
+
+## The Bottom Line
+
+Agentic AI is not about replacing humans with autonomous systems. It's about changing *what* humans do — from executing tasks to governing systems, from doing the work to defining what good work looks like.
+
+The paradox holds: the more capable AI becomes, the more we need people who can think clearly about goals, constraints, ethics, and quality. Those skills have always mattered. With agentic AI, they matter more than ever.
+
+> **Delegate, and you get confident mediocrity at scale.**
+>
+> **Amplify with strong human oversight, and you outperform dramatically.**
+
+The choice — as always — is yours.

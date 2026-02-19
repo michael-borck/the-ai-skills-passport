@@ -1,0 +1,236 @@
+---
+title: "Conversation, Not Delegation"
+---
+
+## The Core Idea
+
+There are two ways to use AI:
+
+1. **Delegation** — "Do this for me."
+2. **Conversation** — "Think with me."
+
+The difference matters more than most people realise.
+
+**Delegation develops dependency.** You get output, but not understanding. You collect answers without building the capacity to evaluate them. Over time, you become less capable, not more — because you've outsourced the thinking, not just the typing.
+
+**Conversation makes you capable.** You build understanding *along with* the output. You learn to ask better questions, spot weaknesses in reasoning, and develop judgement about what's good enough and what needs more work.
+
+The goal isn't to get AI to do your work. It's to become more capable yourself, with AI as your thinking partner.
+
+---
+
+## The Key Mindset Shift
+
+| Delegation Mindset | Conversation Mindset |
+|---|---|
+| "How do I get AI to do this *for* me?" | "How do I use AI to think better *with* me?" |
+| Focuses on the output | Focuses on the process |
+| Accepts first answer | Iterates and refines |
+| Measures success by speed | Measures success by understanding |
+| Builds dependency | Builds capability |
+
+Most people start with the delegation mindset. It's natural — AI is fast, and getting a quick answer feels productive. But the people who get the most value from AI are those who treat it as a conversation partner, not an assistant.
+
+---
+
+## What Conversation Looks Like in Practice
+
+### Brainstorm with AI
+
+Don't ask AI for *the* answer. Ask it to help you explore the space.
+
+> "I'm designing an assessment for second-year marketing students on consumer behaviour. What are some approaches I haven't considered? Push me beyond the obvious."
+
+Then push back:
+
+> "Those are interesting, but my students struggle with [specific issue]. How would you adjust?"
+
+### Iterate with AI
+
+First output is a draft, not a deliverable. The value is in the refinement.
+
+> "Here's my first attempt at [document/plan/policy]. What's weak about it? What am I missing? Where would a thoughtful critic push back?"
+
+Then:
+
+> "Good points. Let me revise based on your feedback. Here's version 2 — what's better and what still needs work?"
+
+### Question AI's Output
+
+AI sounds confident even when it's wrong. Your job is to evaluate, not just accept.
+
+- "What assumptions are you making here?"
+- "What evidence supports this claim?"
+- "What would someone who disagrees say?"
+- "Are there contexts where this advice would be wrong?"
+
+### Evaluate Together
+
+Use AI to help you develop your own evaluation criteria, then apply your judgement to the result.
+
+> "Help me create a checklist for evaluating whether this [policy/assessment/plan] is fit for purpose. Then let's use that checklist to evaluate the draft together."
+
+---
+
+## Process Over Product
+
+Here's the deeper principle:
+
+**Those who obsess over the process — questioning, evaluating, iterating — will always outperform those who just collect AI outputs.**
+
+Why? Because judgement can't be delegated to something that's read everything but experienced nothing.
+
+AI has patterns. You have context. AI has breadth. You have stakes. AI can generate options. You decide which options matter.
+
+The people who treat AI as a shortcut to the product miss this entirely. They get faster output but shallower understanding. Over time, they lose the very skills that make them valuable — critical thinking, contextual judgement, the ability to evaluate quality.
+
+The people who treat AI as a thinking partner get both: better output *and* deeper understanding. They're learning to value **process literacy over output chasing**.
+
+---
+
+## What Process Literacy Looks Like
+
+Process literacy means knowing *how to work with AI effectively*, not just *what to ask for*. It includes:
+
+### 1. Knowing When to Use AI (and When Not To)
+
+Not every task benefits from AI. Process-literate people ask:
+
+- Is this a task where AI adds genuine value, or am I just being lazy?
+- Will using AI here help me learn, or prevent me from learning?
+- Do I understand this well enough to evaluate what AI gives me?
+
+### 2. Structuring the Conversation
+
+Effective AI conversations have shape. They're not random queries — they build on each other:
+
+1. **Set the context** — Give AI what it needs to be useful
+2. **Explore the space** — Generate options, perspectives, and approaches
+3. **Evaluate and refine** — Challenge, improve, and iterate
+4. **Synthesise** — Pull together the best elements with your own judgement
+
+### 3. Maintaining Ownership
+
+The output has your name on it. Process-literate people:
+
+- Can explain every part of what they submit
+- Can defend their decisions without referring to "AI said..."
+- Have improved the AI's output with their own expertise and context
+- Know where the AI contributed and where they did
+
+### 4. Reflecting on the Process
+
+After using AI, ask yourself:
+
+- What did I learn from this conversation?
+- Where did AI help me think better?
+- Where did I have to correct or improve on AI's suggestions?
+- What would I do differently next time?
+
+---
+
+## The Intern Analogy
+
+Think of AI as a smart, enthusiastic intern who:
+
+- Works incredibly fast
+- Has read an enormous amount
+- Sounds confident even when wrong
+- Lacks real-world experience
+- Needs your expertise to do good work
+- Gets better with clear direction and feedback
+
+You wouldn't hand an intern a critical project and walk away. You'd:
+
+- Brief them clearly
+- Review their work
+- Ask them to explain their reasoning
+- Point out what they missed
+- Have them revise
+
+That's a conversation, not delegation. Apply the same approach to AI.
+
+---
+
+## Common Traps
+
+### The Speed Trap
+
+"AI gave me an answer in 10 seconds — why would I spend 30 minutes iterating?"
+
+Because the 10-second answer is generic. The 30-minute conversation produces something that fits your context, has been stress-tested, and that you actually understand. Speed without understanding is just faster mediocrity.
+
+### The Confidence Trap
+
+AI writes with authority regardless of accuracy. When output *looks* polished and professional, it's tempting to trust it. But polish isn't the same as quality. Always ask: "Would I stake my reputation on this?"
+
+### The Replacement Trap
+
+"AI can do this better than me, so why bother learning?"
+
+Because "better" depends on context, and context is exactly what AI lacks. AI generates plausible text. You generate meaning. If you stop developing your own expertise, you lose the ability to tell the difference.
+
+### The Efficiency Trap
+
+"I'm being more productive by delegating to AI."
+
+Are you? Or are you producing more stuff of lower quality? Productivity isn't about volume — it's about impact. One well-crafted document beats ten AI-generated ones that nobody reads.
+
+---
+
+## Applying This in Your Work
+
+### For Teaching
+
+- Use AI to brainstorm assessment ideas, then refine with your pedagogical expertise
+- Have AI generate examples, then evaluate them with your knowledge of your students
+- Use AI to stress-test your rubrics, then apply your judgement about what matters
+- Model this process for students — show them *how* you work with AI, not just *what* AI produces
+
+### For Research
+
+- Use AI to explore literature and identify patterns, then apply your methodological judgement
+- Have AI help structure arguments, then strengthen them with your domain expertise
+- Use AI to identify weaknesses in your reasoning, then decide which weaknesses matter
+- Treat AI as a sounding board for ideas, not a source of ideas
+
+### For Professional Staff
+
+- Use AI to draft communications, then refine with your knowledge of the audience
+- Have AI help analyse processes, then apply your understanding of institutional context
+- Use AI to generate options for solving problems, then evaluate with your experience
+- Use AI to translate policies into plain language, then verify accuracy with your expertise
+
+---
+
+## Getting Started
+
+1. **Next time you use AI, pause before accepting the first output.** Ask: "What's weak about this? What am I missing?"
+
+2. **Try the brainstorm approach.** Instead of asking AI for an answer, ask it to help you explore the question from multiple angles.
+
+3. **Practice the evaluation habit.** After every AI interaction, ask yourself: "Do I understand this well enough to explain it without AI?"
+
+4. **Model the process.** If you work with students or colleagues, show them how you iterate with AI — not just the final output.
+
+---
+
+## Further Reading
+
+For a deeper exploration of the Conversation, Not Delegation methodology — including a structured six-step process and worked examples — see the full book:
+
+[Conversation, Not Delegation: Mastering Human-AI Development](https://michael-borck.github.io/conversation-not-delegation/)
+
+> The book has a programming focus, but the core principles apply to any domain. The methodology is about how you think with AI, not what you think about.
+
+---
+
+## The Bottom Line
+
+AI is the most powerful thinking tool most of us have ever had access to. But like any tool, its value depends on how you use it.
+
+**Delegate, and you get output.**
+
+**Converse, and you get capability.**
+
+The choice compounds over time. Every conversation builds your judgement. Every delegation erodes it. Choose accordingly.
