@@ -1,0 +1,213 @@
+---
+title: "AI-Integrated Assessment Rubric Suite: Getting Started"
+---
+
+> **Copyright Notice:** This document and all materials in this suite are authored by Michael Borck (AI Facilitator, School of Management and Marketing, Curtin University). They are provided for use within Curtin University. External distribution, reproduction, or use outside Curtin University requires explicit written permission.
+
+---
+
+## What You're Getting
+
+This rubric suite is designed to help academic staff integrate AI into assessment in ways that develop student **critical thinking**, **professional judgement**, and **ethical AI literacy**—not just faster tool use.
+
+Three complementary documents:
+
+1. **AI_Integrated_Assessment_Rubric_Template.md** — Generic framework adaptable to any AI-supported assessment
+2. **AI_Audit_CloudCore_Specific_Rubric.md** — Specific example: information security audit with AI chatbots
+3. **Adaptation_Guide_For_Different_AI_Tools.md** — How to customise for different AI modalities (LLMs, RAG, code assistants, etc.)
+
+---
+
+## Who Should Use This?
+
+- **Academic staff** designing assessments that incorporate AI tools
+- **Learning designers** building units with AI components
+- **Professional practice** educators wanting authentic AI engagement
+- **Any discipline** where AI can support (not replace) student learning
+
+**Minimum context needed:** You understand your own unit's learning outcomes and can identify which AI tools students will use.
+
+---
+
+## The Philosophy Behind These Rubrics
+
+- **Critical thinking matters more than tool efficiency**
+  - Students should learn to evaluate AI outputs, not just generate them quickly
+
+- **Transparency is an integrity measure, not a compliance burden**
+  - Documenting AI use (and reflection on it) is a valued skill
+
+- **AI as "junior intern" is the right metaphor**
+  - Students are responsible for all outputs; AI is a tool they must manage
+
+- **Process matters as much as product**
+  - How students gather information, evaluate it, and refine their thinking is assessable
+
+- **Discipline-specific context is essential**
+  - One rubric doesn't fit all; customisation is built-in
+
+---
+
+## How to Get Started (3 Steps)
+
+### Step 1: Identify Your AI Modality
+What will students actually use?
+- AI chatbot simulations (role-playing employees/agents)
+- LLM as research/writing tool (ChatGPT, Claude, etc.)
+- Data analysis or RAG systems
+- Code assistants (Copilot, ChatGPT for coding)
+- Creative AI (image gen, video tools)
+- Something else?
+
+### Step 2: Start with the Template
+**Use:** `AI_Integrated_Assessment_Rubric_Template.md`
+
+This is intentionally generic—five criteria, simple 4-level scoring. Works as-is for most contexts, but expect to customise.
+
+### Step 3: Customise
+**Use:** `Adaptation_Guide_For_Different_AI_Tools.md`
+
+Find your AI modality, see the customisation guidance, adjust weights/descriptors. The guide includes examples for each.
+
+**Optional:** Look at the CloudCore audit example to see how it's done in your discipline context.
+
+---
+
+## Key Design Decisions (Why These Choices?)
+
+### 4-Level Scoring (Not 5)
+**Why?** Simpler to apply consistently. Excellent/Good/Satisfactory/Developing maps to HD/D/C/P while being easier to describe and mark.
+
+### "Critical Engagement with AI" as Primary Criterion (30%)
+**Why?** This is the differentiator. Any tool can generate fast output; critical evaluation is the skill worth rewarding. This should be your unit's competitive advantage over generic assignment templates.
+
+### Reflection & Accountability Weighted (20%)
+**Why?** Reflection (especially honest reflection on what AI got wrong) is where students develop judgement. Accountability ensures integrity.
+
+### Discipline-Specific Integration (10%)
+**Why?** Keeps rubric grounded. Students should connect AI engagement to *your* field, not just use generic tools.
+
+---
+
+## Common Questions
+
+### "Can I use this across all my assessments?"
+**Partially.** The template works across disciplines, but each assessment needs a tailored version. Think of this as a **framework**, not a one-size-fits-all rubric.
+
+Different assessment types (exam, report, project, presentation) might weight criteria differently.
+
+### "What if students don't have access to specific AI tools?"
+**Good question.** This rubric works with any AI tool. The core skill—critical evaluation—is tool-agnostic. If students use Claude instead of ChatGPT, or different simulation software, the rubric still applies.
+
+Customise the language to match what they actually have access to.
+
+### "How do I know if my customisation is good?"
+**Test it:**
+1. Apply your version to 2-3 sample student submissions (real or imagined)
+2. Does it feel fair? Can you consistently score with it?
+3. Does it reward the behaviours you want?
+4. Share with colleagues—do they understand the criteria?
+
+### "What about academic integrity concerns?"
+**This rubric is built on integrity principles:**
+- Transparency is required, not penalized
+- Critical thinking about AI (including saying "this output was wrong") is valued
+- Accountability is explicit
+- Reflection exposes when students are genuinely engaging vs. just using shortcuts
+
+If you see undeclared AI use, the rubric criteria (especially Reflection) make it visible.
+
+---
+
+## Bringing This to Your Unit
+
+### Before You Assign
+1. Decide which rubric variant matches your assessment
+2. Customise for your context
+3. Share the rubric **before** students start work (not after)
+4. Walk through an "Excellent" example specific to your unit
+5. Clarify what "critical engagement with AI" means in *your* discipline
+
+### In Your Assessment Brief
+Include:
+- Which rubric criteria apply
+- What tools students will (and won't) have access to
+- Examples of good prompting/questioning
+- How reflection should be documented
+- Academic integrity expectations (with transparency as the core principle)
+
+### During Marking
+- Look for evidence in student transcripts/reflections: Can you see their thinking?
+- Note whether students validated AI outputs
+- Credit iterative refinement as highly as final product
+- If reflection is honest (including failures), that's excellent performance
+
+### After Marking
+- Calibrate with colleagues using this rubric
+- Share sample rubrics showing what Excellent/Good/Satisfactory looks like
+- Build a portfolio of marked examples for future years
+- Collect student feedback: Was the rubric clear? Did it help them understand expectations?
+
+---
+
+## Examples of Units This Could Work For
+
+- **Business/Management:** Competitive analysis, strategy reports, risk assessments
+- **Information Systems:** Audits, security assessments, system evaluations
+- **Computer Science:** Code projects with AI assistance, algorithm analysis, system design
+- **Data Science:** Data analysis reports, predictive modelling, research synthesis
+- **Law:** Legal research, case analysis, policy briefs
+- **Health:** Evidence synthesis, case formulation, professional writing
+- **Creative Disciplines:** Design projects, writing, media production
+- **Sciences:** Lab reports, research proposals, literature reviews
+
+**Pattern:** Anywhere students need to gather information, analyse it, synthesise findings, and communicate professionally.
+
+---
+
+## If You Need Help Customising
+
+**Key questions to ask yourself:**
+1. What AI tool(s) will students use?
+2. What would a professional in my field do with this AI tool?
+3. What judgement or critical thinking do I want to see?
+4. What's the biggest risk of students using AI passively? (Make sure rubric penalizes this)
+5. What matters most: process or product? (Adjust weights accordingly)
+
+**Then:**
+- Rename criteria to match actual activities
+- Adjust weights based on your priorities
+- Rewrite performance descriptors with discipline-specific examples
+- Test with sample submissions
+
+**If still stuck:** Reach out to your Learning Designer or Curriculum team.
+
+---
+
+## Flexibility by Design
+
+These rubrics are intentionally **not** pixel-perfect. They're designed to be adapted, questioned, and customised. You might:
+
+- Merge criteria (reducing from 5 to 4)
+- Rename everything (we call this "Critical Engagement"; you might say "Prompt Engineering")
+- Shift weights (maybe Communication matters more in your field)
+- Add discipline-specific criteria
+- Use different language to match your unit culture
+
+That's not "violating" the rubric—that's **using it correctly**. The framework is the value; the specific words are your choice.
+
+---
+
+## One Final Principle
+
+**The best rubric is one your students understand and believe is fair.**
+
+Before you finalise, ask yourself: *Would my students look at this and know exactly what I'm rewarding?*
+
+If the answer is yes, you're ready to use it.
+
+---
+
+**Questions or feedback?** Contact your learning design team or AI Facilitator.
+
+**Version:** 1.0 | **Date:** February 2026 | **Framework by:** Michael Borck, AI Facilitator, SoMM

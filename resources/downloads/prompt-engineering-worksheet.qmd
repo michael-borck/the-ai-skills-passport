@@ -1,0 +1,472 @@
+---
+title: "Prompt Engineering Worksheet"
+---
+
+## How This Worksheet Works
+
+You'll work through 6 workplace scenarios in three rounds:
+
+| Round | What You Do |
+|-------|-------------|
+| **Round 1: Baseline** | Pick 3 scenarios. Write a quick, natural prompt. Note the result. |
+| **Round 2: Apply RTCF/CRAFT** | Redo the same 3 scenarios using a structured framework. Compare. |
+| **Round 3: Advanced** | Try chain-of-thought, iterative refinement, or multi-turn techniques. |
+| **Debrief** | Reflect on what worked. Save your best prompts. |
+
+**Choose any 3 of the 6 scenarios below.**
+
+---
+
+## Scenario 1: The Difficult Client Email
+
+### Situation
+
+You're a project manager at a consulting firm. Your client, GreenLeaf Industries, just emailed saying they're "extremely disappointed" with the latest deliverable. They feel the recommendations are "too generic" and "don't reflect the conversations we had." You know the deliverable is solid — but their expectations shifted after a board meeting you weren't invited to. You need to respond professionally, acknowledge their frustration without agreeing the work is poor, and propose a path forward.
+
+### What you know:
+- Client contact: David Chen, VP of Operations
+- Relationship history: 18-month engagement, generally positive
+- The deliverable took 3 weeks of team effort
+- You suspect new board priorities changed what they wanted
+- A 1-hour alignment meeting could likely resolve this
+
+---
+
+**Round 1 — Your baseline prompt:**
+
+Write your first-attempt prompt here (what you'd naturally type):
+
+> _Your prompt:_
+>
+>
+
+**AI output quality (circle one):** Usable as-is / Needs heavy editing / Not usable
+
+**What's wrong with the output?**
+
+>
+
+---
+
+**Round 2 — Your RTCF/CRAFT prompt:**
+
+| Component | Your Input |
+|-----------|-----------|
+| **Role** | |
+| **Task** | |
+| **Context** | |
+| **Format** | |
+
+**AI output quality (circle one):** Usable as-is / Needs minor editing / Needs heavy editing
+
+**What improved?**
+
+>
+
+---
+
+**Round 3 — Advanced technique:**
+
+Try one: ask the AI to "think step-by-step about what David is really concerned about before drafting the email" (chain-of-thought), or ask it to draft three different versions at different levels of directness and pick the best one.
+
+**What did you try?**
+
+>
+
+**Did it improve the output further? How?**
+
+>
+
+---
+
+<div style="page-break-before: always;"></div>
+
+## Scenario 2: The Policy Summary
+
+### Situation
+
+Your organisation just released a new 22-page Flexible Work Arrangements Policy. Your manager has asked you to create a summary that the team can actually read. The team is 12 people in the marketing department — they want to know what affects them, not the legal boilerplate. Key things they'll care about: how many days they can work from home, how to request changes, what happens during busy periods, and whether the rules are different for part-time staff.
+
+### What you know:
+- The full policy is 22 pages (you'd paste it into the AI or upload the PDF)
+- Your audience: marketing team, mix of full-time and part-time, mostly millennial/Gen Z
+- Tone should be friendly and practical, not bureaucratic
+- Manager wants it in an email they can forward to the team
+- Should be under 400 words
+
+---
+
+**Round 1 — Your baseline prompt:**
+
+> _Your prompt:_
+>
+>
+
+**AI output quality (circle one):** Usable as-is / Needs heavy editing / Not usable
+
+**What's wrong with the output?**
+
+>
+
+---
+
+**Round 2 — Your RTCF/CRAFT prompt:**
+
+| Component | Your Input |
+|-----------|-----------|
+| **Role** | |
+| **Task** | |
+| **Context** | |
+| **Format** | |
+
+**AI output quality (circle one):** Usable as-is / Needs minor editing / Needs heavy editing
+
+**What improved?**
+
+>
+
+---
+
+**Round 3 — Advanced technique:**
+
+Try: paste a section of the policy and ask the AI to "identify what a marketing team member would care about and ignore the rest," then use that filtered version as the basis for the summary.
+
+**What did you try?**
+
+>
+
+**Did it improve the output further? How?**
+
+>
+
+---
+
+<div style="page-break-before: always;"></div>
+
+## Scenario 3: The Project Status Update
+
+### Situation
+
+It's Friday afternoon and you need to send your weekly project status update. You have messy notes from the week but no time to polish them into the format your steering committee expects. The project is a CRM migration — it's broadly on track but there are two risks: the data migration is behind by 3 days, and the vendor hasn't confirmed the training schedule yet.
+
+### Your raw notes:
+```
+Monday - kick off data migration batch 2, took longer than expected,
+found duplicates in customer records (~2,300 records need manual review)
+Tues - vendor call, asked about training dates, they said "we'll get back
+to you" (still waiting as of Friday)
+Wed - UAT environment set up, 3 testers started, found 2 minor bugs
+(logged in Jira, both low priority)
+Thurs - data batch 2 completed but 3 days behind schedule,
+duplicate review started, Sarah leading
+Fri - UAT going well, no blockers from testers,
+budget tracking: $12K under budget YTD
+Overall: 68% complete, was supposed to be 72% by now
+Next week: finish duplicate review, chase vendor on training, continue UAT
+```
+
+### What you know:
+- Audience: steering committee (CIO, project sponsor, 2 business leads)
+- They want: status (RAG), key achievements, risks, next steps
+- Format: they expect a structured update, not a narrative
+- Tone: professional, concise, no surprises
+
+---
+
+**Round 1 — Your baseline prompt:**
+
+> _Your prompt:_
+>
+>
+
+**AI output quality (circle one):** Usable as-is / Needs heavy editing / Not usable
+
+**What's wrong with the output?**
+
+>
+
+---
+
+**Round 2 — Your RTCF/CRAFT prompt:**
+
+| Component | Your Input |
+|-----------|-----------|
+| **Role** | |
+| **Task** | |
+| **Context** | |
+| **Format** | |
+
+**AI output quality (circle one):** Usable as-is / Needs minor editing / Needs heavy editing
+
+**What improved?**
+
+>
+
+---
+
+**Round 3 — Advanced technique:**
+
+Try: ask the AI to first "identify what the steering committee will ask questions about" and then "write the update in a way that pre-emptively answers those questions."
+
+**What did you try?**
+
+>
+
+**Did it improve the output further? How?**
+
+>
+
+---
+
+<div style="page-break-before: always;"></div>
+
+## Scenario 4: The Interview Questions
+
+### Situation
+
+You're hiring a Digital Marketing Coordinator to join your team. HR has sent you a generic set of interview questions, but they're too broad ("Tell me about yourself," "What's your greatest weakness?"). You want questions that actually tell you whether this person can do the job. The role involves managing social media campaigns, analysing campaign performance data, working with external agencies, and creating monthly reports for leadership.
+
+### What you know:
+- Role: Digital Marketing Coordinator, mid-level (2-4 years experience)
+- Team: 5-person marketing team in a mid-sized B2B company
+- Key skills needed: social media management, data analysis (Google Analytics, Meta Ads Manager), agency coordination, stakeholder reporting
+- Cultural fit: self-starter, comfortable with ambiguity, collaborative
+- Interview format: 45-minute panel with you and the Marketing Director
+- You want a mix of behavioural and situational questions
+
+---
+
+**Round 1 — Your baseline prompt:**
+
+> _Your prompt:_
+>
+>
+
+**AI output quality (circle one):** Usable as-is / Needs heavy editing / Not usable
+
+**What's wrong with the output?**
+
+>
+
+---
+
+**Round 2 — Your RTCF/CRAFT prompt:**
+
+| Component | Your Input |
+|-----------|-----------|
+| **Role** | |
+| **Task** | |
+| **Context** | |
+| **Format** | |
+
+**AI output quality (circle one):** Usable as-is / Needs minor editing / Needs heavy editing
+
+**What improved?**
+
+>
+
+---
+
+**Round 3 — Advanced technique:**
+
+Try: ask the AI to generate questions, then ask it to "evaluate each question — which ones actually differentiate a strong candidate from a weak one? Remove any question where most candidates would give the same answer."
+
+**What did you try?**
+
+>
+
+**Did it improve the output further? How?**
+
+>
+
+---
+
+<div style="page-break-before: always;"></div>
+
+## Scenario 5: The Business Decision Analysis
+
+### Situation
+
+Your company currently uses a third-party logistics provider (3PL) for all warehousing and shipping. The contract is up for renewal in 3 months. Your operations director has asked you to prepare a brief analysis of whether to renew with the current provider, switch to a competitor, or bring logistics in-house. This isn't the final decision — it's a discussion starter for the leadership team meeting next week.
+
+### What you know:
+- Current 3PL: FastTrack Logistics, 4-year relationship
+- Annual cost: $1.8M
+- Performance: 96.2% on-time delivery (industry benchmark: 97%), 2.1% damage rate (benchmark: 1.5%)
+- Pain points: slow response to volume spikes, limited real-time visibility, recent price increase of 8%
+- Competitor quote: ShipRight Logistics, $1.65M/year, promises 97.5% on-time, newer technology
+- In-house option: would require $2.5M upfront investment, estimated $1.2M/year operating cost, 12-month setup
+- Company: mid-sized consumer goods, 15,000 orders/month, growing 20% YoY
+
+---
+
+**Round 1 — Your baseline prompt:**
+
+> _Your prompt:_
+>
+>
+
+**AI output quality (circle one):** Usable as-is / Needs heavy editing / Not usable
+
+**What's wrong with the output?**
+
+>
+
+---
+
+**Round 2 — Your RTCF/CRAFT prompt:**
+
+| Component | Your Input |
+|-----------|-----------|
+| **Role** | |
+| **Task** | |
+| **Context** | |
+| **Format** | |
+
+**AI output quality (circle one):** Usable as-is / Needs minor editing / Needs heavy editing
+
+**What improved?**
+
+>
+
+---
+
+**Round 3 — Advanced technique:**
+
+Try: ask the AI to argue FOR each of the three options separately, then ask it to "now take a step back — which option is strongest and what's the key risk with that choice?"
+
+**What did you try?**
+
+>
+
+**Did it improve the output further? How?**
+
+>
+
+---
+
+<div style="page-break-before: always;"></div>
+
+## Scenario 6: The Process Document
+
+### Situation
+
+You're the only person who knows how to run the monthly client invoicing process. Your manager has (rightly) pointed out this is a risk — if you're on leave, nobody can do it. You need to create a step-by-step process document that a colleague could follow. The problem: the process lives in your head, spread across 3 different systems, and you've never written it down.
+
+### Your verbal explanation:
+```
+OK so basically, on the first business day of each month, I pull the
+timesheet report from our project management tool (Harvest). I export
+it as CSV and open it in Excel. Then I filter for only billable hours
+and group by client. I cross-reference this with the rate card in our
+shared drive — each client has different rates depending on the service
+type (strategy is $250/hr, execution is $180/hr, support is $120/hr).
+
+I calculate the totals in Excel then log into Xero (our accounting
+software) and create an invoice for each client. I copy the line items
+from my spreadsheet into Xero. Some clients have purchase order numbers
+that need to go on the invoice — those are in a Google Sheet that
+the account managers maintain.
+
+After creating all invoices, I send them through Xero (it emails them
+automatically). Then I update our internal tracker (another Google Sheet)
+with the invoice numbers, amounts, and dates sent. Finally I send a
+summary email to the Finance Manager with total invoiced amount and
+any notes about unusual items (like if a client disputed hours or if
+there's a credit to apply).
+
+Usually takes me about 3 hours. There are about 12-15 clients each month.
+```
+
+---
+
+**Round 1 — Your baseline prompt:**
+
+> _Your prompt:_
+>
+>
+
+**AI output quality (circle one):** Usable as-is / Needs heavy editing / Not usable
+
+**What's wrong with the output?**
+
+>
+
+---
+
+**Round 2 — Your RTCF/CRAFT prompt:**
+
+| Component | Your Input |
+|-----------|-----------|
+| **Role** | |
+| **Task** | |
+| **Context** | |
+| **Format** | |
+
+**AI output quality (circle one):** Usable as-is / Needs minor editing / Needs heavy editing
+
+**What improved?**
+
+>
+
+---
+
+**Round 3 — Advanced technique:**
+
+Try: after getting the first draft, ask the AI "What steps are ambiguous or assume knowledge that a new person wouldn't have? Flag them and suggest how to make them clearer." Then refine.
+
+**What did you try?**
+
+>
+
+**Did it improve the output further? How?**
+
+>
+
+---
+
+<div style="page-break-before: always;"></div>
+
+## Debrief Notes
+
+After completing your 3 scenarios, reflect on your experience:
+
+**1. What was the single biggest improvement from Round 1 to Round 2?**
+
+>
+
+**2. Which component of the framework made the most difference?**
+
+- [ ] Role
+- [ ] Task
+- [ ] Context
+- [ ] Format
+
+**3. What's your #1 prompting lesson from this exercise?**
+
+>
+
+**4. Save your best prompt.** Copy your strongest structured prompt into the table below — this is the start of your personal prompt template library.
+
+| Task Type | My Template Prompt |
+|-----------|--------------------|
+| | |
+| | |
+| | |
+
+---
+
+## RTCF/CRAFT Quick Reference
+
+Use this while writing your prompts:
+
+| Component | Ask Yourself | Example |
+|-----------|-------------|---------|
+| **R — Role** | Who should the AI be? | "You are a senior project manager" |
+| **T — Task** | What exactly should it do? | "Write a status update covering..." |
+| **C — Context** | What background does it need? | "The audience is the steering committee" |
+| **F — Format** | How should the output look? | "Use bullet points, under 200 words" |
+
+**Not every prompt needs all four.** Simple tasks might only need T + F. Complex tasks benefit from all four.
+
+The RTCF framework maps closely to the CRAFT framework (Context, Role, Action, Format, Tone) — both are structured approaches to the same goal: helping AI understand exactly what you need.

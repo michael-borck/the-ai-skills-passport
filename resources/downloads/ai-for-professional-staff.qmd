@@ -1,0 +1,741 @@
+---
+title: "AI for Professional Staff"
+---
+
+# AI for Professional Staff: Practical Guides for Teaching Support, Operations & Coordination
+
+## Quick start for professional staff
+
+If you're short on time, start here.
+
+1. Choose your situation:
+   - **I have data to make sense of** → use the Data Analysis pattern below.
+   - **I'm reviewing or writing policy** → use the Compliance & Policy pattern.
+   - **I need to communicate a change** → use the Stakeholder Communication pattern.
+   - **I'm planning a change or redesign** → use the Strategic Analysis / Process Improvement patterns.
+2. Grab the relevant template, paste a short description of your context, and fill in the brackets.
+3. Ask AI for a first draft, then:
+   - Check for accuracy and alignment with your institution's policies.
+   - Adjust tone, detail and length for your stakeholders.
+4. Save any prompt that works well so you can reuse and refine it.
+
+**Example quick prompt:**
+
+```
+Context: [Brief description of my task and audience]
+Role: You are a [my role, e.g. faculty operations officer]
+Task: Help me [analyse/summarise/draft] [this thing]
+Output: [1-page summary/email/checklist] in clear, practical language
+```
+
+## Introduction
+
+If you're a Teaching Support Officer, Academic Coordinator, Curriculum Specialist, Student Support Advisor, Finance Officer, Compliance Officer, or other professional staff role, this guide is for you.
+
+While many AI workshops focus on teaching (how educators use AI *with* students), your role is different. You work *across* teaching and research, often managing:
+- Data analysis and reporting
+- Compliance and policy coordination
+- Stakeholder communication
+- Strategic planning and operations
+- Documentation and process improvement
+
+This guide shows how AI can support these professional responsibilities—not by replacing your expertise, but by amplifying your impact.
+
+---
+
+## What Makes Professional Staff Roles Different
+
+| Teaching Focus | Professional Staff Focus |
+|---|---|
+| Using AI *with* students to enhance learning | Using AI to support *operations* that enable teaching |
+| Pedagogical design (what activities teach best) | Operational design (what processes work best) |
+| Student engagement and learning outcomes | Stakeholder communication and compliance |
+| Course-level decisions | Unit-level, faculty-level, and institution-level decisions |
+| One unit or classroom context | Multiple units, faculties, or departments |
+
+**Your value as a professional staff member:**
+- You see patterns across units/faculties that individual teachers don't
+- You understand institutional context, policy, and compliance
+- You translate between academic staff, leadership, and operational teams
+- You solve problems that affect *scale* (multiple courses, cohorts, systems)
+
+AI can help you do all of this better and faster.
+
+---
+
+## Core AI Tasks for Professional Staff
+
+### 1. Data Analysis & Insight
+
+**What you might do:**
+- Analyse unit enrolment trends
+- Review student feedback patterns
+- Assess teaching evaluation data
+- Identify at-risk units or student cohorts
+- Compare performance metrics across units
+
+**How AI helps:**
+- Summarise large datasets quickly
+- Identify patterns humans might miss
+- Generate multiple interpretations of data
+- Create clear executive summaries
+- Suggest what questions to ask next
+
+**Example Workflow:**
+```
+Step 1: "Summarise this semester's unit enrolment data (attached CSV).
+Highlight units with declining enrolments and strong enrolments."
+
+Step 2: "Now identify any concerning trends year-on-year.
+What units are at risk?"
+
+Step 3: "For the at-risk units, suggest 3 intervention strategies.
+What would each cost in staff time and resources?"
+
+Step 4: "Turn this analysis into a one-page faculty board summary
+with clear recommendations."
+```
+
+→ **See also:** Prompt Chaining Techniques guide
+
+---
+
+### 2. Compliance & Policy
+
+**What you might do:**
+- Interpret regulatory requirements (TEQSA, accreditation)
+- Assess current practices against standards
+- Identify compliance gaps
+- Develop policy documents
+- Create guidance for academic staff
+
+**How AI helps:**
+- Summarise complex policy documents
+- Identify key requirements and obligations
+- Highlight risks or gaps
+- Draft policy documents or guidance
+- Explain regulations in plain language
+
+**Example Workflow:**
+```
+Step 1: "I'll paste the TEQSA standards for assessment.
+Extract the 5 most critical requirements for our context."
+
+Step 2: "Now analyse our current unit assessment practices
+against those requirements. Where do we have gaps?"
+
+Step 3: "For each gap, suggest a specific improvement
+with implementation timeline."
+
+Step 4: "Draft guidance for unit coordinators
+on meeting assessment standards.
+Use plain language—they're busy people."
+```
+
+→ **See also:** C.R.A.F.T. Prompting Framework
+
+---
+
+### 3. Stakeholder Communication
+
+**What you might do:**
+- Write faculty newsletters or updates
+- Prepare board presentations
+- Communicate changes to academic staff
+- Create student-facing guidance
+- Develop policy documents
+
+**How AI helps:**
+- Draft communications and adapt tone for audience
+- Reformat technical information for different readers
+- Create multiple versions (executive summary, detailed, student-friendly)
+- Ensure clarity and accessibility
+- Generate talking points for meetings
+
+**Example Workflow:**
+```
+Step 1: "I have this compliance update that's quite technical.
+First, draft a 2-minute executive summary for leadership."
+
+Step 2: "Now create a one-page faculty email explaining
+what changed and why it matters for unit coordinators."
+
+Step 3: "Create a brief student update for the portal
+(keep it positive and action-oriented)."
+
+Step 4: "What are the 3 key talking points I should emphasise
+in conversations with skeptical faculty members?"
+```
+
+---
+
+### 4. Strategic Planning & Operations
+
+**What you might do:**
+- Analyse resource allocation
+- Develop unit offerings or delivery strategies
+- Plan teaching support interventions
+- Design new policies or procedures
+- Evaluate effectiveness of changes
+
+**How AI helps:**
+- Consider multiple strategic options
+- Analyse pros/cons of different approaches
+- Generate implementation plans
+- Identify risks and mitigation strategies
+- Create evaluation frameworks
+
+**Example Workflow:**
+```
+Step 1: "We're facing a 10% budget reduction next year.
+What are three strategic options for maintaining teaching quality?"
+
+Step 2: "For each option, what would implementation require?
+What's the timeline and resource cost?"
+
+Step 3: "What risks does each option carry?
+How would we mitigate them?"
+
+Step 4: "Create a one-page comparison table
+suitable for a faculty planning meeting."
+```
+
+---
+
+### 5. Documentation & Process Improvement
+
+**What you might do:**
+- Document existing processes
+- Design new workflows
+- Create guidance or training materials
+- Develop templates or checklists
+- Improve clarity of existing procedures
+
+**How AI helps:**
+- Draft procedural documentation
+- Identify gaps in current processes
+- Suggest improvements
+- Create clear, accessible guidance
+- Generate training materials
+
+**Example Workflow:**
+```
+Step 1: "Here's our current unit approval process (quite messy).
+Map out what actually happens step-by-step."
+
+Step 2: "What are the bottlenecks? Where do things get stuck?"
+
+Step 3: "Suggest a streamlined process
+with clear decision points and handoffs."
+
+Step 4: "Create a one-page flowchart
+and a checklist for coordinators to use."
+```
+
+---
+
+## Practical Prompting Patterns for Professional Staff
+
+### Pattern 1: Data Analysis & Insight
+
+**Template:**
+```
+Context: [Dataset description—what, when, who, why collected]
+Role: You are a [relevant professional: teaching analyst, operations manager, etc.]
+Task: Analyse [specific data]. Focus on [key questions or metrics].
+Output: [Format—summary, bullets, table, narrative]
+Audience: [Who reads this—leadership, faculty, staff?]
+
+[Paste data or attach document]
+
+Start with: [specific first step—summarise, identify trends, flag issues, etc.]
+```
+
+**Real Example:**
+```
+Context: This CSV contains semester unit completion and withdrawal data
+for our business faculty over 3 years.
+
+Role: You are a senior teaching support coordinator.
+
+Task: Identify patterns in student withdrawals.
+Which units have high withdrawal rates?
+Are there common factors (timing, unit level, delivery mode)?
+
+Output: Bullet-point summary with table of high-risk units
+
+Audience: Faculty leadership planning next year's offerings
+
+Analyse this data and identify the top 5 units with highest withdrawal.
+What patterns do you notice? Then wait for my feedback.
+```
+
+---
+
+### Pattern 2: Compliance & Policy Analysis
+
+**Template:**
+```
+Context: [Regulatory/policy document or institutional requirement]
+Role: You are a [compliance/policy role: compliance officer, policy analyst, etc.]
+Task: Extract [key requirements]. Assess [current practices/gaps].
+Output: [Format—summary, checklist, gap analysis, action plan]
+Recommendation: [What should we do?]
+
+[Paste policy document or describe requirement]
+
+First step: [Identify requirements / Flag critical clauses / Assess gaps]
+```
+
+**Real Example:**
+```
+Context: We need to ensure our assessment practices meet TEQSA standards
+and our institutional accreditation requirements.
+
+Role: You are an academic compliance officer.
+
+Task: Extract the 5 most critical assessment requirements.
+Then analyse our current unit assessment practices against those requirements.
+
+Output: Two-part summary:
+- Part A: 5 critical requirements (what must we do?)
+- Part B: Gap analysis (where do we fall short?)
+
+Here's our current assessment overview: [paste summary]
+
+Start with Part A: Extract the 5 most critical requirements
+from TEQSA assessment standards.
+```
+
+---
+
+### Pattern 3: Stakeholder Communication (Multi-Format)
+
+**Template:**
+```
+Content: [Piece of information to communicate—data, policy change, outcome]
+Task: Create multiple versions for different audiences:
+1. [Audience A]: [Format A] with [tone/focus]
+2. [Audience B]: [Format B] with [tone/focus]
+3. [Audience C]: [Format C] with [tone/focus]
+
+Original content: [Paste content/data/policy]
+
+Start by drafting version 1 for [Audience A].
+```
+
+**Real Example:**
+```
+Content: We're implementing new academic integrity procedures
+based on recent policy changes.
+
+Task: Create three versions:
+1. Faculty email: 1 page, clear what changed and why, what they need to do
+2. Student guidance: 1 page, positive tone, what it means for them
+3. Leadership briefing: 2 paragraphs, strategic context, compliance assurance
+
+Policy summary: [Paste new policy]
+
+Start with the faculty email. Make it action-oriented and reassuring.
+```
+
+---
+
+### Pattern 4: Strategic Analysis (Options & Implications)
+
+**Template:**
+```
+Scenario: [Constraint or opportunity—budget, new policy, enrolment change, etc.]
+Role: You are a [strategic role: operations planner, curriculum strategist, etc.]
+Task: Generate [number] strategic options for [goal].
+For each option, assess: [what matters—cost, risk, timeline, effectiveness, etc.]
+Recommendation: [Your judgement on best path]
+
+Scenario detail: [Describe situation, constraints, objectives]
+
+Generate 3 options with pros/cons for each.
+```
+
+**Real Example:**
+```
+Scenario: Our faculty has declining enrolments in three core units.
+We have a budget that can support either:
+- Redesigning units to be more attractive
+- Launching targeted marketing
+- Consolidating units and redeploying resources
+
+Role: You are a faculty operations director.
+
+Task: Generate 3 strategic options (redesign, marketing, consolidation).
+For each, assess: impact on student learning, cost, timeline, risk,
+and likelihood of success.
+
+Constraints: We have 6 months before next semester.
+We want quality teaching, not just numbers.
+
+Provide a one-page comparison and your recommendation.
+```
+
+---
+
+### Pattern 5: Process Documentation & Improvement
+
+**Template:**
+```
+Current process: [Brief description of what happens now]
+Problem/goal: [What's not working or what you want to improve]
+Role: You are a [process/operations role]
+Task: Map [current state], identify [issues], redesign [new process]
+Output: [Flowchart, checklist, step-by-step guide, etc.]
+
+Details: [Describe current process, pain points, objectives]
+
+First step: Map the current process step-by-step.
+```
+
+**Real Example:**
+```
+Current process: Unit approval (from proposal to delivery)
+Problem: Takes too long, unclear decision points, faculty frustrated
+
+Role: You are an academic operations manager.
+
+Task: Map the current approval process step-by-step.
+Identify bottlenecks and unclear decision points.
+Suggest a streamlined 5-step process with clear roles.
+
+Current overview: [Describe how approvals currently work]
+
+Deliverable: Flowchart and one-page checklist for coordinators.
+
+Start by mapping the current process as you understand it.
+```
+
+---
+
+## Real Workflows: Start to Finish
+
+### Workflow 1: Teaching Support Officer – Enrolment Analysis
+
+**Scenario:** End of semester. Need to understand enrolment trends to plan next year's offerings.
+
+**Step 1 – Data Gathering & Initial Analysis**
+```
+I have this semester's unit enrolment data (attached CSV).
+Summarise key trends:
+- Which units grew/declined?
+- Patterns by unit level (100, 200, 300)?
+- Any seasonal or delivery-mode patterns?
+
+Use bullet points. Focus on what faculty leaders need to know.
+```
+
+*[AI provides trend summary]*
+
+**Step 2 – Deep Dive on At-Risk Units**
+```
+You identified three declining units:
+[Unit names].
+
+For each, suggest: What might be causing decline?
+What could we do to reverse it?
+Quick wins vs. deeper redesigns?
+
+Keep recommendations practical (doable in 6 months).
+```
+
+*[AI provides analysis]*
+
+**Step 3 – Strategic Options**
+```
+Based on this analysis, we have budget for ONE major intervention.
+Generate three options:
+1. Intensive redesign of highest-value unit
+2. Pilot new delivery mode
+3. Consolidate to fewer offerings, improve quality
+
+For each, estimate: Cost, timeline, likelihood of success, risk.
+```
+
+*[AI provides options]*
+
+**Step 4 – Faculty Communication**
+```
+Now create a presentation summary for faculty leadership.
+Include: The data, what it means, three options with pros/cons,
+and your recommendation.
+
+Keep it 2 pages—they're busy.
+```
+
+*[Ready to present]*
+
+---
+
+### Workflow 2: Curriculum Coordinator – New Unit Approval
+
+**Scenario:** Faculty wants to propose a new unit. You need to ensure it meets standards and provide guidance.
+
+**Step 1 – Policy Review**
+```
+I need to brief faculty on requirements for proposing a new unit.
+We must meet: TEQSA standards, institutional accreditation requirements,
+and our quality framework.
+
+Extract the 5 most critical requirements faculty should know.
+Explain each in plain language (they're not compliance experts).
+```
+
+*[AI provides requirement summary]*
+
+**Step 2 – Assessment Design Guidance**
+```
+The proposed unit is on "Data Ethics in Business."
+Suggest an assessment approach that:
+- Demonstrates student understanding of ethical frameworks
+- Tests real-world application (not just knowledge)
+- Is feasible to implement and mark
+
+Format as: Description, 3-4 specific assessment tasks, rubric criteria.
+```
+
+*[AI provides assessment design]*
+
+**Step 3 – Approval Documentation**
+```
+Create a one-page checklist for the unit coordinator
+summarising what must be submitted for approval.
+
+Include: Learning outcomes, assessment plan, workload implications,
+resource requirements, compliance sign-off.
+
+Make it action-oriented and clear.
+```
+
+*[Checklist ready]*
+
+**Step 4 – Faculty Workshop Prep**
+```
+Prepare talking points for a quick faculty briefing on the
+new unit approval process.
+
+Include: Timeline, key requirements, common mistakes, how to get help.
+Make it encouraging—we want good new units, not bureaucratic obstacles.
+```
+
+*[Workshop materials ready]*
+
+---
+
+### Workflow 3: Academic Operations Manager – Budget Allocation
+
+**Scenario:** 15% budget reduction. Need to maintain quality while reducing costs.
+
+**Step 1 – Impact Assessment**
+```
+We're facing 15% budget cuts next year.
+Current budget distribution: [List major cost areas]
+
+Where would cuts hurt most? What's essential vs. nice-to-have?
+What could we reduce without harming student learning?
+
+Format: Table with cost area, reduction impact, student impact.
+```
+
+*[AI provides impact assessment]*
+
+**Step 2 – Strategic Options**
+```
+Generate three budget scenarios:
+1. Cut costs proportionally across all areas
+2. Protect teaching quality, cut administration/support
+3. Reduce unit offerings, concentrate resources on high-value units
+
+For each, assess: Quality impact, staff morale, student outcomes,
+implementation feasibility.
+```
+
+*[AI provides options analysis]*
+
+**Step 3 – Implementation Plan**
+```
+We're going with option [chosen].
+Create a detailed implementation plan:
+- What changes, when?
+- Who's affected, how?
+- What communication/transition support is needed?
+- Timeline and key milestones?
+```
+
+*[AI provides implementation plan]*
+
+**Step 4 – Leadership Communication**
+```
+Create a briefing document for executive leadership
+explaining the budget approach, rationale, and mitigation strategies.
+
+Include: What we're protecting, what we're changing, risks we're monitoring,
+how we'll know if it's working.
+
+Keep it 2 pages with clear recommendations.
+```
+
+*[Leadership briefing ready]*
+
+---
+
+## Key Principles for Professional Staff Using AI
+
+### 1. Use AI for Analysis & Insight, Not Decision-Making
+AI can help you understand data and generate options, but *you* make the decisions.
+
+Your expertise: Knowing institutional context, stakeholder needs, and what's feasible.
+AI's role: Processing data, generating ideas, drafting documents.
+
+### 2. Maintain Professional Judgement
+Don't accept AI output at face value. Always:
+- Check facts and accuracy (especially with data/policy)
+- Consider your institutional context
+- Evaluate whether recommendations are realistic
+- Combine AI output with your expertise
+
+### 3. Use Chaining for Complex Tasks
+For complex projects (policy implementation, strategic planning, stakeholder communication), use prompt chaining to build quality iteratively. Don't expect perfection in one prompt.
+
+### 4. Use CRAFT for Individual Prompts
+For any single prompt, use the CRAFT framework to increase clarity and quality.
+
+### 5. Protect Sensitive Information
+If working with personal data, enrolment records, or confidential information:
+- Don't paste actual student/staff names or identifying details
+- Check your institution's AI use policy
+- Consider privacy and regulatory requirements (GDPR, Australian privacy laws, etc.)
+- Use institutional AI tools if available for sensitive work
+
+### 6. Document Your Process
+Keep copies of useful prompts and workflows. You'll use them again, and you can improve them over time.
+
+### 7. Combine AI with Human Expertise
+Your value is in knowing:
+- How your institution actually works
+- What stakeholders care about
+- What's feasible given constraints
+- When data needs human interpretation
+- The nuance that numbers miss
+
+AI is the assistant; you're the expert.
+
+---
+
+## Common Use Cases by Role
+
+### Teaching Support Officer
+- Analyse unit enrolment and completion data
+- Identify at-risk units or cohorts
+- Develop intervention strategies
+- Create faculty communications
+- Document and improve processes
+
+**Get started:** Use the Data Analysis pattern above with your current semester data.
+
+### Learning Designer / Curriculum Specialist
+- Design assessments aligned with standards
+- Create unit guidance and rubrics
+- Develop teaching support materials
+- Analyse curriculum gaps
+- Propose new units or redesigns
+
+**Get started:** Use the Pattern 2 (Assessment/Curriculum Design) above for your current project.
+
+### Academic Operations Manager
+- Analyse resource allocation
+- Develop strategic options for complex decisions
+- Create implementation plans
+- Prepare leadership briefings
+- Monitor effectiveness and adjust
+
+**Get started:** Use the Pattern 4 (Strategic Analysis) for your next planning cycle.
+
+### Compliance / Quality Officer
+- Interpret regulatory requirements
+- Assess institutional compliance
+- Identify gaps and risks
+- Draft policy guidance
+- Develop compliance monitoring tools
+
+**Get started:** Use the Pattern 2 (Compliance Analysis) for your next policy review.
+
+### Student Support Coordinator
+- Analyse student feedback patterns
+- Develop support strategies
+- Create guidance materials
+- Communicate changes to students
+- Evaluate support effectiveness
+
+**Get started:** Use the Data Analysis pattern with student feedback data.
+
+---
+
+## Advanced Techniques
+
+### Technique 1: Comparative Analysis
+Compare multiple units/approaches/strategies by feeding AI data from each and asking for comparison.
+
+### Technique 2: Scenario Planning
+Use prompt chaining to explore "what if" scenarios for strategic planning.
+
+### Technique 3: Stakeholder Analysis
+Create analysis from multiple perspectives (faculty view, student view, leadership view) to understand different needs.
+
+### Technique 4: Risk & Mitigation
+After proposing a change, ask AI to identify risks and suggest mitigation strategies.
+
+### Technique 5: Iterative Improvement
+Document how an approach evolves over time through multiple iterations of feedback and refinement.
+
+---
+
+## What NOT to Use AI For (as Professional Staff)
+
+- **Confidential personnel decisions** (without appropriate safeguards)
+- **Making final decisions that require judgement** (AI informs, but you decide)
+- **Sensitive communication without review** (always have someone human review before sending)
+- **Technical compliance work without expert review** (AI can help draft, but compliance experts should verify)
+- **Anything requiring legal interpretation** (consult your legal/compliance team, not AI)
+
+---
+
+## Getting Started
+
+**Choose your starting point:**
+
+1. **I have a data question:** Use the Data Analysis pattern with your current dataset
+2. **I'm reviewing a policy:** Use the Compliance & Policy pattern with the policy document
+3. **I need to communicate something:** Use the Stakeholder Communication pattern
+4. **I'm planning a change:** Use the Strategic Analysis or Process Improvement pattern
+5. **I'm designing something new:** Use the Prompt Chaining guide to build it step-by-step
+
+**Then:**
+- Follow the template
+- Review the real example
+- Adapt for your context
+- Try it with your current project
+
+---
+
+## Key Resources
+
+- **C.R.A.F.T. Prompting Framework** – Structure individual prompts
+- **Prompt Chaining Techniques** – Build complex analysis and design workflows
+- **Seven Essential Prompt Techniques** – Even professional staff work with teaching contexts
+- **AI in Pedagogical Design** – Understand how AI works in teaching (context for your support role)
+
+---
+
+## Final Thought
+
+> Your role is to enable good teaching and research at scale. AI can help you see patterns across units and faculties, analyse complex data, draft communications, and explore strategic options faster than ever.
+>
+> But *you* are the expert on your institution, your people, and what's possible. Use AI as your analytical partner—not as a replacement for professional judgement.
+
+The most effective professional staff are those who combine AI's analytical power with deep institutional knowledge and stakeholder understanding. That's where the real value emerges.

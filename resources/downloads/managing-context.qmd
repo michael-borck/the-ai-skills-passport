@@ -1,0 +1,396 @@
+---
+title: "Managing Context with AI"
+---
+
+## Introduction
+
+One of the most underrated skills in working with AI is **managing context**—the information you feed to an AI system and how you structure your conversations.
+
+Think of context like the working memory of the AI. Unlike humans, who can maintain context across days or weeks of conversation, AI has specific limitations:
+
+- **Limited attention span:** Conversations have maximum lengths before older information gets "forgotten"
+- **Token limits:** Every token (word fragment) used in conversation—both input and output—counts against the model's capacity
+- **Output token competition:** When you ask an AI to do multiple things at once, it must divide its output tokens among all the tasks, often producing shallow results
+- **Hallucination risk:** As conversations grow longer, the risk of AI "making up" information (hallucinating) increases
+
+The good news? **Understanding and managing context is a learnable skill** that directly improves output quality, saves time, and reduces errors.
+
+---
+
+## Why Context Management Matters
+
+### Problem 1: The Long Conversation Problem
+
+**What happens:** You have a great conversation going. You've asked 15 follow-up questions, refined ideas, built on earlier outputs. Then you ask question 16, and AI gives you a response that contradicts something from question 3.
+
+**Why:** The AI's working memory is limited. While it can technically "see" the entire conversation, older information becomes less salient (less in focus) as the conversation grows. AI attention diminishes with distance.
+
+### Problem 2: Output Token Scarcity
+
+**What happens:** You ask AI to "redesign this unit, create a rubric, write student instructions, and design an assessment." You get four things, but each is shallow because AI divided its output tokens four ways.
+
+**Why:** Every model has a maximum output token limit (typically 1,000–4,000 tokens). If you ask for 4 things, you get roughly 250–1,000 tokens per thing. Quality suffers.
+
+### Problem 3: Hallucination Acceleration
+
+**What happens:** As conversations get longer, AI becomes more likely to "confidently generate false information"—fabricating citations, making up examples, or misremembering earlier statements.
+
+**Why:** Longer conversations increase uncertainty and complexity in the model's reasoning. It's trying to track more information and making more inferential leaps.
+
+### Problem 4: Lost Context Across Sessions
+
+**What happens:** You close the chat window. Next week, you want to continue the work. You paste your earlier thinking into a new chat, but AI doesn't have the full conversation history, so it repeats earlier points or misses nuance.
+
+**Why:** Each new conversation starts fresh. The AI has no memory of the previous session unless you explicitly provide it.
+
+---
+
+## Core Strategy 1: Break Complex Tasks Into Steps
+
+**The Principle:** Before diving into work, ask AI to help you structure the task.
+
+**Why it works:**
+- Distributes output tokens efficiently (each step gets focus)
+- Reduces hallucination risk (smaller scope per prompt)
+- Gives you a plan to follow (more organised)
+- Lets you quality-check each step before moving forward
+
+### Example 1: Teaching Design
+
+**Instead of asking all at once:**
+> "Redesign my unit on data literacy. Create new learning outcomes, design assessments, write student instructions, create a rubric, and draft a unit description."
+
+**Break it into steps—first step, ask for a plan:**
+> "I'm redesigning a unit on data literacy for 2nd-year business students. Help me create a structured plan for this redesign. What are the key steps I should follow? List them in order with what we should accomplish at each step."
+
+*[AI gives you a plan: outcomes → assessments → instructions → rubric → description]*
+
+**Then work through the plan one step at a time:**
+
+**Step 1:**
+> "Let's start with step 1. Here are my current outcomes: [paste]. Which are clear and assessable? Which need work? Suggest 2–3 revised outcomes focused on authentic data literacy."
+
+*[Get focused, high-quality outcomes]*
+
+**Step 2:**
+> "Good. Now for step 2: suggest three assessment approaches that would test those outcomes. For each, explain what students do and why it tests data literacy."
+
+*[Get focused assessment options]*
+
+And so on.
+
+### Example 2: Research Planning
+
+**Create a research plan first:**
+> "I'm designing a study on student retention. Help me outline the key steps: research question, variables, methods, data collection, analysis, and writing. What's the logical order? What questions should I answer in each phase?"
+
+**Then tackle one phase at a time:**
+> "Phase 1: Research question. I'm interested in belonging, confidence, and persistence. Help me craft a specific research question that addresses these. Make it answerable."
+
+---
+
+## Core Strategy 2: One Task Per Prompt (Usually)
+
+**The Principle:** Ask for one main thing per prompt, not multiple things.
+
+**Why it works:**
+- Each output gets full attention and token allocation
+- Quality increases (you get depth, not breadth)
+- Easier to review and iterate on one thing
+- Reduces the cognitive load on the model
+
+### Example: Good vs. Poor Task Assignment
+
+**Poor:** (Asking for too much at once)
+> "Write a lesson plan for data visualization. Include learning outcomes, 3 activities, assessment rubric, and student handout."
+
+*Output: Shallow. Each element is skeletal.*
+
+**Better:** (One task per prompt)
+
+**Prompt 1:**
+> "Design 3 activities for teaching data visualization that move from basic to complex. For each, describe what students do and what they'll learn."
+
+**Prompt 2 (after reviewing):**
+> "Now create an assessment rubric for evaluating students' data visualizations. Include 4 criteria, with descriptions of excellent/proficient/developing for each."
+
+**Prompt 3 (after reviewing):**
+> "Turn that rubric and the activity descriptions into a one-page student handout. Include: what they're learning, why it matters, the activities, success criteria, and how to get help."
+
+*Output: Deep. Each element is thoughtful and specific.*
+
+### Exception: When Multiple Things Are Okay
+
+Sometimes asking for multiple outputs makes sense:
+
+- **Comparative tasks:** "Show me 3 different ways to explain photosynthesis to 9th graders. What are the trade-offs of each?"
+- **Structured formats:** "Create an outline with: learning outcomes, key concepts, and 2 discussion questions"
+- **Quick iterations:** "Now make that more concise / more detailed / more critical"
+
+The key: **Are the outputs relatively equal in scope and complexity?** If yes, ask for multiple. If one task is much bigger than others, split them.
+
+---
+
+## Core Strategy 3: Use Output Constraints to Manage Tokens
+
+**The Principle:** When asking for multiple things, specify output size/structure upfront.
+
+This helps AI divide tokens wisely.
+
+### Example
+
+**Without constraints:**
+> "What are the pros and cons of portfolio assessment vs. exam-based assessment?"
+
+*AI might spend 70% of tokens on portfolio and 30% on exams, or get wordy on both.*
+
+**With constraints:**
+> "Compare portfolio assessment vs. exam-based assessment. For each, provide:
+> - 2 key advantages
+> - 2 key limitations
+> - Best for (one sentence)
+>
+> Keep each section to 3–4 sentences max."
+
+*AI knows exactly how to divide tokens. Output is balanced and concise.*
+
+### Template for Token-Aware Requests
+
+```
+I need [specific output type]. Provide:
+
+1. [First thing] - [length/format]
+2. [Second thing] - [length/format]
+3. [Third thing] - [length/format]
+
+Keep total output under [X words/lines]. Prioritise clarity over completeness.
+```
+
+---
+
+## Core Strategy 4: Keep Conversations Focused and Modular
+
+**The Principle:** Use separate conversations for separate projects or major topic shifts.
+
+**Why it works:**
+- Shorter conversations = less hallucination risk
+- Easier to find earlier outputs (scrolling back is simpler)
+- AI stays focused on one topic
+- Cleaner record-keeping (export or save by topic)
+
+### When to Start a New Conversation
+
+1. **Topic shift:** Finished unit redesign? Start a new conversation for assessment analysis.
+2. **Major context change:** Moving from teaching to research? New conversation.
+3. **Length:** Conversation getting very long (50+ exchanges)? Consider summarising and moving to a new one.
+4. **Different AI tool:** Using Claude for one task and ChatGPT for another? Keep them separate.
+
+### When One Conversation Is Fine
+
+- Iterative work on the same project (refining, revising)
+- Related follow-ups (asking for adaptations of earlier output)
+- Building on previous steps (multi-step workflows)
+
+---
+
+## Core Strategy 5: Summarise and Handoff for Long Conversations
+
+**The Principle:** When a conversation gets long, ask AI to summarise what you've accomplished, then start fresh in a new conversation.
+
+**Why it works:**
+- Resets the "attention freshness" (AI isn't tracking 30+ old exchanges)
+- Gives you a clean document of what you've done
+- Reduces hallucination in the new conversation
+- Allows you to build on work without repeating context
+
+### How to Do It
+
+**In the long conversation, when it feels unwieldy:**
+
+**Prompt:**
+> "We've been working on [project name] for a while. Can you summarise what we've accomplished so far? Include:
+> - What problem/task we started with
+> - Key decisions we made
+> - What we've created/designed so far
+> - What still needs to be done
+>
+> Make it concise but complete — something I can copy and paste into a new conversation to continue."
+
+*[AI provides a summary]*
+
+**Copy that summary.** Then:
+
+1. Start a new conversation
+2. Paste the summary at the beginning
+3. Add: "I'm continuing this work. Let's move forward with [next step]."
+4. Continue from there
+
+**Example handoff:**
+
+> "We've been designing a capstone project for business students. We've created:
+> - 3 learning outcomes (attached)
+> - Project brief (attached)
+> - Assessment rubric (attached)
+>
+> What's left: student instructions and facilitator notes. Let's start with student instructions. Here's the context: [paste]."
+
+---
+
+## Core Strategy 6: Make Context Explicit and Structured
+
+**The Principle:** Don't assume AI remembers or understands implicit context. State it clearly.
+
+**Poor context:**
+> "How should I handle this in class?"
+
+(Missing: What is "this"? What's the class? What's the issue? What's your teaching style?)
+
+**Good context:**
+> "I teach critical thinking to 40 business students (mix of 2nd and 3rd year, variable engagement). One student dominates discussions while others stay quiet. How can I manage this without embarrassing the dominant student or discouraging the quiet ones?"
+
+**Better context (if continuing earlier work):**
+> "Remember we're designing a discussion-based unit on business ethics. We wanted to encourage broader participation. One challenge: one student always dominates. How can we structure the discussion activity to naturally encourage quieter students to speak?"
+
+### Checklist for Explicit Context
+
+- **Who:** Who are the students/audience?
+- **What:** What's the specific task or problem?
+- **Why:** Why does it matter?
+- **Constraints:** What are the limitations (time, resources, class size)?
+- **Style:** What's your teaching/working style? What's worked before?
+
+---
+
+## Advanced Strategy: Batch Similar Tasks
+
+**The Principle:** When you have multiple similar tasks (e.g., "write 5 discussion questions"), batch them efficiently.
+
+**Poor approach:**
+> "Write a discussion question on topic A."
+> [Review]
+> "Write a discussion question on topic B."
+> [Review]
+> [Repeat 3 more times]
+
+*This takes 5+ exchanges and repeats setup context each time.*
+
+**Better approach:**
+
+**Prompt:**
+> "I need 5 discussion questions for a unit on organisational leadership. They should:
+> - Progress from basic understanding to critical analysis
+> - Each take 5–10 minutes of discussion
+> - Spark respectful debate (not yes/no questions)
+>
+> Topics: 1) Leadership styles, 2) Ethical decision-making, 3) Team conflict, 4) Change management, 5) Inclusive leadership.
+>
+> Provide all 5 questions with a note about why each one works."
+
+*Single exchange. AI understands the pattern. Higher quality.*
+
+**Then iterate once:**
+> "These are good. Now adapt question 3 and 5 to be more accessible for international students who might be less familiar with Western leadership literature."
+
+---
+
+## Common Mistakes and How to Fix Them
+
+| Mistake | What Goes Wrong | Fix |
+|---------|-----------------|-----|
+| **Asking for 10 things at once** | Output is shallow; tokens split 10 ways | Break into 2–3 prompts, one task per prompt |
+| **Vague task description** | AI misunderstands what you want | Add explicit context: who, what, why, constraints |
+| **Leaving the conversation open indefinitely** | Hallucination risk increases; conversation becomes unwieldy | Start new conversation every 30–50 exchanges |
+| **Not specifying output format** | AI guesses format; may not match your needs | Say "bullet points," "3 paragraphs," "table," etc. |
+| **Asking "what am I missing?"** | AI may invent things that don't apply | Be specific: "What am I missing for [specific context]?" |
+| **Forgetting to review outputs** | Errors and hallucinations slip through | Always quality-check, especially for facts/citations |
+| **Pasting entire documents without context** | AI doesn't know what you want it to focus on | Add a framing sentence: "Here's my unit outline. Focus on the assessment section." |
+
+---
+
+## Practical Workflow for Managing Context
+
+Here's a workflow that brings everything together:
+
+### Phase 1: Planning
+1. **Define the task clearly** (in writing, to yourself)
+2. **Ask AI for a plan** before diving in
+3. **Break the plan into sub-tasks**
+4. **Identify output tokens** needed for each sub-task
+
+### Phase 2: Execution
+1. **One sub-task per prompt** (usually)
+2. **Review each output** before moving forward
+3. **Provide feedback** for refinement
+4. **Document what works** (save successful prompts)
+
+### Phase 3: Management
+1. **Keep conversations focused** (one major project per conversation)
+2. **When long**, ask for a summary and move to a new conversation
+3. **Use separate conversations** for different topics
+4. **Archive completed work** (save or export as needed)
+
+### Phase 4: Quality Check
+1. **Verify facts** (especially citations, dates, statistics)
+2. **Check for contradictions** (does it align with earlier outputs?)
+3. **Assess completeness** (did AI address all your needs?)
+4. **Iterate if needed** (refine with follow-up prompts)
+
+---
+
+## Real-World Example: Managing Context Well
+
+**Scenario:** Designing a 10-week research methods course.
+
+**Bad approach (what NOT to do):**
+1. "Design the entire course including all 10 modules, learning outcomes, assessments, readings, activities, and rubrics."
+2. Get massive output that's shallow and poorly integrated
+3. Spend hours revising piecemeal
+
+**Good approach:**
+
+**Conversation 1: Planning**
+> "I'm designing a 10-week research methods course for master's students in business. Help me create a modular plan. What are the key topics? How should they sequence? What should we accomplish each week?"
+
+*[Get: 10-week high-level plan with learning arcs]*
+
+**Conversation 2: Learning Outcomes**
+> "Using the plan from earlier, let's define learning outcomes. Here's the plan: [paste]. For each week, suggest 1–2 specific, assessable outcomes. Focus on both knowledge and practical research skills."
+
+*[Get: structured outcomes aligned to plan]*
+
+**Conversation 3: Week 1 Deep Dive**
+> "Let's design Week 1 in detail. Topic: Research foundations. Learning outcomes: [paste from outcomes]. Design the week including: 2 key concepts to introduce, 1 activity, 1 short assessment, 3 readings. Keep it manageable for a 3-hour week."
+
+*[Get: detailed, coherent week]*
+
+**Conversation 4: Week 2 Deep Dive**
+> "Now Week 2: [repeat with Week 2 focus]"
+
+*[Continue for each week if needed, or batch weeks by theme]*
+
+**Conversation 5: Assessment & Integration**
+> "I've now designed all 10 weeks. Here's a summary: [paste all 10-week outcomes + activities]. Design a capstone assessment that integrates learning from the whole course. What should students do? How would you evaluate it?"
+
+**Result:** Coherent, well-integrated course. Each conversation was focused. Quality was high because context was managed.
+
+---
+
+## Summary: The Core Principles
+
+1. **Break complexity into steps:** Ask for a plan before diving in
+2. **One task per prompt (usually):** Give output tokens to focus on one thing
+3. **Keep conversations focused:** One major project per conversation
+4. **Be explicit with context:** Don't assume AI understands implicit information
+5. **Summarise and handoff:** When conversations get long, reset with a summary
+6. **Review everything:** Always quality-check outputs
+7. **Iterate thoughtfully:** Use follow-up prompts to refine, not to ask for entirely new things
+
+> **The underlying principle:** Context management is about respecting the AI's limitations while maximising its strengths. You're not trying to have perfect conversations; you're trying to have *focused* conversations that produce high-quality outputs.
+
+---
+
+## Further Reading
+
+- **C.R.A.F.T. Prompting Framework** - Structure individual prompts clearly
+- **Prompt Chaining Techniques** - Multi-step workflows that respect context limits
+- **Strategic Prompting Guide** - Context management in operational workflows

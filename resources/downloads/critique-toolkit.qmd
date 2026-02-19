@@ -1,0 +1,164 @@
+---
+title: "AI Critique Toolkit"
+---
+
+# The AI Critique Toolkit – Becoming a Smart Professional
+
+This toolkit supports the development of critical AI evaluation skills. It extends the **5-Step Critique Framework** with business-focused questions and practical templates you can reuse in units, workplace activities, or assessments.
+
+---
+
+## 1. Why Critique Skills Matter
+
+Using AI in professional contexts is like hiring a brilliant but inexperienced consultant: fast, confident, and sometimes dangerously wrong.
+
+Without critique skills, you risk:
+
+- **Overcomplicated solutions** that no one has time or budget to implement
+- **Missing legal, technical, or risk issues** that create real exposure
+- **Recommendations that sound good but don't fit your organisation**
+- **One-size-fits-all advice** that ignores culture, capacity, and constraints
+
+Across HR, finance, marketing, supply chain, information systems, and management, the pattern is the same: uncritical AI acceptance can lead to poor decisions, reputational damage, compliance failures, and wasted resources.
+
+Your professional edge is not "using AI" but **reviewing, questioning, and improving** what AI gives you.
+
+---
+
+## 2. Your 5-Step Business Critique Framework
+
+Use this with any AI-generated recommendation, policy, plan, or analysis.
+
+1. **Comprehension Check – Do I actually understand this?**
+   - Red flags: vague jargon, unclear rationale, no clear problem statement.
+   - Ask:
+     - "Explain this in plain English for a non-expert."
+     - "What specific problem does this solve, and how?"
+     - "Break this into concrete steps or actions."
+
+2. **Simplicity Check – Is this practical where I work?**
+   - Red flags: requires extra staff, expensive tools, or complex new processes.
+   - Ask:
+     - "What is the minimum viable version of this?"
+     - "Rewrite this for a small team with limited budget and time."
+     - "Show a phased version over 3–6 months, not all at once."
+
+3. **Legal, Technical & Risk Check – What are the implications?**
+   - Red flags: no mention of compliance, privacy, security, fairness, or risk.
+   - Ask:
+     - "What legal, regulatory, or policy issues could this raise?"
+     - "What are the main operational and reputational risks?"
+     - "Who could be harmed or disadvantaged by this recommendation?"
+
+4. **Context Check – What assumptions is AI making about my organisation?**
+   - Red flags: assumes advanced systems, high trust, high skill, or unlimited capacity.
+   - Ask:
+     - "List the assumptions you are making about our systems, culture, and skills."
+     - "How would this need to change for a high-turnover, time-poor environment?"
+     - "Give an alternative that works with our existing tools and constraints."
+
+5. **Stakeholder Check – How will different groups experience this?**
+   - Red flags: only management's view; no sense of staff, students, customers, unions, or regulators.
+   - Ask:
+     - "Walk through this from an employee, student, or customer perspective."
+     - "What resistance should we expect from different groups, and why?"
+     - "What communication and support would be needed for this to succeed?"
+
+How these steps map to a broader critique model:
+
+- Comprehension → **Purpose**
+- Simplicity, Context → **Plausibility**
+- Legal/Technical/Risk, Context → **Evidence & Stakes**
+- Stakeholder → **Stakes & Action**
+
+---
+
+## 3. Common AI Problems (and Better Directions)
+
+When you use the framework above, you will often see the same patterns in AI outputs:
+
+1. **Over-engineered solutions**
+   - AI: 10-step processes, multiple systems, daily activities.
+   - Better direction: "Start with the 80/20 rule – what 20% of this would deliver most of the value for us?"
+
+2. **Ignoring compliance, policy, or constraints**
+   - AI: "Optimise for maximum returns" or "just migrate everything to the cloud".
+   - Better direction: "Rewrite this to respect our existing risk tolerance, legal obligations, and legacy systems."
+
+3. **One-size-fits-all recommendations**
+   - AI: the same performance system, marketing message, or process for all teams or segments.
+   - Better direction: "Show how this would differ for at least two different groups (e.g. front-line vs back-office; new vs experienced staff; different customer segments)."
+
+You can treat these as "warning labels": if you see them, slow down and apply the full 5-step critique.
+
+---
+
+## 4. Conversation Templates You Can Reuse
+
+You can lift or adapt these prompts when working with AI.
+
+**Requesting a simpler, workable version**
+> "This solution looks more complex than what we can realistically implement. We are a [size/type] organisation with limited time and budget. Please give a simpler version that focuses on essentials and uses tools we're likely to already have."
+
+**Checking legal, policy, and risk issues**
+> "Before I share this, list the key legal, compliance, privacy, and reputational risks this recommendation could create in an Australian university or business context. Suggest 2–3 safeguards to manage the most serious ones."
+
+**Testing organisational fit**
+> "We have high staff turnover in some roles, managers who are time-poor, and mixed digital literacy. Rewrite this recommendation so it still works under those conditions, or explain why it might fail."
+
+**Anticipating resistance**
+> "What pushback should I expect from front-line staff, middle managers, and senior leadership if we tried this? Suggest one way to address each group's main concern."
+
+---
+
+## 5. Documenting Your AI Critique
+
+A simple documentation pattern can reinforce good habits and support assessment or reflection tasks.
+
+**Short template**
+
+```text
+# AI Interaction #[number]
+My request: [What problem I asked AI to solve]
+AI's first response: [1–2 sentences]
+My critique: [What I questioned or asked to change]
+Final version I would consider using: [1–2 sentences]
+What I still need to check: [data, policy, stakeholder input, etc.]
+Key lesson for next time: [short reflection]
+```
+
+You can adapt this template for:
+
+- Student portfolios or reflective tasks
+- Workplace logs of AI use
+- Group activities where teams compare their critique decisions
+
+---
+
+## 6. Red-Flag Checklist
+
+Before accepting any AI-generated recommendation, quickly scan for these questions:
+
+- ☐ Can I explain this clearly to key stakeholders in a few minutes?
+- ☐ Does it comply with relevant laws, policies, and professional standards?
+- ☐ Do we actually have the time, skills, data, and tools to implement it?
+- ☐ How will affected people (staff, students, customers) experience this – is it fair and transparent?
+- ☐ What are the main risks if this goes wrong, and how big are they?
+- ☐ Have I considered how different teams or groups might be affected differently?
+- ☐ Is there a simpler version that would deliver most of the benefits?
+
+Use this as a quick sense-check after you've applied the 5-step framework.
+
+---
+
+## 7. Quick Practice Task
+
+Try this once with a real or realistic problem:
+
+1. **Choose a business or educational challenge** (e.g. staff onboarding, student engagement, assessment redesign, marketing for a new program).
+2. **Ask an AI tool for a recommendation or plan.**
+3. **Apply the 5-step business critique framework** and note at least one red flag for each step.
+4. **Ask follow-up questions** (using the conversation templates) until you have a version you might realistically consider.
+5. **Document the interaction** using the short template above.
+
+This practice mirrors how professional judgement about AI works in real contexts: not accepting the first output, but interrogating it until it's genuinely useful.

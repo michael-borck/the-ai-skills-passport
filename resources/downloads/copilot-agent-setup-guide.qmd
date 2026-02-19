@@ -1,0 +1,192 @@
+---
+title: "Copilot & Agent Setup Guide"
+---
+
+# Copilot & Agent Setup Guide
+
+**Purpose:** Create a persistent AI agent that evaluates proposals or performs structured analysis using defined frameworks
+
+---
+
+## Option 1: Microsoft Copilot Studio (Recommended for Organisations)
+
+### Prerequisites:
+- Microsoft 365 account with Copilot Studio access
+- OR Microsoft Copilot Pro subscription
+
+### Setup Steps:
+
+#### 1. Access Copilot Studio
+- Go to https://copilotstudio.microsoft.com/
+- Sign in with your Microsoft account
+- Click "Create" → "New Copilot"
+
+#### 2. Configure Agent Basics
+- **Name:** Give your agent a descriptive name (e.g. "AI Investment Analyser")
+- **Description:** Briefly describe what the agent does and what frameworks it uses
+- **Icon:** Choose something appropriate to the domain
+
+#### 3. Set Agent Instructions
+
+In the "Instructions" field, define your agent's role, context, and evaluation framework. A well-structured agent prompt typically includes:
+
+- **Role:** What the agent is and what it does
+- **Context:** Key facts about your organisation relevant to the task
+- **Frameworks:** The specific criteria or models the agent should apply
+- **Output format:** The structured format for responses
+- **Disposition:** How the agent should approach decisions (e.g. "be critical, find problems")
+
+**Example structure:**
+
+```
+You are a [role] for [your organisation].
+
+ROLE: [What the agent does — one sentence]
+
+ORGANISATIONAL CONTEXT:
+- [Key fact about your organisation]
+- [Relevant constraints or priorities]
+- [Strategic focus areas]
+
+EVALUATION FRAMEWORKS:
+1. [Framework name]: [How to apply it]
+2. [Framework name]: [How to apply it]
+
+OUTPUT FORMAT:
+[Define the sections and structure for each response]
+
+[Disposition instruction — e.g. "Be critical. Find problems, not justifications."]
+```
+
+#### 4. Add Knowledge Sources (Optional)
+
+Upload reference documents to give the agent additional context:
+
+- Click "Knowledge" → "Upload files" → Select files
+- Useful files: framework reference sheets, checklists, scenario guides
+
+#### 5. Configure Conversation Style
+- **Tone:** Match to your use case (professional, analytical, supportive, etc.)
+- **Response length:** Detailed for analysis tasks; concise for quick queries
+- **Web search:** Off if you want framework-based responses only
+
+#### 6. Test the Agent
+
+Click "Test" and submit a sample request. Verify the agent:
+- Applies the frameworks correctly
+- Uses the defined output format
+- Takes the right disposition (critical, supportive, neutral, etc.)
+
+#### 7. Publish & Share
+
+- Click "Publish"
+- Get a shareable link
+- Share with colleagues or team members
+
+---
+
+## Option 2: Simple Prompt (No Account Needed)
+
+### For Quick Use:
+
+Paste your agent instructions into **any** AI tool (ChatGPT, Claude, Gemini, Copilot):
+
+1. Open your preferred AI tool
+2. Paste your full agent instructions at the start of the conversation
+3. Submit your task or scenario
+
+**Pros:**
+- No setup required
+- Works with free AI tools
+- Immediate use
+
+**Cons:**
+- Not persistent (new conversation each time)
+- Need to re-paste instructions for each session
+- Can't share as a saved agent
+
+---
+
+## Option 3: GPT Custom Instructions (ChatGPT)
+
+### For Persistent Use Across Sessions:
+
+If you have ChatGPT Plus:
+
+1. Go to ChatGPT Settings
+2. Click "Personalization" → "Custom Instructions"
+3. Under "How would you like ChatGPT to respond?", paste:
+
+```
+When I ask you to [perform your specific task], use this framework:
+
+[PASTE YOUR AGENT INSTRUCTIONS HERE]
+
+For all other questions, respond normally.
+```
+
+**Benefit:** Agent behaviour persists across all ChatGPT sessions
+
+---
+
+## Option 4: Claude Projects (Anthropic Claude)
+
+### For Participants with Claude Pro:
+
+1. Go to https://claude.ai
+2. Click "Projects" → "New Project"
+3. Name the project descriptively
+4. In "Project Instructions", paste your agent prompt
+5. Optionally upload reference documents as "Custom Instructions"
+
+**Benefits:**
+- Agent remembers context across conversations
+- Can analyse multiple scenarios in one session
+- Knowledge base persists between sessions
+
+---
+
+## Choosing the Right Option
+
+| Situation | Recommended Option |
+|---|---|
+| Quick demo or one-off use | Option 2 (Simple Prompt) |
+| Regular personal use, ChatGPT subscriber | Option 3 (Custom Instructions) |
+| Regular personal use, Claude subscriber | Option 4 (Claude Projects) |
+| Team or organisational use | Option 1 (Copilot Studio) |
+| Sharing with colleagues | Option 1 (Copilot Studio) |
+
+---
+
+## Tips for Writing Effective Agent Instructions
+
+### Be specific about role and context
+The more precisely you define the agent's role and the context it operates in, the more useful its outputs will be. Generic instructions produce generic responses.
+
+### Define the output format explicitly
+If you want structured output (sections, tables, ratings, recommendations), spell out the exact format. Agents follow output templates reliably once defined.
+
+### Set the disposition clearly
+Tell the agent how to approach decisions: "be critical and find problems," "be constructive and find opportunities," "balance risk and benefit." This shapes the tone of every response.
+
+### Test with representative scenarios
+Before sharing or relying on an agent, test it with at least 3–5 representative inputs. Check whether it applies frameworks correctly and whether the output format is consistently useful.
+
+### Iterate based on real use
+After using the agent a few times, revisit the instructions. Common issues: output is too long, a framework step is being skipped, the tone is wrong. Small instruction changes make a big difference.
+
+---
+
+## What to Tell Colleagues About AI Agents
+
+When introducing colleagues to a custom AI agent:
+
+> "This is an AI agent built around a specific framework. It's not a special tool — it's a well-structured prompt. The agent applies defined criteria consistently, so it surfaces things you might miss and gives you a structured starting point for your own judgement.
+>
+> The agent informs your thinking; you make the final call."
+
+Key points to emphasise:
+- The agent applies frameworks, it doesn't replace expertise
+- Outputs should be treated as a structured starting point, not a final answer
+- The value is in consistency and coverage, not in certainty
+- Human judgement remains essential, especially for context, nuance, and final decisions

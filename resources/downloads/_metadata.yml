@@ -1,0 +1,26 @@
+# Shared format config for downloadable resources
+# Each QMD in this directory renders to HTML + DOCX + PDF
+
+author: "Michael Borck, AI Facilitator, School of Management and Marketing, Curtin University"
+date: today
+
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+    css: ../../shared/brand.css
+    theme: none
+    minimal: true
+  docx:
+    toc: true
+  pdf:
+    toc: true
+    documentclass: article
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+    fontsize: 11pt
+    colorlinks: true

@@ -1,0 +1,209 @@
+---
+title: "Ethics, Data Governance & Integrity"
+---
+
+# Purpose
+
+This guide is a concise, practical companion for AI-aware teaching. Use it to:
+
+- Frame AI use as a **professional ethics and integrity opportunity**, not just a cheating risk
+- Talk with students about **responsible AI use and data governance**
+- Design assignments that are **AI-aware and integrity-resilient**
+
+---
+
+# 1. Reframing AI and Integrity
+
+The question you will hear (from students, colleagues, or administrators):
+
+> **"Aren't you just teaching students to cheat with AI?"**
+
+A more useful professional question is:
+
+> **"How do we teach students to use AI responsibly in their professional careers?"**
+
+Why this reframing matters:
+
+- **Old framing:** AI is a threat; the goal is to prevent or detect its use
+- **New framing:** AI literacy is a learning objective; the goal is to teach transparent, critical, responsible use
+
+Your students will use AI tools in their disciplines (HR, finance, supply chain, marketing, information systems, professional services, research). The real risk is not that they use AI, but that they use it **incompetently or unethically**.
+
+---
+
+# 2. Three-Part Framework for Ethical AI Use
+
+A simple structure you can use with students, colleagues, and in unit outlines.
+
+## 2.1 Transparency (Not Prohibition)
+
+**Principle:** Make AI use explicit and assessable rather than hidden and policed.
+
+**In practice:**
+
+- State clearly **when AI is expected, permitted, or not permitted**
+- Provide **example prompts and tools** yourself (e.g. enterprise Copilot)
+- Assess **how students use and critique AI**, not whether they avoid it
+- Reward students who **identify and correct AI's errors and limitations**
+
+**Why it helps integrity:** When AI use is transparent, students learn to talk openly about their tools and reasoning. When it is simply banned, they are pushed toward secret, uncritical use.
+
+## 2.2 Critical Oversight (Not Blind Reliance)
+
+**Principle:** AI is a tool that requires human judgement, not an authority to trust.
+
+**In practice:**
+
+- Design tasks where students must **critique, correct, or override** AI outputs
+- Ask students to show **what AI got wrong or missed**
+- Grade the **quality of their critique and improvement**, not the AI's first answer
+- Show real examples of **hallucination, bias, oversimplification, or wrong jurisdiction**
+
+**Why it helps integrity:** Thoughtful use is harder than avoidance. Students practise professional habits of checking context, evidence, and consequences before acting on AI recommendations.
+
+## 2.3 Professional Relevance (Not Academic Abstraction)
+
+**Principle:** Connect AI use in coursework to how AI is used in real workplaces.
+
+**In practice:**
+
+- Frame tasks as **professional scenarios** ("You are the HR manager using AI to draft a policy …")
+- Discuss **workplace ethics and accountability** (Who is responsible when AI is wrong?)
+- Make **AI literacy and responsible use visible in learning outcomes**
+
+**Why it helps integrity:** Students see AI not as a shortcut around academic work, but as a **tool they must learn to handle responsibly** in their careers.
+
+---
+
+# 3. Data Governance in Practice
+
+Many institutions (including Curtin) now provide **enterprise AI tools** (e.g. MS Copilot Enterprise) with data protections, while students also use public tools (ChatGPT free tier, Gemini, etc.). You cannot fully control which tools they touch, but you can help them make **informed, professional choices**.
+
+## 3.1 Enterprise vs Consumer Tools (Simple View)
+
+- **Enterprise / approved tools** (e.g. MS Copilot Enterprise):
+  - Data is siloed within the institution
+  - Not used to train public models
+  - Covered by institutional privacy and governance settings
+  - Appropriate for **course materials, assessments, and other non-public data**
+
+- **Consumer / free tools** (e.g. ChatGPT free, public web interfaces):
+  - Conversations may be retained and used to improve services
+  - Less transparent data handling
+  - No institutional contract or guarantees
+  - Risky for **student work, unpublished materials, or any sensitive data**
+
+## 3.2 Design Strategies for Safer Assignments
+
+Instead of trying to ban tools you cannot see, design tasks that **naturally encourage** better data handling:
+
+- **Use fictional or generic cases** when detailed real data is not needed
+- Require **de-identification** before any real data is used with AI
+- Ask for **process documentation (key prompts, decisions)** rather than full transcripts
+- Be explicit about **which tools are recommended** and why
+
+### Short student-facing text you can adapt
+
+```text
+DATA GOVERNANCE AND AI TOOLS
+
+For this unit we recommend using MS Copilot Enterprise when you work with
+course materials, assessment tasks, or realistic case data. Copilot keeps
+your work within Curtin's systems and is not used to train public models.
+
+You may use public tools (e.g. ChatGPT) for general brainstorming and
+concept exploration, but you must NOT upload:
+- confidential or identifying information about real people or organisations
+- unpublished course materials or other students' work
+
+If you use any public AI tools, remove identifying details first and be
+prepared to explain what you used and how you checked the output.
+This is part of learning to handle data responsibly as a professional.
+```
+
+---
+
+# 4. Clear Expectations About AI Use (Student-Facing)
+
+You can embed a short AI section in your unit outline or first class.
+
+### Example structure you can customise
+
+**Artificial Intelligence Use in This Unit**
+
+- **AI is expected when:**
+  - Completing specific activities where AI use is part of the learning outcome (e.g. critique of AI outputs, stress-testing an assessment, drafting an AI use guideline)
+- **AI is permitted when:**
+  - Brainstorming ideas, generating practice questions, checking grammar or clarity, or exploring concepts you don't fully understand yet
+- **AI is not permitted when:**
+  - Doing closed-book exams
+  - Completing any task that explicitly says "no AI tools"
+
+**When you use AI in this unit, you must:**
+
+- Treat it as a **support for your thinking**, not a replacement
+- **Critically evaluate** outputs and adapt them for our context
+- Be able to **explain and defend** your work in your own words
+- Acknowledge AI use if required (e.g. "I used Copilot to draft initial bullet points, then revised them based on X, Y, Z")
+
+Using AI to avoid thinking, or submitting AI output as if it were entirely your own work, is still **academic misconduct**.
+
+---
+
+# 5. Designing Integrity-Aware Assignments
+
+Small design changes can make tasks much more resistant to inappropriate AI use while still allowing **transparent, critical use**.
+
+## 5.1 Focus on Process, Not Just Product
+
+- Vulnerable: "Write a 1500-word essay analysing a workplace conflict."
+- Stronger: "Complete a conversation or scenario, then submit: key decisions you made, what you would change, and a short self-audit against provided criteria."
+  → You assess **visible process and reflection**, not just a polished text.
+
+## 5.2 Make Thinking and Judgement Visible
+
+- Vulnerable: "Recommend a solution to this problem."
+- Stronger: "Here are three AI-generated solutions. Critique each one, choose the best (or combination), and explain what the AI has missed or misunderstood for our context."
+  → AI becomes the **starting point**, not the answer.
+
+## 5.3 Use Personal or Local Context
+
+- Vulnerable: generic questions that any AI can answer generically.
+- Stronger: tie tasks to a **specific simulation, placement, previous project, or local context** that students know and can describe in detail.
+  → Generic AI text will not fit well without substantial student adaptation.
+
+## 5.4 Assess Revision and Reflection
+
+- Ask for **first draft + AI feedback (optional) + revised draft + brief reflection** on what changed and why.
+- This makes it hard to present a single opaque output and supports learning about **iterative improvement**.
+
+---
+
+# 6. Quick Red-Flag Checklist
+
+Use these as prompts for supportive follow-up, not automatic accusations.
+
+- Sudden, unexplained jump in quality compared with earlier work
+- Work that **ignores key contextual details** you gave (e.g. wrong jurisdiction)
+- No real evidence of **process or reflection** in a process-based task
+- Student **cannot explain or defend** the submitted work in plain language
+
+Useful follow-up moves:
+
+- Ask the student to **walk you through their thinking** on a specific part
+- Offer a short **oral or written clarification** opportunity
+- Use the situation as a **teaching moment** about checking AI outputs and staying accountable
+
+---
+
+# 7. Your Action Step
+
+Draft or refine a short **AI use statement** for one of your units or team contexts. Use the ideas above to structure it:
+
+1. When AI use is **expected**
+2. When AI use is **permitted**
+3. When AI use is **not permitted**
+4. What students or staff **must do** when they use AI (critical engagement, explanation, data governance)
+5. How this links to **professional integrity** rather than just rule-compliance
+
+Aim for a tone that is **clear, direct, and positive**. The goal is not to scare people away from AI, but to help them use it **transparently, critically, and responsibly**.

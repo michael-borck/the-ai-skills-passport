@@ -1,0 +1,249 @@
+---
+title: "Rubric Adaptation Guide"
+---
+
+> **Copyright Notice:** This document and all materials in this suite are authored by Michael Borck (AI Facilitator, School of Management and Marketing, Curtin University). They are provided for use within Curtin University. External distribution, reproduction, or use outside Curtin University requires explicit written permission.
+
+This guide shows how to adapt the generic rubric template to different AI modalities and disciplines. Start with the template, then customise using examples below.
+
+---
+
+## 1. AI Chatbot Simulations (e.g., Role-Playing Employees)
+
+**Best for:** Business analysis, consulting, auditing, investigative work
+**Example:** CloudCore audit with AI "CFO," "IT Manager," etc.
+
+### Key Customisation
+
+**Rename:** "Critical Engagement with AI" → "Evaluation of AI-Generated Intelligence"
+
+**Excellent Performance Indicators:**
+- Distinguishes between reliable and speculative AI responses
+- Adapts questioning strategy based on source credibility
+- Recognises when AI is operating outside its domain
+- Cross-validates information between multiple AI agents
+- Shows sophisticated prompting (follow-ups, clarifications)
+
+**Excellent Performance Indicators:**
+- Quality of questions asked to AI agents
+- Recognition of inconsistencies between sources
+- Strategic sequencing of interviews/interactions
+
+**Example Rubric Cell (Excellent):**
+> "Demonstrates sophisticated judgement about different AI agents. Clearly explains which sources are reliable for different topics and why. Strategically sequences conversations and asks targeted follow-ups. Cross-validates findings. Recognises when AI is speculating vs. reporting factual information."
+
+---
+
+## 2. LLM as Writing/Research Assistant
+
+**Best for:** Essays, reports, research papers, creative writing
+**Example:** Using ChatGPT/Claude to brainstorm, draft, or research
+
+### Key Customisation
+
+**Rename:** "Critical Engagement with AI" → "Validation & Integration of AI-Generated Content"
+
+**Excellent Performance Indicators:**
+- Verifies factual claims made by LLM
+- Identifies AI hallucinations or overgeneralizations
+- Integrates AI suggestions into own argument, not replacing it
+- Shows evidence of iterative refinement (multiple drafts, prompts)
+- Clearly distinguishes AI-suggested ideas from own thinking
+
+**Example Rubric Cell (Excellent):**
+> "Critically evaluates all LLM outputs before integration. Fact-checks key claims against sources. Uses AI for brainstorming/drafting but substantially refines all output. Clear evidence of multiple prompts and iterative refinement. Distinguishes own analysis from AI suggestions throughout."
+
+**Example Rubric Cell (Developing):**
+> "Accepts LLM output with minimal validation. No evidence that AI claims were fact-checked. Large portions appear to be unedited AI generation. Difficult to distinguish student thinking from AI output."
+
+---
+
+## 3. RAG Systems or AI-Assisted Data Analysis
+
+**Best for:** Data science, research, business analytics
+**Example:** Asking AI to analyse uploaded data/documents
+
+### Key Customisation
+
+**Rename:** "Critical Engagement with AI" → "Understanding & Validating AI Data Interpretation"
+
+**Excellent Performance Indicators:**
+- Understands what data/sources the AI is drawing from
+- Questions AI interpretations; considers alternative explanations
+- Validates AI findings against raw data when possible
+- Recognises limitations of training data or AI knowledge cutoff
+- Acknowledges uncertainty where appropriate
+
+**Example Rubric Cell (Excellent):**
+> "Demonstrates clear understanding of what data the AI analysed and any limitations. Questions AI interpretations and considers alternatives. Where possible, validates findings by inspecting source data. Acknowledges uncertainty and AI knowledge limitations in analysis."
+
+**Weights might shift:**
+- Critical Engagement: 35% (data validation is crucial)
+- Communication: 20% (must explain methodology clearly)
+- Integration of Knowledge: 10% (same)
+
+---
+
+## 4. AI Code Assistant / Programming Helper
+
+**Best for:** Computer science, software engineering
+**Example:** GitHub Copilot, ChatGPT for code generation
+
+### Key Customisation
+
+**Rename:** "Critical Engagement with AI" → "Code Validation & Testing of AI-Generated Solutions"
+
+**Excellent Performance Indicators:**
+- Tests all AI-generated code before integrating
+- Understands logic of generated code; can explain it
+- Recognises when AI solution is inefficient or incorrect
+- Modifies/improves AI output rather than blindly using it
+- Documents which parts were AI-assisted and which were manual
+
+**Example Rubric Cell (Excellent):**
+> "All AI-generated code is tested and understood before use. Student can clearly explain logic and identify potential inefficiencies. Evidence of modification and improvement beyond initial AI output. Clear documentation of AI-assisted vs. manually-written sections."
+
+**Weights might shift:**
+- Critical Engagement: 35% (testing/validation essential)
+- Quality of Inquiry: 15% (different meaning in this context)
+- Communication: 20% (code comments, documentation)
+- Reflective Practice: 10% (how decisions were made)
+
+---
+
+## 5. Multimodal AI (Image Gen, Video Tools, etc.)
+
+**Best for:** Creative fields, design, media studies
+**Example:** DALL-E, Midjourney, or AI video tools
+
+### Key Customisation
+
+**Rename:** "Critical Engagement with AI" → "Creative Direction & Critical Evaluation of AI-Generated Media"
+
+**Excellent Performance Indicators:**
+- Clearly communicates intention to AI (via prompts, iterations)
+- Recognises aesthetic/conceptual limitations of AI output
+- Substantially modifies/refines AI output rather than using as-is
+- Makes intentional creative decisions about when/how to use AI
+- Reflects on AI's role in creative process (complement vs. replacement)
+
+**Example Rubric Cell (Excellent):**
+> "Uses AI strategically through refined, iterative prompting. Critically evaluates aesthetic and conceptual quality. Substantially modifies output to meet artistic vision. Clear evidence that AI is a tool within student's creative direction, not the primary creator."
+
+---
+
+## 6. Discipline-Specific Adjustments
+
+### Business/Management
+**Add/adjust:** "Strategic Application" criterion
+- How well does the AI work connect to business frameworks (SWOT, Porter's, etc.)?
+- Does student consider stakeholder perspectives?
+
+**Example (Excellent):**
+> "AI analysis is framed within recognised business strategy frameworks. Considers multiple stakeholder viewpoints. Recommendations align with organisational strategy and constraints."
+
+### STEM/Sciences
+**Add/adjust:** "Methodological Rigor" criterion
+- Does approach reflect scientific method/disciplinary standards?
+- Are limitations and uncertainties clearly articulated?
+
+**Example (Excellent):**
+> "AI use reflects disciplinary methodology. Limitations are clearly stated. Acknowledges uncertainty where appropriate. Findings are reproducible/verifiable."
+
+### Humanities/Social Sciences
+**Add/adjust:** "Interpretive Depth" criterion
+- Does student engage with multiple perspectives?
+- Are theoretical frameworks applied meaningfully?
+
+**Example (Excellent):**
+> "Engages critically with multiple interpretations. Applies theoretical frameworks with nuance. Acknowledges limitations and alternative readings. Shows intellectual growth."
+
+### Law/Professional Practice
+**Add/adjust:** "Professional Ethics & Accountability" criterion
+- Are ethical implications considered?
+- Is accountability clear?
+
+**Example (Excellent):**
+> "Demonstrates awareness of ethical implications of AI use. Clear about professional accountability. Recognises when AI judgement conflicts with professional standards."
+
+---
+
+## Quick Reference: Weighting by Discipline/Context
+
+| Context | Critical Engagement | Inquiry Quality | Reflection | Communication | Disciplinary Depth |
+|---------|-------------------|-----------------|-----------|---------------|--------------------|
+| Chatbot Simulation | 35% | 25% | 15% | 15% | 10% |
+| LLM Writing Tool | 30% | 15% | 20% | 20% | 15% |
+| Data Analysis | 35% | 20% | 15% | 20% | 10% |
+| Code/Programming | 35% | 15% | 10% | 20% | 20% |
+| Creative/Media | 30% | 20% | 20% | 15% | 15% |
+| *Generic Template* | *30%* | *25%* | *20%* | *15%* | *10%* |
+
+---
+
+## Implementation Checklist
+
+When adapting for your specific assessment:
+
+- [ ] Identify primary AI tool/modality being used
+- [ ] Select relevant descriptor row(s) above
+- [ ] Rename the "Critical Engagement" criterion appropriately
+- [ ] Adjust weights based on context (use Quick Reference as guide)
+- [ ] Customise performance level descriptors with your specific assignment details
+- [ ] Add discipline-specific criterion if needed
+- [ ] Test rubric with 2-3 sample student submissions
+- [ ] Calibrate scoring with colleagues (ensure consistency)
+- [ ] Share rubric with students before assignment begins
+
+---
+
+## Faculty Template: Creating Your Own Variant
+
+**Step 1: Copy the generic template**
+
+**Step 2: Answer these questions:**
+- What AI tool(s) will students actually use?
+- What matters most in your discipline?
+- What would a professional in your field do with AI?
+- What skills do you want students to develop?
+
+**Step 3: Customise in this order:**
+1. Rename criteria to match actual activities
+2. Adjust weights based on importance
+3. Rewrite performance descriptors using examples from your field
+4. Add discipline-specific criterion if generic doesn't capture what matters
+5. Add any specific constraints/requirements (e.g., "code must be tested," "citations required")
+
+**Step 4: Share early with students**
+- Include with assignment briefing
+- Walk through an "Excellent" example
+- Clarify what you mean by critical engagement in your context
+
+---
+
+## Common Mistakes to Avoid
+
+- **Don't:** Make rubric so specific it can't be adapted
+- **Do:** Include adaptability notes and examples
+
+- **Don't:** Ignore the discipline (one-size-fits-all rarely works)
+- **Do:** Customise weights and descriptors to your field
+
+- **Don't:** Focus only on tool efficiency (faster is not better)
+- **Do:** Reward critical thinking about AI, not speed of output
+
+- **Don't:** Punish AI use; incentivize it being hidden
+- **Do:** Make transparency and critical evaluation rewarded behaviours
+
+- **Don't:** Assume all students know how to "prompt well"
+- **Do:** Teach and demonstrate effective AI engagement first
+
+---
+
+## Questions to Ask Before Finalising
+
+- Will this rubric encourage the thinking you want?
+- Can colleagues easily adapt this for their units?
+- Does it make clear what "critical engagement with AI" means in your context?
+- Have you tested it with actual student work?
+- Is the language accessible to students (or does it need translation)?
