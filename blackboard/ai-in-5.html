@@ -1,6 +1,5 @@
-<!-- AI in 5: Subscribe/Unsubscribe -->
+<!-- AI in 5: Weekly Micro-Challenges -->
 <!-- Paste into: AI in 5 sidebar item > Build Content > Item > Toggle HTML Code View -->
-<!-- Replace [SERVER_URL] with your progress tracker URL (e.g. http://10.x.x.x:5050) -->
 <!-- Replace [ARCHIVE_URL] with the past challenges archive page URL -->
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: -8px; padding: 0; background: #1A1A2E;">
@@ -35,25 +34,28 @@
 Weekly AI micro-challenges delivered to your inbox. No prep needed. Just open, try, and learn something new.
 </div>
 
-<!-- Subscribe form, inline, left-aligned -->
-<div style="margin-top: 24px; display: flex; gap: 0; flex-wrap: wrap; max-width: 520px;">
-<input type="email" id="ai5-email" placeholder="your.name@curtin.edu.au"
-  style="flex: 1; min-width: 220px; padding: 12px 16px; background: #16162A; border: 2px solid #2D2D4A; border-right: none; border-radius: 8px 0 0 8px; font-family: inherit; font-size: 1rem; color: #E2E8F0; box-sizing: border-box; outline: none;">
-<button onclick="ai5Subscribe()" id="ai5-sub-btn"
-  style="padding: 12px 28px; background: #6366F1; color: white; border: 2px solid #6366F1; border-radius: 0 8px 8px 0; font-size: 1rem; font-weight: 700; cursor: pointer; font-family: inherit; white-space: nowrap;">Subscribe</button>
+<!-- How it works -->
+<div style="margin-top: 24px; max-width: 520px;">
+<div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 24px;">
+<div style="font-size: 0.75rem; font-weight: 700; color: #6366F1; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px;">How it works</div>
+<div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;">
+<div style="background: #6366F1; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; flex-shrink: 0;">1</div>
+<div style="font-size: 0.95rem; color: #CBD5E1; line-height: 1.5;">You're already enrolled. Challenges arrive in your Curtin email.</div>
 </div>
-
-<!-- Status message -->
-<div id="ai5-msg" style="margin-top: 10px; font-size: 0.9rem; display: none;"></div>
-
-<!-- Unsubscribe as subtle link -->
-<div style="margin-top: 10px;">
-<a href="javascript:void(0)" onclick="ai5Unsubscribe()" style="font-size: 0.8rem; color: #64748B; text-decoration: underline; cursor: pointer;">Unsubscribe from challenges</a>
+<div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;">
+<div style="background: #6366F1; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; flex-shrink: 0;">2</div>
+<div style="font-size: 0.95rem; color: #CBD5E1; line-height: 1.5;">Open the email. Read the challenge. Try it out.</div>
+</div>
+<div style="display: flex; align-items: flex-start; gap: 12px;">
+<div style="background: #6366F1; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; flex-shrink: 0;">3</div>
+<div style="font-size: 0.95rem; color: #CBD5E1; line-height: 1.5;">That's it. Five minutes, one new idea, no homework.</div>
+</div>
+</div>
 </div>
 
 <!-- Decorative icons, right side -->
 <div style="position: absolute; right: 30px; bottom: 28px; text-align: right; opacity: 0.15;">
-<div style="font-size: 4rem; line-height: 1;">⚡</div>
+<div style="font-size: 4rem; line-height: 1;">&#9889;</div>
 </div>
 
 </div>
@@ -63,80 +65,17 @@ Weekly AI micro-challenges delivered to your inbox. No prep needed. Just open, t
 
 <!-- Sample challenge, a dilemma to hook curiosity -->
 <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 24px; margin-bottom: 16px;">
-<div style="font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px;">⚖️ Sample Challenge: Quick Dilemma</div>
+<div style="font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px;">&#9878;&#65039; Sample Challenge: Quick Dilemma</div>
 <div style="font-size: 1.1rem; font-weight: 700; line-height: 1.5; color: #F8FAFC; margin-bottom: 8px;">Your colleague uses AI to write all their student feedback. The comments are detailed, personalised, and helpful, better than what most staff write manually.</div>
 <div style="font-size: 0.95rem; line-height: 1.6; color: #94A3B8;">Is this good practice or a shortcut? Does it matter if students can't tell? Where's the line between using AI as a tool and outsourcing your role?</div>
-<div style="margin-top: 12px; font-size: 0.8rem; color: #64748B;">⏱️ ~5 minutes &nbsp;&bull;&nbsp; No right answer, just your thinking</div>
+<div style="margin-top: 12px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &nbsp;&bull;&nbsp; No right answer, just your thinking</div>
 </div>
 
 <!-- Past challenges link -->
 <div style="text-align: left;">
-<a href="[ARCHIVE_URL]" target="_blank" style="font-size: 0.85rem; font-weight: 600; color: #818CF8; text-decoration: none;">Browse past challenges →</a>
+<a href="[ARCHIVE_URL]" target="_blank" style="font-size: 0.85rem; font-weight: 600; color: #818CF8; text-decoration: none;">Browse past challenges &#8594;</a>
 </div>
 
 </div>
 
 </div>
-
-<script>
-(function() {
-  var SERVER = '[SERVER_URL]';
-
-  function showMsg(text, colour) {
-    var el = document.getElementById('ai5-msg');
-    el.textContent = text;
-    el.style.color = colour;
-    el.style.display = 'block';
-  }
-
-  function getEmail() {
-    var email = document.getElementById('ai5-email').value.trim().toLowerCase();
-    if (!email || email.indexOf('@') === -1) {
-      showMsg('Please enter a valid email address.', '#F87171');
-      return null;
-    }
-    return email;
-  }
-
-  window.ai5Subscribe = function() {
-    var email = getEmail();
-    if (!email) return;
-    var btn = document.getElementById('ai5-sub-btn');
-    btn.textContent = 'Subscribing...';
-    btn.disabled = true;
-    fetch(SERVER + '/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: email })
-    })
-    .then(function(r) { return r.json(); })
-    .then(function() {
-      showMsg('You\'re in! Watch your inbox for weekly challenges.', '#4ADE80');
-      btn.textContent = 'Subscribe';
-      btn.disabled = false;
-    })
-    .catch(function() {
-      showMsg('Could not connect to server. Are you on the Curtin network or VPN?', '#F87171');
-      btn.textContent = 'Subscribe';
-      btn.disabled = false;
-    });
-  };
-
-  window.ai5Unsubscribe = function() {
-    var email = getEmail();
-    if (!email) return;
-    fetch(SERVER + '/unsubscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: email })
-    })
-    .then(function(r) { return r.json(); })
-    .then(function() {
-      showMsg('You\'ve been unsubscribed. You can rejoin any time.', '#94A3B8');
-    })
-    .catch(function() {
-      showMsg('Could not connect to server. Are you on the Curtin network or VPN?', '#F87171');
-    });
-  };
-})();
-</script>
