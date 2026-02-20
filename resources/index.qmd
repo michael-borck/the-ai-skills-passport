@@ -7,10 +7,13 @@ format:
 ---
 
 ```{=html}
-<!-- AI Toolkit — AI Skills Passport Resource Hub -->
+<!-- AI Toolkit: AI Skills Passport Resource Hub -->
 <!-- Searchable reference for frameworks, techniques, templates, and guides -->
 
-<div id="toolkit-app" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 960px; margin: 0 auto; padding: 20px; color: #E2E8F0;">
+<div id="toolkit-app" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 960px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+
+  <!-- Home button -->
+  <a href="https://lms.curtin.edu.au/ultra/organizations/_165323_1/cl/outline" title="Back to AI Skills Passport" style="position: fixed; top: 16px; right: 16px; z-index: 999; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 8px; text-decoration: none; font-size: 1.2rem; color: #94A3B8;">&#8962;</a>
 
   <!-- Header -->
   <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 24px;">
@@ -22,7 +25,7 @@ format:
   <!-- Framing Note -->
   <div style="background: #1E1B4B; border: 1px solid #3730A3; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
     <p style="font-size: 14px; color: #C7D2FE; margin: 0; line-height: 1.6;">
-      <strong style="color: #A5B4FC;">A note on these resources:</strong> These reflect one practitioner's perspective, informed by research, experience, and ongoing experimentation. They're starting points — baselines to work from as you discover your own approach to AI. Where references exist, they're cited; where they don't yet, treat these as discussion starters. Challenge them, adapt them, improve them.
+      <strong style="color: #A5B4FC;">A note on these resources:</strong> These reflect one practitioner's perspective, informed by research, experience, and ongoing experimentation. They're starting points, baselines to work from as you discover your own approach to AI. Where references exist, they're cited; where they don't yet, treat these as discussion starters. Challenge them, adapt them, improve them.
     </p>
   </div>
 
@@ -81,7 +84,7 @@ format:
       summary: 'The foundational mindset for working with AI effectively.',
       content: `
         <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid #4F46E5;">
-          <p style="font-size: 18px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"Delegation develops dependency — you get output but not understanding.<br>Conversation makes you capable — you build understanding along with the output."</p>
+          <p style="font-size: 18px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"Delegation develops dependency. You get output but not understanding.<br>Conversation makes you capable. You build understanding along with the output."</p>
         </div>
 
         <p><strong>The Key Mindset Shift:</strong></p>
@@ -99,25 +102,25 @@ format:
         <p><strong>What This Looks Like in Practice:</strong></p>
         <div style="display: flex; flex-direction: column; gap: 12px; margin: 16px 0;">
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
-            <strong>Brainstorm</strong> with AI — explore possibilities together
+            <strong>Brainstorm</strong> with AI: explore possibilities together
           </div>
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
-            <strong>Iterate</strong> with AI — refine through back-and-forth
+            <strong>Iterate</strong> with AI: refine through back-and-forth
           </div>
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
-            <strong>Question</strong> AI's output — challenge assumptions
+            <strong>Question</strong> AI's output: challenge assumptions
           </div>
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
-            <strong>Evaluate</strong> together — apply your judgement to AI's patterns
+            <strong>Evaluate</strong> together: apply your judgement to AI's patterns
           </div>
         </div>
 
         <p><strong>Process Over Product:</strong></p>
-        <p>Those who obsess over the process — questioning, evaluating, iterating — will always outperform those who just collect AI outputs. Why? Because <strong>judgement can't be delegated to something that's read everything but experienced nothing.</strong></p>
+        <p>Those who obsess over the process, questioning, evaluating, iterating, will always outperform those who just collect AI outputs. Why? Because <strong>judgement can't be delegated to something that's read everything but experienced nothing.</strong></p>
 
         <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
           <strong>The Bottom Line:</strong><br>
-          Value process literacy over output chasing. The goal isn't to get AI to do your work — it's to become more capable yourself, with AI as your thinking partner.
+          Value process literacy over output chasing. The goal isn't to get AI to do your work. It's to become more capable yourself, with AI as your thinking partner.
         </div>
 
         <p style="margin-top: 20px;"><a href="https://michael-borck.github.io/conversation-not-delegation/" target="_blank" style="color: #4F46E5; font-weight: bold;">📖 Read the full book →</a></p>
@@ -171,7 +174,7 @@ Context:
 Please provide this as [FORMAT].</div>
 
         <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
-          <strong>Want more?</strong> The <strong>CRAFT Prompting Framework</strong> extends RTCF with Context, Role, Action, Format, and Tone — plus detailed examples and practice scenarios. Find it below in the Toolkit or download it directly.
+          <strong>Want more?</strong> The <strong>CRAFT Prompting Framework</strong> extends RTCF with Context, Role, Action, Format, and Tone: plus detailed examples and practice scenarios. Find it below in the Toolkit or download it directly.
         </div>
       `
     },
@@ -351,7 +354,7 @@ Then analyse:
         <ol>
           <li><strong>Process Documentation:</strong> Require students to document their process, submit prompts used, explain decisions</li>
           <li><strong>In-Class Components:</strong> Viva voce, in-class synthesis, real-time problem-solving</li>
-          <li><strong>Personal Application:</strong> Connect to student's own experience, require reflection, apply to unique scenarios</li>
+          <li><strong>Personal Application:</strong> Connect to student's own experience, apply to unique scenarios, require lived context AI cannot know</li>
         </ol>
       `
     },
@@ -412,7 +415,7 @@ Please think through this step by step, considering:
       roles: ['teaching', 'research', 'admin'],
       title: 'RE2 Prompting (Re-Reading)',
       emoji: '🔁',
-      summary: 'Improve AI reasoning by repeating the question — simple, evidence-backed, and surprisingly effective.',
+      summary: 'Improve AI reasoning by repeating the question. Simple, evidence-backed, and surprisingly effective.',
       downloads: {
         html: 'downloads/re2-prompting.html',
         docx: 'downloads/re2-prompting.docx',
@@ -423,7 +426,7 @@ Please think through this step by step, considering:
         <div style="background: #16162A; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">Q: [your question]
 
 Read the question again: [your question]</div>
-        <p><strong>Why it works:</strong> LLMs process text left-to-right. The first pass is limited by causal masking — early tokens can't see later ones. When you repeat the question, the second copy can attend to <em>all</em> tokens from the first copy, giving the model full context before answering.</p>
+        <p><strong>Why it works:</strong> LLMs process text left-to-right. The first pass is limited by causal masking: early tokens can't see later ones. When you repeat the question, the second copy can attend to <em>all</em> tokens from the first copy, giving the model full context before answering.</p>
         <p><strong>Evidence:</strong> Validated across 14 benchmarks and 112 experiments. Won 47 of 70 head-to-head tests across GPT-4, Claude, and Gemini with zero losses.</p>
         <p><strong>Combine with Chain of Thought for best results:</strong></p>
         <div style="background: #16162A; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">Q: [your question]
@@ -431,7 +434,7 @@ Read the question again: [your question]</div>
 Read the question again: [your question]
 
 A: Let's think step by step.</div>
-        <p style="color: #64748B; font-style: italic;">One repetition is the sweet spot — additional repeats offer diminishing returns.</p>
+        <p style="color: #64748B; font-style: italic;">One repetition is the sweet spot. Additional repeats offer diminishing returns.</p>
       `
     },
     {
@@ -486,7 +489,7 @@ Now write feedback in my style for:
           • You MUST acknowledge all AI use in your assignments<br>
           • You MUST understand and be able to explain all submitted work<br>
           • You CANNOT replace your own critical thinking with AI output<br><br>
-          View AI as a research assistant or tutor—helpful for learning, but not a substitute for your own understanding.
+          View AI as a research assistant or tutor, helpful for learning, but not a substitute for your own understanding.
         </div>
         <p><strong>Option B: Structured Approach</strong></p>
         <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #F59E0B;">
@@ -535,7 +538,7 @@ Now write feedback in my style for:
           2. Critically evaluate the AI output (submit this evaluation)<br>
           3. Improve and personalise the content with your knowledge<br>
           4. Submit both the original AI output and your final version<br>
-          5. Include a 200-word reflection on how AI helped and hindered
+          5. Submit your full AI conversation transcript alongside your final version
         </div>
       `
     },
@@ -551,7 +554,7 @@ Now write feedback in my style for:
         <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin: 16px 0;">
           Subject: Re: AI Use in [Unit Name]<br><br>
           Hi [Student],<br><br>
-          Thanks for asking—it shows you're thinking carefully about academic integrity.<br><br>
+          Thanks for asking. It shows you're thinking carefully about academic integrity.<br><br>
           For this unit, you can use AI tools like ChatGPT for:<br>
           - Brainstorming and exploring ideas<br>
           - Understanding difficult concepts<br>
@@ -608,14 +611,14 @@ Now write feedback in my style for:
       summary: 'Why more autonomous AI requires more human judgement, not less.',
       content: `
         <div style="background: linear-gradient(135deg, #3D2E0A, #4A3510); padding: 20px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid #F59E0B;">
-          <p style="font-size: 17px; font-style: italic; margin: 0; color: #FCD34D; line-height: 1.6;">"The irony of agentic AI is that the more autonomous these systems become, the more critical human judgement gets — not less."</p>
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #FCD34D; line-height: 1.6;">"The irony of agentic AI is that the more autonomous these systems become, the more critical human judgement gets, not less."</p>
         </div>
 
         <p><strong>What is Agentic AI?</strong></p>
-        <p>AI systems that can take autonomous actions — browsing the web, writing and running code, managing workflows, making decisions in sequence. They don't just respond to prompts; they pursue goals.</p>
+        <p>AI systems that can take autonomous actions: browsing the web, writing and running code, managing workflows, making decisions in sequence. They don't just respond to prompts; they pursue goals.</p>
 
         <p><strong>The Paradox:</strong></p>
-        <p>As AI becomes more capable of autonomous action, human roles don't disappear — they shift:</p>
+        <p>As AI becomes more capable of autonomous action, human roles don't disappear. They shift:</p>
 
         <div style="display: flex; flex-direction: column; gap: 12px; margin: 16px 0;">
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px; display: flex; align-items: flex-start; gap: 12px;">
@@ -685,7 +688,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'The Human Element',
       emoji: '🌟',
-      summary: 'Why AI makes people more valuable, not less — Jevons Paradox, the university survival story, and the human premium.',
+      summary: 'Why AI makes people more valuable, not less. Jevons Paradox, the university survival story, and the human premium.',
       downloads: {
         html: 'downloads/human-element.html',
         docx: 'downloads/human-element.docx',
@@ -693,13 +696,13 @@ Now write feedback in my style for:
       },
       content: `
         <p>The biggest unspoken fear about AI: <strong>will it make us irrelevant?</strong></p>
-        <p>History says no — and the economics explain why. This guide brings together:</p>
+        <p>History says no, and the economics explain why. This guide brings together:</p>
         <ul>
-          <li><strong>The Radiologist Fallacy</strong> — Why predictions of job replacement keep being wrong</li>
-          <li><strong>Jevons Paradox</strong> — When technology makes work cheaper, demand for it <em>increases</em></li>
-          <li><strong>The University Survival Story</strong> — Online courses, MOOCs, and every other technology that was supposed to kill universities… didn't</li>
-          <li><strong>The Two Sigma Opportunity</strong> — How AI could give every student personalised tutoring (Sal Khan's vision)</li>
-          <li><strong>The Human Premium</strong> — Judgement, ethical reasoning, relationships, creativity, and contextual understanding</li>
+          <li><strong>The Radiologist Fallacy</strong>: Why predictions of job replacement keep being wrong</li>
+          <li><strong>Jevons Paradox</strong>: When technology makes work cheaper, demand for it <em>increases</em></li>
+          <li><strong>The University Survival Story</strong>: Online courses, MOOCs, and every other technology that was supposed to kill universities… didn't</li>
+          <li><strong>The Two Sigma Opportunity</strong>: How AI could give every student personalised tutoring (Sal Khan's vision)</li>
+          <li><strong>The Human Premium</strong>: Judgement, ethical reasoning, relationships, creativity, and contextual understanding</li>
         </ul>
         <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin: 16px 0; border-left: 4px solid #4F46E5;">
           <p style="font-size: 17px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"The human element isn't the part AI replaces. It's the part AI makes essential."</p>
@@ -713,7 +716,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'Cognitive Offload and the "AI Makes Us Dumber" Question',
       emoji: '🧠',
-      summary: 'Does AI reduce critical thinking? The honest answer — metacognitive laziness, hybrid intelligence, and why pedagogy determines everything.',
+      summary: 'Does AI reduce critical thinking? The honest answer: metacognitive laziness, hybrid intelligence, and why pedagogy determines everything.',
       downloads: {
         html: 'downloads/cognitive-offload.html',
         docx: 'downloads/cognitive-offload.docx',
@@ -721,15 +724,15 @@ Now write feedback in my style for:
       },
       content: `
         <div style="background: linear-gradient(135deg, #3D2E0A, #4A3510); padding: 20px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid #F59E0B;">
-          <p style="font-size: 17px; font-style: italic; margin: 0; color: #FCD34D; line-height: 1.6;">"AI doesn't make us dumber. But it does make it easier to be dumber — to coast, to accept, to stop thinking."</p>
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #FCD34D; line-height: 1.6;">"AI doesn't make us dumber. But it does make it easier to be dumber, to coast, to accept, to stop thinking."</p>
         </div>
-        <p>This guide addresses the strongest argument against AI in education — honestly, without dismissing legitimate concerns:</p>
+        <p>This guide addresses the strongest argument against AI in education, honestly, without dismissing legitimate concerns:</p>
         <ul>
-          <li><strong>Metacognitive laziness</strong> — The real risk: students stop monitoring their own thinking</li>
-          <li><strong>Learning differently ≠ learning less</strong> — Engagement with material is learning, even if it doesn't look like how you learned</li>
-          <li><strong>Hybrid intelligence</strong> — The future is symbiotic human-AI thinking, not unaided cognition vs. AI dependence</li>
-          <li><strong>Pedagogy determines everything</strong> — The same AI tool can deepen or weaken learning; design makes the difference</li>
-          <li><strong>What to actually worry about</strong> — Loss of productive struggle, illusion of understanding, foundational skill erosion</li>
+          <li><strong>Metacognitive laziness</strong>: The real risk: students stop monitoring their own thinking</li>
+          <li><strong>Learning differently ≠ learning less</strong>: Engagement with material is learning, even if it doesn't look like how you learned</li>
+          <li><strong>Hybrid intelligence</strong>: The future is symbiotic human-AI thinking, not unaided cognition vs. AI dependence</li>
+          <li><strong>Pedagogy determines everything</strong>: The same AI tool can deepen or weaken learning; design makes the difference</li>
+          <li><strong>What to actually worry about</strong>: Loss of productive struggle, illusion of understanding, foundational skill erosion</li>
         </ul>
         <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
           <strong>The bottom line:</strong> Cognitive offload isn't the enemy. Cognitive abdication is. And the difference is pedagogy.
@@ -947,10 +950,10 @@ Now write feedback in my style for:
 
         <p><strong>What's Included:</strong></p>
         <ul>
-          <li><strong>Getting Started Guide</strong> — Philosophy and overview</li>
-          <li><strong>Generic Rubric Template</strong> — 5 criteria × 4 levels, ready to adapt</li>
-          <li><strong>Adaptation Guide</strong> — Customising for your discipline and AI tools</li>
-          <li><strong>Worked Example</strong> — Information security audit case study</li>
+          <li><strong>Getting Started Guide</strong>: Philosophy and overview</li>
+          <li><strong>Generic Rubric Template</strong>: 5 criteria × 4 levels, ready to adapt</li>
+          <li><strong>Adaptation Guide</strong>: Customising for your discipline and AI tools</li>
+          <li><strong>Worked Example</strong>: Information security audit case study</li>
         </ul>
 
         <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin: 16px 0;">
@@ -969,7 +972,7 @@ Now write feedback in my style for:
           <a href="downloads/rubric-adaptation-guide.html" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 13px;">Adaptation Guide</a>
           <a href="downloads/rubric-example-cloudcore.html" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 13px;">Worked Example</a>
         </div>
-        <p style="font-size: 13px; color: #64748B;">Also available as DOCX — see individual rubric entries below for all download formats.</p>
+        <p style="font-size: 13px; color: #64748B;">Also available as DOCX. See individual rubric entries below for all download formats.</p>
       `
     },
 
@@ -1031,7 +1034,7 @@ Now write feedback in my style for:
             <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">prompt engineering techniques</span>
           </a>
         </div>
-        <p style="font-size: 13px; color: #64748B;"><strong>Note:</strong> arXiv papers are pre-prints — not yet peer-reviewed. Great for cutting-edge ideas, but verify claims.</p>
+        <p style="font-size: 13px; color: #64748B;"><strong>Note:</strong> arXiv papers are pre-prints: not yet peer-reviewed. Great for cutting-edge ideas, but verify claims.</p>
       `
     },
     {
@@ -1074,7 +1077,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'Conversation, Not Delegation (Book)',
       emoji: '📕',
-      summary: 'Mastering Human-AI Development — the full methodology.',
+      summary: 'Mastering Human-AI Development: the full methodology.',
       content: `
         <p><strong>By Michael Borck</strong></p>
         <p>The complete guide to the "Conversation, Not Delegation" methodology. This book presents a framework for integrating AI tools into your work while maintaining human oversight and developing genuine capability.</p>
@@ -1098,7 +1101,7 @@ Now write feedback in my style for:
       roles: ['teaching'],
       title: 'Partner, Don\'t Police (Book)',
       emoji: '📗',
-      summary: 'AI in the Business Classroom — a practical guide for educators.',
+      summary: 'AI in the Business Classroom: a practical guide for educators.',
       content: `
         <p><strong>By Michael Borck</strong></p>
         <p>A practical guide for educators on integrating AI into teaching, featuring examples from multiple business disciplines. Built around the principle of "transparency over prohibition."</p>
@@ -1144,18 +1147,18 @@ Now write feedback in my style for:
             <span style="color: #4ADE80; font-size: 13px;">US higher ed technology research and resources</span>
           </a>
         </div>
-        <p style="font-size: 13px; color: #64748B;">These sites are actively maintained — bookmark them for ongoing updates.</p>
+        <p style="font-size: 13px; color: #64748B;">These sites are actively maintained. Bookmark them for ongoing updates.</p>
       `
     },
 
-    // DOWNLOADABLE RESOURCES — Prompting & Frameworks
+    // DOWNLOADABLE RESOURCES: Prompting & Frameworks
     {
       id: 'dl-craft-framework',
       category: 'framework',
       roles: ['teaching', 'research', 'admin'],
       title: 'CRAFT Prompting Framework',
       emoji: '🛠️',
-      summary: 'The complete CRAFT framework: Context, Role, Action, Format, and Tone — with examples and practice scenarios.',
+      summary: 'The complete CRAFT framework: Context, Role, Action, Format, and Tone. Includes examples and practice scenarios.',
       downloads: {
         html: 'downloads/craft-prompting-framework.html',
         docx: 'downloads/craft-prompting-framework.docx',
@@ -1165,23 +1168,23 @@ Now write feedback in my style for:
         <p>A comprehensive prompting framework that extends RTCF with five components:</p>
         <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
           <tr style="background: #1E1E36;">
-            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">C — Context</td>
+            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">C: Context</td>
             <td style="padding: 10px; border: 1px solid #2D2D4A;">Background information, constraints, audience</td>
           </tr>
           <tr>
-            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">R — Role</td>
+            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">R: Role</td>
             <td style="padding: 10px; border: 1px solid #2D2D4A;">Who should the AI act as?</td>
           </tr>
           <tr style="background: #1E1E36;">
-            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">A — Action</td>
+            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">A: Action</td>
             <td style="padding: 10px; border: 1px solid #2D2D4A;">Specific task to perform</td>
           </tr>
           <tr>
-            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">F — Format</td>
+            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">F: Format</td>
             <td style="padding: 10px; border: 1px solid #2D2D4A;">Desired output structure</td>
           </tr>
           <tr style="background: #1E1E36;">
-            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">T — Tone</td>
+            <td style="padding: 10px; border: 1px solid #2D2D4A; font-weight: bold;">T: Tone</td>
             <td style="padding: 10px; border: 1px solid #2D2D4A;">Voice and register</td>
           </tr>
         </table>
@@ -1194,7 +1197,7 @@ Now write feedback in my style for:
       roles: ['teaching'],
       title: 'Seven Essential Prompt Techniques',
       emoji: '7️⃣',
-      summary: 'Seven pedagogical prompting techniques for classroom use — from Socratic questioning to scenario simulation.',
+      summary: 'Seven pedagogical prompting techniques for classroom use, from Socratic questioning to scenario simulation.',
       downloads: {
         html: 'downloads/seven-techniques.html',
         docx: 'downloads/seven-techniques.docx',
@@ -1203,13 +1206,13 @@ Now write feedback in my style for:
       content: `
         <p>A downloadable reference covering seven techniques designed for teaching contexts:</p>
         <ol>
-          <li><strong>Socratic Questioning</strong> — Guide discovery through questions</li>
-          <li><strong>Scaffolded Complexity</strong> — Build understanding progressively</li>
-          <li><strong>Perspective Taking</strong> — Explore multiple viewpoints</li>
-          <li><strong>Error Analysis</strong> — Learn from deliberate mistakes</li>
-          <li><strong>Metacognitive Reflection</strong> — Think about thinking</li>
-          <li><strong>Collaborative Problem-Solving</strong> — Work with AI as a partner</li>
-          <li><strong>Transfer Application</strong> — Apply learning to new contexts</li>
+          <li><strong>Socratic Questioning</strong>: Guide discovery through questions</li>
+          <li><strong>Scaffolded Complexity</strong>: Build understanding progressively</li>
+          <li><strong>Perspective Taking</strong>: Explore multiple viewpoints</li>
+          <li><strong>Error Analysis</strong>: Learn from deliberate mistakes</li>
+          <li><strong>Metacognitive Reflection</strong>: Think about thinking</li>
+          <li><strong>Collaborative Problem-Solving</strong>: Work with AI as a partner</li>
+          <li><strong>Transfer Application</strong>: Apply learning to new contexts</li>
         </ol>
         <p>Each technique includes purpose, template prompts, and classroom examples.</p>
       `
@@ -1220,7 +1223,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'Prompt Chaining Techniques',
       emoji: '⛓️',
-      summary: 'Build complex AI workflows by chaining prompts together — decomposition, sequential refinement, and validation.',
+      summary: 'Build complex AI workflows by chaining prompts together: decomposition, sequential refinement, and validation.',
       downloads: {
         html: 'downloads/prompt-chaining.html',
         docx: 'downloads/prompt-chaining.docx',
@@ -1229,10 +1232,10 @@ Now write feedback in my style for:
       content: `
         <p>Learn to break complex tasks into prompt sequences for better results:</p>
         <ul>
-          <li><strong>Task Decomposition</strong> — Split large tasks into focused steps</li>
-          <li><strong>Sequential Refinement</strong> — Each prompt builds on the last</li>
-          <li><strong>Validation Chains</strong> — Use AI to check its own work</li>
-          <li><strong>Multi-Perspective Chains</strong> — Analyse from different angles</li>
+          <li><strong>Task Decomposition</strong>: Split large tasks into focused steps</li>
+          <li><strong>Sequential Refinement</strong>: Each prompt builds on the last</li>
+          <li><strong>Validation Chains</strong>: Use AI to check its own work</li>
+          <li><strong>Multi-Perspective Chains</strong>: Analyse from different angles</li>
         </ul>
         <p>Includes practical examples: research literature review chains, assessment design chains, and administrative workflow chains.</p>
       `
@@ -1253,7 +1256,7 @@ Now write feedback in my style for:
         <p>AI tools have limited "memory" within a conversation. This guide covers:</p>
         <ul>
           <li><strong>What context windows are</strong> and why they matter</li>
-          <li><strong>Signs of context loss</strong> — how to spot when AI forgets</li>
+          <li><strong>Signs of context loss</strong>: how to spot when AI forgets</li>
           <li><strong>Practical strategies:</strong> summarise-and-restart, structured context blocks, reference documents</li>
           <li><strong>When to start fresh</strong> vs. continue a conversation</li>
         </ul>
@@ -1266,7 +1269,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'Strategic Prompting Guide',
       emoji: '🎯',
-      summary: 'Advanced techniques: risk deep-dives, reverse prompting, AI debate — for when basic prompting isn\'t enough.',
+      summary: 'Advanced techniques: risk deep-dives, reverse prompting, AI debate, for when basic prompting isn\'t enough.',
       downloads: {
         html: 'downloads/strategic-prompting-guide.html',
         docx: 'downloads/strategic-prompting-guide.docx',
@@ -1276,13 +1279,13 @@ Now write feedback in my style for:
         <p>Go beyond basic prompting with three advanced strategies:</p>
         <div style="display: flex; flex-direction: column; gap: 12px; margin: 16px 0;">
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
-            <strong>Risk Deep-Dive</strong> — Systematic risk analysis using AI as a stress-testing partner
+            <strong>Risk Deep-Dive</strong>: Systematic risk analysis using AI as a stress-testing partner
           </div>
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
-            <strong>Reverse Prompting</strong> — Let AI interview you before it advises you
+            <strong>Reverse Prompting</strong>: Let AI interview you before it advises you
           </div>
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
-            <strong>AI Debate</strong> — Generate competing arguments to strengthen your thinking
+            <strong>AI Debate</strong>: Generate competing arguments to strengthen your thinking
           </div>
         </div>
         <p>Each technique includes step-by-step instructions and ready-to-use prompt templates.</p>
@@ -1294,7 +1297,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'Prompt Engineering Worksheet',
       emoji: '📋',
-      summary: 'Six hands-on practice scenarios for building prompt engineering skills — from basic to advanced.',
+      summary: 'Six hands-on practice scenarios for building prompt engineering skills, from basic to advanced.',
       downloads: {
         html: 'downloads/prompt-engineering-worksheet.html',
         docx: 'downloads/prompt-engineering-worksheet.docx',
@@ -1303,25 +1306,25 @@ Now write feedback in my style for:
       content: `
         <p>A practical worksheet with six progressive exercises:</p>
         <ol>
-          <li><strong>The Basics</strong> — Write a clear, specific prompt</li>
-          <li><strong>Adding Context</strong> — Incorporate audience and constraints</li>
-          <li><strong>Role Assignment</strong> — Set the AI's expertise</li>
-          <li><strong>Format Control</strong> — Specify output structure</li>
-          <li><strong>Iterative Refinement</strong> — Improve through follow-ups</li>
-          <li><strong>Prompt Chaining</strong> — Link prompts for complex tasks</li>
+          <li><strong>The Basics</strong>: Write a clear, specific prompt</li>
+          <li><strong>Adding Context</strong>: Incorporate audience and constraints</li>
+          <li><strong>Role Assignment</strong>: Set the AI's expertise</li>
+          <li><strong>Format Control</strong>: Specify output structure</li>
+          <li><strong>Iterative Refinement</strong>: Improve through follow-ups</li>
+          <li><strong>Prompt Chaining</strong>: Link prompts for complex tasks</li>
         </ol>
         <p>Each scenario includes a worked example and space for your own practice. Print-friendly format.</p>
       `
     },
 
-    // DOWNLOADABLE RESOURCES — Assessment & Rubrics
+    // DOWNLOADABLE RESOURCES: Assessment & Rubrics
     {
       id: 'dl-rubric-getting-started',
       category: 'template',
       roles: ['teaching'],
       title: 'Rubric Suite: Getting Started',
       emoji: '📊',
-      summary: 'Introduction to the AI-integrated assessment rubric suite — philosophy, structure, and how to use it.',
+      summary: 'Introduction to the AI-integrated assessment rubric suite: philosophy, structure, and how to use it.',
       downloads: {
         html: 'downloads/rubric-getting-started.html',
         docx: 'downloads/rubric-getting-started.docx',
@@ -1398,7 +1401,7 @@ Now write feedback in my style for:
         pdf: 'downloads/rubric-example-cloudcore.pdf'
       },
       content: `
-        <p>A fully worked example showing how the rubric applies to a real assessment scenario — the CloudCore information security audit case study.</p>
+        <p>A fully worked example showing how the rubric applies to a real assessment scenario, the CloudCore information security audit case study.</p>
         <ul>
           <li>The assessment brief and context</li>
           <li>How each criterion maps to the task</li>
@@ -1409,14 +1412,14 @@ Now write feedback in my style for:
       `
     },
 
-    // DOWNLOADABLE RESOURCES — Ethics & Governance
+    // DOWNLOADABLE RESOURCES: Ethics & Governance
     {
       id: 'dl-ethics-integrity',
       category: 'guide',
       roles: ['teaching', 'research', 'admin'],
       title: 'Ethics, Data Governance & Integrity',
       emoji: '⚖️',
-      summary: 'Navigate AI ethics, data privacy, and academic integrity — with practical decision frameworks.',
+      summary: 'Navigate AI ethics, data privacy, and academic integrity, with practical decision frameworks.',
       downloads: {
         html: 'downloads/ethics-integrity.html',
         docx: 'downloads/ethics-integrity.docx',
@@ -1425,11 +1428,11 @@ Now write feedback in my style for:
       content: `
         <p>A comprehensive guide to the ethical dimensions of AI use in higher education:</p>
         <ul>
-          <li><strong>Ethical Frameworks</strong> — Applying ethical principles to AI decisions</li>
-          <li><strong>Data Privacy</strong> — What data AI tools collect and how to protect sensitive information</li>
-          <li><strong>Academic Integrity</strong> — Defining appropriate AI use, disclosure requirements</li>
-          <li><strong>Bias and Fairness</strong> — Recognising and mitigating AI bias</li>
-          <li><strong>Institutional Policy</strong> — Aligning with university guidelines</li>
+          <li><strong>Ethical Frameworks</strong>: Applying ethical principles to AI decisions</li>
+          <li><strong>Data Privacy</strong>: What data AI tools collect and how to protect sensitive information</li>
+          <li><strong>Academic Integrity</strong>: Defining appropriate AI use, disclosure requirements</li>
+          <li><strong>Bias and Fairness</strong>: Recognising and mitigating AI bias</li>
+          <li><strong>Institutional Policy</strong>: Aligning with university guidelines</li>
         </ul>
         <p>Includes a practical decision tree for common ethical dilemmas.</p>
       `
@@ -1440,7 +1443,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'Secure & Sustainable AI Use',
       emoji: '🔒',
-      summary: 'Practical security and sustainability guidance — protecting data, managing costs, and using AI responsibly.',
+      summary: 'Practical security and sustainability guidance: protecting data, managing costs, and using AI responsibly.',
       downloads: {
         html: 'downloads/secure-sustainable-ai.html',
         docx: 'downloads/secure-sustainable-ai.docx',
@@ -1449,23 +1452,23 @@ Now write feedback in my style for:
       content: `
         <p>Essential guidance for using AI tools safely and sustainably:</p>
         <ul>
-          <li><strong>Data Security</strong> — What not to paste into AI tools, anonymisation techniques</li>
-          <li><strong>Account Security</strong> — Protecting your AI accounts and API keys</li>
-          <li><strong>Cost Management</strong> — Understanding token costs and managing budgets</li>
-          <li><strong>Environmental Impact</strong> — The computational cost of AI and how to use it thoughtfully</li>
-          <li><strong>Institutional Compliance</strong> — Meeting university security requirements</li>
+          <li><strong>Data Security</strong>: What not to paste into AI tools, anonymisation techniques</li>
+          <li><strong>Account Security</strong>: Protecting your AI accounts and API keys</li>
+          <li><strong>Cost Management</strong>: Understanding token costs and managing budgets</li>
+          <li><strong>Environmental Impact</strong>: The computational cost of AI and how to use it thoughtfully</li>
+          <li><strong>Institutional Compliance</strong>: Meeting university security requirements</li>
         </ul>
       `
     },
 
-    // DOWNLOADABLE RESOURCES — Teaching & Pedagogy
+    // DOWNLOADABLE RESOURCES: Teaching & Pedagogy
     {
       id: 'dl-teaching-strategies',
       category: 'guide',
       roles: ['teaching'],
       title: 'Teaching Strategies Handout',
       emoji: '📚',
-      summary: 'Practical strategies for integrating AI into your teaching — from quick wins to deeper pedagogical shifts.',
+      summary: 'Practical strategies for integrating AI into your teaching, from quick wins to deeper pedagogical shifts.',
       downloads: {
         html: 'downloads/teaching-strategies-handout.html',
         docx: 'downloads/teaching-strategies-handout.docx',
@@ -1474,10 +1477,10 @@ Now write feedback in my style for:
       content: `
         <p>A concise handout covering practical teaching strategies:</p>
         <ul>
-          <li><strong>Quick Wins</strong> — AI applications you can try this week</li>
-          <li><strong>Classroom Activities</strong> — Structured exercises for teaching with AI</li>
-          <li><strong>Assessment Redesign</strong> — Making assessments AI-resilient</li>
-          <li><strong>Student Skills</strong> — Building student AI literacy alongside content knowledge</li>
+          <li><strong>Quick Wins</strong>: AI applications you can try this week</li>
+          <li><strong>Classroom Activities</strong>: Structured exercises for teaching with AI</li>
+          <li><strong>Assessment Redesign</strong>: Making assessments AI-resilient</li>
+          <li><strong>Student Skills</strong>: Building student AI literacy alongside content knowledge</li>
         </ul>
         <p>Designed to be printed and kept as a desk reference.</p>
       `
@@ -1488,7 +1491,7 @@ Now write feedback in my style for:
       roles: ['teaching'],
       title: 'Cognitive Prompting in Education',
       emoji: '🧩',
-      summary: 'Use prompting techniques rooted in cognitive science — retrieval practice, elaboration, interleaving, and more.',
+      summary: 'Use prompting techniques rooted in cognitive science: retrieval practice, elaboration, interleaving, and more.',
       downloads: {
         html: 'downloads/cognitive-prompting.html',
         docx: 'downloads/cognitive-prompting.docx',
@@ -1497,11 +1500,11 @@ Now write feedback in my style for:
       content: `
         <p>Apply cognitive science principles through AI prompting:</p>
         <ul>
-          <li><strong>Retrieval Practice</strong> — AI-generated quizzes and self-testing</li>
-          <li><strong>Elaborative Interrogation</strong> — "Why does this work?" prompts</li>
-          <li><strong>Interleaving</strong> — Mixing problem types for deeper learning</li>
-          <li><strong>Dual Coding</strong> — Combining verbal and visual representations</li>
-          <li><strong>Spaced Practice</strong> — Using AI to create distributed review schedules</li>
+          <li><strong>Retrieval Practice</strong>: AI-generated quizzes and self-testing</li>
+          <li><strong>Elaborative Interrogation</strong>: "Why does this work?" prompts</li>
+          <li><strong>Interleaving</strong>: Mixing problem types for deeper learning</li>
+          <li><strong>Dual Coding</strong>: Combining verbal and visual representations</li>
+          <li><strong>Spaced Practice</strong>: Using AI to create distributed review schedules</li>
         </ul>
         <p>Each technique includes the cognitive science rationale, prompt templates, and classroom applications.</p>
       `
@@ -1520,7 +1523,7 @@ Now write feedback in my style for:
       },
       content: `
         <p>The one thing AI can do that other tools can't: <strong>teach you how to use itself.</strong></p>
-        <p>This guide introduces meta-prompting — using AI to diagnose your needs before it advises you. Includes:</p>
+        <p>This guide introduces meta-prompting, using AI to diagnose your needs before it advises you. Includes:</p>
         <ul>
           <li>A ready-to-paste <strong>consultation prompt</strong> for any AI tool</li>
           <li>Role-specific variations (educators, researchers, professional staff)</li>
@@ -1531,14 +1534,14 @@ Now write feedback in my style for:
       `
     },
 
-    // DOWNLOADABLE RESOURCES — Professional & Foundational
+    // DOWNLOADABLE RESOURCES: Professional & Foundational
     {
       id: 'dl-professional-staff',
       category: 'guide',
       roles: ['admin'],
       title: 'AI for Professional Staff',
       emoji: '⚙️',
-      summary: 'AI strategies tailored for administrative and professional roles — workflows, communication, and process improvement.',
+      summary: 'AI strategies tailored for administrative and professional roles: workflows, communication, and process improvement.',
       downloads: {
         html: 'downloads/ai-for-professional-staff.html',
         docx: 'downloads/ai-for-professional-staff.docx',
@@ -1547,11 +1550,11 @@ Now write feedback in my style for:
       content: `
         <p>AI guidance specifically for professional and administrative staff:</p>
         <ul>
-          <li><strong>Email & Communication</strong> — Drafting, summarising, translating policy into plain language</li>
-          <li><strong>Process Improvement</strong> — Identifying automation opportunities in admin workflows</li>
-          <li><strong>Meeting Support</strong> — Agenda preparation, minutes, action items</li>
-          <li><strong>Data & Reporting</strong> — Using AI to analyse and present data</li>
-          <li><strong>Knowledge Management</strong> — Creating FAQs, guides, and self-service resources</li>
+          <li><strong>Email & Communication</strong>: Drafting, summarising, translating policy into plain language</li>
+          <li><strong>Process Improvement</strong>: Identifying automation opportunities in admin workflows</li>
+          <li><strong>Meeting Support</strong>: Agenda preparation, minutes, action items</li>
+          <li><strong>Data & Reporting</strong>: Using AI to analyse and present data</li>
+          <li><strong>Knowledge Management</strong>: Creating FAQs, guides, and self-service resources</li>
         </ul>
         <p>Includes role-specific prompt templates for common professional staff tasks.</p>
       `
@@ -1562,7 +1565,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'AI Critique Toolkit',
       emoji: '🔍',
-      summary: 'Systematic approaches for critically evaluating AI output — bias detection, fact-checking, and quality assessment.',
+      summary: 'Systematic approaches for critically evaluating AI output: bias detection, fact-checking, and quality assessment.',
       downloads: {
         html: 'downloads/critique-toolkit.html',
         docx: 'downloads/critique-toolkit.docx',
@@ -1571,11 +1574,11 @@ Now write feedback in my style for:
       content: `
         <p>A toolkit for systematically evaluating AI-generated content:</p>
         <ul>
-          <li><strong>The VERIFY Framework</strong> — A structured approach to checking AI output</li>
-          <li><strong>Bias Detection</strong> — Identifying common AI biases and blind spots</li>
-          <li><strong>Fact-Checking Strategies</strong> — Efficient verification techniques</li>
-          <li><strong>Quality Rubric</strong> — Rating AI output across multiple dimensions</li>
-          <li><strong>Common Failure Modes</strong> — What AI typically gets wrong and why</li>
+          <li><strong>The VERIFY Framework</strong>: A structured approach to checking AI output</li>
+          <li><strong>Bias Detection</strong>: Identifying common AI biases and blind spots</li>
+          <li><strong>Fact-Checking Strategies</strong>: Efficient verification techniques</li>
+          <li><strong>Quality Rubric</strong>: Rating AI output across multiple dimensions</li>
+          <li><strong>Common Failure Modes</strong>: What AI typically gets wrong and why</li>
         </ul>
         <p>Complements the Verification Mindset framework with hands-on evaluation tools.</p>
       `
@@ -1586,7 +1589,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'What is AI?',
       emoji: '🤖',
-      summary: 'A clear, jargon-free introduction to artificial intelligence — what it is, what it isn\'t, and why it matters now.',
+      summary: 'A clear, jargon-free introduction to artificial intelligence: what it is, what it isn\'t, and why it matters now.',
       downloads: {
         html: 'downloads/what-is-ai.html',
         docx: 'downloads/what-is-ai.docx',
@@ -1597,7 +1600,7 @@ Now write feedback in my style for:
         <ul>
           <li>What AI actually is (and isn't)</li>
           <li>Key concepts: machine learning, neural networks, generative AI</li>
-          <li>A brief history — from rule-based systems to large language models</li>
+          <li>A brief history, from rule-based systems to large language models</li>
           <li>Why AI has changed so dramatically in the last few years</li>
           <li>What this means for higher education</li>
         </ul>
@@ -1610,7 +1613,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'What are LLMs?',
       emoji: '💬',
-      summary: 'How large language models work — tokens, training, context windows, and why they sometimes get things wrong.',
+      summary: 'How large language models work: tokens, training, context windows, and why they sometimes get things wrong.',
       downloads: {
         html: 'downloads/what-are-llms.html',
         docx: 'downloads/what-are-llms.docx',
@@ -1619,11 +1622,11 @@ Now write feedback in my style for:
       content: `
         <p>Understand the technology behind ChatGPT, Claude, Gemini, and Copilot:</p>
         <ul>
-          <li><strong>How LLMs work</strong> — Pattern prediction, not understanding</li>
-          <li><strong>Tokens and context</strong> — What limits AI conversations</li>
-          <li><strong>Training data</strong> — Where AI knowledge comes from (and its gaps)</li>
-          <li><strong>Hallucination</strong> — Why AI confidently says wrong things</li>
-          <li><strong>Practical implications</strong> — How understanding the technology makes you a better user</li>
+          <li><strong>How LLMs work</strong>: Pattern prediction, not understanding</li>
+          <li><strong>Tokens and context</strong>: What limits AI conversations</li>
+          <li><strong>Training data</strong>: Where AI knowledge comes from (and its gaps)</li>
+          <li><strong>Hallucination</strong>: Why AI confidently says wrong things</li>
+          <li><strong>Practical implications</strong>: How understanding the technology makes you a better user</li>
         </ul>
         <p>Builds on "What is AI?" with a deeper focus on the specific technology you're using every day.</p>
       `
@@ -1634,7 +1637,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'The AI Landscape: Which Tool Do I Need?',
       emoji: '🗺️',
-      summary: 'ChatGPT vs Claude vs Gemini vs Copilot, open-source models, NotebookLM, image/video/music AI — and why the prompt matters more than the tool.',
+      summary: 'ChatGPT vs Claude vs Gemini vs Copilot, open-source models, NotebookLM, image/video/music AI. The prompt matters more than the tool.',
       downloads: {
         html: 'downloads/ai-landscape.html',
         docx: 'downloads/ai-landscape.docx',
@@ -1642,15 +1645,15 @@ Now write feedback in my style for:
       },
       content: `
         <p><strong>Feeling overwhelmed by AI tools?</strong> Start here.</p>
-        <p>Every AI tool is built on the same foundation — the prompt. Learn to prompt well, and the tools become interchangeable.</p>
+        <p>Every AI tool is built on the same foundation: the prompt. Learn to prompt well, and the tools become interchangeable.</p>
         <p>This guide covers:</p>
         <ul>
-          <li><strong>Chat providers compared</strong> — ChatGPT, Claude, Gemini, Copilot: strengths and personalities</li>
-          <li><strong>Model tiers</strong> — Frontier vs free, and why you probably don't need the latest model</li>
-          <li><strong>Specialised tools</strong> — NotebookLM, image/music/video AI, coding assistants</li>
-          <li><strong>Running AI locally</strong> — Ollama, LM Studio, and open-source models for privacy</li>
-          <li><strong>Use case recommendations</strong> — Tables for teaching, research, professional staff, and students</li>
-          <li><strong>Data governance reminder</strong> — Use enterprise versions for work data</li>
+          <li><strong>Chat providers compared</strong>: ChatGPT, Claude, Gemini, Copilot: strengths and personalities</li>
+          <li><strong>Model tiers</strong>: Frontier vs free, and why you probably don't need the latest model</li>
+          <li><strong>Specialised tools</strong>: NotebookLM, image/music/video AI, coding assistants</li>
+          <li><strong>Running AI locally</strong>: Ollama, LM Studio, and open-source models for privacy</li>
+          <li><strong>Use case recommendations</strong>: Tables for teaching, research, professional staff, and students</li>
+          <li><strong>Data governance reminder</strong>: Use enterprise versions for work data</li>
         </ul>
         <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
           <strong>On FOMO:</strong> The goal is to amplify your thinking, not chase benchmarks. A thoughtful conversation with a "lesser" model will outperform a lazy prompt to the most advanced model every time.
@@ -1663,7 +1666,7 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'Copilot & Agent Setup Guide',
       emoji: '🚀',
-      summary: 'Step-by-step setup guide for Microsoft Copilot and AI agents — including custom instructions and privacy settings.',
+      summary: 'Step-by-step setup guide for Microsoft Copilot and AI agents, including custom instructions and privacy settings.',
       downloads: {
         html: 'downloads/copilot-agent-setup-guide.html',
         docx: 'downloads/copilot-agent-setup-guide.docx',
@@ -1672,35 +1675,35 @@ Now write feedback in my style for:
       content: `
         <p>Get started with Microsoft Copilot and AI agents:</p>
         <ul>
-          <li><strong>Copilot Setup</strong> — Access, licensing, and configuration</li>
-          <li><strong>Custom Instructions</strong> — Setting up persistent context and preferences</li>
-          <li><strong>Privacy Settings</strong> — Controlling data sharing and retention</li>
-          <li><strong>AI Agents</strong> — What they are and how to configure them</li>
-          <li><strong>Integration Tips</strong> — Connecting Copilot with Word, Excel, Teams, and Outlook</li>
+          <li><strong>Copilot Setup</strong>: Access, licensing, and configuration</li>
+          <li><strong>Custom Instructions</strong>: Setting up persistent context and preferences</li>
+          <li><strong>Privacy Settings</strong>: Controlling data sharing and retention</li>
+          <li><strong>AI Agents</strong>: What they are and how to configure them</li>
+          <li><strong>Integration Tips</strong>: Connecting Copilot with Word, Excel, Teams, and Outlook</li>
         </ul>
         <p>Includes screenshots and step-by-step instructions for the most common setup tasks.</p>
       `
     },
 
-    // APPS — Coming Soon
+    // APPS: Coming Soon
     {
       id: 'app-prompt-tester',
       category: 'app',
       roles: ['teaching', 'research', 'admin'],
       title: 'BYOK Prompt Tester',
       emoji: '🧪',
-      summary: 'Test and compare prompts using your own API key — no data leaves your browser.',
+      summary: 'Test and compare prompts using your own API key. No data leaves your browser.',
       comingSoon: true,
       content: `
         <p>A browser-based prompt testing tool that uses your own API key:</p>
         <ul>
-          <li><strong>Bring Your Own Key (BYOK)</strong> — Uses your personal API key, no middleman</li>
-          <li><strong>Privacy-First</strong> — All processing happens in your browser</li>
-          <li><strong>Compare Outputs</strong> — Test the same prompt across different models</li>
-          <li><strong>Save & Share</strong> — Export prompt templates for colleagues</li>
+          <li><strong>Bring Your Own Key (BYOK)</strong>: Uses your personal API key, no middleman</li>
+          <li><strong>Privacy-First</strong>: All processing happens in your browser</li>
+          <li><strong>Compare Outputs</strong>: Test the same prompt across different models</li>
+          <li><strong>Save & Share</strong>: Export prompt templates for colleagues</li>
         </ul>
         <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
-          <strong>Coming Soon</strong> — This tool is currently in development. Check back for updates.
+          <strong>Coming Soon</strong>: This tool is currently in development. Check back for updates.
         </div>
       `
     },
@@ -1710,18 +1713,18 @@ Now write feedback in my style for:
       roles: ['teaching', 'research', 'admin'],
       title: 'Privacy-First AI Chat',
       emoji: '🛡️',
-      summary: 'Browser-based AI chat where no data leaves your machine — ideal for sensitive content.',
+      summary: 'Browser-based AI chat where no data leaves your machine, ideal for sensitive content.',
       comingSoon: true,
       content: `
         <p>A fully browser-based AI chat interface designed for privacy-sensitive work:</p>
         <ul>
-          <li><strong>Zero Data Transfer</strong> — Runs entirely in your browser using on-device models</li>
-          <li><strong>No Account Required</strong> — No sign-up, no tracking, no logs</li>
-          <li><strong>Sensitive Content Safe</strong> — Process student data, research drafts, or HR documents locally</li>
-          <li><strong>Offline Capable</strong> — Works without internet after initial load</li>
+          <li><strong>Zero Data Transfer</strong>: Runs entirely in your browser using on-device models</li>
+          <li><strong>No Account Required</strong>: No sign-up, no tracking, no logs</li>
+          <li><strong>Sensitive Content Safe</strong>: Process student data, research drafts, or HR documents locally</li>
+          <li><strong>Offline Capable</strong>: Works without internet after initial load</li>
         </ul>
         <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
-          <strong>Coming Soon</strong> — This tool is currently in development. Check back for updates.
+          <strong>Coming Soon</strong>: This tool is currently in development. Check back for updates.
         </div>
       `
     }

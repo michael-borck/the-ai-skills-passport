@@ -8,13 +8,13 @@ title: "AI-Integrated Assessment Rubric Suite: Getting Started"
 
 ## What You're Getting
 
-This rubric suite is designed to help academic staff integrate AI into assessment in ways that develop student **critical thinking**, **professional judgement**, and **ethical AI literacy**—not just faster tool use.
+This rubric suite is designed to help academic staff integrate AI into assessment in ways that develop student **critical thinking**, **professional judgement**, and **ethical AI literacy**, not just faster tool use.
 
 Three complementary documents:
 
-1. **AI_Integrated_Assessment_Rubric_Template.md** — Generic framework adaptable to any AI-supported assessment
-2. **AI_Audit_CloudCore_Specific_Rubric.md** — Specific example: information security audit with AI chatbots
-3. **Adaptation_Guide_For_Different_AI_Tools.md** — How to customise for different AI modalities (LLMs, RAG, code assistants, etc.)
+1. **AI_Integrated_Assessment_Rubric_Template.md**: Generic framework adaptable to any AI-supported assessment
+2. **AI_Audit_CloudCore_Specific_Rubric.md**: Specific example: information security audit with AI chatbots
+3. **Adaptation_Guide_For_Different_AI_Tools.md**: How to customise for different AI modalities (LLMs, RAG, code assistants, etc.)
 
 ---
 
@@ -35,7 +35,7 @@ Three complementary documents:
   - Students should learn to evaluate AI outputs, not just generate them quickly
 
 - **Transparency is an integrity measure, not a compliance burden**
-  - Documenting AI use (and reflection on it) is a valued skill
+  - Documenting AI use (via conversation transcripts) is a valued skill
 
 - **AI as "junior intern" is the right metaphor**
   - Students are responsible for all outputs; AI is a tool they must manage
@@ -62,7 +62,7 @@ What will students actually use?
 ### Step 2: Start with the Template
 **Use:** `AI_Integrated_Assessment_Rubric_Template.md`
 
-This is intentionally generic—five criteria, simple 4-level scoring. Works as-is for most contexts, but expect to customise.
+This is intentionally generic: five criteria, simple 4-level scoring. Works as-is for most contexts, but expect to customise.
 
 ### Step 3: Customise
 **Use:** `Adaptation_Guide_For_Different_AI_Tools.md`
@@ -81,8 +81,8 @@ Find your AI modality, see the customisation guidance, adjust weights/descriptor
 ### "Critical Engagement with AI" as Primary Criterion (30%)
 **Why?** This is the differentiator. Any tool can generate fast output; critical evaluation is the skill worth rewarding. This should be your unit's competitive advantage over generic assignment templates.
 
-### Reflection & Accountability Weighted (20%)
-**Why?** Reflection (especially honest reflection on what AI got wrong) is where students develop judgement. Accountability ensures integrity.
+### Conversation Quality & Accountability Weighted (20%)
+**Why?** The quality of the AI conversation, whether students challenged, refined, and steered the interaction, is where they develop judgement. Accountability ensures integrity. Note: written reflections are easily AI-generated, but a genuine conversation transcript is much harder to fake.
 
 ### Discipline-Specific Integration (10%)
 **Why?** Keeps rubric grounded. Students should connect AI engagement to *your* field, not just use generic tools.
@@ -97,7 +97,7 @@ Find your AI modality, see the customisation guidance, adjust weights/descriptor
 Different assessment types (exam, report, project, presentation) might weight criteria differently.
 
 ### "What if students don't have access to specific AI tools?"
-**Good question.** This rubric works with any AI tool. The core skill—critical evaluation—is tool-agnostic. If students use Claude instead of ChatGPT, or different simulation software, the rubric still applies.
+**Good question.** This rubric works with any AI tool. The core skill, critical evaluation, is tool-agnostic. If students use Claude instead of ChatGPT, or different simulation software, the rubric still applies.
 
 Customise the language to match what they actually have access to.
 
@@ -106,16 +106,16 @@ Customise the language to match what they actually have access to.
 1. Apply your version to 2-3 sample student submissions (real or imagined)
 2. Does it feel fair? Can you consistently score with it?
 3. Does it reward the behaviours you want?
-4. Share with colleagues—do they understand the criteria?
+4. Share with colleagues. Do they understand the criteria?
 
 ### "What about academic integrity concerns?"
 **This rubric is built on integrity principles:**
 - Transparency is required, not penalized
 - Critical thinking about AI (including saying "this output was wrong") is valued
 - Accountability is explicit
-- Reflection exposes when students are genuinely engaging vs. just using shortcuts
+- Conversation transcripts expose when students are genuinely engaging vs. just delegating
 
-If you see undeclared AI use, the rubric criteria (especially Reflection) make it visible.
+If you see undeclared AI use, the rubric criteria (especially Conversation Quality) make it visible.
 
 ---
 
@@ -133,14 +133,14 @@ Include:
 - Which rubric criteria apply
 - What tools students will (and won't) have access to
 - Examples of good prompting/questioning
-- How reflection should be documented
+- How AI conversation transcripts should be submitted
 - Academic integrity expectations (with transparency as the core principle)
 
 ### During Marking
-- Look for evidence in student transcripts/reflections: Can you see their thinking?
+- Look for evidence in student conversation transcripts: Can you see their thinking?
+- Look for conversation, not delegation: did they challenge, refine, and follow up?
 - Note whether students validated AI outputs
 - Credit iterative refinement as highly as final product
-- If reflection is honest (including failures), that's excellent performance
 
 ### After Marking
 - Calibrate with colleagues using this rubric
@@ -194,7 +194,7 @@ These rubrics are intentionally **not** pixel-perfect. They're designed to be ad
 - Add discipline-specific criteria
 - Use different language to match your unit culture
 
-That's not "violating" the rubric—that's **using it correctly**. The framework is the value; the specific words are your choice.
+That's not "violating" the rubric. That's **using it correctly**. The framework is the value; the specific words are your choice.
 
 ---
 
@@ -215,4 +215,4 @@ If the answer is yes, you're ready to use it.
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

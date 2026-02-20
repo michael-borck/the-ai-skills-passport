@@ -107,7 +107,7 @@ This guide shows how to adapt the generic rubric template to different AI modali
 - Critical Engagement: 35% (testing/validation essential)
 - Quality of Inquiry: 15% (different meaning in this context)
 - Communication: 20% (code comments, documentation)
-- Reflective Practice: 10% (how decisions were made)
+- Conversation Quality: 10% (how decisions were made)
 
 ---
 
@@ -125,7 +125,7 @@ This guide shows how to adapt the generic rubric template to different AI modali
 - Recognises aesthetic/conceptual limitations of AI output
 - Substantially modifies/refines AI output rather than using as-is
 - Makes intentional creative decisions about when/how to use AI
-- Reflects on AI's role in creative process (complement vs. replacement)
+- Conversation transcript shows iterative creative direction (complement vs. replacement)
 
 **Example Rubric Cell (Excellent):**
 > "Uses AI strategically through refined, iterative prompting. Critically evaluates aesthetic and conceptual quality. Substantially modifies output to meet artistic vision. Clear evidence that AI is a tool within student's creative direction, not the primary creator."
@@ -170,7 +170,7 @@ This guide shows how to adapt the generic rubric template to different AI modali
 
 ## Quick Reference: Weighting by Discipline/Context
 
-| Context | Critical Engagement | Inquiry Quality | Reflection | Communication | Disciplinary Depth |
+| Context | Critical Engagement | Inquiry Quality | Conversation Quality | Communication | Disciplinary Depth |
 |---------|-------------------|-----------------|-----------|---------------|--------------------|
 | Chatbot Simulation | 35% | 25% | 15% | 15% | 10% |
 | LLM Writing Tool | 30% | 15% | 20% | 20% | 15% |
@@ -251,4 +251,4 @@ When adapting for your specific assessment:
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

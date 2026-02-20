@@ -158,7 +158,7 @@ Small design changes can make tasks much more resistant to inappropriate AI use 
 
 - Vulnerable: "Write a 1500-word essay analysing a workplace conflict."
 - Stronger: "Complete a conversation or scenario, then submit: key decisions you made, what you would change, and a short self-audit against provided criteria."
-  → You assess **visible process and reflection**, not just a polished text.
+  → You assess **visible process and conversation quality**, not just a polished text.
 
 ## 5.2 Make Thinking and Judgement Visible
 
@@ -172,10 +172,11 @@ Small design changes can make tasks much more resistant to inappropriate AI use 
 - Stronger: tie tasks to a **specific simulation, placement, previous project, or local context** that students know and can describe in detail.
   → Generic AI text will not fit well without substantial student adaptation.
 
-## 5.4 Assess Revision and Reflection
+## 5.4 Assess the Conversation, Not Just the Product
 
-- Ask for **first draft + AI feedback (optional) + revised draft + brief reflection** on what changed and why.
-- This makes it hard to present a single opaque output and supports learning about **iterative improvement**.
+- Ask students to submit **full AI conversation transcripts** alongside their work, with brief annotations pointing to key moments where they steered or refined the output.
+- This makes the thinking visible in the interaction pattern itself. AI can write convincing reflections, but a genuine iterative conversation is much harder to fake.
+- Frame the expectation upfront: **"I'm looking for conversation, not delegation."**
 
 ---
 
@@ -185,7 +186,7 @@ Use these as prompts for supportive follow-up, not automatic accusations.
 
 - Sudden, unexplained jump in quality compared with earlier work
 - Work that **ignores key contextual details** you gave (e.g. wrong jurisdiction)
-- No real evidence of **process or reflection** in a process-based task
+- No real evidence of **genuine AI conversation** in a process-based task
 - Student **cannot explain or defend** the submitted work in plain language
 
 Useful follow-up moves:
@@ -211,4 +212,4 @@ Aim for a tone that is **clear, direct, and positive**. The goal is not to scare
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

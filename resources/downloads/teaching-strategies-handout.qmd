@@ -37,10 +37,10 @@ title: "Teaching Strategies: Integrating AI Thoughtfully"
 **AI-Aware Assessment Options:**
 
 **Option A: Process Documentation**
-- Submit AI conversation transcript
-- Annotate where AI was wrong/limited
-- Reflection on how human expertise improved output
+- Submit full AI conversation transcript
+- Annotate key moments where you steered, challenged, or refined the AI's output
 - Final submission shows evolution of thinking
+- Frame as "conversation, not delegation"
 
 **Option B: In-Class Components**
 - AI-generated draft submitted before class
@@ -97,7 +97,7 @@ title: "Teaching Strategies: Integrating AI Thoughtfully"
 > - You MUST verify all AI-generated content
 > - You CANNOT submit unedited AI content as your own work
 >
-> Think of AI as a research assistant—helpful but requiring supervision. Your learning comes from evaluating and improving AI output, not from the output itself.
+> Think of AI as a research assistant, helpful but requiring supervision. Your learning comes from evaluating and improving AI output, not from the output itself.
 
 ### Disclosure Examples
 
@@ -117,7 +117,7 @@ title: "Teaching Strategies: Integrating AI Thoughtfully"
 **Strategies:**
 - Require hand-written components
 - Add oral examinations
-- Include reflection on process
+- Require submission of AI conversation transcripts (look for conversation, not delegation)
 - Focus on application to specific contexts
 
 ### When Students Fear Using AI
@@ -158,7 +158,7 @@ title: "Teaching Strategies: Integrating AI Thoughtfully"
 - Focus: Strategic tool selection
 
 ### Synthesis (Final Weeks)
-- Reflect on AI's role in learning
+- Review AI conversation transcripts from the semester
 - Evaluate impact on understanding
 - Focus: Meta-cognitive awareness
 
@@ -178,7 +178,7 @@ Draft rubric with AI, modify for course objectives
 ### Thursday: Student Support
 Use AI to create study guides, add personal expertise
 
-### Friday: Reflection
+### Friday: Review
 Document what worked, adjust for next week
 
 ---
@@ -259,11 +259,11 @@ Document what worked, adjust for next week
 
 ## Final Reminders
 
-- **You don't need to be an AI expert** — You need to be a learning expert
-- **Perfect is the enemy of good** — Small experiments are valuable
-- **Students are already using AI** — Better to guide than ignore
-- **Your expertise matters more, not less** — AI makes human judgement crucial
-- **Focus on learning outcomes** — Tools change, objectives remain
+- **You don't need to be an AI expert**. You need to be a learning expert
+- **Perfect is the enemy of good**. Small experiments are valuable
+- **Students are already using AI**. Better to guide than ignore
+- **Your expertise matters more, not less**. AI makes human judgement crucial
+- **Focus on learning outcomes**. Tools change, objectives remain
 
 ---
 
@@ -280,4 +280,4 @@ Document what worked, adjust for next week
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*
