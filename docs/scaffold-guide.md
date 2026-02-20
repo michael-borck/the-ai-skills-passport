@@ -1,17 +1,17 @@
 # Blackboard Scaffold Guide
 
-**Blackboard Classic/Original — Organisation Site**
+**Blackboard Classic/Original, Organisation Site**
 
-Blackboard is just a shell — authentication, announcements, and a launch point. All real content lives in SPAs that open in new tabs.
+Blackboard is just a shell: authentication, announcements, and a launch point. All real content lives in SPAs that open in new tabs.
 
 ---
 
 ## Design Philosophy
 
-- **Minimal Blackboard footprint** — we're migrating to Canvas late 2026
-- **SPAs do the heavy lifting** — rich, interactive, platform-independent
-- **Arrivals Hall is the hub** — one beautiful landing page, not a cluttered sidebar
-- **3 sidebar items only** — clean, purposeful, not typical LMS clutter
+- **Minimal Blackboard footprint**, we're migrating to Canvas late 2026
+- **SPAs do the heavy lifting**, rich, interactive, platform-independent
+- **Arrivals Hall is the hub**, one beautiful landing page, not a cluttered sidebar
+- **6 sidebar items**, clean, purposeful, not typical LMS clutter
 
 ---
 
@@ -21,7 +21,10 @@ Blackboard is just a shell — authentication, announcements, and a launch point
 
 **Add only these Content Areas:**
 1. The Arrivals Hall
-2. My Passport
+2. AI Toolkit
+3. My Passport
+4. Contact
+5. About
 
 **Rename Announcements** → **AI in 5**
 (Sidebar chevron → Rename Link)
@@ -31,15 +34,18 @@ Customisation → Teaching Style → Select Entry Point → "The Arrivals Hall"
 
 ---
 
-## Step 2: Final Sidebar (3 items only)
+## Step 2: Final Sidebar (6 items)
 
 ```
 The Arrivals Hall    ← entry point, the hub for everything
 AI in 5              ← daily micro-challenges (Announcements)
+AI Toolkit           ← frameworks, templates & guides
 My Passport          ← badge progress, motivation
+Contact              ← get in touch with the AI Facilitator
+About                ← initiative info, acknowledgements, copyright
 ```
 
-That's it. Everything else is accessed via links in The Arrivals Hall.
+Experiences are accessed via links in The Arrivals Hall, not the sidebar.
 
 ---
 
@@ -138,7 +144,7 @@ If group features aren't available on Organisation sites:
 Student Preview mode:
 
 - [ ] Lands on The Arrivals Hall
-- [ ] Only 3 sidebar items visible
+- [ ] Only 6 sidebar items visible
 - [ ] Arrivals Hall looks polished (not like typical Blackboard)
 - [ ] All experience links open SPAs in new tabs
 - [ ] Find Your Path quiz works
@@ -154,8 +160,11 @@ Student Preview mode:
 |-----------|----------|-----|
 | Arrivals Hall | Blackboard Item (embedded HTML) | Entry point, always visible |
 | AI in 5 | Blackboard Announcements | Email delivery, daily engagement |
+| AI Toolkit | Link to SPA | Quick access to frameworks and guides |
 | My Passport | Link to SPA | Sidebar visibility for motivation |
-| Everything else | SPAs via Arrivals Hall links | Rich UX, platform-independent |
+| Contact | Blackboard Item (embedded HTML) | Easy access to the AI Facilitator |
+| About | Blackboard Item (embedded HTML) | Initiative info, acknowledgements, copyright |
+| Experiences | SPAs via Arrivals Hall links | Rich UX, platform-independent |
 
 ---
 
@@ -163,7 +172,7 @@ Student Preview mode:
 
 When moving to Canvas (late 2026):
 
-1. SPAs don't change — just re-upload HTML files
+1. SPAs don't change. Just re-upload HTML files
 2. Create new landing page (paste arrivals-hall.html)
 3. Update URLs in arrivals-hall.html
 4. Set up announcement equivalent for AI in 5

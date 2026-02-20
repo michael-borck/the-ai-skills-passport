@@ -6,12 +6,12 @@ title: "Conversation, Not Delegation"
 
 There are two ways to use AI:
 
-1. **Delegation** — "Do this for me."
-2. **Conversation** — "Think with me."
+1. **Delegation**, "Do this for me."
+2. **Conversation**, "Think with me."
 
 The difference matters more than most people realise.
 
-**Delegation develops dependency.** You get output, but not understanding. You collect answers without building the capacity to evaluate them. Over time, you become less capable, not more — because you've outsourced the thinking, not just the typing.
+**Delegation develops dependency.** You get output, but not understanding. You collect answers without building the capacity to evaluate them. Over time, you become less capable, not more, because you've outsourced the thinking, not just the typing.
 
 **Conversation makes you capable.** You build understanding *along with* the output. You learn to ask better questions, spot weaknesses in reasoning, and develop judgement about what's good enough and what needs more work.
 
@@ -29,7 +29,7 @@ The goal isn't to get AI to do your work. It's to become more capable yourself, 
 | Measures success by speed | Measures success by understanding |
 | Builds dependency | Builds capability |
 
-Most people start with the delegation mindset. It's natural — AI is fast, and getting a quick answer feels productive. But the people who get the most value from AI are those who treat it as a conversation partner, not an assistant.
+Most people start with the delegation mindset. It's natural. AI is fast, and getting a quick answer feels productive. But the people who get the most value from AI are those who treat it as a conversation partner, not an assistant.
 
 ---
 
@@ -53,7 +53,7 @@ First output is a draft, not a deliverable. The value is in the refinement.
 
 Then:
 
-> "Good points. Let me revise based on your feedback. Here's version 2 — what's better and what still needs work?"
+> "Good points. Let me revise based on your feedback. Here's version 2. What's better and what still needs work?"
 
 ### Question AI's Output
 
@@ -76,13 +76,13 @@ Use AI to help you develop your own evaluation criteria, then apply your judgeme
 
 Here's the deeper principle:
 
-**Those who obsess over the process — questioning, evaluating, iterating — will always outperform those who just collect AI outputs.**
+**Those who obsess over the process, questioning, evaluating, iterating, will always outperform those who just collect AI outputs.**
 
 Why? Because judgement can't be delegated to something that's read everything but experienced nothing.
 
 AI has patterns. You have context. AI has breadth. You have stakes. AI can generate options. You decide which options matter.
 
-The people who treat AI as a shortcut to the product miss this entirely. They get faster output but shallower understanding. Over time, they lose the very skills that make them valuable — critical thinking, contextual judgement, the ability to evaluate quality.
+The people who treat AI as a shortcut to the product miss this entirely. They get faster output but shallower understanding. Over time, they lose the very skills that make them valuable, critical thinking, contextual judgement, the ability to evaluate quality.
 
 The people who treat AI as a thinking partner get both: better output *and* deeper understanding. They're learning to value **process literacy over output chasing**.
 
@@ -102,12 +102,12 @@ Not every task benefits from AI. Process-literate people ask:
 
 ### 2. Structuring the Conversation
 
-Effective AI conversations have shape. They're not random queries — they build on each other:
+Effective AI conversations have shape. They're not random queries. They build on each other:
 
-1. **Set the context** — Give AI what it needs to be useful
-2. **Explore the space** — Generate options, perspectives, and approaches
-3. **Evaluate and refine** — Challenge, improve, and iterate
-4. **Synthesise** — Pull together the best elements with your own judgement
+1. **Set the context**: Give AI what it needs to be useful
+2. **Explore the space**: Generate options, perspectives, and approaches
+3. **Evaluate and refine**: Challenge, improve, and iterate
+4. **Synthesise**: Pull together the best elements with your own judgement
 
 ### 3. Maintaining Ownership
 
@@ -156,7 +156,7 @@ That's a conversation, not delegation. Apply the same approach to AI.
 
 ### The Speed Trap
 
-"AI gave me an answer in 10 seconds — why would I spend 30 minutes iterating?"
+"AI gave me an answer in 10 seconds. Why would I spend 30 minutes iterating?"
 
 Because the 10-second answer is generic. The 30-minute conversation produces something that fits your context, has been stress-tested, and that you actually understand. Speed without understanding is just faster mediocrity.
 
@@ -174,7 +174,7 @@ Because "better" depends on context, and context is exactly what AI lacks. AI ge
 
 "I'm being more productive by delegating to AI."
 
-Are you? Or are you producing more stuff of lower quality? Productivity isn't about volume — it's about impact. One well-crafted document beats ten AI-generated ones that nobody reads.
+Are you? Or are you producing more stuff of lower quality? Productivity isn't about volume. It's about impact. One well-crafted document beats ten AI-generated ones that nobody reads.
 
 ---
 
@@ -185,7 +185,7 @@ Are you? Or are you producing more stuff of lower quality? Productivity isn't ab
 - Use AI to brainstorm assessment ideas, then refine with your pedagogical expertise
 - Have AI generate examples, then evaluate them with your knowledge of your students
 - Use AI to stress-test your rubrics, then apply your judgement about what matters
-- Model this process for students — show them *how* you work with AI, not just *what* AI produces
+- Model this process for students. Show them *how* you work with AI, not just *what* AI produces
 
 ### For Research
 
@@ -211,13 +211,13 @@ Are you? Or are you producing more stuff of lower quality? Productivity isn't ab
 
 3. **Practice the evaluation habit.** After every AI interaction, ask yourself: "Do I understand this well enough to explain it without AI?"
 
-4. **Model the process.** If you work with students or colleagues, show them how you iterate with AI — not just the final output.
+4. **Model the process.** If you work with students or colleagues, show them how you iterate with AI, not just the final output.
 
 ---
 
 ## Further Reading
 
-For a deeper exploration of the Conversation, Not Delegation methodology — including a structured six-step process and worked examples — see the full book:
+For a deeper exploration of the Conversation, Not Delegation methodology, including a structured six-step process and worked examples, see the full book:
 
 [Conversation, Not Delegation: Mastering Human-AI Development](https://michael-borck.github.io/conversation-not-delegation/)
 
@@ -238,4 +238,4 @@ The choice compounds over time. Every conversation builds your judgement. Every 
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*

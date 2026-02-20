@@ -1,18 +1,18 @@
 # The AI Skills Passport 🛂
 
-**Professional development for AI literacy — School of Marketing and Management, Curtin University**
+**Professional development for AI literacy. School of Marketing and Management, Curtin University**
 
 The AI Skills Passport is a flexible, self-paced program that builds AI literacy across teaching academics, researchers, and administrative staff. Five standalone learning experiences, no prerequisites, start anywhere.
 
 ## How It Works
 
-**Blackboard** is the launcher — a menu of links and daily micro-challenges via email.
+**Blackboard** is the launcher: a menu of links and daily micro-challenges via email.
 
-**Interactive SPAs** are the learning — standalone web apps that open in new tabs, rich and interactive.
+**Interactive SPAs** are the learning: standalone web apps that open in new tabs, rich and interactive.
 
-**Progress Tracker** records completions — SPAs report progress, My Passport shows your badges.
+**Progress Tracker** records completions. SPAs report progress, My Passport shows your badges.
 
-**The AI Exchange** connects people — a voluntary registry where staff discover and discuss AI use cases.
+**The AI Exchange** connects people: a voluntary registry where staff discover and discuss AI use cases.
 
 ## The Five Experiences
 
@@ -26,19 +26,19 @@ The AI Skills Passport is a flexible, self-paced program that builds AI literacy
 
 ## Additional Components
 
-- **Find Your Path** — 2-minute onboarding quiz to recommend your starting point
-- **AI Toolkit** — Searchable reference library (frameworks, techniques, templates)
-- **My Passport** — Track progress and collect badges
-- **AI in 5** — Daily 5-minute micro-challenges via email
+- **Find Your Path**, 2-minute onboarding quiz to recommend your starting point
+- **AI Toolkit**, searchable reference library (frameworks, techniques, templates)
+- **My Passport**, track progress and collect badges
+- **AI in 5**, daily 5-minute micro-challenges via email
 
 ## Pacing Options
 
-All options use the same content — just different rhythms:
+All options use the same content, just different rhythms:
 
-- **Self-Paced** — work through SPAs at your own speed
-- **AI in 5** — 5-minute daily challenge in your inbox
-- **Weekly** — one experience per week for five weeks
-- **Workshop** — 2-hour face-to-face guided session
+- **Self-Paced**, work through SPAs at your own speed
+- **AI in 5**, 5-minute daily challenge in your inbox
+- **Weekly**, one experience per week for five weeks
+- **Workshop**, 2-hour face-to-face guided session
 
 ## Project Structure
 
@@ -99,7 +99,7 @@ See `docs/deployment-guide.md` for full instructions:
 
 ## Related Projects
 
-- **[The AI Exchange](https://github.com/michael-borck/the-ai-exchange)** — AI use case registry (FastAPI + React)
+- **[The AI Exchange](https://github.com/michael-borck/the-ai-exchange)**, AI use case registry (FastAPI + React)
 
 ## Tech Stack
 
@@ -109,7 +109,7 @@ See `docs/deployment-guide.md` for full instructions:
 
 ## Author
 
-**Michael Borck** — AI Facilitator, School of Marketing and Management, Curtin University
+**Michael Borck**, AI Facilitator, School of Marketing and Management, Curtin University
 
 ## License
 

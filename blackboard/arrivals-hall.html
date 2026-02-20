@@ -1,4 +1,4 @@
-<!-- THE ARRIVALS HALL — AI Skills Passport Landing Page -->
+<!-- THE ARRIVALS HALL: AI Skills Passport Landing Page -->
 <!-- Paste into: The Arrivals Hall > Build Content > Item > Toggle HTML Code View -->
 
 <!-- URL PLACEHOLDERS - Replace these with your Blackboard URLs before pasting:
@@ -8,15 +8,39 @@
      [EXP3_URL]       = Rules of Engagement
      [EXP4_URL]       = AI-Proof Your Assessments
      [EXP5_URL]       = Working with AI
-     [EXP6_URL]       = AI in Your Research
+     [EXP6_URL]       = Researching with AI
+     [EXP7_URL]       = Working with Copilot
      [TOOLKIT_URL]    = AI Toolkit (Resources)
      [PASSPORT_URL]   = My Passport
      [EXCHANGE_URL]   = The AI Exchange (external app, no uid needed)
+
+     NAVIGATION PLACEHOLDERS (sidebar content area URLs):
+     https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115334_1&course_id=_165323_1&mode=reset   = The Arrivals Hall
+     https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset        = AI in 5
+     https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118388_1&course_id=_165323_1&mode=reset    = AI Toolkit
+     https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115320_1&course_id=_165323_1&mode=reset   = My Passport
+     https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118391_1&course_id=_165323_1&mode=reset    = Contact
+     https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118598_1&course_id=_165323_1&mode=reset      = About
 
      The @X@user.batch_uid@X@ is a Blackboard variable that inserts the user's ID
 -->
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: -8px; padding: 0; background: #1A1A2E; color: #E2E8F0;">
+
+<!-- ===== NAVIGATION ===== -->
+<div style="position: relative; text-align: right; padding: 12px 20px 0;">
+<div onclick="var m=this.nextElementSibling;m.style.display=m.style.display==='block'?'none':'block'" style="display: inline-block; cursor: pointer; padding: 8px 10px; border-radius: 6px; background: #16162A; border: 1px solid #2D2D4A;">
+<span style="font-size: 1.2rem; color: #94A3B8;">&#9776;</span>
+</div>
+<div style="display: none; position: absolute; right: 20px; top: 48px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; min-width: 200px; z-index: 999; overflow: hidden;">
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115334_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #FBBF24; font-weight: 700; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">&#9656; The Arrivals Hall</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">AI in 5</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118388_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">AI Toolkit</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115320_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">My Passport</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118391_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Contact</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118598_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none;">About</a>
+</div>
+</div>
 
 <!-- ===== HERO SECTION ===== -->
 <div style="padding: 40px 36px 36px; position: relative; overflow: hidden;">
@@ -30,7 +54,7 @@
 
 <!-- Tagline -->
 <div style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin-top: 16px; max-width: 520px;">
-Six standalone experiences to build your AI literacy. No prerequisites, no fixed order — pick what matters to you and dive in.
+Seven standalone experiences to build your AI literacy. No prerequisites, no fixed order. Pick what matters to you and dive in.
 </div>
 
 <!-- Find Your Path CTA -->
@@ -45,9 +69,9 @@ Six standalone experiences to build your AI literacy. No prerequisites, no fixed
 
 </div>
 
-<!-- ===== THE SIX EXPERIENCES ===== -->
+<!-- ===== CORE EXPERIENCES ===== -->
 <details style="padding: 24px 36px 8px; border-top: 1px solid #2D2D4A;">
-<summary style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; cursor: pointer; list-style: none;">&#9656; The Experiences</summary>
+<summary style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; cursor: pointer; list-style: none;">&#9656; Core Experiences</summary>
 <div style="margin-top: 16px;"></div>
 
 <table width="100%" cellpadding="0" cellspacing="10" border="0">
@@ -91,22 +115,40 @@ Six standalone experiences to build your AI literacy. No prerequisites, no fixed
 </a>
 </td>
 </tr>
+</table>
+</details>
+
+<!-- ===== FOR YOUR ROLE ===== -->
+<details style="padding: 16px 36px 8px; border-top: 1px solid #2D2D4A;">
+<summary style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; cursor: pointer; list-style: none;">&#9656; For Your Role</summary>
+<div style="margin-top: 16px;"></div>
+
+<table width="100%" cellpadding="0" cellspacing="10" border="0">
 <tr>
-<td width="50%" style="vertical-align: top;">
+<td width="33%" style="vertical-align: top;">
 <a href="[EXP4_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
 <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
 <div style="font-size: 1.3rem; margin-bottom: 6px;">🛡️</div>
 <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">AI-Proof Your Assessments</div>
-<div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Assessment Design &bull; 45–75 min</div>
+<div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Teaching &bull; 45–75 min</div>
 </div>
 </a>
 </td>
-<td width="50%" style="vertical-align: top;">
+<td width="33%" style="vertical-align: top;">
+<a href="[EXP7_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
+<div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
+<div style="font-size: 1.3rem; margin-bottom: 6px;">💼</div>
+<div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Working with Copilot</div>
+<div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Admin &bull; 30–60 min</div>
+</div>
+</a>
+</td>
+<td width="33%" style="vertical-align: top;">
 <a href="[EXP6_URL]?uid=@X@user.batch_uid@X@" target="_blank" style="text-decoration: none; display: block;">
 <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
 <div style="font-size: 1.3rem; margin-bottom: 6px;">🔬</div>
-<div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">AI in Your Research</div>
-<div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Research Workflows &amp; Integrity &bull; 30–60 min</div>
+<div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Researching with AI</div>
+<div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Research &bull; 30–60 min</div>
 </div>
 </a>
 </td>
@@ -168,7 +210,7 @@ Six standalone experiences to build your AI literacy. No prerequisites, no fixed
 <td width="33%" style="vertical-align: top;">
 <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
 <div style="font-size: 1.1rem; font-weight: 700; color: #F97316; margin-bottom: 4px;">One a week</div>
-<div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">Self-directed, structured progress over six weeks.</div>
+<div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">Self-directed, structured progress over seven weeks.</div>
 </div>
 </td>
 <td width="33%" style="vertical-align: top;">

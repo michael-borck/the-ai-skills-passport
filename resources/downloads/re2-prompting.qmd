@@ -26,7 +26,7 @@ To understand why repeating a question helps, you need to know one thing about h
 
 ### The Causal Masking Problem
 
-LLMs read text **left to right, one token at a time**. When the model processes the first word of your prompt, it hasn't "seen" the last word yet. Each token can only attend to what came before it — never what comes after.
+LLMs read text **left to right, one token at a time**. When the model processes the first word of your prompt, it hasn't "seen" the last word yet. Each token can only attend to what came before it, never what comes after.
 
 This is called **causal masking**, and it means:
 
@@ -38,10 +38,10 @@ This is called **causal masking**, and it means:
 
 When you repeat the question:
 
-1. **First pass (Copy A):** The model processes your question normally, building initial understanding — but with the causal masking limitation
+1. **First pass (Copy A):** The model processes your question normally, building initial understanding, but with the causal masking limitation
 2. **Second pass (Copy B):** Every token in the second copy can attend to *all* tokens in the first copy. The model now has full context when processing the question again
 
-Copy A acts as a kind of "virtual scratchpad." By the time the model reaches Copy B, it's already seen the entire question once. The second reading happens with the benefit of complete context — effectively simulating the bidirectional understanding that causal masking normally prevents.
+Copy A acts as a kind of "virtual scratchpad." By the time the model reaches Copy B, it's already seen the entire question once. The second reading happens with the benefit of complete context, effectively simulating the bidirectional understanding that causal masking normally prevents.
 
 It's not just "saying it twice." It's architecturally forcing the model to see the whole picture before answering.
 
@@ -49,7 +49,7 @@ It's not just "saying it twice." It's architecturally forcing the model to see t
 
 ## The Evidence
 
-RE2 isn't just a clever idea — it's backed by rigorous research.
+RE2 isn't just a clever idea. It's backed by rigorous research.
 
 ### Key Results
 
@@ -59,7 +59,7 @@ RE2 isn't just a clever idea — it's backed by rigorous research.
 | General knowledge (MMLU Pro) | Baseline | Consistent gains across all models tested |
 | Mathematical reasoning | Frequent hallucination | Significant reduction in errors |
 
-In head-to-head comparisons across 7 major models (including GPT-4, Claude, and Gemini), RE2 **won 47 out of 70 tests with no losses** — meaning it either helped or made no difference, but never made things worse.
+In head-to-head comparisons across 7 major models (including GPT-4, Claude, and Gemini), RE2 **won 47 out of 70 tests with no losses**, meaning it either helped or made no difference, but never made things worse.
 
 ### Research
 
@@ -166,7 +166,7 @@ implementation challenges.
 
 RE2 increases input length (you're sending the question twice), which means slightly higher token costs and marginally longer processing time. But input tokens are significantly cheaper and faster than output tokens, so the cost is minimal compared to the improvement in quality.
 
-One repetition is the sweet spot. Research shows that repeating the question three times offers diminishing returns — the gain from the first repetition captures most of the benefit.
+One repetition is the sweet spot. Research shows that repeating the question three times offers diminishing returns. The gain from the first repetition captures most of the benefit.
 
 ---
 
@@ -180,7 +180,7 @@ One repetition is the sweet spot. Research shows that repeating the question thr
 | **Few-Shot Learning** | Style matching | Teaches the model your preferred format |
 | **Iterative Refinement** | Output quality | Improves results through follow-up prompts |
 
-RE2 is **complementary** to all of these. It focuses on the *input* side — making sure the model fully understands your question before it starts generating. The other techniques focus on the *output* side — shaping how the model responds.
+RE2 is **complementary** to all of these. It focuses on the *input* side, making sure the model fully understands your question before it starts generating. The other techniques focus on the *output* side, shaping how the model responds.
 
 This is why combining RE2 with Chain of Thought is particularly powerful: RE2 ensures the model understands the question correctly, and CoT ensures it reasons through the answer carefully.
 
@@ -188,17 +188,17 @@ This is why combining RE2 with Chain of Thought is particularly powerful: RE2 en
 
 ## Best Practices
 
-1. **Use the exact phrase "Read the question again:"** — Clear, directive language works better than vague instructions
+1. **Use the exact phrase "Read the question again:"**. Clear, directive language works better than vague instructions
 
-2. **Repeat the question verbatim** — Don't paraphrase. The value comes from the model processing the identical tokens with full context from the first pass
+2. **Repeat the question verbatim**. Don't paraphrase. The value comes from the model processing the identical tokens with full context from the first pass
 
-3. **Repeat once, not multiple times** — One repetition captures the vast majority of the benefit. More than that wastes tokens
+3. **Repeat once, not multiple times**. One repetition captures the vast majority of the benefit. More than that wastes tokens
 
-4. **Position the repetition before the answer instruction** — The re-read should be the last thing before the model starts generating
+4. **Position the repetition before the answer instruction**. The re-read should be the last thing before the model starts generating
 
-5. **Combine with Chain of Thought for complex reasoning** — Add "Let's think step by step" after the re-read for the best of both techniques
+5. **Combine with Chain of Thought for complex reasoning**. Add "Let's think step by step" after the re-read for the best of both techniques
 
-6. **Don't pad with filler** — Adding random text to match the length of RE2 doesn't work. It's the *information* that matters, not the length
+6. **Don't pad with filler**. Adding random text to match the length of RE2 doesn't work. It's the *information* that matters, not the length
 
 ---
 
@@ -212,7 +212,7 @@ Q: [your original question]
 Read the question again: [your original question]
 ```
 
-Compare the output to what you got before. For complex, multi-part, or detail-sensitive questions, you'll likely see a noticeable improvement — especially in how thoroughly the model addresses all parts of your question.
+Compare the output to what you got before. For complex, multi-part, or detail-sensitive questions, you'll likely see a noticeable improvement, especially in how thoroughly the model addresses all parts of your question.
 
 It's the simplest prompting improvement you can make, and it costs almost nothing.
 
@@ -226,4 +226,4 @@ It's the simplest prompting improvement you can make, and it costs almost nothin
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*

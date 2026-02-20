@@ -26,6 +26,8 @@ QUARTO_DIRS=(
   experiences/rules-of-engagement
   experiences/ai-proof-assessments
   experiences/teaching-with-ai
+  experiences/working-with-copilot
+  experiences/researching-with-ai
 )
 
 for dir in "${QUARTO_DIRS[@]}"; do
@@ -67,7 +69,7 @@ else
 fi
 
 # Experience SPAs
-for exp_name in is-this-ai what-would-you-do rules-of-engagement ai-proof-assessments teaching-with-ai; do
+for exp_name in is-this-ai what-would-you-do rules-of-engagement ai-proof-assessments teaching-with-ai working-with-copilot researching-with-ai; do
   src="$(find_output "$ROOT/experiences/$exp_name")"
   cp "$src" "$DIST/experiences/$exp_name.html"
   echo "  Collected experiences/$exp_name.html"

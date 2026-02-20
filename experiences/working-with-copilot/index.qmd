@@ -1,0 +1,584 @@
+---
+title: "Working with Copilot"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    toc: false
+---
+
+```{=html}
+<!-- Working with Copilot, Experience 6: Microsoft 365 Copilot for Admin -->
+<!-- 30-60 minutes | Admin-focused -->
+<!-- Stepped layout: linear forward, free backward -->
+
+<div id="experience-app" data-experience-id="working-with-copilot" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #16162A; color: #E2E8F0; position: relative;">
+
+  <!-- Home button -->
+  <a href="https://lms.curtin.edu.au/ultra/organizations/_165323_1/cl/outline" title="Back to AI Skills Passport" style="position: fixed; top: 16px; right: 16px; z-index: 999; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 8px; text-decoration: none; font-size: 1.2rem; color: #94A3B8;">&#8962;</a>
+
+  <!-- Header (always visible) -->
+  <div style="background: linear-gradient(135deg, #1E1E36 0%, #2D2D4A 50%, #0078D4 100%); color: white; padding: 40px; border-radius: 12px; text-align: center; margin-bottom: 28px;">
+    <div style="font-size: 4rem; margin-bottom: 10px;">💼</div>
+    <h1 style="margin: 0; font-size: 2.5rem; font-weight: normal; letter-spacing: 2px;">WORKING WITH COPILOT</h1>
+    <p style="margin: 10px 0 0 0; font-size: 1.3rem; opacity: 0.9;">Microsoft 365 Copilot for Professional Staff</p>
+    <p style="margin: 15px 0 0 0; font-size: 1rem; opacity: 0.7;">30-60 minutes</p>
+  </div>
+
+  <!-- ===== PROGRESS BAR ===== -->
+  <div id="progress-bar" style="display: flex; align-items: center; justify-content: center; gap: 0; margin-bottom: 28px; padding: 16px 12px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; flex-wrap: wrap;">
+    <!-- Steps are rendered by JS -->
+  </div>
+
+  <!-- ===== STEP 1: Welcome ===== -->
+  <div class="exp-step" data-step="1" style="display: none;">
+    <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
+      <h3 style="font-size: 14px; color: #86EFAC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
+      <ul style="margin: 0; padding-left: 20px; color: #4ADE80; line-height: 1.8;">
+        <li>Understand what Microsoft 365 Copilot is and how it works at Curtin</li>
+        <li>Use Copilot in Outlook to manage email more efficiently</li>
+        <li>Draft and summarise documents with Copilot in Word</li>
+        <li>Analyse data and create charts using Copilot in Excel</li>
+        <li>Create presentations and manage meetings with Copilot</li>
+      </ul>
+    </div>
+
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 28px;">
+      <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">What is Microsoft 365 Copilot?</h3>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 16px 0;">Microsoft 365 Copilot is an AI assistant built into the Office apps you already use: Outlook, Word, Excel, PowerPoint, and Teams. It uses large language models combined with your organisation's data to help you work faster.</p>
+
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">🔒</span>
+          <div>
+            <strong style="color: #FBBF24;">Enterprise vs Consumer: Your data stays private</strong>
+            <p style="margin: 8px 0 0 0; color: #FCD34D; line-height: 1.6;">Curtin's enterprise Copilot is different from the consumer version. Your data is siloed per user: email queries only see your mailbox, not anyone else's. Copilot can access your SharePoint, shared drives, and personal OneDrive, but only content you already have permission to view. Nothing is used to train the model.</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 12px 0;">How this experience works</h3>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">This experience has <strong style="color: #E2E8F0;">6 steps</strong>. Each step focuses on a different Microsoft 365 app. Work through at your own pace, and try the prompts with your own data as you go.</p>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #4F46E5; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">1</span>
+          <span style="color: #CBD5E1; font-size: 14px;">Welcome and Overview</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">2</span>
+          <span style="color: #64748B; font-size: 14px;">Copilot in Outlook</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">3</span>
+          <span style="color: #64748B; font-size: 14px;">Copilot in Word</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">4</span>
+          <span style="color: #64748B; font-size: 14px;">Copilot in Excel</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">5</span>
+          <span style="color: #64748B; font-size: 14px;">PowerPoint and Teams</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">6</span>
+          <span style="color: #64748B; font-size: 14px;">Key Takeaways and Completion</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(2)" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Let's Go &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 2: Copilot in Outlook ===== -->
+  <div class="exp-step" data-step="2" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 2</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Copilot in Outlook</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Copilot in Outlook can draft replies, summarise long email threads, and help you catch up after time away. It works with your mailbox only, so it sees the same emails you do.</p>
+
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">What Copilot can do in Outlook</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Summarise threads</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Open a long email chain and click "Summary by Copilot" to get a concise overview of key points, decisions, and action items.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Draft replies</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">When composing a reply, Copilot can generate a draft based on the thread context. You review, edit, and send.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Catch up on missed conversations</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">After leave or a busy period, ask Copilot to summarise what you missed. It will pull highlights from your unread messages.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Schedule and organise</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask Copilot to find a time for a meeting, draft a calendar invite, or suggest follow-up actions from an email thread.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Try This Prompt -->
+      <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Open a long email thread in Outlook, click the Copilot icon, and try:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"Summarise this thread. List any action items for me and note any deadlines mentioned."</div>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Or when drafting a reply:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"Draft a professional reply confirming I can attend the meeting and asking for the agenda to be shared beforehand."</div>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">After returning from leave:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0;">"What are the key emails I need to respond to from last week? Summarise anything urgent."</div>
+      </div>
+
+      <!-- What to Watch For -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">What to watch for</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li>Always read Copilot's draft before sending. It may misinterpret tone or miss nuance.</li>
+              <li>Summaries can miss context that was communicated verbally or in separate channels.</li>
+              <li>Copilot cannot access emails outside your mailbox, so it may not have the full picture.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(3)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 3: Copilot in Word ===== -->
+  <div class="exp-step" data-step="3" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 3</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Copilot in Word</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Copilot in Word helps you draft documents from scratch, summarise existing ones, rewrite sections for a different audience, and pull content from files on SharePoint or OneDrive.</p>
+
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">What Copilot can do in Word</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Draft from notes or briefs</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Give Copilot dot points, meeting notes, or a rough outline and ask it to produce a structured draft. Great for committee papers, reports, or proposals.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Summarise long documents</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Open a lengthy policy document or report and ask Copilot to summarise key points. Useful for preparing briefs or catching up on reading.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Rewrite for tone or audience</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask Copilot to rewrite a section to be more concise, more formal, or more accessible. Helpful when adapting content for different stakeholders.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Reference SharePoint content</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Use the "/" command to reference files stored on SharePoint or OneDrive. Copilot can incorporate content from those files into your current document.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Try This Prompt -->
+      <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Open a new Word document, click the Copilot icon, and try:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"Draft a one-page committee brief summarising the key points from /[SharePoint file name]. Include a recommendation section at the end."</div>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Or to improve existing text:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0;">"Rewrite this paragraph to be more concise and suitable for a senior leadership audience. Keep the key message but reduce jargon."</div>
+      </div>
+
+      <!-- What to Watch For -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">What to watch for</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li>Copilot may invent details that were not in your source material. Always verify facts and figures.</li>
+              <li>Referenced files need to be on SharePoint or OneDrive (not your local desktop) for Copilot to access them.</li>
+              <li>The output is a starting point. Your knowledge of the context, stakeholders, and politics is what makes it fit for purpose.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(4)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 4: Copilot in Excel ===== -->
+  <div class="exp-step" data-step="4" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 4</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Copilot in Excel</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Copilot in Excel lets you ask questions about your data in plain English, generate formulas without memorising syntax, and create charts with a simple description of what you want to see.</p>
+
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">What Copilot can do in Excel</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Ask questions about your data</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Type a question like "What was the total spend in Q3?" or "Which department had the highest enrolment?" Copilot analyses your spreadsheet and gives you the answer.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Generate formulas</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Describe what you need in plain language and Copilot writes the formula. No more searching for VLOOKUP syntax or nested IF statements.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Create charts and visualisations</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask Copilot to create a chart from your data. Describe the type you want (bar, line, pie) and what it should show.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Highlight and sort data</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask Copilot to highlight trends, flag outliers, or sort data by specific criteria. Useful for quick analysis before a meeting.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Try This Prompt -->
+      <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Open a spreadsheet with data (enrolment numbers, budget figures, or similar), click the Copilot icon, and try:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"Summarise the key trends in this data. What are the highest and lowest values, and are there any notable patterns?"</div>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">To generate a formula:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"Add a column that calculates the percentage change between this year and last year for each row."</div>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">To create a chart:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0;">"Create a bar chart comparing enrolment numbers by department for the last three semesters."</div>
+      </div>
+
+      <!-- What to Watch For -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">What to watch for</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li>Your data needs to be in a formatted table for Copilot to work well. Select your data and click "Format as Table" first.</li>
+              <li>Copilot can make calculation errors. Spot-check any formulas it generates against known values.</li>
+              <li>Complex multi-sheet workbooks can confuse Copilot. Start with a single, clean data table for best results.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(5)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 5: PowerPoint & Teams ===== -->
+  <div class="exp-step" data-step="5" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 5</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">PowerPoint and Teams</h2>
+
+      <!-- PowerPoint Section -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Copilot in PowerPoint</h3>
+        <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 16px 0;">Copilot can create presentations from briefs, Word documents, or a description of what you need. It generates slides with content and suggests design improvements.</p>
+
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Create from a document</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Reference a Word document or brief on SharePoint and ask Copilot to turn it into a slide deck. It will organise content into slides with headings and key points.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Add and organise slides</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask Copilot to add a summary slide, reorganise your deck, or create an agenda slide based on existing content.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Design suggestions</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Copilot can suggest layout improvements, add speaker notes, or convert text-heavy slides into visual formats.</p>
+          </div>
+        </div>
+
+        <!-- Try This Prompt - PowerPoint -->
+        <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px;">
+          <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
+          <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 8px;">"Create a 10-slide presentation from /[Word document on SharePoint]. Keep it professional, with one key message per slide."</div>
+          <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0;">"Add speaker notes to each slide summarising the main talking point in two sentences."</div>
+        </div>
+      </div>
+
+      <!-- Teams Section -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Copilot in Teams</h3>
+        <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 16px 0;">Copilot in Teams shines during and after meetings. It can summarise discussions, track action items, and help you catch up on chat threads you missed.</p>
+
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Meeting summaries</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">After a recorded Teams meeting, ask Copilot for a summary. It identifies key discussion points, decisions made, and action items with owners.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Catch up on chat threads</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">In a busy Teams channel, ask Copilot to summarise what was discussed in the last day or week. It highlights key messages and decisions.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Action items</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask Copilot to list all action items from a meeting, grouped by person. Useful for writing up minutes or following up afterwards.</p>
+          </div>
+        </div>
+
+        <!-- Try This Prompt - Teams -->
+        <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px;">
+          <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
+          <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 8px;">"Summarise this meeting. List all decisions made and action items with the person responsible for each."</div>
+          <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0;">"What were the main topics discussed in this channel over the past week?"</div>
+        </div>
+      </div>
+
+      <!-- What to Watch For -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">What to watch for</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li>PowerPoint slides from Copilot are a starting point. You will need to adjust layouts, add images, and apply your school or university template.</li>
+              <li>Teams meeting summaries require the meeting to be recorded and transcribed. Check with attendees before recording.</li>
+              <li>Copilot may attribute action items to the wrong person if names are unclear in the transcript. Always verify.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(6)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 6: Key Takeaways & Completion ===== -->
+  <div class="exp-step" data-step="6" style="display: none;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+      <h2 style="font-size: 20px; color: #E2E8F0; margin: 0 0 16px 0;">Key Takeaways</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Copilot is a drafting partner, not a finished-product machine</strong>. Every output needs your review, editing, and judgement before it goes anywhere.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Your data stays private</strong>. Enterprise Copilot is siloed to your account and does not train the model on your content.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Be specific in your prompts</strong>. The more context you give (audience, purpose, format), the better the output.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Start with low-stakes tasks</strong>. Try Copilot on routine emails and summaries first, then work up to more complex documents.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Completion Section -->
+    <div id="completion-section" style="display: none; background: linear-gradient(135deg, #0D2818, #1A3A2A); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+      <div style="font-size: 48px; margin-bottom: 16px;">&#127881;</div>
+      <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; color: #86EFAC; margin: 0 0 12px 0;">Experience Complete!</h2>
+      <p style="font-size: 16px; color: #4ADE80; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
+      <div id="badge-progress" style="background: #16162A; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
+        <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
+      </div>
+      <a href="#" id="next-experience-link" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Continue to Next Experience</a>
+    </div>
+
+    <div id="completion-trigger" style="background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+      <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; color: #E2E8F0; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
+      <p style="font-size: 14px; color: #64748B; line-height: 1.6; margin: 0 0 20px 0;">Once you have worked through the activities above, click below to record your progress.</p>
+      <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease;">
+        Mark as Complete
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  var experienceId = 'working-with-copilot';
+  var TOTAL_STEPS = 6;
+  var STORAGE_KEY = 'ai-passport-steps-working-with-copilot';
+  var urlParams = new URLSearchParams(window.location.search);
+  var uid = urlParams.get('uid') || 'anonymous';
+
+  // Step names for progress bar
+  var stepNames = ['', 'Welcome', 'Outlook', 'Word', 'Excel', 'PPT & Teams', 'Wrap Up'];
+
+  // ---- Step state ----
+  var currentStep = 1;
+  var highestCompleted = 0;
+
+  function loadStepProgress() {
+    try {
+      var saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      highestCompleted = saved.highestCompleted || 0;
+      currentStep = saved.currentStep || 1;
+      if (currentStep > highestCompleted + 1) currentStep = highestCompleted + 1;
+    } catch (e) {
+      highestCompleted = 0;
+      currentStep = 1;
+    }
+  }
+
+  function saveStepProgress() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      highestCompleted: highestCompleted,
+      currentStep: currentStep
+    }));
+  }
+
+  // ---- Progress bar rendering ----
+  function renderProgressBar() {
+    var bar = document.getElementById('progress-bar');
+    var html = '';
+
+    for (var i = 1; i <= TOTAL_STEPS; i++) {
+      var isCompleted = i <= highestCompleted;
+      var isCurrent = i === currentStep;
+      var isLocked = i > highestCompleted + 1;
+
+      // Connector line (before each step except the first)
+      if (i > 1) {
+        html += '<div style="flex: 1; max-width: 40px; height: 2px; background: ' +
+          (i <= highestCompleted + 1 ? '#4F46E5' : '#2D2D4A') +
+          '; align-self: center;"></div>';
+      }
+
+      // Step circle
+      var bg, color, border, cursor, opacity;
+      if (isCurrent) {
+        bg = '#4F46E5'; color = 'white'; border = '2px solid #7C3AED'; cursor = 'default'; opacity = '1';
+      } else if (isCompleted) {
+        bg = '#0D2818'; color = '#22C55E'; border = '2px solid #22C55E'; cursor = 'pointer'; opacity = '1';
+      } else {
+        bg = '#1E1E36'; color = '#64748B'; border = '2px solid #2D2D4A'; cursor = 'default'; opacity = '0.5';
+      }
+
+      var clickHandler = isCompleted ? 'onclick="goToStep(' + i + ')"' : '';
+      var title = isLocked ? 'Complete previous steps first' : stepNames[i];
+
+      html += '<div ' + clickHandler + ' title="' + title + '" style="' +
+        'width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; ' +
+        'font-size: 13px; font-weight: bold; flex-shrink: 0; transition: all 0.2s; ' +
+        'background: ' + bg + '; color: ' + color + '; border: ' + border + '; cursor: ' + cursor + '; opacity: ' + opacity + ';">' +
+        (isCompleted && !isCurrent ? '&#10003;' : i) + '</div>';
+    }
+
+    bar.innerHTML = html;
+  }
+
+  // ---- Step navigation ----
+  function showStep(step) {
+    var allSteps = document.querySelectorAll('.exp-step');
+    for (var s = 0; s < allSteps.length; s++) {
+      allSteps[s].style.display = 'none';
+    }
+
+    var target = document.querySelector('.exp-step[data-step="' + step + '"]');
+    if (target) {
+      target.style.display = 'block';
+    }
+
+    currentStep = step;
+
+    if (step - 1 > highestCompleted) {
+      highestCompleted = step - 1;
+    }
+
+    saveStepProgress();
+    renderProgressBar();
+
+    document.getElementById('experience-app').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  window.goToStep = function(step) {
+    if (step >= 1 && step <= TOTAL_STEPS && step <= highestCompleted + 2) {
+      showStep(step);
+    }
+  };
+
+  // ---- Completion tracking ----
+  var badges = {
+    1: { emoji: '🧪', name: 'Explorer' },
+    3: { emoji: '🧠', name: 'Thinker' },
+    5: { emoji: '🛠️', name: 'Builder' },
+    7: { emoji: '🏆', name: 'Champion' }
+  };
+
+  window.recordCompletion = function() {
+    var btn = document.getElementById('complete-btn');
+    btn.disabled = true;
+    btn.textContent = 'Recording...';
+    btn.style.background = '#94A3B8';
+
+    highestCompleted = TOTAL_STEPS;
+    saveStepProgress();
+    renderProgressBar();
+
+    saveToLocalStorage();
+    showCompletionSuccess();
+  };
+
+  function saveToLocalStorage() {
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    completions[experienceId] = {
+      completedAt: new Date().toISOString(),
+      uid: uid
+    };
+    localStorage.setItem('ai-passport-completions', JSON.stringify(completions));
+  }
+
+  function showCompletionSuccess() {
+    document.getElementById('completion-trigger').style.display = 'none';
+    document.getElementById('completion-section').style.display = 'block';
+
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    var completedCount = Object.keys(completions).length;
+
+    var badgeHtml = '';
+    var nextBadge = null;
+
+    for (var count in badges) {
+      if (completedCount >= parseInt(count)) {
+        badgeHtml += '<span style="font-size: 24px; margin: 0 4px;" title="' + badges[count].name + '">' + badges[count].emoji + '</span>';
+      } else if (!nextBadge) {
+        nextBadge = { count: parseInt(count), emoji: badges[count].emoji, name: badges[count].name };
+      }
+    }
+
+    var progressText = '<div style="margin-bottom: 8px;">' + (badgeHtml || '<span style="color: #94A3B8;">Start your collection!</span>') + '</div>';
+    progressText += '<p style="font-size: 13px; color: #64748B; margin: 0;">' + completedCount + ' experience' + (completedCount !== 1 ? 's' : '') + ' completed</p>';
+
+    if (nextBadge) {
+      progressText += '<p style="font-size: 12px; color: #94A3B8; margin: 4px 0 0 0;">Next badge: ' + nextBadge.emoji + ' ' + nextBadge.name + ' (' + (nextBadge.count - completedCount) + ' more)</p>';
+    }
+
+    document.getElementById('badge-progress').innerHTML = progressText;
+  }
+
+  function checkExistingCompletion() {
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    if (completions[experienceId]) {
+      document.getElementById('completion-trigger').innerHTML =
+        '<div style="color: #22C55E; font-size: 24px; margin-bottom: 8px;">&#10003;</div>' +
+        '<p style="font-size: 14px; color: #64748B; margin: 0;">You completed this experience on ' + new Date(completions[experienceId].completedAt).toLocaleDateString() + '</p>';
+    }
+  }
+
+  // ---- Initialise ----
+  loadStepProgress();
+  renderProgressBar();
+  showStep(currentStep);
+  checkExistingCompletion();
+})();
+</script>
+```

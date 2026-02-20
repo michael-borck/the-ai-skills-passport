@@ -7,12 +7,16 @@ format:
 ---
 
 ```{=html}
-<!-- Is This AI? — Experience 1: Detection & Awareness -->
+<!-- Is This AI?, Experience 1: Detection & Awareness -->
 <!-- 15-60 minutes | All roles -->
+<!-- Stepped layout: linear forward, free backward -->
 
-<div id="experience-app" data-experience-id="is-this-ai" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #E2E8F0;">
+<div id="experience-app" data-experience-id="is-this-ai" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
 
-  <!-- Header -->
+  <!-- Home button -->
+  <a href="https://lms.curtin.edu.au/ultra/organizations/_165323_1/cl/outline" title="Back to AI Skills Passport" style="position: fixed; top: 16px; right: 16px; z-index: 999; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 8px; text-decoration: none; font-size: 1.2rem; color: #94A3B8;">&#8962;</a>
+
+  <!-- Header (always visible) -->
   <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 28px;">
     <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">Experience 1 of 5</div>
     <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
@@ -29,325 +33,393 @@ format:
     </div>
   </div>
 
-  <!-- Learning Outcomes -->
-  <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
-    <h3 style="font-size: 14px; color: #86EFAC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
-    <ul style="margin: 0; padding-left: 20px; color: #4ADE80; line-height: 1.8;">
-      <li>Recognise common patterns in AI-generated text</li>
-      <li>Understand why detection tools are unreliable</li>
-      <li>Apply practical strategies for identifying AI content</li>
-      <li>Make informed decisions about detection in your context</li>
-    </ul>
+  <!-- ===== PROGRESS BAR ===== -->
+  <div id="progress-bar" style="display: flex; align-items: center; justify-content: center; gap: 0; margin-bottom: 28px; padding: 16px 12px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; flex-wrap: wrap;">
+    <!-- Steps are rendered by JS -->
   </div>
 
-  <!-- Activity 1: The Detection Game -->
-  <div style="margin-bottom: 32px;">
-    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 1</div>
-    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">The Detection Game</h2>
-    <p style="color: #64748B; margin-bottom: 20px;">Can you tell which samples were written by humans and which by AI? Read each text carefully, make your guess, then reveal the answer.</p>
-
-    <div id="detection-game">
-      <!-- Sample 1 -->
-      <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 1 OF 5</div>
-        <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
-          "The marketing landscape has undergone significant transformation in recent years. Digital platforms have revolutionized how brands connect with consumers. It's important to note that successful marketing strategies now require a multi-channel approach that leverages data analytics and personalization."
-        </div>
-        <div style="display: flex; gap: 12px; margin-bottom: 16px;">
-          <button onclick="checkAnswer(1, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
-          <button onclick="checkAnswer(1, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
-        </div>
-        <div id="answer-1" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
-      </div>
-
-      <!-- Sample 2 -->
-      <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 2 OF 5</div>
-        <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
-          "I spent three hours on that assignment and still got a C. Prof said my argument was 'underdeveloped' but honestly I thought I covered everything in the rubric. Maybe I need to actually go to the writing centre like they keep suggesting."
-        </div>
-        <div style="display: flex; gap: 12px; margin-bottom: 16px;">
-          <button onclick="checkAnswer(2, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
-          <button onclick="checkAnswer(2, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
-        </div>
-        <div id="answer-2" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
-      </div>
-
-      <!-- Sample 3 -->
-      <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 3 OF 5</div>
-        <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
-          "This study examines the relationship between employee engagement and organizational performance in Australian SMEs. Drawing on data from 127 businesses, we find that engagement scores correlate positively with productivity metrics (r=0.43, p<0.01). However, the relationship varies significantly by industry sector."
-        </div>
-        <div style="display: flex; gap: 12px; margin-bottom: 16px;">
-          <button onclick="checkAnswer(3, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
-          <button onclick="checkAnswer(3, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
-        </div>
-        <div id="answer-3" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
-      </div>
-
-      <!-- Sample 4 -->
-      <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 4 OF 5</div>
-        <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
-          "In conclusion, leadership is a multifaceted concept that encompasses various styles and approaches. Effective leaders must adapt their strategies to meet the unique needs of their teams and organizations. By fostering open communication and promoting a culture of trust, leaders can create environments where employees feel valued and motivated to contribute their best work."
-        </div>
-        <div style="display: flex; gap: 12px; margin-bottom: 16px;">
-          <button onclick="checkAnswer(4, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
-          <button onclick="checkAnswer(4, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
-        </div>
-        <div id="answer-4" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
-      </div>
-
-      <!-- Sample 5 -->
-      <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-        <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 5 OF 5</div>
-        <div style="background: #16162A; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
-          "The café wasn't busy that morning. I ordered my usual flat white and grabbed the corner table by the window. Sarah arrived late, apologising about the tram. She pulled out her laptop, still wrapped in those stickers from the conference we went to last year. 'So,' she said, 'want to hear my terrible idea?'"
-        </div>
-        <div style="display: flex; gap: 12px; margin-bottom: 16px;">
-          <button onclick="checkAnswer(5, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
-          <button onclick="checkAnswer(5, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
-        </div>
-        <div id="answer-5" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
-      </div>
-
-      <!-- Score Display -->
-      <div id="game-score" style="display: none; background: linear-gradient(135deg, #1E1B4B, #2E1065); border: 2px solid #4F46E5; border-radius: 12px; padding: 24px; text-align: center;">
-        <div style="font-size: 32px; margin-bottom: 8px;" id="score-emoji">🎯</div>
-        <div style="font-size: 24px; font-weight: bold; color: #C7D2FE;" id="score-text"></div>
-        <p style="color: #A5B4FC; margin: 12px 0 0 0;" id="score-message"></p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Activity 2: Detection Tool Testing -->
-  <div style="margin-bottom: 32px;">
-    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 2</div>
-    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">The Detection Tool Problem</h2>
-
-    <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
-      <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <span style="font-size: 24px;">⚠️</span>
-        <div>
-          <strong style="color: #FBBF24;">The uncomfortable truth about AI detectors:</strong>
-          <p style="margin: 8px 0 0 0; color: #FCD34D; line-height: 1.6;">Even the best AI detection tools have significant accuracy problems. They produce false positives (flagging human writing as AI) and false negatives (missing actual AI content) at rates that make them unreliable for high-stakes decisions.</p>
-        </div>
-      </div>
-    </div>
-
-    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-      <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">Research findings on detection accuracy:</h3>
-      <div style="display: flex; flex-direction: column; gap: 12px;">
-        <div style="background: #1E1E36; padding: 12px; border-radius: 8px;">
-          <strong>False positive rates:</strong> 20-40% of human-written text incorrectly flagged as AI
-        </div>
-        <div style="background: #1E1E36; padding: 12px; border-radius: 8px;">
-          <strong>Non-native speakers:</strong> ESL writers flagged at significantly higher rates
-        </div>
-        <div style="background: #1E1E36; padding: 12px; border-radius: 8px;">
-          <strong>Formal writing:</strong> Academic style more likely to be flagged than casual writing
-        </div>
-        <div style="background: #1E1E36; padding: 12px; border-radius: 8px;">
-          <strong>Easy evasion:</strong> Simple paraphrasing or asking AI to "write more naturally" defeats most detectors
-        </div>
-      </div>
-    </div>
-
-    <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px;">
-      <h3 style="font-size: 16px; color: #86EFAC; margin: 0 0 12px 0;">What this means for you:</h3>
+  <!-- ===== STEP 1: Welcome ===== -->
+  <div class="exp-step" data-step="1" style="display: none;">
+    <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
+      <h3 style="font-size: 14px; color: #86EFAC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
       <ul style="margin: 0; padding-left: 20px; color: #4ADE80; line-height: 1.8;">
-        <li>Never use detection tools as the sole evidence for academic misconduct</li>
-        <li>Detection results should prompt conversation, not accusation</li>
-        <li>Focus on assessing understanding rather than detecting AI</li>
-        <li>Consider process-based assessment approaches</li>
+        <li>Recognise common patterns in AI-generated text</li>
+        <li>Understand why detection tools are unreliable</li>
+        <li>Apply practical strategies for identifying AI content</li>
+        <li>Make informed decisions about detection in your context</li>
       </ul>
     </div>
-  </div>
 
-  <!-- Activity 3: Spotting Patterns -->
-  <div style="margin-bottom: 32px;">
-    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 3</div>
-    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Common AI Patterns</h2>
-    <p style="color: #64748B; margin-bottom: 20px;">While not foolproof, these patterns appear more frequently in AI-generated text. Use them as discussion prompts, not definitive evidence.</p>
-
-    <div style="display: flex; flex-direction: column; gap: 12px;">
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
-        <div style="display: flex; align-items: flex-start; gap: 12px;">
-          <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">📝</span>
-          <div>
-            <strong style="color: #E2E8F0;">Characteristic phrases</strong>
-            <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">"It's important to note that...", "In today's rapidly evolving...", "A myriad of factors...", "In conclusion, [restates everything]"</p>
-          </div>
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 28px;">
+      <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 12px 0;">How this experience works</h3>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">This experience has <strong style="color: #E2E8F0;">6 steps</strong>. Work through each one at your own pace. You can revisit any completed step by clicking it in the progress bar above.</p>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #4F46E5; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">1</span>
+          <span style="color: #CBD5E1; font-size: 14px;">Welcome & Overview</span>
         </div>
-      </div>
-
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
-        <div style="display: flex; align-items: flex-start; gap: 12px;">
-          <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">🎯</span>
-          <div>
-            <strong style="color: #E2E8F0;">Overly balanced structure</strong>
-            <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">Perfect parallel construction, equal treatment of all points, smooth transitions everywhere. Human writing tends to be messier.</p>
-          </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">2</span>
+          <span style="color: #64748B; font-size: 14px;">The Detection Game</span>
         </div>
-      </div>
-
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
-        <div style="display: flex; align-items: flex-start; gap: 12px;">
-          <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">🌐</span>
-          <div>
-            <strong style="color: #E2E8F0;">Generic examples</strong>
-            <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">Examples that could apply anywhere vs. specific local context. "A company" vs. "Bunnings in our case study".</p>
-          </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">3</span>
+          <span style="color: #64748B; font-size: 14px;">The Detection Tool Problem</span>
         </div>
-      </div>
-
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
-        <div style="display: flex; align-items: flex-start; gap: 12px;">
-          <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">🤖</span>
-          <div>
-            <strong style="color: #E2E8F0;">Consistent voice</strong>
-            <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">No personality shifts, no frustration, no enthusiasm. Perfectly moderate tone throughout.</p>
-          </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">4</span>
+          <span style="color: #64748B; font-size: 14px;">Common AI Patterns</span>
         </div>
-      </div>
-
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
-        <div style="display: flex; align-items: flex-start; gap: 12px;">
-          <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">❓</span>
-          <div>
-            <strong style="color: #E2E8F0;">Missing context</strong>
-            <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">No reference to course materials, lectures, or class discussions. Generic application of concepts without specific unit context.</p>
-          </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">5</span>
+          <span style="color: #64748B; font-size: 14px;">Strategies for Your Role</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">6</span>
+          <span style="color: #64748B; font-size: 14px;">Key Takeaways & Completion</span>
         </div>
       </div>
     </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(2)" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Let's Go &#8594;</button>
+    </div>
   </div>
 
-  <!-- In Your Context Tabs -->
-  <div style="margin-bottom: 32px;">
-    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">In Your Context</div>
-    <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Detection Strategies for Your Role</h2>
+  <!-- ===== STEP 2: The Detection Game ===== -->
+  <div class="exp-step" data-step="2" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 1</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">The Detection Game</h2>
+      <p style="color: #64748B; margin-bottom: 20px;">Can you tell which samples were written by humans and which by AI? Read each text carefully, make your guess, then reveal the answer.</p>
 
-    <!-- Tab Navigation -->
-    <div style="display: flex; gap: 4px; margin-bottom: 0; border-bottom: 2px solid #2D2D4A;">
-      <button class="context-tab active" data-tab="teaching" onclick="switchTab('teaching')" style="padding: 12px 20px; background: #4F46E5; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px; font-weight: bold;">📚 Teaching</button>
-      <button class="context-tab" data-tab="research" onclick="switchTab('research')" style="padding: 12px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">🔬 Research</button>
-      <button class="context-tab" data-tab="admin" onclick="switchTab('admin')" style="padding: 12px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">⚙️ Admin</button>
-    </div>
-
-    <!-- Tab Content -->
-    <div id="tab-content" style="background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 12px 12px; padding: 24px;">
-
-      <!-- Teaching Tab -->
-      <div class="tab-panel" data-panel="teaching" style="display: block;">
-        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Student Submission Scenarios</h3>
-
-        <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-          <strong>Scenario:</strong> A student submits work that seems inconsistent with their previous submissions. The writing is suddenly more sophisticated and uses terminology you haven't covered in class.
+      <div id="detection-game">
+        <!-- Sample 1 -->
+        <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+          <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 1 OF 5</div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
+            "The marketing landscape has undergone significant transformation in recent years. Digital platforms have revolutionized how brands connect with consumers. It's important to note that successful marketing strategies now require a multi-channel approach that leverages data analytics and personalization."
+          </div>
+          <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+            <button onclick="checkAnswer(1, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
+            <button onclick="checkAnswer(1, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
+          </div>
+          <div id="answer-1" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
         </div>
 
-        <p style="margin-bottom: 16px;"><strong>Better than detection tools:</strong></p>
-        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
-          <li><strong>Oral discussion:</strong> Ask them to explain their argument in their own words</li>
-          <li><strong>Follow-up questions:</strong> "Can you tell me more about this point you made?"</li>
-          <li><strong>Process evidence:</strong> Request drafts, notes, or sources used</li>
-          <li><strong>In-class synthesis:</strong> Have them build on the submission in class</li>
+        <!-- Sample 2 -->
+        <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+          <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 2 OF 5</div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
+            "I spent three hours on that assignment and still got a C. Prof said my argument was 'underdeveloped' but honestly I thought I covered everything in the rubric. Maybe I need to actually go to the writing centre like they keep suggesting."
+          </div>
+          <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+            <button onclick="checkAnswer(2, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
+            <button onclick="checkAnswer(2, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
+          </div>
+          <div id="answer-2" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
+        </div>
+
+        <!-- Sample 3 -->
+        <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+          <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 3 OF 5</div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
+            "This study examines the relationship between employee engagement and organizational performance in Australian SMEs. Drawing on data from 127 businesses, we find that engagement scores correlate positively with productivity metrics (r=0.43, p&lt;0.01). However, the relationship varies significantly by industry sector."
+          </div>
+          <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+            <button onclick="checkAnswer(3, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
+            <button onclick="checkAnswer(3, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
+          </div>
+          <div id="answer-3" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
+        </div>
+
+        <!-- Sample 4 -->
+        <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+          <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 4 OF 5</div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
+            "In conclusion, leadership is a multifaceted concept that encompasses various styles and approaches. Effective leaders must adapt their strategies to meet the unique needs of their teams and organizations. By fostering open communication and promoting a culture of trust, leaders can create environments where employees feel valued and motivated to contribute their best work."
+          </div>
+          <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+            <button onclick="checkAnswer(4, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
+            <button onclick="checkAnswer(4, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
+          </div>
+          <div id="answer-4" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
+        </div>
+
+        <!-- Sample 5 -->
+        <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+          <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 5 OF 5</div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
+            "The caf&eacute; wasn't busy that morning. I ordered my usual flat white and grabbed the corner table by the window. Sarah arrived late, apologising about the tram. She pulled out her laptop, still wrapped in those stickers from the conference we went to last year. 'So,' she said, 'want to hear my terrible idea?'"
+          </div>
+          <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+            <button onclick="checkAnswer(5, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
+            <button onclick="checkAnswer(5, 'human')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">👤 Human Written</button>
+          </div>
+          <div id="answer-5" style="display: none; padding: 16px; border-radius: 8px; margin-bottom: 8px;"></div>
+        </div>
+
+        <!-- Score Display -->
+        <div id="game-score" style="display: none; background: linear-gradient(135deg, #1E1B4B, #2E1065); border: 2px solid #4F46E5; border-radius: 12px; padding: 24px; text-align: center;">
+          <div style="font-size: 32px; margin-bottom: 8px;" id="score-emoji">🎯</div>
+          <div style="font-size: 24px; font-weight: bold; color: #C7D2FE;" id="score-text"></div>
+          <p style="color: #A5B4FC; margin: 12px 0 0 0;" id="score-message"></p>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(3)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 3: The Detection Tool Problem ===== -->
+  <div class="exp-step" data-step="3" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 2</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">The Detection Tool Problem</h2>
+
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">The uncomfortable truth about AI detectors:</strong>
+            <p style="margin: 8px 0 0 0; color: #FCD34D; line-height: 1.6;">Even the best AI detection tools have significant accuracy problems. They produce false positives (flagging human writing as AI) and false negatives (missing actual AI content) at rates that make them unreliable for high-stakes decisions.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">Research findings on detection accuracy:</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #1E1E36; padding: 12px; border-radius: 8px;">
+            <strong>False positive rates:</strong> 20-40% of human-written text incorrectly flagged as AI
+          </div>
+          <div style="background: #1E1E36; padding: 12px; border-radius: 8px;">
+            <strong>Non-native speakers:</strong> ESL writers flagged at significantly higher rates
+          </div>
+          <div style="background: #1E1E36; padding: 12px; border-radius: 8px;">
+            <strong>Formal writing:</strong> Academic style more likely to be flagged than casual writing
+          </div>
+          <div style="background: #1E1E36; padding: 12px; border-radius: 8px;">
+            <strong>Easy evasion:</strong> Simple paraphrasing or asking AI to "write more naturally" defeats most detectors
+          </div>
+        </div>
+      </div>
+
+      <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px;">
+        <h3 style="font-size: 16px; color: #86EFAC; margin: 0 0 12px 0;">What this means for you:</h3>
+        <ul style="margin: 0; padding-left: 20px; color: #4ADE80; line-height: 1.8;">
+          <li>Never use detection tools as the sole evidence for academic misconduct</li>
+          <li>Detection results should prompt conversation, not accusation</li>
+          <li>Focus on assessing understanding rather than detecting AI</li>
+          <li>Consider process-based assessment approaches</li>
         </ul>
-
-        <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
-          <strong>Remember:</strong> The goal isn't to catch cheaters—it's to assess learning. Design assessments that require demonstration of understanding rather than just production of text.
-        </div>
       </div>
+    </div>
 
-      <!-- Research Tab -->
-      <div class="tab-panel" data-panel="research" style="display: none;">
-        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">AI in Research Outputs</h3>
-
-        <div style="background: #2E1065; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-          <strong>Consider:</strong> As a reviewer, supervisor, or collaborator, how do you evaluate work that may have AI assistance?
-        </div>
-
-        <p style="margin-bottom: 16px;"><strong>Key questions to ask:</strong></p>
-        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
-          <li>Can the author defend and extend their arguments in discussion?</li>
-          <li>Is the methodology appropriate and properly executed?</li>
-          <li>Are claims supported by verifiable evidence?</li>
-          <li>Does the work show original thinking or just synthesis?</li>
-        </ul>
-
-        <p style="margin: 16px 0;"><strong>For HDR supervision:</strong></p>
-        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
-          <li>Establish clear expectations about AI use early</li>
-          <li>Focus supervision conversations on understanding, not just output</li>
-          <li>Consider requiring process documentation (drafts, revision notes)</li>
-          <li>Discuss AI use openly as part of research methods training</li>
-        </ul>
-      </div>
-
-      <!-- Admin Tab -->
-      <div class="tab-panel" data-panel="admin" style="display: none;">
-        <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">AI-Assisted Communications</h3>
-
-        <div style="background: #3B1010; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
-          <strong>Reality check:</strong> Many professional communications now involve AI assistance. The question isn't "is this AI?" but "is this accurate, appropriate, and fit for purpose?"
-        </div>
-
-        <p style="margin-bottom: 16px;"><strong>What matters more than detection:</strong></p>
-        <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
-          <li><strong>Accuracy:</strong> Are facts, dates, and details correct?</li>
-          <li><strong>Appropriateness:</strong> Is the tone right for the audience?</li>
-          <li><strong>Accountability:</strong> Can the sender stand behind the content?</li>
-          <li><strong>Context:</strong> Does it show understanding of the specific situation?</li>
-        </ul>
-
-        <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
-          <strong>Practical approach:</strong> Rather than trying to detect AI in communications you receive, focus on the quality and accuracy of the content. If something seems off, ask clarifying questions.
-        </div>
-      </div>
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(4)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
     </div>
   </div>
 
-  <!-- Key Takeaways -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
-    <h2 style="font-size: 20px; color: #E2E8F0; margin: 0 0 16px 0;">Key Takeaways</h2>
-    <div style="display: flex; flex-direction: column; gap: 12px;">
-      <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Detection tools are unreliable</strong> — Don't use them as evidence for misconduct decisions</p>
+  <!-- ===== STEP 4: Common AI Patterns ===== -->
+  <div class="exp-step" data-step="4" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Activity 3</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Common AI Patterns</h2>
+      <p style="color: #64748B; margin-bottom: 20px;">While not foolproof, these patterns appear more frequently in AI-generated text. Use them as discussion prompts, not definitive evidence.</p>
+
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
+          <div style="display: flex; align-items: flex-start; gap: 12px;">
+            <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">📝</span>
+            <div>
+              <strong style="color: #E2E8F0;">Characteristic phrases</strong>
+              <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">"It's important to note that...", "In today's rapidly evolving...", "A myriad of factors...", "In conclusion, [restates everything]"</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
+          <div style="display: flex; align-items: flex-start; gap: 12px;">
+            <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">🎯</span>
+            <div>
+              <strong style="color: #E2E8F0;">Overly balanced structure</strong>
+              <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">Perfect parallel construction, equal treatment of all points, smooth transitions everywhere. Human writing tends to be messier.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
+          <div style="display: flex; align-items: flex-start; gap: 12px;">
+            <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">🌐</span>
+            <div>
+              <strong style="color: #E2E8F0;">Generic examples</strong>
+              <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">Examples that could apply anywhere vs. specific local context. "A company" vs. "Bunnings in our case study".</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
+          <div style="display: flex; align-items: flex-start; gap: 12px;">
+            <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">🤖</span>
+            <div>
+              <strong style="color: #E2E8F0;">Consistent voice</strong>
+              <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">No personality shifts, no frustration, no enthusiasm. Perfectly moderate tone throughout.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 20px;">
+          <div style="display: flex; align-items: flex-start; gap: 12px;">
+            <span style="background: #1E1B4B; padding: 8px; border-radius: 8px; font-size: 20px;">❓</span>
+            <div>
+              <strong style="color: #E2E8F0;">Missing context</strong>
+              <p style="margin: 8px 0 0 0; color: #64748B; font-size: 14px; line-height: 1.6;">No reference to course materials, lectures, or class discussions. Generic application of concepts without specific unit context.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Patterns suggest, not prove</strong> — Use observations as conversation starters</p>
-      </div>
-      <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Focus on understanding</strong> — Can the person explain and extend their work?</p>
-      </div>
-      <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <span style="color: #22C55E; font-size: 20px;">✓</span>
-        <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Design better assessments</strong> — Process-based approaches reveal learning</p>
-      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(5)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
     </div>
   </div>
 
-  <!-- Completion Section -->
-  <div id="completion-section" style="display: none; background: linear-gradient(135deg, #0D2818, #1A3A2A); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
-    <div style="font-size: 48px; margin-bottom: 16px;">🎉</div>
-    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; color: #86EFAC; margin: 0 0 12px 0;">Experience Complete!</h2>
-    <p style="font-size: 16px; color: #4ADE80; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
-    <div id="badge-progress" style="background: #16162A; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
-      <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
+  <!-- ===== STEP 5: Detection Strategies for Your Role ===== -->
+  <div class="exp-step" data-step="5" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">In Your Context</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Detection Strategies for Your Role</h2>
+
+      <!-- Tab Navigation -->
+      <div style="display: flex; gap: 4px; margin-bottom: 0; border-bottom: 2px solid #2D2D4A;">
+        <button class="context-tab active" data-tab="teaching" onclick="switchTab('teaching')" style="padding: 12px 20px; background: #4F46E5; color: white; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px; font-weight: bold;">📚 Teaching</button>
+        <button class="context-tab" data-tab="research" onclick="switchTab('research')" style="padding: 12px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">🔬 Research</button>
+        <button class="context-tab" data-tab="admin" onclick="switchTab('admin')" style="padding: 12px 20px; background: #1E1E36; color: #64748B; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px;">⚙️ Admin</button>
+      </div>
+
+      <!-- Tab Content -->
+      <div id="tab-content" style="background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 12px 12px; padding: 24px;">
+
+        <!-- Teaching Tab -->
+        <div class="tab-panel" data-panel="teaching" style="display: block;">
+          <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">Student Submission Scenarios</h3>
+
+          <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong>Scenario:</strong> A student submits work that seems inconsistent with their previous submissions. The writing is suddenly more sophisticated and uses terminology you haven't covered in class.
+          </div>
+
+          <p style="margin-bottom: 16px;"><strong>Better than detection tools:</strong></p>
+          <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
+            <li><strong>Oral discussion:</strong> Ask them to explain their argument in their own words</li>
+            <li><strong>Follow-up questions:</strong> "Can you tell me more about this point you made?"</li>
+            <li><strong>Process evidence:</strong> Request drafts, notes, or sources used</li>
+            <li><strong>In-class synthesis:</strong> Have them build on the submission in class</li>
+          </ul>
+
+          <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
+            <strong>Remember:</strong> The goal isn't to catch cheaters. It's to assess learning. Design assessments that require demonstration of understanding rather than just production of text.
+          </div>
+        </div>
+
+        <!-- Research Tab -->
+        <div class="tab-panel" data-panel="research" style="display: none;">
+          <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">AI in Research Outputs</h3>
+
+          <div style="background: #2E1065; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong>Consider:</strong> As a reviewer, supervisor, or collaborator, how do you evaluate work that may have AI assistance?
+          </div>
+
+          <p style="margin-bottom: 16px;"><strong>Key questions to ask:</strong></p>
+          <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
+            <li>Can the author defend and extend their arguments in discussion?</li>
+            <li>Is the methodology appropriate and properly executed?</li>
+            <li>Are claims supported by verifiable evidence?</li>
+            <li>Does the work show original thinking or just synthesis?</li>
+          </ul>
+
+          <p style="margin: 16px 0;"><strong>For HDR supervision:</strong></p>
+          <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
+            <li>Establish clear expectations about AI use early</li>
+            <li>Focus supervision conversations on understanding, not just output</li>
+            <li>Consider requiring process documentation (drafts, revision notes)</li>
+            <li>Discuss AI use openly as part of research methods training</li>
+          </ul>
+        </div>
+
+        <!-- Admin Tab -->
+        <div class="tab-panel" data-panel="admin" style="display: none;">
+          <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">AI-Assisted Communications</h3>
+
+          <div style="background: #3B1010; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+            <strong>Reality check:</strong> Many professional communications now involve AI assistance. The question isn't "is this AI?" but "is this accurate, appropriate, and fit for purpose?"
+          </div>
+
+          <p style="margin-bottom: 16px;"><strong>What matters more than detection:</strong></p>
+          <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #CBD5E1;">
+            <li><strong>Accuracy:</strong> Are facts, dates, and details correct?</li>
+            <li><strong>Appropriateness:</strong> Is the tone right for the audience?</li>
+            <li><strong>Accountability:</strong> Can the sender stand behind the content?</li>
+            <li><strong>Context:</strong> Does it show understanding of the specific situation?</li>
+          </ul>
+
+          <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
+            <strong>Practical approach:</strong> Rather than trying to detect AI in communications you receive, focus on the quality and accuracy of the content. If something seems off, ask clarifying questions.
+          </div>
+        </div>
+      </div>
     </div>
-    <a href="#" id="next-experience-link" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Continue to Next Experience</a>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(6)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
   </div>
 
-  <div id="completion-trigger" style="background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
-    <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; color: #E2E8F0; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
-    <p style="font-size: 14px; color: #64748B; line-height: 1.6; margin: 0 0 20px 0;">Once you've worked through the activities above, click below to record your progress.</p>
-    <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease;">
-      Mark as Complete
-    </button>
+  <!-- ===== STEP 6: Key Takeaways & Completion ===== -->
+  <div class="exp-step" data-step="6" style="display: none;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+      <h2 style="font-size: 20px; color: #E2E8F0; margin: 0 0 16px 0;">Key Takeaways</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">✓</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Detection tools are unreliable</strong>. Don't use them as evidence for misconduct decisions</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">✓</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Patterns suggest, not prove</strong>. Use observations as conversation starters</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">✓</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Focus on understanding</strong>. Can the person explain and extend their work?</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">✓</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Design better assessments</strong>. Process-based approaches reveal learning</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Completion Section -->
+    <div id="completion-section" style="display: none; background: linear-gradient(135deg, #0D2818, #1A3A2A); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+      <div style="font-size: 48px; margin-bottom: 16px;">🎉</div>
+      <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; color: #86EFAC; margin: 0 0 12px 0;">Experience Complete!</h2>
+      <p style="font-size: 16px; color: #4ADE80; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
+      <div id="badge-progress" style="background: #16162A; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
+        <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
+      </div>
+      <a href="#" id="next-experience-link" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Continue to Next Experience</a>
+    </div>
+
+    <div id="completion-trigger" style="background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+      <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; color: #E2E8F0; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
+      <p style="font-size: 14px; color: #64748B; line-height: 1.6; margin: 0 0 20px 0;">Once you've worked through the activities above, click below to record your progress.</p>
+      <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease;">
+        Mark as Complete
+      </button>
+    </div>
   </div>
 
 </div>
@@ -355,10 +427,122 @@ format:
 <script>
 (function() {
   const experienceId = 'is-this-ai';
+  const TOTAL_STEPS = 6;
+  const STORAGE_KEY = 'ai-passport-steps-' + experienceId;
   const urlParams = new URLSearchParams(window.location.search);
   const uid = urlParams.get('uid') || 'anonymous';
 
-  // Detection game answers
+  // Step names for progress bar
+  const stepNames = [
+    '', // placeholder for index 0
+    'Welcome',
+    'Detection Game',
+    'Tool Problem',
+    'AI Patterns',
+    'Your Role',
+    'Wrap Up'
+  ];
+
+  // ---- Step state ----
+  let currentStep = 1;
+  let highestCompleted = 0; // steps completed so far
+
+  function loadProgress() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      highestCompleted = saved.highestCompleted || 0;
+      currentStep = saved.currentStep || 1;
+      // Don't go beyond what's unlocked
+      if (currentStep > highestCompleted + 1) currentStep = highestCompleted + 1;
+    } catch (e) {
+      highestCompleted = 0;
+      currentStep = 1;
+    }
+  }
+
+  function saveProgress() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      highestCompleted: highestCompleted,
+      currentStep: currentStep
+    }));
+  }
+
+  // ---- Progress bar rendering ----
+  function renderProgressBar() {
+    const bar = document.getElementById('progress-bar');
+    let html = '';
+
+    for (let i = 1; i <= TOTAL_STEPS; i++) {
+      const isCompleted = i <= highestCompleted;
+      const isCurrent = i === currentStep;
+      const isLocked = i > highestCompleted + 1;
+
+      // Connector line (before each step except the first)
+      if (i > 1) {
+        html += '<div style="flex: 1; max-width: 40px; height: 2px; background: ' +
+          (i <= highestCompleted + 1 ? '#4F46E5' : '#2D2D4A') +
+          '; align-self: center;"></div>';
+      }
+
+      // Step circle
+      let bg, color, border, cursor, opacity;
+      if (isCurrent) {
+        bg = '#4F46E5'; color = 'white'; border = '2px solid #7C3AED'; cursor = 'default'; opacity = '1';
+      } else if (isCompleted) {
+        bg = '#0D2818'; color = '#22C55E'; border = '2px solid #22C55E'; cursor = 'pointer'; opacity = '1';
+      } else {
+        bg = '#1E1E36'; color = '#64748B'; border = '2px solid #2D2D4A'; cursor = 'default'; opacity = '0.5';
+      }
+
+      const clickHandler = isCompleted ? 'onclick="goToStep(' + i + ')"' : '';
+      const title = isLocked ? 'Complete previous steps first' : stepNames[i];
+
+      html += '<div ' + clickHandler + ' title="' + title + '" style="' +
+        'width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; ' +
+        'font-size: 13px; font-weight: bold; flex-shrink: 0; transition: all 0.2s; ' +
+        'background: ' + bg + '; color: ' + color + '; border: ' + border + '; cursor: ' + cursor + '; opacity: ' + opacity + ';">' +
+        (isCompleted && !isCurrent ? '✓' : i) + '</div>';
+    }
+
+    bar.innerHTML = html;
+  }
+
+  // ---- Step navigation ----
+  function showStep(step) {
+    // Hide all steps
+    document.querySelectorAll('.exp-step').forEach(function(el) {
+      el.style.display = 'none';
+    });
+
+    // Show the target step
+    var target = document.querySelector('.exp-step[data-step="' + step + '"]');
+    if (target) {
+      target.style.display = 'block';
+    }
+
+    currentStep = step;
+
+    // Mark previous step as completed (if moving forward)
+    if (step - 1 > highestCompleted) {
+      highestCompleted = step - 1;
+    }
+
+    saveProgress();
+    renderProgressBar();
+
+    // Scroll to top of the experience
+    document.getElementById('experience-app').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // Expose globally for onclick handlers
+  window.goToStep = function(step) {
+    // Allow: completed steps, current step, or advancing one step via Continue
+    if (step >= 1 && step <= TOTAL_STEPS && step <= highestCompleted + 2) {
+      showStep(step);
+    }
+  };
+
+  // ---- Detection game ----
   const answers = {
     1: { correct: 'ai', explanation: 'AI Generated. Note the phrases "It\'s important to note that..." and "significant transformation" - classic AI markers. Also very balanced and generic.' },
     2: { correct: 'human', explanation: 'Human Written. Personal frustration, informal contractions, specific details about grades and the writing centre suggest authentic student voice.' },
@@ -374,33 +558,31 @@ format:
     if (answered[num]) return;
     answered[num] = true;
 
-    const isCorrect = guess === answers[num].correct;
+    var isCorrect = guess === answers[num].correct;
     if (isCorrect) score++;
 
-    const answerDiv = document.getElementById(`answer-${num}`);
+    var answerDiv = document.getElementById('answer-' + num);
     answerDiv.style.display = 'block';
     answerDiv.style.background = isCorrect ? '#1A3A2A' : '#3B1010';
-    answerDiv.innerHTML = `
-      <div style="display: flex; align-items: flex-start; gap: 8px;">
-        <span style="font-size: 20px;">${isCorrect ? '✅' : '❌'}</span>
-        <div>
-          <strong style="color: ${isCorrect ? '#4ADE80' : '#FCA5A5'};">${isCorrect ? 'Correct!' : 'Not quite.'}</strong>
-          <p style="margin: 8px 0 0 0; color: ${isCorrect ? '#4ADE80' : '#FCA5A5'}; font-size: 14px;">${answers[num].explanation}</p>
-        </div>
-      </div>
-    `;
+    answerDiv.innerHTML =
+      '<div style="display: flex; align-items: flex-start; gap: 8px;">' +
+        '<span style="font-size: 20px;">' + (isCorrect ? '✅' : '❌') + '</span>' +
+        '<div>' +
+          '<strong style="color: ' + (isCorrect ? '#4ADE80' : '#FCA5A5') + ';">' + (isCorrect ? 'Correct!' : 'Not quite.') + '</strong>' +
+          '<p style="margin: 8px 0 0 0; color: ' + (isCorrect ? '#4ADE80' : '#FCA5A5') + '; font-size: 14px;">' + answers[num].explanation + '</p>' +
+        '</div>' +
+      '</div>';
 
-    // Check if game is complete
     if (Object.keys(answered).length === 5) {
-      showScore();
+      showGameScore();
     }
   };
 
-  function showScore() {
-    const scoreDiv = document.getElementById('game-score');
+  function showGameScore() {
+    var scoreDiv = document.getElementById('game-score');
     scoreDiv.style.display = 'block';
 
-    let emoji, message;
+    var emoji, message;
     if (score === 5) {
       emoji = '🏆';
       message = 'Perfect! You have a great eye for AI patterns.';
@@ -409,17 +591,17 @@ format:
       message = 'Good job! Detection is tricky, and you\'re developing good instincts.';
     } else {
       emoji = '🤔';
-      message = 'Don\'t worry—this is harder than it looks. The lines are increasingly blurry.';
+      message = 'Don\'t worry, this is harder than it looks. The lines are increasingly blurry.';
     }
 
     document.getElementById('score-emoji').textContent = emoji;
-    document.getElementById('score-text').textContent = `You got ${score} out of 5`;
+    document.getElementById('score-text').textContent = 'You got ' + score + ' out of 5';
     document.getElementById('score-message').textContent = message;
   }
 
-  // Tab switching
+  // ---- Tab switching ----
   window.switchTab = function(tab) {
-    document.querySelectorAll('.context-tab').forEach(t => {
+    document.querySelectorAll('.context-tab').forEach(function(t) {
       if (t.dataset.tab === tab) {
         t.style.background = '#4F46E5';
         t.style.color = 'white';
@@ -431,34 +613,36 @@ format:
       }
     });
 
-    document.querySelectorAll('.tab-panel').forEach(p => {
+    document.querySelectorAll('.tab-panel').forEach(function(p) {
       p.style.display = p.dataset.panel === tab ? 'block' : 'none';
     });
   };
 
-  // Completion tracking
-  const BADGEQUEST_URL = 'https://localhost:5000';
-  const COURSE_ID = 'ai-skills-passport';
-
+  // ---- Completion tracking ----
   const badges = {
     1: { emoji: '🧪', name: 'Explorer' },
     3: { emoji: '🧠', name: 'Thinker' },
     5: { emoji: '🛠️', name: 'Builder' },
-    6: { emoji: '🏆', name: 'Champion' }
+    7: { emoji: '🏆', name: 'Champion' }
   };
 
   window.recordCompletion = function() {
-    const btn = document.getElementById('complete-btn');
+    var btn = document.getElementById('complete-btn');
     btn.disabled = true;
     btn.textContent = 'Recording...';
     btn.style.background = '#94A3B8';
+
+    // Mark final step as completed
+    highestCompleted = TOTAL_STEPS;
+    saveProgress();
+    renderProgressBar();
 
     saveToLocalStorage();
     showCompletionSuccess();
   };
 
   function saveToLocalStorage() {
-    const completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
     completions[experienceId] = {
       completedAt: new Date().toISOString(),
       uid: uid
@@ -470,40 +654,43 @@ format:
     document.getElementById('completion-trigger').style.display = 'none';
     document.getElementById('completion-section').style.display = 'block';
 
-    const completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
-    const completedCount = Object.keys(completions).length;
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    var completedCount = Object.keys(completions).length;
 
-    let badgeHtml = '';
-    let nextBadge = null;
+    var badgeHtml = '';
+    var nextBadge = null;
 
-    for (const [count, badge] of Object.entries(badges)) {
+    for (var count in badges) {
       if (completedCount >= parseInt(count)) {
-        badgeHtml += `<span style="font-size: 24px; margin: 0 4px;" title="${badge.name}">${badge.emoji}</span>`;
+        badgeHtml += '<span style="font-size: 24px; margin: 0 4px;" title="' + badges[count].name + '">' + badges[count].emoji + '</span>';
       } else if (!nextBadge) {
-        nextBadge = { count: parseInt(count), ...badge };
+        nextBadge = { count: parseInt(count), emoji: badges[count].emoji, name: badges[count].name };
       }
     }
 
-    let progressText = `<div style="margin-bottom: 8px;">${badgeHtml || '<span style="color: #94A3B8;">Start your collection!</span>'}</div>`;
-    progressText += `<p style="font-size: 13px; color: #64748B; margin: 0;">${completedCount} experience${completedCount !== 1 ? 's' : ''} completed</p>`;
+    var progressText = '<div style="margin-bottom: 8px;">' + (badgeHtml || '<span style="color: #94A3B8;">Start your collection!</span>') + '</div>';
+    progressText += '<p style="font-size: 13px; color: #64748B; margin: 0;">' + completedCount + ' experience' + (completedCount !== 1 ? 's' : '') + ' completed</p>';
 
     if (nextBadge) {
-      progressText += `<p style="font-size: 12px; color: #94A3B8; margin: 4px 0 0 0;">Next badge: ${nextBadge.emoji} ${nextBadge.name} (${nextBadge.count - completedCount} more)</p>`;
+      progressText += '<p style="font-size: 12px; color: #94A3B8; margin: 4px 0 0 0;">Next badge: ' + nextBadge.emoji + ' ' + nextBadge.name + ' (' + (nextBadge.count - completedCount) + ' more)</p>';
     }
 
     document.getElementById('badge-progress').innerHTML = progressText;
   }
 
   function checkExistingCompletion() {
-    const completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
     if (completions[experienceId]) {
-      document.getElementById('completion-trigger').innerHTML = `
-        <div style="color: #22C55E; font-size: 24px; margin-bottom: 8px;">✓</div>
-        <p style="font-size: 14px; color: #64748B; margin: 0;">You completed this experience on ${new Date(completions[experienceId].completedAt).toLocaleDateString()}</p>
-      `;
+      document.getElementById('completion-trigger').innerHTML =
+        '<div style="color: #22C55E; font-size: 24px; margin-bottom: 8px;">✓</div>' +
+        '<p style="font-size: 14px; color: #64748B; margin: 0;">You completed this experience on ' + new Date(completions[experienceId].completedAt).toLocaleDateString() + '</p>';
     }
   }
 
+  // ---- Initialise ----
+  loadProgress();
+  renderProgressBar();
+  showStep(currentStep);
   checkExistingCompletion();
 })();
 </script>

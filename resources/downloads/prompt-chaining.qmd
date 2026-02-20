@@ -10,7 +10,7 @@ Before diving into specific techniques, consider reading **"Using AI to Help You
 
 ## Introduction
 
-Prompt chaining is the practice of using multiple, sequential prompts to break complex tasks into manageable steps. Rather than asking AI to "do everything at once," you guide it through a structured workflow—like having a conversation with a thinking partner.
+Prompt chaining is the practice of using multiple, sequential prompts to break complex tasks into manageable steps. Rather than asking AI to "do everything at once," you guide it through a structured workflow, like having a conversation with a thinking partner.
 
 This approach is particularly valuable for:
 - Complex analysis or research
@@ -170,7 +170,7 @@ Start with step 2: analyse and suggest top 3 themes. Then wait for my response b
 *[AI responds with themes]*
 
 **Your response:**
-> "Good. Theme 1 is spot-on. Theme 2 needs clarification—can you break down the 'resistance factors' more specifically? For theme 3, I'd like to explore 'implementation barriers' more deeply."
+> "Good. Theme 1 is spot-on. Theme 2 needs clarification. Can you break down the 'resistance factors' more specifically? For theme 3, I'd like to explore 'implementation barriers' more deeply."
 
 *[AI refines and waits]*
 
@@ -395,7 +395,7 @@ Keep it feasible for a master's thesis.
 2. **Review each step:** Don't blindly proceed. Check each output.
 3. **Provide feedback:** Tell AI what's working and what needs adjustment.
 4. **Build incrementally:** Small steps often beat big jumps.
-5. **Document the process:** Save your prompt chain—you'll use similar ones again.
+5. **Document the process:** Save your prompt chain. You'll use similar ones again.
 6. **Know when to stop:** Iteration has diminishing returns.
 7. **Stay in one conversation:** Keep related prompts in the same chat for context.
 
@@ -436,7 +436,7 @@ You're preparing a faculty workshop on AI integration. Design a 4-step chain to:
 - **Quality compounds:** Good step 1 output → better step 2 input → better final result
 - **It's a conversation:** The back-and-forth with AI is where the real value emerges
 
-> The power of prompt chaining isn't in the individual steps—it's in how each step builds on the previous one, refining your thinking as you go.
+> The power of prompt chaining isn't in the individual steps. It's in how each step builds on the previous one, refining your thinking as you go.
 
 ---
 
@@ -449,4 +449,4 @@ You're preparing a faculty workshop on AI integration. Design a 4-step chain to:
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

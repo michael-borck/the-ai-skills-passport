@@ -7,10 +7,13 @@ format:
 ---
 
 ```{=html}
-<!-- Find Your Path — AI Skills Passport Onboarding Quiz -->
+<!-- Find Your Path. AI Skills Passport Onboarding Quiz -->
 <!-- Self-contained SPA with inline CSS for Blackboard compatibility -->
 
-<div id="quiz-app" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 20px; color: #E2E8F0;">
+<div id="quiz-app" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+
+  <!-- Home button -->
+  <a href="https://lms.curtin.edu.au/ultra/organizations/_165323_1/cl/outline" title="Back to AI Skills Passport" style="position: fixed; top: 16px; right: 16px; z-index: 999; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 8px; text-decoration: none; font-size: 1.2rem; color: #94A3B8;">&#8962;</a>
 
   <!-- Header -->
   <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 24px; text-align: center;">
@@ -160,7 +163,7 @@ format:
       <div style="display: flex; flex-direction: column; gap: 12px;">
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q5" value="accept" style="display: none;">
-          <div style="font-weight: bold; color: #E2E8F0;">Use it as-is — AI is usually right</div>
+          <div style="font-weight: bold; color: #E2E8F0;">Use it as-is. AI is usually right</div>
         </label>
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q5" value="skim" style="display: none;">
@@ -184,7 +187,7 @@ format:
       <div style="display: flex; flex-direction: column; gap: 12px;">
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q6" value="not-confident" style="display: none;">
-          <div style="font-weight: bold; color: #E2E8F0;">Not confident — still learning myself</div>
+          <div style="font-weight: bold; color: #E2E8F0;">Not confident. Still learning myself</div>
         </label>
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q6" value="somewhat" style="display: none;">
@@ -196,7 +199,7 @@ format:
         </label>
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q6" value="expert" style="display: none;">
-          <div style="font-weight: bold; color: #E2E8F0;">Very confident — I help others regularly</div>
+          <div style="font-weight: bold; color: #E2E8F0;">Very confident. I help others regularly</div>
         </label>
       </div>
     </div>
@@ -232,7 +235,7 @@ format:
       <div style="display: flex; flex-direction: column; gap: 12px;">
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q8" value="hands-on" style="display: none;">
-          <div style="font-weight: bold; color: #E2E8F0;">Hands-on practice — learn by doing</div>
+          <div style="font-weight: bold; color: #E2E8F0;">Hands-on practice. Learn by doing</div>
         </label>
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q8" value="conceptual" style="display: none;">

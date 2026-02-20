@@ -1,14 +1,29 @@
-<!-- AI in 5 — Subscribe/Unsubscribe -->
+<!-- AI in 5: Subscribe/Unsubscribe -->
 <!-- Paste into: AI in 5 sidebar item > Build Content > Item > Toggle HTML Code View -->
 <!-- Replace [SERVER_URL] with your progress tracker URL (e.g. http://10.x.x.x:5050) -->
 <!-- Replace [ARCHIVE_URL] with the past challenges archive page URL -->
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: -8px; padding: 0; background: #1A1A2E;">
 
+<!-- ===== NAVIGATION ===== -->
+<div style="position: relative; text-align: right; padding: 12px 20px 0;">
+<div onclick="var m=this.nextElementSibling;m.style.display=m.style.display==='block'?'none':'block'" style="display: inline-block; cursor: pointer; padding: 8px 10px; border-radius: 6px; background: #16162A; border: 1px solid #2D2D4A;">
+<span style="font-size: 1.2rem; color: #94A3B8;">&#9776;</span>
+</div>
+<div style="display: none; position: absolute; right: 20px; top: 48px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; min-width: 200px; z-index: 999; overflow: hidden;">
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115334_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">The Arrivals Hall</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #FBBF24; font-weight: 700; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">&#9656; AI in 5</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118388_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">AI Toolkit</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115320_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">My Passport</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118391_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Contact</a>
+<a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118598_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none;">About</a>
+</div>
+</div>
+
 <!-- ===== HERO SECTION ===== -->
 <div style="background: #1A1A2E; padding: 40px 36px 36px; position: relative; overflow: hidden;">
 
-<!-- Bold headline — left-aligned, multi-line, colour variation -->
+<!-- Bold headline, left-aligned, multi-line, colour variation -->
 <div style="margin-bottom: 6px;">
 <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px;">Stay curious.</div>
 <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px;">Try something new.</div>
@@ -17,10 +32,10 @@
 
 <!-- Tagline -->
 <div style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin-top: 16px; max-width: 520px;">
-Weekly AI micro-challenges delivered to your inbox. No prep needed — just open, try, and learn something new.
+Weekly AI micro-challenges delivered to your inbox. No prep needed. Just open, try, and learn something new.
 </div>
 
-<!-- Subscribe form — inline, left-aligned -->
+<!-- Subscribe form, inline, left-aligned -->
 <div style="margin-top: 24px; display: flex; gap: 0; flex-wrap: wrap; max-width: 520px;">
 <input type="email" id="ai5-email" placeholder="your.name@curtin.edu.au"
   style="flex: 1; min-width: 220px; padding: 12px 16px; background: #16162A; border: 2px solid #2D2D4A; border-right: none; border-radius: 8px 0 0 8px; font-family: inherit; font-size: 1rem; color: #E2E8F0; box-sizing: border-box; outline: none;">
@@ -36,7 +51,7 @@ Weekly AI micro-challenges delivered to your inbox. No prep needed — just open
 <a href="javascript:void(0)" onclick="ai5Unsubscribe()" style="font-size: 0.8rem; color: #64748B; text-decoration: underline; cursor: pointer;">Unsubscribe from challenges</a>
 </div>
 
-<!-- Decorative icons — right side -->
+<!-- Decorative icons, right side -->
 <div style="position: absolute; right: 30px; bottom: 28px; text-align: right; opacity: 0.15;">
 <div style="font-size: 4rem; line-height: 1;">⚡</div>
 </div>
@@ -46,12 +61,12 @@ Weekly AI micro-challenges delivered to your inbox. No prep needed — just open
 <!-- ===== SECONDARY SECTION ===== -->
 <div style="background: #1A1A2E; padding: 20px 36px 36px; border-top: 1px solid #2D2D4A;">
 
-<!-- Sample challenge — a dilemma to hook curiosity -->
+<!-- Sample challenge, a dilemma to hook curiosity -->
 <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 24px; margin-bottom: 16px;">
-<div style="font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px;">⚖️ Sample Challenge — Quick Dilemma</div>
-<div style="font-size: 1.1rem; font-weight: 700; line-height: 1.5; color: #F8FAFC; margin-bottom: 8px;">Your colleague uses AI to write all their student feedback. The comments are detailed, personalised, and helpful — better than what most staff write manually.</div>
+<div style="font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px;">⚖️ Sample Challenge: Quick Dilemma</div>
+<div style="font-size: 1.1rem; font-weight: 700; line-height: 1.5; color: #F8FAFC; margin-bottom: 8px;">Your colleague uses AI to write all their student feedback. The comments are detailed, personalised, and helpful, better than what most staff write manually.</div>
 <div style="font-size: 0.95rem; line-height: 1.6; color: #94A3B8;">Is this good practice or a shortcut? Does it matter if students can't tell? Where's the line between using AI as a tool and outsourcing your role?</div>
-<div style="margin-top: 12px; font-size: 0.8rem; color: #64748B;">⏱️ ~5 minutes &nbsp;&bull;&nbsp; No right answer — just your thinking</div>
+<div style="margin-top: 12px; font-size: 0.8rem; color: #64748B;">⏱️ ~5 minutes &nbsp;&bull;&nbsp; No right answer, just your thinking</div>
 </div>
 
 <!-- Past challenges link -->

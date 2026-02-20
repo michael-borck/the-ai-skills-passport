@@ -1,6 +1,6 @@
 # Accessibility Review
 
-**AI Skills Passport — WCAG 2.1 Considerations**
+**AI Skills Passport: WCAG 2.1 Considerations**
 
 ---
 
@@ -27,7 +27,7 @@ The SPAs use semantic HTML and have reasonable baseline accessibility. This docu
 ### Colour & Contrast
 - ✅ Primary text (`#334155` on white) meets WCAG AA
 - ✅ White text on dark headers meets AA
-- ✅ Not relying on colour alone — icons/emojis supplement meaning
+- ✅ Not relying on colour alone. Icons/emojis supplement meaning
 
 ### Text & Readability
 - ✅ Base font size is 14-16px (readable)
@@ -99,9 +99,9 @@ Add ARIA landmarks for major sections:
 ## Testing Recommendations
 
 ### Quick Checks (Do Before Launch)
-- [ ] Tab through each SPA — can you reach everything?
+- [ ] Tab through each SPA. Can you reach everything?
 - [ ] Complete each SPA using only keyboard
-- [ ] Zoom to 200% — is content still readable?
+- [ ] Zoom to 200%. Is content still readable?
 - [ ] Check on mobile device
 
 ### Screen Reader Testing (If Resources Allow)
@@ -133,7 +133,7 @@ All combinations meet WCAG AA for normal text.
 
 ## No Images = No Alt Text Needed
 
-The SPAs currently use emoji and text only — no `<img>` elements. If images are added later, ensure:
+The SPAs currently use emoji and text only, no `<img>` elements. If images are added later, ensure:
 - Informative images have descriptive alt text
 - Decorative images have `alt=""`
 - Complex diagrams have extended descriptions

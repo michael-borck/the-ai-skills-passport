@@ -39,7 +39,7 @@ While many AI workshops focus on teaching (how educators use AI *with* students)
 - Strategic planning and operations
 - Documentation and process improvement
 
-This guide shows how AI can support these professional responsibilities—not by replacing your expertise, but by amplifying your impact.
+This guide shows how AI can support these professional responsibilities. Not by replacing your expertise, but by amplifying your impact.
 
 ---
 
@@ -129,7 +129,7 @@ with implementation timeline."
 
 Step 4: "Draft guidance for unit coordinators
 on meeting assessment standards.
-Use plain language—they're busy people."
+Use plain language. They're busy people."
 ```
 
 → **See also:** C.R.A.F.T. Prompting Framework
@@ -240,15 +240,15 @@ and a checklist for coordinators to use."
 
 **Template:**
 ```
-Context: [Dataset description—what, when, who, why collected]
+Context: [Dataset description: what, when, who, why collected]
 Role: You are a [relevant professional: teaching analyst, operations manager, etc.]
 Task: Analyse [specific data]. Focus on [key questions or metrics].
-Output: [Format—summary, bullets, table, narrative]
-Audience: [Who reads this—leadership, faculty, staff?]
+Output: [Format: summary, bullets, table, narrative]
+Audience: [Who reads this: leadership, faculty, staff?]
 
 [Paste data or attach document]
 
-Start with: [specific first step—summarise, identify trends, flag issues, etc.]
+Start with: [specific first step: summarise, identify trends, flag issues, etc.]
 ```
 
 **Real Example:**
@@ -279,7 +279,7 @@ What patterns do you notice? Then wait for my feedback.
 Context: [Regulatory/policy document or institutional requirement]
 Role: You are a [compliance/policy role: compliance officer, policy analyst, etc.]
 Task: Extract [key requirements]. Assess [current practices/gaps].
-Output: [Format—summary, checklist, gap analysis, action plan]
+Output: [Format: summary, checklist, gap analysis, action plan]
 Recommendation: [What should we do?]
 
 [Paste policy document or describe requirement]
@@ -313,7 +313,7 @@ from TEQSA assessment standards.
 
 **Template:**
 ```
-Content: [Piece of information to communicate—data, policy change, outcome]
+Content: [Piece of information to communicate: data, policy change, outcome]
 Task: Create multiple versions for different audiences:
 1. [Audience A]: [Format A] with [tone/focus]
 2. [Audience B]: [Format B] with [tone/focus]
@@ -345,10 +345,10 @@ Start with the faculty email. Make it action-oriented and reassuring.
 
 **Template:**
 ```
-Scenario: [Constraint or opportunity—budget, new policy, enrolment change, etc.]
+Scenario: [Constraint or opportunity: budget, new policy, enrolment change, etc.]
 Role: You are a [strategic role: operations planner, curriculum strategist, etc.]
 Task: Generate [number] strategic options for [goal].
-For each option, assess: [what matters—cost, risk, timeline, effectiveness, etc.]
+For each option, assess: [what matters: cost, risk, timeline, effectiveness, etc.]
 Recommendation: [Your judgement on best path]
 
 Scenario detail: [Describe situation, constraints, objectives]
@@ -465,7 +465,7 @@ Now create a presentation summary for faculty leadership.
 Include: The data, what it means, three options with pros/cons,
 and your recommendation.
 
-Keep it 2 pages—they're busy.
+Keep it 2 pages. They're busy.
 ```
 
 *[Ready to present]*
@@ -520,7 +520,7 @@ Prepare talking points for a quick faculty briefing on the
 new unit approval process.
 
 Include: Timeline, key requirements, common mistakes, how to get help.
-Make it encouraging—we want good new units, not bureaucratic obstacles.
+Make it encouraging. We want good new units, not bureaucratic obstacles.
 ```
 
 *[Workshop materials ready]*
@@ -736,11 +736,11 @@ Document how an approach evolves over time through multiple iterations of feedba
 
 > Your role is to enable good teaching and research at scale. AI can help you see patterns across units and faculties, analyse complex data, draft communications, and explore strategic options faster than ever.
 >
-> But *you* are the expert on your institution, your people, and what's possible. Use AI as your analytical partner—not as a replacement for professional judgement.
+> But *you* are the expert on your institution, your people, and what's possible. Use AI as your analytical partner, not as a replacement for professional judgement.
 
 The most effective professional staff are those who combine AI's analytical power with deep institutional knowledge and stakeholder understanding. That's where the real value emerges.
 
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*

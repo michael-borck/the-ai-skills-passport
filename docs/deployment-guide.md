@@ -112,7 +112,7 @@ Record all URLs:
    - `[ONBOARDING_URL]` → your Find Your Path URL
    - `[EXP1_URL]` → your Is This AI? URL
    - etc.
-3. The `@X@user.batch_uid@X@` part stays as-is — Blackboard replaces this with the user's ID
+3. The `@X@user.batch_uid@X@` part stays as-is. Blackboard replaces this with the user's ID
 
 ---
 
@@ -216,7 +216,7 @@ fetch(`http://YOUR_IP:5050/progress/${uid}`)
 
 **Styling looks broken?**
 - Ensure you pasted into HTML/code view, not rich text view
-- Blackboard strips `<style>` tags — all CSS must be inline (it already is)
+- Blackboard strips `<style>` tags, so all CSS must be inline (it already is)
 
 **Progress not persisting?**
 - localStorage is browser-specific

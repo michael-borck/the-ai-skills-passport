@@ -1,0 +1,593 @@
+---
+title: "Researching with AI"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    toc: false
+---
+
+```{=html}
+<!-- Researching with AI, Experience 7: AI across the Research Lifecycle -->
+<!-- 30-60 minutes | Research-focused -->
+<!-- Stepped layout: linear forward, free backward -->
+
+<div id="experience-app" data-experience-id="researching-with-ai" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #16162A; color: #E2E8F0; position: relative;">
+
+  <!-- Home button -->
+  <a href="https://lms.curtin.edu.au/ultra/organizations/_165323_1/cl/outline" title="Back to AI Skills Passport" style="position: fixed; top: 16px; right: 16px; z-index: 999; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 8px; text-decoration: none; font-size: 1.2rem; color: #94A3B8;">&#8962;</a>
+
+  <!-- Header (always visible) -->
+  <div style="background: linear-gradient(135deg, #1E1E36 0%, #2D2D4A 50%, #059669 100%); color: white; padding: 40px; border-radius: 12px; text-align: center; margin-bottom: 28px;">
+    <div style="font-size: 4rem; margin-bottom: 10px;">🔬</div>
+    <h1 style="margin: 0; font-size: 2.5rem; font-weight: normal; letter-spacing: 2px;">RESEARCHING WITH AI</h1>
+    <p style="margin: 10px 0 0 0; font-size: 1.3rem; opacity: 0.9;">AI across the Research Lifecycle</p>
+    <p style="margin: 15px 0 0 0; font-size: 1rem; opacity: 0.7;">30-60 minutes</p>
+  </div>
+
+  <!-- ===== PROGRESS BAR ===== -->
+  <div id="progress-bar" style="display: flex; align-items: center; justify-content: center; gap: 0; margin-bottom: 28px; padding: 16px 12px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; flex-wrap: wrap;">
+    <!-- Steps are rendered by JS -->
+  </div>
+
+  <!-- ===== STEP 1: Welcome ===== -->
+  <div class="exp-step" data-step="1" style="display: none;">
+    <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
+      <h3 style="font-size: 14px; color: #86EFAC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
+      <ul style="margin: 0; padding-left: 20px; color: #4ADE80; line-height: 1.8;">
+        <li>Know which AI tools support different stages of the research lifecycle</li>
+        <li>Use AI to accelerate literature discovery and gap analysis</li>
+        <li>Apply AI writing assistance without losing your academic voice</li>
+        <li>Understand how AI can support data analysis and coding tasks</li>
+        <li>Navigate disclosure requirements for AI use in research</li>
+      </ul>
+    </div>
+
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 28px;">
+      <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">AI across the research lifecycle</h3>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 16px 0;">AI tools are reshaping how researchers find literature, write drafts, analyse data, and prepare publications. This experience walks through each stage, with practical activities you can try using your own research.</p>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 16px 0;">The goal is not to automate your research, but to identify where AI saves time on routine tasks so you can focus on the thinking that matters.</p>
+
+      <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 12px 0;">How this experience works</h3>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">This experience has <strong style="color: #E2E8F0;">6 steps</strong>. Each step covers a different part of the research workflow. Try the activities with your own research topics for the most benefit.</p>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #4F46E5; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">1</span>
+          <span style="color: #CBD5E1; font-size: 14px;">Welcome and Overview</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">2</span>
+          <span style="color: #64748B; font-size: 14px;">Literature Discovery</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">3</span>
+          <span style="color: #64748B; font-size: 14px;">Writing and Editing</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">4</span>
+          <span style="color: #64748B; font-size: 14px;">Data and Analysis</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">5</span>
+          <span style="color: #64748B; font-size: 14px;">Research Integrity</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">6</span>
+          <span style="color: #64748B; font-size: 14px;">Key Takeaways and Completion</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(2)" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Let's Go &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 2: Literature Discovery ===== -->
+  <div class="exp-step" data-step="2" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 2</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Literature Discovery</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">AI tools can help you find relevant papers, summarise abstracts, identify research gaps, and compare methodologies across studies. They work best as a complement to traditional database searches, not a replacement.</p>
+
+      <!-- Tool Comparison Cards -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">Tools for literature discovery</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Semantic Scholar</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Free academic search engine with AI-powered relevance ranking. Good for finding highly cited papers and tracing citation networks. Shows "TLDR" summaries of abstracts.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Elicit</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask a research question in plain language and Elicit finds relevant papers, extracts key findings, and organises results into a table. Particularly useful for systematic review screening.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Consensus</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Searches academic papers and synthesises findings into yes/no/mixed answers to your research question. Useful for quickly gauging the state of evidence on a topic.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">ChatGPT / Claude</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">General-purpose AI can help brainstorm search terms, suggest related concepts, and summarise papers you paste in. Caution: they can hallucinate citations, so always verify references exist.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Try This Prompt -->
+      <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this activity</h3>
+        <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 14px;">Pick a research topic you are currently working on. Try these steps:</p>
+        <ol style="margin: 0; padding-left: 20px; color: #CBD5E1; line-height: 1.8;">
+          <li>Search for your topic on <strong>Semantic Scholar</strong> and note the top 5 results</li>
+          <li>Ask the same question on <strong>Elicit</strong> and compare which papers appear</li>
+          <li>Paste one abstract into <strong>ChatGPT or Claude</strong> and ask: "Summarise the key finding, methodology, and limitations of this study"</li>
+          <li>Compare the AI summary against your own reading of the abstract. What did it capture well? What did it miss?</li>
+        </ol>
+      </div>
+
+      <!-- What to Watch For -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">What to watch for</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li>AI tools can hallucinate citations (inventing authors, titles, or DOIs that do not exist). Always verify in a real database.</li>
+              <li>AI summaries can flatten nuance. A paper's contribution might be its methodology or a specific caveat, not just the headline finding.</li>
+              <li>These tools tend to favour English-language, well-cited papers. They may miss important work in other languages or newer publications.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(3)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 3: Writing & Editing ===== -->
+  <div class="exp-step" data-step="3" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 3</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Writing and Editing</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">AI can assist with drafting sections, paraphrasing, adjusting academic tone, and getting structural feedback on your writing. The key is knowing when AI helps and when it starts to erode your distinctive voice.</p>
+
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">Where AI writing assistance works well</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Overcoming blank page paralysis</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Give AI your dot points, findings, or rough notes and ask for a structured first draft. This gets words on the page that you then rewrite in your own voice.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Paraphrasing and clarity</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Paste a paragraph and ask AI to suggest clearer phrasing, reduce word count, or simplify complex sentences without changing the meaning.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Structural feedback</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask AI to evaluate the logical flow of a section: "Does my argument follow logically? Are there gaps between my evidence and my conclusion?"</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Academic tone adjustment</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">If you are writing for a different audience (grant application vs journal article vs conference abstract), AI can help adjust formality and emphasis.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: #3B1010; border: 1px solid #991B1B; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">🚫</span>
+          <div>
+            <strong style="color: #FCA5A5;">Where AI writing hinders</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCA5A5; line-height: 1.8;">
+              <li><strong>Your unique voice matters.</strong> If reviewers know your work, a sudden shift to generic AI prose is noticeable and undermines credibility.</li>
+              <li><strong>AI cannot argue for you.</strong> It can structure an argument, but the intellectual contribution (the "so what?") must come from you.</li>
+              <li><strong>Over-reliance dulls your skills.</strong> Writing is thinking. If AI does the drafting, you may miss gaps in your own reasoning.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Try This Prompt -->
+      <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Take a paragraph from a draft you are working on and paste it into ChatGPT or Claude with this prompt:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"Review this paragraph for clarity and logical flow. Suggest specific improvements but keep the academic tone. Do not rewrite it entirely, just identify the weakest sentence and explain why."</div>
+        <p style="margin: 0; color: #94A3B8; font-size: 14px;">Compare the AI's suggestion with your own instinct. Did it identify something you already suspected, or did it miss the point entirely?</p>
+      </div>
+
+      <!-- What to Watch For -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">What to watch for</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li>AI tends to make writing blander. If your text loses its edge after AI editing, the original was probably better.</li>
+              <li>Check that AI has not introduced hedging language ("it could be argued that") where you were making a definitive claim.</li>
+              <li>Be transparent about AI use. Most journals now require disclosure (covered in Step 5).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(4)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 4: Data & Analysis ===== -->
+  <div class="exp-step" data-step="4" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 4</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Data and Analysis</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">AI can assist with coding tasks (R, Python, SPSS syntax), data exploration, pattern spotting, and visualisation. It works best when you understand the analysis conceptually and use AI to speed up the implementation.</p>
+
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">How AI supports data work</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Code generation and debugging</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Describe what you want to do ("run a mixed-effects model with random intercepts for participant") and AI can generate R or Python code. It can also explain error messages and suggest fixes.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Data exploration</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Describe your dataset structure and ask AI to suggest initial exploratory analyses: distributions to check, correlations to examine, potential confounds to consider.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Visualisation</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Ask AI to generate ggplot2, matplotlib, or other plotting code. Describe the chart you want and the variables involved, and it will produce publication-ready code.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">SPSS syntax</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">If you use SPSS, AI can generate syntax for complex procedures, saving you from navigating menus. Describe the analysis in plain language and get syntax you can paste directly.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Try This Prompt -->
+      <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Describe a dataset you are working with (or a hypothetical one) and try this prompt in ChatGPT or Claude:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"I have a dataset with [describe variables, sample size, and structure]. I want to examine [your research question]. Suggest three appropriate statistical analyses, explain why each is suitable, and note any assumptions I should check first."</div>
+        <p style="margin: 0; color: #94A3B8; font-size: 14px;">Evaluate the suggestions against your own statistical knowledge. Did AI recommend anything inappropriate? Did it surface an approach you had not considered?</p>
+      </div>
+
+      <!-- What to Watch For -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">What to watch for</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li>AI-generated code can contain subtle bugs (wrong variable names, incorrect join types, off-by-one errors). Always test with known outputs.</li>
+              <li>AI may suggest analyses that are technically correct but inappropriate for your research design or data structure.</li>
+              <li>Never upload sensitive or identifiable research data to public AI tools. Use anonymised or synthetic data for prompting, or use institutionally approved tools.</li>
+              <li>AI cannot replace your understanding of why an analysis is appropriate. You need to defend your methods in peer review.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(5)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 5: Research Integrity ===== -->
+  <div class="exp-step" data-step="5" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 5</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Research Integrity</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Using AI in research comes with disclosure obligations. Journals, funders, and universities increasingly require transparency about how AI was used. Getting this right protects your reputation and your work.</p>
+
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">What you need to know</h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Journal policies</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Most major publishers (Elsevier, Springer Nature, Wiley, Taylor &amp; Francis) now require disclosure of AI use in the methods or acknowledgements section. AI cannot be listed as an author. Policies vary by journal, so check before submitting.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Funder requirements</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">ARC and NHMRC have emerging guidance on AI disclosure in grant applications and funded research. Check current guidelines before submitting applications.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Curtin policy</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Curtin's research integrity framework requires honesty and transparency in all research activities. If AI materially contributed to your work, disclose it. When in doubt, disclose.</p>
+          </div>
+          <div style="background: #1E1E36; padding: 16px; border-radius: 8px;">
+            <strong style="color: #C7D2FE;">Ethical considerations</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">Consider: data privacy (did you upload participant data to AI tools?), reproducibility (can others replicate your AI-assisted process?), and bias (does the AI introduce systematic distortions?).</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive: Policy Checker -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 12px 0;">Policy quick-reference</h3>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 16px 0;">Select a publisher to see their current AI disclosure stance:</p>
+
+        <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+          <button onclick="showPolicy('elsevier')" style="padding: 8px 16px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 13px; color: #CBD5E1;">Elsevier</button>
+          <button onclick="showPolicy('springer')" style="padding: 8px 16px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 13px; color: #CBD5E1;">Springer Nature</button>
+          <button onclick="showPolicy('wiley')" style="padding: 8px 16px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 13px; color: #CBD5E1;">Wiley</button>
+          <button onclick="showPolicy('tf')" style="padding: 8px 16px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 13px; color: #CBD5E1;">Taylor &amp; Francis</button>
+          <button onclick="showPolicy('ieee')" style="padding: 8px 16px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 13px; color: #CBD5E1;">IEEE</button>
+        </div>
+
+        <div id="policy-display" style="background: #1E1E36; padding: 16px; border-radius: 8px; min-height: 80px;">
+          <p style="margin: 0; color: #64748B; font-style: italic;">Select a publisher above to see their AI disclosure requirements.</p>
+        </div>
+      </div>
+
+      <!-- Disclosure Template -->
+      <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #86EFAC; margin: 0 0 12px 0;">Sample disclosure statement</h3>
+        <p style="color: #4ADE80; font-size: 14px; line-height: 1.7; margin: 0 0 8px 0;">You can adapt this template for your own papers:</p>
+        <div style="background: #16162A; padding: 16px; border-radius: 8px; font-style: italic; color: #CBD5E1; line-height: 1.7;">
+          "During the preparation of this work, the author(s) used [Tool Name, e.g. ChatGPT-4] for [specific purpose, e.g. improving readability of the manuscript / generating initial code for data analysis / summarising literature during the review phase]. After using this tool, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication."
+        </div>
+      </div>
+
+      <!-- What to Watch For -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">⚠️</span>
+          <div>
+            <strong style="color: #FBBF24;">What to watch for</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li>Policies are changing rapidly. Check the journal's author guidelines at the time of submission, not months before.</li>
+              <li>Using AI for grammar checking (like Grammarly) is generally accepted, but using AI to generate substantial text requires disclosure.</li>
+              <li>If you used AI during data analysis, describe exactly what it did and verify the outputs independently.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(6)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 6: Key Takeaways & Completion ===== -->
+  <div class="exp-step" data-step="6" style="display: none;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+      <h2 style="font-size: 20px; color: #E2E8F0; margin: 0 0 16px 0;">Key Takeaways</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>AI accelerates routine research tasks</strong> (finding papers, generating code, formatting) but cannot replace the intellectual work of analysis and argumentation.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Always verify AI outputs</strong>. Citations, statistical suggestions, and summaries can contain errors that would undermine your work.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Disclose AI use transparently</strong>. Check your target journal, funder, and Curtin's guidelines before submitting.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Protect research data</strong>. Never upload identifiable participant data to public AI tools.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Completion Section -->
+    <div id="completion-section" style="display: none; background: linear-gradient(135deg, #0D2818, #1A3A2A); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+      <div style="font-size: 48px; margin-bottom: 16px;">&#127881;</div>
+      <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; color: #86EFAC; margin: 0 0 12px 0;">Experience Complete!</h2>
+      <p style="font-size: 16px; color: #4ADE80; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
+      <div id="badge-progress" style="background: #16162A; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
+        <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
+      </div>
+      <a href="#" id="next-experience-link" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Continue to Next Experience</a>
+    </div>
+
+    <div id="completion-trigger" style="background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+      <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; color: #E2E8F0; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
+      <p style="font-size: 14px; color: #64748B; line-height: 1.6; margin: 0 0 20px 0;">Once you have worked through the activities above, click below to record your progress.</p>
+      <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease;">
+        Mark as Complete
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  var experienceId = 'researching-with-ai';
+  var TOTAL_STEPS = 6;
+  var STORAGE_KEY = 'ai-passport-steps-researching-with-ai';
+  var urlParams = new URLSearchParams(window.location.search);
+  var uid = urlParams.get('uid') || 'anonymous';
+
+  // Step names for progress bar
+  var stepNames = ['', 'Welcome', 'Literature', 'Writing', 'Data', 'Integrity', 'Wrap Up'];
+
+  // ---- Step state ----
+  var currentStep = 1;
+  var highestCompleted = 0;
+
+  function loadStepProgress() {
+    try {
+      var saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      highestCompleted = saved.highestCompleted || 0;
+      currentStep = saved.currentStep || 1;
+      if (currentStep > highestCompleted + 1) currentStep = highestCompleted + 1;
+    } catch (e) {
+      highestCompleted = 0;
+      currentStep = 1;
+    }
+  }
+
+  function saveStepProgress() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      highestCompleted: highestCompleted,
+      currentStep: currentStep
+    }));
+  }
+
+  // ---- Progress bar rendering ----
+  function renderProgressBar() {
+    var bar = document.getElementById('progress-bar');
+    var html = '';
+
+    for (var i = 1; i <= TOTAL_STEPS; i++) {
+      var isCompleted = i <= highestCompleted;
+      var isCurrent = i === currentStep;
+      var isLocked = i > highestCompleted + 1;
+
+      if (i > 1) {
+        html += '<div style="flex: 1; max-width: 40px; height: 2px; background: ' +
+          (i <= highestCompleted + 1 ? '#4F46E5' : '#2D2D4A') +
+          '; align-self: center;"></div>';
+      }
+
+      var bg, color, border, cursor, opacity;
+      if (isCurrent) {
+        bg = '#4F46E5'; color = 'white'; border = '2px solid #7C3AED'; cursor = 'default'; opacity = '1';
+      } else if (isCompleted) {
+        bg = '#0D2818'; color = '#22C55E'; border = '2px solid #22C55E'; cursor = 'pointer'; opacity = '1';
+      } else {
+        bg = '#1E1E36'; color = '#64748B'; border = '2px solid #2D2D4A'; cursor = 'default'; opacity = '0.5';
+      }
+
+      var clickHandler = isCompleted ? 'onclick="goToStep(' + i + ')"' : '';
+      var title = isLocked ? 'Complete previous steps first' : stepNames[i];
+
+      html += '<div ' + clickHandler + ' title="' + title + '" style="' +
+        'width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; ' +
+        'font-size: 13px; font-weight: bold; flex-shrink: 0; transition: all 0.2s; ' +
+        'background: ' + bg + '; color: ' + color + '; border: ' + border + '; cursor: ' + cursor + '; opacity: ' + opacity + ';">' +
+        (isCompleted && !isCurrent ? '&#10003;' : i) + '</div>';
+    }
+
+    bar.innerHTML = html;
+  }
+
+  // ---- Step navigation ----
+  function showStep(step) {
+    var allSteps = document.querySelectorAll('.exp-step');
+    for (var s = 0; s < allSteps.length; s++) {
+      allSteps[s].style.display = 'none';
+    }
+
+    var target = document.querySelector('.exp-step[data-step="' + step + '"]');
+    if (target) {
+      target.style.display = 'block';
+    }
+
+    currentStep = step;
+
+    if (step - 1 > highestCompleted) {
+      highestCompleted = step - 1;
+    }
+
+    saveStepProgress();
+    renderProgressBar();
+
+    document.getElementById('experience-app').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  window.goToStep = function(step) {
+    if (step >= 1 && step <= TOTAL_STEPS && step <= highestCompleted + 2) {
+      showStep(step);
+    }
+  };
+
+  // ---- Policy checker ----
+  var policies = {
+    elsevier: '<strong style="color: #C7D2FE;">Elsevier</strong><p style="margin: 8px 0 0 0; color: #94A3B8; line-height: 1.6;">Authors must disclose AI use in a dedicated statement. AI tools cannot be listed as authors. Use must be described in the methods or a new "AI-assisted technologies" section. Applies to writing, data analysis, and image generation.</p>',
+    springer: '<strong style="color: #C7D2FE;">Springer Nature</strong><p style="margin: 8px 0 0 0; color: #94A3B8; line-height: 1.6;">AI tools cannot be credited as authors. Authors must disclose use in the methods or acknowledgements. Authors take full responsibility for accuracy. Use for core scientific reasoning or analysis should be described in detail.</p>',
+    wiley: '<strong style="color: #C7D2FE;">Wiley</strong><p style="margin: 8px 0 0 0; color: #94A3B8; line-height: 1.6;">AI-assisted technologies must be acknowledged. Cannot be listed as authors. Authors should describe how AI was used and confirm they have reviewed all AI-generated content. Disclosure required even for editorial assistance.</p>',
+    tf: '<strong style="color: #C7D2FE;">Taylor &amp; Francis</strong><p style="margin: 8px 0 0 0; color: #94A3B8; line-height: 1.6;">AI cannot be listed as an author. Authors must disclose use of AI writing tools in a statement accompanying the submission. The policy applies to text generation, not to standard tools like grammar checkers or reference managers.</p>',
+    ieee: '<strong style="color: #C7D2FE;">IEEE</strong><p style="margin: 8px 0 0 0; color: #94A3B8; line-height: 1.6;">AI-generated text cannot be used in original research contributions without disclosure. AI systems cannot be credited as authors. Authors must identify any AI-assisted content and take responsibility for its accuracy and originality.</p>'
+  };
+
+  window.showPolicy = function(publisher) {
+    document.getElementById('policy-display').innerHTML = policies[publisher] || '<p style="margin: 0; color: #64748B;">Policy not found.</p>';
+  };
+
+  // ---- Completion tracking ----
+  var badges = {
+    1: { emoji: '🧪', name: 'Explorer' },
+    3: { emoji: '🧠', name: 'Thinker' },
+    5: { emoji: '🛠️', name: 'Builder' },
+    7: { emoji: '🏆', name: 'Champion' }
+  };
+
+  window.recordCompletion = function() {
+    var btn = document.getElementById('complete-btn');
+    btn.disabled = true;
+    btn.textContent = 'Recording...';
+    btn.style.background = '#94A3B8';
+
+    highestCompleted = TOTAL_STEPS;
+    saveStepProgress();
+    renderProgressBar();
+
+    saveToLocalStorage();
+    showCompletionSuccess();
+  };
+
+  function saveToLocalStorage() {
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    completions[experienceId] = {
+      completedAt: new Date().toISOString(),
+      uid: uid
+    };
+    localStorage.setItem('ai-passport-completions', JSON.stringify(completions));
+  }
+
+  function showCompletionSuccess() {
+    document.getElementById('completion-trigger').style.display = 'none';
+    document.getElementById('completion-section').style.display = 'block';
+
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    var completedCount = Object.keys(completions).length;
+
+    var badgeHtml = '';
+    var nextBadge = null;
+
+    for (var count in badges) {
+      if (completedCount >= parseInt(count)) {
+        badgeHtml += '<span style="font-size: 24px; margin: 0 4px;" title="' + badges[count].name + '">' + badges[count].emoji + '</span>';
+      } else if (!nextBadge) {
+        nextBadge = { count: parseInt(count), emoji: badges[count].emoji, name: badges[count].name };
+      }
+    }
+
+    var progressText = '<div style="margin-bottom: 8px;">' + (badgeHtml || '<span style="color: #94A3B8;">Start your collection!</span>') + '</div>';
+    progressText += '<p style="font-size: 13px; color: #64748B; margin: 0;">' + completedCount + ' experience' + (completedCount !== 1 ? 's' : '') + ' completed</p>';
+
+    if (nextBadge) {
+      progressText += '<p style="font-size: 12px; color: #94A3B8; margin: 4px 0 0 0;">Next badge: ' + nextBadge.emoji + ' ' + nextBadge.name + ' (' + (nextBadge.count - completedCount) + ' more)</p>';
+    }
+
+    document.getElementById('badge-progress').innerHTML = progressText;
+  }
+
+  function checkExistingCompletion() {
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    if (completions[experienceId]) {
+      document.getElementById('completion-trigger').innerHTML =
+        '<div style="color: #22C55E; font-size: 24px; margin-bottom: 8px;">&#10003;</div>' +
+        '<p style="font-size: 14px; color: #64748B; margin: 0;">You completed this experience on ' + new Date(completions[experienceId].completedAt).toLocaleDateString() + '</p>';
+    }
+  }
+
+  // ---- Initialise ----
+  loadStepProgress();
+  renderProgressBar();
+  showStep(currentStep);
+  checkExistingCompletion();
+})();
+</script>
+```

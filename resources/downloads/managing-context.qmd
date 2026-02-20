@@ -4,12 +4,12 @@ title: "Managing Context with AI"
 
 ## Introduction
 
-One of the most underrated skills in working with AI is **managing context**—the information you feed to an AI system and how you structure your conversations.
+One of the most underrated skills in working with AI is **managing context**: the information you feed to an AI system and how you structure your conversations.
 
 Think of context like the working memory of the AI. Unlike humans, who can maintain context across days or weeks of conversation, AI has specific limitations:
 
 - **Limited attention span:** Conversations have maximum lengths before older information gets "forgotten"
-- **Token limits:** Every token (word fragment) used in conversation—both input and output—counts against the model's capacity
+- **Token limits:** Every token (word fragment) used in conversation, both input and output, counts against the model's capacity
 - **Output token competition:** When you ask an AI to do multiple things at once, it must divide its output tokens among all the tasks, often producing shallow results
 - **Hallucination risk:** As conversations grow longer, the risk of AI "making up" information (hallucinating) increases
 
@@ -33,7 +33,7 @@ The good news? **Understanding and managing context is a learnable skill** that 
 
 ### Problem 3: Hallucination Acceleration
 
-**What happens:** As conversations get longer, AI becomes more likely to "confidently generate false information"—fabricating citations, making up examples, or misremembering earlier statements.
+**What happens:** As conversations get longer, AI becomes more likely to "confidently generate false information", fabricating citations, making up examples, or misremembering earlier statements.
 
 **Why:** Longer conversations increase uncertainty and complexity in the model's reasoning. It's trying to track more information and making more inferential leaps.
 
@@ -60,7 +60,7 @@ The good news? **Understanding and managing context is a learnable skill** that 
 **Instead of asking all at once:**
 > "Redesign my unit on data literacy. Create new learning outcomes, design assessments, write student instructions, create a rubric, and draft a unit description."
 
-**Break it into steps—first step, ask for a plan:**
+**Break it into steps. First step, ask for a plan:**
 > "I'm redesigning a unit on data literacy for 2nd-year business students. Help me create a structured plan for this redesign. What are the key steps I should follow? List them in order with what we should accomplish at each step."
 
 *[AI gives you a plan: outcomes → assessments → instructions → rubric → description]*
@@ -214,7 +214,7 @@ Keep total output under [X words/lines]. Prioritise clarity over completeness.
 > - What we've created/designed so far
 > - What still needs to be done
 >
-> Make it concise but complete — something I can copy and paste into a new conversation to continue."
+> Make it concise but complete, something I can copy and paste into a new conversation to continue."
 
 *[AI provides a summary]*
 
@@ -398,4 +398,4 @@ Here's a workflow that brings everything together:
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

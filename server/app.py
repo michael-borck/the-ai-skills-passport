@@ -25,14 +25,15 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "completions.db")
 
-EXPERIENCES = ["is-this-ai", "what-would-you-do", "rules-of-engagement", "ai-proof-assessments", "teaching-with-ai"]
+EXPERIENCES = ["is-this-ai", "what-would-you-do", "rules-of-engagement", "ai-proof-assessments", "teaching-with-ai", "working-with-copilot", "researching-with-ai"]
 BADGES = [
     {"id": "explorer", "emoji": "🧪", "name": "Explorer", "requirement": 1},
     {"id": "thinker", "emoji": "🧠", "name": "Thinker", "requirement": 3},
     {"id": "builder", "emoji": "🛠️", "name": "Builder", "requirement": 5},
+    {"id": "champion", "emoji": "🏆", "name": "Champion", "requirement": 7},
 ]
 
-ExperienceType = Literal["is-this-ai", "what-would-you-do", "rules-of-engagement", "ai-proof-assessments", "teaching-with-ai"]
+ExperienceType = Literal["is-this-ai", "what-would-you-do", "rules-of-engagement", "ai-proof-assessments", "teaching-with-ai", "working-with-copilot", "researching-with-ai"]
 
 
 class CompletionRequest(BaseModel):

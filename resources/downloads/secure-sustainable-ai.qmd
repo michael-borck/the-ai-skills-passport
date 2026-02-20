@@ -64,7 +64,7 @@ Ground your AI practice in responsible use. This guide gives you confidence abou
 ### 4. Key Concepts
 - Context Window: How much AI can consider at once.
 - Temperature: Randomness/creativity setting.
-- Not "thinking" — just predicting.
+- Not "thinking", just predicting.
 
 ### 5. Security & Risk
 - Copilot: Internal to your M365 tenant.
@@ -90,23 +90,23 @@ Ground your AI practice in responsible use. This guide gives you confidence abou
 
 ## Strategy Summary: Prompt, Process, Protect
 
-> 1. **Prompt It** — Use AI chat to test your thinking, summarise ideas, and shape workflows.
-> 2. **Process It** — Move successful chains into tools like Copilot or other approved systems.
-> 3. **Protect It** — When it's sensitive or student-facing, work within secure systems.
+> 1. **Prompt It:** Use AI chat to test your thinking, summarise ideas, and shape workflows.
+> 2. **Process It:** Move successful chains into tools like Copilot or other approved systems.
+> 3. **Protect It:** When it's sensitive or student-facing, work within secure systems.
 
 ---
 
 ## What to Say if Asked: "Can we use this for real student data?"
 
-> "Yes, but only in tools governed by Curtin's enterprise environment — like Copilot in Microsoft 365. You can prototype freely in public AI with mock data, but never use real student data outside secure university systems."
+> "Yes, but only in tools governed by Curtin's enterprise environment, like Copilot in Microsoft 365. You can prototype freely in public AI with mock data, but never use real student data outside secure university systems."
 
 ---
 
 ## Key Takeaway
 
-> "AI is only as smart as your context — and only as safe as your systems. Microsoft Copilot is our approved tool for university work. Other AI tools are for personal exploration only."
+> "AI is only as smart as your context, and only as safe as your systems. Microsoft Copilot is our approved tool for university work. Other AI tools are for personal exploration only."
 
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*

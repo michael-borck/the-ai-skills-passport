@@ -1,22 +1,22 @@
-# The AI Skills Passport — Ecosystem Architecture
+# The AI Skills Passport: Ecosystem Architecture
 
 **School of Marketing and Management | Faculty of Business and Law**
 **Curtin University**
 
 **Author:** Michael Borck, AI Facilitator (SoMM)
-**Version:** 2.0 — February 2026
+**Version:** 2.0, February 2026
 **Status:** Draft Specification
 
 ---
 
 ## Executive Summary
 
-The AI Skills Passport is a professional development initiative designed to build AI literacy across the entire School of Marketing and Management — teaching academics, researchers, and administrative staff.
+The AI Skills Passport is a professional development initiative designed to build AI literacy across the entire School of Marketing and Management, including teaching academics, researchers, and administrative staff.
 
 The program runs on two platforms:
 
 - **Blackboard** handles all structured learning and daily micro-challenges. Five self-contained learning experiences form the core. Daily "AI in 5" announcements deliver five-minute challenges directly to staff inboxes.
-- **The AI Exchange** answers the question "what are we doing with AI in this school?" — a voluntary registry where staff record, discover, and connect around AI use cases.
+- **The AI Exchange** answers the question "what are we doing with AI in this school?", a voluntary registry where staff record, discover, and connect around AI use cases.
 
 Face-to-face workshops deliver the same content as Blackboard in a guided, hands-on format.
 
@@ -26,7 +26,7 @@ Face-to-face workshops deliver the same content as Blackboard in a guided, hands
 
 **Start Anywhere.** No prerequisites, no forced sequences. Every experience is self-contained and immediately practical.
 
-**Everyone Belongs.** Whether you teach, research, or keep the school running — each experience includes examples from all three contexts. Nobody arrives and wonders "is this for me?"
+**Everyone Belongs.** Whether you teach, research, or keep the school running, each experience includes examples from all three contexts. Nobody arrives and wonders "is this for me?"
 
 **Practical Over Theoretical.** Staff work with their own materials. When they leave any session, they have something they can use tomorrow.
 
@@ -38,7 +38,7 @@ Face-to-face workshops deliver the same content as Blackboard in a guided, hands
 
 ## The Five Core Experiences
 
-These are the content. Everything else — AI in 5, workshops, pathways — is a different pace or delivery mode for moving through them.
+These are the content. Everything else (AI in 5, workshops, pathways) is a different pace or delivery mode for moving through them.
 
 | # | Experience | Focus | Time | Context |
 |---|---|---|---|---|
@@ -52,7 +52,7 @@ Each experience is self-contained, requires no prior knowledge, and includes exa
 
 ### Content Approach
 
-All content is authored in **Quarto**, providing multiple output formats from a single source — HTML for Blackboard embedding, PDF for offline use, slides for face-to-face workshops. When Canvas replaces Blackboard, the content is re-linked, not re-authored.
+All content is authored in **Quarto**, providing multiple output formats from a single source: HTML for Blackboard embedding, PDF for offline use, slides for face-to-face workshops. When Canvas replaces Blackboard, the content is re-linked, not re-authored.
 
 Experiences 4 and 5 skew toward teaching contexts because that is the strongest existing content and the largest audience. Research-specific and admin-specific experiences (e.g., "The AI Research Toolkit", "Automate the Mundane") are planned for Phase 2 based on demand from the pilot.
 
@@ -60,13 +60,13 @@ Experiences 4 and 5 skew toward teaching contexts because that is the strongest 
 
 ## Pacing Options
 
-The five experiences can be consumed at different paces. These are not separate content — they are different rhythms for moving through the same material.
+The five experiences can be consumed at different paces. These are not separate content. They are different rhythms for moving through the same material.
 
 | Pace | What It Means | How It Works |
 |---|---|---|
-| **Self-Paced** | Work through experiences on Blackboard at your own speed | Default — always available |
+| **Self-Paced** | Work through experiences on Blackboard at your own speed | Default, always available |
 | **AI in 5** | 5-minute daily micro-challenges that build curiosity and link to the full experiences | Blackboard announcements, emailed daily |
-| **Weekly** | One experience per week for five weeks | Self-directed — suggested schedule on the Arrivals Hall |
+| **Weekly** | One experience per week for five weeks | Self-directed, suggested schedule on the Arrivals Hall |
 | **Workshop** | 2-hour face-to-face guided session covering selected experiences hands-on | Delivered by AI Facilitator or trained champions, advertised on Blackboard |
 
 ### AI in 5
@@ -85,11 +85,11 @@ Content is created weekly or batched in advance. Date-restricted announcements c
 
 ### Workshops
 
-Face-to-face workshops deliver the same content as Blackboard in a guided format. Upcoming workshops are advertised on the Arrivals Hall landing page and via AI in 5 announcements. Workshops can be requested by discipline groups or teams — this is the mechanism for training champions (train-the-trainer) and scaling the facilitator role.
+Face-to-face workshops deliver the same content as Blackboard in a guided format. Upcoming workshops are advertised on the Arrivals Hall landing page and via AI in 5 announcements. Workshops can be requested by discipline groups or teams. This is the mechanism for training champions (train-the-trainer) and scaling the facilitator role.
 
 ---
 
-## Platform 1: Blackboard — "The Passport Office"
+## Platform 1: Blackboard, "The Passport Office"
 
 ### Purpose
 
@@ -108,16 +108,14 @@ Blackboard is the single platform for all structured learning, daily micro-chall
 
 | Sidebar Item | Type | Purpose |
 |---|---|---|
-| **The Arrivals Hall** | Content Area (Entry Point) | Landing page — orientation, pacing guide, workshop schedule |
+| **The Arrivals Hall** | Content Area (Entry Point) | Landing page: orientation, pacing guide, experience links, workshop schedule |
 | **AI in 5** | Announcements (renamed) | Daily micro-challenges, emailed to all enrolled staff |
-| **Is This AI?** | Content Area | Experience 1: Detection & Awareness |
-| **What Would You Do?** | Content Area | Experience 2: Ethics & Dilemmas |
-| **Rules of Engagement** | Content Area | Experience 3: Policy & Governance |
-| **AI-Proof Your Assessments** | Content Area | Experience 4: Assessment Design |
-| **Working WITH AI** | Content Area | Experience 5: Co-Creation & Integration |
+| **AI Toolkit** | Content Area | Frameworks, templates and guides |
 | **My Passport** | Content Area | Badge overview, progress tracking |
+| **Contact** | Content Area | Get in touch with the AI Facilitator |
+| **About** | Content Area | Initiative info, acknowledgements, copyright |
 
-Everything else hidden: Information, Contacts, Discussions, Tools, Collaborate Ultra, Groups, My Grades.
+Experiences are accessed via links in The Arrivals Hall, not individual sidebar items. Everything else hidden: Information, Discussions, Tools, Collaborate Ultra, Groups, My Grades.
 
 ### Badge Tracking (BadgeQuest)
 
@@ -136,22 +134,22 @@ Badges are tracked via emoji stamps in Blackboard's Grade Centre using the Badge
 
 Blackboard is being retired end of 2026, replaced by Canvas. The design accounts for this:
 
-- Courseware is authored in Quarto and embedded/linked — not built natively in Blackboard. Migration is re-linking, not re-authoring.
+- Courseware is authored in Quarto and embedded/linked, not built natively in Blackboard. Migration is re-linking, not re-authoring.
 - The Blackboard site is a thin shell: sidebar navigation, HTML landing pages, announcements, and grade columns. Rebuilding this in Canvas is a day's work.
-- BadgeQuest is LMS-portable — Canvas also supports text in gradebook columns.
+- BadgeQuest is LMS-portable. Canvas also supports text in gradebook columns.
 - Don't over-invest in Blackboard-specific features (adaptive release chains, complex rules). Keep it simple.
 
 ---
 
-## Platform 2: The AI Exchange — "The Registry"
+## Platform 2: The AI Exchange, "The Registry"
 
 ### Purpose
 
 The AI Exchange answers two questions:
 
-1. **"What's actually happening with AI in this school?"** — Even partial voluntary registration creates visibility that didn't exist before. Valuable for the facilitator role and for leadership reporting.
+1. **"What's actually happening with AI in this school?"** Even partial voluntary registration creates visibility that didn't exist before. Valuable for the facilitator role and for leadership reporting.
 
-2. **"Who else is working on something like this?"** — Staff can find peers in their own discipline rather than routing everything through the AI Facilitator. Some people won't approach the designated AI person — but they will search for a colleague doing something similar.
+2. **"Who else is working on something like this?"** Staff can find peers in their own discipline rather than routing everything through the AI Facilitator. Some people won't approach the designated AI person, but they will search for a colleague doing something similar.
 
 ### What It Is
 
@@ -164,7 +162,7 @@ The Exchange does not host learning content, pathways, or badges. That is Blackb
 ### Key Features
 
 - **Nine resource types:** Requests, Use Cases, Prompts, Tools, Policies, Papers, Projects, Conferences, Datasets
-- **Verified Anonymity:** Post anonymously while verified as SoMM staff — encourages honest sharing of failures
+- **Verified Anonymity:** Post anonymously while verified as SoMM staff, encouraging honest sharing of failures
 - **Discipline-based discovery:** Filter by discipline, AI tool, application type, outcome
 - **Peer connection:** "Working on Similar?" collaboration workflow, author contact cards
 - **Auto-tagging:** YAKE keyword extraction
@@ -180,17 +178,17 @@ The Exchange does not host learning content, pathways, or badges. That is Blackb
 | **Auth** | Curtin email domain locking (@curtin.edu.au) |
 | **Deployment** | Docker |
 | **Hosting (Pilot)** | Desktop machine, Curtin internal network, VPN-accessible |
-| **Source** | Open source (MIT) — [github.com/michael-borck/the-ai-exchange](https://github.com/michael-borck/the-ai-exchange) |
+| **Source** | Open source (MIT), [github.com/michael-borck/the-ai-exchange](https://github.com/michael-borck/the-ai-exchange) |
 
 ### Adoption Strategy
 
 The Exchange is voluntary. The strategy:
 
-- **Seed with real content** — 6–8 genuine use cases before launch, including at least one honest failure
-- **Sell stories, not the platform** — short demos showing a real connection or discovery
-- **Friday AI in 5** — the weekly "Share" prompt nudges people toward the Exchange
-- **Live demos** during workshops — register a use case together in the session
-- **One good connection** — if one person finds a collaborator, that story spreads
+- **Seed with real content:** 6–8 genuine use cases before launch, including at least one honest failure
+- **Sell stories, not the platform:** short demos showing a real connection or discovery
+- **Friday AI in 5:** the weekly "Share" prompt nudges people toward the Exchange
+- **Live demos** during workshops, register a use case together in the session
+- **One good connection:** if one person finds a collaborator, that story spreads
 
 ---
 
@@ -210,7 +208,7 @@ The two platforms reference each other at natural points but operate independent
 
 ## Implementation Plan
 
-### Phase 0 — Infrastructure (Weeks 1–2)
+### Phase 0: Infrastructure (Weeks 1–2)
 
 | Task | Platform |
 |---|---|
@@ -222,7 +220,7 @@ The two platforms reference each other at natural points but operate independent
 | Scaffold Quarto project for courseware | Courseware |
 | Finalise AI Exchange frontend, seed with 6–8 use cases | AI Exchange |
 
-### Phase 1 — Soft Launch (Weeks 3–4)
+### Phase 1: Soft Launch (Weeks 3–4)
 
 | Task | Detail |
 |---|---|
@@ -234,7 +232,7 @@ The two platforms reference each other at natural points but operate independent
 
 **Target:** 10–15 enrolled staff. Focus on engagement quality over numbers.
 
-### Phase 2 — Build Out (Weeks 5–8)
+### Phase 2: Build Out (Weeks 5–8)
 
 | Task | Detail |
 |---|---|
@@ -245,7 +243,7 @@ The two platforms reference each other at natural points but operate independent
 
 **Target:** 25–30 enrolled. First organic sharing on the AI Exchange.
 
-### Phase 3 — Sustain and Grow (Weeks 9–12)
+### Phase 3: Sustain and Grow (Weeks 9–12)
 
 | Task | Detail |
 |---|---|
@@ -256,7 +254,7 @@ The two platforms reference each other at natural points but operate independent
 
 ### Reaching "The Unconverted"
 
-**Problem-first invitations.** Don't invite people to "AI Training." Invite them to "AI-Proof Your Assessments" — solving a problem they already have.
+**Problem-first invitations.** Don't invite people to "AI Training." Invite them to "AI-Proof Your Assessments", solving a problem they already have.
 
 **AI in 5 via email.** Five minutes in their inbox every morning. No login required. Lowest possible barrier.
 
@@ -275,7 +273,7 @@ The two platforms reference each other at natural points but operate independent
 | **Reach** | Self-enrolments in Blackboard | 30+ staff |
 | **Diversity** | Staff from teaching, research, and admin | At least 5 per role |
 | **Engagement** | Completed ≥1 experience | 20+ staff |
-| **Habit** | AI in 5 sustained readership (email opens) | Qualitative — are people replying/reacting? |
+| **Habit** | AI in 5 sustained readership (email opens) | Qualitative, are people replying/reacting? |
 | **Depth** | Completed all 5 experiences | 5–10 staff |
 | **Registry** | AI Exchange entries | 15+ use cases |
 | **Connection** | Peer contacts via Exchange | Any |

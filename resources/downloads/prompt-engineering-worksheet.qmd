@@ -21,7 +21,7 @@ You'll work through 6 workplace scenarios in three rounds:
 
 ### Situation
 
-You're a project manager at a consulting firm. Your client, GreenLeaf Industries, just emailed saying they're "extremely disappointed" with the latest deliverable. They feel the recommendations are "too generic" and "don't reflect the conversations we had." You know the deliverable is solid — but their expectations shifted after a board meeting you weren't invited to. You need to respond professionally, acknowledge their frustration without agreeing the work is poor, and propose a path forward.
+You're a project manager at a consulting firm. Your client, GreenLeaf Industries, just emailed saying they're "extremely disappointed" with the latest deliverable. They feel the recommendations are "too generic" and "don't reflect the conversations we had." You know the deliverable is solid, but their expectations shifted after a board meeting you weren't invited to. You need to respond professionally, acknowledge their frustration without agreeing the work is poor, and propose a path forward.
 
 ### What you know:
 - Client contact: David Chen, VP of Operations
@@ -32,7 +32,7 @@ You're a project manager at a consulting firm. Your client, GreenLeaf Industries
 
 ---
 
-**Round 1 — Your baseline prompt:**
+**Round 1, your baseline prompt:**
 
 Write your first-attempt prompt here (what you'd naturally type):
 
@@ -48,7 +48,7 @@ Write your first-attempt prompt here (what you'd naturally type):
 
 ---
 
-**Round 2 — Your RTCF/CRAFT prompt:**
+**Round 2, your RTCF/CRAFT prompt:**
 
 | Component | Your Input |
 |-----------|-----------|
@@ -65,7 +65,7 @@ Write your first-attempt prompt here (what you'd naturally type):
 
 ---
 
-**Round 3 — Advanced technique:**
+**Round 3, advanced technique:**
 
 Try one: ask the AI to "think step-by-step about what David is really concerned about before drafting the email" (chain-of-thought), or ask it to draft three different versions at different levels of directness and pick the best one.
 
@@ -85,7 +85,7 @@ Try one: ask the AI to "think step-by-step about what David is really concerned 
 
 ### Situation
 
-Your organisation just released a new 22-page Flexible Work Arrangements Policy. Your manager has asked you to create a summary that the team can actually read. The team is 12 people in the marketing department — they want to know what affects them, not the legal boilerplate. Key things they'll care about: how many days they can work from home, how to request changes, what happens during busy periods, and whether the rules are different for part-time staff.
+Your organisation just released a new 22-page Flexible Work Arrangements Policy. Your manager has asked you to create a summary that the team can actually read. The team is 12 people in the marketing department. They want to know what affects them, not the legal boilerplate. Key things they'll care about: how many days they can work from home, how to request changes, what happens during busy periods, and whether the rules are different for part-time staff.
 
 ### What you know:
 - The full policy is 22 pages (you'd paste it into the AI or upload the PDF)
@@ -96,7 +96,7 @@ Your organisation just released a new 22-page Flexible Work Arrangements Policy.
 
 ---
 
-**Round 1 — Your baseline prompt:**
+**Round 1, your baseline prompt:**
 
 > _Your prompt:_
 >
@@ -110,7 +110,7 @@ Your organisation just released a new 22-page Flexible Work Arrangements Policy.
 
 ---
 
-**Round 2 — Your RTCF/CRAFT prompt:**
+**Round 2, your RTCF/CRAFT prompt:**
 
 | Component | Your Input |
 |-----------|-----------|
@@ -127,7 +127,7 @@ Your organisation just released a new 22-page Flexible Work Arrangements Policy.
 
 ---
 
-**Round 3 — Advanced technique:**
+**Round 3, advanced technique:**
 
 Try: paste a section of the policy and ask the AI to "identify what a marketing team member would care about and ignore the rest," then use that filtered version as the basis for the summary.
 
@@ -147,7 +147,7 @@ Try: paste a section of the policy and ask the AI to "identify what a marketing 
 
 ### Situation
 
-It's Friday afternoon and you need to send your weekly project status update. You have messy notes from the week but no time to polish them into the format your steering committee expects. The project is a CRM migration — it's broadly on track but there are two risks: the data migration is behind by 3 days, and the vendor hasn't confirmed the training schedule yet.
+It's Friday afternoon and you need to send your weekly project status update. You have messy notes from the week but no time to polish them into the format your steering committee expects. The project is a CRM migration. It's broadly on track but there are two risks: the data migration is behind by 3 days, and the vendor hasn't confirmed the training schedule yet.
 
 ### Your raw notes:
 ```
@@ -173,7 +173,7 @@ Next week: finish duplicate review, chase vendor on training, continue UAT
 
 ---
 
-**Round 1 — Your baseline prompt:**
+**Round 1, your baseline prompt:**
 
 > _Your prompt:_
 >
@@ -187,7 +187,7 @@ Next week: finish duplicate review, chase vendor on training, continue UAT
 
 ---
 
-**Round 2 — Your RTCF/CRAFT prompt:**
+**Round 2, your RTCF/CRAFT prompt:**
 
 | Component | Your Input |
 |-----------|-----------|
@@ -204,7 +204,7 @@ Next week: finish duplicate review, chase vendor on training, continue UAT
 
 ---
 
-**Round 3 — Advanced technique:**
+**Round 3, advanced technique:**
 
 Try: ask the AI to first "identify what the steering committee will ask questions about" and then "write the update in a way that pre-emptively answers those questions."
 
@@ -236,7 +236,7 @@ You're hiring a Digital Marketing Coordinator to join your team. HR has sent you
 
 ---
 
-**Round 1 — Your baseline prompt:**
+**Round 1, your baseline prompt:**
 
 > _Your prompt:_
 >
@@ -250,7 +250,7 @@ You're hiring a Digital Marketing Coordinator to join your team. HR has sent you
 
 ---
 
-**Round 2 — Your RTCF/CRAFT prompt:**
+**Round 2, your RTCF/CRAFT prompt:**
 
 | Component | Your Input |
 |-----------|-----------|
@@ -267,9 +267,9 @@ You're hiring a Digital Marketing Coordinator to join your team. HR has sent you
 
 ---
 
-**Round 3 — Advanced technique:**
+**Round 3, advanced technique:**
 
-Try: ask the AI to generate questions, then ask it to "evaluate each question — which ones actually differentiate a strong candidate from a weak one? Remove any question where most candidates would give the same answer."
+Try: ask the AI to generate questions, then ask it to "evaluate each question. Which ones actually differentiate a strong candidate from a weak one? Remove any question where most candidates would give the same answer."
 
 **What did you try?**
 
@@ -287,7 +287,7 @@ Try: ask the AI to generate questions, then ask it to "evaluate each question �
 
 ### Situation
 
-Your company currently uses a third-party logistics provider (3PL) for all warehousing and shipping. The contract is up for renewal in 3 months. Your operations director has asked you to prepare a brief analysis of whether to renew with the current provider, switch to a competitor, or bring logistics in-house. This isn't the final decision — it's a discussion starter for the leadership team meeting next week.
+Your company currently uses a third-party logistics provider (3PL) for all warehousing and shipping. The contract is up for renewal in 3 months. Your operations director has asked you to prepare a brief analysis of whether to renew with the current provider, switch to a competitor, or bring logistics in-house. This isn't the final decision. It's a discussion starter for the leadership team meeting next week.
 
 ### What you know:
 - Current 3PL: FastTrack Logistics, 4-year relationship
@@ -300,7 +300,7 @@ Your company currently uses a third-party logistics provider (3PL) for all wareh
 
 ---
 
-**Round 1 — Your baseline prompt:**
+**Round 1, your baseline prompt:**
 
 > _Your prompt:_
 >
@@ -314,7 +314,7 @@ Your company currently uses a third-party logistics provider (3PL) for all wareh
 
 ---
 
-**Round 2 — Your RTCF/CRAFT prompt:**
+**Round 2, your RTCF/CRAFT prompt:**
 
 | Component | Your Input |
 |-----------|-----------|
@@ -331,9 +331,9 @@ Your company currently uses a third-party logistics provider (3PL) for all wareh
 
 ---
 
-**Round 3 — Advanced technique:**
+**Round 3, advanced technique:**
 
-Try: ask the AI to argue FOR each of the three options separately, then ask it to "now take a step back — which option is strongest and what's the key risk with that choice?"
+Try: ask the AI to argue FOR each of the three options separately, then ask it to "now take a step back. Which option is strongest and what's the key risk with that choice?"
 
 **What did you try?**
 
@@ -351,7 +351,7 @@ Try: ask the AI to argue FOR each of the three options separately, then ask it t
 
 ### Situation
 
-You're the only person who knows how to run the monthly client invoicing process. Your manager has (rightly) pointed out this is a risk — if you're on leave, nobody can do it. You need to create a step-by-step process document that a colleague could follow. The problem: the process lives in your head, spread across 3 different systems, and you've never written it down.
+You're the only person who knows how to run the monthly client invoicing process. Your manager has (rightly) pointed out this is a risk. If you're on leave, nobody can do it. You need to create a step-by-step process document that a colleague could follow. The problem: the process lives in your head, spread across 3 different systems, and you've never written it down.
 
 ### Your verbal explanation:
 ```
@@ -359,13 +359,13 @@ OK so basically, on the first business day of each month, I pull the
 timesheet report from our project management tool (Harvest). I export
 it as CSV and open it in Excel. Then I filter for only billable hours
 and group by client. I cross-reference this with the rate card in our
-shared drive — each client has different rates depending on the service
+shared drive. Each client has different rates depending on the service
 type (strategy is $250/hr, execution is $180/hr, support is $120/hr).
 
 I calculate the totals in Excel then log into Xero (our accounting
 software) and create an invoice for each client. I copy the line items
 from my spreadsheet into Xero. Some clients have purchase order numbers
-that need to go on the invoice — those are in a Google Sheet that
+that need to go on the invoice. Those are in a Google Sheet that
 the account managers maintain.
 
 After creating all invoices, I send them through Xero (it emails them
@@ -380,7 +380,7 @@ Usually takes me about 3 hours. There are about 12-15 clients each month.
 
 ---
 
-**Round 1 — Your baseline prompt:**
+**Round 1, your baseline prompt:**
 
 > _Your prompt:_
 >
@@ -394,7 +394,7 @@ Usually takes me about 3 hours. There are about 12-15 clients each month.
 
 ---
 
-**Round 2 — Your RTCF/CRAFT prompt:**
+**Round 2, your RTCF/CRAFT prompt:**
 
 | Component | Your Input |
 |-----------|-----------|
@@ -411,7 +411,7 @@ Usually takes me about 3 hours. There are about 12-15 clients each month.
 
 ---
 
-**Round 3 — Advanced technique:**
+**Round 3, advanced technique:**
 
 Try: after getting the first draft, ask the AI "What steps are ambiguous or assume knowledge that a new person wouldn't have? Flag them and suggest how to make them clearer." Then refine.
 
@@ -446,7 +446,7 @@ After completing your 3 scenarios, reflect on your experience:
 
 >
 
-**4. Save your best prompt.** Copy your strongest structured prompt into the table below — this is the start of your personal prompt template library.
+**4. Save your best prompt.** Copy your strongest structured prompt into the table below. This is the start of your personal prompt template library.
 
 | Task Type | My Template Prompt |
 |-----------|--------------------|
@@ -462,16 +462,16 @@ Use this while writing your prompts:
 
 | Component | Ask Yourself | Example |
 |-----------|-------------|---------|
-| **R — Role** | Who should the AI be? | "You are a senior project manager" |
-| **T — Task** | What exactly should it do? | "Write a status update covering..." |
-| **C — Context** | What background does it need? | "The audience is the steering committee" |
-| **F — Format** | How should the output look? | "Use bullet points, under 200 words" |
+| **R, Role** | Who should the AI be? | "You are a senior project manager" |
+| **T, Task** | What exactly should it do? | "Write a status update covering..." |
+| **C, Context** | What background does it need? | "The audience is the steering committee" |
+| **F, Format** | How should the output look? | "Use bullet points, under 200 words" |
 
 **Not every prompt needs all four.** Simple tasks might only need T + F. Complex tasks benefit from all four.
 
-The RTCF framework maps closely to the CRAFT framework (Context, Role, Action, Format, Tone) — both are structured approaches to the same goal: helping AI understand exactly what you need.
+The RTCF framework maps closely to the CRAFT framework (Context, Role, Action, Format, Tone). Both are structured approaches to the same goal: helping AI understand exactly what you need.
 
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*

@@ -1,4 +1,4 @@
-# AI in 5 — Daily Micro-Challenges
+# AI in 5. Daily Micro-Challenges
 
 ## Posting Guide
 

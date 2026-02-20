@@ -8,13 +8,13 @@ Let's name it plainly: many people are worried that AI will make them irrelevant
 
 Academics worry their expertise will be devalued. Professional staff worry their roles will be automated. Researchers worry AI will outpace them. Everyone's read the headlines about job losses and disruption.
 
-This fear is understandable. But it's mostly wrong — not because AI isn't powerful, but because people consistently misjudge *how* powerful technologies change the world.
+This fear is understandable. But it's mostly wrong, not because AI isn't powerful, but because people consistently misjudge *how* powerful technologies change the world.
 
 ---
 
 ## The Radiologist Fallacy
 
-In 2016, prominent AI researchers predicted that AI would replace radiologists within five years. Radiology was supposedly the canary in the coal mine — a profession built on pattern recognition that AI could do faster and cheaper.
+In 2016, prominent AI researchers predicted that AI would replace radiologists within five years. Radiology was supposedly the canary in the coal mine, a profession built on pattern recognition that AI could do faster and cheaper.
 
 Today, demand for radiologists is at an all-time high.
 
@@ -26,9 +26,9 @@ The prediction got the technology right but the economics wrong.
 
 ## Jevons Paradox: Why Efficiency Creates More Work, Not Less
 
-In 1865, economist William Stanley Jevons observed something counterintuitive: when James Watt's steam engine made coal use more *efficient*, the total consumption of coal didn't decrease — it *increased dramatically*. More efficient use of a resource increases demand for it.
+In 1865, economist William Stanley Jevons observed something counterintuitive: when James Watt's steam engine made coal use more *efficient*, the total consumption of coal didn't decrease. It *increased dramatically*. More efficient use of a resource increases demand for it.
 
-This pattern — **Jevons Paradox** — has repeated throughout history:
+This pattern, **Jevons Paradox**, has repeated throughout history:
 
 | Technology | Expected Effect | Actual Effect |
 |---|---|---|
@@ -42,7 +42,7 @@ The pattern is consistent: **when the cost of doing work goes down, demand for i
 
 ### What This Means for AI
 
-As AI makes writing, analysis, coding, and design cheaper, we won't necessarily have fewer writers, analysts, programmers, or designers. We'll likely see a massive increase in the *volume* of these activities — and a corresponding need for humans who can direct, evaluate, and make judgement calls about quality.
+As AI makes writing, analysis, coding, and design cheaper, we won't necessarily have fewer writers, analysts, programmers, or designers. We'll likely see a massive increase in the *volume* of these activities, and a corresponding need for humans who can direct, evaluate, and make judgement calls about quality.
 
 Jobs don't disappear. They get **refactored**. Roles shift from manual execution to supervision, from routine tasks to complex judgement, from doing the work to defining what good work looks like.
 
@@ -54,27 +54,27 @@ Here's a pattern that should reassure anyone in higher education:
 
 **Online courses were supposed to kill universities.** MOOCs (Massive Open Online Courses) launched to enormous fanfare in the early 2010s. The promise: world-class education, free, available to anyone with an internet connection. Why would anyone pay for a degree when MIT's lectures were on YouTube?
 
-A decade later, face-to-face universities haven't just survived — they've thrived. Why?
+A decade later, face-to-face universities haven't just survived. They've thrived. Why?
 
 ### What Universities Actually Provide
 
 It turns out that *content delivery* was never the main value proposition of a university. The real value is:
 
-**Curation and structure.** Someone has to decide what's worth learning, in what order, at what depth. Universities curate the syllabus — they talk to industry, review the research, and design learning pathways that make sense. AI can generate content, but deciding *which* content matters requires human judgement about the discipline, the profession, and the students.
+**Curation and structure.** Someone has to decide what's worth learning, in what order, at what depth. Universities curate the syllabus. They talk to industry, review the research, and design learning pathways that make sense. AI can generate content, but deciding *which* content matters requires human judgement about the discipline, the profession, and the students.
 
-**Deadlines and accountability.** Humans are remarkably bad at self-directed learning over extended periods. The completion rate for MOOCs is typically 3-5%. Universities provide structure, schedules, deadlines, and consequences — the scaffolding that most people need to actually finish things.
+**Deadlines and accountability.** Humans are remarkably bad at self-directed learning over extended periods. The completion rate for MOOCs is typically 3-5%. Universities provide structure, schedules, deadlines, and consequences, the scaffolding that most people need to actually finish things.
 
-**Assessment and credentialing.** Anyone can watch a lecture. A university verifies that you understood it, can apply it, and can demonstrate competence. Employers trust degrees because someone — a human with expertise — has assessed the graduate's capability.
+**Assessment and credentialing.** Anyone can watch a lecture. A university verifies that you understood it, can apply it, and can demonstrate competence. Employers trust degrees because someone, a human with expertise, has assessed the graduate's capability.
 
-**Human connection.** Learning is social. Discussion, debate, mentorship, peer pressure, collaboration, and the simple experience of being in a room with other people who care about the same subject — these aren't nice-to-haves. They're how learning actually works for most people.
+**Human connection.** Learning is social. Discussion, debate, mentorship, peer pressure, collaboration, and the simple experience of being in a room with other people who care about the same subject. These aren't nice-to-haves. They're how learning actually works for most people.
 
 **Adaptability.** A lecturer notices confusion in real time. A tutor adjusts their explanation based on a student's body language. A mentor gives advice shaped by years of experience in the discipline. These adaptive, human responses remain difficult for AI to replicate with the same depth and nuance.
 
 ### The Lesson
 
-Every technology that promised to replace universities has instead been *absorbed* by them. Textbooks, radio, television, the internet, MOOCs, learning management systems — universities adopted them all as tools while continuing to provide the human elements that technology couldn't replicate.
+Every technology that promised to replace universities has instead been *absorbed* by them. Textbooks, radio, television, the internet, MOOCs, learning management systems. Universities adopted them all as tools while continuing to provide the human elements that technology couldn't replicate.
 
-AI will follow the same pattern. It won't replace universities. It will be absorbed — and universities that use AI well will provide *better* education than those that don't.
+AI will follow the same pattern. It won't replace universities. It will be absorbed, and universities that use AI well will provide *better* education than those that don't.
 
 ---
 
@@ -92,22 +92,22 @@ The problem: one-on-one tutoring doesn't scale. There will never be enough human
 
 AI changes this equation. An AI tutor can:
 
-- **Personalise** — Adapt to each student's pace, level, and learning style
-- **Be Socratic** — Ask probing questions rather than giving answers ("What do you think the next step is?")
-- **Detect misconceptions** — Identify *why* a student made an error and tailor feedback accordingly
-- **Connect to interests** — Link abstract concepts to things students care about
-- **Be endlessly patient** — Available at 2am, never frustrated, never rushed
+- **Personalise.** Adapt to each student's pace, level, and learning style
+- **Be Socratic.** Ask probing questions rather than giving answers ("What do you think the next step is?")
+- **Detect misconceptions.** Identify *why* a student made an error and tailor feedback accordingly
+- **Connect to interests.** Link abstract concepts to things students care about
+- **Be endlessly patient.** Available at 2am, never frustrated, never rushed
 
-This doesn't replace teachers. It **empowers** them. When AI handles the routine — personalised practice, instant feedback, progress tracking — teachers are freed for the work that matters most: mentoring, inspiring, facilitating discussion, and providing the human connection that no AI can replicate.
+This doesn't replace teachers. It **empowers** them. When AI handles the routine, personalised practice, instant feedback, progress tracking, teachers are freed for the work that matters most: mentoring, inspiring, facilitating discussion, and providing the human connection that no AI can replicate.
 
 ### The Choice
 
 The question isn't whether AI will transform education. It's whether we'll use it to:
 
-- **Amplify** — Give every student access to personalised support while freeing educators for deeper human work
-- **Or automate** — Replace human connection with efficiency, producing graduates who can pass tests but can't think
+- **Amplify.** Give every student access to personalised support while freeing educators for deeper human work
+- **Or automate.** Replace human connection with efficiency, producing graduates who can pass tests but can't think
 
-This choice is ours to make. And it depends on the humans in the system — educators, administrators, policymakers — understanding what AI can and can't do, and insisting on the human element where it matters.
+This choice is ours to make. And it depends on the humans in the system, educators, administrators, policymakers, understanding what AI can and can't do, and insisting on the human element where it matters.
 
 ---
 
@@ -119,7 +119,7 @@ So what *are* the human capabilities that become more valuable as AI becomes mor
 
 AI can generate options. Humans decide which options are worth pursuing. AI can analyse data. Humans decide what the data means in context. AI can draft policies. Humans decide whether those policies are just, practical, and aligned with values.
 
-Judgement requires experience, context, and values — none of which can be fully encoded in a model.
+Judgement requires experience, context, and values, none of which can be fully encoded in a model.
 
 ### Ethical Reasoning
 
@@ -131,15 +131,15 @@ These aren't technical questions. They're moral ones. And they become more impor
 
 Students trust lecturers who know their names. Colleagues trust leaders who understand their constraints. Stakeholders trust professionals who listen before advising.
 
-Trust is built through human interaction — through vulnerability, consistency, and demonstrated care. AI can simulate empathy. Humans can *be* empathic. The difference matters.
+Trust is built through human interaction, through vulnerability, consistency, and demonstrated care. AI can simulate empathy. Humans can *be* empathic. The difference matters.
 
 ### Creativity and Meaning
 
-AI can generate novel combinations of existing patterns. Humans create meaning. A poem generated by AI is technically proficient. A poem written by a person who has lived the experience it describes means something different — and that difference matters to readers, audiences, and communities.
+AI can generate novel combinations of existing patterns. Humans create meaning. A poem generated by AI is technically proficient. A poem written by a person who has lived the experience it describes means something different, and that difference matters to readers, audiences, and communities.
 
 ### Contextual Understanding
 
-AI knows a lot about the world in general. You know a lot about *your* world in particular — your students, your institution, your discipline, your community, your constraints. This contextual knowledge is irreplaceable and becomes more valuable when combined with AI's breadth.
+AI knows a lot about the world in general. You know a lot about *your* world in particular, your students, your institution, your discipline, your community, your constraints. This contextual knowledge is irreplaceable and becomes more valuable when combined with AI's breadth.
 
 ---
 
@@ -149,7 +149,7 @@ This is the real choice AI presents.
 
 **Option A: Accept mediocrity at scale.** Automate everything. Replace human judgement with AI confidence. Produce more content, faster, that nobody has properly evaluated. Graduate students who can use tools but can't think critically. Run institutions that are efficient but soulless.
 
-**Option B: Elevate what makes us human.** Use AI to handle the routine so humans can focus on the meaningful. Free educators to educate. Free researchers to discover. Free professionals to exercise judgement. Produce better work — not just more of it.
+**Option B: Elevate what makes us human.** Use AI to handle the routine so humans can focus on the meaningful. Free educators to educate. Free researchers to discover. Free professionals to exercise judgement. Produce better work, not just more of it.
 
 Option A is easier. Option B requires intentional effort. But throughout history, every technology that was used for amplification rather than replacement has produced dramatically better outcomes.
 
@@ -161,7 +161,7 @@ Option A is easier. Option B requires intentional effort. But throughout history
 
 You're not being replaced. You're being freed from the least valuable parts of your job (repetitive grading, administrative tasks, content generation) so you can focus on the most valuable parts (mentoring, inspiring, designing learning experiences, assessing genuine understanding).
 
-The educators who thrive will be those who understand AI well enough to use it as a teaching partner — and who double down on the human elements that make education transformative.
+The educators who thrive will be those who understand AI well enough to use it as a teaching partner, and who double down on the human elements that make education transformative.
 
 ### If You're a Researcher
 
@@ -173,7 +173,7 @@ Your institutional knowledge, relationship skills, and contextual judgement beco
 
 ### If You're a Student
 
-The skills that will serve you longest aren't the ones AI can replicate — typing speed, memorisation, formulaic writing. They're the ones AI makes more important: critical thinking, ethical reasoning, communication, collaboration, and the ability to evaluate whether AI output is actually good.
+The skills that will serve you longest aren't the ones AI can replicate, typing speed, memorisation, formulaic writing. They're the ones AI makes more important: critical thinking, ethical reasoning, communication, collaboration, and the ability to evaluate whether AI output is actually good.
 
 ---
 
@@ -188,7 +188,7 @@ The skills that will serve you longest aren't the ones AI can replicate — typi
 | 2010s | MOOCs | Lectures would be free, degrees pointless | Completion rates were 3-5%; universities thrived |
 | 2020s | Generative AI | Human expertise will be devalued | **You are here** |
 
-The pattern is remarkably consistent: transformative technology amplifies human capability rather than replacing it — **when humans actively shape how it's used.**
+The pattern is remarkably consistent: transformative technology amplifies human capability rather than replacing it, **when humans actively shape how it's used.**
 
 The "when" matters. Technology doesn't automatically improve things. It takes people who understand both the technology and the human context to ensure it's used for amplification rather than replacement.
 
@@ -198,7 +198,7 @@ That's your role. That's why you matter more, not less.
 
 ## The Bottom Line
 
-AI is not going to replace you. But it is going to change what "you" means in your professional life. The routine parts of your role will be automated. The parts that require judgement, creativity, ethics, relationships, and contextual understanding will become your primary contribution — and they'll be valued more highly than ever.
+AI is not going to replace you. But it is going to change what "you" means in your professional life. The routine parts of your role will be automated. The parts that require judgement, creativity, ethics, relationships, and contextual understanding will become your primary contribution, and they'll be valued more highly than ever.
 
 The question is not "Will AI take my job?" The question is: "Will I develop the skills to work *with* AI in ways that make me more valuable?"
 
@@ -209,4 +209,4 @@ If you're reading this, you've already started.
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*

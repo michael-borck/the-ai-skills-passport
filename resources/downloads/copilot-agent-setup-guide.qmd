@@ -41,7 +41,7 @@ In the "Instructions" field, define your agent's role, context, and evaluation f
 ```
 You are a [role] for [your organisation].
 
-ROLE: [What the agent does — one sentence]
+ROLE: [What the agent does, one sentence]
 
 ORGANISATIONAL CONTEXT:
 - [Key fact about your organisation]
@@ -55,7 +55,7 @@ EVALUATION FRAMEWORKS:
 OUTPUT FORMAT:
 [Define the sections and structure for each response]
 
-[Disposition instruction — e.g. "Be critical. Find problems, not justifications."]
+[Disposition instruction, e.g. "Be critical. Find problems, not justifications."]
 ```
 
 #### 4. Add Knowledge Sources (Optional)
@@ -181,7 +181,7 @@ After using the agent a few times, revisit the instructions. Common issues: outp
 
 When introducing colleagues to a custom AI agent:
 
-> "This is an AI agent built around a specific framework. It's not a special tool — it's a well-structured prompt. The agent applies defined criteria consistently, so it surfaces things you might miss and gives you a structured starting point for your own judgement.
+> "This is an AI agent built around a specific framework. It's not a special tool. It's a well-structured prompt. The agent applies defined criteria consistently, so it surfaces things you might miss and gives you a structured starting point for your own judgement.
 >
 > The agent informs your thinking; you make the final call."
 
@@ -194,4 +194,4 @@ Key points to emphasise:
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

@@ -1,4 +1,4 @@
-# Workshops — Face-to-Face Delivery
+# Workshops. Face-to-Face Delivery
 
 Same content as the self-paced SPAs, delivered in a guided 2-hour hands-on format.
 

@@ -1,6 +1,6 @@
-# The AI Skills Passport — Blackboard Scaffold Guide
+# The AI Skills Passport: Blackboard Scaffold Guide
 
-**Blackboard Classic/Original — Organisation Site**
+**Blackboard Classic/Original, Organisation Site**
 
 ---
 
@@ -28,12 +28,10 @@
 ```
 The Arrivals Hall          ← entry point / landing page
 AI in 5                    ← daily micro-challenges (renamed Announcements)
-Is This AI?                ← experience 1
-What Would You Do?         ← experience 2
-Rules of Engagement        ← experience 3
-AI-Proof Your Assessments  ← experience 4
-Working WITH AI           ← experience 5
+AI Toolkit                 ← frameworks, templates & guides
 My Passport                ← badge tracking
+Contact                    ← get in touch with the AI Facilitator
+About                      ← initiative info, acknowledgements, copyright
 ```
 
 ---
@@ -52,7 +50,7 @@ For each content area, create an **Item** (Build Content > Item), switch to **HT
 
 | Content Area | HTML File | Notes |
 |---|---|---|
-| The Arrivals Hall | `arrivals-hall.html` | Landing page — orientation, pacing guide, quick links |
+| The Arrivals Hall | `arrivals-hall.html` | Landing page: orientation, pacing guide, quick links |
 | Is This AI? | `coming-soon.html` (until Quarto content ready) | Replace with actual content when available |
 | What Would You Do? | `coming-soon.html` | Replace with actual content when available |
 | Rules of Engagement | `coming-soon.html` | Replace with actual content when available |
@@ -103,7 +101,7 @@ Grade Centre > Create Column (for each badge):
 Switch to Student Preview and verify:
 
 - [ ] Lands on The Arrivals Hall
-- [ ] All 8 sidebar items visible
+- [ ] All 6 sidebar items visible
 - [ ] Admin/Control Panel NOT visible
 - [ ] AI in 5 shows announcements
 - [ ] Each experience shows content or coming-soon placeholder
@@ -116,7 +114,11 @@ Switch to Student Preview and verify:
 | File | Purpose |
 |---|---|
 | `arrivals-hall.html` | Main landing page |
+| `ai-in-5.html` | Subscribe and daily challenges |
+| `ai-toolkit.html` | Toolkit sidebar landing |
 | `my-passport.html` | Badge overview |
+| `contact.html` | Get in touch with the AI Facilitator |
+| `about.html` | Initiative info, acknowledgements, copyright |
 | `coming-soon.html` | Placeholder for experiences not yet populated |
 
-All HTML uses inline CSS only — no `<style>` tags, no external files.
+All HTML uses inline CSS only, no `<style>` tags, no external files.

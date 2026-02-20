@@ -13,7 +13,7 @@ The project lead is Michael Borck, AI Facilitator for SoMM. He is the sole devel
 Blackboard is intentionally minimal — just authentication, announcements, and a launch point. All real UX happens in SPAs.
 
 - Blackboard Classic/Original Organisation site
-- **3 sidebar items only:** The Arrivals Hall, AI in 5, My Passport
+- **6 sidebar items:** The Arrivals Hall, AI in 5, AI Toolkit, My Passport, Contact, About
 - The Arrivals Hall is the hub — contains links to everything else
 - "AI in 5" is renamed Announcements — daily micro-challenges emailed to enrolled staff
 - All experiences, toolkit, and quiz open as standalone SPAs in new browser tabs
@@ -103,7 +103,7 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 
 ## Key Decisions Made
 
-- **3-item sidebar** — Arrivals Hall is the hub, not a cluttered menu
+- **6-item sidebar** — Arrivals Hall is the hub, not a cluttered menu
 - **SPAs over Blackboard content** — rich interactivity, platform-independent
 - **Simplified progress tracker** — not full BadgeQuest, just completions + badges
 - **localStorage fallback** — works without server for proof of concept
@@ -118,7 +118,12 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 ```
 the-ai-skills-passport/
 ├── blackboard/
-│   └── arrivals-hall.html      # Landing page (paste into BB)
+│   ├── arrivals-hall.html      # Landing page (paste into BB)
+│   ├── ai-in-5.html            # AI in 5 subscribe page
+│   ├── ai-toolkit.html         # Toolkit sidebar landing
+│   ├── my-passport.html        # Badge progress overview
+│   ├── contact.html            # Contact the AI Facilitator
+│   └── about.html              # Initiative info, acknowledgements
 ├── onboarding/                  # Find Your Path quiz
 ├── resources/                   # AI Toolkit
 ├── passport/                    # My Passport

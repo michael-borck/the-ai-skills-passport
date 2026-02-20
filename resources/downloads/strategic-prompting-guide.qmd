@@ -96,14 +96,14 @@ Start with your first question now.
 
 **How to respond to AI's questions:**
 - Be honest and specific in your answers
-- If a question confuses you, that's often where insight hides—ask for clarification
-- Don't rush—take time to think through each answer
+- If a question confuses you, that's often where insight hides. Ask for clarification
+- Don't rush. Take time to think through each answer
 
 **Example dialogue:**
 
 > **AI:** "What manual process takes your team the most time that you've never thought to automate?"
 >
-> **You:** "Probably the weekly pricing review meeting—4 hours every Monday with 8 people"
+> **You:** "Probably the weekly pricing review meeting, 4 hours every Monday with 8 people"
 >
 > **AI:** "What prevents you from making those pricing decisions more frequently or in real-time?"
 >
@@ -236,7 +236,7 @@ What additional information would you need to be confident in the decision?
 **Good:** "I think this is a good idea. Play devil's advocate and identify the strongest arguments AGAINST it."
 
 ### 6. Use Follow-Up Prompts
-Don't accept first response—go deeper:
+Don't accept first response. Go deeper:
 - "Elaborate on point #3"
 - "What evidence would change your assessment?"
 - "Give me a concrete example of that risk"
@@ -384,7 +384,7 @@ Use the AI Investment Checklist framework (data readiness, continuous learning,
 accuracy, explainability, ethics) to compare them.
 
 Create a scoring matrix. Then recommend which to fund and why.
-Be critical—identify red flags.
+Be critical. Identify red flags.
 ```
 
 ---
@@ -414,4 +414,4 @@ Be critical—identify red flags.
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

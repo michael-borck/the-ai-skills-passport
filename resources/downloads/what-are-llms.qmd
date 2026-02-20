@@ -16,7 +16,7 @@ title: "What are Large Language Models (LLMs)?"
 
 That's it. That's the core idea.
 
-But from that simple task—predicting the next word—these models learned to:
+But from that simple task, predicting the next word, these models learned to:
 
 - Write essays, emails, code, and poetry
 - Answer questions about almost any topic
@@ -794,4 +794,4 @@ Ask yourself:
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

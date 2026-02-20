@@ -4,7 +4,7 @@ title: "Seven Essential Prompt Techniques"
 
 ## A Quick Note: Prompting Fundamentals
 
-Before diving into the seven techniques, you might find it helpful to understand the **C.R.A.F.T. Prompting Framework**—a structured approach to writing clear, effective prompts in general.
+Before diving into the seven techniques, you might find it helpful to understand the **C.R.A.F.T. Prompting Framework**, a structured approach to writing clear, effective prompts in general.
 
 The seven techniques in this guide are *pedagogical prompts* (teaching techniques you use *with* students). C.R.A.F.T. is a *prompting methodology* (how to write better prompts overall).
 
@@ -76,7 +76,7 @@ The AI will start asking questions like:
 - "How will you handle performance measurement for remote versus office staff?"
 - "Are there legal or insurance implications you need to address?"
 
-The student must think through each question before responding. By the end, they've been guided to consider fairness, logistics, legal compliance, technology needs, and cultural impact—all before drafting a single policy sentence.
+The student must think through each question before responding. By the end, they've been guided to consider fairness, logistics, legal compliance, technology needs, and cultural impact, all before drafting a single policy sentence.
 
 ### Variations for Different Disciplines
 
@@ -158,7 +158,7 @@ The AI will identify 3-4 performance review models (e.g., annual reviews, contin
 
 ### The Follow-Up Task
 Don't let students simply accept the AI's recommendation. Require them to:
-- Challenge one of the "pros" listed—is it really an advantage in all contexts?
+- Challenge one of the "pros" listed. Is it really an advantage in all contexts?
 - Add a disadvantage the AI missed
 - Argue for a *different* model than the AI recommended, using evidence
 - Identify which psychological or motivational theory supports or contradicts each approach
@@ -309,7 +309,7 @@ You can also use this to **generate assessment materials**: Have the AI walk thr
 The AI adopts a specific persona and engages in a realistic conversation with the student. This is the "flight simulator" concept in action.
 
 ### Why It Works Across Disciplines
-Business work is fundamentally about interaction—with clients, stakeholders, teams, and colleagues. Students can memorize theory, but until they practice *actually having* difficult conversations where others push back, get emotional, or raise objections, they won't develop genuine interpersonal competence.
+Business work is fundamentally about interaction, with clients, stakeholders, teams, and colleagues. Students can memorize theory, but until they practice *actually having* difficult conversations where others push back, get emotional, or raise objections, they won't develop genuine interpersonal competence.
 
 ### The Student Prompt (Ready to Use)
 
@@ -362,7 +362,7 @@ Your behaviour:
 - Bring up a recent successful project you led
 - Hint that you believe this is retaliation for raising a complaint about
   your manager last month
-- Be emotional but not abusive—show genuine distress
+- Be emotional but not abusive. Show genuine distress
 
 I will attempt to conduct this meeting professionally. Stay in character
 until I manage to de-escalate the situation and establish a constructive
@@ -371,7 +371,7 @@ dialogue.
 Begin the meeting. I will speak first.
 ```
 
-Now the student has to manage a realistic, emotionally charged scenario. They must practice de-escalation, empathy, procedural fairness, and documentation—all while the AI responds dynamically to what they say.
+Now the student has to manage a realistic, emotionally charged scenario. They must practice de-escalation, empathy, procedural fairness, and documentation, all while the AI responds dynamically to what they say.
 
 ### Variations for Different Disciplines
 
@@ -488,7 +488,7 @@ are in place").
 ```
 
 **What Happens:**
-The AI will construct sophisticated arguments for both positions, then provide a nuanced synthesis. Students can't just pick a side—they have to understand the legitimate concerns and benefits on both sides.
+The AI will construct sophisticated arguments for both positions, then provide a nuanced synthesis. Students can't just pick a side. They have to understand the legitimate concerns and benefits on both sides.
 
 ### Variation C: Multi-Stakeholder Debate
 
@@ -523,7 +523,7 @@ Begin the debate.
 ```
 
 **What Happens:**
-The AI will create a realistic executive debate where each stakeholder has legitimate but competing priorities. Students see that there's rarely a perfect answer—only trade-offs and compromise.
+The AI will create a realistic executive debate where each stakeholder has legitimate but competing priorities. Students see that there's rarely a perfect answer, only trade-offs and compromise.
 
 ### Follow-Up Task for Students
 
@@ -534,14 +534,14 @@ After reading the debate, students must:
 4. Reflect on which psychological or organisational theory best explains the tension between these perspectives
 
 ### Teaching Tip
-This technique is perfect for **preparing students for case study exams**. Instead of memorizing model answers, they practice analysing competing priorities and justifying nuanced positions—exactly what they'll need to do in professional practice.
+This technique is perfect for **preparing students for case study exams**. Instead of memorizing model answers, they practice analysing competing priorities and justifying nuanced positions, exactly what they'll need to do in professional practice.
 
 ---
 
 ## Technique 6: Formative Assessment Generator (for Practice and Mastery)
 
 ### What It Does
-The AI generates unlimited practice questions, scenarios, or quizzes that students can use to test their knowledge and build confidence. This provides low-stakes repetition and immediate feedback—essential for skill development.
+The AI generates unlimited practice questions, scenarios, or quizzes that students can use to test their knowledge and build confidence. This provides low-stakes repetition and immediate feedback, essential for skill development.
 
 ### Why It Works for HR
 Many HR competencies require both knowledge (legislation, theory) and application (recognising situations where that knowledge applies). Students need more practice than traditional homework provides, but creating dozens of unique practice scenarios is time-prohibitive for lecturers. AI solves this.
@@ -585,7 +585,7 @@ of conflict and suggest an appropriate intervention approach.
 After each scenario, provide feedback on my classification and intervention
 suggestion. If I'm wrong, explain why and what I missed.
 
-Make the scenarios progressively more complex—start easy, end with
+Make the scenarios progressively more complex. Start easy, end with
 ambiguous situations where multiple interpretations are valid.
 
 Begin with Scenario 1.
@@ -661,7 +661,7 @@ In your unit outline:
 
 > "Before the Week 8 exam, complete a self-generated practice test (minimum 20 questions). Submit a screenshot showing completion and a 100-word reflection: What did you learn from this practice? What areas do you still need to review?"
 
-Worth 5% of final grade—graded on completion and reflection quality, not on how many they got right.
+Worth 5% of final grade, graded on completion and reflection quality, not on how many they got right.
 
 **Option 3: Study Group Activity**
 
@@ -701,7 +701,7 @@ Track my progress and tell me when I've achieved mastery.
 Begin.
 ```
 
-This creates a personalised learning path—AI adjusts difficulty based on student performance.
+This creates a personalised learning path. AI adjusts difficulty based on student performance.
 
 ---
 
@@ -747,7 +747,7 @@ Begin with Scenario 1 at medium difficulty.
 - Student-controlled difficulty progression
 - Mastery-based advancement
 - Builds confidence through appropriate challenge
-- No technical setup required—just good prompting
+- No technical setup required, just good prompting
 
 **Teaching Tip:**
 
@@ -805,7 +805,7 @@ Begin with Expert 1: Organisational Psychologist.
 **The AI creates three distinct voices:**
 
 **Organisational Psychologist:**
-> "The 35% turnover suggests a breakdown in psychological contract or poor person-organisation fit. Sales roles are inherently stressful, but this level suggests systemic issues—possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes..."
+> "The 35% turnover suggests a breakdown in psychological contract or poor person-organisation fit. Sales roles are inherently stressful, but this level suggests systemic issues, possibly unrealistic targets, poor management relationships, or lack of autonomy. I recommend: (1) Conduct stay/exit interview analysis focusing on psychological factors, (2) Assess manager-employee relationship quality, (3) Review goal-setting processes..."
 
 **Compensation Specialist:**
 > "At 35% turnover, you're likely seeing pay inequity or uncompetitive base/commission structures. Sales talent is mobile and market-driven. I recommend: (1) Conduct compensation benchmarking against competitors, (2) Analyse pay dispersion within the team, (3) Review commission structures for fairness and achievability..."
@@ -940,7 +940,7 @@ The real power comes from combining these techniques. For example:
 4. Student uses **Role Play** to practice explaining the policy to a skeptical manager
 5. Student uses **Debating** to analyse potential criticisms from different stakeholders
 
-This sequence takes the student through analysis, decision-making, communication, and critical reflection—a complete professional process.
+This sequence takes the student through analysis, decision-making, communication, and critical reflection, a complete professional process.
 
 ---
 
@@ -950,9 +950,9 @@ Choose **one technique** from this guide and try it yourself. Pick the one that 
 
 Copy one of the example prompts in your discipline's tab, adapt it to your specific content, and see what happens. Get comfortable with at least one of these techniques before exploring the more complex applications.
 
-Remember: these aren't just AI tools—they're pedagogical strategies. The AI just makes them scalable and available to every student, any time they want to practice.
+Remember: these aren't just AI tools. They're pedagogical strategies. The AI just makes them scalable and available to every student, any time they want to practice.
 
 
 ---
 
-*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration — not a definitive guide. References will be added progressively. If something here challenges your thinking, good — that's the point.*
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*

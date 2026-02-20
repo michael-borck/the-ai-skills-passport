@@ -1,6 +1,6 @@
 # Workshop Facilitator Guide
 
-**AI Skills Passport — Face-to-Face Workshops**
+**AI Skills Passport: Face-to-Face Workshops**
 
 Same content as the self-paced SPAs, guided by a facilitator in a 2-hour session.
 
@@ -32,11 +32,11 @@ Same content as the self-paced SPAs, guided by a facilitator in a 2-hour session
 | Time | Duration | Activity |
 |------|----------|----------|
 | 0:00 | 10 min | Welcome, introductions, session goals |
-| 0:10 | 15 min | Opening hook — demonstrate or discuss the topic |
+| 0:10 | 15 min | Opening hook, demonstrate or discuss the topic |
 | 0:25 | 30 min | Core activity 1 (from SPA, done together) |
 | 0:55 | 10 min | Break |
 | 1:05 | 30 min | Core activity 2 (from SPA, individual/pairs) |
-| 1:35 | 15 min | "In Your Context" discussion — role-specific applications |
+| 1:35 | 15 min | "In Your Context" discussion, role-specific applications |
 | 1:50 | 10 min | Key takeaways, completion recording, next steps |
 
 ---
@@ -46,13 +46,13 @@ Same content as the self-paced SPAs, guided by a facilitator in a 2-hour session
 ### Opening (10 min)
 - Share a brief personal story about your own AI use/learning
 - Ask: "What's one question you have about AI in your work?"
-- Capture themes on whiteboard — revisit at end
+- Capture themes on whiteboard. Revisit at end
 
 ### During Activities (60 min)
 - Let participants work through SPA sections
-- Walk the room — offer help, spark discussion
+- Walk the room, offer help, spark discussion
 - Pull group together to share interesting findings
-- Don't rush — depth beats coverage
+- Don't rush. Depth beats coverage
 
 ### "In Your Context" Discussion (15 min)
 - Split into role groups (Teaching / Research / Admin) if mixed
@@ -60,7 +60,7 @@ Same content as the self-paced SPAs, guided by a facilitator in a 2-hour session
 - Brief share-back (1 min each group)
 
 ### Closing (10 min)
-- Revisit opening questions — what's been answered?
+- Revisit opening questions. What's been answered?
 - Point to AI Toolkit for ongoing reference
 - Show how to mark experience complete (My Passport)
 - Mention AI in 5 for continued engagement
@@ -70,7 +70,7 @@ Same content as the self-paced SPAs, guided by a facilitator in a 2-hour session
 ## Workshop Variants by Experience
 
 ### 1. Is This AI? (Detection & Awareness)
-**Opening hook:** Show 3 samples — guess which are AI-generated
+**Opening hook:** Show 3 samples. Guess which are AI-generated
 **Core activity:** Test detection tools live, compare results
 **Discussion:** What's your policy when you suspect AI use?
 
@@ -80,7 +80,7 @@ Same content as the self-paced SPAs, guided by a facilitator in a 2-hour session
 **Discussion:** Where do you draw the line? What's your framework?
 
 ### 3. Rules of Engagement (Policy & Governance)
-**Opening hook:** Share a policy example — what's good/missing?
+**Opening hook:** Share a policy example. What's good/missing?
 **Core activity:** Devil's advocate stress-test of a policy
 **Discussion:** What does your unit/team/office need?
 
@@ -100,10 +100,10 @@ Same content as the self-paced SPAs, guided by a facilitator in a 2-hour session
 
 | Challenge | Response |
 |-----------|----------|
-| "I don't use AI" | That's fine — this is about understanding what's possible and making informed choices |
-| "This is overwhelming" | Focus on one technique or idea to try — you don't need everything today |
-| "Won't AI replace us?" | AI augments expertise — the goal is to be more capable, not replaced |
-| "My discipline is different" | Great — what would work for your context? You're the expert there |
+| "I don't use AI" | That's fine. This is about understanding what's possible and making informed choices |
+| "This is overwhelming" | Focus on one technique or idea to try. You don't need everything today |
+| "Won't AI replace us?" | AI augments expertise. The goal is to be more capable, not replaced |
+| "My discipline is different" | Great. What would work for your context? You're the expert there |
 | Technology not working | Have offline discussion ready; the conversation is valuable without the SPA |
 
 ---

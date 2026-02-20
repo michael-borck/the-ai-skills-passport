@@ -1,6 +1,6 @@
 # Brand & Style Guide
 
-**AI Skills Passport — Visual Identity**
+**AI Skills Passport: Visual Identity**
 
 ---
 
@@ -68,11 +68,11 @@ font-family: 'Courier New', Consolas, monospace; /* Headers, labels, code */
 ### Why These Fonts
 - **Georgia:** Professional, readable, available everywhere
 - **Courier New:** Technical feel, good for labels and headers
-- Both are web-safe — no external font loading needed
+- Both are web-safe, no external font loading needed
 
 ### CSS Notes
 - **SPAs** (served as HTML files from Content Collection): Can use `<style>` tags or external CSS
-- **Arrivals Hall** (pasted into Blackboard content item): Must use inline styles only — Blackboard strips `<style>` tags from content items
+- **Arrivals Hall** (pasted into Blackboard content item): Must use inline styles only. Blackboard strips `<style>` tags from content items
 
 ### Text Sizes
 - Page title: 28px
@@ -119,7 +119,7 @@ All text colour combinations should meet WCAG AA (4.5:1 for normal text, 3:1 for
 - `#334155` on `#FFFFFF` ✓
 - `#FFFFFF` on `#4F46E5` ✓
 - `#166534` on `#F0FDF4` ✓
-- `#64748B` on `#FFFFFF` — borderline, use for secondary text only
+- `#64748B` on `#FFFFFF`, borderline, use for secondary text only
 
 ### Interactive Elements
 - All clickable elements should have visible focus states
@@ -136,10 +136,10 @@ All text colour combinations should meet WCAG AA (4.5:1 for normal text, 3:1 for
 ## Voice & Tone
 
 ### Writing Style
-- **Conversational** — write like you're explaining to a colleague
-- **Practical** — focus on what they can do, not theory
-- **Encouraging** — normalise learning and experimentation
-- **Concise** — respect their time
+- **Conversational:** write like you're explaining to a colleague
+- **Practical:** focus on what they can do, not theory
+- **Encouraging:** normalise learning and experimentation
+- **Concise:** respect their time
 
 ### Words to Use
 - "Try" over "must"
@@ -167,4 +167,4 @@ Emojis are used sparingly for visual anchors:
 | Status | ✅ ⚠️ ❌ |
 | Time indicators | ⚡ 🗺️ 🎓 |
 
-Don't overuse — one emoji per card/section is usually enough.
+Don't overuse. One emoji per card/section is usually enough.
