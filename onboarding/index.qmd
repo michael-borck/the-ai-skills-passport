@@ -354,10 +354,6 @@ format:
   let currentQuestion = 1;
   const answers = {};
 
-  // Get uid from URL for tracking
-  const urlParams = new URLSearchParams(window.location.search);
-  const uid = urlParams.get('uid') || 'anonymous';
-
   // Experience data
   const experiences = {
     'is-this-ai': {
@@ -365,35 +361,40 @@ format:
       title: 'Is This AI?',
       subtitle: 'Detection & Awareness',
       time: '15-60 min',
-      description: 'Learn to identify AI-generated content and understand detection tool limitations.'
+      description: 'Learn to identify AI-generated content and understand detection tool limitations.',
+      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749313_1/xid-91749313_1'
     },
     'what-would-you-do': {
       emoji: '🤔',
       title: 'What Would You Do?',
       subtitle: 'Ethics & Dilemmas',
       time: '20-90 min',
-      description: 'Navigate real-world AI dilemmas and build your personal ethical framework.'
+      description: 'Navigate real-world AI dilemmas and build your personal ethical framework.',
+      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749316_1/xid-91749316_1'
     },
     'rules-of-engagement': {
       emoji: '📋',
       title: 'Rules of Engagement',
       subtitle: 'Policy & Governance',
       time: '30-120 min',
-      description: 'Create and stress-test AI use policies for your context.'
+      description: 'Create and stress-test AI use policies for your context.',
+      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749314_1/xid-91749314_1'
     },
     'ai-proof-assessments': {
       emoji: '🛡️',
       title: 'AI-Proof Your Assessments',
       subtitle: 'Assessment Design',
       time: '45-75 min',
-      description: 'Transform your assessments to be resilient in an AI era.'
+      description: 'Transform your assessments to be resilient in an AI era.',
+      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749315_1/xid-91749315_1'
     },
     'teaching-with-ai': {
       emoji: '🤝',
       title: 'Working WITH AI',
       subtitle: 'Co-Creation & Integration',
       time: '30-60 min',
-      description: 'Master prompting techniques and build a reusable prompt library.'
+      description: 'Master prompting techniques and build a reusable prompt library.',
+      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749312_1/xid-91749312_1'
     }
   };
 
@@ -545,8 +546,7 @@ format:
       answers: answers,
       profile: profileKey,
       pathway: profile.pathway,
-      timestamp: new Date().toISOString(),
-      uid: uid
+      timestamp: new Date().toISOString()
     };
     localStorage.setItem('ai-passport-quiz-results', JSON.stringify(results));
 
@@ -572,21 +572,23 @@ format:
       const exp = experiences[expKey];
       const isFirst = idx === 0;
       return `
-        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; background: ${isFirst ? '#1E1B4B' : '#16162A'}; border-radius: 8px; ${isFirst ? 'border: 2px solid #4F46E5;' : ''}">
-          <span style="font-size: 20px;">${exp.emoji}</span>
-          <div style="flex: 1;">
-            <div style="font-weight: ${isFirst ? 'bold' : 'normal'}; color: #E2E8F0; font-size: 14px;">${exp.title}</div>
+        <a href="${exp.url}" target="_blank" style="text-decoration: none; display: block;">
+          <div style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; background: ${isFirst ? '#1E1B4B' : '#16162A'}; border-radius: 8px; ${isFirst ? 'border: 2px solid #4F46E5;' : ''}">
+            <span style="font-size: 20px;">${exp.emoji}</span>
+            <div style="flex: 1;">
+              <div style="font-weight: ${isFirst ? 'bold' : 'normal'}; color: #E2E8F0; font-size: 14px;">${exp.title}</div>
+            </div>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #94A3B8;">${idx + 1}</span>
           </div>
-          <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #94A3B8;">${idx + 1}</span>
-        </div>
+        </a>
       `;
     }).join('');
     document.getElementById('pathway-list').innerHTML = pathwayHtml;
 
-    // Update start button (placeholder URL - update with actual)
+    // Update start button
     document.getElementById('start-btn').textContent = `Start: ${firstExp.title}`;
-    // In production, this would link to the actual experience
-    // document.getElementById('start-btn').href = `../experiences/${profile.firstExperience}/index.html?uid=${uid}`;
+    document.getElementById('start-btn').href = firstExp.url;
+    document.getElementById('start-btn').target = '_blank';
   }
 
   window.restartQuiz = function() {
