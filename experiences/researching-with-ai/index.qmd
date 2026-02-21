@@ -189,12 +189,26 @@ format:
         </div>
       </div>
 
-      <!-- Try This Prompt -->
+      <!-- Conversation vs Delegation -->
       <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
-        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
-        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Take a paragraph from a draft you are working on and paste it into ChatGPT or Claude with this prompt:</p>
-        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"Review this paragraph for clarity and logical flow. Suggest specific improvements but keep the academic tone. Do not rewrite it entirely, just identify the weakest sentence and explain why."</div>
-        <p style="margin: 0; color: #94A3B8; font-size: 14px;">Compare the AI's suggestion with your own instinct. Did it identify something you already suspected, or did it miss the point entirely?</p>
+        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this: Delegation vs Conversation</h3>
+        <p style="margin: 0 0 16px 0; color: #94A3B8; font-size: 14px;">The difference between AI as a shortcut and AI as a thinking partner comes down to how you prompt. Try both of these with the same paragraph from your current draft and compare the results:</p>
+
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px;">
+          <div style="background: #3B1010; border-left: 4px solid #EF4444; padding: 16px; border-radius: 0 8px 8px 0;">
+            <strong style="color: #FCA5A5;">Delegation prompt:</strong>
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; color: #E2E8F0; margin-top: 8px;">"Rewrite this paragraph to be clearer and more academic."</div>
+            <p style="margin: 8px 0 0 0; color: #FCA5A5; font-size: 13px;">You get polished text back, but you have not thought about <em>why</em> your original was unclear. The AI did the thinking for you.</p>
+          </div>
+
+          <div style="background: #0D2818; border-left: 4px solid #22C55E; padding: 16px; border-radius: 0 8px 8px 0;">
+            <strong style="color: #86EFAC;">Conversation prompt:</strong>
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; color: #E2E8F0; margin-top: 8px;">"Read this paragraph. What is the single weakest point in my argument? What assumption am I making that a reviewer might challenge? Do not rewrite it — just identify the problems so I can fix them myself."</div>
+            <p style="margin: 8px 0 0 0; color: #86EFAC; font-size: 13px;">You get diagnostic feedback that makes <em>you</em> a better writer. The AI is a thinking partner, not a ghostwriter.</p>
+          </div>
+        </div>
+
+        <p style="margin: 0; color: #94A3B8; font-size: 14px;">Notice the difference? The delegation prompt produces text. The conversation prompt produces insight. After trying both, ask yourself: which version helped you understand your own writing better?</p>
       </div>
 
       <!-- What to Watch For -->
@@ -349,6 +363,36 @@ format:
       </div>
     </div>
 
+    <!-- Go Deeper: Toolkit Links -->
+    <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); border: 2px solid #4F46E5; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+      <div style="display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+        <span style="font-size: 40px;">📚</span>
+        <div style="flex: 1; min-width: 250px;">
+          <h3 style="margin: 0 0 8px 0; color: #C7D2FE; font-size: 18px;">Want to Go Deeper?</h3>
+          <p style="margin: 0 0 16px 0; color: #A5B4FC; line-height: 1.5;">The AI Toolkit has guides that complement what you have explored here:</p>
+          <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">Ethics, Data Governance &amp; Integrity</strong>
+              <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">Deeper dive into responsible AI use, data handling, and institutional obligations.</p>
+            </div>
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">Managing Context with AI</strong>
+              <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">How to work within token limits, structure long conversations, and get better results from complex prompts.</p>
+            </div>
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">Strategic Prompting Guide</strong>
+              <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">A comprehensive approach to prompting that goes beyond templates — useful for literature synthesis and data analysis tasks.</p>
+            </div>
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">Secure &amp; Sustainable AI Use</strong>
+              <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">Practical guidance on protecting research data, choosing enterprise vs free tools, and sustainable AI practices.</p>
+            </div>
+          </div>
+          <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Browse AI Toolkit &#8594;</a>
+        </div>
+      </div>
+    </div>
+
     <div style="text-align: center; padding: 20px 0;">
       <button onclick="goToStep(6)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
     </div>
@@ -359,6 +403,10 @@ format:
     <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
       <h2 style="font-size: 20px; color: #E2E8F0; margin: 0 0 16px 0;">Key Takeaways</h2>
       <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Conversation, not delegation</strong>. Use AI to challenge your thinking, explore alternatives, and identify gaps — not to produce text you paste in unchanged.</p>
+        </div>
         <div style="display: flex; align-items: flex-start; gap: 12px;">
           <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
           <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>AI accelerates routine research tasks</strong> (finding papers, generating code, formatting) but cannot replace the intellectual work of analysis and argumentation.</p>
