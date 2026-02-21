@@ -663,7 +663,7 @@ Then suggest how I should frame my proposal to address these concerns proactivel
           <p style="margin: 0 0 16px 0; color: #94A3B8; font-size: 14px; line-height: 1.5;">Covers progressive implementation, prompt engineering foundations, and discipline-specific applications.</p>
           <div style="display: flex; gap: 12px; flex-wrap: wrap;">
             <a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="display: inline-block; background: #4ADE80; color: #16162A; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Read the Book →</a>
-            <a href="[TOOLKIT_URL]" target="_blank" style="display: inline-block; background: #16162A; color: #4ADE80; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4ADE80;">Browse AI Toolkit</a>
+            <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: inline-block; background: #16162A; color: #4ADE80; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4ADE80;">Browse AI Toolkit</a>
           </div>
         </div>
       </div>

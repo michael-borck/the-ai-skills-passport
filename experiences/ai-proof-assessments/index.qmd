@@ -203,9 +203,14 @@ format:
               <p style="margin: 8px 0 0 0; color: #4ADE80;">High-stakes assessments, verifying understanding of complex submissions, developing professional communication skills.</p>
             </div>
 
-            <div style="background: #3D2E0A; padding: 16px; border-radius: 8px;">
+            <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
               <strong style="color: #FBBF24;">Example transformation:</strong>
               <p style="margin: 8px 0 0 0; color: #FCD34D; font-style: italic;">"Submit a business case" becomes "Submit your business case, then present the key recommendation in a 5-minute presentation where you'll respond to questions about your analysis."</p>
+            </div>
+
+            <div style="background: #1E1B4B; padding: 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">Want to go deeper with oral exams?</strong>
+              <p style="margin: 8px 0 0 0; color: #A5B4FC; line-height: 1.6;">The <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="color: #C7D2FE; text-decoration: underline;">AI Toolkit</a> includes a full <em>Oral Exams for an AI World</em> guide covering course design, logistics, rubrics, and managing student anxiety. Based on Hartmann (2025).</p>
             </div>
           </div>
         </div>
@@ -467,10 +472,9 @@ format:
         <span style="font-size: 40px;">📊</span>
         <div style="flex: 1; min-width: 250px;">
           <h3 style="margin: 0 0 8px 0; color: #C7D2FE; font-size: 18px;">Ready to Build Your Rubric?</h3>
-          <p style="margin: 0 0 12px 0; color: #A5B4FC; line-height: 1.5;">Download our complete rubric framework for AI-integrated assessments. Includes a 5-criterion template, adaptation guide, and worked examples.</p>
+          <p style="margin: 0 0 12px 0; color: #A5B4FC; line-height: 1.5;">Our complete rubric framework for AI-integrated assessments is available in the AI Toolkit. Includes a 5-criterion template, adaptation guide, and worked examples. Filter by 'Teaching' + 'Templates' to find all four rubric documents.</p>
           <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-            <a href="[RUBRIC_URL]" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Download Rubric Pack →</a>
-            <a href="[TOOLKIT_URL]" target="_blank" style="display: inline-block; background: #16162A; color: #A5B4FC; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4F46E5;">Browse AI Toolkit</a>
+            <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Browse Rubric Suite in Toolkit →</a>
           </div>
           <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid #4338CA;">
             <p style="margin: 0 0 8px 0; font-size: 13px; color: #A5B4FC;">📗 <strong>Want to go deeper?</strong></p>

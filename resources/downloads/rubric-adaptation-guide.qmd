@@ -132,7 +132,51 @@ This guide shows how to adapt the generic rubric template to different AI modali
 
 ---
 
-## 6. Discipline-Specific Adjustments
+## 6. Oral Exams / Viva Voce
+
+**Best for:** High-stakes assessment verification, professional communication development, courses under ~25 students
+**Example:** 25-minute oral exam on course material, viva voce defence of a written submission
+
+### Key Customisation
+
+**Rename:** "Critical Engagement with AI" → "Depth of Understanding & Ability to Defend"
+
+**Excellent Performance Indicators:**
+
+- Explains concepts clearly without relying on notes or memorised phrasing
+- Responds to follow-up questions with nuance and relevant examples
+- Connects ideas across multiple topics or readings
+- Acknowledges limitations and considers alternative perspectives
+- Communicates with confidence, clarity, and appropriate vocabulary
+
+**Additional Criteria to Consider:**
+
+| Criterion | What to Assess |
+|-----------|---------------|
+| **Understanding** | Depth and accuracy of knowledge, ability to go beyond surface-level recall |
+| **Argument** | Ability to articulate a position and respond to counter-arguments |
+| **Evidence** | Relevance and accuracy of examples used to support claims |
+| **Structure & Coherence** | Logical progression of ideas, accessibility to the listener |
+| **Speaking Skills** | Clarity, eye contact, confidence, vocabulary, minimal verbal clutter |
+
+**Example Rubric Cell (Excellent):**
+> "Demonstrates deep understanding of course material. Explains concepts fluently without excessive reliance on notes. Responds to follow-up questions with nuance, drawing connections across topics. Constructs and defends arguments with relevant evidence. Communicates with confidence and clarity."
+
+**Example Rubric Cell (Developing):**
+> "Surface-level recall of key terms without deeper understanding. Struggles to respond to follow-up questions or connect ideas across topics. Arguments lack supporting evidence. Relies heavily on notes or memorised phrasing."
+
+**Weights might shift:**
+
+- Ability to Defend: 35% (the core of the format)
+- Quality of Reasoning: 25% (synthesis and argumentation)
+- Evidence & Examples: 20% (supporting claims)
+- Communication: 20% (verbal delivery and structure)
+
+**Implementation note:** See the *Oral Exams for an AI World* guide in the AI Toolkit for full logistics including scheduling, question design, managing student anxiety, and a quick-start checklist. Based on Hartmann (2025).
+
+---
+
+## 7. Discipline-Specific Adjustments
 
 ### Business/Management
 **Add/adjust:** "Strategic Application" criterion
@@ -177,6 +221,7 @@ This guide shows how to adapt the generic rubric template to different AI modali
 | Data Analysis | 35% | 20% | 15% | 20% | 10% |
 | Code/Programming | 35% | 15% | 10% | 20% | 20% |
 | Creative/Media | 30% | 20% | 20% | 15% | 15% |
+| Oral Exam/Viva | 35% | 25% | — | 20% | 20% |
 | *Generic Template* | *30%* | *25%* | *20%* | *15%* | *10%* |
 
 ---

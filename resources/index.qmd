@@ -1685,6 +1685,38 @@ Now write feedback in my style for:
       `
     },
 
+    {
+      id: 'dl-oral-exams',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Oral Exams for an AI World',
+      emoji: '🎙️',
+      summary: 'How to design, implement, and manage oral examinations as an AI-resilient assessment method. Based on Hartmann (2025).',
+      downloads: {
+        html: 'downloads/oral-exams-guide.html',
+        docx: 'downloads/oral-exams-guide.docx',
+        pdf: 'downloads/oral-exams-guide.pdf'
+      },
+      content: `
+        <p><strong>You cannot outsource a live conversation.</strong> A student either knows the material or they don't, and both parties will know within the first few minutes.</p>
+        <p>This guide covers the full implementation cycle for oral exams:</p>
+        <ul>
+          <li><strong>The Gym vs Forklift Analogy</strong>: When AI does the cognitive work, students miss the learning</li>
+          <li><strong>Course Design</strong>: Building preparation into every class with cold calling and social annotation</li>
+          <li><strong>Creating the Exam</strong>: Writing synthesis questions, giving questions in advance, rubric design</li>
+          <li><strong>Exam Day Logistics</strong>: Scheduling, question selection, grading, and recording</li>
+          <li><strong>Addressing Concerns</strong>: Student anxiety, fairness, time investment, and resistance</li>
+          <li><strong>Quick-Start Checklist</strong>: Before semester, during semester, and exam week tasks</li>
+        </ul>
+        <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>Time comparison:</strong> Hartmann tracked her hours and found oral exams took <em>less</em> time (13 hours) than grading equivalent written papers (15+ hours).
+        </div>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 12px;">
+          <strong>See also:</strong> The <a href="#" onclick="event.preventDefault(); document.querySelector('[data-category=template]')?.click(); setTimeout(function(){document.querySelector('input[type=text]').value='rubric'; document.querySelector('input[type=text]').dispatchEvent(new Event('input'));},200);" style="color: #A5B4FC;">AI-Integrated Assessment Rubrics Suite</a> for rubric templates that complement oral exams.
+        </div>
+      `
+    },
+
     // APPS: Coming Soon
     {
       id: 'app-prompt-tester',

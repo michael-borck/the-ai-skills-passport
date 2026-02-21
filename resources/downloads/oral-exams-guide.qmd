@@ -1,0 +1,296 @@
+---
+title: "Oral Exams for an AI World: A Practical Guide"
+---
+
+*How to design, implement, and manage oral examinations as an AI-resilient assessment method*
+
+> This guide is based on the research and implementation experience described in Hartmann, C. (2025). "Oral Exams for a Generative AI World: Managing Concerns and Logistics for Undergraduate Humanities Instruction." *College Teaching*. DOI: [10.1080/87567555.2025.2558563](https://doi.org/10.1080/87567555.2025.2558563)
+
+---
+
+# Why Consider Oral Exams?
+
+Generative AI has made traditional take-home writing assignments vulnerable. Students can produce passable essays, reading responses, and reports in minutes without engaging with the material. AI detection software remains unreliable and biased against ESL learners. Meanwhile, faculty are being turned into plagiarism detectives rather than educators.
+
+Oral exams offer a direct solution: **you cannot outsource a live conversation**. A student either knows the material or they don't, and both parties will know within the first few minutes.
+
+But oral exams also deliver benefits beyond academic integrity:
+
+- **Verbal communication skills** — employers consistently report these as lacking in recent graduates
+- **Thinking on your feet** — a skill no written exam develops
+- **Deeper understanding** — students report that preparing for oral exams forces them to truly learn the material, not just memorise it
+- **Transparent assessment** — both student and examiner know immediately how it went
+- **Comparable time investment** — Hartmann tracked her hours and found oral exams took *less* time (13 hours) than grading equivalent written papers (15+ hours)
+
+---
+
+# The Gym vs Forklift Analogy
+
+Hartmann offers a useful way to think about AI and education:
+
+Consider two ways to lift weights: manually or with a forklift. Each has its place. When a worker needs to move heavy loads quickly, they use a forklift. But when they want to build muscle, they go to the gym and lift weights themselves. **The goal determines the tool.**
+
+In education, the primary objective is not simply to produce polished essays — it is to build intellectual muscle. This transformation happens only through the struggle of wrestling with complex ideas, forming arguments, and revising understanding. When students outsource this cognitive work to AI, they are using a forklift when they should be in the gym.
+
+---
+
+# Is This Right for Your Course?
+
+Oral exams work best when:
+
+- **Class size is 25 or fewer** — above this, scheduling becomes impractical for individual sessions
+- **The course values synthesis, analysis, and argumentation** — not rote recall
+- **Students are upper-level** — they have enough foundational knowledge to sustain a conversation
+- **You can schedule individual exam slots** — typically 25–30 minutes each
+
+Oral exams are **not** a replacement for writing instruction. Writing remains a core skill. Think of oral exams as a complement, not a substitute — one tool in your assessment toolkit.
+
+---
+
+# Designing the Course Around the Exam
+
+This is the critical insight from Hartmann's work: **you cannot simply bolt an oral exam onto an existing course**. The entire semester should prepare students for the final conversation. Use backward design — start with what you want to assess, then build the classroom experience to develop those skills.
+
+## Step 1: Define Learning Goals
+
+What should students be able to do by the end of the course? Typical goals for oral exams include:
+
+- Understand and explain key concepts, events, or theories
+- Analyse primary and secondary texts
+- Synthesise across multiple readings or topics
+- Communicate complex ideas clearly and concisely
+- Construct and defend an argument
+
+## Step 2: Build Preparation Into Every Class
+
+### Cold Calling ("The Hot Seat")
+
+Rather than relying on volunteers (which creates a pattern of the same students participating), implement random calling. Keep a stack of name cards and randomly select students to respond to questions during class.
+
+**Why this works:**
+
+- Increases student preparation — they know they might be called
+- Increases both cold-called and voluntary participation
+- Research shows it does not meaningfully increase student discomfort
+- Mirrors the oral exam experience, providing low-stakes practice all semester
+
+**Logistics:**
+
+- Call at least 5 students per class session
+- Use the back of each name card to track performance (top third = strong, middle = adequate, bottom = absent or pass)
+- Send mid-semester check-in emails with individual feedback
+- Drop the lowest third of cold-call scores before final grading
+
+### Social Annotation (e.g. Perusall, Hypothesis)
+
+Upload readings to a group annotation platform with reading prompts that highlight key themes. Students complete a set number of annotations per week.
+
+**Benefits:**
+
+- Builds peer interaction around the texts
+- Helps you gauge student interests and struggles before class
+- Creates accountability for reading completion
+- Grade on completion rather than quality to minimise grading time
+
+### Technology-Free Classrooms
+
+Consider banning laptops and phones from class (with accommodations for students who need them). Provide readings as a single PDF that students can print affordably.
+
+**Evidence supports this:** Handwritten notes improve memory, physical reading materials improve comprehension, and devices in class reduce learning for both the user and nearby peers.
+
+---
+
+# Creating the Oral Exam
+
+## Write Synthesis Questions
+
+Create 10–12 open-ended questions that:
+
+- Allow multiple correct approaches (not one right answer)
+- Require students to synthesise across multiple readings or topics
+- Ask for specific examples to support arguments
+- Connect course material to broader contexts
+
+**Example question formats:**
+
+> "Describe at least two different perspectives on [topic]. How do they differ, and what are the strengths and limitations of each?"
+
+> "Imagine you are advising [audience] on [issue]. What would you recommend, and why? Make sure to keep it accessible for a non-specialist audience."
+
+> "Throughout the course, we have encountered [theme] in several different contexts. Choose at least two examples and explain how they illustrate or complicate our understanding of [concept]."
+
+## Give Questions in Advance
+
+Distribute all questions to students **two weeks before the exam**. This is not "giving away the test" — it ensures students spend their preparation time engaging deeply with the material rather than guessing what might be asked.
+
+## Allow a Notes Page
+
+Let students bring **one page of handwritten notes** to the exam. This encourages active preparation (condensing material into a single page is a powerful study strategy) while providing a safety net that reduces anxiety.
+
+## Provide a Rubric
+
+Share the rubric in advance so students know exactly how they will be assessed. A strong oral exam rubric typically covers:
+
+| Criterion | What to Assess |
+|-----------|---------------|
+| **Understanding** | Depth and accuracy of knowledge, ability to go beyond surface-level recall |
+| **Argument** | Ability to articulate a position, respond to counter-arguments |
+| **Evidence** | Relevance and accuracy of examples used to support claims |
+| **Structure & Coherence** | Logical progression of ideas, accessibility to the listener |
+| **Speaking Skills** | Clarity, eye contact, confidence, vocabulary, minimal verbal clutter |
+
+Each criterion can be rated on a four-level scale (e.g. Exemplary / Proficient / Developing / Below Standards). See the appendix of Hartmann (2025) for a detailed example rubric.
+
+---
+
+# Exam Day Logistics
+
+## Scheduling
+
+- Use a shared calendar or sign-up tool (e.g. Google Calendar appointment slots, Calendly, Microsoft Bookings)
+- Schedule **30-minute slots** — 25 minutes for the exam, 5 minutes to grade and reset
+- 25 students = approximately 12.5 hours spread over one week
+
+## During the Exam
+
+1. Give the student a printed copy of the questions
+2. Let them **veto one question** they do not want to answer
+3. Let them **choose one question** to start with
+4. Use a random number generator to select 3 more questions
+5. Read each question aloud as you go
+6. Take notes on paper during the conversation
+7. Give gentle prompts to students who seem stuck; push advanced students further
+
+## Grading
+
+- Fill out the rubric immediately after each exam (in the 5-minute gap)
+- The assessment is transparent — both you and the student generally agree on how it went
+
+## Recording
+
+Allow students to **record the exam** using their phone's voice memo app. This serves multiple purposes:
+
+- Provides a record for potential grade appeals
+- Lets students listen back and reflect on their performance
+- Supports self-improvement in communication skills
+
+## Post-Exam Reflection
+
+Ask students to submit a short (1–2 page) written reflection evaluating their own performance and preparation. Students tend to give themselves largely accurate grades, and this builds metacognitive awareness.
+
+---
+
+# Addressing Common Concerns
+
+## "Students will be too anxious"
+
+Student anxiety is real, but avoidance tends to intensify anxiety rather than relieve it. The more productive approach is to **acknowledge the stress and help students manage it**.
+
+**Strategies:**
+
+- **Be transparent** — discuss with students why you are using oral exams and that you have considered their concerns
+- **Repeated exposure** — cold calling all semester normalises the experience of speaking about ideas
+- **Cognitive reframing** — share research showing that a degree of discomfort ("desirable difficulty") enhances learning
+- **Practical techniques** — teach deep breathing, encourage thorough preparation
+- **Predictable routines** — consistent cold-calling practices build familiarity
+- **Mistakes are welcome** — build a classroom culture where errors are learning opportunities, not failures
+
+## "It's not fair or objective"
+
+Complete objectivity is impossible in any humanities assessment — including grading papers. Minimise bias through:
+
+- Providing questions and rubric in advance
+- Allowing students to record the exam
+- Maintaining consistent procedures across all students
+- Offering the option for another faculty member to be present
+- Giving preparation time and a notes page (supports first-generation students, ESL learners, and students with disabilities)
+
+## "I don't have time"
+
+Hartmann tracked her time carefully and found oral exams actually took *less* total time than grading equivalent written assignments. Key time-saving factors:
+
+- Cold calls occur during class time — no extra grading
+- Perusall annotations graded on completion, not quality
+- Oral exams graded immediately — no prolonged marking periods
+- No procrastination overhead (the grading is done as you go)
+
+Track your own time using a tool like Toggl Track to make an informed comparison.
+
+## "Students resisted the cold calling"
+
+This is expected. Students often prefer passive lectures and will sometimes report (incorrectly) that they learn more from them. Students may groan, joke about hoping they are not called, or say they dislike the hot seat.
+
+However, the same students frequently qualify their dislike: acknowledging that it made them actually do the readings and was effective even if uncomfortable. As Hartmann puts it: if you want students to treat the classroom like a gym, you should be willing to be the personal trainer who pushes them even when they do not want to be pushed.
+
+---
+
+# Building Student Buy-In
+
+Students will embrace unfamiliar assessment methods if they:
+
+1. **Understand why** — explain the reasoning behind oral exams (including the AI context)
+2. **See that you have addressed their concerns** — proactively discuss anxiety, fairness, and logistics
+3. **Believe in the approach's value** — share evidence on communication skills, employer expectations, and learning outcomes
+4. **Experience gradual preparation** — the semester-long build-up through cold calling and annotation means the exam does not arrive as a shock
+
+---
+
+# Quick-Start Checklist
+
+Use this checklist to plan your implementation:
+
+**Before the Semester**
+
+- [ ] Identify course learning goals suitable for oral assessment
+- [ ] Write 10–12 synthesis questions aligned with those goals
+- [ ] Create or adapt an oral exam rubric
+- [ ] Set up a social annotation platform (e.g. Perusall)
+- [ ] Prepare name cards for cold calling
+- [ ] Write syllabus language explaining the assessment approach
+- [ ] Compile course readings into a single printable PDF
+
+**During the Semester**
+
+- [ ] Implement cold calling from week 1
+- [ ] Use annotation assignments weekly (graded on completion)
+- [ ] Highlight strong annotations in class
+- [ ] Send mid-semester check-in emails on participation
+- [ ] Discuss anxiety management strategies with students
+- [ ] Distribute exam questions two weeks before finals
+
+**Exam Week**
+
+- [ ] Open scheduling tool for 30-minute appointment slots
+- [ ] Print question sets and rubrics for each student
+- [ ] Prepare a random number generator for question selection
+- [ ] Grade immediately after each exam
+- [ ] Collect post-exam reflections
+
+---
+
+# Limitations to Keep in Mind
+
+- **Class size ceiling** — impractical above ~25 students for individual sessions
+- **Does not develop writing skills** — use oral exams as a complement, not a total replacement
+- **Potential for bias** — communication style and cultural background can influence perception; mitigate with clear rubrics and recording
+- **Student pleasing** — some students may try to tell the examiner what they want to hear rather than demonstrate genuine understanding
+- **Scalability** — video-recorded oral exams have been proposed for larger classes, but lose the interactive back-and-forth that makes the format valuable
+
+---
+
+# Further Reading
+
+- Hartmann, C. (2025). Oral exams for a generative AI world: Managing concerns and logistics for undergraduate humanities instruction. *College Teaching*. [https://doi.org/10.1080/87567555.2025.2558563](https://doi.org/10.1080/87567555.2025.2558563)
+- Kharbach, M. (2026). Oral exams & AI: A practical alternative to take-home writing. *Med Kharbach*. [https://medkharbach.com/oral-exams-ai/](https://medkharbach.com/oral-exams-ai/)
+- Buehler, M. J., & Schneider, L. U. (2009). Speak up! Oral examinations and political science. *Journal of Political Science Education*, 5(4), 315–331.
+- Hazen, H. (2020). Use of oral examinations to assess student learning in the social sciences. *Journal of Geography in Higher Education*, 44(4), 592–607.
+- Theobold, A. S. (2021). Oral exams: A more meaningful assessment of students' understanding. *Journal of Statistics and Data Science Education*, 29(2), 156–159.
+- Dallimore, E. J., Hertenstein, J. H., & Platt, M. B. (2013). Impact of cold-calling on student voluntary participation. *Journal of Management Education*, 37(3), 305–341.
+
+---
+
+*This guide is adapted from Hartmann (2025) for use in the AI Skills Passport program. The original paper provides full implementation details, a complete rubric, and extensive references. All content has been reviewed and contextualised for the Curtin University teaching context.*
+
+---
+
+*AI Acknowledgement: AI tools were used in the drafting and formatting of this guide. All content has been reviewed, refined, and validated through human expertise and professional judgement.*
