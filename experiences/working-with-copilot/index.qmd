@@ -57,6 +57,11 @@ format:
         </div>
       </div>
 
+      <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+        <strong style="color: #86EFAC;">The mindset for this experience:</strong>
+        <p style="margin: 8px 0 0 0; color: #4ADE80; line-height: 1.6;">Copilot can do things <em>for</em> you, but it is most valuable when it helps you think <em>better</em>. Throughout this experience, we will show you both approaches — quick delegation for routine tasks, and conversation for the work that matters. The goal is conversation, not delegation.</p>
+      </div>
+
       <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 12px 0;">How this experience works</h3>
       <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">This experience has <strong style="color: #E2E8F0;">6 steps</strong>. Each step focuses on a different Microsoft 365 app. Work through at your own pace, and try the prompts with your own data as you go.</p>
       <div style="display: flex; flex-direction: column; gap: 8px;">
@@ -182,13 +187,22 @@ format:
         </div>
       </div>
 
-      <!-- Try This Prompt -->
+      <!-- Try This: Delegation -->
       <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
-        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this prompt</h3>
+        <h3 style="font-size: 14px; color: #A5B4FC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Try this: Delegation (fine for routine tasks)</h3>
         <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Open a new Word document, click the Copilot icon, and try:</p>
         <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0; margin-bottom: 12px;">"Draft a one-page committee brief summarising the key points from /[SharePoint file name]. Include a recommendation section at the end."</div>
-        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">Or to improve existing text:</p>
-        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 14px; color: #E2E8F0;">"Rewrite this paragraph to be more concise and suitable for a senior leadership audience. Keep the key message but reduce jargon."</div>
+        <p style="margin: 0; color: #94A3B8; font-size: 13px;">This is delegation — Copilot does the work, you review. Perfectly fine for routine summaries and first drafts.</p>
+      </div>
+
+      <!-- Try This: Conversation -->
+      <div style="background: #0D2818; border: 2px solid #22C55E; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+        <h3 style="font-size: 14px; color: #86EFAC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">Now try this: Conversation (for work that matters)</h3>
+        <p style="margin: 0 0 8px 0; color: #94A3B8; font-size: 14px;">When the document needs your thinking — a proposal, a recommendation, a case for change — try a different approach:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; color: #E2E8F0; margin-bottom: 12px;">"I'm writing a brief recommending we [your proposal]. Before I draft it, what are the three strongest objections a sceptical reader might raise? And what evidence would I need to address each one?"</div>
+        <p style="margin: 0 0 12px 0; color: #94A3B8; font-size: 14px;">Then follow up:</p>
+        <div style="background: #16162A; padding: 12px 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; color: #E2E8F0; margin-bottom: 12px;">"Good. Now help me structure the brief so the recommendation feels inevitable by the time the reader reaches it. What should come first — the problem, the evidence, or the cost of inaction?"</div>
+        <p style="margin: 0; color: #86EFAC; font-size: 13px;">Notice the difference: you are thinking <em>with</em> Copilot, not handing the task over. The document that results will be yours, shaped by your judgement, not a generic AI draft.</p>
       </div>
 
       <!-- What to Watch For -->
@@ -351,6 +365,36 @@ format:
       </div>
     </div>
 
+    <!-- Go Deeper: Toolkit Links -->
+    <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); border: 2px solid #4F46E5; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+      <div style="display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+        <span style="font-size: 40px;">📚</span>
+        <div style="flex: 1; min-width: 250px;">
+          <h3 style="margin: 0 0 8px 0; color: #C7D2FE; font-size: 18px;">Want to Go Deeper?</h3>
+          <p style="margin: 0 0 16px 0; color: #A5B4FC; line-height: 1.5;">The AI Toolkit has guides that build on what you have explored here:</p>
+          <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">Copilot &amp; Agent Setup Guide</strong>
+              <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">Step-by-step setup, custom instructions, privacy settings, and agent configuration.</p>
+            </div>
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">AI for Professional Staff</strong>
+              <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">Practical AI use cases for admin and operations roles beyond Copilot.</p>
+            </div>
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">Conversation, Not Delegation</strong>
+              <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">The foundational framework for using AI as a thinking partner across all your work.</p>
+            </div>
+            <div style="background: #16162A; padding: 12px 16px; border-radius: 8px;">
+              <strong style="color: #C7D2FE;">Secure &amp; Sustainable AI Use</strong>
+              <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">Data governance, enterprise vs free tools, and keeping your AI use sustainable.</p>
+            </div>
+          </div>
+          <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Browse AI Toolkit &#8594;</a>
+        </div>
+      </div>
+    </div>
+
     <div style="text-align: center; padding: 20px 0;">
       <button onclick="goToStep(6)" class="step-continue" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
     </div>
@@ -363,7 +407,11 @@ format:
       <div style="display: flex; flex-direction: column; gap: 12px;">
         <div style="display: flex; align-items: flex-start; gap: 12px;">
           <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
-          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Copilot is a drafting partner, not a finished-product machine</strong>. Every output needs your review, editing, and judgement before it goes anywhere.</p>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Conversation, not delegation</strong>. Delegation is fine for routine tasks (summaries, formatting, catch-ups). But for work that carries your name, use Copilot to challenge your thinking, explore alternatives, and sharpen your arguments — then write it yourself.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Every output needs your judgement</strong>. Copilot can invent details, miss nuance, and flatten context. Review everything before it leaves your desk.</p>
         </div>
         <div style="display: flex; align-items: flex-start; gap: 12px;">
           <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
