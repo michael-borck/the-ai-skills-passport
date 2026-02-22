@@ -94,7 +94,7 @@ format:
     <div style="font-size: 2rem; font-weight: 800; line-height: 1.2; color: #E2E8F0; margin-bottom: 4px;">Your AI journey.</div>
     <div style="font-size: 2rem; font-weight: 800; line-height: 1.2; color: #f97316; margin-bottom: 4px;">Start anywhere.</div>
     <div style="font-size: 2rem; font-weight: 800; line-height: 1.2; color: #fbbf24; margin-bottom: 16px;">Go at your pace.</div>
-    <p style="font-size: 15px; color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Seven standalone experiences to build your AI literacy. No prerequisites, no fixed order. Pick what matters to you and dive in.</p>
+    <p style="font-size: 15px; color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Experiences, ideas, tools, and weekly challenges to build your AI literacy. No prerequisites, no fixed order. Start with what matters to you.</p>
     <a href="onboarding.html" style="display: inline-block; padding: 14px 28px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 1rem; font-weight: bold;">Not sure where to start? Find Your Path &rarr;</a>
   </div>
 
