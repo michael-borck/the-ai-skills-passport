@@ -179,7 +179,7 @@ format:
         <div class="sample-card" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
           <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #94A3B8; margin-bottom: 12px;">SAMPLE 2 OF 5</div>
           <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; line-height: 1.7;">
-            "I spent three hours on that assignment and still got a C. Prof said my argument was 'underdeveloped' but honestly I thought I covered everything in the rubric. Maybe I need to actually go to the writing centre like they keep suggesting."
+            "I spent three hours on that assignment and still only got a pass. My lecturer said my argument was 'underdeveloped' but honestly I thought I covered everything in the rubric. Maybe I need to actually go to the writing centre like they keep suggesting."
           </div>
           <div style="display: flex; gap: 12px; margin-bottom: 16px;">
             <button onclick="checkAnswer(2, 'ai')" style="flex: 1; padding: 12px; background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 8px; cursor: pointer; font-size: 14px; color: #CBD5E1;">🤖 AI Generated</button>
@@ -613,7 +613,7 @@ format:
   // ---- Detection game ----
   const answers = {
     1: { correct: 'ai', explanation: 'AI Generated. Note the phrases "It\'s important to note that..." and "significant transformation" - classic AI markers. Also very balanced and generic.' },
-    2: { correct: 'human', explanation: 'Human Written. Personal frustration, informal contractions, specific details about grades and the writing centre suggest authentic student voice.' },
+    2: { correct: 'human', explanation: 'Human Written. Personal frustration, informal contractions, specific details about marks and the writing centre suggest authentic student voice.' },
     3: { correct: 'human', explanation: 'Human Written. Specific statistical data (r=0.43, p<0.01) and methodological details suggest real research. AI rarely invents convincing statistics.' },
     4: { correct: 'ai', explanation: 'AI Generated. "Multifaceted concept," "fostering open communication," and the perfectly balanced conclusion are typical AI patterns.' },
     5: { correct: 'ai', explanation: 'AI Generated. Despite the casual tone, notice the careful narrative structure and specific sensory details (flat white, corner table, stickers). AI has learned to mimic human storytelling.' }
