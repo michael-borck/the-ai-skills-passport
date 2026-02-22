@@ -45,7 +45,7 @@ format:
       <div class="sp-nav-group" data-group="more">
         <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
-          <span class="sp-nav-item sp-nav-item--disabled">AI in 5 (Coming Soon)</span>
+          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
           <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
           <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
           <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
@@ -112,7 +112,6 @@ format:
       <button class="filter-btn category-btn" data-category="template" onclick="setCategory('template')" style="background: #1E1E36; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Templates</button>
       <button class="filter-btn category-btn" data-category="guide" onclick="setCategory('guide')" style="background: #1E1E36; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Guides</button>
       <button class="filter-btn category-btn" data-category="reading" onclick="setCategory('reading')" style="background: #1E1E36; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Further Reading</button>
-      <button class="filter-btn category-btn" data-category="app" onclick="setCategory('app')" style="background: #1E1E36; color: #64748B; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">Apps</button>
     </div>
 
     <div style="display: flex; gap: 8px; flex-wrap: wrap;">
@@ -1781,50 +1780,6 @@ Now write feedback in my style for:
         </div>
         <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 12px;">
           <strong>See also:</strong> The <a href="#" onclick="event.preventDefault(); document.querySelector('[data-category=template]')?.click(); setTimeout(function(){document.querySelector('input[type=text]').value='rubric'; document.querySelector('input[type=text]').dispatchEvent(new Event('input'));},200);" style="color: #A5B4FC;">AI-Integrated Assessment Rubrics Suite</a> for rubric templates that complement oral exams.
-        </div>
-      `
-    },
-
-    // APPS: Coming Soon
-    {
-      id: 'app-prompt-tester',
-      category: 'app',
-      roles: ['teaching', 'research', 'admin'],
-      title: 'BYOK Prompt Tester',
-      emoji: '🧪',
-      summary: 'Test and compare prompts using your own API key. No data leaves your browser.',
-      comingSoon: true,
-      content: `
-        <p>A browser-based prompt testing tool that uses your own API key:</p>
-        <ul>
-          <li><strong>Bring Your Own Key (BYOK)</strong>: Uses your personal API key, no middleman</li>
-          <li><strong>Privacy-First</strong>: All processing happens in your browser</li>
-          <li><strong>Compare Outputs</strong>: Test the same prompt across different models</li>
-          <li><strong>Save & Share</strong>: Export prompt templates for colleagues</li>
-        </ul>
-        <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
-          <strong>Coming Soon</strong>: This tool is currently in development. Check back for updates.
-        </div>
-      `
-    },
-    {
-      id: 'app-privacy-chat',
-      category: 'app',
-      roles: ['teaching', 'research', 'admin'],
-      title: 'Privacy-First AI Chat',
-      emoji: '🛡️',
-      summary: 'Browser-based AI chat where no data leaves your machine, ideal for sensitive content.',
-      comingSoon: true,
-      content: `
-        <p>A fully browser-based AI chat interface designed for privacy-sensitive work:</p>
-        <ul>
-          <li><strong>Zero Data Transfer</strong>: Runs entirely in your browser using on-device models</li>
-          <li><strong>No Account Required</strong>: No sign-up, no tracking, no logs</li>
-          <li><strong>Sensitive Content Safe</strong>: Process student data, research drafts, or HR documents locally</li>
-          <li><strong>Offline Capable</strong>: Works without internet after initial load</li>
-        </ul>
-        <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
-          <strong>Coming Soon</strong>: This tool is currently in development. Check back for updates.
         </div>
       `
     }

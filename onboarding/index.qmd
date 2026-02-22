@@ -45,7 +45,7 @@ format:
       <div class="sp-nav-group" data-group="more">
         <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
-          <span class="sp-nav-item sp-nav-item--disabled">AI in 5 (Coming Soon)</span>
+          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
           <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
           <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
           <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
@@ -279,7 +279,7 @@ format:
       <div style="display: flex; flex-direction: column; gap: 12px;">
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q7" value="micro" style="display: none;">
-          <div style="font-weight: bold; color: #E2E8F0;">5 minutes a day (AI in 5 challenges)</div>
+          <div style="font-weight: bold; color: #E2E8F0;">5 minutes a week (AI in 5 challenges)</div>
         </label>
         <label style="display: block; background: #16162A; border: 2px solid #2D2D4A; border-radius: 12px; padding: 16px 20px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="if(!this.querySelector('input').checked)this.style.borderColor='#2D2D4A'">
           <input type="radio" name="q7" value="short" style="display: none;">

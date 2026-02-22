@@ -10,12 +10,12 @@ The project lead is Michael Borck, AI Facilitator for SoMM. He is the sole devel
 
 ### 1. Blackboard (LMS) — "The Shell"
 
-Blackboard is intentionally minimal — just authentication, announcements, and a launch point. All real UX happens in SPAs.
+Blackboard is intentionally minimal — just authentication and a launch point. All real UX happens in SPAs.
 
 - Blackboard Classic/Original Organisation site
 - **6 sidebar items:** The Arrivals Hall, AI in 5, AI Toolkit, My Passport, Contact, About
 - The Arrivals Hall is the hub — contains links to everything else
-- "AI in 5" is renamed Announcements — weekly micro-challenges emailed to enrolled staff
+- "AI in 5" — weekly micro-challenges sent via a simple offline email list (not Blackboard)
 - All experiences, toolkit, and quiz open as standalone SPAs in new browser tabs
 - Blackboard URL variable substitution passes user identity: `?uid=@X@user.batch_uid@X@`
 - All HTML uses **inline CSS only** — Blackboard strips `<style>` tags
@@ -73,7 +73,7 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 | Pace | Mechanism |
 |---|---|
 | Self-paced | Work through SPAs from Arrivals Hall links at own speed |
-| AI in 5 | Weekly 5-min micro-challenge via Blackboard Announcements (emailed) |
+| AI in 5 | Weekly 5-min micro-challenge via offline email list |
 | Weekly | One experience per week for 5 weeks (suggested on Arrivals Hall) |
 | Workshop | 2-hour face-to-face, same content, guided by facilitator |
 
@@ -85,7 +85,7 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 - **LMS:** Blackboard Classic now, Canvas late 2026
 - **Blackboard constraints:** Inline CSS only, no `<style>` tags, no external files. CAN embed JS inline. CAN use URL variables for user identity
 - **Version control:** Git + GitHub (SSH for push)
-- **No Blackboard API access** — cannot programmatically post announcements
+- **No Blackboard API access** — AI in 5 uses offline email list instead
 
 ## Style Guide
 
@@ -110,7 +110,7 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 - **Inline CSS everywhere** — Blackboard strips `<style>` tags
 - Terminals (T/R/A) rejected as structure — role tabs inside each experience instead
 - Teams dropped — academics don't live there
-- Power Automate dropped — Blackboard announcements work for pilot scale
+- Power Automate dropped — simple offline email list for AI in 5
 - Grade Centre not used — progress tracker handles badges
 
 ## Project Structure

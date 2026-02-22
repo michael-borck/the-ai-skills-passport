@@ -44,7 +44,7 @@ format:
       <div class="sp-nav-group" data-group="more">
         <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
-          <span class="sp-nav-item sp-nav-item--disabled">AI in 5 (Coming Soon)</span>
+          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
           <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
           <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
           <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
@@ -96,7 +96,7 @@ format:
     <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 22px;">
       <div style="font-size: 0.9rem; color: #CBD5E1; line-height: 1.7;">
         <p style="margin: 0 0 14px 0;">The AI Skills Passport helps staff across the School of Marketing and Management develop practical AI skills they can use in their work. Whether you teach, research, or support the school in a professional capacity, there is something here for you.</p>
-        <p style="margin: 0 0 14px 0;">The program consists of seven standalone learning experiences, a searchable toolkit of guides and frameworks, daily micro-challenges via AI in 5, and optional face-to-face workshops. There are no prerequisites and no fixed order. Start with whatever is most relevant to you.</p>
+        <p style="margin: 0 0 14px 0;">The program consists of seven standalone learning experiences, a searchable toolkit of guides and frameworks, weekly micro-challenges via AI in 5, and optional face-to-face workshops. There are no prerequisites and no fixed order. Start with whatever is most relevant to you.</p>
         <p style="margin: 0;">This initiative was endorsed by the Head of School in late 2025 as part of a broader effort to support staff in understanding and using AI responsibly and effectively.</p>
       </div>
     </div>

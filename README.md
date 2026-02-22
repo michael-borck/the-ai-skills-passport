@@ -42,7 +42,7 @@ Everyone belongs — teaching academics, researchers, and professional staff all
 
 ## Architecture: Blackboard as a Shell
 
-Blackboard does three things: **authenticate**, **redirect**, and **send announcements**. That's it.
+Blackboard does two things: **authenticate** and **redirect**. That's it.
 
 All the real content lives in **self-contained SPAs** (single-page applications) built with Quarto. When a user clicks into the Arrivals Hall from Blackboard, a redirect sends them into SPA-land. From there, every link — experiences, toolkit, passport, key takeaways — is a **relative link between SPAs**. Users navigate freely without bouncing back to the LMS.
 
@@ -108,7 +108,7 @@ the-ai-skills-passport/
 ├── contact/                    # Contact the AI Facilitator
 ├── about/                      # About the initiative
 ├── blackboard/                 # HTML pasted into Blackboard
-├── ai-in-5/                    # Daily challenge email utility
+├── ai-in-5/                    # Weekly challenge email utility
 ├── shared/                     # Brand CSS shared across SPAs
 ├── server/                     # Progress tracker (FastAPI)
 ├── scripts/

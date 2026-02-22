@@ -46,7 +46,7 @@ format:
       <div class="sp-nav-group" data-group="more">
         <a href="../more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
-          <span class="sp-nav-item sp-nav-item--disabled">AI in 5 (Coming Soon)</span>
+          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
           <a href="../ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
           <a href="../contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
           <a href="../about.html" class="sp-nav-item" data-nav="about">About</a>
