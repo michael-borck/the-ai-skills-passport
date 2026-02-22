@@ -1068,6 +1068,30 @@ Now write feedback in my style for:
       `
     },
 
+    // FURTHER READING - External Resources
+    {
+      id: 'syllabi-policies-genai',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Syllabi Policies for Generative AI',
+      emoji: '📋',
+      summary: 'Crowdsourced collection of real syllabus AI policies from educators worldwide.',
+      content: `
+        <p>A widely referenced open spreadsheet maintained by Lance Eaton (Anchor Insights Consultants), collecting real syllabus policies for generative AI from educators across disciplines. First created January 2023, regularly updated.</p>
+        <p><strong>What you'll find:</strong></p>
+        <ul>
+          <li>Policies ranging from full prohibition to open integration</li>
+          <li>Real language from real syllabi you can adapt</li>
+          <li>A companion collection of institution-wide AI policies</li>
+          <li>A submission form to contribute your own policy</li>
+        </ul>
+        <p style="margin-top: 12px;">
+          <a href="https://docs.google.com/spreadsheets/d/1lM6g4yveQMyWeUbEwBM6FZVxEWCLfvWDh1aWUErWWbQ/edit?gid=118697409#gid=118697409" target="_blank" style="display: inline-block; padding: 8px 16px; background: #4F46E5; color: white; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 600;">Open the spreadsheet</a>
+        </p>
+        <p style="font-size: 13px; color: #64748B;">Maintained by Lance Eaton, Ph.D. (Anchor Insights Consultants)</p>
+      `
+    },
+
     // FURTHER READING - Search Queries
     {
       id: 'search-google-scholar',
