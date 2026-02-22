@@ -32,12 +32,12 @@ format:
     <div style="font-size: 48px; margin-bottom: 12px;">💡</div>
     <div style="font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">AI Skills Passport</div>
     <h1 style="font-family: 'Courier New', Consolas, monospace; font-size: 24px; font-weight: bold; color: #F1F5F9; margin: 0 0 8px 0; letter-spacing: 1px;">KEY TAKEAWAYS</h1>
-    <p style="font-size: 15px; color: #94A3B8; margin: 0; line-height: 1.5;">The big ideas, even if you do nothing else. Six principles worth knowing.</p>
+    <p style="font-size: 15px; color: #94A3B8; margin: 0; line-height: 1.5;">The big ideas, even if you do nothing else. Eight principles worth knowing.</p>
   </div>
 
   <!-- Intro -->
   <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
-    <p style="font-size: 15px; color: #94A3B8; line-height: 1.7; margin: 0;">Short on time? Overwhelmed by AI? That's fine. If you take nothing else from the AI Skills Passport, take these six ideas. Each one comes with something you can try in two minutes.</p>
+    <p style="font-size: 15px; color: #94A3B8; line-height: 1.7; margin: 0;">Short on time? Overwhelmed by AI? That's fine. If you take nothing else from the AI Skills Passport, take these eight ideas. Each one comes with something you can try in two minutes.</p>
   </div>
 
   <!-- Takeaway 1: Conversation, Not Delegation -->
@@ -122,6 +122,34 @@ format:
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Ask AI a factual question about your field. Fact-check one claim. You'll likely find something that's almost right but subtly wrong — that's why you matter.</p>
     </div>
     <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749313_1/xid-91749313_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Is This AI? →</a>
+  </div>
+
+  <!-- Takeaway 7: Done Beats Perfect -->
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+      <span style="font-size: 28px;">🚀</span>
+      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Done Beats Perfect</h2>
+    </div>
+    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">You don't need to master AI before you use it. Try one thing. Get it wrong. Try again. The cost of waiting for certainty is higher than the cost of an imperfect start. Everyone who's confident with AI now started by fumbling through it.</p>
+    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
+      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Open any AI tool right now and ask it one question about something you're working on. Don't overthink the prompt. Just ask. See what happens.</p>
+    </div>
+    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749312_1/xid-91749312_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+  </div>
+
+  <!-- Takeaway 8: Start with Your Own Voice -->
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+      <span style="font-size: 28px;">✍️</span>
+      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Start with Your Own Voice</h2>
+    </div>
+    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">The best way to get AI output that sounds like you is to start with your own content. Give it your rough notes, your bullet points, your messy first draft. AI is far better at refining your thinking than generating from scratch — and the result sounds like you, not like a machine.</p>
+    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
+      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Take something you've already written — an email draft, meeting notes, a paragraph from a report. Paste it into AI and ask "Help me tighten this up." Compare the result to what you'd get from a blank prompt.</p>
+    </div>
+    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749312_1/xid-91749312_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
   </div>
 
   <!-- Footer: Want to explore further? -->
