@@ -11,7 +11,7 @@ There are no prerequisites, no forced sequences, no "complete Module 1 before Mo
 - **Want a guided starting point?** Take the 2-minute *Find Your Path* quiz
 - **Prefer to explore?** Browse the seven experiences from the Arrivals Hall
 - **Short on time?** Read the *Key Takeaways* — the essential insights in 5 minutes
-- **Want daily nudges?** Subscribe to *AI in 5* — a micro-challenge in your inbox each day
+- **Want weekly nudges?** Subscribe to *AI in 5* — a micro-challenge in your inbox each week
 - **Just need a reference?** Search the *AI Toolkit* for frameworks, templates, and techniques
 - **Prefer face-to-face?** Contact the AI Facilitator to arrange a workshop
 
@@ -36,7 +36,7 @@ Everyone belongs — teaching academics, researchers, and professional staff all
 - **AI Toolkit** — searchable reference library of frameworks, techniques, and templates
 - **Key Takeaways** — the essential insights from all experiences, for when you're short on time
 - **My Passport** — track your progress and collect badges
-- **AI in 5** — daily 5-minute micro-challenge delivered by email
+- **AI in 5** — weekly 5-minute micro-challenge delivered by email
 - **Contact** — reach the AI Facilitator, request a workshop
 - **About** — background on the initiative
 
@@ -56,7 +56,9 @@ Blackboard (auth)
                      ├── experiences/teaching-with-ai.html
                      ├── experiences/working-with-copilot.html
                      ├── experiences/researching-with-ai.html
-                     ├── resources.html        (AI Toolkit)
+                     ├── ai-toolkit.html       (AI Toolkit)
+                     ├── resources.html        (Resources landing)
+                     ├── more.html             (More landing)
                      ├── key-takeaways.html
                      ├── passport.html         (My Passport)
                      ├── onboarding.html       (Find Your Path)
@@ -98,7 +100,9 @@ the-ai-skills-passport/
 │   ├── working-with-copilot/
 │   └── researching-with-ai/
 ├── onboarding/                 # Find Your Path quiz
-├── resources/                  # AI Toolkit
+├── ai-toolkit/                 # AI Toolkit (searchable reference)
+├── resources/                  # Resources landing page
+├── more/                       # More landing page
 ├── key-takeaways/              # Essential insights summary
 ├── passport/                   # My Passport (badge tracker)
 ├── contact/                    # Contact the AI Facilitator
@@ -147,7 +151,7 @@ All options use the same content, just different rhythms:
 | Pace | How it works |
 |---|---|
 | **Self-paced** | Browse SPAs from the Arrivals Hall at your own speed |
-| **AI in 5** | Daily 5-minute micro-challenge delivered to your inbox |
+| **AI in 5** | Weekly 5-minute micro-challenge delivered to your inbox |
 | **Weekly** | One experience per week for seven weeks |
 | **Workshop** | 2-hour face-to-face guided session |
 
