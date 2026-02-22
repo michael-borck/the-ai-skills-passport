@@ -2,8 +2,11 @@
 pagetitle: "AI Toolkit"
 format:
   html:
+    theme: none
+    minimal: true
     self-contained: true
     toc: false
+    css: ../shared/brand.css
 ---
 
 ```{=html}

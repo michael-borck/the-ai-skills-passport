@@ -4,11 +4,3 @@ project:
   render:
     - index.qmd
     - downloads/*.qmd
-
-format:
-  html:
-    theme: none
-    minimal: true
-    self-contained: true
-    toc: false
-    css: ../shared/brand.css

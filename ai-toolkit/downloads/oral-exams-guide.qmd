@@ -16,11 +16,11 @@ Oral exams offer a direct solution: **you cannot outsource a live conversation**
 
 But oral exams also deliver benefits beyond academic integrity:
 
-- **Verbal communication skills** — employers consistently report these as lacking in recent graduates
-- **Thinking on your feet** — a skill no written exam develops
-- **Deeper understanding** — students report that preparing for oral exams forces them to truly learn the material, not just memorise it
-- **Transparent assessment** — both student and examiner know immediately how it went
-- **Comparable time investment** — Hartmann tracked her hours and found oral exams took *less* time (13 hours) than grading equivalent written papers (15+ hours)
+- **Verbal communication skills** - employers consistently report these as lacking in recent graduates
+- **Thinking on your feet** - a skill no written exam develops
+- **Deeper understanding** - students report that preparing for oral exams forces them to truly learn the material, not just memorise it
+- **Transparent assessment** - both student and examiner know immediately how it went
+- **Comparable time investment** - Hartmann tracked her hours and found oral exams took *less* time (13 hours) than grading equivalent written papers (15+ hours)
 
 ---
 
@@ -30,7 +30,7 @@ Hartmann offers a useful way to think about AI and education:
 
 Consider two ways to lift weights: manually or with a forklift. Each has its place. When a worker needs to move heavy loads quickly, they use a forklift. But when they want to build muscle, they go to the gym and lift weights themselves. **The goal determines the tool.**
 
-In education, the primary objective is not simply to produce polished essays — it is to build intellectual muscle. This transformation happens only through the struggle of wrestling with complex ideas, forming arguments, and revising understanding. When students outsource this cognitive work to AI, they are using a forklift when they should be in the gym.
+In education, the primary objective is not simply to produce polished essays: it is to build intellectual muscle. This transformation happens only through the struggle of wrestling with complex ideas, forming arguments, and revising understanding. When students outsource this cognitive work to AI, they are using a forklift when they should be in the gym.
 
 ---
 
@@ -38,18 +38,18 @@ In education, the primary objective is not simply to produce polished essays —
 
 Oral exams work best when:
 
-- **Class size is 25 or fewer** — above this, scheduling becomes impractical for individual sessions
-- **The course values synthesis, analysis, and argumentation** — not rote recall
-- **Students are upper-level** — they have enough foundational knowledge to sustain a conversation
-- **You can schedule individual exam slots** — typically 25–30 minutes each
+- **Class size is 25 or fewer** - above this, scheduling becomes impractical for individual sessions
+- **The course values synthesis, analysis, and argumentation** - not rote recall
+- **Students are upper-level** - they have enough foundational knowledge to sustain a conversation
+- **You can schedule individual exam slots** - typically 25–30 minutes each
 
-Oral exams are **not** a replacement for writing instruction. Writing remains a core skill. Think of oral exams as a complement, not a substitute — one tool in your assessment toolkit.
+Oral exams are **not** a replacement for writing instruction. Writing remains a core skill. Think of oral exams as a complement, not a substitute: one tool in your assessment toolkit.
 
 ---
 
 # Designing the Course Around the Exam
 
-This is the critical insight from Hartmann's work: **you cannot simply bolt an oral exam onto an existing course**. The entire semester should prepare students for the final conversation. Use backward design — start with what you want to assess, then build the classroom experience to develop those skills.
+This is the critical insight from Hartmann's work: **you cannot simply bolt an oral exam onto an existing course**. The entire semester should prepare students for the final conversation. Use backward design: start with what you want to assess, then build the classroom experience to develop those skills.
 
 ## Step 1: Define Learning Goals
 
@@ -69,7 +69,7 @@ Rather than relying on volunteers (which creates a pattern of the same students 
 
 **Why this works:**
 
-- Increases student preparation — they know they might be called
+- Increases student preparation: they know they might be called
 - Increases both cold-called and voluntary participation
 - Research shows it does not meaningfully increase student discomfort
 - Mirrors the oral exam experience, providing low-stakes practice all semester
@@ -121,7 +121,7 @@ Create 10–12 open-ended questions that:
 
 ## Give Questions in Advance
 
-Distribute all questions to students **two weeks before the exam**. This is not "giving away the test" — it ensures students spend their preparation time engaging deeply with the material rather than guessing what might be asked.
+Distribute all questions to students **two weeks before the exam**. This is not "giving away the test": it ensures students spend their preparation time engaging deeply with the material rather than guessing what might be asked.
 
 ## Allow a Notes Page
 
@@ -148,7 +148,7 @@ Each criterion can be rated on a four-level scale (e.g. Exemplary / Proficient /
 ## Scheduling
 
 - Use a shared calendar or sign-up tool (e.g. Google Calendar appointment slots, Calendly, Microsoft Bookings)
-- Schedule **30-minute slots** — 25 minutes for the exam, 5 minutes to grade and reset
+- Schedule **30-minute slots**: 25 minutes for the exam, 5 minutes to grade and reset
 - 25 students = approximately 12.5 hours spread over one week
 
 ## During the Exam
@@ -164,7 +164,7 @@ Each criterion can be rated on a four-level scale (e.g. Exemplary / Proficient /
 ## Grading
 
 - Fill out the rubric immediately after each exam (in the 5-minute gap)
-- The assessment is transparent — both you and the student generally agree on how it went
+- The assessment is transparent: both you and the student generally agree on how it went
 
 ## Recording
 
@@ -188,16 +188,16 @@ Student anxiety is real, but avoidance tends to intensify anxiety rather than re
 
 **Strategies:**
 
-- **Be transparent** — discuss with students why you are using oral exams and that you have considered their concerns
-- **Repeated exposure** — cold calling all semester normalises the experience of speaking about ideas
-- **Cognitive reframing** — share research showing that a degree of discomfort ("desirable difficulty") enhances learning
-- **Practical techniques** — teach deep breathing, encourage thorough preparation
-- **Predictable routines** — consistent cold-calling practices build familiarity
-- **Mistakes are welcome** — build a classroom culture where errors are learning opportunities, not failures
+- **Be transparent** - discuss with students why you are using oral exams and that you have considered their concerns
+- **Repeated exposure** - cold calling all semester normalises the experience of speaking about ideas
+- **Cognitive reframing** - share research showing that a degree of discomfort ("desirable difficulty") enhances learning
+- **Practical techniques** - teach deep breathing, encourage thorough preparation
+- **Predictable routines** - consistent cold-calling practices build familiarity
+- **Mistakes are welcome** - build a classroom culture where errors are learning opportunities, not failures
 
 ## "It's not fair or objective"
 
-Complete objectivity is impossible in any humanities assessment — including grading papers. Minimise bias through:
+Complete objectivity is impossible in any humanities assessment, including grading papers. Minimise bias through:
 
 - Providing questions and rubric in advance
 - Allowing students to record the exam
@@ -209,9 +209,9 @@ Complete objectivity is impossible in any humanities assessment — including gr
 
 Hartmann tracked her time carefully and found oral exams actually took *less* total time than grading equivalent written assignments. Key time-saving factors:
 
-- Cold calls occur during class time — no extra grading
+- Cold calls occur during class time: no extra grading
 - Perusall annotations graded on completion, not quality
-- Oral exams graded immediately — no prolonged marking periods
+- Oral exams graded immediately: no prolonged marking periods
 - No procrastination overhead (the grading is done as you go)
 
 Track your own time using a tool like Toggl Track to make an informed comparison.
@@ -228,10 +228,10 @@ However, the same students frequently qualify their dislike: acknowledging that 
 
 Students will embrace unfamiliar assessment methods if they:
 
-1. **Understand why** — explain the reasoning behind oral exams (including the AI context)
-2. **See that you have addressed their concerns** — proactively discuss anxiety, fairness, and logistics
-3. **Believe in the approach's value** — share evidence on communication skills, employer expectations, and learning outcomes
-4. **Experience gradual preparation** — the semester-long build-up through cold calling and annotation means the exam does not arrive as a shock
+1. **Understand why**: explain the reasoning behind oral exams (including the AI context)
+2. **See that you have addressed their concerns**: proactively discuss anxiety, fairness, and logistics
+3. **Believe in the approach's value**: share evidence on communication skills, employer expectations, and learning outcomes
+4. **Experience gradual preparation**: the semester-long build-up through cold calling and annotation means the exam does not arrive as a shock
 
 ---
 
@@ -270,11 +270,11 @@ Use this checklist to plan your implementation:
 
 # Limitations to Keep in Mind
 
-- **Class size ceiling** — impractical above ~25 students for individual sessions
-- **Does not develop writing skills** — use oral exams as a complement, not a total replacement
-- **Potential for bias** — communication style and cultural background can influence perception; mitigate with clear rubrics and recording
-- **Student pleasing** — some students may try to tell the examiner what they want to hear rather than demonstrate genuine understanding
-- **Scalability** — video-recorded oral exams have been proposed for larger classes, but lose the interactive back-and-forth that makes the format valuable
+- **Class size ceiling** - impractical above ~25 students for individual sessions
+- **Does not develop writing skills** - use oral exams as a complement, not a total replacement
+- **Potential for bias** - communication style and cultural background can influence perception; mitigate with clear rubrics and recording
+- **Student pleasing** - some students may try to tell the examiner what they want to hear rather than demonstrate genuine understanding
+- **Scalability** - video-recorded oral exams have been proposed for larger classes, but lose the interactive back-and-forth that makes the format valuable
 
 ---
 

@@ -12,6 +12,7 @@ format:
     css: ../../shared/downloads.css
     theme: none
     minimal: true
+    document-css: false
   docx:
     toc: true
   pdf:
