@@ -15,7 +15,7 @@ Blackboard is intentionally minimal — just authentication, announcements, and 
 - Blackboard Classic/Original Organisation site
 - **6 sidebar items:** The Arrivals Hall, AI in 5, AI Toolkit, My Passport, Contact, About
 - The Arrivals Hall is the hub — contains links to everything else
-- "AI in 5" is renamed Announcements — daily micro-challenges emailed to enrolled staff
+- "AI in 5" is renamed Announcements — weekly micro-challenges emailed to enrolled staff
 - All experiences, toolkit, and quiz open as standalone SPAs in new browser tabs
 - Blackboard URL variable substitution passes user identity: `?uid=@X@user.batch_uid@X@`
 - All HTML uses **inline CSS only** — Blackboard strips `<style>` tags
@@ -73,7 +73,7 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 | Pace | Mechanism |
 |---|---|
 | Self-paced | Work through SPAs from Arrivals Hall links at own speed |
-| AI in 5 | Daily 5-min micro-challenge via Blackboard Announcements (emailed) |
+| AI in 5 | Weekly 5-min micro-challenge via Blackboard Announcements (emailed) |
 | Weekly | One experience per week for 5 weeks (suggested on Arrivals Hall) |
 | Workshop | 2-hour face-to-face, same content, guided by facilitator |
 
