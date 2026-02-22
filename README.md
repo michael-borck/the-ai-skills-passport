@@ -25,7 +25,7 @@ Everyone belongs — teaching academics, researchers, and professional staff all
 | 2 | What Would You Do? | Ethics & Dilemmas | 20-90 min |
 | 3 | Rules of Engagement | Policy & Governance | 30-120 min |
 | 4 | AI-Proof Your Assessments | Assessment Design | 45-75 min |
-| 5 | Working WITH AI | Co-Creation & Integration | 30-60 min |
+| 5 | Working with AI | Co-Creation & Integration | 30-60 min |
 | 6 | Working with Copilot | AI-Assisted Coding | 30-60 min |
 | 7 | Researching with AI | Research & Literature | 30-60 min |
 

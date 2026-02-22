@@ -28,7 +28,7 @@ format:
           <a href="what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
           <a href="rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
           <a href="ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-          <a href="teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working WITH AI</a>
+          <a href="teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
           <a href="working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
           <a href="researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
         </div>

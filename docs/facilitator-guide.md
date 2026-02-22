@@ -89,7 +89,7 @@ Same content as the self-paced SPAs, guided by a facilitator in a 2-hour session
 **Core activity:** Participants stress-test their own assessments
 **Discussion:** Which pathway fits your context?
 
-### 5. Working WITH AI (Co-Creation & Integration)
+### 5. Working with AI (Co-Creation & Integration)
 **Opening hook:** Build a prompt live using RTCF
 **Core activity:** Participants create prompts for their tasks
 **Discussion:** Which techniques will you try first?

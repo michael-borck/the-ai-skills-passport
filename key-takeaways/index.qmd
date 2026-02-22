@@ -26,7 +26,7 @@ format:
           <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
           <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
           <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-          <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working WITH AI</a>
+          <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
           <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
           <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
         </div>
@@ -105,7 +105,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Next time you use AI, don't accept the first response. Reply with "What did you assume?" or "What's the weakest part of this?" and see how the output improves.</p>
     </div>
-    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working with AI →</a>
   </div>
 
   <!-- Takeaway 2: Model the Behaviour You Expect -->
@@ -161,7 +161,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Give AI a vague prompt, then rewrite it with specific context, audience, and purpose. Compare the two outputs. The difference is your thinking.</p>
     </div>
-    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working with AI →</a>
   </div>
 
   <!-- Takeaway 6: Keep a Human in the Loop -->
@@ -189,7 +189,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Open any AI tool right now and ask it one question about something you're working on. Don't overthink the prompt. Just ask. See what happens.</p>
     </div>
-    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working with AI →</a>
   </div>
 
   <!-- Takeaway 8: Start with Your Own Voice -->
@@ -203,7 +203,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Take something you've already written — an email draft, meeting notes, a paragraph from a report. Paste it into AI and ask "Help me tighten this up." Compare the result to what you'd get from a blank prompt.</p>
     </div>
-    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working with AI →</a>
   </div>
 
   <!-- Footer: Want to explore further? -->

@@ -97,7 +97,7 @@ Record all URLs:
 | What Would You Do? | `[EXP2_URL]` | `https://...` |
 | Rules of Engagement | `[EXP3_URL]` | `https://...` |
 | AI-Proof Assessments | `[EXP4_URL]` | `https://...` |
-| Working WITH AI | `[EXP5_URL]` | `https://...` |
+| Working with AI | `[EXP5_URL]` | `https://...` |
 | AI Toolkit | `[TOOLKIT_URL]` | `https://...` |
 | My Passport | `[PASSPORT_URL]` | `https://...` |
 | The AI Exchange | `[EXCHANGE_URL]` | `https://...` (external app) |
