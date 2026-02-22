@@ -25,6 +25,8 @@ QUARTO_DIRS=(
   arrivals-hall
   contact
   about
+  ai-in-5-archive
+  experiences
   experiences/is-this-ai
   experiences/what-would-you-do
   experiences/rules-of-engagement
@@ -55,8 +57,8 @@ find_output() {
   return 1
 }
 
-# Top-level SPAs (onboarding, passport, key-takeaways)
-for name in onboarding passport key-takeaways arrivals-hall contact about; do
+# Top-level SPAs
+for name in onboarding passport key-takeaways arrivals-hall contact about ai-in-5-archive; do
   src="$(find_output "$ROOT/$name")"
   cp "$src" "$DIST/$name.html"
   echo "  Collected $name.html"
@@ -79,9 +81,14 @@ for exp_name in is-this-ai what-would-you-do rules-of-engagement ai-proof-assess
   echo "  Collected experiences/$exp_name.html"
 done
 
+# Experiences index
+cp "$ROOT/experiences/_output/index.html" "$DIST/experiences.html"
+echo "  Collected experiences.html"
+
 # Blackboard HTML (static, no render needed)
-cp "$ROOT"/blackboard/*.html "$DIST/blackboard/"
-echo "  Collected blackboard/*.html"
+cp "$ROOT/blackboard/arrivals-hall.html" "$DIST/blackboard/"
+cp "$ROOT/blackboard/ai-in-5.html" "$DIST/blackboard/"
+echo "  Collected blackboard/arrivals-hall.html, blackboard/ai-in-5.html"
 
 echo ""
 
