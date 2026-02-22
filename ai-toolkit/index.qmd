@@ -1043,6 +1043,28 @@ Now write feedback in my style for:
       `
     },
 
+    // FURTHER READING - Opinion / Discussion
+    {
+      id: 'the-ai-divide',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'The AI Divide',
+      emoji: '⚖️',
+      summary: 'The equity problem in AI and education we can\'t afford to ignore.',
+      downloads: { html: 'downloads/the-ai-divide.html', docx: 'downloads/the-ai-divide.docx', pdf: 'downloads/the-ai-divide.pdf' },
+      content: `
+        <p>An opinion piece exploring the AI divide at two levels: students who can afford frontier AI tools versus those who can't, and institutions with the resources to innovate versus those forced into retrenchment.</p>
+        <p><strong>Key arguments:</strong></p>
+        <ul>
+          <li>AI is an <strong>amplifier</strong> of existing advantage, not an equaliser</li>
+          <li>The institutional divide runs along fault lines of funding, geography, and structural advantage</li>
+          <li>Equitable access to AI tools is an <strong>institutional responsibility</strong>, not a personal expense</li>
+          <li>Assessment frameworks must be robust across resource contexts</li>
+        </ul>
+        <p style="font-size: 13px; color: #64748B;">References: Perkins & Roe (2025); Roe, Furze & Perkins (2025)</p>
+      `
+    },
+
     // FURTHER READING - Search Queries
     {
       id: 'search-google-scholar',
