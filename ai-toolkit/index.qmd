@@ -1831,6 +1831,97 @@ Now write feedback in my style for:
           <strong>See also:</strong> The <a href="#" onclick="event.preventDefault(); document.querySelector('[data-category=template]')?.click(); setTimeout(function(){document.querySelector('input[type=text]').value='rubric'; document.querySelector('input[type=text]').dispatchEvent(new Event('input'));},200);" style="color: #A5B4FC;">AI-Integrated Assessment Rubrics Suite</a> for rubric templates that complement oral exams.
         </div>
       `
+    },
+    {
+      id: 'ai-video-tools',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'AI Video Tools for Teaching',
+      emoji: '🎬',
+      summary: 'Quick-start guide to creating video lessons with AI tools. Adapted from Kharbach (2026).',
+      downloads: {
+        html: 'downloads/ai_video_tools_staff_guide.html',
+        docx: 'downloads/ai_video_tools_staff_guide.docx',
+        pdf: 'downloads/ai_video_tools_staff_guide.pdf'
+      },
+      content: `
+        <p>AI tools now let you create polished video lessons without a camera, studio, or editing skills. This guide covers the practical options and when to use them.</p>
+        <ul>
+          <li><strong>What you can do</strong> - explainer videos, lecture summaries, student-facing walkthroughs</li>
+          <li><strong>Tool comparison</strong> - InVideo AI, Synthesia, HeyGen, Canva, and more</li>
+          <li><strong>Important caveats</strong> - review everything before it reaches students</li>
+        </ul>
+        <p style="font-size: 13px; color: #64748B;">Best for short videos (1-3 minutes). Think of these as a drafting assistant.</p>
+      `
+    },
+    {
+      id: 'boosting-engagement-ai',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Boosting Student Engagement with AI',
+      emoji: '🎯',
+      summary: 'Practical strategies and prompts for using AI to create richer learning experiences.',
+      downloads: {
+        html: 'downloads/boosting-engagement-ai-curtin.html',
+        docx: 'downloads/boosting-engagement-ai-curtin.docx',
+        pdf: 'downloads/boosting-engagement-ai-curtin.pdf'
+      },
+      content: `
+        <p>Strategies for using AI to move beyond efficiency gains toward richer learning experiences. Adapted from Kharbach for the Curtin higher education context.</p>
+        <ul>
+          <li><strong>Connect to student interests</strong> - personalise examples and scenarios</li>
+          <li><strong>Spark curiosity</strong> - use AI to generate provocative questions and what-if scenarios</li>
+          <li><strong>Make abstract concepts tangible</strong> - AI-generated analogies, case studies, and simulations</li>
+          <li><strong>Ready-to-use prompts</strong> - copy and adapt for your teaching context</li>
+        </ul>
+        <p style="font-size: 13px; color: #64748B;">Works for lectures, tutorials, and online asynchronous units.</p>
+      `
+    },
+    {
+      id: 'choosing-ai-tool',
+      category: 'framework',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Choosing the Right AI Tool',
+      emoji: '🔍',
+      summary: 'A repeatable evaluation framework for assessing any AI tool before it enters your teaching.',
+      downloads: {
+        html: 'downloads/choosing-the-right-ai-tool-staff-guide.html',
+        docx: 'downloads/choosing-the-right-ai-tool-staff-guide.docx',
+        pdf: 'downloads/choosing-the-right-ai-tool-staff-guide.pdf'
+      },
+      content: `
+        <p>New AI tools appear constantly. This guide gives you a repeatable process for evaluating any tool before it enters your workflow.</p>
+        <p><strong>The Three-Domain Framework:</strong></p>
+        <ul>
+          <li><strong>Capability</strong> - does it actually do what you need?</li>
+          <li><strong>Safety and Privacy</strong> - where does the data go?</li>
+          <li><strong>Pedagogical Fit</strong> - does it support or undermine learning?</li>
+        </ul>
+        <p style="font-size: 13px; color: #64748B;">Golden rule: try it yourself first. 15 minutes of hands-on testing tells you more than any product page.</p>
+      `
+    },
+    {
+      id: 'using-agentic-ai',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Using Agentic AI: A Practical Guide',
+      emoji: '🤖',
+      summary: 'Hands-on guide to getting started with agentic AI workflows. Companion to the Agentic AI concepts guide.',
+      downloads: {
+        html: 'downloads/using-agentic-ai-practical-guide.html',
+        docx: 'downloads/using-agentic-ai-practical-guide.docx',
+        pdf: 'downloads/using-agentic-ai-practical-guide.pdf'
+      },
+      content: `
+        <p>The hands-on follow-up to the Agentic AI concepts guide. Walks you through practical tasks with ready-to-adapt prompts.</p>
+        <ul>
+          <li><strong>What makes agentic AI different</strong> - multi-step reasoning, tool use, autonomous workflows</li>
+          <li><strong>Practical tasks to try today</strong> - with specific prompts and workflows</li>
+          <li><strong>Platform options</strong> - what's available now and how to get started</li>
+          <li><strong>Human oversight</strong> - keeping control as systems become more capable</li>
+        </ul>
+        <p style="font-size: 13px; color: #64748B;">Companion to "Agentic AI: Understanding Autonomous Systems and Human Oversight"</p>
+      `
     }
   ];
 

@@ -1,0 +1,165 @@
+---
+title: "Choosing the Right AI Tool: An Evaluation Framework"
+---
+
+*Part of the Curtin AI Toolkit | Adapted from Kharbach (2026)*
+
+---
+
+## The Problem
+
+New AI tools appear constantly, and it's hard to know which ones are worth your time, let alone safe and pedagogically sound enough to use with students. This guide gives you a repeatable process for evaluating any AI tool before it enters your teaching.
+
+**The golden rule:** Try it yourself first. Work through a full task the way your students would. Notice where you get stuck, confused, or impressed. That 15 minutes of hands-on testing will tell you more than any product page.
+
+---
+
+## The Three-Domain Framework
+
+Every AI tool evaluation should cover three domains. A tool might score well on one but fail on another, so you need all three to make a confident decision.
+
+| Domain | What It Covers | Core Question |
+|---|---|---|
+| **Usability** | Interface, access, reliability, integration | Can staff and students actually use this smoothly? |
+| **Pedagogy** | Learning alignment, engagement, feedback, differentiation | Does this support meaningful learning? |
+| **Ethics** | Privacy, data handling, bias, accessibility, compliance | Is this safe and fair to use? |
+
+---
+
+## Domain 1: Usability
+
+Usability covers the interface, features, logins, and mechanics that affect how smoothly the tool fits into your workflow and your students' experience.
+
+**Questions to ask:**
+
+| Area | Ask Yourself |
+|---|---|
+| Interface | Is it clean, intuitive, and easy for students to navigate? |
+| Login | Does it require accounts? Is there SSO (Google, Microsoft)? |
+| Distractions | Are there ads, pop-ups, or in-app purchases that disrupt learning? |
+| Devices | Can students access it on what they already have (laptops, tablets, phones)? |
+| Browsers | Does it work across browsers and operating systems? |
+| Accessibility | Does it support screen readers, captions, and keyboard navigation? |
+| Guidance | Are there clear instructions, tutorials, or in-tool help? |
+| Reliability | Does it load quickly and handle classroom-level traffic? |
+| Integration | Does it connect with your LMS (Blackboard, Canvas, etc.)? |
+| Cost | Is there a free version or trial you can test fully before committing? |
+
+**Quick test:** If a colleague with average tech confidence couldn't figure it out in 10 minutes without help, it's probably too complex for broad adoption.
+
+---
+
+## Domain 2: Pedagogy
+
+Pedagogy focuses on whether the AI tool actually supports teaching and learning, not just whether it looks impressive.
+
+**Questions to ask:**
+
+| Area | Ask Yourself |
+|---|---|
+| Curriculum alignment | Does it connect to your learning outcomes? |
+| Deep engagement | Does it help students engage with content meaningfully, or just complete tasks at surface level? |
+| Higher-order thinking | Does it promote critical thinking, creativity, or collaboration, not just rote work? |
+| Feedback | Does it provide immediate, useful feedback to guide learning? |
+| Tracking | Can it record or track student performance for later analysis? |
+| Differentiation | Can you adapt it for diverse learners? |
+| Student agency | Does it let students explore, create, and make choices? |
+| Active learning | Can it be integrated into projects, discussions, and problem-solving? |
+| Teacher interaction | Does it enhance your role rather than replace it? |
+| Scalability | Can you use it consistently without overloading yourself or your students? |
+
+**The key question:** If you removed this tool, would students lose something meaningful, or would they barely notice?
+
+---
+
+## Domain 3: Ethics
+
+A pedagogically sound AI integration cannot stand without ethical grounding. Address potential issues *before* using a tool, not after.
+
+**Questions to ask:**
+
+| Area | Ask Yourself |
+|---|---|
+| Data collection | What data does it collect (names, emails, usage patterns, student work)? |
+| Age/compliance | Does it comply with relevant privacy laws (Australian Privacy Act, GDPR)? |
+| Training data | Does it use student data to train its models? Is there an opt-out? |
+| Security | Is student data encrypted and stored securely? |
+| Third-party sharing | Does it share data with third parties, and for what purpose? |
+| Transparency | Are terms of service and privacy policies clear and readable? |
+| Equity | Is it accessible and equitable for all students, including those with disabilities? |
+| Data deletion | Can student data be anonymised or deleted on request? |
+| Support | Does the company provide clear contacts for privacy concerns? |
+| Bias | Could the tool introduce algorithmic bias that disproportionately impacts certain student groups? |
+
+**At Curtin:** Always check whether the tool has been reviewed or approved through institutional IT and privacy processes. When in doubt, ask before deploying.
+
+---
+
+## Quick-Start Evaluation Process
+
+```
+Step 1: Try it yourself
+         ↓
+Step 2: Run through the three checklists (Usability → Pedagogy → Ethics)
+         ↓
+Step 3: Pilot with a small group (one class, one task)
+         ↓
+Step 4: Collect feedback (quick student survey + your own observations)
+         ↓
+Step 5: Reflect and decide - adopt, adjust, or drop
+```
+
+---
+
+## The Reflection Cycle
+
+After piloting a tool, run through this cycle before scaling up:
+
+1. **Observe** - Watch how students interact with the tool in real time. Look for engagement, confusion, or frustration.
+2. **Check in** - Ask students directly: did this help, enhance, or disrupt your learning?
+3. **Assess value** - Ask students what they would have done differently without the tool. This reveals whether it adds real value.
+4. **Reflect on your experience** - Did it save you time, improve lesson flow, or create extra work?
+5. **Adjust and document** - Refine your approach and record what you learned for next time.
+
+---
+
+## Practical Tips
+
+**Prioritise educator reviews.** Look for reviews and tutorials from other teaching staff. They speak from classroom experience and share practical dos and don'ts that product pages won't.
+
+**Start small.** Run a controlled pilot: try the tool yourself first, then with a small group, before rolling it out to a full cohort.
+
+**Document your observations.** Note what worked, what confused students, and any technical issues. This becomes valuable evidence for your own practice and for sharing with colleagues.
+
+**Iterate before scaling.** Adjust your approach based on feedback and observations before committing to full adoption.
+
+**Use YouTube for quick learning.** Short demo videos from other educators can show you how a tool works in practice faster than reading documentation.
+
+---
+
+## One-Page Decision Template
+
+Use this when evaluating a new tool. Score each domain out of 5 and add notes.
+
+```
+Tool name: ____________________    Date tested: ____________
+
+USABILITY                                          Score: __ /5
+Notes: ________________________________________________
+
+PEDAGOGY                                           Score: __ /5
+Notes: ________________________________________________
+
+ETHICS                                             Score: __ /5
+Notes: ________________________________________________
+
+Overall: __ /15
+
+Decision:  [ ] Adopt   [ ] Pilot further   [ ] Drop
+
+Reasoning: ____________________________________________
+```
+
+---
+
+*Adapted from "Choosing the Right AI Tool for Your Class" by Med Kharbach, PhD (2026), licensed under CC BY-NC-SA 4.0. Curated for Curtin staff by Michael as part of the AI Toolkit.*

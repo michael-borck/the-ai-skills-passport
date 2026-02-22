@@ -1,0 +1,226 @@
+---
+title: "Boosting Student Engagement with AI"
+---
+
+## Practical Strategies and Prompts for University Educators
+
+*Adapted for Curtin University staff by Michael, AI Facilitator, School of Marketing and Management*
+
+---
+
+## Introduction
+
+The ideas in this guide are adapted from *Boosting Student Engagement with AI* by Med Kharbach (educatorstechnology.com), which offers practical strategies for using AI to move beyond efficiency gains toward richer learning experiences. While the original resource targets K–12 educators, the underlying principles (connecting to student interests, sparking curiosity, making abstract concepts tangible) are just as relevant in a university lecture theatre or online unit.
+
+This version reframes those strategies for higher education, with prompts and examples suited to Curtin's teaching context. Whether you're running a 200-seat lecture, a workshop tutorial, or an online asynchronous unit, these ideas can help you experiment with AI as a teaching partner rather than just a productivity tool.
+
+> "AI is becoming a partner in how we think and create. For teachers, this opens the door to reimagining lesson planning, designing activities, and engaging students."
+> - Ethan Mollick, *Co-Intelligence*
+
+---
+
+## 1. Turn Student Interests into AI-Powered Learning Activities
+
+### The Idea
+
+Students engage more deeply when content connects to things they already care about. At university level, this might mean linking theory to industries students want to work in, current events they're following, or professional challenges they'll face after graduation.
+
+### How to Apply It
+
+**Survey your cohort early.** Use a Week 1 poll or discussion board to ask students about their career goals, industries of interest, or current projects. Feed this into AI to generate contextualised activities.
+
+**Ask AI to reframe your content.** Rather than generic examples, request scenarios that reflect your students' professional aspirations.
+
+### Example Prompts
+
+> I teach an introductory marketing unit to a mixed cohort of domestic and international students at an Australian university. Many are interested in careers in digital marketing and e-commerce. Generate three in-class activities that teach market segmentation using examples from social media platforms and online retail that these students would find relevant.
+
+> I'm teaching a first-year business statistics unit. My students are mostly disengaged by textbook examples. Suggest five real-world datasets I could use for tutorial exercises that would appeal to 18–22 year olds, such as streaming platforms, sports analytics, gaming, or social media trends.
+
+> I lecture in supply chain management to a cohort where many students work part-time in retail or hospitality. Create a case study activity that connects inventory management theory to the kind of stock decisions a café manager or retail store supervisor would make.
+
+---
+
+## 2. Gamify Your Teaching
+
+### The Idea
+
+Gamification isn't just for primary school. Well-designed competitive or game-based elements can increase participation in tutorials, boost attendance, and make revision more engaging, particularly in large cohorts where anonymity breeds passivity.
+
+### How to Apply It
+
+**Use AI to generate quiz content** for platforms like Kahoot, Mentimeter, or your LMS quiz tool. Specify the cognitive level (recognition, application, analysis) so the questions aren't trivially easy.
+
+**Design challenge-based activities** where student teams compete to solve problems, with AI helping you create the scenarios and scoring rubrics.
+
+### Example Prompts
+
+> I teach a second-year finance unit at university. Create a set of 12 Mentimeter quiz questions on time value of money concepts. Mix difficulty levels: 4 recall questions, 4 application questions requiring calculation, and 4 analysis questions that present scenarios requiring judgment. Include correct answers and brief explanations.
+
+> Design a "consulting challenge" game for my postgraduate strategic management tutorial. Teams of 4 students receive a brief about a struggling company and must pitch a turnaround strategy in 10 minutes. Generate three realistic company briefs with enough detail for students to work with, plus a peer-assessment rubric for the pitches.
+
+> I run a large first-year IT fundamentals unit. Create an end-of-semester "escape room" style revision activity that covers networking basics, cybersecurity concepts, and database fundamentals. It should work in a 50-minute tutorial with groups of 5. Include 5 puzzles that progress in difficulty, each unlocking the next.
+
+---
+
+## 3. Bring Sessions to Life with Multimedia
+
+### The Idea
+
+A well-chosen 3-minute video clip, podcast excerpt, or infographic can anchor a concept far more effectively than another slide of dot points. AI can help you find, curate, and contextualise multimedia resources quickly.
+
+### How to Apply It
+
+**Be specific about format, length, and level.** University students respond well to professional or industry-produced content such as TED talks, industry podcasts, and data visualisations from reputable sources.
+
+**Pair media with an active task.** A video without a follow-up question is just entertainment. Always attach a discussion prompt, reflection, or analysis task.
+
+### Example Prompts
+
+> I'm teaching a third-year unit on organisational behaviour. Recommend three short video clips (under 8 minutes each) that illustrate different leadership styles in real organisations. For each, suggest a tutorial discussion question that pushes students beyond description into critical analysis.
+
+> I teach environmental science at university. Suggest a podcast episode (under 25 minutes) that explains carbon credit markets in an accessible way. Also suggest three comprehension questions I could set as pre-tutorial preparation.
+
+> I'm looking for compelling data visualisations or infographics to introduce my first-year economics students to income inequality across countries. Suggest sources and describe what each visualisation shows, plus how I might use it as a lecture opener.
+
+---
+
+## 4. Cross-Disciplinary and Real-World Connections
+
+### The Idea
+
+University disciplines can feel siloed. Students studying accounting may not see how it connects to information systems; nursing students may not see the business side of healthcare. AI can help you draw connections across fields and into professional practice.
+
+### How to Apply It
+
+**Ask AI to map your topic to adjacent disciplines** and to industry applications. This is particularly powerful for capstone units or work-integrated learning.
+
+**Use AI to generate "What does this look like in practice?" scenarios** that ground theory in professional reality.
+
+### Example Prompts
+
+> I teach second-year data analytics in a business school. Show me three ways to connect a lesson on regression analysis to real-world applications across different industries, including one from healthcare, one from marketing, and one from sports. For each, provide enough context to use as a 5-minute lecture example.
+
+> I'm teaching a unit on project management to engineering students. Generate a cross-disciplinary case study that requires students to consider financial constraints (accounting), stakeholder communication (management), and technical feasibility (engineering) together. Make it realistic enough for a 2-hour workshop.
+
+> My human resource management students struggle to see why employment law matters. Give me five brief "what would you do?" scenarios drawn from Australian workplaces that force students to apply legal principles to messy, ambiguous situations. Include the relevant area of law for each.
+
+---
+
+## 5. Unexpected Ways to Open a Lecture
+
+### The Idea
+
+The first two minutes of a lecture set the tone. A surprising fact, a provocative question, a brief story, or a counterintuitive claim can shift students from passive seat-warming to active curiosity. AI is excellent at generating these hooks.
+
+### How to Apply It
+
+**Ask for counterintuitive or surprising angles** on your topic. The goal is cognitive disequilibrium, making students think "wait, really?" so they pay attention to find out more.
+
+**Rotate formats.** A mystery question one week, a failed case study the next, a "what's wrong with this?" scenario after that.
+
+### Example Prompts
+
+> I'm about to teach a lecture on consumer behaviour to second-year marketing students. Give me three unexpected, attention-grabbing ways to open the lecture. One should involve a surprising statistic, one a real-world brand failure, and one a quick interactive poll question that reveals students' own biases.
+
+> I teach introductory accounting. Suggest two creative lecture openers for a session on double-entry bookkeeping, a topic students typically find dry. Make them surprising enough that students put their phones down.
+
+> Generate five "myth vs reality" statements I can use to open a lecture on artificial intelligence in business. Each should present a common misconception followed by the nuanced truth. Suitable for postgraduate students with mixed technical backgrounds.
+
+---
+
+## 6. Explain with Analogies and Examples
+
+### The Idea
+
+Abstract concepts become concrete when connected to something students already understand. AI can rapidly generate analogies tailored to your students' world: their age group, their cultural context, their likely experiences.
+
+### How to Apply It
+
+**Specify the concept, the audience, and the domain** you want the analogy drawn from. The more specific you are, the more useful the output.
+
+**Test analogies for accuracy.** AI-generated analogies are creative but sometimes break down under scrutiny. Always check that the analogy holds where it matters and be transparent with students about where it doesn't.
+
+### Example Prompts
+
+> Explain the concept of database normalisation to first-year information systems students using an analogy from everyday life, like organising a kitchen, a wardrobe, or a music playlist. Make sure the analogy covers first, second, and third normal form.
+
+> I teach macroeconomics. Give me three different analogies for explaining how monetary policy affects the economy: one using a car (accelerator/brake), one using a household budget, and one using a sporting team. For each, note where the analogy holds and where it breaks down.
+
+> My postgraduate students struggle with the concept of statistical significance vs practical significance. Create an analogy using a scenario they'd encounter in a workplace, something like evaluating whether a marketing campaign actually made a meaningful difference, not just a detectable one.
+
+---
+
+## 7. Visualise Concepts for Deeper Engagement
+
+### The Idea
+
+AI image generation and diagramming tools can create custom visuals for concepts that are hard to illustrate with stock images or textbook figures. This is especially useful for process flows, systems thinking, and conceptual frameworks.
+
+### How to Apply It
+
+**Use AI to generate diagrams, concept maps, or visual metaphors** that match your specific teaching content. Specify the style: professional/clean for slides, sketch-style for worksheets, detailed for reference materials.
+
+**Have students create and critique AI-generated visuals** as a learning activity. Ask them to prompt AI for a diagram, then evaluate what it got right and wrong.
+
+### Example Prompts
+
+> Create a clear, professional diagram showing Porter's Five Forces applied to the Australian supermarket industry. Label each force with a specific example relevant to this market. This is for a second-year strategic management lecture slide.
+
+> Generate a visual concept map showing the relationships between key theories in organisational behaviour, including Maslow's hierarchy, Herzberg's two-factor theory, and self-determination theory. Show where they overlap and diverge. Keep it clean enough for a lecture slide.
+
+> I want to use AI image generation as a tutorial activity. Design a task where students prompt an AI tool to create a visual representation of "the circular economy" and then critique each other's outputs for accuracy and clarity. Include the activity instructions and a simple assessment rubric.
+
+---
+
+## 8. Spark Curiosity with Daily or Weekly Provocations
+
+### The Idea
+
+A recurring "question of the week" or "provocation," posted on your LMS, projected at the start of a lecture, or embedded in a discussion board, builds a culture of curiosity and gives students low-stakes practice in thinking critically.
+
+### How to Apply It
+
+**Ask AI to generate a series of provocations** aligned with your weekly topics. Specify the cognitive level: do you want students to recall, apply, evaluate, or create?
+
+**Make it asynchronous-friendly.** Post the question before the lecture so students arrive having already thought about it, or use it as a discussion board prompt for online learners.
+
+### Example Prompts
+
+> I teach a 12-week unit on business ethics at university. Generate one thought-provoking discussion question for each week that connects to common weekly topics (e.g., stakeholder theory, corporate social responsibility, whistleblowing, AI ethics). Each question should be open-ended, require students to take and defend a position, and be suitable as a pre-lecture discussion board post.
+
+> I'm running a second-year data science unit. Give me 6 "provocation of the week" questions that challenge students to think about the ethical, social, or practical implications of data science, not just the technical skills. Each should be answerable in a short paragraph and spark genuine debate.
+
+> Create a set of 5 "What would you do?" scenario questions for my final-year capstone unit in information systems. Each scenario should present an ambiguous professional situation where there's no single right answer. The goal is to develop professional judgment. Include a brief teaching note for each explaining what you'd want students to grapple with.
+
+---
+
+## Getting Better Results from AI: Prompting Principles
+
+Regardless of which strategy you use, these principles will improve the quality of AI-generated teaching materials:
+
+**Be specific about context.** Always include your discipline, year level, cohort characteristics, and the teaching format (lecture, tutorial, online, etc.).
+
+**Specify the cognitive level.** Do you want recall, application, analysis, evaluation, or creation? Bloom's taxonomy language helps AI calibrate difficulty.
+
+**State the constraints.** Time available, group size, technology access, assessment alignment: these practical details shape what's actually usable.
+
+**Iterate, don't accept the first draft.** Treat AI output as a starting point. Ask it to revise, go deeper, simplify, or take a different angle. The best results come from conversation, not one-shot prompts.
+
+**Always apply your professional judgment.** You know your students, your discipline, and your context better than any AI. Use it as a thinking partner, not an authority.
+
+---
+
+## Further Reading
+
+- Levy, D. & Perez Albertos, A. - *Teaching Effectively with ChatGPT*
+- Burns, M. - *EdTech Essentials* (2nd ed.)
+- Mollick, E. - *Co-Intelligence: Living and Working with AI*
+- Khan, S. - *Brave New Words: How AI Will Revolutionize Education*
+- Furze, L. - *Practical AI Strategies: Engaging with Generative AI in Education*
+- Kharbach, M. - *Boosting Student Engagement with AI* (educatorstechnology.com)
+- OECD (2025) - *Empowering Learners for the Age of AI: An AI Literacy Framework*
+
+---
+
+*This guide was adapted for Curtin University staff as part of the AI Capability Building initiative. The original ideas are drawn from Med Kharbach's resource and recontextualised for higher education. Feedback and suggestions welcome.*

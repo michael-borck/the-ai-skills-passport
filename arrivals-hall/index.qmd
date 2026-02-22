@@ -118,7 +118,7 @@ format:
     </div>
 
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
-      <a href="https://the-ai-exchange.curtin.edu.au" target="_blank" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+      <a href="https://theaiexchange.serveur.au/" target="_blank" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
         <div style="font-size: 1.3rem; margin-bottom: 6px;">🌐</div>
         <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">AI Exchange</div>
         <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">See what others are trying. Share your own use cases.</div>

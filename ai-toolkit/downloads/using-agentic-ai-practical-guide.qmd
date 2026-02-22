@@ -1,0 +1,219 @@
+---
+title: "Using Agentic AI: A Practical Getting-Started Guide"
+---
+
+*Part of the Curtin AI Toolkit | Companion to "Agentic AI: Understanding Autonomous Systems and Human Oversight"*
+
+---
+
+## How This Guide Fits
+
+The companion guide *Agentic AI: Understanding Autonomous Systems and Human Oversight* covers the concepts: what agentic AI is, why human oversight matters more as systems become more autonomous, and how to govern agentic workflows responsibly.
+
+This guide is the hands-on follow-up. It walks you through practical tasks you can try today, with ready-to-adapt prompts and a clear workflow for getting started. Think of it as moving from "I understand what agentic AI is" to "I've actually used it for something useful."
+
+---
+
+## What Makes Agentic AI Different?
+
+Most AI interactions are single-turn: you prompt, it responds, you prompt again. Agentic AI takes a goal and works through multiple steps autonomously, browsing the web, creating files, running code, connecting to other tools, and hands you the output.
+
+| Standard AI Chat | Agentic AI |
+|---|---|
+| You type each step manually | You describe the goal; the agent plans and executes |
+| Produces text responses | Produces editable files (slides, spreadsheets, reports) |
+| Stays inside the chat window | Can browse the web, access files, interact with apps |
+| One response at a time | Handles multi-step workflows end to end |
+
+**The key shift:** You move from *doing the work step by step* to *defining what good looks like and reviewing the output*. This is the amplification approach from the companion guide, with strong human oversight at the right level.
+
+---
+
+## Where to Access Agentic Features
+
+Several platforms now offer agentic capabilities. These are the most accessible for staff:
+
+**ChatGPT Agent Mode** (OpenAI) - Available on Plus, Pro, and Team plans. Open a chat, click "Tools," and select "Agent mode." The agent can browse the web, create files, run code, and connect to Google Drive or SharePoint. You can watch it work and intervene at any point.
+
+**Claude with Computer Use** (Anthropic) - Claude can create documents, spreadsheets, presentations, and run code directly. Available on claude.ai Pro plans. Particularly strong for file creation and structured outputs.
+
+**Microsoft Copilot in Microsoft 365** - Integrated across Word, PowerPoint, Excel, Outlook, and Teams. Works with your existing Microsoft files and can automate multi-step tasks within the Microsoft ecosystem.
+
+**Google Gemini in Workspace** - Emerging agentic features across Google Docs, Sheets, Slides, and Gmail. Available with Google Workspace for Education licences.
+
+**Note:** Tool availability and features change frequently. Check what your institutional licence includes before committing to a workflow.
+
+---
+
+## Practical Use Cases with Prompts
+
+Each use case below includes a description, a sample prompt you can adapt, and a note on what to review in the output. The prompts are written for a generic agentic AI; adjust the language slightly depending on which platform you use.
+
+---
+
+### 1. Build a Slide Deck from Unit Materials
+
+Upload your unit outline, learning outcomes, or existing notes, and have the agent create a structured presentation.
+
+**Sample prompt:**
+
+> Using the uploaded unit outline for ISYS6020, create a 12-slide PowerPoint for the Week 3 lecture on "AI in Business Decision-Making." Each slide should include a heading, 3–4 key points, and speaker notes. Include a title slide, a learning outcomes slide, and end with a discussion question slide. Keep the design clean and professional.
+
+**What to review:** Accuracy of content against your unit materials, tone and level appropriate for your cohort, logical flow between slides, and any AI-generated claims that need verification.
+
+---
+
+### 2. Compile and Summarise Resources for a Topic
+
+Have the agent search for and curate relevant readings, tools, or media on a specific topic, with summaries and working links.
+
+**Sample prompt:**
+
+> Find 8 recent, credible resources on the ethical implications of generative AI in higher education. For each, provide a 2–3 sentence summary, the source, and a working link. Prioritise peer-reviewed articles, university reports, and established education publications. Compile the results into a document I can share with colleagues.
+
+**What to review:** Whether links actually work, source credibility, recency of publications, and whether summaries accurately represent the source material. Agentic AI can hallucinate citations, so always verify.
+
+---
+
+### 3. Draft a Lesson or Workshop Plan
+
+Provide your learning outcomes and context, and have the agent structure a complete session plan with activities and timing.
+
+**Sample prompt:**
+
+> Create a 2-hour workshop plan for university staff on "Getting Started with AI for Teaching." The audience is mixed, with some who have never used AI tools and others who use them regularly. Include learning outcomes, a timed agenda, 2 hands-on activities, a formative check-in, and a reflective closing activity. Format as a Word document with a clean layout.
+
+**What to review:** Whether activities are realistic for the time allocated, if the difficulty level matches the audience, and whether the learning outcomes are actually addressed by the activities (not just listed).
+
+---
+
+### 4. Clean and Visualise Assessment Data
+
+Upload a spreadsheet of marks or survey results and have the agent clean the data, generate charts, and write a plain-language summary.
+
+**Sample prompt:**
+
+> Using the uploaded CSV of student marks for ISYS6014 Semester 1, clean any formatting issues, calculate averages by assessment component, and generate an Excel file with bar charts showing the distribution of final grades. Add a summary sheet with a 200-word plain-language overview of key patterns, strengths, and areas of concern.
+
+**What to review:** Whether calculations are correct (spot-check a few), whether the summary accurately reflects the data, and whether any student-identifiable information is handled appropriately. Never upload data containing student names or IDs to external AI tools without checking your institution's data governance policies.
+
+---
+
+### 5. Prepare a Professional Development Pack
+
+Upload a few readings or resources and have the agent create a ready-to-deliver PD package with summaries, slides, and discussion prompts.
+
+**Sample prompt:**
+
+> Using the 3 uploaded articles on AI-enhanced assessment design, create a PD pack for a 45-minute staff session. Include: a one-paragraph summary of each article, an 8-slide PowerPoint with key ideas and visuals, 3 discussion prompts for small-group conversation, and a one-page handout summarising practical takeaways. Format all outputs as separate downloadable files.
+
+**What to review:** Whether article summaries are accurate and fair, whether the slides stand alone without the articles, and whether discussion prompts are genuinely open-ended rather than leading.
+
+---
+
+### 6. Research and Compare Tools
+
+Have the agent scan the web for current tools relevant to a specific teaching or admin need, and compile a comparison.
+
+**Sample prompt:**
+
+> Search for the 6 most recommended AI tools for creating interactive video lessons in higher education. For each, provide the tool name, a short description, pricing information, whether it integrates with LMS platforms, and a link. Present the comparison in a table format I can share with my teaching team.
+
+**What to review:** Whether pricing is current (it changes constantly), whether integration claims are accurate for your specific LMS, and whether the tool list is genuinely diverse rather than SEO-driven.
+
+---
+
+### 7. Draft Communications
+
+Have the agent draft emails, announcements, or reports based on context you provide.
+
+**Sample prompt:**
+
+> Draft a 300-word email to School of Marketing and Management staff announcing a new AI Skills Passport initiative. The tone should be encouraging and practical, not corporate. Explain what it is (a self-paced professional development pathway for building AI capability), how to access it (via Blackboard), and what they'll gain from it. Include a clear call to action.
+
+**What to review:** Tone, accuracy of any specific details, and whether it sounds like something you would actually send. Agentic AI tends toward generic corporate language, so edit to match your voice.
+
+---
+
+### 8. Generate Assessment Materials
+
+Have the agent create quiz questions, rubric drafts, or marking guides aligned to your learning outcomes.
+
+**Sample prompt:**
+
+> Based on the uploaded learning outcomes for ISYS6020 Week 5 (AI ethics and governance), create a formative quiz with 10 questions: 5 multiple choice, 3 short answer, and 2 scenario-based questions requiring students to apply ethical frameworks. Include an answer key with brief explanations for each correct answer. Format as a Word document.
+
+**What to review:** Whether questions actually assess the intended learning outcomes (not just recall), whether scenarios are realistic, and whether the answer key is accurate. AI-generated assessment items often default to surface-level recall, so push for higher-order thinking.
+
+---
+
+## The Oversight Workflow
+
+Every agentic task should follow this cycle. This connects directly to the governance principles in the companion guide.
+
+```
+1. DEFINE    →  What's the goal? What does "good" look like?
+                What are the boundaries?
+
+2. PROMPT    →  Give clear, specific instructions with context
+                Upload relevant source materials
+
+3. MONITOR   →  Watch the agent work (most platforms let you observe)
+                Intervene if it goes off track
+
+4. REVIEW    →  Check outputs for accuracy, tone, and completeness
+                Verify any claims, links, or citations
+
+5. REFINE    →  Edit to match your voice and standards
+                The output is a draft, not a finished product
+
+6. REFLECT   →  Did this save time? Was the quality acceptable?
+                What would you change in the prompt next time?
+```
+
+**The governance questions from the companion guide apply here too:** What is this agent allowed to do? What decisions require your approval? Can you see what it did? Who is responsible for the output?
+
+---
+
+## Best Practices
+
+**Write precise prompts.** The more specific your instructions (format, length, audience, tone, structure) the better the output. Vague goals produce vague results.
+
+**Set expectations up front.** Tell the agent what format you need, what level of detail, and what to include or exclude. Think of it like briefing a teaching assistant.
+
+**Monitor actively.** Most agentic platforms let you watch the agent work in real time. Use this. Intervene early if it's heading in the wrong direction rather than waiting for a finished output you need to redo.
+
+**Always review before sharing.** Agentic AI can produce hallucinated citations, factual errors, and content that sounds confident but is wrong. Every output needs your expert review.
+
+**Start with low-stakes tasks.** Try it first on something where errors don't matter much: a draft you'll heavily edit, internal notes, or a brainstorming exercise. Build confidence before using it for anything that goes directly to students or colleagues.
+
+**Limit sensitive access.** Be cautious about connecting agents to accounts containing sensitive data. Use read-only permissions where available. Never upload student-identifiable data to external AI tools without checking institutional policy.
+
+**Treat outputs as first drafts.** The agent gives you a starting point. Your expertise, judgement, and knowledge of your context are what turn it into something worth using.
+
+---
+
+## Known Limitations
+
+| Limitation | What It Means for You |
+|---|---|
+| **Hallucinated content** | Agents can fabricate citations, statistics, and links. Verify everything. |
+| **Web access issues** | Login walls, CAPTCHAs, and paywalled sites can block agents. They may return incomplete results. |
+| **Privacy** | Inputs may be used for model training unless you opt out. Check your platform's data policies. |
+| **No memory across sessions** | The agent won't remember what you asked last week. Include all relevant context each time. |
+| **Formatting inconsistency** | Generated presentations and documents often need layout cleanup. Expect to spend time on polish. |
+| **Prompt injection risks** | When agents browse the web, malicious sites can attempt to manipulate their behaviour. Human review is essential. |
+
+---
+
+## Connecting This to the Bigger Picture
+
+The companion guide makes the case that as AI becomes more autonomous, human judgement at the strategic level becomes *more* important, not less. This practical guide is where that principle meets reality.
+
+When you use agentic AI well, you're practising exactly the skills that matter most: defining clear goals, setting appropriate boundaries, evaluating outputs critically, and knowing when to override. You're not delegating your judgement; you're amplifying your capacity.
+
+Start with one task from this guide. Try it. Review the output critically. Reflect on what worked. That's the cycle, and it's the same whether you're creating a slide deck or governing an enterprise-wide AI workflow.
+
+---
+
+*Adapted in part from "Using Agentic AI in Teaching" by Med Kharbach, PhD (2025), licensed under CC BY-NC-SA 4.0. Developed for Curtin staff by Michael as part of the AI Toolkit.*

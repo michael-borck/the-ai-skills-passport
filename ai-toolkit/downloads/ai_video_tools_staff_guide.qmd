@@ -1,0 +1,114 @@
+---
+title: "AI Video Tools for Teaching: A Quick-Start Guide"
+---
+
+*Part of the Curtin AI Toolkit | Adapted from Kharbach (2026)*
+
+---
+
+## Why AI Video?
+
+AI tools now let you create polished video lessons without a camera, studio, or editing skills. You write a script (or upload existing materials), and the AI handles visuals, voiceover, subtitles, transitions, and music. A lesson that used to take hours to film and edit can be ready in minutes.
+
+**Important caveat:** These tools work best for short videos (1–3 minutes). They can produce factual errors, awkward visuals, and mismatched tone. Every video needs your review before it reaches students. Think of them as a drafting assistant that gives you a strong starting point, and you make it yours.
+
+---
+
+## What You Can Do
+
+| Use Case | How It Works |
+|---|---|
+| **Script to Video** | Paste a lesson script and get a complete video with voiceover, subtitles, music, and visuals |
+| **Avatar Presenter** | A digital presenter reads your script with realistic lip-syncing, great when you don't want to be on camera |
+| **Animated Explainers** | Turn abstract concepts into step-by-step visual walkthroughs with diagrams and motion graphics |
+| **Multilingual Versions** | Generate the same lesson in multiple languages without re-recording |
+| **Convert Existing Materials** | Upload a PowerPoint, PDF, or notes and let the AI transform them into video |
+| **Interactive Video** | Embed quiz questions, polls, or prompts at specific points so students engage as they watch |
+| **Flipped Classroom** | Create lesson videos for students to watch before class, freeing up contact time for discussion and practice |
+| **Student Projects** | Students use the same tools for research presentations, topic explainers, or book reports |
+
+---
+
+## Recommended Tools
+
+### Text-to-Video Platforms
+
+- **InVideo AI** - Type a topic or paste a script and it builds a complete video. 5,000+ templates, 50+ languages. Widely recommended across teacher communities.
+- **Pictory** - Strong for converting written content (articles, notes, blog posts) into video. 3M+ stock clips, automatic subtitles.
+- **Fliki** - ~2,000 AI voices in 80 languages. Intuitive script-based editor, ideal for multilingual content.
+
+### Avatar-Based Creators
+
+- **Synthesia** - The most widely used avatar tool in education. 230+ avatars, 140+ languages, PowerPoint-to-video conversion, LMS integration.
+- **HeyGen** - 700+ avatars with realistic expressions. Supports collaborative editing across multiple staff.
+- **D-ID** - Upload a photo and create a talking version with lip-syncing. Quick and simple for short clips.
+
+### Animated Explainer Makers
+
+- **Animaker** - Cartoon-style animated lessons. 1,800+ AI voices, 200+ languages. Popular for visually playful content.
+- **Steve.AI** - 1,000+ educational templates. Best for short story-driven explainers (60–90 seconds).
+- **Luma AI** - Text or images → animated tutorial-style videos. Good for science, coding, and procedural content.
+
+### Education-Specific Platforms
+
+- **Google Vids** - Uses Gemini AI for scripts and voiceovers. Integrates with Google Classroom. Videos up to 10 minutes. Free for qualifying Google Workspace for Education licences.
+- **Mootion** - Fast (3-minute video in under 2 minutes). Built-in diagram/quiz support and teacher avatars.
+- **FlexClip** - Free AI video maker. Good for lesson explainers and teaching presentations on a budget.
+
+### Editing and Enhancement
+
+- **CapCut** - Free video editing, no watermarks. Good for polishing AI-generated clips or building quick explainers from scratch.
+- **EdPuzzle** - Not a creator, but the go-to tool for adding interactive questions to any video. Turns AI-generated videos into formative assessments.
+- **Canva** - Free for K–12 educators, now includes AI video generation alongside its design tools.
+
+---
+
+## Suggested Workflow
+
+```
+1. Write your script     →  Use ChatGPT or Claude to draft and refine
+2. Generate the video    →  Use InVideo AI, Synthesia, or Google Vids
+3. Review and edit       →  Watch it, fix errors, adjust tone
+4. Add interactivity     →  Use EdPuzzle to embed questions
+5. Publish               →  Upload to your LMS or share directly
+```
+
+---
+
+## Practical Tips
+
+1. **Script first, tool second.** The quality of your input directly shapes the output. Draft your lesson script before opening any tool.
+
+2. **Keep it short.** Aim for 1–3 minutes per video. AI tools lose coherence in longer clips (characters change appearance, scenes repeat, lighting shifts). Break a 15-minute lesson into five short videos.
+
+3. **Always watch before sharing.** AI-generated video can include factual errors, odd visuals, or inappropriate tone. Review everything.
+
+4. **Use avatars strategically.** They work well for instructions, procedures, and step-by-step content. They're less effective for emotional or personal topics where your own presence matters more.
+
+5. **Repurpose what you have.** Don't start from scratch. Upload existing PowerPoints, lecture notes, or PDFs and let the AI convert them.
+
+6. **Combine tools.** No single tool does everything well. A two- or three-tool workflow (script → video → interactivity) covers the full process.
+
+7. **Check institutional policies.** Verify approved tools and data privacy requirements before creating content, especially anything involving student-related data.
+
+8. **Start free.** CapCut, FlexClip, Google Vids, and Canva all have free tiers. Test before committing to a subscription.
+
+9. **Don't overdo it.** AI video supplements your teaching; it doesn't replace you. Students still prefer and benefit from real interaction. Use video for specific purposes and keep yourself at the centre of the learning experience.
+
+---
+
+## Quick Decision Guide
+
+| I want to... | Try this first |
+|---|---|
+| Turn my lecture notes into a video | Pictory or InVideo AI |
+| Have a digital presenter deliver content | Synthesia or HeyGen |
+| Explain an abstract concept visually | Animaker or Steve.AI |
+| Create multilingual versions of a lesson | Fliki or Synthesia |
+| Add quiz questions to an existing video | EdPuzzle |
+| Make a quick free video with no budget | Google Vids, FlexClip, or Canva |
+| Polish or edit AI-generated clips | CapCut |
+
+---
+
+*Adapted from "Using AI to Create Engaging Video Lessons" by Med Kharbach, PhD (2026), licensed under CC BY-NC-SA 4.0. Curated for Curtin staff by Michael as part of the AI Toolkit.*

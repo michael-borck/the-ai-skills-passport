@@ -131,7 +131,7 @@ format:
         <p style="margin: 0 0 14px 0;"><span style="font-weight: 700; color: #F8FAFC;">AI Assistance</span><br>
         Content for the AI Skills Passport was developed with AI assistance (including Claude and other tools) under human editorial oversight. All materials have been reviewed, adapted, and verified for accuracy and relevance to the SoMM context. We believe in modelling the transparent, responsible AI use we encourage in others.</p>
         <p style="margin: 0 0 14px 0;"><span style="font-weight: 700; color: #F8FAFC;">Open Source Tools</span><br>
-        This project uses <a href="https://quarto.org" target="_blank" style="color: #818CF8; text-decoration: none;">Quarto</a> for content authoring and relies on open web standards. The AI Exchange is open source under the MIT licence.</p>
+        This project uses <a href="https://quarto.org" target="_blank" style="color: #818CF8; text-decoration: none;">Quarto</a> for content authoring and relies on open web standards. The <a href="https://theaiexchange.serveur.au/" target="_blank" style="color: #818CF8; text-decoration: none;">AI Exchange</a> is open source under the MIT licence.</p>
         <p style="margin: 0;"><span style="font-weight: 700; color: #F8FAFC;">Early Adopters</span><br>
         Thank you to the colleagues who piloted these experiences, provided feedback, and helped shape the program into something useful.</p>
       </div>
