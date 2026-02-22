@@ -164,6 +164,12 @@ a.sp-nav-item:hover {
   cursor: default;
 }
 
+/* --- In-dropdown separator --- */
+.sp-nav-separator {
+  border-top: 1px solid #2D2D4A;
+  margin: 4px 18px;
+}
+
 /* --- Group separators (last item in experiences & resources groups) --- */
 .sp-nav-group[data-group="experiences"] .sp-nav-dropdown > :last-child {
   border-bottom: 1px solid #2D2D4A;
@@ -293,7 +299,48 @@ a.sp-nav-item:hover {
     border-bottom: none;
   }
 
+  .sp-nav-toplevel {
+    border-bottom: none;
+    padding: 0 14px !important;
+    line-height: 48px;
+    font-size: 0.85rem !important;
+  }
+
   .has-active-child > .sp-nav-heading {
     color: #FBBF24 !important;
   }
+}
+
+/* ======================================================
+   Key Takeaways — Accordion Grid
+   ====================================================== */
+.kt-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+.kt-card { background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; overflow: hidden; }
+.kt-header {
+  display: flex; align-items: center; gap: 12px; width: 100%;
+  padding: 18px 20px; border: none; background: none; cursor: pointer;
+  text-align: left; color: inherit; font: inherit;
+}
+.kt-icon { font-size: 24px; flex-shrink: 0; }
+.kt-title { font-size: 16px; font-weight: 700; color: #F1F5F9; flex: 1; }
+.kt-chevron { font-size: 12px; transition: transform 0.2s; color: #64748B; flex-shrink: 0; }
+.kt-card.is-expanded .kt-chevron { transform: rotate(90deg); }
+.kt-body { display: none; padding: 0 20px 20px; }
+.kt-card.is-expanded .kt-body { display: block; }
+.kt-desc { font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px; }
+.kt-try { background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px; }
+.kt-try-label { font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px; }
+.kt-try-text { font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0; }
+.kt-deeper { font-size: 13px; color: #818CF8; text-decoration: none; }
+.kt-deeper:hover { color: #A5B4FC; }
+
+/* Top-level nav items (mobile) */
+.sp-nav-toplevel {
+  border-bottom: 1px solid #2D2D4A;
+  font-size: 0.9rem !important;
+  padding: 12px 18px !important;
+}
+
+@media (min-width: 769px) {
+  .kt-grid { grid-template-columns: 1fr 1fr; }
 }

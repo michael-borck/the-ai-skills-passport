@@ -19,7 +19,9 @@ mkdir -p "$DIST/blackboard" "$DIST/experiences"
 
 QUARTO_DIRS=(
   onboarding
+  ai-toolkit
   resources
+  more
   passport
   key-takeaways
   arrivals-hall
@@ -58,20 +60,20 @@ find_output() {
 }
 
 # Top-level SPAs
-for name in onboarding passport key-takeaways arrivals-hall contact about ai-in-5-archive; do
+for name in onboarding passport key-takeaways arrivals-hall contact about ai-in-5-archive resources more; do
   src="$(find_output "$ROOT/$name")"
   cp "$src" "$DIST/$name.html"
   echo "  Collected $name.html"
 done
 
-# Resources (SPA + downloads folder — keeps relative links intact)
-cp "$ROOT/resources/_output/index.html" "$DIST/resources.html"
-if [ -d "$ROOT/resources/_output/downloads" ]; then
+# AI Toolkit (SPA + downloads folder — keeps relative links intact)
+cp "$ROOT/ai-toolkit/_output/index.html" "$DIST/ai-toolkit.html"
+if [ -d "$ROOT/ai-toolkit/_output/downloads" ]; then
   mkdir -p "$DIST/downloads"
-  cp "$ROOT/resources/_output/downloads/"* "$DIST/downloads/"
-  echo "  Collected resources.html + downloads/ ($(ls "$DIST/downloads/" | wc -l | tr -d ' ') files)"
+  cp "$ROOT/ai-toolkit/_output/downloads/"* "$DIST/downloads/"
+  echo "  Collected ai-toolkit.html + downloads/ ($(ls "$DIST/downloads/" | wc -l | tr -d ' ') files)"
 else
-  echo "  Collected resources.html"
+  echo "  Collected ai-toolkit.html"
 fi
 
 # Experience SPAs

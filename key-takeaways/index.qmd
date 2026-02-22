@@ -9,7 +9,7 @@ format:
 ```{=html}
 <!-- Key Takeaways — The Big Ideas from the AI Skills Passport -->
 
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1080px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
 
 <!-- Navigation -->
   <nav class="sp-nav" data-page="key-takeaways">
@@ -19,29 +19,30 @@ format:
     <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
     <div class="sp-nav-menu">
       <a href="arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
+      <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
       <div class="sp-nav-group" data-group="experiences">
         <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
         <div class="sp-nav-dropdown">
           <a href="experiences/is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
-          <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
-          <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
-          <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-          <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
-          <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
-          <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+                <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+                <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <div class="sp-nav-separator"></div>
+                <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+                <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="resources">
-        <span class="sp-nav-heading sp-nav-heading--static">Resources</span>
+        <a href="resources.html" class="sp-nav-heading" data-nav="resources">Resources</a>
         <div class="sp-nav-dropdown">
-          <a href="resources.html" class="sp-nav-item" data-nav="resources">AI Toolkit</a>
-          <a href="key-takeaways.html" class="sp-nav-item" data-nav="key-takeaways">Key Takeaways</a>
+          <a href="ai-toolkit.html" class="sp-nav-item" data-nav="ai-toolkit">AI Toolkit</a>
           <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
           <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="more">
-        <span class="sp-nav-heading sp-nav-heading--static">More</span>
+        <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
           <span class="sp-nav-item sp-nav-item--disabled">AI in 5 (Coming Soon)</span>
           <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
@@ -94,120 +95,170 @@ format:
     <p style="font-size: 15px; color: #94A3B8; line-height: 1.7; margin: 0;">Short on time? Overwhelmed by AI? That's fine. If you take nothing else from the AI Skills Passport, take these eight ideas. Each one comes with something you can try in two minutes.</p>
   </div>
 
-  <!-- Takeaway 1: Conversation, Not Delegation -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">💬</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Conversation, Not Delegation</h2>
+  <!-- Accordion Grid -->
+  <div class="kt-grid">
+
+    <!-- 1: Conversation, Not Delegation -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">💬</span>
+        <span class="kt-title">Conversation, Not Delegation</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">Use AI as a thinking partner, not a vending machine. The value is in the back-and-forth — refining your ideas, challenging assumptions, iterating on drafts. The conversation <em>is</em> the work.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Next time you use AI, don't accept the first response. Reply with "What did you assume?" or "What's the weakest part of this?" and see how the output improves.</p>
+        </div>
+        <a href="experiences/teaching-with-ai.html" class="kt-deeper">Go deeper: Working with AI →</a>
+      </div>
     </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">Use AI as a thinking partner, not a vending machine. The value is in the back-and-forth — refining your ideas, challenging assumptions, iterating on drafts. The conversation <em>is</em> the work.</p>
-    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
-      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Next time you use AI, don't accept the first response. Reply with "What did you assume?" or "What's the weakest part of this?" and see how the output improves.</p>
+
+    <!-- 2: Model the Behaviour You Expect -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🪞</span>
+        <span class="kt-title">Model the Behaviour You Expect</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">If you want students and colleagues to use AI thoughtfully, show them what that looks like. Share your process. Be transparent about when and how you used AI. Lead by example, not by policy alone.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Add a one-line note to your next document or email: "I used AI to help draft/check/summarise this." Notice how it changes the conversation.</p>
+        </div>
+        <a href="experiences/what-would-you-do.html" class="kt-deeper">Go deeper: What Would You Do? →</a>
+      </div>
     </div>
-    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working with AI →</a>
+
+    <!-- 3: Help Students Navigate These New Times -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🧭</span>
+        <span class="kt-title">Help Students Navigate These New Times</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">Students need guidance, not prohibition. They're already using AI — the question is whether they're using it well. Meet them where they are and help them develop judgement, not just compliance.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Ask a student how they're using AI right now. Listen without judgement. You'll learn more in two minutes than from any report.</p>
+        </div>
+        <a href="experiences/rules-of-engagement.html" class="kt-deeper">Go deeper: Rules of Engagement →</a>
+      </div>
+    </div>
+
+    <!-- 4: Learning with AI Is Still Learning -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🧠</span>
+        <span class="kt-title">Learning with AI Is Still Learning</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">It's different from how you learned, but the thinking still happens. When a student uses AI to explore, question, and refine their understanding, the conversation is the evidence of learning. The process matters more than the product.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Pick a topic you know well. Ask AI to explain it, then critique the response. Notice how evaluating AI output requires genuine understanding.</p>
+        </div>
+        <a href="experiences/ai-proof-assessments.html" class="kt-deeper">Go deeper: AI-Proof Your Assessments →</a>
+      </div>
+    </div>
+
+    <!-- 5: AI Amplifies Thinking -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🔊</span>
+        <span class="kt-title">AI Amplifies Thinking</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">AI doesn't replace thinking — it amplifies it. Good input produces good output. Lazy input produces polished garbage. The quality of what you bring to the conversation determines the quality of what you get back.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Give AI a vague prompt, then rewrite it with specific context, audience, and purpose. Compare the two outputs. The difference is your thinking.</p>
+        </div>
+        <a href="experiences/teaching-with-ai.html" class="kt-deeper">Go deeper: Working with AI →</a>
+      </div>
+    </div>
+
+    <!-- 6: Keep a Human in the Loop -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🤝</span>
+        <span class="kt-title">Keep a Human in the Loop</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">AI makes mistakes. It hallucinates, oversimplifies, and misses context. Your judgement, domain expertise, and accountability are what make it work. You're not optional — you're essential.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Ask AI a factual question about your field. Fact-check one claim. You'll likely find something that's almost right but subtly wrong — that's why you matter.</p>
+        </div>
+        <a href="experiences/is-this-ai.html" class="kt-deeper">Go deeper: Is This AI? →</a>
+      </div>
+    </div>
+
+    <!-- 7: Done Beats Perfect -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🚀</span>
+        <span class="kt-title">Done Beats Perfect</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">You don't need to master AI before you use it. Try one thing. Get it wrong. Try again. The cost of waiting for certainty is higher than the cost of an imperfect start. Everyone who's confident with AI now started by fumbling through it.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Open any AI tool right now and ask it one question about something you're working on. Don't overthink the prompt. Just ask. See what happens.</p>
+        </div>
+        <a href="experiences/teaching-with-ai.html" class="kt-deeper">Go deeper: Working with AI →</a>
+      </div>
+    </div>
+
+    <!-- 8: Start with Your Own Voice -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">✍️</span>
+        <span class="kt-title">Start with Your Own Voice</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">The best way to get AI output that sounds like you is to start with your own content. Give it your rough notes, your bullet points, your messy first draft. AI is far better at refining your thinking than generating from scratch — and the result sounds like you, not like a machine.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Take something you've already written — an email draft, meeting notes, a paragraph from a report. Paste it into AI and ask "Help me tighten this up." Compare the result to what you'd get from a blank prompt.</p>
+        </div>
+        <a href="experiences/teaching-with-ai.html" class="kt-deeper">Go deeper: Working with AI →</a>
+      </div>
+    </div>
+
   </div>
 
-  <!-- Takeaway 2: Model the Behaviour You Expect -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">🪞</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Model the Behaviour You Expect</h2>
-    </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">If you want students and colleagues to use AI thoughtfully, show them what that looks like. Share your process. Be transparent about when and how you used AI. Lead by example, not by policy alone.</p>
-    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
-      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Add a one-line note to your next document or email: "I used AI to help draft/check/summarise this." Notice how it changes the conversation.</p>
-    </div>
-    <a href="experiences/what-would-you-do.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: What Would You Do? →</a>
-  </div>
-
-  <!-- Takeaway 3: Help Students Navigate These New Times -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">🧭</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Help Students Navigate These New Times</h2>
-    </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">Students need guidance, not prohibition. They're already using AI — the question is whether they're using it well. Meet them where they are and help them develop judgement, not just compliance.</p>
-    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
-      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Ask a student how they're using AI right now. Listen without judgement. You'll learn more in two minutes than from any report.</p>
-    </div>
-    <a href="experiences/rules-of-engagement.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Rules of Engagement →</a>
-  </div>
-
-  <!-- Takeaway 4: Learning with AI Is Still Learning -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">🧠</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Learning with AI Is Still Learning</h2>
-    </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">It's different from how you learned, but the thinking still happens. When a student uses AI to explore, question, and refine their understanding, the conversation is the evidence of learning. The process matters more than the product.</p>
-    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
-      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Pick a topic you know well. Ask AI to explain it, then critique the response. Notice how evaluating AI output requires genuine understanding.</p>
-    </div>
-    <a href="experiences/ai-proof-assessments.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: AI-Proof Your Assessments →</a>
-  </div>
-
-  <!-- Takeaway 5: AI Amplifies Thinking -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">🔊</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">AI Amplifies Thinking</h2>
-    </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">AI doesn't replace thinking — it amplifies it. Good input produces good output. Lazy input produces polished garbage. The quality of what you bring to the conversation determines the quality of what you get back.</p>
-    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
-      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Give AI a vague prompt, then rewrite it with specific context, audience, and purpose. Compare the two outputs. The difference is your thinking.</p>
-    </div>
-    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working with AI →</a>
-  </div>
-
-  <!-- Takeaway 6: Keep a Human in the Loop -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">🤝</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Keep a Human in the Loop</h2>
-    </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">AI makes mistakes. It hallucinates, oversimplifies, and misses context. Your judgement, domain expertise, and accountability are what make it work. You're not optional — you're essential.</p>
-    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
-      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Ask AI a factual question about your field. Fact-check one claim. You'll likely find something that's almost right but subtly wrong — that's why you matter.</p>
-    </div>
-    <a href="experiences/is-this-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Is This AI? →</a>
-  </div>
-
-  <!-- Takeaway 7: Done Beats Perfect -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">🚀</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Done Beats Perfect</h2>
-    </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">You don't need to master AI before you use it. Try one thing. Get it wrong. Try again. The cost of waiting for certainty is higher than the cost of an imperfect start. Everyone who's confident with AI now started by fumbling through it.</p>
-    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
-      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Open any AI tool right now and ask it one question about something you're working on. Don't overthink the prompt. Just ask. See what happens.</p>
-    </div>
-    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working with AI →</a>
-  </div>
-
-  <!-- Takeaway 8: Start with Your Own Voice -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">✍️</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">Start with Your Own Voice</h2>
-    </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 12px 0;">The best way to get AI output that sounds like you is to start with your own content. Give it your rough notes, your bullet points, your messy first draft. AI is far better at refining your thinking than generating from scratch — and the result sounds like you, not like a machine.</p>
-    <div style="background: #0F172A; border-radius: 8px; padding: 14px 16px; margin-bottom: 12px;">
-      <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
-      <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Take something you've already written — an email draft, meeting notes, a paragraph from a report. Paste it into AI and ask "Help me tighten this up." Compare the result to what you'd get from a blank prompt.</p>
-    </div>
-    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working with AI →</a>
-  </div>
+  <!-- Accordion JS -->
+  <script>
+  (function() {
+    var cards = document.querySelectorAll('.kt-card');
+    cards.forEach(function(card) {
+      var btn = card.querySelector('.kt-header');
+      btn.addEventListener('click', function() {
+        var wasOpen = card.classList.contains('is-expanded');
+        cards.forEach(function(c) {
+          c.classList.remove('is-expanded');
+          c.querySelector('.kt-header').setAttribute('aria-expanded', 'false');
+        });
+        if (!wasOpen) {
+          card.classList.add('is-expanded');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+  })();
+  </script>
 
   <!-- Footer: Want to explore further? -->
-  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px; text-align: center;">
+  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 12px; padding: 24px; text-align: center; margin-top: 28px;">
     <h3 style="font-size: 16px; font-weight: 700; color: #F1F5F9; margin: 0 0 8px 0;">Want to explore further?</h3>
     <p style="font-size: 14px; color: #94A3B8; margin: 0 0 16px 0;">These ideas come alive in the full experiences.</p>
     <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">

@@ -3,6 +3,7 @@ project:
   output-dir: _output
   render:
     - index.qmd
+    - downloads/*.qmd
 
 format:
   html:

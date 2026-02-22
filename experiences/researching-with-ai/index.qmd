@@ -12,7 +12,7 @@ format:
 <!-- 30-60 minutes | Research-focused -->
 <!-- Stepped layout: linear forward, free backward -->
 
-<div id="experience-app" data-experience-id="researching-with-ai" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #16162A; color: #E2E8F0; position: relative;">
+<div id="experience-app" data-experience-id="researching-with-ai" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1080px; margin: 0 auto; padding: 20px; background-color: #16162A; color: #E2E8F0; position: relative;">
 
   <!-- Navigation -->
   <nav class="sp-nav" data-page="researching-with-ai">
@@ -22,29 +22,30 @@ format:
     <a href="../arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
     <div class="sp-nav-menu">
       <a href="../arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
+      <a href="../key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
       <div class="sp-nav-group" data-group="experiences">
         <a href="../experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
         <div class="sp-nav-dropdown">
           <a href="is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
-          <a href="what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
-          <a href="rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
-          <a href="ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-          <a href="teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
-          <a href="working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
-          <a href="researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+                <a href="rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+                <a href="teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <div class="sp-nav-separator"></div>
+                <a href="ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+                <a href="working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+                <a href="researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="resources">
-        <span class="sp-nav-heading sp-nav-heading--static">Resources</span>
+        <a href="../resources.html" class="sp-nav-heading" data-nav="resources">Resources</a>
         <div class="sp-nav-dropdown">
-          <a href="../resources.html" class="sp-nav-item" data-nav="resources">AI Toolkit</a>
-          <a href="../key-takeaways.html" class="sp-nav-item" data-nav="key-takeaways">Key Takeaways</a>
+          <a href="../ai-toolkit.html" class="sp-nav-item" data-nav="ai-toolkit">AI Toolkit</a>
           <a href="../passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
           <a href="../onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="more">
-        <span class="sp-nav-heading sp-nav-heading--static">More</span>
+        <a href="../more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
           <span class="sp-nav-item sp-nav-item--disabled">AI in 5 (Coming Soon)</span>
           <a href="../ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
