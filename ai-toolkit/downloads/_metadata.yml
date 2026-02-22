@@ -9,7 +9,7 @@ format:
     embed-resources: true
     toc: true
     toc-depth: 2
-    css: ../../shared/brand.css
+    css: ../../shared/downloads.css
     theme: none
     minimal: true
   docx:
