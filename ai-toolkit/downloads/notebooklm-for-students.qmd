@@ -1,0 +1,208 @@
+---
+title: "NotebookLM: Your Free AI Study Partner"
+---
+
+# Why NotebookLM?
+
+You have access to a lot of AI tools. Some cost money. Some are built into platforms you already use. Some are general purpose, some are specialised. It can be overwhelming.
+
+Here's the short version: if you're looking for one free AI tool that will genuinely help you study, prepare for assessments, and make sense of complex material, start with [NotebookLM](https://notebooklm.google.com/).
+
+NotebookLM is Google's AI research tool, and it works differently from tools like ChatGPT, Claude, or Copilot. Instead of drawing on a massive pool of training data to answer your questions, NotebookLM works only with sources you upload. You give it your readings, lecture notes, transcripts, or research papers, and it has grounded conversations about that specific material. Nothing else.
+
+Why does that matter? Because general-purpose AI tools sometimes generate plausible-sounding information that isn't accurate. They hallucinate. NotebookLM doesn't eliminate this problem entirely, but it reduces it significantly because everything it produces is tethered to sources you've chosen. You can check its claims against the materials you uploaded. That's a meaningful difference.
+
+---
+
+# The Equity Argument
+
+I recommend NotebookLM partly because it's free. Not free-with-limitations-that-make-it-useless, but genuinely capable at no cost.
+
+The AI divide is real. Some students can afford $20–30 per month for frontier AI subscriptions. Others can't. That gap creates unequal access to cognitive tools, and it matters. Google's free tier, which includes both Gemini and NotebookLM, is currently the most generous offering available. You get a solid general-purpose AI (Gemini) and a specialised research tool (NotebookLM) for zero dollars.
+
+If you can afford paid tools, great. Use them. But you don't need them to work effectively with AI. What matters more than which tool you use is *how* you use it.
+
+---
+
+# How NotebookLM Fits Your Toolkit
+
+You'll encounter several AI tools during your studies. Here's how they fit together:
+
+**NotebookLM** is your source-grounded research partner. Use it when you want to work deeply with specific materials: readings, lecture notes, research papers, transcripts. It excels at helping you make sense of content you've already gathered.
+
+**Gemini** (also free via Google) is your general-purpose thinking partner. Good for brainstorming, iterating on ideas, exploring concepts, and drafting. It can output directly to Google Docs, Sheets, and Slides, which convert easily to Microsoft formats. Don't chase answers with it. Use it to help you think.
+
+**Microsoft Copilot** is what Curtin provides institutionally. It's integrated into the Microsoft ecosystem and appropriate for working with course materials and university data, since it sits within Curtin's data governance framework.
+
+**Claude** is also available at Curtin and is strong for nuanced reasoning, longer analytical tasks, and working through complex problems step by step.
+
+The key insight: different tools for different jobs. NotebookLM when you need source-grounded depth. Gemini when you need open-ended exploration. Copilot or Claude when you're working within the Curtin ecosystem or need institutional-grade data handling.
+
+---
+
+# Getting Started
+
+1. Go to [notebooklm.google.com](https://notebooklm.google.com/) and sign in with your Google account
+2. Create a new notebook
+3. Upload your sources: PDFs, Google Docs, slides, websites, or YouTube links
+4. Start asking questions about your material
+
+That's it. No subscription. No setup. No credit card.
+
+One practical note: NotebookLM can't reach behind Blackboard's login wall. You'll need to download your readings and lecture materials as PDFs first, then upload them. This is an extra step, but it takes seconds.
+
+---
+
+# Seven Ways to Use NotebookLM in Your Studies
+
+## 1. Make Sense of Dense Readings
+
+Upload a difficult reading and ask NotebookLM to explain the core argument, identify the key concepts, or break down the structure. This isn't about skipping the reading. It's about having a conversation partner when you're stuck on a dense passage at 11pm and there's nobody to ask.
+
+The important bit: read the material first, or at least attempt it. NotebookLM is most useful when you've already engaged with the content and need help making sense of what confused you. If you upload something you haven't read at all, you'll have no way to evaluate whether the AI's summary is accurate or has missed something important.
+
+Try asking:
+
+- "What is the main argument in this paper?"
+- "I don't understand the section on [topic]. Can you explain it differently?"
+- "How does the author support their central claim?"
+
+## 2. Test Your Own Understanding
+
+NotebookLM can generate quiz questions based on your uploaded materials. This is more useful than it sounds.
+
+Research on metacognition — your ability to monitor your own comprehension — shows that many students overestimate how well they understand material. You read a chapter, the words make sense, and you assume you've got it. Then the exam reveals the gaps. Self-testing after engaging with new content is one of the most effective study strategies available, and NotebookLM automates this process.
+
+Upload your notes or readings, generate a quiz, and be honest with yourself about the results. The questions you get wrong or hesitate on are telling you exactly where to focus your review. That feedback is most valuable immediately after studying, not two weeks later on a graded paper.
+
+## 3. Compare and Synthesise Multiple Sources
+
+One of the hardest skills in academic work is putting sources into conversation with each other. Students often summarise each source individually — "Author A said X, Author B said Y" — without ever analysing how they relate. Do they agree? Disagree? Talk past each other? Address different aspects of the same problem?
+
+Upload several readings on the same topic and ask NotebookLM to identify where the authors align and where they diverge. Because the AI is working only with your uploaded sources, the analysis stays grounded in your actual reading list rather than pulling from generic knowledge.
+
+This is particularly valuable for literature reviews. Use it to map the conversation between your sources, then write the synthesis yourself. The AI shows you the structure; you provide the analysis and judgement.
+
+## 4. Prepare for Discussions and Presentations
+
+Upload your presentation slides, discussion notes, or seminar readings, then ask NotebookLM to generate challenging questions a thoughtful lecturer or engaged classmate might raise. This is rehearsal for the hard questions.
+
+Students who have already wrestled with tough questions carry themselves differently. When the actual moment arrives, you're not scrambling for an answer. You're drawing on preparation that went beyond memorising content and into stress-testing your ideas.
+
+Try: "Based on these sources, what are the three toughest questions someone could ask me about this topic?"
+
+## 5. Get Feedback on Your Writing
+
+Upload your draft alongside the sources you're drawing from. Ask NotebookLM whether your argument accurately represents the source material, whether your evidence actually supports your claims, or where your reasoning has gaps.
+
+This kind of source-checking is tedious to do manually, but it's exactly where many assignments go wrong. The feedback arrives while you still have time to revise, which is when it's most useful.
+
+Important: NotebookLM is checking your work against the sources you uploaded. It's not a substitute for your lecturer's feedback, your own critical thinking, or peer review. It's an additional check, not the final word.
+
+## 6. Process Video and Audio Content
+
+YouTube has become a serious educational resource, but a 45-minute lecture is hard to navigate when you need specific information. Here's the workaround: open the YouTube video, click on the transcript option below the player, copy the text, and paste it into NotebookLM as a source.
+
+Now you can ask questions about the lecture content, identify key arguments, or generate study questions. You can also paste the YouTube URL directly into NotebookLM as a source, which is simpler, though working from the transcript gives you a clearer text to reference.
+
+This works well when you need to process multiple video sources efficiently: comparing ideas across lectures, identifying common themes, or finding specific moments worth rewatching.
+
+## 7. Generate Personalised Study Guides
+
+Generic study guides cover what the textbook thinks is important, not what your specific unit actually emphasised. Your lecturer made choices about which concepts to spend time on, which examples to highlight, which debates to explore. A pre-made study guide doesn't know any of that.
+
+Upload your class notes, lecture slides, and highlighted readings into a notebook. Ask NotebookLM to generate a study guide from that material. The result reflects your course as it was delivered, not as some abstract curriculum imagined it.
+
+The process of gathering your materials and deciding what to upload is itself a form of review. By the time the study guide appears, you've already engaged more actively than if you'd just downloaded someone else's summary.
+
+---
+
+# Audio Overviews: The Underrated Feature
+
+NotebookLM can generate conversational audio summaries of your uploaded content. Two AI voices discuss the key ideas, walk through the material, and highlight important points. It sounds gimmicky. It's actually useful.
+
+You can listen while commuting, exercising, or doing household tasks. Time that would otherwise be dead becomes study time. And there's cognitive value in hearing material presented in a different format after you've already read it. Reading activates one set of processing pathways; listening activates another. The same ideas can land differently when the mode of engagement changes.
+
+You can customise the audio focus: choose Deep Dive, Brief, Critique, or Debate formats, adjust the length, and guide what the AI hosts focus on. Structure your uploads to target specific topics or chapters rather than dumping everything in.
+
+---
+
+# What NotebookLM Won't Do
+
+Be honest about the limitations:
+
+**It won't replace reading.** If you upload material you haven't read, you have no way to evaluate the AI's interpretation. You're trusting blindly, which defeats the purpose.
+
+**It won't think for you.** NotebookLM can surface connections, identify gaps, and generate questions. But the analysis, the judgement, the argument — that's yours. The AI is a thinking partner, not a thinking replacement.
+
+**It can still get things wrong.** Even source-grounded AI can misinterpret, oversimplify, or miss nuance in your materials. Treat its outputs as a starting point for your own thinking, not as the final answer.
+
+**It has source limits.** There are caps on how many sources you can upload and how large they can be. For a single unit's worth of readings, you'll generally be fine. For an entire degree's worth, you'll need to be strategic about what goes into each notebook.
+
+**It doesn't know your assessment criteria.** NotebookLM can help you understand your sources, but it doesn't know what your lecturer is looking for, how the rubric works, or what the marking expectations are. That context lives in your unit outline and your conversations with your teaching team.
+
+---
+
+# Conversation, Not Delegation
+
+This is the principle that underpins everything above.
+
+There are two ways to use any AI tool:
+
+1. **Delegation:** "Do this for me."
+2. **Conversation:** "Think with me."
+
+Delegation develops dependency. You get output, but not understanding. You collect answers without building the capacity to evaluate them.
+
+Conversation makes you capable. You build understanding along with the output. You learn to ask better questions, spot weaknesses in reasoning, and develop judgement about what's good enough and what needs more work.
+
+The goal with NotebookLM — or any AI tool — isn't to get it to do your work. It's to become more capable yourself, with AI as your thinking partner.
+
+When you use NotebookLM, don't just ask "summarise this." Ask questions that push your thinking: "What's the weakest argument in this paper?" "How would Author A respond to the claim in Source B?" "What's missing from this analysis?" Those are conversations. That's where the learning happens.
+
+---
+
+# Academic Integrity
+
+Using AI in your studies is not automatically misconduct. Submitting AI output as if it were entirely your own work is.
+
+The line between the two comes down to transparency, critical engagement, and ownership:
+
+- **Be transparent.** If your unit requires you to declare AI use, do so. Explain what you used and how.
+- **Engage critically.** Don't accept AI output at face value. Question it, refine it, check it against your sources.
+- **Own your work.** You should be able to explain and defend every part of what you submit, without referring to "the AI said..."
+
+Check your unit outline for specific AI use guidelines. Different units may have different expectations. When in doubt, ask your lecturer.
+
+Using NotebookLM to help you understand your readings, test your comprehension, or prepare for discussions is responsible use. Having it write your essay while you watch Netflix is not. The difference is obvious, and so is the impact on your learning.
+
+---
+
+# Getting the Most from NotebookLM
+
+**Organise by purpose, not by unit.** You might create one notebook for an assignment's source materials, another for exam revision, another for a research project. Focused notebooks give better results than dumping everything into one place.
+
+**Be specific with your questions.** "Tell me about this paper" produces generic output. "How does the author's definition of [concept] compare to how it's used in [other source]?" produces useful analysis.
+
+**Iterate.** The first response is a draft, not a deliverable. Push back, ask follow-ups, challenge what the AI produces. The value is in the refinement.
+
+**Use it alongside your own notes.** Upload your lecture notes alongside the formal readings. This lets you ask questions that connect what your lecturer emphasised with what the published sources say.
+
+**Check the citations.** NotebookLM shows you which parts of your uploaded sources it's drawing from. Use those citations to verify the AI's claims. This habit of checking is itself a valuable academic skill.
+
+---
+
+# Start Here
+
+1. Go to [notebooklm.google.com](https://notebooklm.google.com/)
+2. Create a notebook for your current most challenging unit
+3. Upload two or three readings from that unit
+4. Ask one question you genuinely want answered
+5. Evaluate the response against what you know from the sources
+6. Iterate from there
+
+You don't need to master everything at once. Start with one use case, see how it fits your study process, and build from there.
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a practical guide and a baseline for your own exploration, not a definitive reference. If something here challenges your thinking, good. That's the point.*

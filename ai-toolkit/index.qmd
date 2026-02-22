@@ -1923,6 +1923,32 @@ Now write feedback in my style for:
         <p style="font-size: 13px; color: #64748B;">Companion to "Agentic AI: Understanding Autonomous Systems and Human Oversight"</p>
       `
     }
+    ,
+    {
+      id: 'notebooklm-for-students',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'NotebookLM: Your Free AI Study Partner',
+      emoji: '📓',
+      summary: 'A practical guide to NotebookLM for students. Share with your classes.',
+      downloads: {
+        html: 'downloads/notebooklm-for-students.html',
+        docx: 'downloads/notebooklm-for-students.docx',
+        pdf: 'downloads/notebooklm-for-students.pdf'
+      },
+      content: `
+        <p>A student-facing guide to Google's free source-grounded AI tool. Designed to be shared directly with your classes.</p>
+        <p><strong>Covers:</strong></p>
+        <ul>
+          <li><strong>Why NotebookLM</strong> - source-grounded, free, reduces hallucination</li>
+          <li><strong>Seven practical use cases</strong> - dense readings, self-testing, synthesis, discussion prep, writing feedback, video/audio processing, study guides</li>
+          <li><strong>Audio Overviews</strong> - turn readings into listenable summaries</li>
+          <li><strong>Conversation, not delegation</strong> - the principle that makes AI use effective</li>
+          <li><strong>Academic integrity</strong> - clear guidance on responsible use</li>
+        </ul>
+        <p style="font-size: 13px; color: #64748B;">Student-facing resource. Share via your unit site or LMS.</p>
+      `
+    }
   ];
 
   function getDownloadBar(downloads) {
