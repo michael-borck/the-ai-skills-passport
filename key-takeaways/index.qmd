@@ -1,5 +1,5 @@
 ---
-title: "Key Takeaways"
+pagetitle: "Key Takeaways"
 format:
   html:
     self-contained: true
@@ -17,14 +17,24 @@ format:
   <span style="font-size: 1.2rem; color: #94A3B8;">&#9776;</span>
   </div>
   <div style="display: none; position: absolute; right: 0; top: 42px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; min-width: 200px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115334_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">The Arrivals Hall</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_165323_1&content_id=_14121710_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Experiences</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">AI in 5</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115320_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">My Passport</a>
-  <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">AI Toolkit</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_165323_1&content_id=_14121711_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Key Takeaways</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118391_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Contact</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118598_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none;">About</a>
+  <a href="arrivals-hall.html" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">&#9656; The Arrivals Hall</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">EXPERIENCES</div>
+  <a href="experiences/is-this-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Is This AI?</a>
+  <a href="experiences/what-would-you-do.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">What Would You Do?</a>
+  <a href="experiences/rules-of-engagement.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Rules of Engagement</a>
+  <a href="experiences/ai-proof-assessments.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI-Proof Your Assessments</a>
+  <a href="experiences/teaching-with-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Working WITH AI</a>
+  <a href="experiences/working-with-copilot.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Working with Copilot</a>
+  <a href="experiences/researching-with-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Researching with AI</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">RESOURCES</div>
+  <a href="resources.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI Toolkit</a>
+  <a href="key-takeaways.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Key Takeaways</a>
+  <a href="passport.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">My Passport</a>
+  <a href="onboarding.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Find Your Path</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">MORE</div>
+  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI in 5</a>
+  <a href="contact.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Contact</a>
+  <a href="about.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">About</a>
   </div>
   </div>
 
@@ -52,7 +62,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Next time you use AI, don't accept the first response. Reply with "What did you assume?" or "What's the weakest part of this?" and see how the output improves.</p>
     </div>
-    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749312_1/xid-91749312_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
   </div>
 
   <!-- Takeaway 2: Model the Behaviour You Expect -->
@@ -66,7 +76,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Add a one-line note to your next document or email: "I used AI to help draft/check/summarise this." Notice how it changes the conversation.</p>
     </div>
-    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749316_1/xid-91749316_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: What Would You Do? →</a>
+    <a href="experiences/what-would-you-do.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: What Would You Do? →</a>
   </div>
 
   <!-- Takeaway 3: Help Students Navigate These New Times -->
@@ -80,7 +90,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Ask a student how they're using AI right now. Listen without judgement. You'll learn more in two minutes than from any report.</p>
     </div>
-    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749314_1/xid-91749314_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Rules of Engagement →</a>
+    <a href="experiences/rules-of-engagement.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Rules of Engagement →</a>
   </div>
 
   <!-- Takeaway 4: Learning with AI Is Still Learning -->
@@ -94,7 +104,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Pick a topic you know well. Ask AI to explain it, then critique the response. Notice how evaluating AI output requires genuine understanding.</p>
     </div>
-    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749315_1/xid-91749315_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: AI-Proof Your Assessments →</a>
+    <a href="experiences/ai-proof-assessments.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: AI-Proof Your Assessments →</a>
   </div>
 
   <!-- Takeaway 5: AI Amplifies Thinking -->
@@ -108,7 +118,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Give AI a vague prompt, then rewrite it with specific context, audience, and purpose. Compare the two outputs. The difference is your thinking.</p>
     </div>
-    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749312_1/xid-91749312_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
   </div>
 
   <!-- Takeaway 6: Keep a Human in the Loop -->
@@ -122,7 +132,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Ask AI a factual question about your field. Fact-check one claim. You'll likely find something that's almost right but subtly wrong — that's why you matter.</p>
     </div>
-    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749313_1/xid-91749313_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Is This AI? →</a>
+    <a href="experiences/is-this-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Is This AI? →</a>
   </div>
 
   <!-- Takeaway 7: Done Beats Perfect -->
@@ -136,7 +146,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Open any AI tool right now and ask it one question about something you're working on. Don't overthink the prompt. Just ask. See what happens.</p>
     </div>
-    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749312_1/xid-91749312_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
   </div>
 
   <!-- Takeaway 8: Start with Your Own Voice -->
@@ -150,7 +160,7 @@ format:
       <div style="font-family: 'Courier New', monospace; font-size: 11px; color: #6366F1; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Try this (2 min)</div>
       <p style="font-size: 14px; color: #94A3B8; line-height: 1.6; margin: 0;">Take something you've already written — an email draft, meeting notes, a paragraph from a report. Paste it into AI and ask "Help me tighten this up." Compare the result to what you'd get from a blank prompt.</p>
     </div>
-    <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749312_1/xid-91749312_1" target="_blank" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
+    <a href="experiences/teaching-with-ai.html" style="font-size: 13px; color: #818CF8; text-decoration: none;">Go deeper: Working WITH AI →</a>
   </div>
 
   <!-- Footer: Want to explore further? -->
@@ -159,8 +169,8 @@ format:
     <p style="font-size: 14px; color: #94A3B8; margin: 0 0 16px 0;">These ideas come alive in the full experiences.</p>
     <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
       <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_165323_1&content_id=_14121710_1&mode=reset" style="display: inline-block; padding: 10px 20px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700;">Browse Experiences →</a>
-      <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: inline-block; padding: 10px 20px; background: #16162A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">AI Toolkit →</a>
-      <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749322_1/xid-91749322_1" target="_blank" style="display: inline-block; padding: 10px 20px; background: #16162A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">Find Your Path →</a>
+      <a href="resources.html" style="display: inline-block; padding: 10px 20px; background: #16162A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">AI Toolkit →</a>
+      <a href="onboarding.html" style="display: inline-block; padding: 10px 20px; background: #16162A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">Find Your Path →</a>
     </div>
   </div>
 

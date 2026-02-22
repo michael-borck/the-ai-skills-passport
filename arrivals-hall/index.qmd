@@ -1,0 +1,138 @@
+---
+pagetitle: "The Arrivals Hall"
+format:
+  html:
+    self-contained: true
+    toc: false
+---
+
+```{=html}
+<!-- The Arrivals Hall — AI Skills Passport Hub -->
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+
+  <!-- Navigation -->
+  <div style="position: fixed; top: 16px; right: 16px; z-index: 999; text-align: right;">
+  <div onclick="var m=this.nextElementSibling;m.style.display=m.style.display==='block'?'none':'block'" style="display: inline-block; cursor: pointer; padding: 8px 10px; border-radius: 6px; background: #16162A; border: 1px solid #2D2D4A;">
+  <span style="font-size: 1.2rem; color: #94A3B8;">&#9776;</span>
+  </div>
+  <div style="display: none; position: absolute; right: 0; top: 42px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; min-width: 200px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
+  <a href="arrivals-hall.html" style="display: block; padding: 12px 18px; color: #fbbf24; font-weight: bold; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">&#9656; The Arrivals Hall</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">EXPERIENCES</div>
+  <a href="experiences/is-this-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Is This AI?</a>
+  <a href="experiences/what-would-you-do.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">What Would You Do?</a>
+  <a href="experiences/rules-of-engagement.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Rules of Engagement</a>
+  <a href="experiences/ai-proof-assessments.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI-Proof Your Assessments</a>
+  <a href="experiences/teaching-with-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Working WITH AI</a>
+  <a href="experiences/working-with-copilot.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Working with Copilot</a>
+  <a href="experiences/researching-with-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Researching with AI</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">RESOURCES</div>
+  <a href="resources.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI Toolkit</a>
+  <a href="key-takeaways.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Key Takeaways</a>
+  <a href="passport.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">My Passport</a>
+  <a href="onboarding.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Find Your Path</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">MORE</div>
+  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI in 5</a>
+  <a href="contact.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Contact</a>
+  <a href="about.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">About</a>
+  </div>
+  </div>
+
+  <!-- Header -->
+  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 28px; text-align: center; position: relative; overflow: hidden;">
+    <div style="font-size: 48px; margin-bottom: 12px;">🧭</div>
+    <div style="font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">AI Skills Passport</div>
+    <h1 style="font-family: 'Courier New', Consolas, monospace; font-size: 24px; font-weight: bold; color: #F1F5F9; margin: 0 0 8px 0; letter-spacing: 1px;">THE ARRIVALS HALL</h1>
+  </div>
+
+  <!-- Hero -->
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 28px; margin-bottom: 24px;">
+    <div style="font-size: 2rem; font-weight: 800; line-height: 1.2; color: #E2E8F0; margin-bottom: 4px;">Your AI journey.</div>
+    <div style="font-size: 2rem; font-weight: 800; line-height: 1.2; color: #f97316; margin-bottom: 4px;">Start anywhere.</div>
+    <div style="font-size: 2rem; font-weight: 800; line-height: 1.2; color: #fbbf24; margin-bottom: 16px;">Go at your pace.</div>
+    <p style="font-size: 15px; color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Seven standalone experiences to build your AI literacy. No prerequisites, no fixed order. Pick what matters to you and dive in.</p>
+    <a href="onboarding.html" style="display: inline-block; padding: 14px 28px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 1rem; font-weight: bold;">Not sure where to start? Find Your Path &rarr;</a>
+  </div>
+
+  <!-- Explore Cards -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Explore</div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
+      <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_165323_1&content_id=_14121710_1&mode=reset" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">🗺️</div>
+        <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">Experiences</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Seven standalone experiences. Start with what interests you.</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Browse all &rarr;</div>
+      </a>
+      <a href="resources.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">🧰</div>
+        <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">AI Toolkit</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Frameworks, templates &amp; guides. Dip in anytime.</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Open &rarr;</div>
+      </a>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
+      <a href="https://the-ai-exchange.curtin.edu.au" target="_blank" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">🌐</div>
+        <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">AI Exchange</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">See what others are trying. Share your own use cases.</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Visit &rarr;</div>
+      </a>
+      <a href="passport.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">🏅</div>
+        <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">My Passport</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Track your progress &amp; collect badges.</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">View &rarr;</div>
+      </a>
+    </div>
+
+    <a href="key-takeaways.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+      <div style="font-size: 1.3rem; margin-bottom: 6px;">💡</div>
+      <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">Key Takeaways</div>
+      <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">The big ideas, even if you do nothing else. Eight principles worth knowing.</div>
+      <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Read &rarr;</div>
+    </a>
+  </div>
+
+  <!-- AI in 5 Section -->
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+      <span style="font-size: 28px;">⚡</span>
+      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">AI in 5</h2>
+    </div>
+    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 16px 0;">Quick micro-challenges delivered to your inbox. Each one takes about five minutes and gives you something practical to try with AI right away.</p>
+    <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+      <a href="[MS_FORM_URL]" target="_blank" style="display: inline-block; padding: 12px 24px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700;">Subscribe via MS Form &rarr;</a>
+      <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: inline-block; padding: 12px 24px; background: #0F172A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">Browse past challenges &rarr;</a>
+    </div>
+  </div>
+
+  <!-- How Much Time Do You Have? -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">How Much Time Do You Have?</div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
+        <div style="font-size: 1.1rem; font-weight: bold; color: #fbbf24; margin-bottom: 4px;">5 minutes a day</div>
+        <div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">AI in 5 micro-challenges in your inbox every week.</div>
+      </div>
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
+        <div style="font-size: 1.1rem; font-weight: bold; color: #f97316; margin-bottom: 4px;">One a week</div>
+        <div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">Self-directed, structured progress over seven weeks.</div>
+      </div>
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
+        <div style="font-size: 1.1rem; font-weight: bold; color: #818CF8; margin-bottom: 4px;">2-hour session</div>
+        <div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">Same content, guided face-to-face by the AI Facilitator.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer branding -->
+  <div style="text-align: center; padding: 24px 0 8px; color: #475569; font-size: 12px;">
+    AI Skills Passport &middot; SoMM &middot; Curtin University &middot; 2026 Semester 1
+  </div>
+
+</div>
+```

@@ -1,0 +1,11 @@
+project:
+  type: default
+  output-dir: _output
+
+format:
+  html:
+    theme: none
+    minimal: true
+    self-contained: true
+    toc: false
+    css: ../shared/brand.css

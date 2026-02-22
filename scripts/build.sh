@@ -22,6 +22,9 @@ QUARTO_DIRS=(
   resources
   passport
   key-takeaways
+  arrivals-hall
+  contact
+  about
   experiences/is-this-ai
   experiences/what-would-you-do
   experiences/rules-of-engagement
@@ -53,7 +56,7 @@ find_output() {
 }
 
 # Top-level SPAs (onboarding, passport, key-takeaways)
-for name in onboarding passport key-takeaways; do
+for name in onboarding passport key-takeaways arrivals-hall contact about; do
   src="$(find_output "$ROOT/$name")"
   cp "$src" "$DIST/$name.html"
   echo "  Collected $name.html"

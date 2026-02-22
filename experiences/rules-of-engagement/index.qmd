@@ -1,5 +1,5 @@
 ---
-title: "Rules of Engagement"
+pagetitle: "Rules of Engagement"
 format:
   html:
     self-contained: true
@@ -19,14 +19,24 @@ format:
   <span style="font-size: 1.2rem; color: #94A3B8;">&#9776;</span>
   </div>
   <div style="display: none; position: absolute; right: 0; top: 42px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; min-width: 200px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115334_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">The Arrivals Hall</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_165323_1&content_id=_14121710_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Experiences</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">AI in 5</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115320_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">My Passport</a>
-  <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">AI Toolkit</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_165323_1&content_id=_14121711_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Key Takeaways</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118391_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Contact</a>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14118598_1&course_id=_165323_1&mode=reset" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none;">About</a>
+  <a href="../arrivals-hall.html" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">&#9656; The Arrivals Hall</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">EXPERIENCES</div>
+  <a href="is-this-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Is This AI?</a>
+  <a href="what-would-you-do.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">What Would You Do?</a>
+  <a href="rules-of-engagement.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Rules of Engagement</a>
+  <a href="ai-proof-assessments.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI-Proof Your Assessments</a>
+  <a href="teaching-with-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Working WITH AI</a>
+  <a href="working-with-copilot.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Working with Copilot</a>
+  <a href="researching-with-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Researching with AI</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">RESOURCES</div>
+  <a href="../resources.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI Toolkit</a>
+  <a href="../key-takeaways.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Key Takeaways</a>
+  <a href="../passport.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">My Passport</a>
+  <a href="../onboarding.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Find Your Path</a>
+  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">MORE</div>
+  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI in 5</a>
+  <a href="../contact.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Contact</a>
+  <a href="../about.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">About</a>
   </div>
   </div>
 
