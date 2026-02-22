@@ -1,5 +1,5 @@
 ---
-pagetitle: "Contact"
+pagetitle: "AI in 5 Archive"
 format:
   html:
     self-contained: true
@@ -7,12 +7,12 @@ format:
 ---
 
 ```{=html}
-<!-- Contact — AI Skills Passport -->
+<!-- AI in 5 Archive — AI Skills Passport -->
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
 
   <!-- Navigation -->
-  <nav class="sp-nav" data-page="contact">
+  <nav class="sp-nav" data-page="ai-in-5-archive">
     <button class="sp-nav-toggle" aria-label="Menu" aria-expanded="false">
       <span class="sp-nav-icon">&#9776;</span>
     </button>
@@ -83,49 +83,39 @@ format:
 
   <!-- Hero -->
   <div style="padding: 32px 0; position: relative;">
-    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">Got a question?</div>
-    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px; margin-bottom: 6px;">Want a workshop?</div>
-    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #FBBF24; letter-spacing: -0.5px; margin-bottom: 16px;">Let's talk.</div>
-    <p style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin: 0; max-width: 520px;">Michael Borck, AI Facilitator, School of Marketing and Management. Happy to help with anything AI-related.</p>
-    <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
-      <a href="mailto:michael.borck@curtin.edu.au" style="display: inline-block; padding: 14px 28px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 1rem; font-weight: 700;">Email Me</a>
-      <a href="https://outlook.office365.com/owa/calendar/MichaelBorck@curtin.onmicrosoft.com/bookings/" target="_blank" style="display: inline-block; padding: 14px 28px; background: #16162A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 1rem; font-weight: 700; border: 2px solid #2D2D4A;">Book a Time &rarr;</a>
-    </div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">Missed one?</div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px; margin-bottom: 16px;">Catch up here.</div>
+    <p style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin: 0; max-width: 520px;">Every past AI in 5 challenge, collected in one place. Pick any that catch your eye. They're all standalone.</p>
   </div>
 
-  <!-- What Can I Help With -->
+  <!-- Past Challenges -->
   <div style="margin-bottom: 24px;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">What Can I Help With?</div>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">🎓</div>
-        <div style="font-size: 0.95rem; font-weight: 700; color: #F8FAFC;">Face-to-Face Workshop</div>
-        <div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">A 2-hour guided session for your discipline group or team. Same passport content, hands-on format.</div>
-      </div>
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">🎤</div>
-        <div style="font-size: 0.95rem; font-weight: 700; color: #F8FAFC;">Guest Lecture</div>
-        <div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Invite me into your unit or research group for a session tailored to your discipline.</div>
-      </div>
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">💡</div>
-        <div style="font-size: 0.95rem; font-weight: 700; color: #F8FAFC;">One-on-One Chat</div>
-        <div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Talk through how AI fits into your teaching, research, or admin workflow. Book a 30-minute chat.</div>
-      </div>
-      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">🤝</div>
-        <div style="font-size: 0.95rem; font-weight: 700; color: #F8FAFC;">Something Else</div>
-        <div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Got an idea, a question, or feedback on the passport? Drop me an email. Happy to hear from you.</div>
-      </div>
-    </div>
-  </div>
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Past Challenges</div>
 
-  <!-- Upcoming Workshops -->
-  <div style="margin-bottom: 24px;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Upcoming Workshops</div>
-    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 20px;">
-      <div style="font-size: 0.9rem; color: #94A3B8; line-height: 1.5;">No workshops scheduled yet. Check back soon or keep an eye on AI in 5 for announcements.</div>
+    <!-- CHALLENGES START — add new entries below, newest first -->
+
+    <!--
+    TEMPLATE — copy this block for each new challenge:
+
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 20px; margin-bottom: 12px;">
+      <div style="display: flex; align-items: flex-start; gap: 12px;">
+        <div style="font-size: 1.3rem; flex-shrink: 0;">EMOJI</div>
+        <div style="flex: 1;">
+          <div style="font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 6px;">CHALLENGE TYPE &bull; DD MMM YYYY</div>
+          <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC; line-height: 1.5; margin-bottom: 6px;">Challenge title or question here</div>
+          <div style="font-size: 0.9rem; color: #94A3B8; line-height: 1.6;">Additional context or follow-up questions here.</div>
+          <div style="margin-top: 8px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes</div>
+        </div>
+      </div>
     </div>
+    -->
+
+    <!-- Placeholder until first challenge is posted -->
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 24px;">
+      <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.6;">Challenges will appear here as they are sent out. Check back after the first week.</div>
+    </div>
+
+    <!-- CHALLENGES END -->
   </div>
 
   <!-- Footer -->

@@ -12,31 +12,74 @@ format:
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
 
   <!-- Navigation -->
-  <div style="position: fixed; top: 16px; right: 16px; z-index: 999; text-align: right;">
-  <div onclick="var m=this.nextElementSibling;m.style.display=m.style.display==='block'?'none':'block'" style="display: inline-block; cursor: pointer; padding: 8px 10px; border-radius: 6px; background: #16162A; border: 1px solid #2D2D4A;">
-  <span style="font-size: 1.2rem; color: #94A3B8;">&#9776;</span>
-  </div>
-  <div style="display: none; position: absolute; right: 0; top: 42px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; min-width: 200px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
-  <a href="arrivals-hall.html" style="display: block; padding: 12px 18px; color: #CBD5E1; font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">&#9656; The Arrivals Hall</a>
-  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">EXPERIENCES</div>
-  <a href="experiences/is-this-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Is This AI?</a>
-  <a href="experiences/what-would-you-do.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">What Would You Do?</a>
-  <a href="experiences/rules-of-engagement.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Rules of Engagement</a>
-  <a href="experiences/ai-proof-assessments.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI-Proof Your Assessments</a>
-  <a href="experiences/teaching-with-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Working WITH AI</a>
-  <a href="experiences/working-with-copilot.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Working with Copilot</a>
-  <a href="experiences/researching-with-ai.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Researching with AI</a>
-  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">RESOURCES</div>
-  <a href="resources.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI Toolkit</a>
-  <a href="key-takeaways.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Key Takeaways</a>
-  <a href="passport.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">My Passport</a>
-  <a href="onboarding.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none; border-bottom: 1px solid #2D2D4A;">Find Your Path</a>
-  <div style="padding: 8px 18px 4px; font-size: 0.7rem; font-weight: 700; color: #64748B; letter-spacing: 1.5px; text-transform: uppercase;">MORE</div>
-  <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">AI in 5</a>
-  <a href="contact.html" style="display: block; padding: 8px 18px 8px 24px; color: #CBD5E1; font-size: 0.85rem; text-decoration: none;">Contact</a>
-  <a href="about.html" style="display: block; padding: 8px 18px 8px 24px; color: #fbbf24; font-weight: bold; font-size: 0.85rem; text-decoration: none;">&#9656; About</a>
-  </div>
-  </div>
+  <nav class="sp-nav" data-page="about">
+    <button class="sp-nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span class="sp-nav-icon">&#9776;</span>
+    </button>
+    <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
+    <div class="sp-nav-menu">
+      <a href="arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
+      <div class="sp-nav-group" data-group="experiences">
+        <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
+        <div class="sp-nav-dropdown">
+          <a href="experiences/is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
+          <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+          <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+          <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+          <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working WITH AI</a>
+          <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+          <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+        </div>
+      </div>
+      <div class="sp-nav-group" data-group="resources">
+        <span class="sp-nav-heading sp-nav-heading--static">Resources</span>
+        <div class="sp-nav-dropdown">
+          <a href="resources.html" class="sp-nav-item" data-nav="resources">AI Toolkit</a>
+          <a href="key-takeaways.html" class="sp-nav-item" data-nav="key-takeaways">Key Takeaways</a>
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
+        </div>
+      </div>
+      <div class="sp-nav-group" data-group="more">
+        <span class="sp-nav-heading sp-nav-heading--static">More</span>
+        <div class="sp-nav-dropdown">
+          <span class="sp-nav-item sp-nav-item--disabled">AI in 5 (Coming Soon)</span>
+          <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
+          <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
+          <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+  (function() {
+    var toggle = document.querySelector('.sp-nav-toggle');
+    var menu = document.querySelector('.sp-nav-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function() {
+        var open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.sp-nav')) {
+          menu.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+    var nav = document.querySelector('.sp-nav');
+    var page = nav ? nav.getAttribute('data-page') : null;
+    if (page) {
+      var el = nav.querySelector('[data-nav="' + page + '"]');
+      if (el) {
+        el.classList.add('is-active');
+        var group = el.closest('.sp-nav-group');
+        if (group) group.classList.add('has-active-child');
+      }
+    }
+  })();
+  </script>
+
 
   <!-- Hero -->
   <div style="padding: 32px 0; position: relative;">

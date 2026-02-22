@@ -1,0 +1,193 @@
+---
+pagetitle: "Explore the Experiences"
+format:
+  html:
+    self-contained: true
+    toc: false
+---
+
+```{=html}
+<!-- Experiences Index — AI Skills Passport -->
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+
+  <!-- Navigation -->
+  <nav class="sp-nav" data-page="experiences">
+    <button class="sp-nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span class="sp-nav-icon">&#9776;</span>
+    </button>
+    <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
+    <div class="sp-nav-menu">
+      <a href="arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
+      <div class="sp-nav-group" data-group="experiences">
+        <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
+        <div class="sp-nav-dropdown">
+          <a href="experiences/is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
+          <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+          <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+          <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+          <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working WITH AI</a>
+          <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+          <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+        </div>
+      </div>
+      <div class="sp-nav-group" data-group="resources">
+        <span class="sp-nav-heading sp-nav-heading--static">Resources</span>
+        <div class="sp-nav-dropdown">
+          <a href="resources.html" class="sp-nav-item" data-nav="resources">AI Toolkit</a>
+          <a href="key-takeaways.html" class="sp-nav-item" data-nav="key-takeaways">Key Takeaways</a>
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
+        </div>
+      </div>
+      <div class="sp-nav-group" data-group="more">
+        <span class="sp-nav-heading sp-nav-heading--static">More</span>
+        <div class="sp-nav-dropdown">
+          <span class="sp-nav-item sp-nav-item--disabled">AI in 5 (Coming Soon)</span>
+          <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
+          <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
+          <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+  (function() {
+    var toggle = document.querySelector('.sp-nav-toggle');
+    var menu = document.querySelector('.sp-nav-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function() {
+        var open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.sp-nav')) {
+          menu.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+    var nav = document.querySelector('.sp-nav');
+    var page = nav ? nav.getAttribute('data-page') : null;
+    if (page) {
+      var el = nav.querySelector('[data-nav="' + page + '"]');
+      if (el) {
+        el.classList.add('is-active');
+        var group = el.closest('.sp-nav-group');
+        if (group) group.classList.add('has-active-child');
+      }
+    }
+  })();
+  </script>
+
+
+  <!-- Hero -->
+  <div style="padding: 32px 0; position: relative;">
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">Seven experiences.</div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px; margin-bottom: 6px;">No prerequisites.</div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #FBBF24; letter-spacing: -0.5px; margin-bottom: 16px;">Start with what interests you.</div>
+    <p style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin: 0; max-width: 520px;">Each experience is standalone. Pick one that feels relevant, complete it at your own pace, and come back for more when you're ready.</p>
+  </div>
+
+  <!-- Core Experiences -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Core Experiences &mdash; For Everyone</div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+
+      <a href="experiences/is-this-ai.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128269;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Is This AI?</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Learn to spot AI-generated content and understand detection tool limitations.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">15&ndash;60 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+      <a href="experiences/what-would-you-do.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#129300;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">What Would You Do?</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Navigate real-world AI dilemmas and build your personal ethical framework.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">20&ndash;90 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+      <a href="experiences/rules-of-engagement.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128203;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Rules of Engagement</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Create and stress-test AI use policies for your context.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;120 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+      <a href="experiences/teaching-with-ai.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#129309;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Working WITH AI</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Master prompting techniques and build a reusable prompt library.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;60 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- For Your Role -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">For Your Role</div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
+
+      <a href="experiences/ai-proof-assessments.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128737;&#65039;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">AI-Proof Your Assessments</div>
+        <div style="display: inline-block; font-size: 0.7rem; color: #FBBF24; background: #2D2D4A; padding: 2px 8px; border-radius: 4px; margin-top: 6px;">Teaching</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 6px; line-height: 1.5;">Transform your assessments to be resilient in an AI era.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">45&ndash;75 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+      <a href="experiences/working-with-copilot.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128188;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Working with Copilot</div>
+        <div style="display: inline-block; font-size: 0.7rem; color: #FBBF24; background: #2D2D4A; padding: 2px 8px; border-radius: 4px; margin-top: 6px;">Admin</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 6px; line-height: 1.5;">Use Microsoft Copilot effectively in your daily workflows.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;60 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+      <a href="experiences/researching-with-ai.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128300;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Researching with AI</div>
+        <div style="display: inline-block; font-size: 0.7rem; color: #FBBF24; background: #2D2D4A; padding: 2px 8px; border-radius: 4px; margin-top: 6px;">Research</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 6px; line-height: 1.5;">Integrate AI into your research workflow responsibly.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;60 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Not sure where to start? -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Not sure where to start?</div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+
+      <a href="onboarding.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-align: center; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#129517;</div>
+        <div style="font-size: 0.95rem; font-weight: 700; color: #F8FAFC;">Find Your Path</div>
+        <div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">Take the 2-min quiz</div>
+      </a>
+
+      <a href="key-takeaways.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-align: center; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128161;</div>
+        <div style="font-size: 0.95rem; font-weight: 700; color: #F8FAFC;">Key Takeaways</div>
+        <div style="font-size: 0.8rem; color: #64748B; margin-top: 4px;">The big ideas in 5 minutes</div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div style="text-align: center; padding: 24px 0 8px; color: #475569; font-size: 12px;">
+    AI Skills Passport &middot; SoMM &middot; Curtin University &middot; 2026 Semester 1
+  </div>
+
+</div>
+```
