@@ -212,4 +212,17 @@ Aim for a tone that is **clear, direct, and positive**. The goal is not to scare
 
 ---
 
+## Further Reading
+
+- Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. *Journal of University Teaching and Learning Practice, 21*(6). https://doi.org/10.53761/q3azde36
+- Dawson, P., Bearman, M., Dollinger, M., & Boud, D. (2024). Validity matters more than cheating. *Assessment & Evaluation in Higher Education, 49*(7), 1005--1016. https://doi.org/10.1080/02602938.2024.2386662
+- Lodge, J. M., Howard, S., Bearman, M., Dawson, P., & Associates. (2023). *Assessment reform for the age of artificial intelligence.* TEQSA. https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf
+- Chan, C. K. Y. (2023). A comprehensive AI policy education framework for university teaching and learning. *International Journal of Educational Technology in Higher Education, 20*, 38. https://doi.org/10.1186/s41239-023-00408-3
+- Bearman, M., & Ajjawi, R. (2023). Learning to work with the black box: Pedagogy for a world with artificial intelligence. *British Journal of Educational Technology, 54*(5), 1160--1173. https://doi.org/10.1111/bjet.13337
+- UNESCO. (2023). *Guidance for generative AI in education and research.* https://unesdoc.unesco.org/ark:/48223/pf0000386693
+- Mollick, E. R., & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. *arXiv preprint.* https://doi.org/10.48550/arXiv.2306.10052
+
+
+---
+
 *This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

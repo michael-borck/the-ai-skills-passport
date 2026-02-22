@@ -1,0 +1,250 @@
+# Collated References — AI Toolkit Downloads
+
+All references cited across the AI Toolkit download documents, organised alphabetically. Compiled February 2026.
+
+---
+
+## A
+
+- Acemoglu, D., & Restrepo, P. (2019). Automation and new tasks: How technology displaces and reinstates labor. *Journal of Economic Perspectives, 33*(2), 3–30. https://doi.org/10.1257/jep.33.2.3
+
+- Agrawal, A., Gans, J., & Goldfarb, A. (2018). *Prediction machines: The simple economics of artificial intelligence.* Harvard Business Review Press.
+
+- Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom's taxonomy of educational objectives* (Complete ed.). Longman.
+
+- Aoun, J. E. (2017). *Robot-proof: Higher education in the age of artificial intelligence.* MIT Press.
+
+- Autor, D. H. (2015). Why are there still so many jobs? The history and future of workplace automation. *Journal of Economic Perspectives, 29*(3), 3–30. https://doi.org/10.1257/jep.29.3.3
+
+## B
+
+- Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakci, O., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences, 122*(26), e2422633122. https://doi.org/10.1073/pnas.2422633122
+
+- Bearman, M., & Ajjawi, R. (2023). Learning to work with the black box: Pedagogy for a world with artificial intelligence. *British Journal of Educational Technology, 54*(5), 1160–1173. https://doi.org/10.1111/bjet.13337
+
+- Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education, 49*(6), 893–905. https://doi.org/10.1080/02602938.2024.2335321
+
+- Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? In *Proceedings of FAccT '21*, 610–623. ACM. https://doi.org/10.1145/3442188.3445922
+
+- Bloom, B. S. (Ed.). (1956). *Taxonomy of educational objectives: The classification of educational goals. Handbook I: Cognitive domain.* David McKay Company.
+
+- Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. *Educational Researcher, 13*(6), 4–16. https://doi.org/10.3102/0013189X013006004
+
+- Bommasani, R., Hudson, D. A., Adeli, E., ... & Liang, P. (2021). On the opportunities and risks of foundation models. *arXiv preprint arXiv:2108.07258.* https://arxiv.org/abs/2108.07258
+
+- Boud, D., Ajjawi, R., Dawson, P., & Tai, J. (Eds.). (2018). *Developing evaluative judgement in higher education: Assessment for knowing and producing quality work.* Routledge. https://doi.org/10.4324/9781315109251
+
+- Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., ... & Amodei, D. (2020). Language models are few-shot learners. In *Advances in Neural Information Processing Systems, 33*, 1877–1901. https://arxiv.org/abs/2005.14165
+
+- Brynjolfsson, E., Mitchell, T., & Rock, D. (2018). What can machines learn, and what does it mean for occupations and the economy? *AEA Papers and Proceedings, 108*, 43–47. https://doi.org/10.1257/pandp.20181019
+
+- Buehler, M. J., & Schneider, L. U. (2009). Speak up! Oral examinations and political science. *Journal of Political Science Education, 5*(4), 315–331.
+
+- Burns, M. (n.d.). *EdTech Essentials* (2nd ed.).
+
+## C
+
+- Claessens, S., Veitch, P., & Everett, J. A. C. (2026). Negative perceptions of outsourcing to artificial intelligence. *Computers in Human Behavior, 177*, 108894. https://doi.org/10.1016/j.chb.2025.108894
+
+- Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: Why structural assessment changes are needed for a time of GenAI. *Assessment & Evaluation in Higher Education, 50*(7), 1087–1097. https://doi.org/10.1080/02602938.2025.2503964
+
+- Corbin, T., Dawson, P., Nicola-Richmond, K., & Partridge, H. (2025). 'Where's the line? It's an absurd line': Towards a framework for acceptable uses of AI in assessment. *Assessment & Evaluation in Higher Education, 50*(5), 705–717. https://doi.org/10.1080/02602938.2025.2456207
+
+- Chan, C. K. Y. (2023). A comprehensive AI policy education framework for university teaching and learning. *International Journal of Educational Technology in Higher Education, 20*, 38. https://doi.org/10.1186/s41239-023-00408-3
+
+## D
+
+- Dallimore, E. J., Hertenstein, J. H., & Platt, M. B. (2013). Impact of cold-calling on student voluntary participation. *Journal of Management Education, 37*(3), 305–341.
+
+- Dawson, P. (2017). Assessment rubrics: Towards clearer and more replicable design, research and practice. *Assessment & Evaluation in Higher Education, 42*(3), 347–360. https://doi.org/10.1080/02602938.2015.1111294
+
+- Dawson, P., Bearman, M., Dollinger, M., & Boud, D. (2024). Validity matters more than cheating. *Assessment & Evaluation in Higher Education, 49*(7), 1005–1016. https://doi.org/10.1080/02602938.2024.2386662
+
+- Dellermann, D., Ebel, P., Sollner, M., & Leimeister, J. M. (2019). Hybrid intelligence. *Business & Information Systems Engineering, 61*(5), 637–643. https://doi.org/10.1007/s12599-019-00595-2
+
+- Deming, D. J. (2017). The growing importance of social skills in the labor market. *The Quarterly Journal of Economics, 132*(4), 1593–1640. https://doi.org/10.1093/qje/qjx022
+
+- Dwivedi, Y. K., Hughes, L., Ismagilova, E., ... & Williams, M. D. (2021). Artificial intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy. *International Journal of Information Management, 57*, Article 101994. https://doi.org/10.1016/j.ijinfomgt.2019.08.002
+
+## E
+
+- European Parliament & Council of the European Union. (2024). *Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act).* Official Journal of the European Union. https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
+
+## F
+
+- Fan, Y., Tang, L., Le, H., Shen, K., Tan, S., Zhao, Y., Shen, Y., Li, X., & Gasevic, D. (2025). Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance. *British Journal of Educational Technology, 56*(2), 489–530. https://doi.org/10.1111/bjet.13544
+
+- Federiakin, D., Molerov, D., Zlatkin-Troitschanskaia, O., & Maur, A. (2024). Prompt engineering as a new 21st century skill. *Frontiers in Education, 9*, 1366434. https://doi.org/10.3389/feduc.2024.1366434
+
+- Furze, L. (n.d.). *Practical AI Strategies: Engaging with Generative AI in Education.*
+
+## G
+
+- Gallegos, I. O., Rossi, R. A., Barrow, J., Tanjim, M. M., Kim, S., Dernoncourt, F., ... & Ahmed, N. K. (2024). Bias and fairness in large language models: A survey. *Computational Linguistics, 50*(3), 1097–1179. https://doi.org/10.1162/coli_a_00524
+
+- Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the future of critical thinking. *Societies, 15*(1), Article 6. https://doi.org/10.3390/soc15010006
+
+## H
+
+- Hooper, V. J. (2025). Cognitive offloading and the reshaping of human thought: The subtle influence of artificial intelligence. *Revista de Pensamiento y Cultura (Colloquia), 12*, 1–14. https://doi.org/10.31207/colloquia.v12i1.185
+
+- Hartmann, C. (2025). Oral exams for a generative AI world: Managing concerns and logistics for undergraduate humanities instruction. *College Teaching.* https://doi.org/10.1080/87567555.2025.2558563
+
+- Hazen, H. (2020). Use of oral examinations to assess student learning in the social sciences. *Journal of Geography in Higher Education, 44*(4), 592–607.
+
+- Heaven, W. (2023, April 6). ChatGPT is going to change education, not destroy it. *MIT Technology Review.* https://www.technologyreview.com/2023/04/06/1071059/chatgpt-change-not-destroy-education-openai/
+
+## J
+
+- Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., ... & Fung, P. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys, 55*(12), Article 248. https://doi.org/10.1145/3571730
+
+## K
+
+- Kaplan, A., & Haenlein, M. (2019). Siri, Siri, in my hand: Who's the fairest in the land? On the interpretations, illustrations, and implications of artificial intelligence. *Business Horizons, 62*(1), 15–25. https://doi.org/10.1016/j.bushor.2018.08.004
+
+- Kasneci, E., Sessler, K., Kuchemann, S., Bannert, M., Dementieva, D., Fischer, F., ... & Kasneci, G. (2023). ChatGPT for good? On opportunities and challenges of large language models for education. *Learning and Individual Differences, 103*, Article 102274. https://doi.org/10.1016/j.lindif.2023.102274
+
+- Khan, S. (n.d.). *Brave New Words: How AI Will Revolutionize Education.*
+
+- Kharbach, M. (n.d.). *Boosting Student Engagement with AI.* educatorstechnology.com.
+
+- Kharbach, M. (2026). Oral exams & AI: A practical alternative to take-home writing. *Med Kharbach.* https://medkharbach.com/oral-exams-ai/
+
+- Knoth, N., Tolzin, A., Janson, A., & Leimeister, J. M. (2024). AI literacy and its implications for prompt engineering strategies. *Computers and Education: Artificial Intelligence, 6*, 100225. https://doi.org/10.1016/j.caeai.2024.100225
+
+## L
+
+- Labadze, L., Grigolia, M., & Machaidze, L. (2023). Role of AI chatbots in education: Systematic literature review. *International Journal of Educational Technology in Higher Education, 20*, Article 56. https://doi.org/10.1186/s41239-023-00426-1
+
+- LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. *Nature, 521*(7553), 436–444. https://doi.org/10.1038/nature14539
+
+- Levy, D. & Perez Albertos, A. (n.d.). *Teaching Effectively with ChatGPT.*
+
+- Lodge, J. M., Howard, S., Bearman, M., Dawson, P., & Associates. (2023). *Assessment reform for the age of artificial intelligence.* TEQSA. https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf
+
+## M
+
+- Madsen, D. O., & Puyt, R. W. (2025). When AI turns culture into slop. *AI & Society.* https://doi.org/10.1007/s00146-025-02630-1
+
+- Mollick, E. (n.d.). *Co-Intelligence: Living and Working with AI.*
+
+- Mollick, E. R., & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. *arXiv preprint.* https://doi.org/10.48550/arXiv.2306.10052
+
+- Mollick, E. R., & Mollick, L. (2023). Using AI to implement effective teaching strategies in classrooms: Five strategies, including prompts. *SSRN.* https://doi.org/10.2139/ssrn.4391243
+
+- Mollick, E. R., & Mollick, L. (2024). Instructors as innovators: A future-focused approach to new AI learning opportunities, with prompts. *SSRN.* https://doi.org/10.2139/ssrn.4802463
+
+- Mosqueira-Rey, E., Hernandez-Pereira, E., Alonso-Rios, D., Bobes-Bascaran, J., & Fernandez-Leal, A. (2023). Human-in-the-loop machine learning: A state of the art. *Artificial Intelligence Review, 56*(4), 3005–3054. https://doi.org/10.1007/s10462-022-10246-w
+
+## O
+
+- OECD. (2023). *OECD digital education outlook 2023.* OECD Publishing.
+
+- OECD. (2025). *Empowering Learners for the Age of AI: An AI Literacy Framework.*
+
+## P
+
+- Perkins, M., & Roe, J. (2025). The end of assessment as we know it: GenAI, inequality and the future of knowing. In *AI and the future of education: Disruptions, dilemmas and directions* (pp. 76–80). https://durham-repository.worktribe.com/output/4472558
+
+- Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. *Journal of University Teaching and Learning Practice, 21*(6). https://doi.org/10.53761/q3azde36
+
+## R
+
+- Ranganathan, A., & Ye, X. M. (2026, February 9). AI doesn't reduce work — it intensifies it. *Harvard Business Review.*
+
+- Reich, J., & Ruiperez-Valiente, J. A. (2019). The MOOC pivot. *Science, 363*(6423), 130–131. https://doi.org/10.1126/science.aav7958
+
+- Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. *Trends in Cognitive Sciences, 20*(9), 676–688. https://doi.org/10.1016/S1364-6613(16)30098-5
+
+- Roe, J., Furze, L., & Perkins, M. (2025). Digital plastic: A metaphorical framework for Critical AI Literacy in the multiliteracies era. *Pedagogies: An International Journal.* Advance online publication. https://doi.org/10.1080/1554480X.2025.2557491
+
+- Rudin, C. (2019). Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. *Nature Machine Intelligence, 1*, 206–215. https://doi.org/10.1038/s42256-019-0048-x
+
+- Russell, S. J., & Norvig, P. (2021). *Artificial intelligence: A modern approach* (4th ed.). Pearson.
+
+- Russell Group. (2023). *Russell Group principles on the use of generative AI tools in education.* https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education
+
+## S
+
+- Sabzalieva, E., & Valentini, A. (2023). *ChatGPT and artificial intelligence in higher education: Quick start guide.* UNESCO IESALC. https://unesdoc.unesco.org/ark:/48223/pf0000385146
+
+- Sahoo, P., Singh, A. K., Saha, S., Jain, V., Mondal, S., & Chadha, A. (2024). A systematic survey of prompt engineering in large language models: Techniques and applications. *arXiv preprint arXiv:2402.07927.* https://arxiv.org/abs/2402.07927
+
+- Shavit, Y., Agarwal, S., Brundage, M., ... & Robinson, D. G. (2023). *Practices for governing agentic AI systems* [White paper]. OpenAI. https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf
+
+- Shneiderman, B. (2022). *Human-centered AI.* Oxford University Press.
+
+- Sparrow, B., Liu, J., & Wegner, D. M. (2011). Google effects on memory: Cognitive consequences of having information at our fingertips. *Science, 333*(6043), 776–778. https://doi.org/10.1126/science.1207745
+
+- Swiecki, Z., Khosravi, H., Chen, G., Martinez-Maldonado, R., Lodge, J. M., Milligan, S., Selwyn, N., & Gasevic, D. (2022). Assessment in the age of artificial intelligence. *Computers and Education: Artificial Intelligence, 3*, Article 100075. https://doi.org/10.1016/j.caeai.2022.100075
+
+## S (continued)
+
+- Shaw, S. D., & Nave, G. (2026). Thinking — fast, slow, and artificial: How AI is reshaping human reasoning and the rise of cognitive surrender [Working paper]. The Wharton School, University of Pennsylvania.
+
+## T
+
+- Tabassi, E. (2023). *Artificial intelligence risk management framework (AI RMF 1.0)* (NIST AI 100-1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.AI.100-1
+
+- TEQSA. (2023). *Assessment reform for the age of artificial intelligence* [Discussion paper]. https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assessment-reform-age-artificial-intelligence
+
+- Theobold, A. S. (2021). Oral exams: A more meaningful assessment of students' understanding. *Journal of Statistics and Data Science Education, 29*(2), 156–159.
+
+## U
+
+- UNESCO. (2023). *Guidance for generative AI in education and research.* https://unesdoc.unesco.org/ark:/48223/pf0000386693
+
+## V
+
+- Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., & Polosukhin, I. (2017). Attention is all you need. In *Advances in Neural Information Processing Systems, 30*, 5998–6008. https://doi.org/10.5555/3295222.3295349
+
+- Villarroel, V., Bloxham, S., Bruna, D., Bruna, C., & Herrera-Seda, C. (2018). Authentic assessment: Creating a blueprint for course design. *Assessment & Evaluation in Higher Education, 43*(5), 840–854. https://doi.org/10.1080/02602938.2017.1412396
+
+## W
+
+- Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., ... & Wen, J.-R. (2024). A survey on large language model based autonomous agents. *Frontiers of Computer Science, 18*(6), Article 186345. https://doi.org/10.1007/s11704-024-40231-1
+
+- Webb, N. L. (2002). *Depth-of-knowledge levels for four content areas.* Wisconsin Center for Education Research.
+
+- Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q. V., & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. In *Advances in Neural Information Processing Systems, 35*, 24824–24837. https://arxiv.org/abs/2201.11903
+
+- Wilson, H. J., & Daugherty, P. R. (2018). Collaborative intelligence: Humans and AI are joining forces. *Harvard Business Review, 96*(4), 114–123.
+
+## X
+
+- Xu, Y., et al. (2024). Re-Reading Improves Reasoning in Large Language Models. *ACL EMNLP.*
+
+## Z
+
+- Zhao, W. X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., ... & Wen, J.-R. (2023). A survey of large language models. *arXiv preprint arXiv:2303.18223.* https://doi.org/10.48550/arXiv.2303.18223
+
+---
+
+## References by Document
+
+| Document | References |
+|---|---|
+| **agentic-ai** | Wang et al. (2024); Shneiderman (2022); Mosqueira-Rey et al. (2023); Shavit et al. (2023); Tabassi (2023); EU AI Act (2024) |
+| **ai-for-professional-staff** | Dwivedi et al. (2021); Wilson & Daugherty (2018); Agrawal et al. (2018) |
+| **ai-landscape** | Zhao et al. (2023); UNESCO (2023); OECD (2023); Dwivedi et al. (2021) |
+| **ai-to-help-you-use-ai** | Mollick & Mollick (2023, SSRN); Mollick & Mollick (2024) |
+| **boosting-engagement-ai-curtin** | Levy & Perez Albertos; Burns; Mollick; Khan; Furze; Kharbach; OECD (2025) |
+| **cognitive-offload** | Risko & Gilbert (2016); Sparrow et al. (2011); Gerlich (2025); Fan et al. (2025); Dellermann et al. (2019); Kasneci et al. (2023); Aoun (2017) |
+| **cognitive-prompting** | Bloom (1956); Anderson & Krathwohl (2001); Webb (2002); Federiakin et al. (2024); Knoth et al. (2024); Mollick & Mollick (2023, SSRN) |
+| **conversation-not-delegation** | Borck, M. — *Conversation, Not Delegation: Mastering Human-AI Development* |
+| **craft-prompting-framework** | (Internal toolkit cross-references only) |
+| **ethics-integrity** | Perkins et al. (2024); Dawson et al. (2024); Lodge et al. (2023); Chan (2023); Bearman & Ajjawi (2023); UNESCO (2023); Mollick & Mollick (2023) |
+| **human-element** | Autor (2015); Acemoglu & Restrepo (2019); Bloom (1984); Deming (2017); Wilson & Daugherty (2018); Agrawal et al. (2018); Reich & Ruiperez-Valiente (2019); Brynjolfsson et al. (2018) |
+| **managing-context** | (Internal toolkit cross-references only) |
+| **oral-exams-guide** | Hartmann (2025); Kharbach (2026); Buehler & Schneider (2009); Hazen (2020); Theobold (2021); Dallimore et al. (2013) |
+| **prompt-chaining** | (Internal toolkit cross-references only) |
+| **re2-prompting** | Xu et al. (2024) |
+| **rubric-adaptation-guide** | Perkins et al. (2024); Villarroel et al. (2018); Swiecki et al. (2022); Mollick & Mollick (2023) |
+| **rubric-getting-started** | Perkins et al. (2024); Dawson (2017); Bearman et al. (2024); Lodge et al. (2023) |
+| **rubric-template** | Dawson (2017); Perkins et al. (2024); Boud et al. (2018) |
+| **seven-techniques** | Wei et al. (2022); Mollick & Mollick (2023, arXiv); Mollick & Mollick (2024); Labadze et al. (2023); Sahoo et al. (2024) |
+| **strategic-prompting-guide** | Wei et al. (2022); Sahoo et al. (2024) |
+| **teaching-strategies-handout** | Heaven (2023); Sabzalieva & Valentini (2023); Russell Group (2023); TEQSA (2023) |
+| **the-ai-divide** | Perkins & Roe (2025); Roe et al. (2025) |
+| **what-are-llms** | Vaswani et al. (2017); Brown et al. (2020); Ji et al. (2023); Gallegos et al. (2024); Bender et al. (2021); Bommasani et al. (2021) |
+| **what-is-ai** | Russell & Norvig (2021); Kaplan & Haenlein (2019); LeCun et al. (2015); Rudin (2019); Bender et al. (2021); Bommasani et al. (2021) |

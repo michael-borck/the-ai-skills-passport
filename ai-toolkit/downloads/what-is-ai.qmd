@@ -401,4 +401,16 @@ AI isn't "set it and forget it." The world changes, and AI needs to adapt.
 
 ---
 
+## Further Reading
+
+- Russell, S. J., & Norvig, P. (2021). *Artificial intelligence: A modern approach* (4th ed.). Pearson.
+- Kaplan, A., & Haenlein, M. (2019). Siri, Siri, in my hand: Who's the fairest in the land? On the interpretations, illustrations, and implications of artificial intelligence. *Business Horizons, 62*(1), 15--25. https://doi.org/10.1016/j.bushor.2018.08.004
+- LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. *Nature, 521*(7553), 436--444. https://doi.org/10.1038/nature14539
+- Rudin, C. (2019). Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. *Nature Machine Intelligence, 1*, 206--215. https://doi.org/10.1038/s42256-019-0048-x
+- Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? In *Proceedings of FAccT '21*, 610--623. ACM. https://doi.org/10.1145/3442188.3445922
+- Bommasani, R., Hudson, D. A., Adeli, E., ... & Liang, P. (2021). On the opportunities and risks of foundation models. *arXiv preprint arXiv:2108.07258.* https://arxiv.org/abs/2108.07258
+
+
+---
+
 *This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

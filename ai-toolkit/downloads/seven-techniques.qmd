@@ -955,4 +955,15 @@ Remember: these aren't just AI tools. They're pedagogical strategies. The AI jus
 
 ---
 
+## Further Reading
+
+- Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q. V., & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. In *Advances in Neural Information Processing Systems, 35*, 24824--24837. https://arxiv.org/abs/2201.11903
+- Mollick, E. R., & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. *arXiv preprint.* https://doi.org/10.48550/arXiv.2306.10052
+- Mollick, E. R., & Mollick, L. (2024). Instructors as innovators: A future-focused approach to new AI learning opportunities, with prompts. *SSRN.* https://doi.org/10.2139/ssrn.4802463
+- Labadze, L., Grigolia, M., & Machaidze, L. (2023). Role of AI chatbots in education: Systematic literature review. *International Journal of Educational Technology in Higher Education, 20*, Article 56. https://doi.org/10.1186/s41239-023-00426-1
+- Sahoo, P., Singh, A. K., Saha, S., Jain, V., Mondal, S., & Chadha, A. (2024). A systematic survey of prompt engineering in large language models: Techniques and applications. *arXiv preprint arXiv:2402.07927.* https://arxiv.org/abs/2402.07927
+
+
+---
+
 *This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*

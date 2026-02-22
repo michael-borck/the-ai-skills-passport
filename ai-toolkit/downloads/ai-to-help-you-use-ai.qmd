@@ -323,4 +323,12 @@ Copy the prompt. Start the conversation. See what happens.
 
 ---
 
+## Further Reading
+
+- Mollick, E. R., & Mollick, L. (2023). Using AI to implement effective teaching strategies in classrooms: Five strategies, including prompts. *SSRN.* https://doi.org/10.2139/ssrn.4391243
+- Mollick, E. R., & Mollick, L. (2024). Instructors as innovators: A future-focused approach to new AI learning opportunities, with prompts. *SSRN.* https://doi.org/10.2139/ssrn.4802463
+
+
+---
+
 *This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

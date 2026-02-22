@@ -209,4 +209,19 @@ If you're reading this, you've already started.
 
 ---
 
+## Further Reading
+
+- Autor, D. H. (2015). Why are there still so many jobs? The history and future of workplace automation. *Journal of Economic Perspectives, 29*(3), 3--30. https://doi.org/10.1257/jep.29.3.3
+- Acemoglu, D., & Restrepo, P. (2019). Automation and new tasks: How technology displaces and reinstates labor. *Journal of Economic Perspectives, 33*(2), 3--30. https://doi.org/10.1257/jep.33.2.3
+- Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. *Educational Researcher, 13*(6), 4--16. https://doi.org/10.3102/0013189X013006004
+- Deming, D. J. (2017). The growing importance of social skills in the labor market. *The Quarterly Journal of Economics, 132*(4), 1593--1640. https://doi.org/10.1093/qje/qjx022
+- Wilson, H. J., & Daugherty, P. R. (2018). Collaborative intelligence: Humans and AI are joining forces. *Harvard Business Review, 96*(4), 114--123.
+- Agrawal, A., Gans, J., & Goldfarb, A. (2018). *Prediction machines: The simple economics of artificial intelligence.* Harvard Business Review Press.
+- Reich, J., & Ruiperez-Valiente, J. A. (2019). The MOOC pivot. *Science, 363*(6423), 130--131. https://doi.org/10.1126/science.aav7958
+- Brynjolfsson, E., Mitchell, T., & Rock, D. (2018). What can machines learn, and what does it mean for occupations and the economy? *AEA Papers and Proceedings, 108*, 43--47. https://doi.org/10.1257/pandp.20181019
+- Ranganathan, A., & Ye, X. M. (2026, February 9). AI doesn't reduce work — it intensifies it. *Harvard Business Review.*
+
+
+---
+
 *This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good. That's the point.*
