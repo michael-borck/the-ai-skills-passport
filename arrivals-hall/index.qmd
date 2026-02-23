@@ -103,7 +103,7 @@ format:
     <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Explore</div>
 
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
-      <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_165323_1&content_id=_14121710_1&mode=reset" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+      <a href="experiences.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
         <div style="font-size: 1.3rem; margin-bottom: 6px;">🗺️</div>
         <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">Experiences</div>
         <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Seven standalone experiences. Start with what interests you.</div>
@@ -149,7 +149,7 @@ format:
     <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 16px 0;">Quick micro-challenges delivered to your inbox. Each one takes about five minutes and gives you something practical to try with AI right away.</p>
     <div style="display: flex; gap: 12px; flex-wrap: wrap;">
       <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" target="_blank" style="display: inline-block; padding: 12px 24px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700;">Subscribe &rarr;</a>
-      <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_14115639_1&course_id=_165323_1&mode=reset" style="display: inline-block; padding: 12px 24px; background: #0F172A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">Browse past challenges &rarr;</a>
+      <a href="ai-in-5-archive.html" style="display: inline-block; padding: 12px 24px; background: #0F172A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">Browse past challenges &rarr;</a>
     </div>
   </div>
 

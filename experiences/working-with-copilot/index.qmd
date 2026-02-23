@@ -458,7 +458,7 @@ format:
               <p style="margin: 4px 0 0 0; color: #94A3B8; font-size: 13px;">Data governance, enterprise vs free tools, and keeping your AI use sustainable.</p>
             </div>
           </div>
-          <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Browse AI Toolkit &#8594;</a>
+          <a href="../ai-toolkit.html" target="_blank" style="display: inline-block; background: #4F46E5; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Browse AI Toolkit &#8594;</a>
         </div>
       </div>
     </div>

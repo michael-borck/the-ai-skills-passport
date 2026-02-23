@@ -731,7 +731,7 @@ Then suggest how I should frame my proposal to address these concerns proactivel
           <p style="margin: 0 0 16px 0; color: #94A3B8; font-size: 14px; line-height: 1.5;">Covers progressive implementation, prompt engineering foundations, and discipline-specific applications.</p>
           <div style="display: flex; gap: 12px; flex-wrap: wrap;">
             <a href="https://michael-borck.github.io/partner-dont-police/" target="_blank" style="display: inline-block; background: #4ADE80; color: #16162A; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px;">Read the Book →</a>
-            <a href="https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749310_1/orgs/The_AI_Skills_Passport/resources.html" target="_blank" style="display: inline-block; background: #16162A; color: #4ADE80; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4ADE80;">Browse AI Toolkit</a>
+            <a href="../ai-toolkit.html" target="_blank" style="display: inline-block; background: #16162A; color: #4ADE80; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #4ADE80;">Browse AI Toolkit</a>
           </div>
         </div>
       </div>
@@ -745,7 +745,7 @@ Then suggest how I should frame my proposal to address these concerns proactivel
       <div id="badge-progress" style="background: #16162A; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
         <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
       </div>
-      <a href="https://lms.curtin.edu.au/ultra/organizations/_165323_1/cl/outline" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Back to AI Skills Passport</a>
+      <a href="../arrivals-hall.html" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Back to AI Skills Passport</a>
     </div>
 
     <div id="completion-trigger" style="background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">

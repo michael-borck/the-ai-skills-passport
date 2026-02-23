@@ -262,7 +262,7 @@ format:
     <h3 style="font-size: 16px; font-weight: 700; color: #F1F5F9; margin: 0 0 8px 0;">Want to explore further?</h3>
     <p style="font-size: 14px; color: #94A3B8; margin: 0 0 16px 0;">These ideas come alive in the full experiences.</p>
     <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
-      <a href="https://lms.curtin.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_165323_1&content_id=_14121710_1&mode=reset" style="display: inline-block; padding: 10px 20px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700;">Browse Experiences →</a>
+      <a href="experiences.html" style="display: inline-block; padding: 10px 20px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700;">Browse Experiences →</a>
       <a href="resources.html" style="display: inline-block; padding: 10px 20px; background: #16162A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">AI Toolkit →</a>
       <a href="onboarding.html" style="display: inline-block; padding: 10px 20px; background: #16162A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">Find Your Path →</a>
     </div>
