@@ -430,7 +430,7 @@ format:
       subtitle: 'Detection & Awareness',
       time: '15-60 min',
       description: 'Learn to identify AI-generated content and understand detection tool limitations.',
-      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749313_1/xid-91749313_1'
+      url: 'experiences/is-this-ai.html'
     },
     'what-would-you-do': {
       emoji: '🤔',
@@ -438,7 +438,7 @@ format:
       subtitle: 'Ethics & Dilemmas',
       time: '20-90 min',
       description: 'Navigate real-world AI dilemmas and build your personal ethical framework.',
-      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749316_1/xid-91749316_1'
+      url: 'experiences/what-would-you-do.html'
     },
     'rules-of-engagement': {
       emoji: '📋',
@@ -446,7 +446,7 @@ format:
       subtitle: 'Policy & Governance',
       time: '30-120 min',
       description: 'Create and stress-test AI use policies for your context.',
-      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749314_1/xid-91749314_1'
+      url: 'experiences/rules-of-engagement.html'
     },
     'ai-proof-assessments': {
       emoji: '🛡️',
@@ -454,7 +454,7 @@ format:
       subtitle: 'Assessment Design',
       time: '45-75 min',
       description: 'Transform your assessments to be resilient in an AI era.',
-      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749315_1/xid-91749315_1'
+      url: 'experiences/ai-proof-assessments.html'
     },
     'teaching-with-ai': {
       emoji: '🤝',
@@ -462,7 +462,7 @@ format:
       subtitle: 'Co-Creation & Integration',
       time: '30-60 min',
       description: 'Master prompting techniques and build a reusable prompt library.',
-      url: 'https://lms.curtin.edu.au/bbcswebdav/pid-14115339-dt-content-rid-91749312_1/xid-91749312_1'
+      url: 'experiences/teaching-with-ai.html'
     }
   };
 
