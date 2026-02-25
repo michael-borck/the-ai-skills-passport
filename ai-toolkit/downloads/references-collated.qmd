@@ -1,6 +1,8 @@
-# Collated References — AI Toolkit Downloads
+---
+title: "Collated References"
+---
 
-All references cited across the AI Toolkit download documents, organised alphabetically. Compiled February 2026.
+This is the combined reference list from all articles in the AI Toolkit collection. If a source caught your eye in one of the guides, you can find the full citation here. The table at the end maps each reference back to the document that cited it.
 
 ---
 
@@ -172,15 +174,13 @@ All references cited across the AI Toolkit download documents, organised alphabe
 
 - Shavit, Y., Agarwal, S., Brundage, M., ... & Robinson, D. G. (2023). *Practices for governing agentic AI systems* [White paper]. OpenAI. https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf
 
+- Shaw, S. D., & Nave, G. (2026). Thinking — fast, slow, and artificial: How AI is reshaping human reasoning and the rise of cognitive surrender [Working paper]. The Wharton School, University of Pennsylvania.
+
 - Shneiderman, B. (2022). *Human-centered AI.* Oxford University Press.
 
 - Sparrow, B., Liu, J., & Wegner, D. M. (2011). Google effects on memory: Cognitive consequences of having information at our fingertips. *Science, 333*(6043), 776–778. https://doi.org/10.1126/science.1207745
 
 - Swiecki, Z., Khosravi, H., Chen, G., Martinez-Maldonado, R., Lodge, J. M., Milligan, S., Selwyn, N., & Gasevic, D. (2022). Assessment in the age of artificial intelligence. *Computers and Education: Artificial Intelligence, 3*, Article 100075. https://doi.org/10.1016/j.caeai.2022.100075
-
-## S (continued)
-
-- Shaw, S. D., & Nave, G. (2026). Thinking — fast, slow, and artificial: How AI is reshaping human reasoning and the rise of cognitive surrender [Working paper]. The Wharton School, University of Pennsylvania.
 
 ## T
 

@@ -1,0 +1,283 @@
+---
+title: "Designing Assessment in an AI-Enabled World"
+---
+
+**A Practical Guide for Lecturers**
+
+This guide is divided into two parts. Part 1 covers assessment design principles and practical approaches for different assessment types. Part 2 provides a rubric framework for assignments where students use AI tools. Both parts are designed to be used independently or together.
+
+---
+
+## Part 1: Assessment Design
+
+Generative AI is now a normal part of how students think, research, and produce work. Rather than designing assessments that attempt to exclude AI or relying on detection tools, effective assessment design acknowledges this reality and adapts accordingly.
+
+This section outlines six principles for designing assessments that maintain academic integrity, develop genuine capability, and prepare students for AI-enabled professional practice.
+
+### 1. Design assessments that assume AI is present
+
+Assessment needs to respond to the digital era and the evolving professional landscape, rather than rely on detection or avoidance strategies. AI tools are already shaping how students approach their work, and assessment design should reflect that reality rather than pretend otherwise.
+
+This does not mean AI must be used in every task. It means that even when AI use is restricted, the restriction should be a deliberate design choice with a clear learning rationale, not a default reaction to uncertainty.
+
+### 2. Use a Two-Lane Approach to clarify AI expectations
+
+A Two-Lane Approach to assessment design creates two distinct pathways:
+
+- One lane where AI use is **restricted or controlled**
+- One lane where AI use is **explicitly permitted, scaffolded, or required**
+
+This approach makes expectations around AI transparent to students, reduces ambiguity about what is and is not acceptable, and supports academic integrity through clarity rather than surveillance.
+
+When students understand the boundaries clearly, the risk of unintentional misconduct drops significantly. Ambiguity, not AI itself, is the primary driver of integrity issues.
+
+### 3. Prioritise authentic and process-focused assessment
+
+Assessment designs that emphasise *how* students work, not just *what* they submit, are naturally more resilient to inappropriate AI use. Effective approaches include:
+
+- Focusing on decision-making, reflection, and justification
+- Aligning tasks with real-world professional practices where AI tools are commonly used
+- Embedding AI into authentic tasks (e.g. simulations, artefact creation, iterative work) rather than relying on final outputs alone
+
+When the assessment values the process and reasoning behind a submission, AI-generated content without genuine engagement becomes visibly inadequate.
+
+### 4. Make AI use explicit, taught, and assessable
+
+Rather than treating AI use as implicit or hidden, effective assessment design specifies how AI may or may not be used, aligns AI use with learning outcomes, and treats AI literacy as something students learn and practice rather than something policed.
+
+The goal is to prepare students for professional contexts where they will need to engage reflectively and responsibly with AI tools. This means teaching students to use AI well, not simply hoping they will figure it out.
+
+### 5. Maintain academic integrity through design, not detection
+
+Academic integrity is best upheld through assessment design choices, clear expectations, and scaffolding, rather than through detection tools. Thoughtful assessment structures make inappropriate AI use less attractive or less relevant.
+
+When a task requires personal reasoning, local context, iterative reflection, or live demonstration, the motivation to use AI inappropriately is significantly reduced. Integrity becomes a natural outcome of good design.
+
+### 6. Align assessment change with sustainability and inclusion
+
+AI-aware assessment design should also consider sustainable assessment practices, inclusive design that supports diverse learners, and reducing unnecessary assessment load while increasing learning value.
+
+Redesigning assessment for an AI-enabled world is an opportunity to address longstanding issues with over-assessment, inaccessible formats, and tasks that test compliance rather than capability.
+
+> **In summary:** Design assessments that work with AI, not against it, by assuming AI presence, making expectations explicit, focusing on authentic and process-based learning, using design to support integrity, and preparing students for AI-enabled professional practice.
+
+---
+
+### Applying the Two-Lane Approach by Assessment Type
+
+The following section maps the Two-Lane Approach to common assessment types, showing how each can be redesigned to work effectively in an AI-enabled environment.
+
+#### Essays and Written Assignments
+
+Traditional take-home essays are highly susceptible to undisclosed AI use. Integrity must be addressed through design clarity and task structure, not policing.
+
+| Restricted-AI Lane | AI-Enabled Lane |
+|---|---|
+| AI use is limited (e.g. no generative drafting) | AI use is explicitly permitted and named |
+| Task focuses on personal reasoning, disciplinary framing, or localised context | Students must declare and critically reflect on how AI contributed |
+| Assessment emphasises argumentation choices, justification, and reflection, not just prose quality | Marks emphasise judgement, synthesis, and evaluation of AI outputs, not generation itself |
+
+This makes expectations explicit, shifts emphasis from text production to thinking, and treats AI literacy as a learning outcome rather than a compliance issue.
+
+#### Exams (In-Person or Online)
+
+Exams still play a role, but should be purposeful, inclusive, and aligned with what humans must demonstrate in an AI-rich world.
+
+| Restricted-AI Lane | AI-Enabled Lane |
+|---|---|
+| Closed-AI or controlled conditions | Open-AI or resource-enabled exam formats |
+| Focus on threshold concepts, disciplinary reasoning, or foundational knowledge | Questions require interpretation, decision-making, or critique, not recall |
+| Used sparingly and deliberately, not as a blanket response to AI anxiety | AI presence is assumed; task value comes from how students respond, not what tools they access |
+
+Integrity is achieved by task design, exams remain meaningful without pretending AI does not exist, and the approach supports sustainable and inclusive assessment practice.
+
+#### Group Work and Projects
+
+Professional practice is collaborative and AI-mediated. Assessment should reflect this reality.
+
+| Restricted-AI Lane | AI-Enabled Lane |
+|---|---|
+| AI use limited during specific phases (e.g. decision justification) | AI explicitly permitted as a collaborative support tool |
+| Emphasis on human collaboration, negotiation, and accountability | Students evaluate where AI added value and where it did not |
+| Individual contribution evidenced through reflection or process artefacts | Assessment focuses on team reasoning, outcomes, and ethical use, not raw output |
+
+This mirrors AI-enabled workplace practice, reduces misconduct risk by making AI use visible, and reinforces process-based assessment principles.
+
+#### Presentations (Live or Recorded)
+
+Oral and multimodal assessments allow students to demonstrate understanding, judgement, and professional communication beyond text generation. These formats are naturally resilient to AI misuse because they require real-time demonstration of thinking.
+
+| Restricted-AI Lane | AI-Enabled Lane |
+|---|---|
+| AI use is restricted during the live component | AI may be used to prepare materials or visual aids |
+| Students must demonstrate understanding through Q&A or follow-up questioning | Students reflect on how AI supported their preparation process |
+| Assessment focuses on reasoning, not rehearsed delivery | Marks reward depth of understanding demonstrated in the live context |
+
+---
+
+### Stress-Testing Your Assessments
+
+Before finalising any assessment, it is worth testing how well it holds up in an AI-enabled environment. A practical approach is to attempt the assessment yourself using AI, then analyse the results.
+
+**Questions to ask:**
+
+1. What skills does this actually assess?
+2. How could a student pass without demonstrating the intended learning?
+3. What would distinguish an excellent submission from a mediocre one?
+4. How should I redesign to better assess critical thinking?
+
+**Three redesign pathways:**
+
+**Process Documentation.** Require students to document their process, submit prompts used, and explain decisions made along the way.
+
+**In-Class Components.** Add viva voce, in-class synthesis, or real-time problem-solving elements that require live demonstration of understanding.
+
+**Personal Application.** Connect tasks to students' own experience, require application to unique scenarios, or ask for lived context that AI cannot fabricate.
+
+---
+
+## Part 2: Rubric Design for AI-Integrated Assessments
+
+When students are permitted or required to use AI tools, traditional rubrics often fail to capture what matters. A rubric that rewards polished output without examining the thinking behind it will not distinguish between a student who engaged deeply with AI and one who simply accepted its first response.
+
+This section provides a rubric framework designed for assignments where AI use is part of the task. It begins with the five criteria that underpin the framework, then shows how those criteria can be expressed in four common rubric formats. Pick the format that suits your assessment context, LMS, and marking approach.
+
+### The Five Criteria
+
+The framework uses five criteria, weighted to reflect the priorities of AI-integrated assessment. The weightings below are a starting point and should be adjusted to suit specific learning outcomes and disciplinary expectations.
+
+| Criterion | Suggested Weight | What it captures |
+|---|---|---|
+| Critical Engagement with AI | 30% | The ability to work with AI thoughtfully rather than passively: refining prompts, evaluating outputs, deciding what to use, modify, or reject |
+| Quality of Inquiry | 25% | The quality of the questions the student asks, both of AI and of the problem itself, and how those questions evolve |
+| Reflective Practice and Accountability | 20% | Whether the student can articulate what they did, why, and what they learned, and takes ownership of the final output |
+| Communication | 15% | Clarity, coherence, and professional presentation of the final output, with the student's own voice evident throughout |
+| Disciplinary Integration | 10% | Whether the student applies disciplinary knowledge, frameworks, and conventions rather than relying on AI's generic responses |
+
+---
+
+### Format A: Analytic Rubric
+
+This is the most common format in higher education and the standard export format for Canvas, Blackboard, and most other learning management systems. It uses a grid of criteria (rows) by performance levels (columns), with each cell containing a description. Criteria can be weighted differently.
+
+**When to use:** Summative assessment, assignments with multiple distinct skills to assess, any context where you need granular marks and detailed feedback aligned to specific criteria.
+
+#### 1. Critical Engagement with AI (30%)
+
+| Excellent | Good | Adequate | Insufficient |
+|---|---|---|---|
+| Demonstrates sophisticated, iterative engagement with AI. Prompts are refined based on critical evaluation of outputs. The student challenges, redirects, and builds on AI responses rather than accepting them. Clear evidence of judgement about what to use, modify, or reject. | Engages with AI beyond surface-level use. Some evidence of prompt refinement and critical evaluation, though not consistently applied across the task. | Uses AI tools but with limited critical engagement. Tends to accept outputs with minimal evaluation or refinement. | No meaningful critical engagement. AI outputs appear to be accepted wholesale with no evidence of evaluation or judgement. |
+
+#### 2. Quality of Inquiry (25%)
+
+| Excellent | Good | Adequate | Insufficient |
+|---|---|---|---|
+| Frames sophisticated, well-targeted inquiries that demonstrate deep understanding of the problem space. Questions evolve as understanding develops. Uses AI to explore multiple angles rather than seeking a single answer. | Asks relevant and purposeful questions. Some evidence of evolving inquiry, though may default to straightforward information-seeking. | Questions are functional but lack depth or strategic direction. Limited evidence of using inquiry to deepen understanding. | Questions are vague, generic, or absent. No evidence of purposeful inquiry driving the use of AI. |
+
+#### 3. Reflective Practice and Accountability (20%)
+
+| Excellent | Good | Adequate | Insufficient |
+|---|---|---|---|
+| Provides clear, honest, and insightful reflection on the AI-assisted process. Identifies specific decisions made, explains rationale, and acknowledges limitations or mistakes. Takes full accountability for the final output. | Reflects on the process with reasonable depth. Acknowledges AI's role and own decision-making, though reflection may lack specificity in places. | Reflection is present but surface-level. May describe what was done without meaningfully explaining why or what was learned. | Little or no reflection. No accountability for decisions made during the AI-assisted process. |
+
+#### 4. Communication (15%)
+
+| Excellent | Good | Adequate | Insufficient |
+|---|---|---|---|
+| Communication is clear, coherent, and professionally presented. The student's own voice and reasoning are evident throughout. AI-generated content has been fully integrated and adapted rather than pasted in. | Communication is generally clear and well-structured. Some sections may read as lightly edited AI output rather than fully integrated work. | Communication is functional but uneven. Noticeable shifts in voice or style suggest AI content has not been fully integrated. | Communication is unclear, disjointed, or reads as unedited AI output. |
+
+#### 5. Disciplinary Integration (10%)
+
+| Excellent | Good | Adequate | Insufficient |
+|---|---|---|---|
+| Applies disciplinary concepts, terminology, and frameworks accurately and purposefully. AI outputs are evaluated and adapted through a disciplinary lens. | Demonstrates sound disciplinary understanding. AI outputs are generally contextualised within the discipline, though some generic framing may remain. | Some disciplinary knowledge is evident but inconsistently applied. AI outputs are used without sufficient disciplinary contextualisation. | No meaningful disciplinary integration. Work could belong to any field. |
+
+---
+
+### Format B: Single-Point Rubric
+
+A single-point rubric describes only the "proficient" standard for each criterion. The marker uses the blank columns to write specific feedback about what fell short or what exceeded expectations. This format is simpler to create, more formative in nature, and encourages personalised feedback rather than matching students to pre-written descriptors.
+
+**When to use:** Formative or developmental assessment, draft feedback, tasks where you want to encourage improvement rather than rank performance. Also useful when you want students to self-assess against a clear standard.
+
+| Not Yet Meeting Standard | Criterion at Standard | Exceeding Standard |
+|---|---|---|
+| *(Marker writes specific feedback)* | **Critical Engagement with AI (30%):** Engages iteratively with AI tools, refining prompts based on evaluation of outputs. Makes deliberate decisions about what to use, modify, or reject. Demonstrates judgement rather than passive acceptance. | *(Marker writes specific feedback)* |
+| *(Marker writes specific feedback)* | **Quality of Inquiry (25%):** Frames purposeful, well-targeted inquiries that demonstrate understanding of the problem space. Questions evolve as understanding develops. Uses AI to explore the problem from multiple angles. | *(Marker writes specific feedback)* |
+| *(Marker writes specific feedback)* | **Reflective Practice and Accountability (20%):** Provides honest and specific reflection on the AI-assisted process. Identifies key decisions, explains rationale, and acknowledges limitations. Takes clear ownership of the final output. | *(Marker writes specific feedback)* |
+| *(Marker writes specific feedback)* | **Communication (15%):** Final output is clear, coherent, and professionally presented. The student's own voice is evident. AI-generated content has been integrated and adapted rather than pasted in. | *(Marker writes specific feedback)* |
+| *(Marker writes specific feedback)* | **Disciplinary Integration (10%):** Applies relevant disciplinary concepts, terminology, and frameworks. AI outputs are evaluated and adapted through a disciplinary lens rather than used generically. | *(Marker writes specific feedback)* |
+
+---
+
+### Format C: Holistic Rubric
+
+A holistic rubric provides a single overall description for each grade level rather than breaking performance into separate criteria. It is quicker to apply and works well for assessments where the qualities being assessed are deeply intertwined.
+
+**When to use:** Essays, reflective pieces, creative work, or any assessment where the overall quality of thinking matters more than performance on individual dimensions. Also useful for large cohorts where marking speed is a factor.
+
+**High Distinction.** The student demonstrates sophisticated, iterative engagement with AI throughout the task. Inquiries are purposeful and evolve as understanding deepens. There is clear evidence of critical evaluation: prompts are refined, outputs are challenged, and decisions about what to use or reject are well-reasoned. Reflection is honest, specific, and insightful, with full accountability for the final output. The submission is coherent and professionally presented, with the student's own voice and disciplinary expertise evident throughout. AI-generated content has been fully integrated rather than pasted in.
+
+**Distinction.** The student engages meaningfully with AI, showing evidence of prompt refinement and critical evaluation across most of the task. Inquiries are relevant and show some development. Reflection acknowledges AI's role and the student's own decision-making with reasonable specificity. Communication is clear and well-structured, with the student's voice generally evident. Disciplinary knowledge is applied, though some generic framing from AI may remain.
+
+**Credit.** The student uses AI tools with some evidence of critical engagement, though this is inconsistent. Inquiries are functional but may lack depth or strategic direction. Reflection is present but tends toward description rather than analysis. Communication is adequate, though shifts in voice suggest AI content has not been fully integrated. Some disciplinary knowledge is applied but not consistently.
+
+**Pass.** The student uses AI tools but with limited critical engagement. Outputs tend to be accepted with minimal evaluation. Inquiry is basic, and reflection is surface-level, describing what was done without meaningfully explaining why. Communication is functional but uneven. Disciplinary integration is weak or generic.
+
+**Fail.** No meaningful engagement with AI as a thinking tool. AI outputs appear to be accepted wholesale. Little or no reflection, accountability, or evidence of the student's own reasoning. Communication is unclear or reads as unedited AI output. No disciplinary integration.
+
+---
+
+### Format D: Checklist Rubric
+
+A checklist rubric uses binary criteria (met / not met) with no scale. It is useful for assessments with clear procedural or compliance requirements, and works well as a supplement to other rubric formats.
+
+**When to use:** Lab reports, technical submissions, process documentation requirements, or as a companion to a holistic or single-point rubric to ensure baseline requirements are met before qualitative assessment begins.
+
+| Requirement | Met | Not Met |
+|---|---|---|
+| **Critical Engagement with AI** | | |
+| Student used AI tools as part of the task | ☐ | ☐ |
+| Evidence of prompt refinement or iteration (not just single-shot queries) | ☐ | ☐ |
+| Student made deliberate choices about which AI outputs to use, modify, or reject | ☐ | ☐ |
+| **Quality of Inquiry** | | |
+| Questions posed to AI are relevant to the task | ☐ | ☐ |
+| Inquiry goes beyond simple information retrieval | ☐ | ☐ |
+| Multiple perspectives or approaches were explored | ☐ | ☐ |
+| **Reflective Practice and Accountability** | | |
+| AI tools and their use are declared | ☐ | ☐ |
+| Reflection identifies specific decisions made during the process | ☐ | ☐ |
+| Student takes explicit ownership of the final output | ☐ | ☐ |
+| **Communication** | | |
+| Final output is coherent and appropriately structured | ☐ | ☐ |
+| Student's own voice is identifiable in the submission | ☐ | ☐ |
+| AI-generated content has been integrated rather than pasted verbatim | ☐ | ☐ |
+| **Disciplinary Integration** | | |
+| Relevant disciplinary concepts or frameworks are applied | ☐ | ☐ |
+| AI outputs are contextualised within the discipline | ☐ | ☐ |
+| Disciplinary terminology is used accurately | ☐ | ☐ |
+
+---
+
+### Choosing a Format
+
+| Format | Best for | LMS compatibility | Marking speed | Feedback richness |
+|---|---|---|---|---|
+| **Analytic** | Summative assessment, detailed grading, multiple skill dimensions | Excellent (standard Canvas/Blackboard export) | Moderate | High (built into descriptors) |
+| **Single-point** | Formative feedback, drafts, self-assessment, developmental tasks | Limited (manual setup in most LMS) | Moderate | Very high (personalised comments) |
+| **Holistic** | Essays, reflective work, creative tasks, large cohorts | Good (simple grade scale) | Fast | Moderate (overall, not per-criterion) |
+| **Checklist** | Process documentation, compliance, baseline requirements | Good (simple yes/no) | Very fast | Low (binary, no nuance) |
+
+You can also combine formats. A common approach is to use a checklist to confirm baseline requirements are met (AI tools declared, reflection included, process documented), then apply a holistic or single-point rubric for the qualitative assessment. This keeps marking efficient while ensuring both compliance and depth are addressed.
+
+### Adapting the Framework
+
+These criteria, weightings, and formats are designed as a starting point. When adapting the rubric for a specific assessment:
+
+- Adjust weightings to reflect your learning outcomes. If disciplinary integration is central to the unit, increase its weight. If the task is primarily about communication, weight that criterion more heavily.
+- Add discipline-specific descriptors within each criterion to make expectations concrete for your students.
+- Consider whether all five criteria apply to your task, or whether some can be combined or replaced.
+- Choose the rubric format that matches your assessment purpose: analytic for detailed summative grading, single-point for formative feedback, holistic for integrated qualitative judgement, checklist for procedural compliance.
+- Share the rubric with students before the assessment so they understand what "good AI use" looks like in your context.
+
+The goal is not to create a universal rubric but to provide a principled framework that makes the assessment of AI-integrated work transparent, fair, and focused on genuine learning.

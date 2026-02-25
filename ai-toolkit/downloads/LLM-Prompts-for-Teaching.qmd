@@ -1,0 +1,254 @@
+---
+title: "Using LLMs to Simplify Your Teaching: A Curated Prompt Guide"
+---
+
+A practical collection of prompts and workflows for lecturers and students, drawn from classroom-tested approaches and adapted for higher education contexts. These work across Claude, Gemini, NotebookLM, and other LLM tools.
+
+---
+
+## How to Get Started
+
+1. Pick a specific task you need to complete (a quiz, a study guide, a rubric).
+2. Provide the AI with your unit level, topic, and any constraints.
+3. Paste your existing content (slides, notes, rubric, reading).
+4. Let the AI handle the formatting and heavy lifting.
+5. Review, refine, and make it your own before it reaches students.
+
+**A note on privacy:** Never paste student names or identifying information into any AI tool. Use initials or anonymised identifiers. Use your institutional account where possible.
+
+---
+
+## Part 1: For Lecturers
+
+These prompts are designed to save you time on the repetitive parts of teaching so you can focus on what matters: the students.
+
+### 1. The 1-Page Study Guide Creator
+
+**When to use it:** You have a full slide deck or set of lecture notes and need a clean student handout fast.
+
+**Prompt:**
+
+> Turn this into a 1-page student study guide for [UNIT LEVEL]: clear headings, key bullet notes, 8 key terms (student-friendly definitions), and 10 self-check questions with an answer key. Keep it concise and classroom-ready. CONTENT: [PASTE SLIDES OR NOTES]
+
+---
+
+### 2. 3-Level Exit Tickets
+
+**When to use it:** You want quick formative checks for mixed readiness levels.
+
+**Prompt:**
+
+> Create 3 exit tickets from this lesson for [UNIT LEVEL]: Easy / On-Level / Challenge. Each ticket: 3 questions + answer key. Align to this objective: [OBJECTIVE]. LESSON CONTENT: [PASTE]
+
+---
+
+### 3. The "5-in-1" Lesson Workflow
+
+**When to use it:** You need an entire suite of materials from a single set of lesson notes. This is the ultimate weekend time-saver.
+
+**Steps:**
+
+1. Open your preferred LLM and paste your raw lesson notes or outline.
+2. Ask for 5 specific deliverables: student notes, a quiz, an exit ticket, a tiered activity, and a summary.
+3. Review and polish the generated drafts before class.
+
+**Prompt:**
+
+> Using the lesson content below, generate the following 5 items for a [UNIT LEVEL] class:
+> 1. A 1-page set of student notes with key terms highlighted
+> 2. A 10-question quiz (mix of multiple choice and short answer) with answer key
+> 3. A 3-question exit ticket
+> 4. A tiered activity with Support, Core, and Extend versions
+> 5. A 3-sentence lesson summary suitable for an LMS post
+>
+> LESSON CONTENT: [PASTE]
+
+---
+
+### 4. Differentiation Pack: Support / Core / Extend
+
+**When to use it:** You need scaffolds and extensions without rewriting your whole lesson.
+
+**Prompt:**
+
+> I'm teaching [STANDARD/SKILL] to [UNIT LEVEL]. Generate a differentiation pack with: Support (scaffolded), Core (on-level), Extend (higher-order). Include directions, examples, and a quick check for understanding.
+
+---
+
+### 5. Make Any Text Accessible (ELL / Inclusion)
+
+**When to use it:** You need simplified versions of complex readings without losing core meaning.
+
+**Prompt:**
+
+> Rewrite this passage into 2 versions for [UNIT LEVEL]: Simplified and On-Grade. Add 10 vocab words with student-friendly definitions, 1 sentence frame per word, and 5 comprehension questions + answer key. PASSAGE: [PASTE]
+
+---
+
+### 6. Grounded Study Guides with NotebookLM
+
+**When to use it:** You want AI-generated materials that are strictly based on your own sources, with no hallucinated content or outside information.
+
+**Steps:**
+
+1. Upload your source documents (PDFs, slides, readings) to a new NotebookLM notebook.
+2. Use the prompt: "Create a student study guide with key takeaways, key terms, and 10 self-check questions."
+3. Optionally generate a "2-minute review script" to read aloud in class.
+
+**Best practices for NotebookLM:**
+
+- Keep it to 1 unit per notebook (avoid mixing units).
+- Name notebooks like teacher files: "ISYS6020 - AI Innovation - Week 3".
+- Add your top 3-5 core sources first as anchor documents.
+- Set constraints upfront: time limits, reading level, required supports.
+- Demand citations: ask for "quote + page/section for every claim."
+- Save reusable prompts as "Starter Prompts" inside the notebook.
+- Always fact-check: ask "Show where you got that" and "What's missing from my sources?"
+
+---
+
+### 7. Rubric-to-Feedback Generator
+
+**When to use it:** You have a marking rubric and want to generate consistent, detailed feedback templates for each grade band.
+
+**Prompt:**
+
+> Using the rubric below, generate example feedback paragraphs for each grade band (HD, D, C, P, F). Each paragraph should reference the specific criteria, explain what was done well, and suggest one area for improvement. Keep the tone constructive and encouraging. RUBRIC: [PASTE]
+
+---
+
+### 8. Weekly Announcement / LMS Post Drafter
+
+**When to use it:** You need to write a clear, friendly weekly update for students on Blackboard or another LMS.
+
+**Prompt:**
+
+> Write a weekly announcement for [UNIT CODE] students. This week's topic is [TOPIC]. Include: a brief overview of what we covered, what to prepare for next week, any reminders about upcoming deadlines ([LIST DEADLINES]), and an encouraging closing line. Keep the tone warm and professional.
+
+---
+
+### 9. Assessment Brief Clarity Check
+
+**When to use it:** You have drafted an assessment brief and want to check if students will actually understand it.
+
+**Prompt:**
+
+> Review this assessment brief as if you are a first-year university student seeing it for the first time. Identify any sections that are unclear, ambiguous, or likely to cause confusion. Suggest specific rewording where needed. ASSESSMENT BRIEF: [PASTE]
+
+---
+
+### 10. Lecture Recap Email / Discussion Starter
+
+**When to use it:** You want to send a quick post-lecture summary or seed a discussion forum.
+
+**Prompt:**
+
+> Based on these lecture notes, write a 150-word recap email for students that highlights the 3 most important takeaways and poses 1 discussion question to spark further thinking. Keep it conversational. NOTES: [PASTE]
+
+---
+
+### 11. Marking Calibration Companion
+
+**When to use it:** You want a second opinion on how a student submission maps against your rubric, to help calibrate your own marking.
+
+**Prompt:**
+
+> Here is a student submission and the rubric for this assessment. Without assigning a final grade, identify which rubric criteria the submission meets well and which it falls short on. Provide specific evidence from the submission for each judgment. RUBRIC: [PASTE] SUBMISSION: [PASTE]
+
+---
+
+## Part 2: For Students (Share These With Your Class)
+
+These prompts are designed to help students use AI as a study partner rather than a shortcut. Frame these as "here's something you can try" to build good AI habits.
+
+### 1. The Explain-It-Back Technique
+
+**When to use it:** You've just finished a reading or lecture and want to check your understanding.
+
+**Prompt:**
+
+> I'm going to explain a concept to you, and I want you to tell me what I got right, what I got wrong, and what I'm missing. Here's my understanding of [TOPIC]: [STUDENT'S EXPLANATION]
+
+---
+
+### 2. Practice Quiz Generator
+
+**When to use it:** You want to test yourself before an exam using your own course materials.
+
+**Prompt:**
+
+> Based on the following notes, create a 10-question practice quiz for me. Include a mix of multiple choice, true/false, and short answer. Don't show me the answers until I ask for them. NOTES: [PASTE]
+
+---
+
+### 3. The "Teach Me Like I'm 5" Simplifier
+
+**When to use it:** A concept from the lecture just isn't clicking.
+
+**Prompt:**
+
+> Explain [CONCEPT] in the simplest possible terms, like you're explaining it to someone with no background in this field. Then give me a real-world analogy I can use to remember it.
+
+---
+
+### 4. Essay Outline Builder
+
+**When to use it:** You're staring at a blank page and need help structuring your argument (not writing it for you).
+
+**Prompt:**
+
+> I need to write a [WORD COUNT]-word essay on the following topic: [TOPIC]. Help me create a detailed outline with: a thesis statement, 3-4 main arguments, suggested evidence or examples for each, and a conclusion structure. Don't write the essay, just the outline.
+
+---
+
+### 5. Source Interrogator
+
+**When to use it:** You're reading an academic article and struggling to pull out the key points.
+
+**Prompt:**
+
+> I'm reading an article for my [UNIT NAME] class. Help me identify: the main argument, the methodology, the key findings, and 2 limitations or critiques I could raise in a discussion. Here are my notes on the article: [PASTE NOTES OR KEY QUOTES]
+
+---
+
+### 6. Vocabulary Flashcard Builder
+
+**When to use it:** You have a list of terms from a unit and want study-ready definitions.
+
+**Prompt:**
+
+> Create flashcard-style definitions for the following terms from my [UNIT NAME] class. For each term, give me: a plain-English definition, a one-sentence example of how it applies in practice, and one common misconception to avoid. TERMS: [PASTE LIST]
+
+---
+
+### 7. The Revision Conversation
+
+**When to use it:** You want to actively revise by having the AI quiz you back and forth.
+
+**Prompt:**
+
+> I'm revising for my [UNIT NAME] exam. The topics are: [LIST TOPICS]. Ask me one question at a time. After I answer, tell me if I'm right or wrong and explain why. Then ask the next question. Start now.
+
+---
+
+### 8. The "What Would the Marker Say?" Review
+
+**When to use it:** You have a draft and want feedback before submission.
+
+**Prompt:**
+
+> Pretend you are a university lecturer marking this assignment against the rubric below. Give me specific, constructive feedback on what is strong and what needs improvement. Do not rewrite the work for me. RUBRIC: [PASTE] MY DRAFT: [PASTE]
+
+---
+
+## Tips for Getting Better Results from Any LLM
+
+- **Be specific about the output format.** Ask for tables, bullet points, numbered lists, or specific word counts.
+- **Set constraints upfront.** Grade level, time available, reading level, number of items.
+- **Paste your actual content.** The more context you give, the more relevant the output.
+- **Iterate.** Treat the first output as a draft. Ask follow-up questions to refine.
+- **Ground it in your materials.** Tools like NotebookLM keep responses anchored to your sources.
+- **Demand citations.** Ask "Where did you get that?" to catch hallucinations.
+- **Think conversation, not delegation.** The AI is a collaborator, not a replacement for your expertise.
+
+---
