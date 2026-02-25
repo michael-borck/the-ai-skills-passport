@@ -144,18 +144,16 @@ the-ai-skills-passport/
 ## Commands
 
 ```bash
-# Render all SPAs
-for dir in onboarding resources passport experiences/*/; do
-  quarto render "$dir"
-done
+# Build everything (render all Quarto projects, collect outputs, create zip)
+bash scripts/build.sh
+
+# Preview a single SPA
+cd experiences/is-this-ai
+quarto preview
 
 # Run progress tracker
 cd server
 pip install -r requirements.txt
 python app.py
 # Open http://localhost:5050/docs
-
-# Preview a single SPA
-cd experiences/is-this-ai
-quarto preview
 ```

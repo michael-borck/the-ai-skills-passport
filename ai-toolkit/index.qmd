@@ -1949,6 +1949,90 @@ Now write feedback in my style for:
         <p style="font-size: 13px; color: #64748B;">Student-facing resource. Share via your unit site or LMS.</p>
       `
     }
+    ,
+    {
+      id: 'llm-prompts-for-teaching',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Using LLMs to Simplify Your Teaching: A Curated Prompt Guide',
+      emoji: '💬',
+      summary: 'Ready-to-use prompts for lecturers and students, tested across Claude, Gemini, and NotebookLM.',
+      downloads: {
+        html: 'downloads/LLM-Prompts-for-Teaching.html',
+        docx: 'downloads/LLM-Prompts-for-Teaching.docx',
+        pdf: 'downloads/LLM-Prompts-for-Teaching.pdf'
+      },
+      content: `
+        <p>A practical collection of classroom-tested prompts and workflows for higher education. Divided into lecturer prompts and student prompts you can share directly.</p>
+        <p><strong>For lecturers:</strong></p>
+        <ul>
+          <li><strong>Study guide creator</strong> - turn slides into clean student handouts</li>
+          <li><strong>5-in-1 lesson workflow</strong> - notes, quiz, exit ticket, activity, and summary from one paste</li>
+          <li><strong>Rubric-to-feedback generator</strong> - consistent feedback templates per grade band</li>
+          <li><strong>Assessment brief clarity check</strong> - see your brief through student eyes</li>
+          <li><strong>Marking calibration companion</strong> - a second opinion on rubric alignment</li>
+        </ul>
+        <p><strong>For students (share with your class):</strong></p>
+        <ul>
+          <li><strong>Explain-it-back technique</strong> - check understanding interactively</li>
+          <li><strong>Practice quiz generator</strong> - self-test from your own notes</li>
+          <li><strong>Essay outline builder</strong> - structure arguments without writing the essay</li>
+          <li><strong>"What would the marker say?"</strong> - get feedback before submission</li>
+        </ul>
+      `
+    }
+    ,
+    {
+      id: 'designing-assessment-ai',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Designing Assessment in an AI-Enabled World',
+      emoji: '📝',
+      summary: 'Assessment design principles and rubric frameworks for AI-integrated assignments.',
+      downloads: {
+        html: 'downloads/designing-assessment-in-an-ai-enabled-world.html',
+        docx: 'downloads/designing-assessment-in-an-ai-enabled-world.docx',
+        pdf: 'downloads/designing-assessment-in-an-ai-enabled-world.pdf'
+      },
+      content: `
+        <p>A two-part guide covering assessment design principles and rubric frameworks for assignments where students use AI tools.</p>
+        <p><strong>Part 1 — Assessment Design:</strong></p>
+        <ul>
+          <li><strong>Six principles</strong> - assume AI is present, use a Two-Lane Approach, prioritise authentic assessment</li>
+          <li><strong>By assessment type</strong> - essays, exams, group work, presentations mapped to restricted-AI and AI-enabled lanes</li>
+          <li><strong>Stress-testing</strong> - try the assessment yourself with AI, then redesign</li>
+        </ul>
+        <p><strong>Part 2 — Rubric Design:</strong></p>
+        <ul>
+          <li><strong>Five criteria</strong> - critical engagement, quality of inquiry, reflective practice, communication, disciplinary integration</li>
+          <li><strong>Four formats</strong> - analytic, single-point, holistic, and checklist rubrics with full descriptors</li>
+          <li><strong>Adaptation guidance</strong> - adjust weightings and formats to suit your context</li>
+        </ul>
+      `
+    }
+    ,
+    {
+      id: 'references-collated',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Collated References',
+      emoji: '📚',
+      summary: 'Combined reference list from all AI Toolkit articles, with a document-by-document index.',
+      downloads: {
+        html: 'downloads/references-collated.html',
+        docx: 'downloads/references-collated.docx',
+        pdf: 'downloads/references-collated.pdf'
+      },
+      content: `
+        <p>The full reference list drawn from every article in the AI Toolkit collection, organised alphabetically. Includes a table mapping each reference back to the document that cited it.</p>
+        <p><strong>Useful for:</strong></p>
+        <ul>
+          <li><strong>Following up</strong> - find the full citation for any source mentioned in a guide</li>
+          <li><strong>Tracing sources</strong> - see which toolkit article cited which reference</li>
+          <li><strong>Further reading</strong> - browse the evidence base underpinning the collection</li>
+        </ul>
+      `
+    }
   ];
 
   function getDownloadBar(downloads) {
