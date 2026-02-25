@@ -1124,11 +1124,22 @@ Now write feedback in my style for:
       id: 'search-google-scholar',
       category: 'reading',
       roles: ['teaching', 'research', 'admin'],
-      title: 'Google Scholar Searches',
+      title: 'Search Google Scholar',
       emoji: '🎓',
-      summary: 'Pre-built searches for AI in higher education research.',
+      summary: 'Find peer-reviewed research on AI in education — with search tips and ready-made queries.',
       content: `
-        <p><strong>Click any search to find current research:</strong></p>
+        <div style="background: #0F172A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+          <p style="margin: 0 0 10px 0;"><strong>🔍 Search Tips</strong></p>
+          <ul style="margin: 0; padding-left: 20px; color: #CBD5E1; line-height: 1.8;">
+            <li>Use <span style="font-family: 'Courier New', monospace; background: #1E293B; padding: 2px 6px; border-radius: 4px;">"exact phrases"</span> in quotes for precise results</li>
+            <li>Click <strong>Cited by</strong> under any paper to find newer work building on it</li>
+            <li>Click <strong>Related articles</strong> to discover similar research</li>
+            <li>Filter by date: left sidebar → <strong>Since 2024</strong> for recent work</li>
+            <li>Set up <strong>Alerts</strong> (envelope icon) to get emailed when new papers match your search</li>
+          </ul>
+        </div>
+
+        <p><strong>Ready-made searches:</strong></p>
         <div style="display: flex; flex-direction: column; gap: 10px; margin: 16px 0;">
           <a href="https://scholar.google.com/scholar?q=generative+AI+higher+education+assessment" target="_blank" style="display: block; background: #1E1E36; padding: 12px 16px; border-radius: 8px; color: #E2E8F0; text-decoration: none; border-left: 4px solid #4F46E5;">
             <strong>AI & Assessment</strong><br>
@@ -1150,19 +1161,48 @@ Now write feedback in my style for:
             <strong>AI Shame & Stigma</strong><br>
             <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">"AI shame" OR "AI shaming" academic</span>
           </a>
+          <a href="https://scholar.google.com/scholar?q=AI+workflow+automation+university" target="_blank" style="display: block; background: #1E1E36; padding: 12px 16px; border-radius: 8px; color: #E2E8F0; text-decoration: none; border-left: 4px solid #4F46E5;">
+            <strong>AI Workflow Automation</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">AI workflow automation university</span>
+          </a>
         </div>
-        <p style="font-size: 13px; color: #64748B;"><strong>Tip:</strong> Click "Since 2024" on results page for the latest research.</p>
+
+        <div style="background: #1E1E36; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #4F46E5;">
+          <strong>💡 Pro tip:</strong> Add your discipline to narrow results — try adding <span style="font-family: 'Courier New', monospace; background: #0F172A; padding: 2px 6px; border-radius: 4px;">AND marketing</span> or <span style="font-family: 'Courier New', monospace; background: #0F172A; padding: 2px 6px; border-radius: 4px;">AND management</span> to any search.
+        </div>
       `
     },
     {
       id: 'search-arxiv',
       category: 'reading',
       roles: ['research', 'teaching'],
-      title: 'arXiv Searches',
+      title: 'Search arXiv',
       emoji: '📑',
-      summary: 'Pre-prints and cutting-edge AI research.',
+      summary: 'Cutting-edge AI research before peer review — what arXiv is, how to search it, and what to watch for.',
       content: `
-        <p><strong>arXiv has the latest research before peer review:</strong></p>
+        <div style="background: #0F172A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+          <p style="margin: 0 0 10px 0;"><strong>📄 What is arXiv?</strong></p>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;">arXiv hosts research papers <em>before</em> peer review. You'll find ideas here months before they appear in journals — but treat claims with healthy scepticism until peer-reviewed.</p>
+        </div>
+
+        <p><strong>Where to look — relevant categories:</strong></p>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 16px 0;">
+          <span style="background: #3D2E0A; padding: 8px 12px; border-radius: 8px; font-size: 13px;"><span style="font-family: 'Courier New', monospace; color: #F59E0B;">cs.CL</span> — Computation & Language (LLMs, NLP)</span>
+          <span style="background: #3D2E0A; padding: 8px 12px; border-radius: 8px; font-size: 13px;"><span style="font-family: 'Courier New', monospace; color: #F59E0B;">cs.CY</span> — Computers & Society (AI ethics, policy, education)</span>
+          <span style="background: #3D2E0A; padding: 8px 12px; border-radius: 8px; font-size: 13px;"><span style="font-family: 'Courier New', monospace; color: #F59E0B;">cs.AI</span> — Artificial Intelligence (general)</span>
+          <span style="background: #3D2E0A; padding: 8px 12px; border-radius: 8px; font-size: 13px;"><span style="font-family: 'Courier New', monospace; color: #F59E0B;">cs.HC</span> — Human-Computer Interaction</span>
+        </div>
+
+        <div style="background: #0F172A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+          <p style="margin: 0 0 10px 0;"><strong>🔍 Search Tips</strong></p>
+          <ul style="margin: 0; padding-left: 20px; color: #CBD5E1; line-height: 1.8;">
+            <li>Use <a href="https://arxiv.org/search/advanced" target="_blank" style="color: #F59E0B;">Advanced Search</a> to combine keywords + category</li>
+            <li>Use <span style="font-family: 'Courier New', monospace; background: #1E293B; padding: 2px 6px; border-radius: 4px;">"exact phrases"</span> in quotes</li>
+            <li>Sort by date for newest work first</li>
+          </ul>
+        </div>
+
+        <p><strong>Ready-made searches:</strong></p>
         <div style="display: flex; flex-direction: column; gap: 10px; margin: 16px 0;">
           <a href="https://arxiv.org/search/?query=large+language+models+education&searchtype=all" target="_blank" style="display: block; background: #3D2E0A; padding: 12px 16px; border-radius: 8px; color: #E2E8F0; text-decoration: none; border-left: 4px solid #F59E0B;">
             <strong>LLMs in Education</strong><br>
@@ -1176,19 +1216,43 @@ Now write feedback in my style for:
             <strong>Prompt Engineering</strong><br>
             <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">prompt engineering techniques</span>
           </a>
+          <a href="https://arxiv.org/search/?query=AI+ethics+education&searchtype=cs.CY" target="_blank" style="display: block; background: #3D2E0A; padding: 12px 16px; border-radius: 8px; color: #E2E8F0; text-decoration: none; border-left: 4px solid #F59E0B;">
+            <strong>AI Ethics in Education</strong><br>
+            <span style="font-family: 'Courier New', monospace; font-size: 12px; color: #64748B;">AI ethics education (cs.CY)</span>
+          </a>
         </div>
-        <p style="font-size: 13px; color: #64748B;"><strong>Note:</strong> arXiv papers are pre-prints: not yet peer-reviewed. Great for cutting-edge ideas, but verify claims.</p>
+
+        <div style="background: #1E1E36; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #F59E0B;">
+          <strong>🔗 Also try:</strong>
+          <a href="https://www.semanticscholar.org/" target="_blank" style="color: #F59E0B;">Semantic Scholar</a> (AI-powered search) and
+          <a href="https://www.connectedpapers.com/" target="_blank" style="color: #F59E0B;">Connected Papers</a> (visual citation maps)
+        </div>
       `
     },
     {
       id: 'search-library',
       category: 'reading',
       roles: ['teaching', 'research', 'admin'],
-      title: 'Library & Institutional',
+      title: 'Search Curtin Library',
       emoji: '🏛️',
-      summary: 'Search terms for Curtin Library and institutional resources.',
+      summary: 'Find books, journal articles, and reports through Curtin\'s databases — with search tips that work everywhere.',
       content: `
-        <p><strong>Use these in Curtin Library search or your institution's database:</strong></p>
+        <div style="text-align: center; margin-bottom: 16px;">
+          <a href="https://library.curtin.edu.au/" target="_blank" style="display: inline-block; background: #7C3AED; color: #FFFFFF; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 15px;">🔍 Open Curtin Library Search</a>
+        </div>
+
+        <div style="background: #0F172A; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+          <p style="margin: 0 0 10px 0;"><strong>⚡ Boolean Search in 60 Seconds</strong></p>
+          <div style="display: flex; flex-direction: column; gap: 8px; color: #CBD5E1;">
+            <div><span style="font-family: 'Courier New', monospace; color: #7C3AED; font-weight: bold;">AND</span> narrows: <span style="font-family: 'Courier New', monospace; background: #1E293B; padding: 2px 6px; border-radius: 4px;">artificial intelligence AND assessment</span></div>
+            <div><span style="font-family: 'Courier New', monospace; color: #7C3AED; font-weight: bold;">OR</span> broadens: <span style="font-family: 'Courier New', monospace; background: #1E293B; padding: 2px 6px; border-radius: 4px;">ChatGPT OR "generative AI"</span></div>
+            <div><span style="font-family: 'Courier New', monospace; color: #7C3AED; font-weight: bold;">NOT</span> excludes: <span style="font-family: 'Courier New', monospace; background: #1E293B; padding: 2px 6px; border-radius: 4px;">AI AND education NOT secondary</span></div>
+            <div><span style="font-family: 'Courier New', monospace; color: #7C3AED; font-weight: bold;">*</span> truncation: <span style="font-family: 'Courier New', monospace; background: #1E293B; padding: 2px 6px; border-radius: 4px;">assess*</span> → assessment, assessing, assessments</div>
+            <div><span style="font-family: 'Courier New', monospace; color: #7C3AED; font-weight: bold;">" "</span> exact phrase: <span style="font-family: 'Courier New', monospace; background: #1E293B; padding: 2px 6px; border-radius: 4px;">"higher education"</span></div>
+          </div>
+        </div>
+
+        <p><strong>Ready-made searches</strong> (copy into any database):</p>
         <div style="display: flex; flex-direction: column; gap: 8px; margin: 16px 0;">
           <div style="background: #2E1065; padding: 12px 16px; border-radius: 8px;">
             <span style="font-family: 'Courier New', monospace; font-size: 13px;">artificial intelligence AND assessment AND "higher education"</span>
@@ -1203,14 +1267,26 @@ Now write feedback in my style for:
             <span style="font-family: 'Courier New', monospace; font-size: 13px;">"AI policy" AND university</span>
           </div>
         </div>
-        <p><strong>Useful databases:</strong></p>
-        <ul style="margin: 8px 0; color: #CBD5E1;">
-          <li>ERIC (education research)</li>
-          <li>ProQuest Education</li>
-          <li>Scopus / Web of Science</li>
-          <li>JSTOR</li>
-        </ul>
-        <p style="font-size: 13px; color: #64748B;"><strong>Tip:</strong> Add your discipline (e.g., AND marketing AND business) for relevant results.</p>
+
+        <p><strong>Best databases for SoMM:</strong></p>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin: 12px 0 16px 0;">
+          <div style="background: #1E1E36; padding: 10px 16px; border-radius: 8px; border-left: 4px solid #7C3AED;">
+            <strong>Scopus</strong> — broad coverage, citation tracking
+          </div>
+          <div style="background: #1E1E36; padding: 10px 16px; border-radius: 8px; border-left: 4px solid #7C3AED;">
+            <strong>ERIC</strong> — education-specific, largest in the field
+          </div>
+          <div style="background: #1E1E36; padding: 10px 16px; border-radius: 8px; border-left: 4px solid #7C3AED;">
+            <strong>Business Source Complete</strong> — marketing, management, HR
+          </div>
+          <div style="background: #1E1E36; padding: 10px 16px; border-radius: 8px; border-left: 4px solid #7C3AED;">
+            <strong>Web of Science</strong> — citation metrics, impact factors
+          </div>
+        </div>
+
+        <div style="background: #1E1E36; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #7C3AED;">
+          <strong>🏠 Off-campus access:</strong> Use Curtin VPN or log in via the Library website to read full-text articles from home.
+        </div>
       `
     },
     // BOOKS
