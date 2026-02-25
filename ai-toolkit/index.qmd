@@ -162,6 +162,7 @@ format:
 
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
 <script>
 (function() {
   let currentCategory = 'all';
@@ -2077,20 +2078,59 @@ Now write feedback in my style for:
     return '<span style="background: #F59E0B; color: #1A1A2E; padding: 2px 10px; border-radius: 10px; font-size: 11px; font-weight: bold; font-family: \'Courier New\', monospace; margin-left: 8px;">COMING SOON</span>';
   }
 
+  // Build Fuse index for fuzzy search
+  const stopWords = new Set(['a','an','the','in','on','at','to','for','of','with','by','from','is','are','was','were','be','been','and','or','but','not','do','does','did','has','have','had','i','my','me','we','you','your','it','its','this','that','how','what','which','who','when','where','why']);
+
+  const fuse = new Fuse(resources, {
+    keys: [
+      { name: 'title', weight: 3 },
+      { name: 'summary', weight: 2 },
+      { name: 'content', weight: 1 }
+    ],
+    threshold: 0.3,
+    ignoreLocation: true,
+    minMatchCharLength: 2,
+    useExtendedSearch: true
+  });
+
+  function buildFuseQuery(input) {
+    // Split into words, remove stop words, build OR query for extended search
+    const words = input.toLowerCase().split(/\s+/).filter(w => w.length > 1 && !stopWords.has(w));
+    if (words.length === 0) return null;
+    // Extended search OR pattern: each word as a separate OR clause
+    // The | operator in Fuse extended search means OR between items
+    return { $or: words.map(w => ({ $or: [{ title: w }, { summary: w }, { content: w }] })) };
+  }
+
   function renderResources() {
     const container = document.getElementById('resources-container');
-    const query = searchQuery.toLowerCase();
+    const query = searchQuery.trim();
 
-    const filtered = resources.filter(r => {
-      const matchesCategory = currentCategory === 'all' || r.category === currentCategory;
-      const matchesRole = currentRole === 'all' || r.roles.includes(currentRole);
-      const matchesSearch = query === '' ||
-        r.title.toLowerCase().includes(query) ||
-        r.summary.toLowerCase().includes(query) ||
-        r.content.toLowerCase().includes(query);
-
-      return matchesCategory && matchesRole && matchesSearch;
-    });
+    let filtered;
+    if (query !== '') {
+      const fuseQuery = buildFuseQuery(query);
+      if (fuseQuery) {
+        const fuseResults = fuse.search(fuseQuery);
+        filtered = fuseResults.map(r => r.item).filter(r => {
+          const matchesCategory = currentCategory === 'all' || r.category === currentCategory;
+          const matchesRole = currentRole === 'all' || r.roles.includes(currentRole);
+          return matchesCategory && matchesRole;
+        });
+      } else {
+        // Only stop words entered — show all, filtered by category/role
+        filtered = resources.filter(r => {
+          const matchesCategory = currentCategory === 'all' || r.category === currentCategory;
+          const matchesRole = currentRole === 'all' || r.roles.includes(currentRole);
+          return matchesCategory && matchesRole;
+        });
+      }
+    } else {
+      filtered = resources.filter(r => {
+        const matchesCategory = currentCategory === 'all' || r.category === currentCategory;
+        const matchesRole = currentRole === 'all' || r.roles.includes(currentRole);
+        return matchesCategory && matchesRole;
+      });
+    }
 
     document.getElementById('results-count').textContent = `${filtered.length} resource${filtered.length !== 1 ? 's' : ''} found`;
 
