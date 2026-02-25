@@ -341,6 +341,13 @@ a.sp-nav-item:hover {
   padding: 12px 18px !important;
 }
 
+/* Suggested search chips */
+.suggested-chip:hover {
+  background: #4F46E5 !important;
+  color: white !important;
+  border-color: #4F46E5 !important;
+}
+
 @media (min-width: 769px) {
   .kt-grid { grid-template-columns: 1fr 1fr; }
 }

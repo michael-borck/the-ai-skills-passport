@@ -100,13 +100,39 @@ format:
     </p>
   </div>
 
-  <!-- Search and Filters -->
+  <!-- Search Bar (always visible) -->
   <div style="margin-bottom: 24px;">
-    <div style="position: relative; margin-bottom: 16px;">
-      <input type="text" id="search-input" placeholder="Search toolkit..." oninput="filterResources()" style="width: 100%; padding: 14px 20px 14px 48px; border: 2px solid #2D2D4A; border-radius: 12px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-sizing: border-box; background: #1E1E36; color: #E2E8F0;">
-      <span style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 20px; color: #94A3B8;">🔍</span>
+    <div style="position: relative; max-width: 640px; margin: 0 auto;">
+      <input type="text" id="search-input" placeholder="What are you looking for?" oninput="filterResources()" style="width: 100%; padding: 18px 24px 18px 52px; border: 2px solid #4F46E5; border-radius: 16px; font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-sizing: border-box; background: #1E1E36; color: #E2E8F0;">
+      <span style="position: absolute; left: 18px; top: 50%; transform: translateY(-50%); font-size: 22px; color: #94A3B8;">🔍</span>
     </div>
+  </div>
 
+  <!-- Suggested Searches (visible on landing) -->
+  <div id="suggested-searches" style="text-align: center; margin-bottom: 32px;">
+    <p style="font-size: 13px; color: #64748B; font-family: 'Courier New', monospace; margin-bottom: 16px; letter-spacing: 1px;">SUGGESTED SEARCHES</p>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 640px; margin: 0 auto 20px auto;">
+      <button class="suggested-chip" onclick="searchChip('Getting started with AI')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Getting started with AI</button>
+      <button class="suggested-chip" onclick="searchChip('Prompt frameworks')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Prompt frameworks</button>
+      <button class="suggested-chip" onclick="searchChip('Writing an AI policy')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Writing an AI policy</button>
+      <button class="suggested-chip" onclick="searchChip('Assessment design')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Assessment design</button>
+      <button class="suggested-chip" onclick="searchChip('Using Copilot')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Using Copilot</button>
+      <button class="suggested-chip" onclick="searchChip('Ethics &amp; responsibility')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Ethics & responsibility</button>
+      <button class="suggested-chip" onclick="searchChip('Research with AI')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Research with AI</button>
+      <button class="suggested-chip" onclick="searchChip('Templates &amp; rubrics')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Templates & rubrics</button>
+      <button class="suggested-chip" onclick="searchChip('AI detection')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">AI detection</button>
+      <button class="suggested-chip" onclick="searchChip('Professional staff')" style="background: #1E1E36; color: #C7D2FE; border: 1px solid #3730A3; padding: 10px 18px; border-radius: 24px; font-size: 14px; cursor: pointer;">Professional staff</button>
+    </div>
+    <a href="#" onclick="browseAll(); return false;" style="font-size: 13px; color: #64748B; text-decoration: none; font-family: 'Courier New', monospace;">Browse all 62 resources →</a>
+  </div>
+
+  <!-- Back to search link (hidden on landing) -->
+  <div id="back-to-search" style="display: none; margin-bottom: 16px;">
+    <a href="#" onclick="resetToSearch(); return false;" style="font-size: 13px; color: #A5B4FC; text-decoration: none; font-family: 'Courier New', monospace;">← Back to search</a>
+  </div>
+
+  <!-- Category and Role Filters (hidden on landing) -->
+  <div id="filters-section" style="display: none; margin-bottom: 24px;">
     <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px;">
       <span style="font-size: 12px; color: #64748B; font-family: 'Courier New', monospace; padding: 8px 0;">CATEGORY:</span>
       <button class="filter-btn category-btn active" data-category="all" onclick="setCategory('all')" style="background: #4F46E5; color: white; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer;">All</button>
@@ -126,10 +152,10 @@ format:
     </div>
   </div>
 
-  <!-- Results count -->
-  <div id="results-count" style="font-size: 13px; color: #64748B; margin-bottom: 16px; font-family: 'Courier New', monospace;"></div>
+  <!-- Results count (hidden on landing) -->
+  <div id="results-count" style="display: none; font-size: 13px; color: #64748B; margin-bottom: 16px; font-family: 'Courier New', monospace;"></div>
 
-  <!-- Resources Container -->
+  <!-- Resources Container (empty on landing) -->
   <div id="resources-container">
     <!-- Populated by JS -->
   </div>
@@ -2133,6 +2159,53 @@ Now write feedback in my style for:
     }
   };
 
+  let showingResults = false;
+
+  function showResults() {
+    if (showingResults) return;
+    showingResults = true;
+    document.getElementById('suggested-searches').style.display = 'none';
+    document.getElementById('filters-section').style.display = 'block';
+    document.getElementById('results-count').style.display = 'block';
+    document.getElementById('back-to-search').style.display = 'block';
+  }
+
+  window.resetToSearch = function() {
+    showingResults = false;
+    searchQuery = '';
+    currentCategory = 'all';
+    currentRole = 'all';
+    document.getElementById('search-input').value = '';
+    document.getElementById('suggested-searches').style.display = 'block';
+    document.getElementById('filters-section').style.display = 'none';
+    document.getElementById('results-count').style.display = 'none';
+    document.getElementById('back-to-search').style.display = 'none';
+    document.getElementById('resources-container').innerHTML = '';
+    // Reset filter button styles
+    document.querySelectorAll('.category-btn').forEach(btn => {
+      btn.style.background = btn.dataset.category === 'all' ? '#4F46E5' : '#1E1E36';
+      btn.style.color = btn.dataset.category === 'all' ? 'white' : '#64748B';
+    });
+    document.querySelectorAll('.role-btn').forEach(btn => {
+      btn.style.background = btn.dataset.role === 'all' ? '#4F46E5' : '#1E1E36';
+      btn.style.color = btn.dataset.role === 'all' ? 'white' : '#64748B';
+    });
+  };
+
+  window.searchChip = function(text) {
+    document.getElementById('search-input').value = text;
+    searchQuery = text;
+    showResults();
+    renderResources();
+  };
+
+  window.browseAll = function() {
+    searchQuery = '';
+    document.getElementById('search-input').value = '';
+    showResults();
+    renderResources();
+  };
+
   window.setCategory = function(category) {
     currentCategory = category;
     document.querySelectorAll('.category-btn').forEach(btn => {
@@ -2163,11 +2236,19 @@ Now write feedback in my style for:
 
   window.filterResources = function() {
     searchQuery = document.getElementById('search-input').value;
-    renderResources();
+    if (searchQuery.trim() !== '') {
+      showResults();
+      renderResources();
+    } else if (!showingResults) {
+      // Still on landing, do nothing
+    } else if (currentCategory === 'all' && currentRole === 'all') {
+      resetToSearch();
+    } else {
+      renderResources();
+    }
   };
 
-  // Initialize
-  renderResources();
+  // Initialize — don't render cards on load (search-first view)
 })();
 </script>
 ```
