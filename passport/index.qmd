@@ -118,7 +118,7 @@ format:
       <div style="font-size: 13px; color: #4ADE80;">Completed</div>
     </div>
     <div style="flex: 1; min-width: 150px; background: #1E1B4B; border: 1px solid #C7D2FE; border-radius: 12px; padding: 20px; text-align: center;">
-      <div id="stat-remaining" style="font-size: 36px; font-weight: bold; color: #4F46E5;">5</div>
+      <div id="stat-remaining" style="font-size: 36px; font-weight: bold; color: #4F46E5;">7</div>
       <div style="font-size: 13px; color: #A5B4FC;">Remaining</div>
     </div>
     <div style="flex: 1; min-width: 150px; background: #3D2E0A; border: 1px solid #FDE68A; border-radius: 12px; padding: 20px; text-align: center;">
@@ -150,14 +150,14 @@ format:
         <span style="font-size: 32px;">🛠️</span>
         <div>
           <div style="font-weight: bold; color: #E2E8F0;">Builder</div>
-          <div style="font-size: 13px; color: #64748B;">Complete all 5 experiences</div>
+          <div style="font-size: 13px; color: #64748B;">Complete 5 experiences</div>
         </div>
       </div>
       <div style="display: flex; align-items: center; gap: 12px;">
         <span style="font-size: 32px;">🏆</span>
         <div>
           <div style="font-weight: bold; color: #E2E8F0;">Champion</div>
-          <div style="font-size: 13px; color: #64748B;">Complete all + attend workshop</div>
+          <div style="font-size: 13px; color: #64748B;">Complete 5 + attend workshop</div>
         </div>
       </div>
     </div>
@@ -174,14 +174,23 @@ format:
 
 <script>
 (function() {
-  // Experience definitions
-  const experiences = [
-    { id: 'is-this-ai', name: 'Is This AI?', emoji: '🔍', subtitle: 'Detection & Awareness' },
-    { id: 'what-would-you-do', name: 'What Would You Do?', emoji: '🤔', subtitle: 'Ethics & Dilemmas' },
-    { id: 'rules-of-engagement', name: 'Rules of Engagement', emoji: '📋', subtitle: 'Policy & Governance' },
-    { id: 'ai-proof-assessments', name: 'AI-Proof Your Assessments', emoji: '🛡️', subtitle: 'Assessment Design' },
-    { id: 'teaching-with-ai', name: 'Working with AI', emoji: '🤝', subtitle: 'Co-Creation & Integration' }
+  // Core experiences (all roles)
+  const coreExperiences = [
+    { id: 'is-this-ai', name: 'Is This AI?', emoji: '🔍', subtitle: 'Detection & Awareness', url: 'experiences/is-this-ai.html' },
+    { id: 'what-would-you-do', name: 'What Would You Do?', emoji: '🤔', subtitle: 'Ethics & Dilemmas', url: 'experiences/what-would-you-do.html' },
+    { id: 'rules-of-engagement', name: 'Rules of Engagement', emoji: '📋', subtitle: 'Policy & Governance', url: 'experiences/rules-of-engagement.html' },
+    { id: 'teaching-with-ai', name: 'Working with AI', emoji: '🤝', subtitle: 'Co-Creation & Integration', url: 'experiences/teaching-with-ai.html' }
   ];
+
+  // Role-based experiences
+  const roleExperiences = [
+    { id: 'ai-proof-assessments', name: 'AI-Proof Your Assessments', emoji: '🛡️', subtitle: 'Assessment Design', url: 'experiences/ai-proof-assessments.html' },
+    { id: 'working-with-copilot', name: 'Working with Copilot', emoji: '🤖', subtitle: 'Microsoft 365 Copilot', url: 'experiences/working-with-copilot.html' },
+    { id: 'researching-with-ai', name: 'Researching with AI', emoji: '🔬', subtitle: 'AI-Assisted Research', url: 'experiences/researching-with-ai.html' }
+  ];
+
+  // All experiences combined
+  const experiences = [...coreExperiences, ...roleExperiences];
 
   // Badge definitions
   const badges = [
@@ -259,33 +268,54 @@ format:
     }
   }
 
+  // Render a single experience card
+  function renderExpCard(exp, index, completions) {
+    const completion = completions[exp.id];
+    const isComplete = !!completion;
+    const completedDate = completion ? new Date(completion.completedAt).toLocaleDateString() : null;
+
+    return `
+      <a href="${exp.url}" style="display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: ${isComplete ? '#0D2818' : '#16162A'}; border: 1px solid ${isComplete ? '#1A4731' : '#2D2D4A'}; border-radius: 10px; text-decoration: none; color: inherit; transition: border-color 0.2s;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='${isComplete ? '#1A4731' : '#2D2D4A'}'">
+        <span style="font-size: 28px;">${exp.emoji}</span>
+        <div style="flex: 1;">
+          <div style="font-weight: bold; color: #E2E8F0;">${index + 1}. ${exp.name}</div>
+          <div style="font-size: 13px; color: #64748B;">${exp.subtitle}</div>
+        </div>
+        <div style="text-align: right;">
+          ${isComplete
+            ? `<div style="color: #22C55E; font-weight: bold;">✓ Complete</div>
+               <div style="font-size: 12px; color: #64748B;">${completedDate}</div>`
+            : `<div style="color: #94A3B8;">Not started</div>`
+          }
+        </div>
+      </a>
+    `;
+  }
+
   // Render experience list
   function renderExperiences() {
     const container = document.getElementById('experience-list');
     const completions = getCompletions();
 
     let html = '';
-    experiences.forEach((exp, index) => {
-      const completion = completions[exp.id];
-      const isComplete = !!completion;
-      const completedDate = completion ? new Date(completion.completedAt).toLocaleDateString() : null;
 
-      html += `
-        <div style="display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: ${isComplete ? '#0D2818' : '#16162A'}; border: 1px solid ${isComplete ? '#1A4731' : '#2D2D4A'}; border-radius: 10px;">
-          <span style="font-size: 28px;">${exp.emoji}</span>
-          <div style="flex: 1;">
-            <div style="font-weight: bold; color: #E2E8F0;">${index + 1}. ${exp.name}</div>
-            <div style="font-size: 13px; color: #64748B;">${exp.subtitle}</div>
-          </div>
-          <div style="text-align: right;">
-            ${isComplete
-              ? `<div style="color: #22C55E; font-weight: bold;">✓ Complete</div>
-                 <div style="font-size: 12px; color: #64748B;">${completedDate}</div>`
-              : `<div style="color: #94A3B8;">Not started</div>`
-            }
-          </div>
-        </div>
-      `;
+    // Core experiences header
+    html += '<div style="font-family: \'Courier New\', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 4px;">Core Experiences</div>';
+    html += '<div style="font-size: 13px; color: #94A3B8; margin-bottom: 12px;">For all staff — teaching, research, and admin</div>';
+
+    coreExperiences.forEach((exp, index) => {
+      html += renderExpCard(exp, index + 1, completions);
+    });
+
+    // Separator
+    html += '<div style="border-top: 1px solid #2D2D4A; margin: 20px 0; position: relative;"><span style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: #16162A; padding: 0 12px; font-size: 12px; color: #64748B;">&#8226; &#8226; &#8226;</span></div>';
+
+    // Role-based experiences header
+    html += '<div style="font-family: \'Courier New\', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 4px;">Role-Based Experiences</div>';
+    html += '<div style="font-size: 13px; color: #94A3B8; margin-bottom: 12px;">Choose the ones relevant to your role</div>';
+
+    roleExperiences.forEach((exp, index) => {
+      html += renderExpCard(exp, coreExperiences.length + index + 1, completions);
     });
 
     container.innerHTML = html;
@@ -293,7 +323,7 @@ format:
     // Update stats
     const completedCount = countCompleted();
     document.getElementById('stat-completed').textContent = completedCount;
-    document.getElementById('stat-remaining').textContent = 5 - completedCount;
+    document.getElementById('stat-remaining').textContent = experiences.length - completedCount;
   }
 
   // Initialize
