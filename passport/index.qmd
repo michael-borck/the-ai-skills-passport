@@ -269,7 +269,7 @@ format:
   }
 
   // Render a single experience card
-  function renderExpCard(exp, index, completions) {
+  function renderExpCard(exp, completions) {
     const completion = completions[exp.id];
     const isComplete = !!completion;
     const completedDate = completion ? new Date(completion.completedAt).toLocaleDateString() : null;
@@ -278,7 +278,7 @@ format:
       <a href="${exp.url}" style="display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: ${isComplete ? '#0D2818' : '#16162A'}; border: 1px solid ${isComplete ? '#1A4731' : '#2D2D4A'}; border-radius: 10px; text-decoration: none; color: inherit; transition: border-color 0.2s;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='${isComplete ? '#1A4731' : '#2D2D4A'}'">
         <span style="font-size: 28px;">${exp.emoji}</span>
         <div style="flex: 1;">
-          <div style="font-weight: bold; color: #E2E8F0;">${index + 1}. ${exp.name}</div>
+          <div style="font-weight: bold; color: #E2E8F0;">${exp.name}</div>
           <div style="font-size: 13px; color: #64748B;">${exp.subtitle}</div>
         </div>
         <div style="text-align: right;">
@@ -303,8 +303,8 @@ format:
     html += '<div style="font-family: \'Courier New\', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 4px;">Core Experiences</div>';
     html += '<div style="font-size: 13px; color: #94A3B8; margin-bottom: 12px;">For all staff — teaching, research, and admin</div>';
 
-    coreExperiences.forEach((exp, index) => {
-      html += renderExpCard(exp, index + 1, completions);
+    coreExperiences.forEach(exp => {
+      html += renderExpCard(exp, completions);
     });
 
     // Separator
@@ -314,8 +314,8 @@ format:
     html += '<div style="font-family: \'Courier New\', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 4px;">Role-Based Experiences</div>';
     html += '<div style="font-size: 13px; color: #94A3B8; margin-bottom: 12px;">Choose the ones relevant to your role</div>';
 
-    roleExperiences.forEach((exp, index) => {
-      html += renderExpCard(exp, coreExperiences.length + index + 1, completions);
+    roleExperiences.forEach(exp => {
+      html += renderExpCard(exp, completions);
     });
 
     container.innerHTML = html;
