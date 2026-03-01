@@ -1,5 +1,9 @@
 # The AI Skills Passport
 
+<!-- BADGES:START -->
+[![ai-literacy](https://img.shields.io/badge/-ai--literacy-blue?style=flat-square)](https://github.com/topics/ai-literacy) [![assessment-design](https://img.shields.io/badge/-assessment--design-blue?style=flat-square)](https://github.com/topics/assessment-design) [![css](https://img.shields.io/badge/-css-1572b6?style=flat-square)](https://github.com/topics/css) [![curtin-university](https://img.shields.io/badge/-curtin--university-blue?style=flat-square)](https://github.com/topics/curtin-university) [![html](https://img.shields.io/badge/-html-e34f26?style=flat-square)](https://github.com/topics/html) [![modular-learning](https://img.shields.io/badge/-modular--learning-blue?style=flat-square)](https://github.com/topics/modular-learning) [![professional-development](https://img.shields.io/badge/-professional--development-blue?style=flat-square)](https://github.com/topics/professional-development) [![python](https://img.shields.io/badge/-python-3776ab?style=flat-square)](https://github.com/topics/python) [![self-paced-learning](https://img.shields.io/badge/-self--paced--learning-blue?style=flat-square)](https://github.com/topics/self-paced-learning) [![shell](https://img.shields.io/badge/-shell-blue?style=flat-square)](https://github.com/topics/shell)
+<!-- BADGES:END -->
+
 **Professional development for AI literacy. School of Marketing and Management, Curtin University.**
 
 ## The Philosophy: Learn Your Way
