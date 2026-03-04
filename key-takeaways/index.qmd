@@ -200,19 +200,19 @@ format:
       </div>
     </div>
 
-    <!-- 7: Pushing Back on AI — The VET Framework -->
+    <!-- 7: Don't Just Take AI's Word for It -->
     <div class="kt-card">
       <button class="kt-header" aria-expanded="false">
         <span class="kt-icon">🔍</span>
-        <span class="kt-title">Pushing Back on AI — The VET Framework</span>
+        <span class="kt-title">Don't Just Take AI's Word for It</span>
         <span class="kt-chevron">&#9658;</span>
       </button>
       <div class="kt-body">
-        <p class="kt-desc">A simple 3-step push-back framework to VET your AI — like vetting a source:</p>
+        <p class="kt-desc">AI sounds confident even when it's wrong. Before you use what it gives you, <strong>VET</strong> it — like vetting a source:</p>
         <ul style="margin: 0.5em 0 0.5em 1.2em; padding: 0; list-style: disc;">
           <li><strong>Verify</strong> — Can I find this independently? Check sources, cross-reference.</li>
-          <li><strong>Explain</strong> — Can I explain this in my own words? If not, you don't understand it.</li>
-          <li><strong>Test</strong> — Does this hold up under scrutiny? Devil's advocate it, edge cases.</li>
+          <li><strong>Explain</strong> — Can I explain this in my own words? If not, I don't understand it yet.</li>
+          <li><strong>Test</strong> — Does this hold up under scrutiny? Play devil's advocate, try edge cases.</li>
         </ul>
         <div class="kt-try">
           <div class="kt-try-label">Try this (10 min)</div>
