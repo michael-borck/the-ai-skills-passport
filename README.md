@@ -80,15 +80,22 @@ This design is intentionally **migration-ready**. When Blackboard retires (late 
 - Inline CSS only (Blackboard strips `<style>` tags)
 - Self-contained HTML files — no external dependencies
 
-### Progress Tracker
+### Progress Tracking
 
-A lightweight FastAPI server records experience completions and awards emoji badges:
+A **progress tracker server** has been developed (`server/app.py`) — a lightweight FastAPI + SQLite service that records experience completions and awards emoji badges:
 
 - 🧪 **Explorer** — completed 1 experience
 - 🧠 **Thinker** — completed 3 experiences
 - 🛠️ **Builder** — completed 5 experiences
+- 🏆 **Champion** — completed all 7 experiences
 
-SPAs fall back to localStorage when the server is unavailable.
+The server uses Blackboard's **URL variable substitution** (`@X@user.batch_uid@X@`) to identify users, passing the Blackboard UID as a query parameter when launching SPAs.
+
+**For this MVP, server integration has not been implemented within the SPAs.** Before connecting SPAs to the server, privacy and data governance questions around storing Blackboard UIDs need to be resolved — even on a Curtin University system. See [Data Governance](docs/data-governance.md) for details.
+
+Currently, the **My Passport** page uses **browser localStorage** to track progress. This keeps all data on the user's device with no server-side storage of identifiers.
+
+The server code is included in this repository as a reference implementation, ready for integration once data governance approval is obtained. See [Progress Tracker API](docs/progress-tracker-api.md) for the full API reference and [SPA Integration Guide](docs/spa-integration-guide.md) for the modifications needed to connect SPAs to the server.
 
 ## Project Structure
 
@@ -118,11 +125,14 @@ the-ai-skills-passport/
 ├── scripts/
 │   └── build.sh                # Render all SPAs and package
 └── docs/
-    ├── scaffold-guide.md       # Blackboard setup
-    ├── deployment-guide.md     # Build and deploy
-    ├── facilitator-guide.md    # Workshop facilitation
-    ├── brand-guide.md          # Colours, typography, style
-    └── accessibility-notes.md  # Accessibility considerations
+    ├── scaffold-guide.md          # Blackboard setup
+    ├── deployment-guide.md        # Build and deploy
+    ├── facilitator-guide.md       # Workshop facilitation
+    ├── brand-guide.md             # Colours, typography, style
+    ├── accessibility-notes.md     # Accessibility considerations
+    ├── data-governance.md         # Privacy and data governance
+    ├── progress-tracker-api.md    # Server API reference
+    └── spa-integration-guide.md   # SPA-to-server integration
 ```
 
 Each component is a Quarto project with `index.qmd`. The build script renders all of them and collects the self-contained HTML files into `dist/` for deployment.
@@ -158,6 +168,16 @@ All options use the same content, just different rhythms:
 | **AI in 5** | Weekly 5-minute micro-challenge delivered to your inbox |
 | **Weekly** | One experience per week for seven weeks |
 | **Workshop** | 2-hour face-to-face guided session |
+
+## Data Governance
+
+The progress tracker server stores **Blackboard UIDs** — personally identifiable information that maps to individual staff members. Although the SPAs are hosted within Blackboard (requiring a Curtin account to access), the server itself needs separate hosting. The database storing UIDs would sit outside Blackboard's institutional governance.
+
+Curtin does not currently appear to offer a sandbox environment suitable for hosting this kind of lightweight application under institutional data governance. Until these questions are resolved:
+
+- **This MVP uses browser localStorage only** — no server-side storage of user identifiers
+- The server code is included as a **reference implementation**, ready for integration once approval is obtained
+- See [docs/data-governance.md](docs/data-governance.md) for the full analysis and path forward
 
 ## Related Projects
 
