@@ -200,20 +200,25 @@ format:
       </div>
     </div>
 
-    <!-- 7: Done Beats Perfect -->
+    <!-- 7: Pushing Back on AI — The VET Framework -->
     <div class="kt-card">
       <button class="kt-header" aria-expanded="false">
-        <span class="kt-icon">🚀</span>
-        <span class="kt-title">Done Beats Perfect</span>
+        <span class="kt-icon">🔍</span>
+        <span class="kt-title">Pushing Back on AI — The VET Framework</span>
         <span class="kt-chevron">&#9658;</span>
       </button>
       <div class="kt-body">
-        <p class="kt-desc">You don't need to master AI before you use it. Try one thing. Get it wrong. Try again. The cost of waiting for certainty is higher than the cost of an imperfect start. Everyone who's confident with AI now started by fumbling through it.</p>
+        <p class="kt-desc">A simple 3-step push-back framework to VET your AI — like vetting a source:</p>
+        <ul style="margin: 0.5em 0 0.5em 1.2em; padding: 0; list-style: disc;">
+          <li><strong>Verify</strong> — Can I find this independently? Check sources, cross-reference.</li>
+          <li><strong>Explain</strong> — Can I explain this in my own words? If not, you don't understand it.</li>
+          <li><strong>Test</strong> — Does this hold up under scrutiny? Devil's advocate it, edge cases.</li>
+        </ul>
         <div class="kt-try">
-          <div class="kt-try-label">Try this (2 min)</div>
-          <p class="kt-try-text">Open any AI tool right now and ask it one question about something you're working on. Don't overthink the prompt. Just ask. See what happens.</p>
+          <div class="kt-try-label">Try this (10 min)</div>
+          <p class="kt-try-text">Ask AI a factual question about your field. Then VET the response: verify a claim independently, explain the answer in your own words, and test it with an edge case.</p>
         </div>
-        <a href="experiences/teaching-with-ai.html" class="kt-deeper">Go deeper: Working with AI →</a>
+        <a href="experiences/is-this-ai.html" class="kt-deeper">Go deeper: Is This AI? →</a>
       </div>
     </div>
 
