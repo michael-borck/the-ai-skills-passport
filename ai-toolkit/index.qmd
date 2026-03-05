@@ -2004,6 +2004,40 @@ Now write feedback in my style for:
       `
     },
     {
+      id: 'do-i-need-the-best-model',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Do I Need the Best Model?',
+      emoji: '💡',
+      summary: 'Why free-tier AI is enough for most staff use — and when premium tools are actually justified.',
+      downloads: {
+        html: 'downloads/do-i-need-the-best-model.html',
+        docx: 'downloads/do-i-need-the-best-model.docx',
+        pdf: 'downloads/do-i-need-the-best-model.pdf'
+      },
+      content: `
+        <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid #4F46E5;">
+          <p style="font-size: 18px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"Conversation amplifies thinking. A better model amplifies more. But the amplification only works if you're thinking in the first place."</p>
+        </div>
+
+        <p><strong>The core insight:</strong> The "must have the best frontier model" assumption is downstream of the Delegation mindset. If you're delegating, precision matters. If you're conversing, a willing thinking partner is enough — and free-tier models are willing enough.</p>
+
+        <p><strong>Free-tier tools that work for Conversation:</strong></p>
+        <ul>
+          <li><strong>Meta AI</strong> — free, no friction, solid for brainstorming</li>
+          <li><strong>Microsoft Copilot</strong> — available through Curtin's Microsoft 365</li>
+          <li><strong>ChatGPT / Claude / Gemini (free tiers)</strong> — capable for exploratory work</li>
+        </ul>
+
+        <p><strong>When premium is justified:</strong> Longer context windows, fewer interruptions, better reasoning on complex tasks. These are <em>conversation quality</em> improvements — they raise the ceiling on what you can explore, not what gets done for you. It's a workflow question, not a status question.</p>
+
+        <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>Ready-made reframe:</strong><br>
+          "The subscription buys a better conversation partner, not a better answer machine. I'm still doing the thinking — the quality of the back-and-forth just raises the ceiling on what I can explore."
+        </div>
+      `
+    },
+    {
       id: 'using-agentic-ai',
       category: 'guide',
       roles: ['teaching', 'research', 'admin'],
