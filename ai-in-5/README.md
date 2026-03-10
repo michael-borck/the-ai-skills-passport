@@ -1,23 +1,44 @@
-# AI in 5. Daily Micro-Challenges
+# AI in 5 — Weekly Micro-Challenges
 
-## Posting Guide
+One challenge per week, sent manually via group email.
 
-1. Open Blackboard > AI in 5 (Announcements)
-2. Create Announcement
-3. Paste the day's challenge from `content-bank.csv`
-4. Tick "Send a copy of this announcement immediately"
-5. Post (~2 minutes)
+## How It Works
 
-## Weekly Theme Schedule
+1. Staff subscribe via Microsoft Forms (link on the Arrivals Hall)
+2. Download the subscriber list from Forms, update the Outlook group email list
+3. Reset the Form responses after each download (prevents duplicates)
+4. Unsubscribes: staff email the AI Facilitator directly
+5. Open `content-bank.csv`, copy the week's challenge into an email, hit send
 
-| Day       | Theme    | Focus                        |
-|-----------|----------|------------------------------|
-| Monday    | Tools    | Try a specific AI tool       |
-| Tuesday   | Prompts  | Practice prompt writing      |
-| Wednesday | Ethics   | Discuss an ethical scenario   |
-| Thursday  | Practice | Apply AI to a real task      |
-| Friday    | Share    | Share what you tried → AI Exchange |
+## Content Bank Format
 
-## Content Bank
+`content-bank.csv` columns:
 
-Edit `content-bank.csv` to add new challenges. Batch-write a month at a time (~20 weekday entries).
+| Column | Description |
+|--------|-------------|
+| `week` | Week number (1–15) |
+| `theme` | Tools, Prompts, Ethics, Practice, or Share |
+| `subject` | Email subject line |
+| `concept` | The key takeaway being reinforced |
+| `challenge` | The main challenge text — what to try |
+| `teaching` | Application for teaching academics |
+| `research` | Application for researchers |
+| `professional` | Application for professional staff |
+| `sent` | Mark manually when sent (any value, e.g. a date) |
+
+## Email Structure
+
+Each email follows this format:
+
+**Subject:** AI in 5: [subject]
+
+**Body:**
+- The challenge (what to try this week)
+- Three role-specific applications (Teaching / Research / Professional)
+
+## Notes
+
+- 15 challenges = roughly one semester
+- Challenges can be sent in any order — use the `sent` column to track
+- Themes draw from the five core experiences and the eight key takeaways
+- Each challenge reinforces a concept (e.g. "conversation not delegation") without being preachy about it

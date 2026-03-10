@@ -93,28 +93,51 @@ format:
   <div style="margin-bottom: 24px;">
     <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Past Challenges</div>
 
-    <!-- CHALLENGES START — add new entries below, newest first -->
+    <!-- CHALLENGES START — add new entries above the end marker, newest first -->
 
     <!--
     TEMPLATE — copy this block for each new challenge:
 
-    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 20px; margin-bottom: 12px;">
-      <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <div style="font-size: 1.3rem; flex-shrink: 0;">EMOJI</div>
-        <div style="flex: 1;">
-          <div style="font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 6px;">CHALLENGE TYPE &bull; DD MMM YYYY</div>
-          <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC; line-height: 1.5; margin-bottom: 6px;">Challenge title or question here</div>
-          <div style="font-size: 0.9rem; color: #94A3B8; line-height: 1.6;">Additional context or follow-up questions here.</div>
-          <div style="margin-top: 8px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes</div>
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">EMOJI</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">WEEK N &bull; THEME &bull; DD MMM YYYY</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Challenge title here</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0; transition: transform 0.2s;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Challenge body text here.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Teaching:</strong> Tip here.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Tip here.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Tip here.
         </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: concept here</div>
       </div>
-    </div>
+    </details>
     -->
 
-    <!-- Placeholder until first challenge is posted -->
-    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 24px;">
-      <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.6;">Challenges will appear here as they are sent out. Check back after the first week.</div>
-    </div>
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128295;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 1 &bull; Tools &bull; 10 Mar 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The 30-Second Email Test</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Open an email you need to reply to. Click the Copilot button in Outlook and let it draft a response. Don&rsquo;t send it yet &mdash; just read what it wrote. How close was it to what you would have said? Now try option two: write a rough dot-point reply yourself, then ask Copilot to polish it. Which result sounds more like you? That difference is worth noticing.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Teaching:</strong> Let Copilot draft a reply to a student query about an assignment, then try giving it your rough notes to work from. Which version captures your tone and the nuance of what you actually mean?<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Let Copilot draft a reply to a collaborator&rsquo;s email about a paper revision both ways &mdash; from scratch, then from your rough points. Does starting with your words keep the disciplinary context that AI flattens into generic academic-speak?<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Let Copilot draft a reply to an internal request both ways &mdash; from nothing, then from your dot points. For routine emails, which approach needs less editing?
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Start with low-stakes tasks</div>
+      </div>
+    </details>
 
     <!-- CHALLENGES END -->
   </div>
