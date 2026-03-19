@@ -1,0 +1,305 @@
+> This content is from the AI Toolkit resource: Assessment AI Stress Test: Prompt Sequence, part of the AI Skills Passport for SoMM staff at Curtin University.
+
+# Assessment AI Stress Test: Prompt Sequence
+
+**Prepared by:** AI Facilitator, School of Marketing and Management
+**Works with:** Claude, ChatGPT, Microsoft Copilot, or any general-purpose AI tool
+**Time required:** 15-20 minutes
+
+---
+
+## Why This Matters Now
+
+AI tools available to students today do not just answer questions. They draft
+code, write essays, synthesise research, generate reflections, and when loaded
+with unit materials via tools like NotebookLM (a free tool that lets users
+upload documents and then ask questions across them), they can cross-reference
+lecture content, cite specific weeks, and produce output that reads as genuinely
+informed. This is not a future risk. It describes how sophisticated students are
+already working.
+
+The stress test is not designed to generate alarm. It is designed to give you
+an honest picture of where your assessment is robust and where it is not, so
+that any changes you choose to make are grounded in evidence rather than anxiety.
+
+---
+
+## A Note on Human Agency
+
+This sequence is designed to support your thinking, not replace it. The AI
+will give you a structured analysis but it does not know your students, your
+context, or what you are actually trying to teach. Push back on outputs that
+do not ring true. Add your own knowledge where the AI misses nuance. Stop
+mid-sequence and follow a thread that matters to you.
+
+The goal is not to get a clean report that says the assessment is safe or
+unsafe. The goal is to surface questions worth thinking about. A lecturer who
+has genuinely interrogated their own assessment design will make better
+decisions than one who outsourced that interrogation and accepted the result.
+
+The AI is the analyst. You are the assessor.
+
+A note on format: this is a prompt sequence rather than an app by design. An
+app would hide the reasoning, encourage dependency, and remove the flexibility
+to adapt mid-sequence when your assessment has a nuance the template did not
+anticipate. Running the prompts manually means you see exactly what is being
+asked, can modify a prompt on the fly, and are never just ratifying an output
+you did not follow. The prompts are meant to be read, not just run.
+
+---
+
+## How to Use This
+
+Work through the prompts in order in a single conversation session. Each prompt
+builds on the previous response so do not start a new chat between steps. Copy
+each prompt, paste it into your AI tool, then read the response before moving
+to the next one. Add your own follow-up questions at any point.
+
+These prompts work for any assessment type: essays, literature reviews, case
+studies, reports, presentations, reflective journals, programming projects, or
+any combination. The sequence adapts based on what you paste in.
+
+**Short on time?** If you only have 10 minutes, run Prompts 1, 2, 4, and 8.
+You will get the most important findings: what is most completable, where the
+weakest integrity point is, and whether the assessment holds up if AI use is
+fully declared. The other prompts add depth but those four give you the
+essential picture.
+
+---
+
+## Prompt 1: Set the Context
+
+> You are helping me stress test a university assessment from the perspective
+> of a student who uses AI tools strategically. Your job is not to judge the
+> assessment but to give me an honest picture of where AI can and cannot
+> contribute to a student submission.
+>
+> Assume the student has access to:
+> - A general-purpose AI assistant (Claude, ChatGPT, or similar)
+> - NotebookLM loaded with their own research infrastructure: lecture slides,
+>   weekly readings, marking rubrics, past examples, and anything they have
+>   found on the topic. Sophisticated students maintain a notebook per unit
+>   and a notebook per assignment, effectively giving them a personalised
+>   tutor with full context of everything they have consumed
+> - Coding assistants if the assessment involves programming
+>
+> Before I paste the assessment, I want you to keep one thing in mind: the
+> question is not just whether AI can produce the final artefact, but whether
+> a student could use AI to replicate the entire process of getting there,
+> the research, the synthesis, the argument development, the refinement.
+>
+> I will paste the assessment specification in the next message. Please confirm
+> you understand the task before I do.
+
+---
+
+## Prompt 2: Paste the Assessment
+
+> Here is the assessment specification. Please read it carefully before I ask
+> you any questions.
+>
+> [PASTE YOUR FULL ASSESSMENT SPECIFICATION HERE]
+>
+> Once you have read it, give me a brief one-paragraph summary of what the
+> assessment is asking students to produce, just to confirm you have understood
+> it correctly.
+
+---
+
+## Prompt 2b: Learning Outcome Anchor
+
+> Before we analyse the deliverables, here are the intended learning outcomes
+> for this unit or assessment:
+>
+> [PASTE YOUR LEARNING OUTCOMES HERE]
+>
+> For each learning outcome, tell me:
+> 1. Is this outcome most at risk of being *simulated* (AI produces something
+>    that looks like the outcome has been achieved without the student actually
+>    developing the capability) or *achieved* (the student genuinely develops
+>    the capability regardless of AI use)?
+> 2. What would a submitted artefact look like if the outcome was simulated
+>    rather than achieved?
+>
+> This is the most important analytical step. An assessment that produces
+> convincing simulations of its own learning outcomes is not assessing what
+> it claims to assess.
+
+---
+
+## Prompt 3: Completability Analysis
+
+> For each deliverable in the assessment, tell me:
+> 1. What percentage of it could AI draft effectively with minimal student
+>    effort?
+> 2. What would the student still need to contribute themselves?
+>
+> Be honest and specific. If a section is almost entirely AI-completable, say
+> so. Present your response as a table with three columns: Deliverable, AI
+> Completability, and What the Student Still Needs to Do.
+
+---
+
+## Prompt 4: Integrity Analysis
+
+> Now identify:
+> 1. The single weakest integrity point in this assessment. Where is a student
+>    most likely to submit AI-generated work with minimal personal engagement?
+> 2. The single strongest integrity point. What is the one component that most
+>    requires genuine student presence or understanding? There may be no fully
+>    robust point. If that is the case, say so explicitly rather than
+>    identifying the least weak option as though it were strong.
+> 3. Any commonly assumed safeguards that do not actually hold up under
+>    scrutiny. For example, is "personal authenticity" genuinely verifiable at
+>    scale?
+>
+> Keep this section honest and practical. I am not looking for reassurance.
+
+---
+
+## Prompt 5: The Engagement Spectrum
+
+> A student working the system could pass this assessment using AI with minimal
+> personal engagement. Describe the spectrum of how a student might actually
+> use AI on this assessment, from pure delegation at one end to genuine
+> collaborative thinking at the other.
+>
+> For each point on the spectrum, describe what the student's behaviour looks
+> like and what learning, if any, is still happening. The goal is to help me
+> understand where the real learning failure is, and how likely it is.
+
+---
+
+## Prompt 6: Practical Suggestions
+
+> Based on everything so far, give me three to five practical suggestions for
+> strengthening this assessment against low-engagement AI use.
+>
+> For each suggestion:
+> - Keep it realistic for a class of 50 to 100 students
+> - Note the approximate marking overhead it adds
+> - Flag if it requires any infrastructure or setup
+>
+> Frame these as options to consider, not a list of problems to fix. The
+> assessment may be releasing soon and a full redesign is not on the table.
+
+---
+
+## Prompt 7: Produce the Report
+
+> Now pull everything together into a short structured report I can share with
+> a colleague. Use these headings exactly:
+>
+> - Overview
+> - What AI Can Draft Effectively
+> - What AI Substitutes Less Easily (and why that is not the same as safe)
+> - Key Integrity Findings
+> - Practical Suggestions
+>
+> Tone should be collegial and constructive. This is feedback from one
+> colleague to another, not an audit. Keep the whole report concise, ideally
+> no more than two pages for a complex assessment. Avoid bullet point lists
+> inside sections where prose reads more naturally.
+
+---
+
+## Optional Follow-up Prompts
+
+Use these at any point if you want to go deeper on a specific area.
+
+**On collusion:**
+> Does this assessment create conditions that encourage collusion? How does
+> that compare to an assessment that requires students to submit their AI
+> conversation transcripts as part of the work?
+
+**On the video component (if applicable):**
+> The assessment includes a face-on-camera video component. How robust is this
+> as evidence of independent reasoning, as distinct from its learning value?
+> Rehearsing a scripted explanation has genuine learning value but is different
+> from demonstrating unrehearsed understanding. Which of those two things does
+> this video requirement actually assess, and how would you know the difference?
+
+**On GitHub commit history (if applicable):**
+> The assessment uses GitHub for submission. What would you look for in the
+> commit history to get a sense of genuine iterative engagement versus a
+> last-minute submission?
+
+**On reframing for staff:**
+> Draft a short paragraph I could use to explain to a colleague why assessing
+> how students use AI is more useful than trying to detect whether they used it.
+
+**On red-teaming the assessment (lightbulb moment):**
+> Write a 200-word sample of what a low-effort, high-AI submission would
+> actually look like for the hardest or most important component of this
+> assessment. Do not label it as AI-generated. Just produce it as a student
+> might submit it.
+>
+> Then tell me: would this sample pass? What would a marker need to look for
+> to distinguish it from a genuinely strong submission?
+
+This optional prompt tends to produce a concrete realisation for staff about
+the gap between what AI produces and what markers currently look for. Seeing
+the output is more persuasive than any amount of argument about
+AI-completability.
+
+---
+
+## Prompt 8: The Honesty Test
+
+This is the capstone prompt. Run it last.
+
+> Imagine a student submitted this assessment alongside a statement saying:
+> *"I used AI extensively to research, draft, refine, rehearse, and structure
+> this work."*
+>
+> Would the assessment still meaningfully discriminate between a student with
+> superficial understanding and one with deep understanding?
+>
+> Answer Yes, Partially, or No, and explain why. If the answer is Partially or
+> No, describe what would need to change about the assessment design for the
+> answer to become Yes.
+
+This prompt does three things. It collapses the AI-detection framing entirely,
+because it asks whether the assessment holds up even when AI use is fully
+declared. It aligns the analysis with a transparency-based approach rather than
+a policing one. And it produces a conclusion that is concrete enough to bring
+into an assessment design conversation or review panel.
+
+If the answer is Yes with strong reasons, the assessment is well-designed for
+the AI era. If the answer is Partially or No, that is the most useful finding
+the whole sequence produces.
+
+**On the marks split:**
+> If I wanted to shift the weighting of this assessment so that the process
+> (how the student used AI to develop their work) carries more marks than the
+> final artefact, what would that look like in practice? Suggest a marks split
+> and describe what the process component would require students to submit and
+> how a marker would assess it at scale.
+
+**On NotebookLM as student research infrastructure:**
+> A student maintains a NotebookLM notebook for this unit loaded with lecture
+> slides, readings, and the marking rubric, and a separate notebook for this
+> specific assignment loaded with everything they have found on the topic.
+> How does this change your completability analysis? What components, if any,
+> become harder for AI to complete when the student has built this kind of
+> personalised research context?
+
+**On essays and literature reviews:**
+> This assessment includes a written component. How credible would an
+> AI-assisted essay or literature review look to a marker? What specific
+> markers of genuine critical engagement should a rubric reward that AI
+> is less likely to produce convincingly?
+
+**On reflective writing:**
+> Reflective journals and personal learning logs feel resistant to AI but
+> are among the most completable formats once a student provides context.
+> How would you assess the reflective component of this assignment differently
+> to reward genuine reflection over AI-simulated reflection?
+
+---
+
+*This prompt sequence was developed through the SoMM AI Facilitator role.
+Share freely. Adapt for your own context.*
+
+This document was developed through conversation loop with
+Claude (Anthropic) and Copilot (Microsoft).

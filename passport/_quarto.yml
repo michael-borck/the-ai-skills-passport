@@ -8,3 +8,4 @@ format:
     minimal: true
     self-contained: true
     css: ../shared/brand.css
+    include-after-body: ../shared/favicon.html

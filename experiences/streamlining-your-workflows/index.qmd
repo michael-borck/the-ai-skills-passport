@@ -1,0 +1,818 @@
+---
+pagetitle: "Streamlining Your Workflows"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    toc: false
+---
+
+```{=html}
+<!-- Streamlining Your Workflows: AI for Professional Staff -->
+<!-- 30-60 minutes | Professional/Admin staff focused -->
+<!-- Stepped layout: linear forward, free backward -->
+
+<div id="experience-app" data-experience-id="streamlining-your-workflows" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1080px; margin: 0 auto; padding: 20px; background-color: #16162A; color: #E2E8F0; position: relative;">
+
+  <!-- Navigation -->
+  <nav class="sp-nav" data-page="streamlining-your-workflows">
+    <button class="sp-nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span class="sp-nav-icon">&#9776;</span>
+    </button>
+    <a href="../arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
+    <div class="sp-nav-menu">
+      <a href="../arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
+      <a href="../key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
+      <div class="sp-nav-group" data-group="experiences">
+        <a href="../experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
+        <div class="sp-nav-dropdown">
+          <a href="is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
+                <a href="what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+                <a href="rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+                <a href="teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+                <div class="sp-nav-separator"></div>
+                <a href="ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+                <a href="researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
+                <a href="streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
+        </div>
+      </div>
+      <div class="sp-nav-group" data-group="resources">
+        <a href="../resources.html" class="sp-nav-heading" data-nav="resources">Resources</a>
+        <div class="sp-nav-dropdown">
+          <a href="../ai-toolkit.html" class="sp-nav-item" data-nav="ai-toolkit">AI Toolkit</a>
+          <a href="../passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="../onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
+        </div>
+      </div>
+      <div class="sp-nav-group" data-group="more">
+        <a href="../more.html" class="sp-nav-heading" data-nav="more">More</a>
+        <div class="sp-nav-dropdown">
+          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
+          <a href="../ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
+          <a href="../contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
+          <a href="../about.html" class="sp-nav-item" data-nav="about">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+  (function() {
+    var toggle = document.querySelector('.sp-nav-toggle');
+    var menu = document.querySelector('.sp-nav-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function() {
+        var open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.sp-nav')) {
+          menu.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+    var nav = document.querySelector('.sp-nav');
+    var page = nav ? nav.getAttribute('data-page') : null;
+    if (page) {
+      var el = nav.querySelector('[data-nav="' + page + '"]');
+      if (el) {
+        el.classList.add('is-active');
+        var group = el.closest('.sp-nav-group');
+        if (group) group.classList.add('has-active-child');
+      }
+    }
+  })();
+  </script>
+
+
+  <!-- Header (always visible) -->
+  <div style="background: linear-gradient(135deg, #1E1E36 0%, #2D2D4A 50%, #4F46E5 100%); color: white; padding: 40px; border-radius: 12px; text-align: center; margin-bottom: 28px;">
+    <div style="font-size: 4rem; margin-bottom: 10px;">&#9881;&#65039;</div>
+    <h1 style="margin: 0; font-size: 2.5rem; font-weight: normal; letter-spacing: 2px;">STREAMLINING YOUR WORKFLOWS</h1>
+    <p style="margin: 10px 0 0 0; font-size: 1.3rem; opacity: 0.9;">AI for Professional Staff</p>
+    <p style="margin: 15px 0 0 0; font-size: 1rem; opacity: 0.7;">30-60 minutes</p>
+  </div>
+
+  <!-- ===== PROGRESS BAR ===== -->
+  <div id="progress-bar" style="display: flex; align-items: center; justify-content: center; gap: 0; margin-bottom: 28px; padding: 16px 12px; background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; flex-wrap: wrap;">
+    <!-- Steps are rendered by JS -->
+  </div>
+
+  <!-- ===== STEP 1: Welcome ===== -->
+  <div class="exp-step" data-step="1" style="display: none;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 28px;">
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 16px 0; font-size: 16px;">You keep the school running. Every day brings emails to draft, meetings to schedule, reports to compile, data to wrangle, and processes to manage. AI won't replace your judgement about how things work &mdash; but it can take the repetitive friction out of your day.</p>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0;">This experience helps you identify the tasks that eat your time, see how AI can help with the most common ones, and build a personal set of reusable prompts you can start using straight away.</p>
+    </div>
+
+    <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 28px;">
+      <h3 style="font-size: 14px; color: #86EFAC; margin: 0 0 12px 0; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px;">By the end of this experience, you will:</h3>
+      <ul style="margin: 0; padding-left: 20px; color: #4ADE80; line-height: 1.8;">
+        <li>Identify repetitive tasks in your daily work that AI can accelerate</li>
+        <li>Apply the conversation loop to a real workflow from your role</li>
+        <li>Build reusable prompts for your most common tasks</li>
+        <li>Know when AI helps and when it gets in the way</li>
+        <li>Create a personal AI efficiency playbook</li>
+      </ul>
+    </div>
+
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 28px;">
+      <h3 style="font-size: 18px; color: #E2E8F0; margin: 0 0 16px 0;">How this experience works</h3>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">This experience has <strong style="color: #E2E8F0;">6 steps</strong>. Work through at your own pace &mdash; everything is designed around your actual work.</p>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #4F46E5; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">1</span>
+          <span style="color: #CBD5E1; font-size: 14px;">Welcome &amp; Overview</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">2</span>
+          <span style="color: #64748B; font-size: 14px;">Spot the Bottlenecks</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">3</span>
+          <span style="color: #64748B; font-size: 14px;">AI for Common Tasks</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">4</span>
+          <span style="color: #64748B; font-size: 14px;">Build Your Prompt Templates</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">5</span>
+          <span style="color: #64748B; font-size: 14px;">Your Efficiency Playbook</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="background: #2D2D4A; color: #64748B; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">6</span>
+          <span style="color: #64748B; font-size: 14px;">Key Takeaways &amp; Completion</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(2)" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Let's Go &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 2: Spot the Bottlenecks ===== -->
+  <div class="exp-step" data-step="2" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 2 &mdash; Activity 1</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Spot the Bottlenecks</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Before you can streamline anything, you need to know where your time actually goes. This quick audit helps you identify the repetitive tasks that are prime candidates for AI assistance.</p>
+
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 20px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 8px 0;">Time Audit: Where does your time go?</h3>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 16px 0;">Select the tasks that take up a significant chunk of your week. Pick your <strong style="color: #E2E8F0;">top 3&ndash;5 time sinks</strong>.</p>
+
+        <div id="time-audit-grid" style="display: flex; flex-direction: column; gap: 8px;">
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Drafting emails and correspondence</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Composing, replying, following up</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Summarising meeting notes or minutes</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Turning messy notes into structured records</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Writing or updating reports</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Recurring reports, status updates, briefs</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Formatting documents and spreadsheets</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Making things look right, consistent layouts</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Scheduling and coordination</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Finding times, booking rooms, chasing RSVPs</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Answering recurring questions from colleagues</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">The same questions, different people, every week</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Compiling data from multiple sources</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Pulling numbers together, cross-referencing systems</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Reviewing and editing documents</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Proofreading, consistency checks, formatting fixes</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Creating agendas, briefs, or summaries</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Preparing documents for meetings and decisions</p>
+            </div>
+          </label>
+          <label style="display: flex; align-items: center; gap: 12px; background: #1E1E36; padding: 14px 16px; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;" onchange="this.style.borderColor = this.querySelector('input').checked ? '#4F46E5' : 'transparent'">
+            <input type="checkbox" style="width: 18px; height: 18px; accent-color: #4F46E5; flex-shrink: 0;">
+            <div>
+              <strong style="color: #C7D2FE; font-size: 14px;">Process documentation and how-to guides</strong>
+              <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">Writing up procedures so others can follow them</p>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">&#128161;</span>
+          <div>
+            <strong style="color: #86EFAC;">Key insight</strong>
+            <p style="margin: 8px 0 0 0; color: #4ADE80; line-height: 1.6;">Not every task is worth automating. The sweet spot is tasks that are <em>repetitive</em>, <em>structured</em>, and <em>low-risk</em> &mdash; where a mistake is easy to catch and fix.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2x2 Matrix -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 20px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 16px 0;">The AI Suitability Matrix</h3>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 16px 0;">Where do your selected tasks fall?</p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: #2D2D4A; border-radius: 8px; overflow: hidden;">
+          <!-- Top-left: High frequency + Low complexity -->
+          <div style="background: #0D2818; padding: 16px;">
+            <div style="font-size: 12px; color: #86EFAC; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">High Frequency + Low Complexity</div>
+            <strong style="color: #22C55E; font-size: 15px;">Perfect for AI</strong>
+            <p style="margin: 8px 0 0 0; color: #4ADE80; font-size: 13px; line-height: 1.5;">Emails, summaries, formatting, standard replies. Delegate these confidently and review the output.</p>
+          </div>
+          <!-- Top-right: High frequency + High complexity -->
+          <div style="background: #1E1B4B; padding: 16px;">
+            <div style="font-size: 12px; color: #A5B4FC; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">High Frequency + High Complexity</div>
+            <strong style="color: #818CF8; font-size: 15px;">AI as Thinking Partner</strong>
+            <p style="margin: 8px 0 0 0; color: #A5B4FC; font-size: 13px; line-height: 1.5;">Reports, analysis, stakeholder comms. Use AI to draft, challenge, and refine &mdash; but you drive.</p>
+          </div>
+          <!-- Bottom-left: Low frequency + Low complexity -->
+          <div style="background: #1E1E36; padding: 16px;">
+            <div style="font-size: 12px; color: #94A3B8; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Low Frequency + Low Complexity</div>
+            <strong style="color: #64748B; font-size: 15px;">Probably Not Worth It</strong>
+            <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 13px; line-height: 1.5;">One-off simple tasks. The time spent setting up the prompt exceeds the time saved.</p>
+          </div>
+          <!-- Bottom-right: Low frequency + High complexity -->
+          <div style="background: #3D2E0A; padding: 16px;">
+            <div style="font-size: 12px; color: #FCD34D; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Low Frequency + High Complexity</div>
+            <strong style="color: #F59E0B; font-size: 15px;">Use AI Carefully</strong>
+            <p style="margin: 8px 0 0 0; color: #FCD34D; font-size: 13px; line-height: 1.5;">Annual reports, policy drafts, complex processes. AI can help, but verify everything. High stakes mean higher scrutiny.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(3)" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 3: AI for Common Tasks ===== -->
+  <div class="exp-step" data-step="3" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 3 &mdash; Activity 2</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">AI for Common Tasks</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">Here are practical examples of AI applied to the tasks professional staff do every day. Each section includes a template prompt you can copy and adapt. Click each category to expand it.</p>
+
+      <!-- Accordion: Email & Correspondence -->
+      <div style="margin-bottom: 12px;">
+        <button onclick="toggleAccordion('acc-email', this)" style="width: 100%; text-align: left; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; color: #E2E8F0; font-size: 16px; font-weight: bold;">
+          <span>&#9993;&#65039; Email &amp; Correspondence</span>
+          <span style="font-size: 12px; color: #64748B; transition: transform 0.2s;">&#9660;</span>
+        </button>
+        <div id="acc-email" style="display: none; background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 8px 8px; padding: 20px;">
+          <h4 style="color: #C7D2FE; margin: 0 0 12px 0; font-size: 15px;">The difference a good prompt makes</h4>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+            <div style="background: #2D1A1A; border: 1px solid #7F1D1D; border-radius: 8px; padding: 14px;">
+              <div style="font-size: 11px; color: #FCA5A5; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Vague prompt</div>
+              <p style="color: #FDA4AF; font-size: 13px; margin: 0; font-style: italic;">"Write a reply to this email."</p>
+              <p style="color: #94A3B8; font-size: 12px; margin: 8px 0 0 0;">Generic, misses tone, may not address the real issue.</p>
+            </div>
+            <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 8px; padding: 14px;">
+              <div style="font-size: 11px; color: #86EFAC; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Conversation-loop prompt</div>
+              <p style="color: #4ADE80; font-size: 13px; margin: 0; font-style: italic;">"I need to respond to a stakeholder who's unhappy about a delayed timeline. Key points: the delay is due to a vendor issue, we have a new target date of March 30, and we want to maintain the relationship. Tone: professional but empathetic. Draft a response, then tell me what you assumed about the situation."</p>
+              <p style="color: #94A3B8; font-size: 12px; margin: 8px 0 0 0;">Specific context, clear tone, and asks AI to surface its assumptions so you can correct them.</p>
+            </div>
+          </div>
+
+          <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+            <div style="font-size: 11px; color: #A5B4FC; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">&#128203; Template prompt &mdash; Try it now</div>
+            <p style="color: #C7D2FE; font-size: 14px; margin: 0; line-height: 1.6; font-family: 'Courier New', monospace;">I need to respond to [describe email]. The key points to address are [list]. Tone should be [professional/firm/warm]. Draft a response, then tell me what you assumed about the situation.</p>
+          </div>
+          <p style="color: #64748B; font-size: 12px; margin: 0;">Copy this prompt, fill in the blanks, and paste it into your AI tool of choice.</p>
+        </div>
+      </div>
+
+      <!-- Accordion: Meeting Minutes & Summaries -->
+      <div style="margin-bottom: 12px;">
+        <button onclick="toggleAccordion('acc-meetings', this)" style="width: 100%; text-align: left; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; color: #E2E8F0; font-size: 16px; font-weight: bold;">
+          <span>&#128221; Meeting Minutes &amp; Summaries</span>
+          <span style="font-size: 12px; color: #64748B; transition: transform 0.2s;">&#9660;</span>
+        </button>
+        <div id="acc-meetings" style="display: none; background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 8px 8px; padding: 20px;">
+          <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">One of the highest-value uses of AI: paste your rough notes from a meeting and get structured minutes in seconds. You still need to check accuracy, but the formatting and organisation work is done.</p>
+
+          <div style="background: #1E1E36; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+            <strong style="color: #C7D2FE;">How it works:</strong>
+            <ol style="color: #94A3B8; line-height: 1.8; margin: 8px 0 0 0; padding-left: 20px;">
+              <li>Take rough notes during the meeting (dot points, fragments, whatever works)</li>
+              <li>Paste them into your AI tool with the template prompt below</li>
+              <li>Review the output &mdash; fix names, check action items, verify decisions</li>
+              <li>Share or file the polished version</li>
+            </ol>
+          </div>
+
+          <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+            <div style="font-size: 11px; color: #A5B4FC; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">&#128203; Template prompt &mdash; Try it now</div>
+            <p style="color: #C7D2FE; font-size: 14px; margin: 0; line-height: 1.6; font-family: 'Courier New', monospace;">Here are my rough notes from [meeting name/date]. Summarise into: attendees, key decisions, action items with owners, and next steps. Flag anything that seems unclear or contradictory.</p>
+          </div>
+          <p style="color: #64748B; font-size: 12px; margin: 0;">Tip: If you have a Teams recording transcript, you can paste that in too. Ask AI to pull out just the decisions and actions.</p>
+        </div>
+      </div>
+
+      <!-- Accordion: Reports & Documents -->
+      <div style="margin-bottom: 12px;">
+        <button onclick="toggleAccordion('acc-reports', this)" style="width: 100%; text-align: left; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; color: #E2E8F0; font-size: 16px; font-weight: bold;">
+          <span>&#128196; Reports &amp; Documents</span>
+          <span style="font-size: 12px; color: #64748B; transition: transform 0.2s;">&#9660;</span>
+        </button>
+        <div id="acc-reports" style="display: none; background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 8px 8px; padding: 20px;">
+          <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">AI is better at refining your existing work than generating from scratch. Use it to restructure, tighten, and identify gaps &mdash; not to write your documents for you.</p>
+
+          <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 8px; padding: 14px; margin-bottom: 12px;">
+            <div style="display: flex; align-items: flex-start; gap: 10px;">
+              <span style="font-size: 20px;">&#9888;&#65039;</span>
+              <div>
+                <strong style="color: #FBBF24;">Important: Start with your own content</strong>
+                <p style="margin: 6px 0 0 0; color: #FCD34D; font-size: 13px; line-height: 1.5;">Never ask AI to write a report from nothing. Write your rough draft first &mdash; even if it is messy &mdash; then use AI to help you improve it. You know the context; AI does not.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+            <div style="font-size: 11px; color: #A5B4FC; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">&#128203; Template prompt &mdash; Try it now</div>
+            <p style="color: #C7D2FE; font-size: 14px; margin: 0; line-height: 1.6; font-family: 'Courier New', monospace;">Here is a draft of [document type]. Help me: 1) tighten the language, 2) identify any gaps in logic, 3) suggest a clearer structure. Do not rewrite it &mdash; give me specific suggestions I can act on.</p>
+          </div>
+          <p style="color: #64748B; font-size: 12px; margin: 0;">This approach keeps you in control of the content while using AI for the editing grunt work.</p>
+        </div>
+      </div>
+
+      <!-- Accordion: Process Documentation -->
+      <div style="margin-bottom: 12px;">
+        <button onclick="toggleAccordion('acc-process', this)" style="width: 100%; text-align: left; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; color: #E2E8F0; font-size: 16px; font-weight: bold;">
+          <span>&#128209; Process Documentation</span>
+          <span style="font-size: 12px; color: #64748B; transition: transform 0.2s;">&#9660;</span>
+        </button>
+        <div id="acc-process" style="display: none; background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 8px 8px; padding: 20px;">
+          <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">Every team has processes that live in one person's head. AI is excellent at turning "the way we've always done it" into clear, written procedures &mdash; especially when you describe the process conversationally and let AI structure it.</p>
+
+          <div style="background: #1E1E36; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+            <strong style="color: #C7D2FE;">Why this matters:</strong>
+            <ul style="color: #94A3B8; line-height: 1.8; margin: 8px 0 0 0; padding-left: 20px;">
+              <li>Reduces "bus factor" &mdash; if that person is away, work still gets done</li>
+              <li>Saves time training new team members</li>
+              <li>Surfaces steps you have been doing on autopilot (and might want to streamline)</li>
+            </ul>
+          </div>
+
+          <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+            <div style="font-size: 11px; color: #A5B4FC; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">&#128203; Template prompt &mdash; Try it now</div>
+            <p style="color: #C7D2FE; font-size: 14px; margin: 0; line-height: 1.6; font-family: 'Courier New', monospace;">I'm going to describe a process step by step. Turn it into a clear, numbered procedure document that someone new to the role could follow. Ask me clarifying questions before you start writing.</p>
+          </div>
+          <p style="color: #64748B; font-size: 12px; margin: 0;">The magic here is the last line: "Ask me clarifying questions before you start writing." This turns a one-shot prompt into a conversation that produces a much better result.</p>
+        </div>
+      </div>
+
+      <!-- Accordion: Data & Spreadsheets -->
+      <div style="margin-bottom: 12px;">
+        <button onclick="toggleAccordion('acc-data', this)" style="width: 100%; text-align: left; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; color: #E2E8F0; font-size: 16px; font-weight: bold;">
+          <span>&#128202; Data &amp; Spreadsheets</span>
+          <span style="font-size: 12px; color: #64748B; transition: transform 0.2s;">&#9660;</span>
+        </button>
+        <div id="acc-data" style="display: none; background: #16162A; border: 1px solid #2D2D4A; border-top: none; border-radius: 0 0 8px 8px; padding: 20px;">
+          <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 12px 0;">You do not need to be a spreadsheet wizard. AI can explain formulas, help you clean messy data, and describe how to build pivot tables &mdash; in plain language.</p>
+
+          <div style="background: #1E1E36; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+            <strong style="color: #C7D2FE;">Common use cases:</strong>
+            <ul style="color: #94A3B8; line-height: 1.8; margin: 8px 0 0 0; padding-left: 20px;">
+              <li><strong style="color: #CBD5E1;">Formula help:</strong> "How do I write a VLOOKUP to match student IDs across two sheets?"</li>
+              <li><strong style="color: #CBD5E1;">Data cleaning:</strong> "I have dates in three different formats. How do I standardise them?"</li>
+              <li><strong style="color: #CBD5E1;">Pivot tables:</strong> "I need to summarise enrolments by unit and semester. Walk me through a pivot table."</li>
+              <li><strong style="color: #CBD5E1;">Conditional formatting:</strong> "Highlight rows where the budget variance is more than 10%."</li>
+            </ul>
+          </div>
+
+          <div style="background: #1E1B4B; border: 2px solid #4F46E5; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+            <div style="font-size: 11px; color: #A5B4FC; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">&#128203; Template prompt &mdash; Try it now</div>
+            <p style="color: #C7D2FE; font-size: 14px; margin: 0; line-height: 1.6; font-family: 'Courier New', monospace;">I have a spreadsheet with [describe columns]. I need to [describe goal]. What formula or approach would work? Explain it so I understand the logic, not just the answer.</p>
+          </div>
+          <p style="color: #64748B; font-size: 12px; margin: 0;">The "explain the logic" part matters &mdash; next time you face a similar problem, you will know how to solve it yourself.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(4)" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 4: Build Your Prompt Templates ===== -->
+  <div class="exp-step" data-step="4" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 4 &mdash; Activity 3</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Build Your Prompt Templates</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">The most effective AI users don't start from scratch each time. They build a library of go-to prompts tailored to their actual work. Think of these as reusable forms &mdash; the structure stays the same, only the specifics change.</p>
+
+      <div style="background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">&#128161;</span>
+          <div>
+            <strong style="color: #86EFAC;">What makes a good template prompt?</strong>
+            <p style="margin: 8px 0 0 0; color: #4ADE80; line-height: 1.6;">A good template has blanks you fill in each time &mdash; like a form. Include: what the task is, what context the AI needs, what format you want the output in, and what you should check afterward.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Template 1: Most frequent task -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+          <span style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; flex-shrink: 0;">1</span>
+          <h3 style="font-size: 16px; color: #E2E8F0; margin: 0;">Your most frequent task</h3>
+        </div>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 12px 0;">Think about something you do every week. Write a reusable prompt that you could paste in each time, filling in just the specifics.</p>
+        <textarea id="template-frequent" placeholder="Example: I need to write a weekly update email to [recipient]. This week's key points are [list]. Tone should be [brief/detailed]. Include any action items for the recipient." style="width: 100%; min-height: 120px; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 14px; color: #E2E8F0; font-size: 14px; font-family: 'Courier New', monospace; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      </div>
+
+      <!-- Template 2: Most time-consuming task -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+          <span style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; flex-shrink: 0;">2</span>
+          <h3 style="font-size: 16px; color: #E2E8F0; margin: 0;">Your most time-consuming task</h3>
+        </div>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 12px 0;">What task eats hours of your week? Write a prompt that could cut that time significantly.</p>
+        <textarea id="template-timeconsuming" placeholder="Example: Here are my rough notes from [meeting]. Organise them into: attendees, key decisions, action items (with owners and deadlines), and next steps. Flag anything that seems incomplete." style="width: 100%; min-height: 120px; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 14px; color: #E2E8F0; font-size: 14px; font-family: 'Courier New', monospace; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      </div>
+
+      <!-- Template 3: Most dreaded task -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+          <span style="background: #4F46E5; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; flex-shrink: 0;">3</span>
+          <h3 style="font-size: 16px; color: #E2E8F0; margin: 0;">Your most dreaded task</h3>
+        </div>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 12px 0;">The one you keep putting off. Sometimes AI removes just enough friction to make you actually start.</p>
+        <textarea id="template-dreaded" placeholder="Example: I need to document the [process name] procedure. I'll describe the steps conversationally. Turn my description into a clear, numbered how-to document. Ask clarifying questions before writing." style="width: 100%; min-height: 120px; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 14px; color: #E2E8F0; font-size: 14px; font-family: 'Courier New', monospace; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      </div>
+
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(5)" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 5: Your Efficiency Playbook ===== -->
+  <div class="exp-step" data-step="5" style="display: none;">
+    <div style="margin-bottom: 32px;">
+      <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 12px;">Step 5 &mdash; Activity 4</div>
+      <h2 style="font-size: 22px; color: #E2E8F0; margin: 0 0 16px 0;">Your Efficiency Playbook</h2>
+      <p style="color: #94A3B8; line-height: 1.7; margin: 0 0 20px 0;">You've identified your bottlenecks, seen AI applied to common tasks, and built your first prompt templates. Now pull it all together into a playbook you can actually use on Monday morning.</p>
+
+      <!-- Playbook Section 1: AI-ready tasks -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 8px 0;">&#9989; My top 3 AI-ready tasks</h3>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 12px 0;">The tasks where AI will save you the most time this week.</p>
+        <textarea id="playbook-ready" placeholder="1. Weekly status update emails&#10;2. Meeting minutes from team meetings&#10;3. Formatting the monthly activity report" style="width: 100%; min-height: 100px; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 14px; color: #E2E8F0; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      </div>
+
+      <!-- Playbook Section 2: Tasks NOT for AI -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 8px 0;">&#128683; Tasks I should NOT use AI for</h3>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 12px 0;">Equally important &mdash; knowing your boundaries.</p>
+        <textarea id="playbook-not" placeholder="- Anything involving confidential HR or student data&#10;- Sensitive communications with external stakeholders&#10;- Financial approvals and sign-offs" style="width: 100%; min-height: 100px; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 14px; color: #E2E8F0; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      </div>
+
+      <!-- Playbook Section 3: Go-to prompts -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 8px 0;">&#128203; My go-to prompts</h3>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 12px 0;">Copy your best prompts from Step 4, or write new ones. Keep these somewhere handy &mdash; a note, a bookmark, a pinned document.</p>
+        <textarea id="playbook-prompts" placeholder="Paste your best prompt templates here for easy reference..." style="width: 100%; min-height: 120px; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 14px; color: #E2E8F0; font-size: 14px; font-family: 'Courier New', monospace; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      </div>
+
+      <!-- Playbook Section 4: Verification checklist -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 16px;">
+        <h3 style="font-size: 16px; color: #E2E8F0; margin: 0 0 8px 0;">&#128270; My verification checklist</h3>
+        <p style="color: #94A3B8; font-size: 14px; margin: 0 0 12px 0;">What do you always check before sending AI-assisted work?</p>
+        <textarea id="playbook-verify" placeholder="- Are all names, dates, and numbers correct?&#10;- Does the tone match what I'd actually write?&#10;- Have I removed any AI-generated filler language?&#10;- Does this contain any confidential information it shouldn't?&#10;- Would I be comfortable if someone knew AI helped with this?" style="width: 100%; min-height: 120px; background: #1E1E36; border: 1px solid #2D2D4A; border-radius: 8px; padding: 14px; color: #E2E8F0; font-size: 14px; line-height: 1.6; resize: vertical; box-sizing: border-box;"></textarea>
+      </div>
+
+      <!-- When NOT to use AI callout -->
+      <div style="background: #3D2E0A; border: 1px solid #F59E0B; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">&#9888;&#65039;</span>
+          <div>
+            <strong style="color: #FBBF24;">When NOT to use AI</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 20px; color: #FCD34D; line-height: 1.8;">
+              <li><strong>Confidential data</strong> &mdash; HR matters, student records, or financial data, unless your AI tool is specifically approved for this</li>
+              <li><strong>High-stakes communications</strong> &mdash; where tone nuance matters more than speed (complaints, grievances, sensitive negotiations)</li>
+              <li><strong>Deep understanding required</strong> &mdash; when you need to understand the content deeply, use AI to help you think, not to skip thinking</li>
+              <li><strong>Setup exceeds savings</strong> &mdash; if crafting the prompt takes longer than just doing the task, just do the task</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Role-specific reflection -->
+      <div style="background: #1E1B4B; border: 1px solid #4338CA; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="font-size: 24px;">&#129300;</span>
+          <div>
+            <strong style="color: #A5B4FC;">Reflection</strong>
+            <p style="margin: 8px 0 0 0; color: #C7D2FE; line-height: 1.6;">Think about one process in your area that multiple people struggle with. Could you document it with AI's help and share it with your team? That's how individual efficiency becomes team efficiency.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+      <button onclick="goToStep(6)" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 40px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;">Continue &#8594;</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 6: Key Takeaways & Completion ===== -->
+  <div class="exp-step" data-step="6" style="display: none;">
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+      <h2 style="font-size: 20px; color: #E2E8F0; margin: 0 0 16px 0;">Key Takeaways</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>The sweet spot for AI is repetitive, structured, low-risk tasks.</strong> Emails, meeting minutes, formatting, and standard correspondence are where you will see the biggest time savings with the least risk.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Start with your own content &mdash; AI refines better than it creates.</strong> Write your rough draft, your messy notes, your brain dump. Then let AI help you organise, tighten, and polish.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Build reusable prompt templates, not one-off prompts.</strong> The real efficiency comes from having go-to prompts you can fill in and reuse, not crafting something new every time.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>Always know what NOT to use AI for.</strong> Confidentiality, judgement calls, and high-stakes communications are yours. AI is a tool, not a substitute for professional responsibility.</p>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <span style="color: #22C55E; font-size: 20px;">&#10003;</span>
+          <p style="margin: 0; color: #CBD5E1; line-height: 1.6;"><strong>The goal is to free up time for the work that actually needs you.</strong> The less time you spend on mechanical tasks, the more time you have for the thinking, relationships, and problem-solving that make you valuable.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Completion Section -->
+    <div id="completion-section" style="display: none; background: linear-gradient(135deg, #0D2818, #1A3A2A); border: 2px solid #22C55E; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+      <div style="font-size: 48px; margin-bottom: 16px;">&#127881;</div>
+      <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; color: #86EFAC; margin: 0 0 12px 0;">Experience Complete!</h2>
+      <p style="font-size: 16px; color: #4ADE80; line-height: 1.6; margin: 0 0 20px 0;">Great work! Your progress has been recorded.</p>
+      <div id="badge-progress" style="background: #16162A; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
+        <p style="font-size: 14px; color: #64748B; margin: 0;">Checking your badge progress...</p>
+      </div>
+      <a href="#" id="next-experience-link" style="display: inline-block; background: #22C55E; color: white; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: bold;">Continue to Next Experience</a>
+    </div>
+
+    <div id="completion-trigger" style="background: #1E1E36; border: 2px solid #2D2D4A; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+      <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; color: #E2E8F0; margin: 0 0 12px 0;">Ready to mark this experience complete?</h3>
+      <p style="font-size: 14px; color: #64748B; line-height: 1.6; margin: 0 0 20px 0;">Once you have worked through the activities above, click below to record your progress.</p>
+      <button id="complete-btn" onclick="recordCompletion()" style="background: linear-gradient(135deg, #4F46E5, #7C3AED); color: white; border: none; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: transform 0.2s ease;">
+        Mark as Complete
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  var experienceId = 'streamlining-your-workflows';
+  var TOTAL_STEPS = 6;
+  var STORAGE_KEY = 'ai-passport-steps-streamlining-your-workflows';
+  var urlParams = new URLSearchParams(window.location.search);
+  var uid = urlParams.get('uid') || 'anonymous';
+
+  // Step names for progress bar
+  var stepNames = ['', 'Welcome', 'Bottlenecks', 'Common Tasks', 'Prompt Templates', 'Playbook', 'Complete'];
+
+  // ---- Step state ----
+  var currentStep = 1;
+  var highestCompleted = 0;
+
+  function loadStepProgress() {
+    try {
+      var saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      highestCompleted = saved.highestCompleted || 0;
+      currentStep = saved.currentStep || 1;
+      if (currentStep > highestCompleted + 1) currentStep = highestCompleted + 1;
+    } catch (e) {
+      highestCompleted = 0;
+      currentStep = 1;
+    }
+  }
+
+  function saveStepProgress() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      highestCompleted: highestCompleted,
+      currentStep: currentStep
+    }));
+  }
+
+  // ---- Progress bar rendering ----
+  function renderProgressBar() {
+    var bar = document.getElementById('progress-bar');
+    var html = '';
+
+    for (var i = 1; i <= TOTAL_STEPS; i++) {
+      var isCompleted = i <= highestCompleted;
+      var isCurrent = i === currentStep;
+      var isLocked = i > highestCompleted + 1;
+
+      // Connector line (before each step except the first)
+      if (i > 1) {
+        html += '<div style="flex: 1; max-width: 40px; height: 2px; background: ' +
+          (i <= highestCompleted + 1 ? '#4F46E5' : '#2D2D4A') +
+          '; align-self: center;"></div>';
+      }
+
+      // Step circle
+      var bg, color, border, cursor, opacity;
+      if (isCurrent) {
+        bg = '#4F46E5'; color = 'white'; border = '2px solid #7C3AED'; cursor = 'default'; opacity = '1';
+      } else if (isCompleted) {
+        bg = '#0D2818'; color = '#22C55E'; border = '2px solid #22C55E'; cursor = 'pointer'; opacity = '1';
+      } else {
+        bg = '#1E1E36'; color = '#64748B'; border = '2px solid #2D2D4A'; cursor = 'default'; opacity = '0.5';
+      }
+
+      var clickHandler = isCompleted ? 'onclick="goToStep(' + i + ')"' : '';
+      var title = isLocked ? 'Complete previous steps first' : stepNames[i];
+
+      html += '<div ' + clickHandler + ' title="' + title + '" style="' +
+        'width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; ' +
+        'font-size: 13px; font-weight: bold; flex-shrink: 0; transition: all 0.2s; ' +
+        'background: ' + bg + '; color: ' + color + '; border: ' + border + '; cursor: ' + cursor + '; opacity: ' + opacity + ';">' +
+        (isCompleted && !isCurrent ? '&#10003;' : i) + '</div>';
+    }
+
+    bar.innerHTML = html;
+  }
+
+  // ---- Step navigation ----
+  function showStep(step) {
+    var allSteps = document.querySelectorAll('.exp-step');
+    for (var s = 0; s < allSteps.length; s++) {
+      allSteps[s].style.display = 'none';
+    }
+
+    var target = document.querySelector('.exp-step[data-step="' + step + '"]');
+    if (target) {
+      target.style.display = 'block';
+    }
+
+    currentStep = step;
+
+    if (step - 1 > highestCompleted) {
+      highestCompleted = step - 1;
+    }
+
+    saveStepProgress();
+    renderProgressBar();
+
+    document.getElementById('experience-app').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  window.goToStep = function(step) {
+    if (step >= 1 && step <= TOTAL_STEPS && step <= highestCompleted + 2) {
+      showStep(step);
+    }
+  };
+
+  // ---- Accordion toggle ----
+  window.toggleAccordion = function(id, btn) {
+    var el = document.getElementById(id);
+    if (el.style.display === 'none') {
+      el.style.display = 'block';
+      btn.style.borderRadius = '8px 8px 0 0';
+    } else {
+      el.style.display = 'none';
+      btn.style.borderRadius = '8px';
+    }
+  };
+
+  // ---- Completion tracking ----
+  var badges = {
+    1: { emoji: '\uD83E\uDDEA', name: 'Explorer' },
+    3: { emoji: '\uD83E\uDDE0', name: 'Thinker' },
+    5: { emoji: '\uD83D\uDEE0\uFE0F', name: 'Builder' },
+    7: { emoji: '\uD83C\uDFC6', name: 'Champion' }
+  };
+
+  window.recordCompletion = function() {
+    var btn = document.getElementById('complete-btn');
+    btn.disabled = true;
+    btn.textContent = 'Recording...';
+    btn.style.background = '#94A3B8';
+
+    highestCompleted = TOTAL_STEPS;
+    saveStepProgress();
+    renderProgressBar();
+
+    saveToLocalStorage();
+    showCompletionSuccess();
+  };
+
+  function saveToLocalStorage() {
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    completions[experienceId] = {
+      completedAt: new Date().toISOString(),
+      uid: uid
+    };
+    localStorage.setItem('ai-passport-completions', JSON.stringify(completions));
+  }
+
+  function showCompletionSuccess() {
+    document.getElementById('completion-trigger').style.display = 'none';
+    document.getElementById('completion-section').style.display = 'block';
+
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    var completedCount = Object.keys(completions).length;
+
+    var badgeHtml = '';
+    var nextBadge = null;
+
+    for (var count in badges) {
+      if (completedCount >= parseInt(count)) {
+        badgeHtml += '<span style="font-size: 24px; margin: 0 4px;" title="' + badges[count].name + '">' + badges[count].emoji + '</span>';
+      } else if (!nextBadge) {
+        nextBadge = { count: parseInt(count), emoji: badges[count].emoji, name: badges[count].name };
+      }
+    }
+
+    var progressText = '<div style="margin-bottom: 8px;">' + (badgeHtml || '<span style="color: #94A3B8;">Start your collection!</span>') + '</div>';
+    progressText += '<p style="font-size: 13px; color: #64748B; margin: 0;">' + completedCount + ' experience' + (completedCount !== 1 ? 's' : '') + ' completed</p>';
+
+    if (nextBadge) {
+      progressText += '<p style="font-size: 12px; color: #94A3B8; margin: 4px 0 0 0;">Next badge: ' + nextBadge.emoji + ' ' + nextBadge.name + ' (' + (nextBadge.count - completedCount) + ' more)</p>';
+    }
+
+    document.getElementById('badge-progress').innerHTML = progressText;
+  }
+
+  function checkExistingCompletion() {
+    var completions = JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    if (completions[experienceId]) {
+      document.getElementById('completion-trigger').innerHTML =
+        '<div style="color: #22C55E; font-size: 24px; margin-bottom: 8px;">&#10003;</div>' +
+        '<p style="font-size: 14px; color: #64748B; margin: 0;">You completed this experience on ' + new Date(completions[experienceId].completedAt).toLocaleDateString() + '</p>';
+    }
+  }
+
+  // ---- Initialise ----
+  loadStepProgress();
+  renderProgressBar();
+  showStep(currentStep);
+  checkExistingCompletion();
+})();
+</script>
+
+<!-- The Concierge: AI Skills Passport chatbot -->
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.setAttribute('data-embed-id', '1ac8c1d3-98bd-4d94-a56e-1045d933fdf6');
+  s.setAttribute('data-base-api-url', 'https://chat.eduserver.au/api/embed');
+  s.src = 'https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js';
+  document.body.appendChild(s);
+})();
+</script>
+```

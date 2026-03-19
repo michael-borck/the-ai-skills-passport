@@ -31,10 +31,12 @@ format:
                 <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
                 <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
                 <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <div class="sp-nav-separator"></div>
                 <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="resources">
@@ -227,6 +229,79 @@ format:
         docx: 'downloads/conversation-not-delegation.docx',
         pdf: 'downloads/conversation-not-delegation.pdf'
       }
+    },
+    {
+      id: 'the-conversation-loop',
+      category: 'framework',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'The Conversation Loop',
+      emoji: '🔄',
+      summary: 'Brainstorm, Ideate, Iterate, Amplify, Repeat — the four-stage loop for working with AI as a thinking partner.',
+      downloads: {
+        html: 'downloads/the-conversation-loop.html',
+        docx: 'downloads/the-conversation-loop.docx',
+        pdf: 'downloads/the-conversation-loop.pdf'
+      },
+      content: `
+        <p>Not a framework with twelve steps and a certification programme. A loop with four stages and one rule: <strong>you stay in the conversation.</strong></p>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 20px 0; font-size: 15px;">
+          <div style="background: #1E1B4B; padding: 12px 18px; border-radius: 8px; border: 1px solid #4F46E5; text-align: center;">
+            <strong style="color: #C7D2FE;">1. Brainstorm</strong><br><span style="font-size: 13px; color: #94A3B8;">Define your question</span>
+          </div>
+          <span style="color: #4F46E5; font-size: 20px;">→</span>
+          <div style="background: #1E1B4B; padding: 12px 18px; border-radius: 8px; border: 1px solid #4F46E5; text-align: center;">
+            <strong style="color: #C7D2FE;">2. Ideate</strong><br><span style="font-size: 13px; color: #94A3B8;">Explore possibilities</span>
+          </div>
+          <span style="color: #4F46E5; font-size: 20px;">→</span>
+          <div style="background: #1E1B4B; padding: 12px 18px; border-radius: 8px; border: 1px solid #4F46E5; text-align: center;">
+            <strong style="color: #C7D2FE;">3. Iterate</strong><br><span style="font-size: 13px; color: #94A3B8;">Push back and refine</span>
+          </div>
+          <span style="color: #4F46E5; font-size: 20px;">→</span>
+          <div style="background: #1E1B4B; padding: 12px 18px; border-radius: 8px; border: 1px solid #4F46E5; text-align: center;">
+            <strong style="color: #C7D2FE;">4. Amplify</strong><br><span style="font-size: 13px; color: #94A3B8;">Make it yours</span>
+          </div>
+        </div>
+        <div style="text-align: center; margin: -8px 0 16px 0; color: #4F46E5; font-weight: bold; font-size: 14px;">↩ Repeat — most good work loops more than once</div>
+
+        <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin: 16px 0;">
+          <strong>Before you prompt, ask yourself:</strong> Am I describing my problem, or my attempted fix? If it's the fix, step back one level. State the problem. Let the conversation find the solution.
+        </div>
+
+        <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin: 16px 0; border-left: 4px solid #4F46E5;">
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"The sign that you are done is not that the AI has stopped producing output. It is that your thinking has landed somewhere solid."</p>
+        </div>
+      `
+    },
+    {
+      id: 'amplify-thinking-not-hallucinations',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Amplify Your Thinking, Not the Hallucinations',
+      emoji: '⚠️',
+      summary: 'Why chaining AI tasks without pushback is the most dangerous way to use AI — and how the conversation loop prevents it.',
+      downloads: {
+        html: 'downloads/amplify-thinking-not-hallucinations.html',
+        docx: 'downloads/amplify-thinking-not-hallucinations.docx',
+        pdf: 'downloads/amplify-thinking-not-hallucinations.pdf'
+      },
+      content: `
+        <p>Instead of pushing back and iterating, you chain tasks: "Do this. Good. Now using that, do this." No verification, no course correction. Just a sequence of delegated tasks.</p>
+        <p><strong>This is the most dangerous way to use AI.</strong></p>
+
+        <div style="background: #3B1010; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #EF4444;">
+          <strong style="color: #FCA5A5;">How errors compound in unchecked chains:</strong><br>
+          <span style="font-size: 14px;">The hallucination in step 2 becomes an assumption in step 3, a foundation in step 4, and a confident conclusion in step 6. Each step builds faithfully on what came before — and what came before was wrong.</span>
+        </div>
+
+        <div style="background: #1A3A2A; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #4ADE80;">
+          <strong style="color: #4ADE80;">How conversation prevents this:</strong><br>
+          <span style="font-size: 14px;">Every iteration is a checkpoint. Every pushback is a correction. Every time you say "that doesn't seem right," you keep the work anchored to reality.</span>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin: 16px 0; border-left: 4px solid #4F46E5;">
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"You can chain tasks and amplify the hallucinations. Or you can stay in the conversation and amplify your thinking. The difference is whether you are thinking or just clicking."</p>
+        </div>
+      `
     },
     {
       id: 'rtcf',
@@ -436,6 +511,11 @@ Ask me 5-6 questions, one at a time.</div>
       title: 'Assessment Stress-Testing',
       emoji: '🧪',
       summary: 'Test whether your assessment actually measures what you think it does.',
+      downloads: {
+        html: 'downloads/stress-test-prompt-sequence.html',
+        docx: 'downloads/stress-test-prompt-sequence.docx',
+        pdf: 'downloads/stress-test-prompt-sequence.pdf'
+      },
       content: `
         <p><strong>When to use:</strong> Designing new assessments, updating existing assessments, checking for AI-vulnerability.</p>
         <div style="background: #16162A; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; margin: 16px 0;">I'm designing a student assessment with these requirements:
@@ -833,6 +913,70 @@ Now write feedback in my style for:
         </ul>
         <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
           <strong>The bottom line:</strong> Cognitive offload isn't the enemy. Cognitive abdication is. And the difference is pedagogy.
+        </div>
+      `
+    },
+    {
+      id: 'the-flag-system',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'The Flag System',
+      emoji: '🚩',
+      summary: 'A quick framework for calibrating scepticism — yellow flags mean verify, red flags mean stop and demand evidence.',
+      downloads: {
+        html: 'downloads/the-flag-system.html',
+        docx: 'downloads/the-flag-system.docx',
+        pdf: 'downloads/the-flag-system.pdf'
+      },
+      content: `
+        <p>Not everything AI produces needs the same level of scrutiny. The flag system gives you a quick way to calibrate your response.</p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0;">
+          <div style="background: #4A3510; padding: 16px; border-radius: 8px; border-left: 4px solid #F59E0B;">
+            <p style="margin: 0 0 8px 0; font-weight: bold; color: #FCD34D;">🟡 Yellow Flags: Verify</p>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px;">
+              <li>Source unverified or not clearly credible</li>
+              <li>Based on a single preliminary study</li>
+              <li>Opinion presented as fact</li>
+              <li>Content clipped or taken out of context</li>
+              <li>Source has a financial vested interest</li>
+            </ul>
+          </div>
+          <div style="background: #4A1010; padding: 16px; border-radius: 8px; border-left: 4px solid #EF4444;">
+            <p style="margin: 0 0 8px 0; font-weight: bold; color: #FCA5A5;">🔴 Red Flags: Stop</p>
+            <ul style="margin: 0; padding-left: 20px; font-size: 14px;">
+              <li>Conspiracy framing: "they" are hiding the truth</li>
+              <li>"Mainstream science is wrong and I alone know"</li>
+              <li>Indicting an entire group based on identity</li>
+              <li>Extraordinary claims with no credible evidence</li>
+            </ul>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin: 16px 0; border-left: 4px solid #4F46E5;">
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"The flag system is not about cynicism. It is about proportional scepticism."</p>
+        </div>
+      `
+    },
+    {
+      id: 'three-cognitive-traps',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Three Cognitive Traps',
+      emoji: '🪤',
+      summary: 'Gell-Mann Amnesia, the AI Dismissal Fallacy, and the Sycophancy Trap — three ways your thinking goes wrong around AI.',
+      downloads: {
+        html: 'downloads/three-cognitive-traps.html',
+        docx: 'downloads/three-cognitive-traps.docx',
+        pdf: 'downloads/three-cognitive-traps.pdf'
+      },
+      content: `
+        <p>Evaluating individual AI outputs is one thing. But three broader cognitive traps shape how people relate to AI across everything they do with it.</p>
+        <ul>
+          <li><strong>The Gell-Mann Amnesia Effect</strong>: You catch AI errors in your area of expertise, then trust the same AI completely on topics you know nothing about. Fluency is not accuracy.</li>
+          <li><strong>The AI Dismissal Fallacy</strong>: Rejecting an idea solely because AI was involved. "That's just ChatGPT" is not a critique — it's a refusal to engage with the reasoning.</li>
+          <li><strong>The Sycophancy Trap</strong>: LLMs are trained to agree with you. If you ask "what do you think?" you'll get flattery, not feedback. Prompt past it: ask for weaknesses, not opinions.</li>
+        </ul>
+        <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin: 16px 0; border-left: 4px solid #4F46E5;">
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"These are not technical problems. They are human problems. Awareness is the first defence."</p>
         </div>
       `
     },
@@ -2169,6 +2313,95 @@ Now write feedback in my style for:
           <li><strong>Further reading</strong> - browse the evidence base underpinning the collection</li>
         </ul>
       `
+    },
+    {
+      id: 'assessing-ai-engagement',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Assessing AI Engagement',
+      emoji: '📝',
+      summary: 'A position paper on moving beyond AI detection toward transparency-based assessment that measures how students engage with material.',
+      downloads: {
+        html: 'downloads/assessing-ai-engagenment.html',
+        docx: 'downloads/assessing-ai-engagenment.docx',
+        pdf: 'downloads/assessing-ai-engagenment.pdf'
+      },
+      content: `
+        <p>Detection-based approaches assume AI-generated work can be identified and discounted. In practice, three things undermine this: unreliable detectors, iterative prompting that evades detection, and AI-completable formats previously assumed to be resistant.</p>
+
+        <p><strong>The engagement spectrum:</strong></p>
+        <ul>
+          <li><strong>Genuine collaborative thinking</strong> — student drives inquiry, pushes back, iterates toward understanding</li>
+          <li><strong>Guided drafting</strong> — student provides direction, evaluates critically, modifies output</li>
+          <li><strong>Curated delegation</strong> — student exercises judgment about what passes</li>
+          <li><strong>Pure delegation</strong> — the actual failure case, harder to achieve than assumed</li>
+        </ul>
+
+        <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin: 16px 0; border-left: 4px solid #4F46E5;">
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"The question detection cannot answer is the only question worth asking: how did the student engage with the material on the way to producing this?"</p>
+        </div>
+
+        <p><strong>Includes:</strong> The engagement spectrum, transcript-based assessment metrics, a three-tier adoption path, institutional risk considerations, and the marks split (30% product / 70% process).</p>
+      `
+    },
+    {
+      id: 'group-assessment-and-ai',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Group Assessment and AI',
+      emoji: '👥',
+      summary: 'Why group presentations are not inherently AI-resistant, and how process infrastructure plus individual transcripts solve the real problems.',
+      downloads: {
+        html: 'downloads/group-assessment-and-ai.html',
+        docx: 'downloads/group-assessment-and-ai.docx',
+        pdf: 'downloads/group-assessment-and-ai.pdf'
+      },
+      content: `
+        <p>Companion paper to <em>Assessing AI Engagement</em>. The live presentation, widely assumed to be the strongest safeguard, tests performance rather than understanding unless the Q&amp;A requires genuine thinking.</p>
+
+        <p><strong>Three new problems AI creates for group work:</strong></p>
+        <ol>
+          <li><strong>The rewritten section problem</strong> — members rewriting each other's work with AI without consent</li>
+          <li><strong>The free rider via AI problem</strong> — plausible sections generated at the last minute</li>
+          <li><strong>The sharpened attribution problem</strong> — polished output no longer signals individual effort</li>
+        </ol>
+
+        <p><strong>The solution:</strong> Individual process marks (60-80%) over group product marks (20-40%), with individual AI conversation transcripts submitted alongside the group product. This mirrors how professional accountability actually works.</p>
+
+        <div style="background: linear-gradient(135deg, #1E1B4B, #2E1065); padding: 20px; border-radius: 12px; margin: 16px 0; border-left: 4px solid #4F46E5;">
+          <p style="font-size: 17px; font-style: italic; margin: 0; color: #C7D2FE; line-height: 1.6;">"Students should come to group work as individual contributors who collaborate — exactly what the workplace expects."</p>
+        </div>
+      `
+    },
+    {
+      id: 'ai-last-resort-philosophy',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'The "AI Last" Principle',
+      emoji: '🎯',
+      summary: 'Solve what you can first with conventional means — then bring in AI scoped tightly to the genuine sticking point.',
+      downloads: {
+        html: 'downloads/ai-last-resort-philosophy.html',
+        docx: 'downloads/ai-last-resort-philosophy.docx',
+        pdf: 'downloads/ai-last-resort-philosophy.pdf'
+      },
+      content: `
+        <p>Before reaching for an AI tool, solve as much of the problem as you can with conventional means. This is not anti-AI. It is pro-efficiency.</p>
+
+        <p><strong>Why this works:</strong></p>
+        <ul>
+          <li><strong>You already know more than you think</strong> — most tasks have well-understood solutions</li>
+          <li><strong>AI costs compound at scale</strong> — every unnecessary token is wasted spend</li>
+          <li><strong>Smaller, focused prompts produce better results</strong> — less ambiguity, more precision</li>
+          <li><strong>You stay sharp</strong> — outsourcing every decision erodes problem-solving ability</li>
+        </ul>
+
+        <p><strong>The practical workflow:</strong> Start with what you know → use conventional tools → identify the genuine sticking point → bring in AI scoped tightly → validate and integrate yourself.</p>
+
+        <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>Key distinction:</strong> Using AI as a crutch for laziness versus using it as a lever for capability. The former wastes money and dulls your skills. The latter multiplies your effectiveness.
+        </div>
+      `
     }
   ];
 
@@ -2399,6 +2632,17 @@ Now write feedback in my style for:
   };
 
   // Initialize — don't render cards on load (search-first view)
+})();
+</script>
+
+<!-- The Concierge: AI Skills Passport chatbot -->
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.setAttribute('data-embed-id', '1ac8c1d3-98bd-4d94-a56e-1045d933fdf6');
+  s.setAttribute('data-base-api-url', 'https://chat.eduserver.au/api/embed');
+  s.src = 'https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js';
+  document.body.appendChild(s);
 })();
 </script>
 ```

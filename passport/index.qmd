@@ -26,10 +26,12 @@ format:
                 <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
                 <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
                 <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <div class="sp-nav-separator"></div>
                 <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="resources">
@@ -335,6 +337,17 @@ format:
     renderBadges();
     renderExperiences();
   });
+})();
+</script>
+
+<!-- The Concierge: AI Skills Passport chatbot -->
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.setAttribute('data-embed-id', '1ac8c1d3-98bd-4d94-a56e-1045d933fdf6');
+  s.setAttribute('data-base-api-url', 'https://chat.eduserver.au/api/embed');
+  s.src = 'https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js';
+  document.body.appendChild(s);
 })();
 </script>
 ```

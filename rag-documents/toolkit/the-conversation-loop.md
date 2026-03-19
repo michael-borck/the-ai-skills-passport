@@ -1,0 +1,63 @@
+> This content is from the AI Toolkit resource: The Conversation Loop: Brainstorm, Ideate, Iterate, Amplify, Repeat, part of the AI Skills Passport for SoMM staff at Curtin University.
+
+# The Conversation Loop: Brainstorm, Ideate, Iterate, Amplify, Repeat
+
+## The Model
+
+You know that large language models have read everything and experienced nothing. You know the trap: delegation feels productive but erodes your capability over time. And you know that the protective practice is conversation, not delegation.
+
+The question becomes: what does that conversation actually look like?
+
+Four stages. One feedback arc. Most good work passes through the loop more than once.
+
+**Brainstorm → Ideate → Iterate → Amplify → Repeat**
+
+A good conversation with AI does not end with a better output. It ends with a better question.
+
+## 1. Brainstorm: Define Your Question
+
+You arrive with a question, a problem, or a half-formed idea. Not a task to outsource. Not a prompt engineered to extract a finished deliverable in one shot. You bring something you are genuinely thinking about.
+
+The quality of what comes out of the loop is bounded by what you bring into it. A vague "write me a strategy document" produces vague strategy. A specific "I'm stuck on how to position this product for buyers who already use a competitor" gives the conversation something to grip.
+
+You do not need a polished brief. You need a real starting point: a question worth exploring.
+
+**Watch for a common trap:** arriving with your attempted solution instead of your actual problem. Someone asks the AI "how do I make this spreadsheet sort by colour?" when their real question is "how do I show my team which tasks are overdue?" The AI will helpfully solve the spreadsheet problem. But the spreadsheet was never the point.
+
+Before you prompt, ask yourself: am I describing my problem, or am I describing my attempted fix? If it is the fix, step back one level. State the problem. Let the conversation find the solution.
+
+## 2. Ideate: Explore Possibilities
+
+Brainstorm gave you a clear question. Ideate is where you and the AI go wide. This stage is generative and divergent. You are not looking for the answer. You are looking for more angles, adjacent ideas, framings you had not considered.
+
+Ask for alternatives. Ask for the version that would make your sceptical colleague pause. Ask what you might be missing. The AI's breadth across domains is genuinely useful here — not because it knows your context better than you do, but because it can surface patterns and connections faster than you can scan for them alone.
+
+The temptation is to stop here — take the first interesting output and move on. Resist that. Ideation is cheap. The next stage is where value gets made.
+
+## 3. Iterate: Push Back and Refine
+
+This is where conversation happens and where delegation is most tempting. You push back. You refine. You redirect.
+
+- "That second option is closer, but it assumes we have six months. We have six weeks."
+- "The tone is wrong. Less corporate, more direct."
+- "You're solving the wrong problem. The real constraint is budget, not timeline."
+
+Every one of those responses sharpens the output. Every one requires your judgement. If you skip this stage, you are copying, not thinking. If you delegate here, you get something that is fluent, plausible, and not quite right in ways you will only notice later.
+
+Iteration is work. It is also the stage that makes the output yours. Stay in it longer than feels necessary.
+
+## 4. Amplify: Make It Yours
+
+You take the best of what emerged and make it yours. You edit, restructure, combine, cut. You bring it into your voice, your context, your standards.
+
+Amplification is not "copy and paste with minor tweaks." It is the act of owning the output. You know things the AI does not: your audience, your constraints, the political dynamics of the room you will present in, the history behind the decision. This is where all of that knowledge gets folded in.
+
+The result should be something you would put your name on without hesitation. If it is not, you are not done.
+
+## 5. Repeat: Go Around Again
+
+Most good work loops more than once. The first pass gives you a draft, a direction, a clearer version of your own thinking. The second pass sharpens it. The third might transform it entirely.
+
+Knowing when to re-enter the loop is a skill. Sometimes you amplify and realise the framing is wrong, so you loop back to brainstorm with a better question. Sometimes iteration reveals a gap, so you return to ideation. The loop is not linear. The arrows point forward, but the feedback arc is always available.
+
+The sign that you are done is not that the AI has stopped producing output. It is that your thinking has landed somewhere solid.

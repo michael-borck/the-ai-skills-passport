@@ -27,10 +27,12 @@ format:
                 <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
                 <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
                 <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <div class="sp-nav-separator"></div>
                 <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="resources">
@@ -87,12 +89,12 @@ format:
     <div style="font-size: 48px; margin-bottom: 12px;">💡</div>
     <div style="font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">AI Skills Passport</div>
     <h1 style="font-family: 'Courier New', Consolas, monospace; font-size: 24px; font-weight: bold; color: #F1F5F9; margin: 0 0 8px 0; letter-spacing: 1px;">KEY TAKEAWAYS</h1>
-    <p style="font-size: 15px; color: #94A3B8; margin: 0; line-height: 1.5;">The big ideas, even if you do nothing else. Eight principles worth knowing.</p>
+    <p style="font-size: 15px; color: #94A3B8; margin: 0; line-height: 1.5;">The big ideas, even if you do nothing else. Ten principles worth knowing.</p>
   </div>
 
   <!-- Intro -->
   <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
-    <p style="font-size: 15px; color: #94A3B8; line-height: 1.7; margin: 0;">Short on time? Overwhelmed by AI? That's fine. If you take nothing else from the AI Skills Passport, take these eight ideas. Each one comes with something you can try in two minutes.</p>
+    <p style="font-size: 15px; color: #94A3B8; line-height: 1.7; margin: 0;">Short on time? Overwhelmed by AI? That's fine. If you take nothing else from the AI Skills Passport, take these ten ideas. Each one comes with something you can try in two minutes.</p>
   </div>
 
   <!-- Accordion Grid -->
@@ -115,58 +117,7 @@ format:
       </div>
     </div>
 
-    <!-- 2: Model the Behaviour You Expect -->
-    <div class="kt-card">
-      <button class="kt-header" aria-expanded="false">
-        <span class="kt-icon">🪞</span>
-        <span class="kt-title">Model the Behaviour You Expect</span>
-        <span class="kt-chevron">&#9658;</span>
-      </button>
-      <div class="kt-body">
-        <p class="kt-desc">If you want students and colleagues to use AI thoughtfully, show them what that looks like. Share your process. Be transparent about when and how you used AI. Lead by example, not by policy alone.</p>
-        <div class="kt-try">
-          <div class="kt-try-label">Try this (2 min)</div>
-          <p class="kt-try-text">Add a one-line note to your next document or email: "I used AI to help draft/check/summarise this." Notice how it changes the conversation.</p>
-        </div>
-        <a href="experiences/what-would-you-do.html" class="kt-deeper">Go deeper: What Would You Do? →</a>
-      </div>
-    </div>
-
-    <!-- 3: Help Students Navigate These New Times -->
-    <div class="kt-card">
-      <button class="kt-header" aria-expanded="false">
-        <span class="kt-icon">🧭</span>
-        <span class="kt-title">Help Students Navigate These New Times</span>
-        <span class="kt-chevron">&#9658;</span>
-      </button>
-      <div class="kt-body">
-        <p class="kt-desc">Students need guidance, not prohibition. They're already using AI — the question is whether they're using it well. Meet them where they are and help them develop judgement, not just compliance.</p>
-        <div class="kt-try">
-          <div class="kt-try-label">Try this (2 min)</div>
-          <p class="kt-try-text">Ask a student how they're using AI right now. Listen without judgement. You'll learn more in two minutes than from any report.</p>
-        </div>
-        <a href="experiences/rules-of-engagement.html" class="kt-deeper">Go deeper: Rules of Engagement →</a>
-      </div>
-    </div>
-
-    <!-- 4: Learning with AI Is Still Learning -->
-    <div class="kt-card">
-      <button class="kt-header" aria-expanded="false">
-        <span class="kt-icon">🧠</span>
-        <span class="kt-title">Learning with AI Is Still Learning</span>
-        <span class="kt-chevron">&#9658;</span>
-      </button>
-      <div class="kt-body">
-        <p class="kt-desc">It's different from how you learned, but the thinking still happens. When a student uses AI to explore, question, and refine their understanding, the conversation is the evidence of learning. The process matters more than the product.</p>
-        <div class="kt-try">
-          <div class="kt-try-label">Try this (2 min)</div>
-          <p class="kt-try-text">Pick a topic you know well. Ask AI to explain it, then critique the response. Notice how evaluating AI output requires genuine understanding.</p>
-        </div>
-        <a href="experiences/ai-proof-assessments.html" class="kt-deeper">Go deeper: AI-Proof Your Assessments →</a>
-      </div>
-    </div>
-
-    <!-- 5: AI Amplifies Thinking -->
+    <!-- 2: AI Amplifies Thinking -->
     <div class="kt-card">
       <button class="kt-header" aria-expanded="false">
         <span class="kt-icon">🔊</span>
@@ -183,7 +134,7 @@ format:
       </div>
     </div>
 
-    <!-- 6: Keep a Human in the Loop -->
+    <!-- 3: Keep a Human in the Loop -->
     <div class="kt-card">
       <button class="kt-header" aria-expanded="false">
         <span class="kt-icon">🤝</span>
@@ -191,16 +142,16 @@ format:
         <span class="kt-chevron">&#9658;</span>
       </button>
       <div class="kt-body">
-        <p class="kt-desc">AI makes mistakes. It hallucinates, oversimplifies, and misses context. Your judgement, domain expertise, and accountability are what make it work. You're not optional — you're essential.</p>
+        <p class="kt-desc">"Human in the loop" doesn't mean checking AI's work at the end. It means staying in the conversation at every stage. One powerful approach: run two conversations — one where you <em>think</em> with AI (explore ideas, challenge assumptions, clarify your question) and one where you <em>build</em> with AI (draft, create, produce). You are the bridge. You decide what crosses from thinking to building. Neither conversation has the full picture — only you do. That's what makes you essential, not as a fact-checker, but as the one who holds the context, makes the judgement calls, and connects the dots.</p>
         <div class="kt-try">
-          <div class="kt-try-label">Try this (2 min)</div>
-          <p class="kt-try-text">Ask AI a factual question about your field. Fact-check one claim. You'll likely find something that's almost right but subtly wrong — that's why you matter.</p>
+          <div class="kt-try-label">Try this (5 min)</div>
+          <p class="kt-try-text">Next time you use AI for something substantial, open two sessions. In the first, explore your question — ask for angles, push back, refine your thinking. Then take what you've landed on and use it to brief the second session for the actual output. Notice how much better the result is when you've done the thinking first.</p>
         </div>
-        <a href="experiences/is-this-ai.html" class="kt-deeper">Go deeper: Is This AI? →</a>
+        <a href="experiences/the-conversation-loop.html" class="kt-deeper">Go deeper: The Conversation Loop →</a>
       </div>
     </div>
 
-    <!-- 7: Don't Just Take AI's Word for It -->
+    <!-- 4: Don't Just Take AI's Word for It -->
     <div class="kt-card">
       <button class="kt-header" aria-expanded="false">
         <span class="kt-icon">🔍</span>
@@ -222,7 +173,7 @@ format:
       </div>
     </div>
 
-    <!-- 8: Start with Your Own Voice -->
+    <!-- 5: Start with Your Own Voice -->
     <div class="kt-card">
       <button class="kt-header" aria-expanded="false">
         <span class="kt-icon">✍️</span>
@@ -236,6 +187,96 @@ format:
           <p class="kt-try-text">Take something you've already written — an email draft, meeting notes, a paragraph from a report. Paste it into AI and ask "Help me tighten this up." Compare the result to what you'd get from a blank prompt.</p>
         </div>
         <a href="experiences/teaching-with-ai.html" class="kt-deeper">Go deeper: Working with AI →</a>
+      </div>
+    </div>
+
+    <!-- 6: Watch for the Three Traps -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🪤</span>
+        <span class="kt-title">Watch for the Three Traps</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">Three cognitive traps shape how people relate to AI. <strong>Gell-Mann Amnesia:</strong> you catch AI errors in your area of expertise, then trust it completely on topics you know nothing about. <strong>The AI Dismissal Fallacy:</strong> rejecting an idea solely because AI was involved &mdash; &ldquo;that&rsquo;s just ChatGPT&rdquo; is not a critique. <strong>The Sycophancy Trap:</strong> AI is trained to agree with you, so &ldquo;what do you think?&rdquo; gets you flattery, not feedback.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Next time AI evaluates your work, don&rsquo;t ask &ldquo;what do you think?&rdquo; Instead ask: &ldquo;What are the three weakest points in this?&rdquo; Compare the responses. The difference is the sycophancy you&rsquo;re normally not seeing.</p>
+        </div>
+        <a href="experiences/the-conversation-loop.html" class="kt-deeper">Go deeper: The Conversation Loop &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 7: Amplify Your Thinking, Not the Hallucinations -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">⚠️</span>
+        <span class="kt-title">Amplify Your Thinking, Not the Hallucinations</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">Chaining AI tasks without pushback is the most dangerous way to use AI. The hallucination in step two becomes an assumption in step three, a foundation in step four, and a confident conclusion in step six. Each step builds faithfully on what came before &mdash; and what came before was wrong. The conversation loop prevents this: every iteration is a checkpoint, every pushback is a correction.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (5 min)</div>
+          <p class="kt-try-text">Take an AI output you recently accepted. Read it again with one question: &ldquo;What did I assume was correct without checking?&rdquo; Find one claim and verify it independently. That habit is the loop in miniature.</p>
+        </div>
+        <a href="experiences/the-conversation-loop.html" class="kt-deeper">Go deeper: The Conversation Loop &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 8: Model Transparency and Ethical Use -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🪞</span>
+        <span class="kt-title">Model Transparency and Ethical Use</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">If you want colleagues and collaborators to use AI thoughtfully, show them what that looks like. Be upfront about when and how you used AI. Transparency builds trust and sets the standard — whether you're drafting an email, writing a report, or publishing research.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Add a one-line note to your next document or email: "I used AI to help draft/check/summarise this." Notice how it changes the conversation.</p>
+        </div>
+        <a href="experiences/what-would-you-do.html" class="kt-deeper">Go deeper: What Would You Do? →</a>
+      </div>
+    </div>
+
+    <!-- For Teaching -->
+    <div style="grid-column: 1 / -1; margin-top: 12px;">
+      <div style="font-size: 0.7rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px;">For Teaching</div>
+    </div>
+
+    <!-- 9: Help Students Navigate These New Times -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🧭</span>
+        <span class="kt-title">Help Students Navigate These New Times</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">Students need guidance, not prohibition. They're already using AI — the question is whether they're using it well. Meet them where they are and help them develop judgement, not just compliance.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Ask a student how they're using AI right now. Listen without judgement. You'll learn more in two minutes than from any report.</p>
+        </div>
+        <a href="experiences/rules-of-engagement.html" class="kt-deeper">Go deeper: Rules of Engagement →</a>
+      </div>
+    </div>
+
+    <!-- 10: Learning with AI Is Still Learning  -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🧠</span>
+        <span class="kt-title">Learning with AI Is Still Learning</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">It's different from how you learned, but the thinking still happens. When a student uses AI to explore, question, and refine their understanding, the conversation is the evidence of learning. The process matters more than the product.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Pick a topic you know well. Ask AI to explain it, then critique the response. Notice how evaluating AI output requires genuine understanding.</p>
+        </div>
+        <a href="experiences/ai-proof-assessments.html" class="kt-deeper">Go deeper: AI-Proof Your Assessments →</a>
       </div>
     </div>
 
@@ -279,4 +320,15 @@ format:
   </div>
 
 </div>
+
+<!-- The Concierge: AI Skills Passport chatbot -->
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.setAttribute('data-embed-id', '1ac8c1d3-98bd-4d94-a56e-1045d933fdf6');
+  s.setAttribute('data-base-api-url', 'https://chat.eduserver.au/api/embed');
+  s.src = 'https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js';
+  document.body.appendChild(s);
+})();
+</script>
 ```

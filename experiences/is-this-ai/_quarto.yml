@@ -9,3 +9,4 @@ format:
     self-contained: true
     toc: false
     css: ../../shared/brand.css
+    include-after-body: ../../shared/favicon.html

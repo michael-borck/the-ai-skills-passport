@@ -27,10 +27,12 @@ format:
                 <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
                 <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
                 <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <div class="sp-nav-separator"></div>
                 <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="resources">
@@ -121,6 +123,26 @@ format:
 
     <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
       <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128172;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 2 &bull; Prompts &bull; 17 Mar 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Make Copilot Explain Your Job</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Open Copilot chat and type: &ldquo;Explain what a [your job title] at a university does, as if you&rsquo;re telling a curious 10-year-old.&rdquo; Then try: &ldquo;Now focus on the parts that would surprise people.&rdquo; Share the funniest line with a colleague.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Teaching:</strong> Ask Copilot to explain what a unit coordinator actually does. Does it mention the 47 emails before 9am? The pastoral care nobody trained you for?<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Ask Copilot to explain what a research fellow does. See if it grasps the grant-writing treadmill or just says &ldquo;advances human knowledge.&rdquo;<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Ask Copilot to explain your role. Professional staff roles are often invisible in universities &mdash; see how well AI understands what you actually do versus your position description.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Conversation not delegation</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
         <span style="font-size: 1.3rem; flex-shrink: 0;">&#128295;</span>
         <span style="flex: 1;">
           <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 1 &bull; Tools &bull; 10 Mar 2026</span>
@@ -148,4 +170,15 @@ format:
   </div>
 
 </div>
+
+<!-- The Concierge: AI Skills Passport chatbot -->
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.setAttribute('data-embed-id', '1ac8c1d3-98bd-4d94-a56e-1045d933fdf6');
+  s.setAttribute('data-base-api-url', 'https://chat.eduserver.au/api/embed');
+  s.src = 'https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js';
+  document.body.appendChild(s);
+})();
+</script>
 ```

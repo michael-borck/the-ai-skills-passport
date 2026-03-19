@@ -1,0 +1,71 @@
+> This content is from the AI Toolkit resource: The AI Divide: The Equity Problem We Can't Afford to Ignore, part of the AI Skills Passport for SoMM staff at Curtin University.
+
+# The AI Divide: The Equity Problem We Can't Afford to Ignore
+
+*An opinion piece by Michael Borck*
+
+---
+
+There's a conversation in higher education right now about how AI will transform assessment, pedagogy, and the student experience. It's important. But it has a blind spot the size of a continent.
+
+The divide isn't coming. It's already here. It operates at two levels: the student in your classroom, and the institution that classroom sits within.
+
+## The Student-Level Divide
+
+In any given tutorial, some students walk in with GPT-4, Claude, Gemini Advanced, and a suite of frontier AI tools. Others are working with whatever free tier they can get on a phone with a cracked screen and a prepaid data plan.
+
+This isn't hypothetical. This is Tuesday.
+
+Students who can afford $20-30 USD per month for a frontier model subscription are operating with fundamentally different cognitive tools than those who can't. Better feedback on writing. More sophisticated help with problems. More powerful research support. And the gap between free and paid AI is widening, not narrowing.
+
+We talk about AI as a great equaliser. We need to stop. AI is currently a great *amplifier*: of advantage for those who have it, and of disadvantage for those who don't.
+
+## The Institutional Divide
+
+Pull the lens back to institutions, and a second fracture appears.
+
+Perkins and Roe (2025) get this right: the traditional Global North/South framing misses the point. The real determinants are structural: connectivity, computing power, capacity to train staff, depth of AI literacy. Here in Australia, a sandstone university in Sydney with a dedicated AI strategy unit operates in a different reality than a regional provider in the Northern Territory where reliable broadband is still a challenge. The divide runs through a single country, let alone across the globe.
+
+One statistic should unsettle anyone in this space: the data needed to build cutting-edge GenAI models exists for roughly one per cent of the world's languages. One per cent. As Perkins and Roe put it, the framing of AI as the great democratiser of education is "more myth than reality."
+
+Well-resourced institutions are already piloting AI-embedded assessment, portfolio-based evaluation, authentic collaborative tasks. They have runway to experiment and iterate.
+
+Under-resourced institutions face a different calculus. When funding is thin and any misstep invites scrutiny, innovation looks like risk. The rational response is retrenchment: more invigilated exams, tighter lockdown browsers, heavier penalties for AI use. Assessment practices that predate electricity, let alone artificial intelligence.
+
+The distance between the two grows with every semester. Along fault lines of funding, geography, and structural advantage that were entrenched long before ChatGPT.
+
+## We've Seen This Before
+
+We saw it with the internet. We saw it with learning management systems. We saw it with COVID and online learning. Same script every time: early adoption by the well-resourced, defensive reaction by the under-resourced, widening gap dressed up as "digital transformation."
+
+The difference this time is speed. Previous cycles gave institutions years to catch up. AI capabilities advance quarterly. Pedagogical implications shift monthly. Standing still means falling behind at an accelerating rate.
+
+## What Needs to Change
+
+Any framework for AI in education must address power, bias, and access alongside capability (Roe, Furze & Perkins, 2025). The assessment conversation needs that same lens.
+
+In practice:
+
+1. **Institutions must provide AI access.** If AI is integral to how we teach and assess, equitable access is an institutional responsibility. We provide library access. We provide software licences. AI should be no different.
+
+2. **Invest in under-resourced institutions.** Not as an afterthought, but as a priority. The institutions that need the most support are the least likely to develop it internally.
+
+3. **Design for resource diversity.** Assessment that only works when students have frontier model access, or when institutions can invest in sophisticated AI platforms, isn't a solution. It's a privilege.
+
+4. **Centre the voices on the wrong side of this divide.** Right now, the conversation about AI in education is dominated by those with the most resources. The people most affected are the least represented.
+
+## The Stakes
+
+The promise of AI in education is real. Personalised learning, immediate feedback, more authentic assessment. But these will remain fantasies for most of the world's learners if we don't confront the equity dimension head-on.
+
+The AI divide isn't a side issue. It *is* the issue. Every conversation about AI in education needs to start with a simple question: who gets left behind?
+
+If we can't answer that honestly, we're not transforming education. We're just making inequality faster.
+
+---
+
+### References
+
+Perkins, M., & Roe, J. (2025). The end of assessment as we know it: GenAI, inequality and the future of knowing. In *AI and the future of education: Disruptions, dilemmas and directions* (pp. 76-80). [https://durham-repository.worktribe.com/output/4472558](https://durham-repository.worktribe.com/output/4472558)
+
+Roe, J., Furze, L., & Perkins, M. (2025). Digital plastic: A metaphorical framework for Critical AI Literacy in the multiliteracies era. *Pedagogies: An International Journal*. Advance online publication. [https://doi.org/10.1080/1554480X.2025.2557491](https://doi.org/10.1080/1554480X.2025.2557491)

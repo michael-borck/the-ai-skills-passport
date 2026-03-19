@@ -1,0 +1,88 @@
+> This content is from the AI Toolkit resource: AI-Integrated Assessment Rubric Template, part of the AI Skills Passport for SoMM staff at Curtin University.
+
+# AI-Integrated Assessment Rubric Template
+
+> **Copyright Notice:** This document and all materials in this suite are authored by Michael Borck (AI Facilitator, School of Management and Marketing, Curtin University). They are provided for use within Curtin University. External distribution, reproduction, or use outside Curtin University requires explicit written permission.
+
+**Purpose:** Generic framework for assessing assignments where students engage with or use AI tools as part of their learning. Adaptable across disciplines and AI modalities (chatbots, LLMs, simulations, RAG systems, agents, etc.).
+
+---
+
+## Generic Rubric Template
+
+| Criterion | Weight | Excellent | Good | Satisfactory | Developing |
+|-----------|--------|-----------|------|--------------|------------|
+| **Critical Engagement with AI** | 30% | Demonstrates sophisticated evaluation of AI outputs. Clearly articulates when AI is reliable vs. speculative. Actively challenges AI assumptions and validates findings through independent verification. | Shows solid evaluation of AI outputs with some critical reflection. Generally identifies AI limitations. Attempts verification of key claims. | Engages with AI but evaluation is surface-level. Limited critical questioning. Minimal independent verification of AI suggestions. | Minimal or no critical evaluation of AI. Accepts AI outputs without question. No evidence of validation or verification. |
+| **Quality of Inquiry & Problem-Solving** | 25% | Investigation is strategic, well-structured, and adaptive. Clear evidence of iterative refinement. Responds effectively to obstacles or constraints. Shows intellectual curiosity and initiative. | Investigation is generally well-organised with some evidence of adaptation. Most key questions explored systematically. Some refinement visible. | Investigation covers main points but lacks depth or strategic planning. Limited evidence of adaptation to challenges. Inquiry feels mechanical. | Investigation is disorganised or incomplete. Minimal evidence of planning or adaptability. Key areas unexplored. |
+| **Conversation Quality & Accountability** | 20% | AI conversation transcript shows genuine dialogue: challenging assumptions, asking follow-ups, refining outputs, and steering toward specific context. Student can explain all decisions and takes clear accountability for final work. Evidence of conversation, not delegation. | Conversation transcript shows reasonable engagement with AI. Follow-up questions present. Generally explains how outputs were validated. Takes appropriate responsibility for work. | Conversation transcript shows limited interaction. Few follow-up questions or challenges. Some evidence of refinement but mostly accepts initial outputs. Accountability is unclear in places. | Conversation shows single prompts with no follow-up. No evidence of critical engagement or refinement. Unclear who is accountable for outputs. |
+| **Communication & Clarity** | 15% | Clear, coherent, professionally structured. Complex ideas are explained accessibly. Findings/recommendations are well-justified and easy to follow. Appropriate for intended audience. | Generally clear and well-organised. Most ideas are explained adequately. Findings supported by reasoning. Generally appropriate tone/style. | Communication is adequate but may lack clarity in places. Ideas present but not always well-connected. Some findings need stronger justification. | Communication is unclear or disorganised. Difficulty following main ideas. Minimal justification for conclusions. |
+| **Integration of Disciplinary Knowledge** | 10% | Meaningfully connects AI engagement to unit concepts. Demonstrates how theoretical/practical knowledge informs critical evaluation of AI. Shows synthesis of learning. | Connects AI work to unit content. Shows understanding of how discipline-specific knowledge applies to AI evaluation. | Makes some connections to unit content but links are basic or limited. | Few or no connections between AI work and disciplinary learning. |
+
+---
+
+## How to Adapt This Template
+
+### For Different AI Modalities
+
+**AI Chatbot / Simulation (e.g., role-playing employees):**
+- Emphasize: quality of prompts, ability to discern reliability of different "sources," managing access constraints
+- Adapt "Critical Engagement" to: "Eliciting & Evaluating Information from AI Agents"
+
+**LLM as Research/Writing Tool (e.g., drafting, brainstorming):**
+- Emphasize: validation of AI-generated content, synthesis of AI suggestions with own analysis
+- Adapt "Critical Engagement" to: "Evaluating & Refining AI-Generated Content"
+
+**RAG or Data Analysis Tools:**
+- Emphasize: understanding what data AI is using, verifying accuracy, interpreting limitations
+- Adapt "Critical Engagement" to: "Validating AI-Assisted Data Interpretation"
+
+**AI Agent/Tool Use (e.g., coding assistants, automation):**
+- Emphasize: understanding AI decisions, testing outputs, accountability for tool use
+- Adapt "Critical Engagement" to: "Testing & Validating AI-Generated Solutions"
+
+### For Different Disciplines
+
+Adjust the **"Integration of Disciplinary Knowledge"** criterion to match your field:
+- *Business/Management:* How does this analysis align with strategic frameworks, ethical considerations?
+- *Computer Science:* How does the approach reflect algorithmic thinking, system design principles?
+- *Humanities:* How does this argument engage with theoretical traditions, interpretive methods?
+- *Sciences:* How does methodology reflect scientific reasoning, experimental validity?
+
+### Customisation Steps
+
+1. **Rename criteria** if they don't match your context (e.g., "Critical Engagement" → "Prompt Engineering & Source Evaluation")
+2. **Adjust weights** based on what matters most in your unit
+3. **Add or remove criteria** (5 is a good number, but some units might use 3-4)
+4. **Include specific examples** in the Excellent/Good columns relevant to your assignment
+5. **Add guidance** on minimum standards for each level if needed
+
+---
+
+## General Scoring
+
+- **Excellent (85-100%):** Sophisticated, independent thinking; strong evidence of learning outcomes
+- **Good (75-84%):** Solid performance; demonstrates competence; minor areas for development
+- **Satisfactory (65-74%):** Meets minimum expectations; completes task; some areas lack depth
+- **Developing (<65%):** Below expectations; significant gaps in performance or understanding
+
+---
+
+## Academic Integrity Notes
+
+Make clear to students:
+- AI use must be disclosed and documented
+- Students remain responsible for all outputs, regardless of AI involvement
+- Critical evaluation of AI is a valued skill, not "cheating"
+- Honest AI conversation transcripts (including dead ends) demonstrate integrity, not weakness
+
+---
+
+## Further Reading
+
+- Dawson, P. (2017). Assessment rubrics: Towards clearer and more replicable design, research and practice. *Assessment & Evaluation in Higher Education, 42*(3), 347--360. https://doi.org/10.1080/02602938.2015.1111294
+- Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. *Journal of University Teaching and Learning Practice, 21*(6). https://doi.org/10.53761/q3azde36
+- Boud, D., Ajjawi, R., Dawson, P., & Tai, J. (Eds.). (2018). *Developing evaluative judgement in higher education: Assessment for knowing and producing quality work.* Routledge. https://doi.org/10.4324/9781315109251
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*

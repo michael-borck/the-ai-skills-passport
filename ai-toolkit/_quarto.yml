@@ -4,3 +4,7 @@ project:
   render:
     - index.qmd
     - downloads/*.qmd
+
+format:
+  html:
+    include-after-body: ../shared/favicon.html

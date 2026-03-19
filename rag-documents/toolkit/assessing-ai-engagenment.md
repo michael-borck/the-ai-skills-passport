@@ -1,0 +1,395 @@
+> This content is from the AI Toolkit resource: Assessing AI Engagement: A Case for Moving Beyond Detection, part of the AI Skills Passport for SoMM staff at Curtin University.
+
+# Assessing AI Engagement: A Case for Moving Beyond Detection
+
+**Prepared by:** AI Facilitator, School of Marketing and Management
+**Purpose:** A position paper for staff considering how to design assessments
+in an AI-capable student cohort
+
+---
+
+## The Problem with Detection
+
+Detection-based approaches to AI use assume that AI-generated work can be
+identified and discounted. In practice, three things undermine this:
+
+1. Detection tools produce false positives and false negatives at rates that
+make them unreliable as assessment instruments
+2. Iterative AI prompting, guided by specific personal context, produces output
+that is increasingly difficult to distinguish from genuine student work
+3. The components most commonly assumed to be AI-resistant (reflective writing,
+sociotechnical analysis, lecture cross-referencing) are now completable with
+freely available tools once students can feed unit materials directly into
+AI systems
+
+There is a deeper problem that is rarely acknowledged: AI detection tools are
+built on a single assumption about how students use AI. They assume one-shot
+delegation, a student who hands a task to AI and submits whatever comes back.
+The output of that process has certain statistical properties, and detectors
+are trained to find them.
+
+But a student who uses AI well does not produce that kind of output. They
+brainstorm, ideate, push back, refine, reject, and iterate across many turns.
+The final product of that process may look similar on the surface to a one-shot
+output, but the path to get there is entirely different. Detection tools cannot
+see that path. They look at the destination, not the journey.
+
+This means that even if detection worked perfectly, it would still fail at the
+thing that matters. It cannot distinguish between the student who delegated and
+the student who genuinely thought with AI. Both might trigger a detector.
+Neither should be treated the same way. The question detection cannot answer
+is the only question worth asking: *how did the student engage with the material
+on the way to producing this?*
+
+---
+
+## A More Useful Framing
+
+There is a widespread assumption that students using AI are simply delegating,
+handing over a task and accepting whatever comes back. In practice, a student
+who uses AI well is doing something much closer to working through a problem
+with knowledgeable colleagues: bouncing ideas, pushing back, iterating, getting
+challenged. That process is intellectually legitimate and arguably more aligned
+with how learning works than passive consumption of lecture content.
+
+The analogy is worth taking seriously. If a student watches a tutorial, reads a
+blog post, or works through a textbook example and builds something specific for
+their project, we would not question the authenticity of their work. A genuine
+back-and-forth with AI is not obviously different. The thinking that happens in
+that exchange is real.
+
+Students at every level are heading into workplaces where AI-assisted thinking
+is already standard practice. The more productive question is not *did the
+student use AI?* but *did the student think with it, or just through it?*
+
+This suggests a transparency-based approach may serve unit goals better than a
+detection-based one, framing AI not as something to be declared and discounted,
+but as a thinking tool whose use is visible and assessable.
+
+---
+
+## The Engagement Spectrum
+
+Not all AI-assisted work is equivalent. A useful spectrum for assessment
+thinking runs as follows:
+
+- **Genuine collaborative thinking:** the student drives the inquiry, pushes
+back on AI outputs, and iterates toward their own understanding. Highest
+cognitive engagement.
+- **Guided drafting:** the student provides context and direction, evaluates
+outputs critically, and modifies toward a coherent submission. Moderate
+engagement.
+- **Curated delegation:** the student uses AI to produce a submission and
+exercises judgment about what passes. Lower engagement, but not zero.
+- **Pure delegation with no engagement:** the actual failure case. Harder to
+achieve than assumed once any reflective or demonstrative component is
+required.
+
+Only the last case represents a genuine learning failure. An assessment design
+that makes even the gaming strategies require some thinking about the material
+has done most of its job.
+
+**Engagement is the goal, and engagement is learning, even when the path to
+it is indirect.**
+
+This claim deserves a brief defence. Engagement with AI is a legitimate form
+of learning because the cognitive mechanisms are the same as any other learning
+medium: questioning, iterating, sense-making, and building understanding
+through active processing. A student who genuinely works with AI is doing that
+cognitive work, just with a different collaborator than a textbook or a tutor.
+
+The important qualification is that not all AI engagement produces the same
+depth of learning. Shallow engagement, accepting the first output, asking
+surface-level questions, never pushing back, can produce the illusion of
+competence without the substance. This risk is not unique to AI; students have
+always been able to mistake reading fluency for deep understanding. But it is
+more visible with AI because the outputs are so polished.
+
+This is precisely where good assessment design does its work. An assessment
+that surfaces the quality of engagement, not just its presence, pushes students
+toward the deeper end of the spectrum. The engagement levels described above
+and the transcript signals described later are designed to distinguish genuine
+cognitive engagement from surface-level interaction. Shallow engagement will
+show in the evidence. Deep engagement will too.
+
+---
+
+## NotebookLM and the Personal Research Infrastructure Problem
+
+AI detection discussions tend to focus on the final submitted artefact. The
+more significant shift is happening earlier in the process and is largely
+invisible to markers.
+
+Sophisticated students are already building personal research infrastructure
+using tools like NotebookLM: a notebook per unit loaded with lecture slides,
+weekly readings, and marking rubrics, and a separate notebook per assignment
+loaded with everything they have found on the topic. At that point the tool is
+not answering isolated questions; it is acting as a personalised tutor with
+full context of everything the student has consumed across the semester.
+
+This applies equally to essays, literature reviews, case studies, and
+reflective writing, not just programming. The reflective section that feels
+resistant to AI because it requires personal experience is completable once a
+student has uploaded their own notes and journal entries as context. The
+literature review that requires synthesis across sources is completable once
+the sources are in the notebook. The case study analysis that requires applying
+unit concepts is completable once the lecture slides are loaded.
+
+The implication is that assessment types traditionally considered most
+AI-resistant are not resistant to a student who has invested in building their
+own AI-ready research context. The investment itself requires some engagement,
+but it does not require engagement with the assessment task specifically.
+
+---
+
+## Possibilities Worth Considering
+
+These are not recommendations to adopt together; they are options to weigh
+individually against unit goals and workload constraints.
+
+- **Require students to show their AI use, not just declare it.** There are
+meaningful levels to this, and the level chosen affects both the cognitive
+demand on the student and the workload on the marker.
+
+At the lowest level, a brief written account of AI use can itself be
+AI-drafted. The student still has to read it and judge whether it sounds
+plausible, so the cognitive load is not zero, but it is thin evidence.
+
+Submitting the full conversation transcript is considerably richer. The
+student cannot easily fabricate a working session after the fact, and the
+transcript contains signals a marker can read quickly or analyse with simple
+tools. Crucially, the analysis does not need to be the marker reading every
+transcript in full. A lightweight script can extract the student's own prompts
+and compute:
+
+- **Flesch readability score on student prompts** (measuring the student's
+own language, not the AI's output, and harder to fake consistently across
+a whole conversation)
+- **Average prompt length** (very short prompts suggest low engagement;
+longer, more specific prompts suggest the student is doing cognitive work)
+- **Number of turns** (a four-turn conversation is not a working session)
+- **Prompt specificity over time** (do prompts become more precise as the
+conversation develops? This is a signal of learning in progress)
+- **Presence of pushback or follow-up challenges** (does the student ever
+question or redirect an AI response, or are all prompts one-shot queries?)
+
+The marker's job then becomes interpreting a one-page summary per student
+rather than reading full transcripts, dipping into specific conversations
+only when the signals suggest something worth examining. This is scalable
+at 50 to 100 students in a way that reading every transcript is not.
+
+One important caveat: these metrics support marker judgement, they do not
+replace it. A low turn count might reflect a student who thinks efficiently
+rather than one who disengaged. A high Flesch score might reflect a student
+writing in their second language. The signals are a triage tool, not a
+verdict.
+
+A note on privacy: students submitting conversation transcripts should be
+advised to review them before submission. A student who shared personal
+context, health information, or sensitive circumstances with an AI to get
+relevant help may not intend that material to become part of an assessed
+submission. A brief reminder at the point of submission is good practice.
+
+- **Frame AI engagement as an assessable skill in its own right.** How well
+the student directed, interrogated, and built on AI output reflects both
+what matters in industry and a more honest picture of how learning happens.
+
+- **Design for live presence.** Oral checkpoints, live demonstrations, and
+face-on-camera requirements that cannot be scripted in advance are the
+highest-leverage integrity mechanisms available. Even a 5-minute conversation
+about a student's own submission closes the gap almost entirely.
+
+- **Constrain scope to unit content.** Requiring that submitted work stays
+within concepts explicitly covered in the unit gives markers a clear,
+objective signal when something is out of scope, which is more defensible
+than trying to detect AI-generated style.
+
+---
+
+## A Note on AI Conversations as Assessed Artefacts
+
+If AI conversation transcripts are used as an assessable component, it is
+worth acknowledging that a student could use one AI conversation to craft
+another for submission. This sounds like a loophole but deserves careful
+examination before being treated as one.
+
+A student crafting a submission conversation is still doing something
+cognitively real. They are evaluating outputs, judging whether a question
+makes sense, deciding whether a response reflects genuine understanding, and
+editing toward something coherent. That requires at least a working familiarity
+with the material.
+
+The more interesting observation is what the most capable students would do.
+A student who submits both the working conversation and the crafted submission
+is demonstrating exactly the kind of reflective, iterative AI use that
+professional practice actually looks like. That is arguably more sophisticated
+than a raw unedited conversation.
+
+---
+
+## AI Conversation Assessment and Collusion
+
+Traditional assessments tend to have convergent outputs. An essay question has
+a finite space of good answers. A programming specification has a narrow set of
+correct solutions. That convergence is precisely what makes collusion easy and
+tempting. Two students can share work because their work was always going to
+look similar anyway. The assessment design, not student dishonesty, creates the
+conditions for collusion.
+
+AI conversation assessment is structurally different. Every student starts from
+a different place, asks different questions, takes different turns, and arrives
+via a different path. Even two students working on identical tasks will produce
+conversations that look nothing alike if they are genuinely engaging with the
+material. The divergence is not a bug to manage; it is the feature that makes
+this form of assessment collusion-resistant by design.
+
+The two-students-sitting-together scenario is also worth reframing. If two
+students collaborate on crafting a conversation together, they are by definition
+discussing what a good question looks like, evaluating each other's prompts, and
+debating whether a response is adequate. That is peer learning. It is what
+tutorials are designed to produce. An assessment that generates that behaviour
+as a side effect of attempted collusion is doing something right.
+
+The framing this points toward is: show us your pathway. The output is
+secondary. Two students can arrive at identical outputs via completely different
+pathways, one having learned deeply and one having learned nothing. Traditional
+assessment measures the destination. AI conversation assessment measures the
+journey. That is a fundamentally more honest picture of whether learning
+happened.
+
+---
+
+## The Marks Split: Process Over Product
+
+If the process of engaging with material is what we are actually trying to
+assess, the marks weighting should reflect that. A structure worth considering:
+
+- **30% for the submitted artefact** (the essay, report, program, or other
+product)
+- **70% for the process** (evidence of critical engagement, iteration over
+time, and reflective thinking throughout the work)
+
+An important clarification: the process component should not require AI use.
+An AI conversation transcript is one form of process evidence, and a natural
+one for students who worked with AI. But a student who chose to think
+independently and kept a research journal, annotated their readings, maintained
+a design log, or documented their decision-making in another form should be
+able to submit that instead. The assessment is measuring engaged thinking, not
+AI use. Students working with free-tier tools, limited internet access, or
+personal preferences against AI should be able to demonstrate the same
+engagement through equivalent means. The process weighting rewards the journey,
+whatever path the student took to get there.
+
+This inversion signals to students that the destination matters less than the
+journey, which is genuinely true for learning. It makes the final artefact
+almost irrelevant as an integrity concern because it carries so few marks. And
+it rewards the student who thinks carefully over time rather than the student
+who writes well under pressure on one occasion.
+
+For written assessments the process evidence could include the conversation
+transcript, a brief account of where the student pushed back or changed
+direction, and a reflection on how their thinking shifted. For programming
+assessments it maps naturally onto the commit history and AI conversation
+combined.
+
+The marking overhead is real but manageable. The signal-based transcript
+analysis described above means markers are reviewing a one-page summary per
+student rather than reading every transcript in full.
+
+This is not just a response to the AI era. It is better assessment design than
+what came before it. The question is not whether to move in this direction but
+how quickly the workload and infrastructure questions can be resolved.
+
+---
+
+## A Note on Institutional Risk
+
+The pedagogical case for this approach is strong. For heads of school and
+academic integrity committees, the institutional risk argument may be equally
+persuasive.
+
+Detection-based approaches expose institutions to two risks simultaneously:
+false accusations against students who used AI legitimately, and missed cases
+where AI use was genuinely problematic. Both generate disputes, appeals, and
+workload. Neither makes the institution look good.
+
+A transparency-based approach reduces both risks. When the process of thinking
+is the assessed component, there is less ambiguity about what is being
+evaluated and more defensible evidence to point to when questions arise.
+Marking decisions become easier to justify, disputes become less likely, and
+the conversation with a student who underperformed shifts from "we think you
+used AI" to "your process evidence did not demonstrate sufficient engagement,"
+which is a far more defensible position.
+
+This approach also future-proofs the assessment design. Detection tools chase
+a moving target as AI capabilities improve. An assessment that measures
+engagement does not need to change every time a new model is released.
+
+---
+
+## The Integrity Principle Worth Keeping
+
+The academic integrity line that holds up under scrutiny is not *don't use AI*
+or even *declare AI use*, but rather: **do not misrepresent how you arrived at
+your ideas.** That principle applies equally to undeclared collaboration with a
+classmate, copying from a blog, or delegating wholesale to an AI tool.
+
+The student who genuinely thinks with AI has nothing to hide. An assessment
+design that makes that thinking visible serves everyone better than one that
+tries to detect its absence.
+
+---
+
+## A Minimum Viable Adoption Path
+
+The full framework described in this paper represents a significant shift from
+current practice. Not every unit or staff member will be ready to move there
+immediately, and that is fine. The principles scale down as well as up.
+
+Three starting points, in order of increasing commitment:
+
+**Tier 1: Add a single oral checkpoint.** Ask students to spend five minutes
+explaining two or three decisions in their own submission after it is handed
+in. No transcript required, no new rubric. This alone closes the most
+significant integrity gap and costs very little to implement.
+
+**Tier 2: Request a transcript without metrics.** Ask students to submit their
+AI conversation transcript alongside their work, with a brief self-reflection
+highlighting three moments where they pushed back, changed direction, or
+learned something unexpected. No automated analysis required. The marker reads
+the reflection and dips into the transcript if something seems thin. This adds
+one assessable component without a major redesign.
+
+**Tier 3: Full signal-based analysis.** Implement the transcript analysis
+approach described above, with automated metrics providing a one-page summary
+per student and the marker interpreting signals rather than reading every
+conversation. This is the scalable long-term model and is most appropriate
+once staff are comfortable with the earlier tiers.
+
+Each tier is a genuine improvement on the status quo. Starting at Tier 1 and
+moving up over successive semesters is a more sustainable path than attempting
+a full redesign at once.
+
+---
+
+## A Note on Scope: Individual Assessment
+
+This paper focuses on individual assessment. Group-based assessment raises
+additional dynamics that this paper does not attempt to resolve: how AI use
+is attributed across group members, how the engagement spectrum applies when
+the pathway was collaborative, and how free-rider problems interact with AI
+availability. These warrant separate treatment.
+
+The core principles here, transparency over detection, assessing the journey
+not just the destination, and designing for engagement rather than policing
+absence of AI, carry across to group contexts. But the implementation looks
+different enough that it deserves its own analysis.
+
+---
+
+*This paper is offered as a contribution to ongoing assessment design
+conversations. It draws on practical stress testing of current assessments
+and reflects the author's role as AI Facilitator.*
+
+This document was developed through conversation loop with
+Claude (Anthropic) and Copilot (Microsoft).

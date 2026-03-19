@@ -27,10 +27,12 @@ format:
                 <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
                 <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
                 <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <div class="sp-nav-separator"></div>
                 <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
       <div class="sp-nav-group" data-group="resources">
@@ -84,7 +86,7 @@ format:
 
   <!-- Hero -->
   <div style="padding: 32px 0; position: relative;">
-    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">Seven experiences.</div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">Nine experiences.</div>
     <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px; margin-bottom: 6px;">No prerequisites.</div>
     <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #FBBF24; letter-spacing: -0.5px; margin-bottom: 16px;">Start with what interests you.</div>
     <p style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin: 0; max-width: 520px;">Each experience is standalone. Pick one that feels relevant, complete it at your own pace, and come back for more when you're ready.</p>
@@ -93,7 +95,7 @@ format:
   <!-- Core Experiences -->
   <div style="margin-bottom: 24px;">
     <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Core Experiences &mdash; For Everyone</div>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
 
       <a href="experiences/is-this-ai.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
         <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128269;</div>
@@ -127,6 +129,22 @@ format:
         <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
       </a>
 
+      <a href="experiences/the-conversation-loop.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128260;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">The Conversation Loop</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Brainstorm, Ideate, Iterate, Amplify &mdash; the process for thinking with AI.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;60 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+      <a href="experiences/working-with-copilot.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128188;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Working with Copilot</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Use Microsoft Copilot effectively in your daily workflows.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;60 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
     </div>
   </div>
 
@@ -144,20 +162,20 @@ format:
         <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
       </a>
 
-      <a href="experiences/working-with-copilot.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128188;</div>
-        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Working with Copilot</div>
-        <div style="display: inline-block; font-size: 0.7rem; color: #FBBF24; background: #2D2D4A; padding: 2px 8px; border-radius: 4px; margin-top: 6px;">Admin</div>
-        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 6px; line-height: 1.5;">Use Microsoft Copilot effectively in your daily workflows.</div>
-        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;60 min</div>
-        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
-      </a>
-
       <a href="experiences/researching-with-ai.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
         <div style="font-size: 1.3rem; margin-bottom: 6px;">&#128300;</div>
         <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Researching with AI</div>
         <div style="display: inline-block; font-size: 0.7rem; color: #FBBF24; background: #2D2D4A; padding: 2px 8px; border-radius: 4px; margin-top: 6px;">Research</div>
         <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 6px; line-height: 1.5;">Integrate AI into your research workflow responsibly.</div>
+        <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;60 min</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
+      </a>
+
+      <a href="experiences/streamlining-your-workflows.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#9881;&#65039;</div>
+        <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC;">Streamlining Your Workflows</div>
+        <div style="display: inline-block; font-size: 0.7rem; color: #FBBF24; background: #2D2D4A; padding: 2px 8px; border-radius: 4px; margin-top: 6px;">Professional Staff</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 6px; line-height: 1.5;">Identify bottlenecks and build an AI efficiency playbook for your role.</div>
         <div style="font-size: 0.75rem; color: #64748B; margin-top: 8px;">30&ndash;60 min</div>
         <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Start &rarr;</div>
       </a>
@@ -191,4 +209,15 @@ format:
   </div>
 
 </div>
+
+<!-- The Concierge: AI Skills Passport chatbot -->
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.setAttribute('data-embed-id', '1ac8c1d3-98bd-4d94-a56e-1045d933fdf6');
+  s.setAttribute('data-base-api-url', 'https://chat.eduserver.au/api/embed');
+  s.src = 'https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js';
+  document.body.appendChild(s);
+})();
+</script>
 ```

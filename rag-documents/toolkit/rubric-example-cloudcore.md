@@ -1,0 +1,79 @@
+> This content is from the AI Toolkit resource: Example Rubric: CloudCore Audit, part of the AI Skills Passport for SoMM staff at Curtin University.
+
+# Example Rubric: CloudCore Audit
+
+> **Copyright Notice:** This document and all materials in this suite are authored by Michael Borck (AI Facilitator, School of Management and Marketing, Curtin University). They are provided for use within Curtin University. External distribution, reproduction, or use outside Curtin University requires explicit written permission.
+
+**Context:** Students conduct an audit of a simulated AI-driven organisation by interacting with AI "employees" (chatbots) and using LLMs as research tools. This rubric balances investigation quality, critical AI evaluation, and professional reporting.
+
+---
+
+## CloudCore Audit Rubric
+
+| Criterion | Weight | Excellent | Good | Satisfactory | Developing |
+|-----------|--------|-----------|------|--------------|------------|
+| **Critical Evaluation of AI Sources** | 30% | Demonstrates sophisticated judgement about different AI "employees." Clearly explains which sources are reliable for different questions and why. Questions inconsistencies between AI responses. Validates findings through multiple sources or independent verification. Recognises AI speculation vs. factual responses. | Shows good discernment among AI employees. Generally identifies which sources are stronger for different topics. Attempts to cross-reference findings. Recognises some AI limitations. | Engages with multiple AI employees but evaluation is surface-level. Limited comparison between sources. Accepts contradictions without investigation. Minimal awareness of AI unreliability. | Treats all AI employees as equally reliable. No attempt to validate information across sources. Accepts AI responses uncritically. |
+| **Audit Investigation Strategy & Execution** | 25% | Investigation plan is systematic and adaptive. Clear evidence of strategic sequencing of AI interviews (e.g., starting with CFO for financials, then IT Manager for technical risks). Responds creatively to access constraints and cancellations. Shows persistence in clarifying unclear answers. Iterative refinement visible. | Investigation follows a logical structure. Manages scheduled appointments effectively. Asks follow-up questions when unclear. Generally adapts to constraints. Some evidence of iterative inquiry. | Investigation covers main areas but lacks clear strategy. Accepts initial AI responses without deep follow-up. Limited adaptation to access challenges. Feels somewhat ad-hoc. | Investigation is disorganised or incomplete. Minimal engagement with access scheduling. Key areas unexplored or surface-level inquiry. |
+| **Professional Use of LLM as Research Tool** | 20% | Critically reviews LLM outputs before integrating into audit. Clearly distinguishes own analysis from AI-generated content. Uses LLM strategically (e.g., drafting frameworks, checking logic) rather than passively accepting output. Shows evidence of multiple prompts/refinement. Acknowledges where LLM was helpful or speculative. | Generally validates LLM suggestions against evidence. Most AI outputs are appropriately reviewed. Clear attribution of own vs. AI work. Some evidence of iterative prompting. | Integrates LLM output with limited critical review. Attribution of sources is sometimes unclear. Limited evidence of validation or iterative refinement. | Heavily relies on unvalidated LLM output. No clear distinction between own and AI-generated content. Minimal critical review. |
+| **Audit Report: Professional Communication** | 15% | Report is clear, well-structured, and professionally formatted. Complex security findings are explained accessibly to non-technical stakeholders. Recommendations are specific and justified. Transparent about methodology (how AI was used, limitations encountered). | Report is well-organised and clearly written. Findings are generally well-explained. Recommendations are reasonable. Mentions methodology but could be more transparent. | Report covers main findings but organisation could be clearer. Some findings lack sufficient justification. Recommendations are general. Limited transparency about AI use in methodology. | Report is difficult to follow or incomplete. Findings poorly explained. Recommendations are vague or unjustified. No mention of methodology or AI use. |
+| **AI Conversation Quality & Professional Judgement** | 10% | Conversation transcripts show genuine dialogue with AI: challenging responses, following up on inconsistencies, refining questions based on previous answers. Student clearly articulates how own judgement validated, rejected, or refined AI suggestions. Takes clear accountability for final audit conclusions. | Conversation transcripts show reasonable engagement. Follow-up questions present. Explains how own expertise was applied to evaluate AI outputs. Generally accountable for work product. | Conversation transcripts show limited interaction. Few follow-up questions. Limited evidence of steering or refining the AI conversation. Accountability is somewhat unclear. | Conversation shows single prompts with no follow-up. No evidence of critical engagement. Unclear who is responsible for audit conclusions. |
+
+---
+
+## Performance Level Descriptors (Optional - if you want more detail)
+
+### Excellent (85-100%)
+- Student demonstrates sophisticated professional judgement about which AI sources are credible for different investigation areas
+- Audit strategy is evident and strategic; clear sequencing of inquiry
+- All AI outputs are meaningfully evaluated; student shows independent reasoning throughout
+- Report would be valuable to actual security leadership
+- Conversation transcripts show genuine learning about managing AI as a tool
+
+### Good (75-84%)
+- Student shows competent judgement about AI reliability; identifies key differences between sources
+- Investigation is reasonably strategic and organised
+- Most AI outputs are reviewed; some independent analysis visible
+- Report is professionally written and would be useful to stakeholders
+- Conversation shows adequate critical engagement with AI
+
+### Satisfactory (65-74%)
+- Student engages with AI but evaluation lacks sophistication; treats sources somewhat generically
+- Investigation covers main areas but strategy is not always clear
+- AI outputs are sometimes accepted with limited review
+- Report communicates findings but could be more polished
+- Conversation engagement is present but limited in depth
+
+### Developing (<65%)
+- Student does not meaningfully evaluate AI reliability; little critical engagement
+- Investigation is incomplete or disorganised; key areas missing
+- AI outputs heavily influence conclusions with minimal independent review
+- Report is unclear or incomplete
+- Conversation engagement is minimal or absent
+
+---
+
+## Usage Notes for Instructors
+
+### Before Students Start
+- Clearly explain that this rubric rewards *critical thinking about AI*, not just efficient tool use
+- Emphasize that asking good follow-up questions of AI employees (and the LLM) is an evaluated skill
+- Normalise that showing where AI misled you (visible in the transcript) is valued equally to successful findings
+
+### Marking Tips
+- **Look for evidence in the audit transcript:** Can you see quality prompting? Validation? Follow-ups?
+- **Check the LLM transcript (if submitted):** Does it show iterative refinement or one-shot prompting?
+- **Read the conversation transcript carefully:** This is where students reveal their critical judgement. Look for conversation, not delegation
+- **Consider disciplinary context:** Stronger audit findings in security areas = stronger performance, but critical AI evaluation matters most
+
+### Adapted for Other Audit Contexts
+This rubric works well for:
+- ISO 27001 readiness audits
+- Tech vendor assessments
+- Process efficiency reviews
+- Any scenario where students interview AI agents and synthesise findings
+
+Simply adjust the specific domain knowledge criterion and the types of findings expected.
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. It is intended as a discussion starter and a baseline for your own exploration, not a definitive guide. References will be added progressively. If something here challenges your thinking, good, that's the point.*
