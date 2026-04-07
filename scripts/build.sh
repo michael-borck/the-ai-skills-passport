@@ -28,6 +28,7 @@ QUARTO_DIRS=(
   contact
   about
   ai-in-5-archive
+  the-briefing-archive
   experiences
   experiences/is-this-ai
   experiences/what-would-you-do
@@ -62,7 +63,7 @@ find_output() {
 }
 
 # Top-level SPAs
-for name in onboarding passport key-takeaways arrivals-hall contact about ai-in-5-archive resources more; do
+for name in onboarding passport key-takeaways arrivals-hall contact about ai-in-5-archive the-briefing-archive resources more; do
   src="$(find_output "$ROOT/$name")"
   cp "$src" "$DIST/$name.html"
   echo "  Collected $name.html"

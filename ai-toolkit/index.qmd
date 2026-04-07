@@ -22,7 +22,6 @@ format:
     </button>
     <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
     <div class="sp-nav-menu">
-      <a href="arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
       <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
       <div class="sp-nav-group" data-group="experiences">
         <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
@@ -39,19 +38,14 @@ format:
                 <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
-      <div class="sp-nav-group" data-group="resources">
-        <a href="resources.html" class="sp-nav-heading" data-nav="resources">Resources</a>
-        <div class="sp-nav-dropdown">
-          <a href="ai-toolkit.html" class="sp-nav-item" data-nav="ai-toolkit">AI Toolkit</a>
-          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
-          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
-        </div>
-      </div>
+      <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <a href="the-briefing-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="the-briefing-archive">The Briefing</a>
+      <a href="ai-in-5-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-in-5-archive">AI in 5</a>
       <div class="sp-nav-group" data-group="more">
         <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
-          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
-          <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
           <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
           <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
         </div>
@@ -2400,6 +2394,62 @@ Now write feedback in my style for:
 
         <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
           <strong>Key distinction:</strong> Using AI as a crutch for laziness versus using it as a lever for capability. The former wastes money and dulls your skills. The latter multiplies your effectiveness.
+        </div>
+      `
+    },
+    {
+      id: 'data-governance',
+      category: 'guide',
+      roles: ['admin', 'teaching', 'research'],
+      title: 'Why Enterprise AI Data Governance Gets It Wrong',
+      emoji: '🔒',
+      summary: 'Blanket AI prohibitions confuse legitimate risks (transmission, jurisdiction, contracts) with fictional ones (model extraction). A proportionate framework classifies data and matches tools accordingly.',
+      downloads: {
+        html: 'downloads/data-governance.html',
+        docx: 'downloads/data-governance.docx',
+        pdf: 'downloads/data-governance.pdf'
+      },
+      content: `
+        <p>Many organisations ban uploading documents to AI tools. The concern is understandable, but the reasoning is often wrong.</p>
+
+        <p><strong>The real risks (infrastructure and legal):</strong></p>
+        <ul>
+          <li><strong>Data residency</strong>: Transmitting data to external servers may breach jurisdictional requirements</li>
+          <li><strong>Contractual obligations</strong>: NDAs and agreements define which systems may process covered data</li>
+          <li><strong>Logging and retention</strong>: Providers may store prompts for monitoring, separate from training</li>
+          <li><strong>Supply chain risk</strong>: Providers can be breached like any SaaS vendor</li>
+        </ul>
+
+        <p><strong>The fictional risk:</strong> Someone extracting your document from the model. LLMs interpolate; they do not retrieve. Data dissolved into billions of parameters is not a searchable file. It is a drop of ink in a swimming pool.</p>
+
+        <div style="background: #3D2E0A; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>The bottom line:</strong> Apply the same data classification framework to AI that you apply to email, cloud storage, and Slack. Professional data hygiene, not AI exceptionalism.
+        </div>
+      `
+    },
+    {
+      id: 'focused-prompting',
+      category: 'technique',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'One Prompt, One Job',
+      emoji: '🎯',
+      summary: 'Ask AI to do one thing well instead of ten things badly. Focused prompts produce deeper, more useful output.',
+      downloads: {
+        html: 'downloads/focused-prompting.html',
+        docx: 'downloads/focused-prompting.docx',
+        pdf: 'downloads/focused-prompting.pdf'
+      },
+      content: `
+        <p>When you ask an AI to do ten things at once, you get ten shallow results. When you ask it to do one thing, you get one deep result.</p>
+
+        <p>AI models read the <em>shape</em> of your request. A prompt with ten tasks looks like a checklist, so the model responds in checklist mode. A single focused task gets serious attention: more reasoning, more nuance, more useful output.</p>
+
+        <p><strong>Instead of:</strong> "Summarise the report, identify the key risks, suggest three recommendations, rewrite the executive summary, and check the tone."</p>
+
+        <p><strong>Try:</strong> "Summarise the report in three to four sentences, focusing on the main argument." Then follow up with the next task.</p>
+
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>The principle:</strong> Think of AI as a conversation, not a task list. One thing at a time. Follow up. Build. It is slower in theory, but faster in practice because you spend less time fixing weak output.
         </div>
       `
     }

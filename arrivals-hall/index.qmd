@@ -18,7 +18,6 @@ format:
     </button>
     <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
     <div class="sp-nav-menu">
-      <a href="arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
       <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
       <div class="sp-nav-group" data-group="experiences">
         <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
@@ -35,19 +34,14 @@ format:
                 <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
-      <div class="sp-nav-group" data-group="resources">
-        <a href="resources.html" class="sp-nav-heading" data-nav="resources">Resources</a>
-        <div class="sp-nav-dropdown">
-          <a href="ai-toolkit.html" class="sp-nav-item" data-nav="ai-toolkit">AI Toolkit</a>
-          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
-          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
-        </div>
-      </div>
+      <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <a href="the-briefing-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="the-briefing-archive">The Briefing</a>
+      <a href="ai-in-5-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-in-5-archive">AI in 5</a>
       <div class="sp-nav-group" data-group="more">
         <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
-          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
-          <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
           <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
           <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
         </div>
@@ -86,7 +80,7 @@ format:
 
   <!-- Header -->
   <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 32px; margin-bottom: 28px; text-align: center; position: relative; overflow: hidden;">
-    <div style="font-size: 48px; margin-bottom: 12px;">🧭</div>
+    <div style="font-size: 48px; margin-bottom: 12px;">&#x1F9ED;</div>
     <div style="font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">AI Skills Passport</div>
     <h1 style="font-family: 'Courier New', Consolas, monospace; font-size: 24px; font-weight: bold; color: #F1F5F9; margin: 0 0 8px 0; letter-spacing: 1px;">THE ARRIVALS HALL</h1>
   </div>
@@ -100,58 +94,81 @@ format:
     <a href="onboarding.html" style="display: inline-block; padding: 14px 28px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 1rem; font-weight: bold;">Not sure where to start? Find Your Path &rarr;</a>
   </div>
 
-  <!-- Explore Cards -->
+  <!-- Learn & Do -->
   <div style="margin-bottom: 24px;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Explore</div>
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Learn &amp; Do</div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
       <a href="experiences.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">🗺️</div>
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#x1F5FA;&#xFE0F;</div>
         <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">Experiences</div>
-        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Seven standalone experiences. Start with what interests you.</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Standalone learning experiences. Start with what interests you.</div>
         <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Browse all &rarr;</div>
       </a>
       <a href="resources.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">🧰</div>
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#x1F9F0;</div>
         <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">AI Toolkit</div>
         <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Frameworks, templates &amp; guides. Dip in anytime.</div>
         <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Open &rarr;</div>
       </a>
+      <a href="key-takeaways.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#x1F4A1;</div>
+        <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">Key Takeaways</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">The big ideas, even if you do nothing else.</div>
+        <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Read &rarr;</div>
+      </a>
     </div>
+  </div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
-      <a href="https://theaiexchange.serveur.au/" target="_blank" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">🌐</div>
+  <!-- Connect & Track -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Connect &amp; Track</div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      <a href="https://theaiexchange.eduserver.au" target="_blank" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#x1F310;</div>
         <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">AI Exchange</div>
         <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">See what others are trying. Share your own use cases.</div>
         <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Visit &rarr;</div>
       </a>
       <a href="passport.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
-        <div style="font-size: 1.3rem; margin-bottom: 6px;">🏅</div>
+        <div style="font-size: 1.3rem; margin-bottom: 6px;">&#x1F3C5;</div>
         <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">My Passport</div>
         <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">Track your progress &amp; collect badges.</div>
         <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">View &rarr;</div>
       </a>
     </div>
-
-    <a href="key-takeaways.html" style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px; text-decoration: none; display: block;">
-      <div style="font-size: 1.3rem; margin-bottom: 6px;">💡</div>
-      <div style="font-size: 1rem; font-weight: bold; color: #f8fafc;">Key Takeaways</div>
-      <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px; line-height: 1.5;">The big ideas, even if you do nothing else. Eight principles worth knowing.</div>
-      <div style="font-size: 0.8rem; color: #818CF8; margin-top: 8px; font-weight: 600;">Read &rarr;</div>
-    </a>
   </div>
 
-  <!-- AI in 5 Section -->
-  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-      <span style="font-size: 28px;">⚡</span>
-      <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">AI in 5</h2>
-    </div>
-    <p style="font-size: 15px; color: #CBD5E1; line-height: 1.7; margin: 0 0 16px 0;">Quick micro-challenges delivered to your inbox. Each one takes about five minutes and gives you something practical to try with AI right away.</p>
-    <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-      <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" target="_blank" style="display: inline-block; padding: 12px 24px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700;">Subscribe &rarr;</a>
-      <a href="ai-in-5-archive.html" style="display: inline-block; padding: 12px 24px; background: #0F172A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; border: 1px solid #2D2D4A;">Browse past challenges &rarr;</a>
+  <!-- Stay Current: AI in 5 + The Briefing side by side -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Stay Current</div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+
+      <!-- AI in 5 -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px;">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+          <span style="font-size: 28px;">&#x26A1;</span>
+          <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">AI in 5</h2>
+        </div>
+        <p style="font-size: 14px; color: #CBD5E1; line-height: 1.7; margin: 0 0 16px 0;">Weekly micro-challenges in your inbox. Five minutes, something practical to try with AI right away.</p>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" target="_blank" style="display: inline-block; padding: 10px 20px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 13px; font-weight: 700;">Subscribe &rarr;</a>
+          <a href="ai-in-5-archive.html" style="display: inline-block; padding: 10px 20px; background: #0F172A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 13px; font-weight: 700; border: 1px solid #2D2D4A;">Archive &rarr;</a>
+        </div>
+      </div>
+
+      <!-- The Briefing -->
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px;">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+          <span style="font-size: 28px;">&#x1F4CB;</span>
+          <h2 style="font-size: 18px; font-weight: 700; color: #F1F5F9; margin: 0;">The Briefing</h2>
+        </div>
+        <p style="font-size: 14px; color: #CBD5E1; line-height: 1.7; margin: 0 0 16px 0;">A fortnightly feature on AI across Curtin, the sector, and the research. A paper, a profile, a tool, or an initiative worth knowing about. Sent to all SoMM staff.</p>
+        <a href="the-briefing-archive.html" style="display: inline-block; padding: 10px 20px; background: #0F172A; color: #E2E8F0; text-decoration: none; border-radius: 8px; font-size: 13px; font-weight: 700; border: 1px solid #2D2D4A;">Browse past issues &rarr;</a>
+      </div>
+
     </div>
   </div>
 
@@ -159,17 +176,21 @@ format:
   <div style="margin-bottom: 24px;">
     <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">How Much Time Do You Have?</div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px;">
       <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
         <div style="font-size: 1.1rem; font-weight: bold; color: #fbbf24; margin-bottom: 4px;">5 minutes a week</div>
         <div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">AI in 5 micro-challenges in your inbox every week.</div>
       </div>
       <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
-        <div style="font-size: 1.1rem; font-weight: bold; color: #f97316; margin-bottom: 4px;">One a week</div>
-        <div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">Self-directed, structured progress over seven weeks.</div>
+        <div style="font-size: 1.1rem; font-weight: bold; color: #f97316; margin-bottom: 4px;">10 minutes a fortnight</div>
+        <div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">The Briefing: AI news, papers, and profiles delivered fortnightly.</div>
       </div>
       <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
-        <div style="font-size: 1.1rem; font-weight: bold; color: #818CF8; margin-bottom: 4px;">2-hour session</div>
+        <div style="font-size: 1.1rem; font-weight: bold; color: #818CF8; margin-bottom: 4px;">One experience a week</div>
+        <div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">Self-directed, structured progress over nine weeks.</div>
+      </div>
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 16px 18px;">
+        <div style="font-size: 1.1rem; font-weight: bold; color: #10B981; margin-bottom: 4px;">2-hour session</div>
         <div style="font-size: 0.85rem; color: #94A3B8; line-height: 1.5;">Same content, guided face-to-face by the AI Facilitator.</div>
       </div>
     </div>

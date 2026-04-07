@@ -16,3 +16,18 @@ Ideas that didn't fit the current week but are worth keeping for later or as ext
 **Professional:** You want to "reformat this spreadsheet." But is the real problem that people can't find what they need? Ask AI about the information problem, not the formatting problem.
 
 **Notes:** Best suited for Week 5+ when staff have built some AI comfort. More cerebral than the early weeks — teaches problem framing rather than tool familiarity. Could pair well with the Conversation Loop experience launch.
+
+---
+
+## Spot the AI
+**Theme:** Ethics | **Concept:** Detection tools are unreliable
+
+**Challenge:** Two paragraphs about why Curtin is a great place to work. One was written by a human, one by Copilot. Can you tell which? (A) 'Curtin brings together people who genuinely want to make a difference. The campus buzzes with ideas, the coffee is decent, and there is always someone down the corridor who knows the thing you need to know.' (B) 'Curtin University offers a dynamic and supportive work environment characterised by a strong commitment to innovation, diversity, and professional development opportunities for all staff.' Answer: B is the AI. If you got it wrong — that is exactly why this matters.
+
+**Teaching:** You probably mark student writing. Could you reliably spot AI in an assignment? Detection tools get it wrong 20–40% of the time. Design for learning, not detection.
+
+**Research:** Next time you review a manuscript, notice the writing style. Could sections have been AI-generated? The answer increasingly is: you can't tell, and that changes how we think about authorship.
+
+**Professional:** You write reports, briefs, and proposals. If AI can produce text indistinguishable from yours, what does that mean for how we value writing versus the thinking behind it?
+
+**Notes:** Originally slotted as Week 3. Parked 2026-03-24 to make room for the Two-Chat Workflow challenge. Good standalone challenge — works any time.

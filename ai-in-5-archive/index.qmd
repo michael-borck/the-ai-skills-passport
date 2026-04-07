@@ -18,7 +18,6 @@ format:
     </button>
     <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
     <div class="sp-nav-menu">
-      <a href="arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
       <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
       <div class="sp-nav-group" data-group="experiences">
         <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
@@ -35,19 +34,14 @@ format:
                 <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
-      <div class="sp-nav-group" data-group="resources">
-        <a href="resources.html" class="sp-nav-heading" data-nav="resources">Resources</a>
-        <div class="sp-nav-dropdown">
-          <a href="ai-toolkit.html" class="sp-nav-item" data-nav="ai-toolkit">AI Toolkit</a>
-          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
-          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
-        </div>
-      </div>
+      <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <a href="the-briefing-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="the-briefing-archive">The Briefing</a>
+      <a href="ai-in-5-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-in-5-archive">AI in 5</a>
       <div class="sp-nav-group" data-group="more">
         <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
-          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
-          <a href="ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
           <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
           <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
         </div>
@@ -89,6 +83,7 @@ format:
     <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">Missed one?</div>
     <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px; margin-bottom: 16px;">Catch up here.</div>
     <p style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin: 0; max-width: 520px;">Every past AI in 5 challenge, collected in one place. Pick any that catch your eye. They're all standalone.</p>
+    <p style="font-size: 0.95rem; margin-top: 12px;"><a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" target="_blank" style="color: #F97316; text-decoration: underline;">Subscribe to AI in 5</a> to get each week's challenge in your inbox.</p>
   </div>
 
   <!-- Past Challenges -->
@@ -120,6 +115,68 @@ format:
       </div>
     </details>
     -->
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#9878;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 5 &bull; Ethics &bull; 07 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Who Gets the Credit?</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">You use Copilot to help write a funding application. The structure is yours; the data is yours, but Copilot polished the prose and suggested two paragraphs you kept almost unchanged. Should you disclose the AI assistance?</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Research:</strong> Check your target journal's AI policy. Some require disclosure, others prohibit AI-generated text entirely. Curtin's research guidelines are evolving too. Better to know before you submit.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> You draft a board paper and Copilot restructures your argument. Nobody asks who helped. Should they? Professional staff use AI for writing constantly. The norms are being set right now by what we normalise.<br><br>
+          <strong style="color: #F8FAFC;">Teaching:</strong> If a student used AI the same way you just did on that funding application, would you consider it academic misconduct? Whatever your answer, make sure your policy matches your own practice.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Transparency is the default</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128161;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 4 &bull; Practice &bull; 31 Mar 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Your Meeting in 60 Seconds</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">After your next Teams meeting, ask Copilot to summarise the key decisions and action items. That takes 10 seconds. Now here is the real challenge: ask &ldquo;What decisions were implied but never actually stated?&rdquo; then &ldquo;What questions were raised but not answered?&rdquo; and &ldquo;What was discussed but not resolved?&rdquo; Compare those answers to what you walked away thinking. Did AI surface something you missed, or were you already ahead of it?</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Professional:</strong> After any meeting, get the summary, then ask, &ldquo;What was discussed but not resolved?&rdquo; and &ldquo;What actions were implied but not assigned to anyone?&rdquo; Back-to-back meeting days are where things fall through the cracks &mdash; this is how you catch them.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> After a research group meeting, get the summary, then ask, &ldquo;What assumptions about the methodology went unchallenged?&rdquo; and &ldquo;What deadlines were implied but not confirmed?&rdquo; Useful for keeping collaborators aligned on what was decided versus what felt decided.<br><br>
+          <strong style="color: #F8FAFC;">Teaching:</strong> After a teaching team meeting, get the summary, then ask, &ldquo;What curriculum decisions were implied but not explicitly agreed on?&rdquo; and &ldquo;What student issues were mentioned but not followed up?&rdquo; These are the things that resurface three weeks later when nobody remembers who was meant to act.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: AI amplifies thinking</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129504;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 3 &bull; Practice &bull; 24 Mar 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The Two-Chat Workflow</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Next time you need AI help with something real, use two separate chat sessions. Session 1 is your Thinking Chat: explore, challenge assumptions, follow tangents, clarify what your actual question is. This is messy by design. Its purpose is to sharpen your thinking, not produce output. Then stop. Read through what emerged. Decide what matters. Discard what doesn't. Decide what you'll carry across. Write a focused brief. Session 2 is your Build Chat: produce the actual output using that brief. Keep flipping between the two sessions as needed. The magic is what happens between the two. You don't copy-paste from session one to session two. That curation, deciding what crosses from thinking to building, is where your judgement lives. Neither session has the full picture. Only you hold both. That's the real meaning of "human in the loop."</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Teaching:</strong> You're designing a new assessment task. Chat 1: brainstorm what skills you want to test, what's gone wrong before, what students struggle with. When you feel your thinking has sharpened, write a one-paragraph brief. Chat 2: draft the task sheet from that brief. The assessment will be sharper because you thought before you built.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> You're drafting a grant application. Chat 1: explore the research gap, test your framing, challenge your assumptions about significance. When something clicks, distil your argument into a clear brief. Chat 2: write the actual section.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> You need to write a process document or proposal. Chat 1: talk through the problem, surface edge cases, clarify who the audience is. When you know what you're trying to say, write a focused brief. Chat 2: produce the document. You'll notice the output is better because the thinking was done first.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Separate thinking from building</div>
+      </div>
+    </details>
 
     <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
       <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">

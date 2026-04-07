@@ -1,0 +1,192 @@
+---
+pagetitle: "The Briefing Archive"
+format:
+  html:
+    self-contained: true
+    toc: false
+---
+
+```{=html}
+<!-- The Briefing Archive — AI Skills Passport -->
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1080px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+
+  <!-- Navigation -->
+  <nav class="sp-nav" data-page="the-briefing-archive">
+    <button class="sp-nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span class="sp-nav-icon">&#9776;</span>
+    </button>
+    <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
+    <div class="sp-nav-menu">
+      <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
+      <div class="sp-nav-group" data-group="experiences">
+        <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
+        <div class="sp-nav-dropdown">
+          <a href="experiences/is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
+                <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+                <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+                <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+                <div class="sp-nav-separator"></div>
+                <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+                <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
+        </div>
+      </div>
+      <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <a href="the-briefing-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="the-briefing-archive">The Briefing</a>
+      <a href="ai-in-5-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-in-5-archive">AI in 5</a>
+      <div class="sp-nav-group" data-group="more">
+        <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
+        <div class="sp-nav-dropdown">
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
+          <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
+          <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+  (function() {
+    var toggle = document.querySelector('.sp-nav-toggle');
+    var menu = document.querySelector('.sp-nav-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function() {
+        var open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.sp-nav')) {
+          menu.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+    var nav = document.querySelector('.sp-nav');
+    var page = nav ? nav.getAttribute('data-page') : null;
+    if (page) {
+      var el = nav.querySelector('[data-nav="' + page + '"]');
+      if (el) {
+        el.classList.add('is-active');
+        var group = el.closest('.sp-nav-group');
+        if (group) group.classList.add('has-active-child');
+      }
+    }
+  })();
+  </script>
+
+
+  <!-- Hero -->
+  <div style="padding: 32px 0; position: relative;">
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">The Briefing.</div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px; margin-bottom: 16px;">Every issue, right here.</div>
+    <p style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin: 0; max-width: 560px;">A fortnightly feature on AI across Curtin, the sector, and the research. A paper, a profile, a tool, or an initiative worth knowing about.</p>
+  </div>
+
+  <!-- Past Issues -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Past Issues</div>
+
+    <!-- ISSUES START — add new entries above the end marker, newest first -->
+
+    <!--
+    TEMPLATE — copy this block for each new issue:
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">EMOJI</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">ISSUE #N &bull; DD MMM YYYY</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Headline topic here</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0; transition: transform 0.2s;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">
+          <strong style="color: #F8FAFC;">Headline item title</strong><br>
+          Summary text here. What it is, why it matters for SoMM staff. 2-3 sentences.
+        </div>
+
+        Use one or two of these rotating segments per issue:
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #FBBF24;">Staff Spotlight</strong><br>
+          [Name] from [discipline] has been [doing something with AI]. 1-2 sentences on what they learned.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #FBBF24;">Paper Worth Reading</strong><br>
+          [Title] ([Journal], [Year]). 2 sentences on the key finding and relevance.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #FBBF24;">Curtin Watch</strong><br>
+          [Initiative/policy/event]. 2 sentences on what it means for us.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #FBBF24;">Tool of the Fortnight</strong><br>
+          [Tool name]. What it does, who might find it useful.
+        </div>
+      </div>
+    </details>
+    -->
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128221;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue #1 &bull; 08 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Assessment in the age of AI</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">
+          With the upcoming L&amp;T Seminar, this fortnight&rsquo;s feature is on assessment.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Worth attending</strong><br>
+          Sonia and Claire&rsquo;s L&amp;T Seminar Series has a session coming up that will interest anyone thinking about assessment design. Sam Cholayil is presenting on practical strategies for designing AI-resilient assessments. Rather than detection or prohibition, the focus is on authenticity and equity. You&rsquo;ll work with a real assessment task during the session.<br><br>
+          Wednesday 22 April, 12:00 to 1:00 pm, Room 402.216. Face-to-face, BYOD.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Something worth thinking about</strong><br>
+          Traditional assessments tend to have convergent outputs. An essay question has a finite space of good answers. A programming spec has a narrow set of correct solutions. That convergence is what makes collusion easy and tempting. Two students can share work because their work was always going to look similar anyway.<br><br>
+          What if we assessed the pathway instead? Two students can arrive at identical outputs via completely different pathways, one having learned deeply and one having learned nothing. Traditional assessment measures the destination. Assessing the journey is a fundamentally more honest picture of whether learning happened. And there are lots of ways of assessing the journey, from AI conversation, to documenting and cross-referencing papers, websites, journals etc. Think of the learning journey as field notes to the final report.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">From the AI Toolkit</strong><br>
+          The AI Skills Passport toolkit has an <a href="https://lms.curtin.edu.au/bbcswebdav/orgs/The_AI_Skills_Passport/downloads/stress-test-prompt-sequence.html" target="_blank" style="color: #F97316; text-decoration: underline;">Assessment AI Stress Test</a> you can run against any of your assessments in about 15 minutes. It&rsquo;s a prompt sequence, not an app, by design, so you retain human agency. You see exactly what&rsquo;s being asked, you can modify prompts on the fly, and you&rsquo;re never just ratifying an output you didn&rsquo;t follow. The AI is the analyst. You are the assessor.<br><br>
+          The toolkit also has resources on assessment strategy (individual and group), rubric design, and more. Browse it anytime: <a href="https://lms.curtin.edu.au/bbcswebdav/orgs/The_AI_Skills_Passport/ai-toolkit.html" target="_blank" style="color: #F97316; text-decoration: underline;">The AI Toolkit</a>.<br><br>
+          Also worth a look is Curtin&rsquo;s own <a href="https://staffportal.curtin.edu.au/learning-and-teaching/assessment-2030/" target="_blank" style="color: #F97316; text-decoration: underline;">Assessment 2030</a> for some ideas.
+        </div>
+      </div>
+    </details>
+
+    <!-- ISSUES END -->
+  </div>
+
+  <!-- Footer -->
+  <div style="text-align: center; padding: 24px 0 8px; color: #475569; font-size: 12px;">
+    AI Skills Passport &middot; SoMM &middot; Curtin University &middot; 2026 Semester 1
+  </div>
+
+</div>
+
+<!-- The Concierge: AI Skills Passport chatbot -->
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.setAttribute('data-embed-id', '1ac8c1d3-98bd-4d94-a56e-1045d933fdf6');
+  s.setAttribute('data-base-api-url', 'https://chat.eduserver.au/api/embed');
+  s.src = 'https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js';
+  document.body.appendChild(s);
+})();
+</script>
+```

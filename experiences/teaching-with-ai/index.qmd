@@ -21,38 +21,32 @@ format:
     </button>
     <a href="../arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
     <div class="sp-nav-menu">
-      <a href="../arrivals-hall.html" class="sp-nav-item sp-nav-home" data-nav="arrivals-hall">The Arrivals Hall</a>
-      <a href="../key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
+      <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
       <div class="sp-nav-group" data-group="experiences">
-        <a href="../experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
+        <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
         <div class="sp-nav-dropdown">
-          <a href="is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
-                <a href="what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
-                <a href="rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
-                <a href="teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
-                <a href="the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
-                <a href="working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+          <a href="experiences/is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
+                <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+                <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+                <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
                 <div class="sp-nav-separator"></div>
-                <a href="ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
-                <a href="researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
-                <a href="streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
+                <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+                <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
         </div>
       </div>
-      <div class="sp-nav-group" data-group="resources">
-        <a href="../resources.html" class="sp-nav-heading" data-nav="resources">Resources</a>
-        <div class="sp-nav-dropdown">
-          <a href="../ai-toolkit.html" class="sp-nav-item" data-nav="ai-toolkit">AI Toolkit</a>
-          <a href="../passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
-          <a href="../onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
-        </div>
-      </div>
+      <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <a href="the-briefing-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="the-briefing-archive">The Briefing</a>
+      <a href="ai-in-5-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-in-5-archive">AI in 5</a>
       <div class="sp-nav-group" data-group="more">
-        <a href="../more.html" class="sp-nav-heading" data-nav="more">More</a>
+        <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">
-          <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" class="sp-nav-item" target="_blank" data-nav="ai-in-5">AI in 5</a>
-          <a href="../ai-in-5-archive.html" class="sp-nav-item" data-nav="ai-in-5-archive">AI in 5 Archive</a>
-          <a href="../contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
-          <a href="../about.html" class="sp-nav-item" data-nav="about">About</a>
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
+          <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
+          <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
         </div>
       </div>
     </div>
