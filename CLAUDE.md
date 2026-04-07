@@ -58,6 +58,7 @@ These are the learning content. Everything else (AI in 5, workshops, pacing) is 
 - **Find Your Path** — Onboarding quiz recommending starting experience (`onboarding/`)
 - **AI Toolkit** — Searchable reference library of frameworks, techniques, templates (`resources/`)
 - **My Passport** — Badge progress display (`passport/`)
+- **The Briefing** — Fortnightly email featuring one AI topic relevant to SoMM, with archive page (`the-briefing-archive/`)
 
 ## Content Authoring
 

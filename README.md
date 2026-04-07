@@ -41,6 +41,7 @@ Everyone belongs — teaching academics, researchers, and professional staff all
 - **Key Takeaways** — the essential insights from all experiences, for when you're short on time
 - **My Passport** — track your progress and collect badges
 - **AI in 5** — weekly 5-minute micro-challenge delivered by email
+- **The Briefing** — fortnightly feature on one AI topic relevant to SoMM, with archive
 - **Contact** — reach the AI Facilitator, request a workshop
 - **About** — background on the initiative
 
@@ -66,6 +67,8 @@ Blackboard (auth)
                      ├── key-takeaways.html
                      ├── passport.html         (My Passport)
                      ├── onboarding.html       (Find Your Path)
+                     ├── ai-in-5-archive.html   (AI in 5 Archive)
+                     ├── the-briefing-archive.html (The Briefing Archive)
                      ├── contact.html
                      └── about.html
 ```
@@ -120,6 +123,8 @@ the-ai-skills-passport/
 ├── about/                      # About the initiative
 ├── blackboard/                 # HTML pasted into Blackboard
 ├── ai-in-5/                    # Weekly challenge email utility
+├── ai-in-5-archive/            # AI in 5 past challenges archive
+├── the-briefing-archive/       # The Briefing fortnightly feature archive
 ├── shared/                     # Brand CSS shared across SPAs
 ├── server/                     # Progress tracker (FastAPI)
 ├── scripts/
