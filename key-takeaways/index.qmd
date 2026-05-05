@@ -111,23 +111,6 @@ format:
       </div>
     </div>
 
-    <!-- 2: AI Amplifies Thinking -->
-    <div class="kt-card">
-      <button class="kt-header" aria-expanded="false">
-        <span class="kt-icon">🔊</span>
-        <span class="kt-title">AI Amplifies Thinking</span>
-        <span class="kt-chevron">&#9658;</span>
-      </button>
-      <div class="kt-body">
-        <p class="kt-desc">AI doesn't replace thinking — it amplifies it. Good input produces good output. Lazy input produces polished garbage. The quality of what you bring to the conversation determines the quality of what you get back.</p>
-        <div class="kt-try">
-          <div class="kt-try-label">Try this (2 min)</div>
-          <p class="kt-try-text">Give AI a vague prompt, then rewrite it with specific context, audience, and purpose. Compare the two outputs. The difference is your thinking.</p>
-        </div>
-        <a href="experiences/teaching-with-ai.html" class="kt-deeper">Go deeper: Working with AI →</a>
-      </div>
-    </div>
-
     <!-- 3: Keep a Human in the Loop -->
     <div class="kt-card">
       <button class="kt-header" aria-expanded="false">
@@ -218,7 +201,41 @@ format:
       </div>
     </div>
 
-    <!-- 8: Model Transparency and Ethical Use -->
+    <!-- 8: Questions Are the New Expertise -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🏛️</span>
+        <span class="kt-title">Questions Are the New Expertise</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">AI gave everyone answers. Nobody gave them better questions. The bottleneck isn&rsquo;t information &mdash; it&rsquo;s interrogation of the problem. When answers are cheap and abundant, the scarce skill is knowing what to ask: framing the right problem, in the right context, with enough domain knowledge to judge whether the answer is any good.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Before your next AI session, write down the question you&rsquo;re actually trying to answer &mdash; not the task you&rsquo;re trying to complete. Notice how often those are different things. The question is where the expertise lives.</p>
+        </div>
+        <a href="ai-toolkit.html" class="kt-deeper">Go deeper: The Question Architect &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 9: AI-Last: Solve What You Can First -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🎯</span>
+        <span class="kt-title">AI-Last: Solve What You Can First</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">Before reaching for AI, solve as much of the problem as you can with your own knowledge, experience, and existing tools. Not because AI is bad, but because narrowing the problem first produces better AI output &mdash; and keeps your own thinking sharp. Bring AI in for the specific part you genuinely can&rsquo;t resolve yourself. Smaller, focused problems get more precise answers.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Next time you&rsquo;re about to open an AI tool, pause and ask: what can I work out myself first? Spend two minutes on it. Then bring AI in for what&rsquo;s left. Notice the difference in the quality of what you ask &mdash; and what you get back.</p>
+        </div>
+        <a href="ai-toolkit.html" class="kt-deeper">Go deeper: The AI-Last Principle &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 10: Model Transparency and Ethical Use -->
     <div class="kt-card">
       <button class="kt-header" aria-expanded="false">
         <span class="kt-icon">🪞</span>
@@ -232,6 +249,23 @@ format:
           <p class="kt-try-text">Add a one-line note to your next document or email: "I used AI to help draft/check/summarise this." Notice how it changes the conversation.</p>
         </div>
         <a href="experiences/what-would-you-do.html" class="kt-deeper">Go deeper: What Would You Do? →</a>
+      </div>
+    </div>
+
+    <!-- 11: AI Literacy Is Strategies, Not Tools -->
+    <div class="kt-card">
+      <button class="kt-header" aria-expanded="false">
+        <span class="kt-icon">🗺️</span>
+        <span class="kt-title">AI Literacy Is Strategies, Not Tools</span>
+        <span class="kt-chevron">&#9658;</span>
+      </button>
+      <div class="kt-body">
+        <p class="kt-desc">Access to an AI tool is not the same as knowing how to use it. Khan Academy&rsquo;s Khanmigo was one of the most hyped AI tools in education &mdash; and for many students it was, in Sal Khan&rsquo;s own words, &ldquo;a non-event. They just didn&rsquo;t use it much.&rdquo; His diagnosis: students lacked the conceptual grounding to ask it useful questions. The tool sat in the corner. AI literacy is built through habits, strategies, and practice &mdash; not through access alone. The biggest lever is always the human system around the tool.</p>
+        <div class="kt-try">
+          <div class="kt-try-label">Try this (2 min)</div>
+          <p class="kt-try-text">Think of an AI tool you or your colleagues can already access. What&rsquo;s the human system around it &mdash; the habits, the prompting, the shared practice? Is there one? If not, that&rsquo;s the gap worth closing.</p>
+        </div>
+        <a href="the-briefing-archive.html" class="kt-deeper">Go deeper: The Briefing &rarr;</a>
       </div>
     </div>
 

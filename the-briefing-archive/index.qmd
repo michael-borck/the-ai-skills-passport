@@ -91,6 +91,76 @@ format:
 
     <!-- ISSUES START — add new entries above the end marker, newest first -->
 
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129504;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue #3 &bull; 6 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The question is whether the thinking converges too</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">
+          A paper worth your attention: Sourati et al., &ldquo;The homogenizing effect of large language models on human expression and thought,&rdquo; <em>Trends in Cognitive Sciences</em>, 2026. <a href="https://doi.org/10.1016/j.tics.2026.01.003" target="_blank" style="color: #F97316; text-decoration: underline;">https://doi.org/10.1016/j.tics.2026.01.003</a>
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Worth reading</strong><br><br>
+          When millions of people use the same handful of models to write and reason, output flattens. Language converges. Reasoning styles collapse toward a single dominant template.<br><br>
+          After LLM polishing, you can no longer reliably tell from text whether the author is young or old, or where they sit politically. Adjusting temperature or persona prompting doesn&rsquo;t fix it.<br><br>
+          Participants who co-wrote with opinionated models mirrored the model&rsquo;s stance and then shifted their own opinions in subsequent attitude surveys. They adopted the framing without realising it.<br><br>
+          Groups of people who reason differently consistently outperform groups of the highest-ability individuals. In creative ideation experiments, LLM-assisted participants generated more ideas individually but produced semantically similar outputs across the group. AI made individuals more productive and made the collective less diverse.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Something worth thinking about</strong><br><br>
+          Sourati et al. give structural explanation to findings accumulating separately: Shaw and Nave on cognitive surrender, Kosmyna et al. on weaker neural engagement, Fan et al. on metacognitive laziness.<br><br>
+          The technology will keep converging. The question is whether the thinking does too.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">From the AI Toolkit</strong><br><br>
+          One frame for resisting the pull toward the average: the Question Architect (type &lsquo;question&rsquo; in search). When AI makes answers cheap, the scarce skill is knowing what to ask and why the answer matters. Domain knowledge isn&rsquo;t made redundant by AI &mdash; it&rsquo;s what stops AI output from being noise.
+        </div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129309;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue #2 &bull; 22 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">AI literacy is about strategies, not tools</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">
+          Khan Academy&rsquo;s Khanmigo was one of the most talked-about AI tools in education. A <a href="https://www.chalkbeat.org/2026/04/09/sal-khan-reflects-on-ai-in-schools-and-khanmigo/" target="_blank" style="color: #F97316; text-decoration: underline;">recent article</a> has Sal Khan reflecting on what Khanmigo delivered.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Worth reading</strong><br>
+          His verdict: for many students it was &ldquo;a non-event. They just didn&rsquo;t use it much.&rdquo; His own chief learning officer was blunter still: &ldquo;So far I am not seeing the revolution in education.&rdquo;<br><br>
+          His diagnosis is simple but easy to miss. Students lacked the foundational knowledge to ask the tool useful questions. And even those who could use it often didn&rsquo;t, because nobody was prompting them to. He used the analogy of a skilled human tutor sitting in the corner of a classroom: some students will seek them out, most won&rsquo;t.<br><br>
+          His conclusion: &ldquo;I think our biggest lever is really investing in the human systems.&rdquo;
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Something worth thinking about</strong><br>
+          That same dynamic shows up elsewhere. In teaching, it might be students who have access to AI tools but not yet the conceptual grounding to use them well. In research, it might be having enough clarity about what you&rsquo;re investigating to ask AI something meaningful. In any team, it might be whether anyone is actively building the habits and context for AI use, or whether the tool is just sitting in the corner.<br><br>
+          Think about an AI tool you or your colleagues can already access. What&rsquo;s the human system around it &ndash; or is there one?
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">From the AI Toolkit</strong><br>
+          A practical frame for thinking about where to bring AI in and where to hold back: the toolkit has a resource on the <a href="https://lms.curtin.edu.au/bbcswebdav/orgs/The_AI_Skills_Passport/downloads/ai-last-resort-philosophy.html" target="_blank" style="color: #F97316; text-decoration: underline;">AI-as-last-resort philosophy</a>. Start with what needs to happen, then ask whether AI adds something genuine at each step. Strategy first, tool second.<br><br>
+          Browse the full toolkit: <a href="https://lms.curtin.edu.au/bbcswebdav/orgs/The_AI_Skills_Passport/ai-toolkit.html" target="_blank" style="color: #F97316; text-decoration: underline;">The AI Toolkit</a>.
+        </div>
+      </div>
+    </details>
+
     <!--
     TEMPLATE — copy this block for each new issue:
 

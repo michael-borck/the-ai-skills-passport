@@ -16,12 +16,6 @@ Try this (2 min)
 
 Next time you use AI, don't accept the first response. Reply with "What did you assume?" or "What's the weakest part of this?" and see how the output improves.
 
-AI doesn't replace thinking — it amplifies it. Good input produces good output. Lazy input produces polished garbage. The quality of what you bring to the conversation determines the quality of what you get back.
-
-Try this (2 min)
-
-Give AI a vague prompt, then rewrite it with specific context, audience, and purpose. Compare the two outputs. The difference is your thinking.
-
 "Human in the loop" doesn't mean checking AI's work at the end. It means staying in the conversation at every stage. One powerful approach: run two conversations — one where you *think* with AI (explore ideas, challenge assumptions, clarify your question) and one where you *build* with AI (draft, create, produce). You are the bridge. You decide what crosses from thinking to building. Neither conversation has the full picture — only you do. That's what makes you essential, not as a fact-checker, but as the one who holds the context, makes the judgement calls, and connects the dots.
 
 Try this (5 min)
@@ -58,11 +52,29 @@ Try this (5 min)
 
 Take an AI output you recently accepted. Read it again with one question: &ldquo;What did I assume was correct without checking?&rdquo; Find one claim and verify it independently. That habit is the loop in miniature.
 
+AI gave everyone answers. Nobody gave them better questions. The bottleneck isn&rsquo;t information &mdash; it&rsquo;s interrogation of the problem. When answers are cheap and abundant, the scarce skill is knowing what to ask: framing the right problem, in the right context, with enough domain knowledge to judge whether the answer is any good.
+
+Try this (2 min)
+
+Before your next AI session, write down the question you&rsquo;re actually trying to answer &mdash; not the task you&rsquo;re trying to complete. Notice how often those are different things. The question is where the expertise lives.
+
+Before reaching for AI, solve as much of the problem as you can with your own knowledge, experience, and existing tools. Not because AI is bad, but because narrowing the problem first produces better AI output &mdash; and keeps your own thinking sharp. Bring AI in for the specific part you genuinely can&rsquo;t resolve yourself. Smaller, focused problems get more precise answers.
+
+Try this (2 min)
+
+Next time you&rsquo;re about to open an AI tool, pause and ask: what can I work out myself first? Spend two minutes on it. Then bring AI in for what&rsquo;s left. Notice the difference in the quality of what you ask &mdash; and what you get back.
+
 If you want colleagues and collaborators to use AI thoughtfully, show them what that looks like. Be upfront about when and how you used AI. Transparency builds trust and sets the standard — whether you're drafting an email, writing a report, or publishing research.
 
 Try this (2 min)
 
 Add a one-line note to your next document or email: "I used AI to help draft/check/summarise this." Notice how it changes the conversation.
+
+Access to an AI tool is not the same as knowing how to use it. Khan Academy&rsquo;s Khanmigo was one of the most hyped AI tools in education &mdash; and for many students it was, in Sal Khan&rsquo;s own words, &ldquo;a non-event. They just didn&rsquo;t use it much.&rdquo; His diagnosis: students lacked the conceptual grounding to ask it useful questions. The tool sat in the corner. AI literacy is built through habits, strategies, and practice &mdash; not through access alone. The biggest lever is always the human system around the tool.
+
+Try this (2 min)
+
+Think of an AI tool you or your colleagues can already access. What&rsquo;s the human system around it &mdash; the habits, the prompting, the shared practice? Is there one? If not, that&rsquo;s the gap worth closing.
 
 For Teaching
 

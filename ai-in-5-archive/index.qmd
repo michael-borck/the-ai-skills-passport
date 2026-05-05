@@ -92,6 +92,69 @@ format:
 
     <!-- CHALLENGES START — add new entries above the end marker, newest first -->
 
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128172;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 9 &bull; Share &bull; 5 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Pass It On</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Think of one colleague who might find these challenges useful. Send them a quick message: &ldquo;Hey, have you seen AI in 5? Worth a look.&rdquo; That is this week&rsquo;s challenge.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Mention it at your next teaching team meeting. &ldquo;Has anyone tried the AI in 5 challenges?&rdquo; Even one conversation can shift a team&rsquo;s willingness to experiment.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Mention it to a colleague in your research group or at your next HDR supervision. Research culture changes through trusted peer recommendations.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Forward this email to someone in your team. Professional staff networks are tight &mdash; if you found something useful, chances are your colleagues will too.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Building a community of practice</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128202;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 8 &bull; Tools &bull; 28 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Tame Your Spreadsheet</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Open an Excel file you use regularly. Click the Copilot button and ask: &ldquo;What trends do you see in this data?&rdquo; or &ldquo;Create a summary table of [column] by [category].&rdquo;</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Ask Copilot to analyse your grade distribution spreadsheet. &ldquo;Show me which assessments have the highest failure rates&rdquo; or &ldquo;Compare average marks across tutorial groups.&rdquo;<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Ask Copilot to help with your research data. &ldquo;Suggest appropriate statistical tests for this dataset&rdquo; or &ldquo;Create a summary table grouped by participant category.&rdquo; Always verify its suggestions.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Ask Copilot to analyse an operational spreadsheet &mdash; enrolment numbers, budget tracking, room bookings. &ldquo;What patterns do you see?&rdquo; can surface things you&rsquo;d miss scanning rows manually.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Match the tool to the task</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#127919;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 7 &bull; Prompts &bull; 21 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The 25-Word Test</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Take something you&rsquo;ve asked Copilot to help with this week. Add a word constraint to your next request: &ldquo;Summarise the main argument in exactly 25 words&rdquo; or &ldquo;State the key recommendation in 20 words or fewer.&rdquo; Read what comes back. If the result is vague or padded, that&rsquo;s unclear thinking exposed, not hidden. The constraint is a diagnostic. It doesn&rsquo;t improve the output by magic &mdash; it removes the places where fuzzy thinking usually hides.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Ask Copilot to summarise a learning outcome in 20 words. If it produces hedging or jargon, your outcome may not be as clear as you thought. Try rewriting it yourself under the same constraint. The 20-word version is often sharper than the original.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> State your research gap in 30 words &mdash; not the background, not the context, just the gap. If Copilot produces a vague sentence, it is reflecting your framing back at you. If you can&rsquo;t tighten it, the argument needs more work before it goes into a paper or grant application.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Ask Copilot to give you the key ask of a long document in one sentence, 15 words maximum. If it hedges, the document probably hedges too. Useful before sending anything to a senior stakeholder who will not read past the first paragraph.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: If you can&rsquo;t say it in 25 words, the thinking isn&rsquo;t done</div>
+      </div>
+    </details>
+
     <!--
     TEMPLATE — copy this block for each new challenge:
 
@@ -115,6 +178,27 @@ format:
       </div>
     </details>
     -->
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129517;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 6 &bull; Ethics &bull; 14 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Offloading or Surrendering?</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">There&rsquo;s a useful difference between two ways we use AI. Cognitive offloading is strategic: you delegate a task (a calculation, a draft, a summary) but you stay in charge, you check the output, you&rsquo;d notice if it were wrong. Cognitive surrender is when you stop checking. The answer looks fluent, sounds confident, and you accept it as your own. Pick one AI interaction from this week. Ask yourself honestly: would I have noticed if it were wrong? If the answer is no, that one&rsquo;s worth a second look. (Psychologists call the deliberate-checking mode System 2. The trick is making sure it still shows up to work.)</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> You ask Copilot to generate discussion questions for next week&rsquo;s tutorial. Offloading: you read them, cut the two that won&rsquo;t land with this cohort, and rewrite one that&rsquo;s subtly loaded. Surrender: you paste them into the slides. You&rsquo;ll find out which you did about ninety seconds into the tutorial.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> You ask Copilot to summarise a paper for your literature review. Offloading: you skim the original to check the summary didn&rsquo;t flatten a key nuance. Surrender: you cite the summary. The difference matters when a reviewer asks a pointed question.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> You ask Copilot to draft a response to a tricky email. Offloading: you read it, notice it&rsquo;s slightly too formal for this colleague, and adjust. Surrender: you hit send. Most of the time it&rsquo;s fine. The one time it isn&rsquo;t is the one you&rsquo;ll remember.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Keep your thinking in the loop</div>
+      </div>
+    </details>
 
     <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
       <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">

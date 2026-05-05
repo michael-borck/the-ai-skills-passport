@@ -298,6 +298,33 @@ format:
       `
     },
     {
+      id: 'dl-question-architect',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'The Question Architect: Expertise in the Age of AI',
+      emoji: '🏛️',
+      summary: 'When AI makes answers cheap and abundant, the scarce skill becomes the ability to ask the right question. A reframe of what expertise means — and what it requires — in an AI-integrated world.',
+      downloads: {
+        html: 'downloads/question-architect.html',
+        docx: 'downloads/question-architect.docx',
+        pdf: 'downloads/question-architect.pdf'
+      },
+      content: `
+        <p><strong>The core shift:</strong> When AI agents can generate answers at near-zero cost, the market value of "knowing things" collapses. What becomes scarce is the ability to design the inquiry that gives those answers their purpose.</p>
+        <p>Three capabilities define the Question Architect:</p>
+        <ul>
+          <li><strong>Domain authority</strong> — deep knowledge of a specific field. AI is an accelerator; if you have nothing to accelerate, the tool produces noise rather than signal.</li>
+          <li><strong>Inquiry design</strong> — the ability to frame complex problems into precise, strategic prompts that produce high-leverage results rather than generic responses.</li>
+          <li><strong>Outcome integration</strong> — knowing why the answer matters and how to move something forward with it. That judgement cannot be automated.</li>
+        </ul>
+        <p>The resource also covers the deep history of AI (Bayes 1763, McCarthy 1956, Shannon) and the distinction between pure technical knowledge and applied expertise across domains.</p>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>The reframe:</strong> The value of expertise is no longer in the answer. It is in the inquiry.
+        </div>
+      `
+    },
+
+    {
       id: 'rtcf',
       category: 'framework',
       roles: ['teaching', 'research', 'admin'],
@@ -2074,6 +2101,101 @@ Now write feedback in my style for:
       `
     },
     {
+      id: 'dl-viva-scaling',
+      category: 'guide',
+      roles: ['teaching'],
+      title: 'Scaling Viva Assessments Beyond Class Size',
+      emoji: '🎓',
+      summary: 'A practical framework for running scalable viva (oral examination) systems that resist AI proxy completion — without requiring one-to-one senior academic time for every student.',
+      downloads: {
+        html: 'downloads/viva-scaling-system.html',
+        docx: 'downloads/viva-scaling-system.docx',
+        pdf: 'downloads/viva-scaling-system.pdf'
+      },
+      content: `
+        <p><strong>Viva assessment resists AI proxying</strong> because it requires real-time unpredictability, live reasoning, and spontaneous pivoting — things only a human who has genuinely engaged with the material can do.</p>
+        <p>This framework covers the full system design for scaling vivas beyond the typical 30-student threshold:</p>
+        <ul>
+          <li><strong>Question Bank Design</strong>: Random per-student assignment, ascending difficulty, retired per cohort</li>
+          <li><strong>Assessor Model</strong>: Distributed delivery with limited visibility — each assessor sees only their student's questions</li>
+          <li><strong>Moderation and Calibration</strong>: Sample review against unit coordinator judgment; results withheld until calibration is complete</li>
+          <li><strong>Weighting and Progression</strong>: Low-stakes first viva for familiarisation, progressive weighting thereafter</li>
+          <li><strong>Escalation Policy</strong>: Two-attempt structure with a complete audit trail before appeals</li>
+          <li><strong>Tooling</strong>: MS Bookings for scheduling, MS Teams for delivery and recording</li>
+        </ul>
+        <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>Research potential:</strong> The system generates a longitudinal dataset as a natural byproduct — question discrimination, assessor consistency, and relationships between viva and other assessment components.
+        </div>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 12px;">
+          <strong>See also:</strong> <a href="#" onclick="event.preventDefault(); showResource('dl-oral-exams');" style="color: #A5B4FC;">Oral Exams for an AI World</a> for the broader case for oral assessment.
+        </div>
+      `
+    },
+
+    {
+      id: 'dl-signal-based-review',
+      category: 'guide',
+      roles: ['teaching', 'research'],
+      title: 'Signal-Based Review: A Methodology for AI-Integrated Assessment',
+      emoji: '📡',
+      summary: 'A tool-agnostic assessment methodology where computational tools surface patterns and signals, which qualified human assessors interpret and act on. Signals inform judgment — they never replace it.',
+      downloads: {
+        html: 'downloads/signal-based-review-methodology.html',
+        docx: 'downloads/signal-based-review-methodology.docx',
+        pdf: 'downloads/signal-based-review-methodology.pdf'
+      },
+      content: `
+        <p><strong>The core distinction: signals vs verdicts.</strong> A signal is an observation ("vocabulary distribution is atypical"). A verdict is a conclusion ("this work merits 65"). Signal-based review generates signals. The assessor generates verdicts.</p>
+        <p>The four-stage workflow:</p>
+        <ul>
+          <li><strong>Submission</strong> — student work received in its native format, no special requirements</li>
+          <li><strong>Signal Generation</strong> — analytical tools produce a structured signal report (not a grade) covering written work, code, or video</li>
+          <li><strong>Assessor Interpretation</strong> — signals direct attention and raise questions; the assessor decides what to act on</li>
+          <li><strong>Mark and Feedback</strong> — the assessor's professional output, not a downstream product of the analysis</li>
+        </ul>
+        <p>The methodology is tool-agnostic by design: whether signals come from ML models, NLP pipelines, static code analysis, or rule-based scripts doesn't change the methodological structure.</p>
+        <div style="background: #0D2818; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>On consistency and equity:</strong> Computational signals are consistent across a cohort regardless of marking order, time of day, or assessor fatigue — providing a stable reference point that supports more defensible decision-making.
+        </div>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 12px;">
+          <strong>See also:</strong> <a href="#" onclick="event.preventDefault(); showResource('dl-signal-based-review-comms');" style="color: #A5B4FC;">Signal-Based Review: Communication Guide</a> for ready-to-use language with students, colleagues, and committees.
+        </div>
+      `
+    },
+
+    {
+      id: 'dl-signal-based-review-comms',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'Signal-Based Review: Communication Guide',
+      emoji: '💬',
+      summary: 'Ready-to-use language for explaining signal-based review to students, colleagues, policy committees, senior leadership, and researchers — including responses to common objections.',
+      downloads: {
+        html: 'downloads/signal-based-review-communication-guide.html',
+        docx: 'downloads/signal-based-review-communication-guide.docx',
+        pdf: 'downloads/signal-based-review-communication-guide.pdf'
+      },
+      content: `
+        <p><strong>The one-liner:</strong> "I use tools to notice things. I use judgment to decide things."</p>
+        <p>This guide provides audience-specific language for six contexts:</p>
+        <ul>
+          <li><strong>Students</strong> — including the "is a computer marking my work?" pushback</li>
+          <li><strong>Sceptical colleagues</strong> — framing consistency and fairness</li>
+          <li><strong>Assessment or Policy Committees</strong> — governance and accountability framing</li>
+          <li><strong>Senior Leadership</strong> — one-paragraph institutional version</li>
+          <li><strong>Researchers / Publication Reviewers</strong> — methodological framing for publications</li>
+        </ul>
+        <p>Also covers handling five common objections ("isn't this just AI marking?", "what if the tool is wrong?", "are students told?", data policies, and equity concerns) and a terminology guide for what to call it in different contexts.</p>
+        <div style="background: #1A1A2E; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>Why terminology matters:</strong> "Signal-based review" will remain accurate as tools change. "AI-assisted marking" will date as quickly as "computer-aided design" did.
+        </div>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 12px;">
+          <strong>See also:</strong> <a href="#" onclick="event.preventDefault(); showResource('dl-signal-based-review');" style="color: #A5B4FC;">Signal-Based Review: Methodology</a> for the full conceptual framework.
+        </div>
+      `
+    },
+
+    {
       id: 'ai-video-tools',
       category: 'guide',
       roles: ['teaching'],
@@ -2197,8 +2319,35 @@ Now write feedback in my style for:
         </ul>
         <p style="font-size: 13px; color: #64748B;">Companion to "Agentic AI: Understanding Autonomous Systems and Human Oversight"</p>
       `
-    }
-    ,
+    },
+
+    {
+      id: 'dl-deterministic-chatbot',
+      category: 'guide',
+      roles: ['research', 'admin'],
+      title: 'Beyond the God Prompt: A Blueprint for Reliable Chatbot Architecture',
+      emoji: '🔧',
+      summary: 'Why monolithic "God Prompts" fail in production chatbots — and how a three-phase sandwich architecture (Analyst, Engine, Composer) builds systems that are reliable, testable, and auditable.',
+      downloads: {
+        html: 'downloads/deterministic-chatbot-architecture.html',
+        docx: 'downloads/deterministic-chatbot-architecture.docx',
+        pdf: 'downloads/deterministic-chatbot-architecture.pdf'
+      },
+      content: `
+        <p><strong>The core problem:</strong> When a single prompt must simultaneously manage sequencing, complex rules, and a specific persona, reasoning degrades. The model gets confused by contradictory instructions buried thousands of tokens deep.</p>
+        <p>The three-phase sandwich architecture separates concerns:</p>
+        <ul>
+          <li><strong>The Analyst</strong> — a fast LLM layer that extracts structured facts (tone, topic, state) from the conversation. No responses, just tagging.</li>
+          <li><strong>The Engine</strong> — classical deterministic code that maps facts to business rules and triggers side effects (logging, escalation, scheduling). Not an AI.</li>
+          <li><strong>The Composer</strong> — a second LLM layer focused only on phrasing the predetermined message. Logic-free, so it can focus entirely on voice and tone.</li>
+        </ul>
+        <p>Also covers cascading analysis (shallow pass + deep-dive) for managing latency and cost, the 10% regression testing rule, the "too fast" UX problem, and the human safety valve for exceptional cases.</p>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>The principle:</strong> Logic lives in code. Language lives in the LLM. Neither should be asked to do the other's job.
+        </div>
+      `
+    },
+
     {
       id: 'notebooklm-for-students',
       category: 'guide',

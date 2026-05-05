@@ -1,0 +1,153 @@
+> This content is from the AI Toolkit resource: Scaling Viva Assessments Beyond Class Size: A Practical Framework, part of the AI Skills Passport for SoMM staff at Curtin University.
+
+# Scaling Viva Assessments Beyond Class Size: A Practical Framework
+
+## Overview
+
+This document outlines a scalable viva (oral examination) system designed to maintain academic integrity in an agentic AI era, while remaining operationally viable beyond the typical 30-student class size threshold. The system is designed to verify genuine human presence and understanding — resisting AI proxy completion — without requiring one-to-one senior academic time for every student.
+
+The core insight is that viva assessment does not require the primary lecturer to conduct every examination. It requires a well-designed instrument, a distributed delivery layer, and a rigorous moderation layer to ensure consistency.
+
+---
+
+## Why Viva in an Agentic AI Context
+
+Agentic AI browsers can now log into an LMS with a student's credentials, navigate course modules, complete quizzes, and submit assignments without the student being present. Written reflections, essays, portfolios, and even video submissions are increasingly vulnerable to AI proxying.
+
+Viva assessment resists this because it requires:
+
+- **Real-time unpredictability** — questions the student cannot anticipate in advance
+- **Live reasoning** — demonstrating comprehension in the moment, not a pre-generated product
+- **Spontaneous pivoting** — responding to follow-up questions that depend on what was just said
+
+The goal is not to catch cheaters. It is to design an assessment where only a human who has genuinely engaged with the material can succeed.
+
+---
+
+## System Design
+
+### Question Bank
+
+- A bank of questions is prepared by the unit coordinator prior to each assessment period
+- Questions are ordered by ascending difficulty — easier questions first to warm the student, harder questions to differentiate levels of understanding
+- Questions are **randomly assigned** per student — no two students receive identical question sets
+- The assessor sees only the questions assigned to the student they are examining, not the full bank
+- The question bank is **retired at the end of each cohort** — assessments are not repeated semester to semester, so bank leakage is not a structural risk
+- Questions are typically anchored to unit-specific content, case studies, or scenarios, making prior knowledge of a question insufficient without genuine understanding
+
+### Assessor Model
+
+- A pool of assessors (tutors, sessional staff, or colleagues) conducts the vivas
+- Each assessor only has visibility of the questions for the specific student in front of them
+- This eliminates the risk of assessors selectively adjusting difficulty for students they know personally
+- All vivas are **recorded** (via MS Teams)
+
+### Moderation and Calibration
+
+- After all vivas are completed, the unit coordinator reviews a **sample of recordings**
+- The moderation review includes the full picture: the questions the student received, the recording, and the assessor's marks
+- Assessor scores are **calibrated against the unit coordinator's independent judgment** on the sampled recordings
+- Scores are adjusted accordingly across each assessor's cohort
+- **Results are not released to students until after calibration and moderation is complete**
+- Withholding results removes pressure on assessors to give definitive in-the-room verdicts, reducing grade inflation and inconsistency
+
+This approach mirrors moderation practices used in clinical OSCE examinations in medicine — examiners are fungible at the delivery end; moderation ensures consistency at the marking end.
+
+### Tooling
+
+- **MS Bookings** — students self-enrol in a viva timeslot
+- **MS Teams** — viva is conducted and automatically recorded with timestamp
+- The Teams recording serves as the primary audit trail
+
+---
+
+## Weighting and Progression
+
+- The **first viva** (typically attached to Assignment 1) carries a **small weighting**
+- Functions as low-stakes familiarisation with the format
+- Normalises viva as a standard part of the unit, not a one-off high-stakes event
+- By the time heavier-weighted vivas arrive, students have no grounds for claiming unfamiliarity
+- **Subsequent vivas** carry progressively heavier weightings
+- Students who perform poorly on earlier vivas have both the incentive and the opportunity to improve their preparation
+
+---
+
+## Escalation and Second Attempt Policy
+
+### Second Viva
+
+- Students who perform poorly, or who miss their scheduled viva, are offered a **second viva within one week** of the first
+- This accommodates genuine emergencies without creating a soft opt-out
+- A student who was AI-proxied and performed badly on the first attempt now faces the same format with full knowledge of expectations — if they still cannot perform, the outcome is difficult to contest
+- The second attempt is, in practice, a **higher integrity bar** than a single attempt
+
+### Appeals Process
+
+- Students who fail or miss both vivas have access only to the **formal institutional appeals process**
+- The two-viva structure means most situations are resolved before appeals, reducing administrative burden
+- The complete audit trail (question set, recording, assessor marks, moderation adjustment) makes the grade highly defensible if contested
+
+### Important Policy Clarification
+
+The following should be stated explicitly in the unit outline from week one:
+
+> Missing both scheduled vivas without approved documentation results in a mark of zero for that assessment component. Missing a viva does not automatically confer an appeal right.
+
+---
+
+## Audit Trail
+
+As a byproduct of this system, every viva generates a complete chain of evidence:
+
+- The specific questions the student received
+- The timestamped recording of the viva
+- The assessor's marks
+- The moderation adjustment and rationale
+
+This is significantly more defensible than a marked essay, where the assessment process is largely invisible.
+
+---
+
+## Integration with AI-Mediated Learning Environments
+
+For units running AI chatbot simulations (e.g., CloudCore Networks), the viva system integrates naturally:
+
+- AI chatbot interactions serve as **formative preparation** — students rehearse reasoning and articulation in a low-stakes environment
+- The viva becomes the **summative verification layer** — confirming that the student, not an AI proxy, was engaged in the learning
+- A low-stakes practice viva early in the unit (potentially conducted via the AI simulation) normalises the format before it counts
+
+This positions the AI environment as a scaffold toward the human verification moment, rather than a replacement for it.
+
+---
+
+## Research Potential
+
+The system generates a longitudinal dataset as a natural byproduct of normal teaching practice:
+
+- Patterns in where students struggle (which questions, which concepts)
+- Which questions discriminate well between levels of understanding
+- Assessor consistency patterns across cohorts
+- Relationship between viva performance and other assessment components
+
+This data has direct relevance to research on authentic assessment, AI-era academic integrity, and scalable human-presence verification — without requiring a separate data collection instrument.
+
+---
+
+## Summary
+
+| Element | Design Decision |
+|---|---|
+| Question assignment | Random per student, ascending difficulty |
+| Assessor visibility | Own student's questions only |
+| Bank lifecycle | Retired per cohort, not reused |
+| Recording | All vivas via MS Teams |
+| Moderation | Sample review, calibration against unit coordinator |
+| Result release | After moderation only |
+| Attempts | Two vivas maximum before appeals |
+| First viva weighting | Small (familiarisation function) |
+| Subsequent viva weighting | Progressive increase |
+| Tooling | MS Bookings (scheduling) + MS Teams (delivery + recording) |
+
+---
+
+*Document prepared for internal curriculum design reference.*

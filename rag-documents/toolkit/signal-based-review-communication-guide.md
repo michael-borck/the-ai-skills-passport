@@ -1,0 +1,125 @@
+> This content is from the AI Toolkit resource: Signal-Based Review: Communication Guide, part of the AI Skills Passport for SoMM staff at Curtin University.
+
+# Signal-Based Review: Communication Guide
+
+How to explain the methodology to different audiences, with ready-to-use language and responses to common objections.
+
+---
+
+## The One-Liner
+
+> "I use tools to notice things. I use judgment to decide things."
+
+This works as an opener in almost any context. It reframes the conversation before it starts.
+
+---
+
+## Core Concept in Plain Language
+
+Signal-based review means that analytical tools examine student work and surface patterns -- things that might be worth a closer look. The assessor then reads the work, considers those patterns alongside everything else, and makes all the decisions: what mark to assign, what feedback to give, whether to investigate further.
+
+The tools generate signals. The assessor generates judgments. These are different things, and the methodology keeps them separate by design.
+
+---
+
+## By Audience
+
+### Students
+
+**When asked directly:**
+
+> "I use analytical tools to help me look at your work more carefully -- things like how your code is structured, patterns in your writing, or how your argument develops. Those tools flag things for me to notice. I'm the one who reads your work and decides your mark. The result is usually more specific feedback, not less."
+
+**If they push back ("is a computer marking my work?"):**
+
+> "No. The tools surface patterns -- they don't assign marks or write feedback. Think of it like spell-check: Word might flag something, but you decide whether to change it. I decide everything about your assessment."
+
+---
+
+### Colleagues (sceptical)
+
+**When asked about the approach:**
+
+> "The tools do analysis; I do assessment. A signal might be that a student's vocabulary distribution is unusual, or their code complexity spiked, or the argument structure in section three is weaker than the rest. I look at the work with that in mind. Sometimes the signal is interesting, sometimes it isn't. Either way, I'm making the call."
+
+**If they raise concerns about fairness:**
+
+> "The signals actually help with consistency. The tool applies the same analysis to every submission regardless of when I mark it or how tired I am. That gives me a stable reference point. I still exercise judgment -- the tool can't do that -- but the starting point is more consistent."
+
+---
+
+### Assessment or Policy Committees
+
+**Framing the methodology:**
+
+> "Signal-based review is a methodology in which computational analysis generates structured observations about student work. These observations -- signals -- inform but do not replace assessor judgment. The assessor interprets signals in context, makes all consequential decisions, and bears full professional responsibility for the outcome. The approach is analogous to established practices in other professional fields: pathology uses algorithmic screening to direct clinician attention; financial audit uses automated anomaly detection to focus investigator effort. In each case, the tool detects; the professional decides."
+
+**On governance and accountability:**
+
+> "The human-in-the-loop structure means that every mark and every piece of feedback is the product of assessor judgment. There is no automated decision-making in the consequential sense. The analytical tools are closer to a research assistant than an examiner -- they prepare the ground for a professional decision, they don't make one."
+
+---
+
+### Senior Leadership or Institutional Audiences
+
+**One paragraph version:**
+
+> "Signal-based review is an assessment methodology that uses analytical tools to surface patterns in student work, which assessors then interpret and act on. Marks and feedback are assigned by qualified humans who bear full accountability for their decisions. The methodology improves the consistency and depth of assessment without removing the professional judgment that students are entitled to. It describes a process, not a tool -- the specific analytical methods used can evolve without the methodology changing."
+
+---
+
+### Researchers / Publication Reviewers
+
+**Methodological framing:**
+
+> "The study employs signal-based review, a methodology in which computational analysis produces structured observations (signals) used as inputs to human assessor judgment. This approach maintains the assessor as the locus of evaluative decision-making while enabling more systematic attention to patterns across submissions. The methodology is tool-agnostic: the signal generation pipeline may incorporate machine learning, natural language processing, static analysis, or rule-based methods, without altering the methodological structure."
+
+---
+
+## Handling Common Objections
+
+### "Isn't this just AI marking?"
+
+> "No, and the distinction matters. AI marking means a system assigns a mark. Signal-based review means a system surfaces observations that a human assessor uses to inform their judgment. The mark is always assigned by the assessor. The tool has no more authority over the grade than a spell-checker has over the content of a document."
+
+### "What if the tool is wrong?"
+
+> "That's exactly why the assessor is in the loop. Signals are hypotheses, not verdicts. An assessor who understands the methodology knows to treat a signal as a prompt to look more carefully, not as a conclusion. If a signal doesn't hold up under scrutiny, it's disregarded. The same can't be said for fully automated systems."
+
+### "Are students told about this?"
+
+> "Yes. Students are informed that analytical tools may be used as part of the assessment process, in the same way they're informed of other assessment practices. The disclosure is straightforward: tools help the assessor look more carefully; the assessor makes all decisions."
+
+### "Is this covered by our data policies?"
+
+> "That depends on the specific tools and data flows, and it's worth reviewing with the relevant teams. The methodology itself -- using analytical outputs to inform human judgment -- doesn't create any novel data obligations beyond what the use of the specific tools requires. The student work being analysed is already held under existing assessment data policies."
+
+### "Won't this disadvantage students whose work doesn't fit the model?"
+
+> "This is a real consideration and a reason to maintain strong assessor oversight. Signals that arise from legitimate variation in background, language, or style need to be recognised as such and set aside. The assessor's professional judgment is the safeguard here. A well-calibrated assessor treats a surprising signal as a reason to look more carefully, not as evidence of a problem."
+
+---
+
+## What to Call It
+
+| Context | Preferred term |
+|---|---|
+| General use | signal-based review |
+| Assessment documentation | signal-based review; multi-source analysis |
+| Describing what the tools do | analytical pipeline; signal generation |
+| Describing the assessor's role | signal interpretation; assessor review |
+| When pressed on tools used | "a range of analytical tools" |
+
+**Avoid:** "AI marking," "AI-assisted marking," "machine learning assessment." These terms locate the methodology in the tool rather than the process, invite tool-specific debate, and date quickly.
+
+---
+
+## Why the Terminology Matters
+
+Describing a methodology by its tools is like describing surgery as "scalpel work." The instrument is incidental to the methodological act. "Signal-based review" describes what actually happens: signals are generated, then reviewed by a qualified assessor. That description will remain accurate whether the signal generation pipeline uses today's tools or tools that don't exist yet.
+
+"AI-assisted marking," by contrast, will sound like a product of its moment in the same way "computer-aided design" now signals the 1980s. The underlying methodology -- tool-assisted human judgment -- has been standard practice in medicine, law, finance, and engineering for decades. Naming it in terms of the current tool generation obscures that continuity and invites debate about the tools rather than the methodology.
+
+---
+
+*This guide is intended as a working reference. Language should be adapted to suit specific institutional contexts, relationships, and conversations.*
