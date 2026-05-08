@@ -1,0 +1,226 @@
+---
+title: "RTCF Prompting Framework"
+---
+
+## Introduction
+
+The R.T.C.F. framework is a four-part approach to writing better prompts for AI tools. Same underlying idea as [CRAFT](craft-prompting-framework.qmd) — give the AI enough structure to do good work — but with fewer moving parts.
+
+Whether you're an educator, researcher, or professional staff member, RTCF helps you communicate clearly with AI without spending too long building the prompt itself.
+
+> **Think of RTCF as briefing a capable colleague in a hurry:** who you want them to be, what you need produced, what they need to know, and how you want it back.
+
+This author's view: when a four-part framework gets the job done, a five-part framework is overhead. RTCF is the one I reach for first.
+
+---
+
+## The R.T.C.F. Framework
+
+| Letter | Element | What It Means | Example |
+|--------|---------|---------------|---------|
+| **R** | **Role** | Who should the AI be? What expertise? | "You are an experienced unit coordinator." |
+| **T** | **Task** | What should it produce? | "Draft a 200-word email to a student who has missed three deadlines." |
+| **C** | **Context** | What does it need to know to do the task well? | "The student previously emailed about a family illness in week 4." |
+| **F** | **Format** | How should the output look — structure, length, voice, audience? | "Friendly but firm, plain text, no headings, ready to send." |
+
+Notice that **tone** lives inside **Format** in RTCF. That's a deliberate compression: tone is part of how you want the answer back, so it sits with the other formatting choices rather than as a separate slot.
+
+You don't need all four every time. A short rewrite might just need a Task. A nuanced policy summary might need all four. RTCF is a checklist, not a rule.
+
+---
+
+## Why RTCF Works
+
+1. **Fewer slots, faster setup.** Four elements is usually enough. You spend less time building the prompt and more time iterating on the output.
+2. **Role-first ordering.** Stating the role first frames everything that follows — the AI knows whose voice it's writing in before it knows what it's writing.
+3. **Task before context.** Naming the deliverable up front prevents the common failure mode of *"I gave it lots of context and it still didn't do what I wanted."* If the task is clear, the AI knows which bits of context matter.
+4. **Format as a single slot.** Combining tone with format makes you think about the output as a whole — what it looks like, what voice it's in, who's reading it.
+5. **Travels well.** Works across ChatGPT, Claude, Copilot, Gemini, and smaller local models. Smaller models especially benefit from the tight structure.
+
+---
+
+## RTCF or CRAFT? They're Close Cousins
+
+**Both work.** They're variants of the same idea: structured prompts produce dramatically better results than vague ones.
+
+| | RTCF | CRAFT |
+|---|---|---|
+| Slots | 4 | 5 |
+| Order | Role → Task → Context → Format | Context → Role → Action → Format → Tone |
+| Tone | Folded into Format | Separate slot |
+| Best when... | You want a lean, repeatable structure | Tone is a make-or-break consideration and you want to reason about it separately |
+
+A useful rule of thumb:
+
+- **RTCF** for everyday work where you want speed and consistency.
+- **CRAFT** when tone is critical and you want it called out as its own decision.
+
+The frameworks aren't in competition. Pick the one that fits how *you* think.
+
+---
+
+## Examples: Improving Prompts with RTCF
+
+### Example 1: Teaching & Learning
+
+**Weak Prompt:**
+
+> "How can I use AI in my class?"
+
+**RTCF-Improved Prompt:**
+
+> **Role:** You are an instructional designer with experience in business education.
+>
+> **Task:** Suggest three practical ways to integrate AI tools without replacing authentic student work.
+>
+> **Context:** First-year capstone unit, 60 students, focus on real-world consulting projects. Faculty are cautiously curious about AI.
+>
+> **Format:** Bullet list, each with a one-sentence implementation tip. Plain colleague-to-colleague language.
+
+**Why it's better:**
+
+- **Role:** Specific expertise, not just "expert"
+- **Task:** Three things, with a guardrail (no replacing authentic work)
+- **Context:** Discipline, cohort size, project type, faculty stance
+- **Format:** Output shape and voice both locked in
+
+---
+
+### Example 2: Research & Analysis
+
+**Weak Prompt:**
+
+> "Analyse this data."
+
+**RTCF-Improved Prompt:**
+
+> **Role:** You are a research analyst with qualitative methods experience.
+>
+> **Task:** Identify the top five themes in this CSV, with frequency for each. Flag any surprising or contradictory patterns.
+>
+> **Context:** 200 survey responses from educators about AI adoption barriers. Will feed into the methods section of a research paper.
+>
+> **Format:** Structured summary with key quotes per theme. Technical-but-accessible academic voice.
+
+---
+
+### Example 3: Professional Operations
+
+**Weak Prompt:**
+
+> "Summarise this compliance document."
+
+**RTCF-Improved Prompt:**
+
+> **Role:** You are a senior teaching support officer familiar with TEQSA frameworks.
+>
+> **Task:** Extract the three most critical requirements for our business faculty. Highlight any compliance gaps we might have.
+>
+> **Context:** TEQSA compliance framework document. Audience is the faculty board, who have limited time and prefer plain English.
+>
+> **Format:** One-page summary with clear action items. Plain English, no jargon.
+
+---
+
+## Templates
+
+### Teaching & Learning Design
+
+```
+Role: You are [pedagogical expertise].
+Task: [What specifically should it produce?].
+Context: [Students, unit, discipline, constraints].
+Format: [Output structure + voice/audience].
+```
+
+### Research & Analysis
+
+```
+Role: You are [research role and methods expertise].
+Task: [Specific analysis: themes, comparison, evaluation, etc.].
+Context: [Data source, sample, research question].
+Format: [Structure + audience/voice].
+```
+
+### Professional Operations
+
+```
+Role: You are [professional role with relevant context].
+Task: [Specific task: extract, recommend, draft, etc.].
+Context: [Document, organisational situation, constraint].
+Format: [Output shape + audience-appropriate voice].
+```
+
+---
+
+## Common Mistakes
+
+| Mistake | What happens | Fix |
+|---|---|---|
+| **Role too generic** | Output reads as "AI advice," not expert advice | Use a specific role: "experienced unit coordinator," not just "expert" |
+| **Task buried in context** | AI does the wrong thing because it had to guess what you wanted | Lead with what you want produced; everything else supports it |
+| **Context dump** | Long irrelevant background; AI weights the wrong details | Include only what's *relevant to the task*. Cut anything that wouldn't change the output. |
+| **No format slot** | Output structure is unpredictable, often a wall of text | Always say at least one thing about format — bullets, paragraphs, length |
+| **Voice forgotten** | Right content, wrong tone for the audience | Name the audience inside Format: *"for a faculty board update,"* *"as a casual student email"* |
+
+---
+
+## RTCF in Action: Step by Step
+
+1. **Name the role.** What expertise should the AI bring? Be specific.
+2. **State the task.** What do you want produced? One clear deliverable.
+3. **Give the context.** What does the AI need to know to do the task well?
+4. **Specify the format.** How should the output look — structure, length, voice, audience?
+5. **Run it.** Read the output critically.
+6. **Follow up.** First outputs are drafts. The real work happens in the follow-ups: *"That's a good start. Now make it shorter and more direct."* See [CRAFT](craft-prompting-framework.qmd) for an extended look at follow-up prompting and why one-shot prompts tend toward generic output.
+
+---
+
+## When to Reach for Something Else
+
+RTCF is a good first move. It is not the only move.
+
+- **Very short tasks** (a quick rephrase, a definition) — just ask. The framework is overhead.
+- **Exploratory thinking** — start conversational, let RTCF emerge as you narrow.
+- **High-stakes nuance** (e.g., a sensitive student email) — switch to [CRAFT](craft-prompting-framework.qmd) so tone gets its own slot.
+- **Multi-step work** — RTCF for each step, plus [Prompt Chaining](prompt-chaining.qmd) to link them.
+
+The goal is clarity, not adherence to a framework.
+
+---
+
+## Practice Exercise
+
+Try improving this weak prompt using RTCF:
+
+> "How do I teach AI literacy?"
+
+1. **Role** — what kind of expert do you want?
+2. **Task** — what specifically do you want produced?
+3. **Context** — what students, what discipline, what level, what constraints?
+4. **Format** — what does the output look like? Who's the audience? What voice?
+
+Run it. Read it. Then ask one good follow-up.
+
+---
+
+## Final Thought
+
+> RTCF isn't about producing the perfect prompt. It's about starting a clear conversation.
+>
+> Four slots, a few seconds of thinking, and the AI knows roughly who it is, what it's making, what it knows, and what shape the output should take. From there, follow-ups do the rest.
+
+---
+
+## Further Reading
+
+- [CRAFT Prompting Framework](craft-prompting-framework.qmd) — the five-part cousin, with a deeper section on conversational prompting
+- [Focused Prompting](focused-prompting.qmd) — when even RTCF is too much
+- [RE2 (Read Twice)](re2-prompting.qmd) — a complementary technique to use *inside* an RTCF prompt
+- [Prompt Chaining](prompt-chaining.qmd) — for multi-step work
+- [Managing Context](managing-context.qmd) — when a single prompt isn't enough
+- [Prompt, Context, Harness: The Three Layers of AI Engineering](prompt-context-harness.qmd) — where RTCF fits in the bigger picture
+
+---
+
+*This resource reflects the author's perspective informed by current research and practice. RTCF is one practitioner's preferred framework; your mileage may vary. Try it, adapt it, replace it.*

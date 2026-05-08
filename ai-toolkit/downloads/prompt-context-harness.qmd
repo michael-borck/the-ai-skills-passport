@@ -1,0 +1,124 @@
+---
+title: "Prompt, Context, Harness: The Three Layers of AI Engineering"
+---
+
+## Introduction
+
+When people talk about "prompt engineering," they're naming one slice of a much bigger picture. There are actually three layers of engineering between you and a useful AI output, and getting good at AI means getting comfortable in all three.
+
+This page walks through them as a progression — what each layer does, when each one matters, and how they build on each other.
+
+The three layers, from inside the call to around it:
+
+1. **Prompt engineering** — what you put in
+2. **Context engineering** — what surrounds it
+3. **Harness engineering** — what happens around multiple calls
+
+You're already doing prompt engineering whether you've named it or not. Context and harness engineering are where the leverage gets bigger.
+
+---
+
+## Layer 1: Prompt Engineering — What You Put In
+
+**What it is:** The words, structure, and instructions in a single message to the AI.
+
+When you write *"Help me draft an email"* you're prompting. When you write *"You're an experienced course coordinator. Draft a friendly but firm email to a student who has missed three deadlines, in my voice, around 100 words"* — you're prompt-engineering.
+
+The AI Toolkit covers several frameworks for this layer:
+
+- **[CRAFT](craft-prompting-framework.qmd)** — Context, Role, Action, Format, Tone — a five-part structure that consistently lifts output quality. **RTCF** (Role, Task, Context, Format) is a leaner four-part variant that some practitioners — this author included — prefer.
+- **[RE2 (Read Twice)](re2-prompting.qmd)** — telling the AI to re-read the question before answering, which catches misunderstandings early.
+- **[Focused Prompting](focused-prompting.qmd)** — narrowing the AI's attention to one task at a time.
+- **[Cognitive Prompting](cognitive-prompting.qmd)** — prompts designed to scaffold thinking, not just produce output.
+
+**When this layer is enough:** Short, self-contained tasks. A single email, a quick rewrite, a one-off summary. If you can fit everything the AI needs into one well-structured message, you're done at this layer.
+
+**When you outgrow it:** When you find yourself pasting the same five paragraphs of background into every conversation. When you notice the AI "forgetting" things you told it earlier. When you're starting tasks that will span multiple steps.
+
+---
+
+## Layer 2: Context Engineering — What Surrounds the Call
+
+**What it is:** Everything around the prompt that shapes the AI's behaviour without being part of any single message — persistent instructions, reference documents, memory of past interactions, tools the AI can call, and the conversation history itself.
+
+If prompt engineering is *what you say*, context engineering is *what's true about the room you're talking in*.
+
+Examples in everyday use:
+
+- **Custom instructions / system prompts** — telling ChatGPT or Claude once that you're an academic at Curtin who prefers Australian English and concise responses, instead of saying it every conversation.
+- **Project files in Claude, Gemini, or NotebookLM** — uploading reference documents the AI can draw on without you re-pasting them.
+- **Memory features** — letting the AI remember preferences and recurring details across sessions.
+- **Conversation hygiene** — knowing when to start a fresh conversation (because the current one is getting confused) versus when to continue (because the accumulated context is doing useful work). The [Managing Context](managing-context.qmd) page covers this in depth.
+
+**When this layer matters:** Anything you're going to do more than once. Course design across a semester. A research project with consistent references. Any working relationship with AI that needs to remember who you are and what you're working on.
+
+**The shift:** Prompt engineering is *per message*. Context engineering is *per relationship*. Once you set up your context well, every prompt you write becomes shorter and more effective, because the AI already knows things you'd otherwise have to repeat.
+
+---
+
+## Layer 3: Harness Engineering — What Happens Around Multiple Calls
+
+**What it is:** The structure around multiple AI calls — how they connect, verify each other, debate, refine, and combine. This is the layer where AI starts looking less like a chatbot and more like a system.
+
+You've encountered harness engineering whenever you've used:
+
+- **AI-powered search** that retrieves relevant documents *before* answering — one call to find sources, another to answer using them.
+- **Coding assistants** that read a file, plan changes, edit code, and run tests — multiple calls coordinated by the tool.
+- **Research assistants** like NotebookLM that ground every answer in cited sources.
+- **Agentic tools** that perform multi-step tasks with verification along the way. See [Agentic AI](agentic-ai.qmd) and [Using Agentic AI: A Practical Guide](using-agentic-ai-practical-guide.qmd).
+- **Prompt chains** you build yourself — see [Prompt Chaining](prompt-chaining.qmd).
+
+**Why this layer matters for serious work:** A single AI call is unreliable in predictable ways — it may hallucinate, oversimplify, or miss context. A harness lets you build verification, multiple perspectives, and self-correction into the workflow, turning an unreliable single step into a reliable multi-step process.
+
+**Where you can experiment with this:** Most consumer AI tools now expose a bit of harness — Claude's Projects, ChatGPT's Custom GPTs, Gemini's Gems, NotebookLM's notebooks. Each is a small harness wrapped around a model. Picking the right tool for the job is partly about which harness fits the work.
+
+---
+
+## The Important Bit: The Lower Layers Don't Go Away
+
+There's a temptation, when people learn about a "newer" layer, to treat the older ones as obsolete. Prompt engineering is *not* dead. Context engineering is *not* dead. They become the **foundations** of the higher layers.
+
+A well-designed harness still depends on each individual call having a good prompt. A good prompt still depends on the surrounding context being set up well. If your prompts are weak, your harness will just produce weak outputs faster. **The layers compound — both the benefits and the problems.**
+
+This matters especially for anyone working with **smaller, local AI models** — those running on your own machine instead of on a cloud service. Smaller models have less raw capability than frontier ones, which means the engineering layers carry *more* weight, not less. Every framework like RTCF, every well-managed context, every verification step in a harness contributes more to the final result. Engineering technique can substitute, in part, for raw model size — and that is what makes local AI viable.
+
+---
+
+## A Mental Map for Choosing Where to Invest
+
+| If you're... | Focus on... |
+|---|---|
+| Just starting out | Prompt engineering (RTCF, CRAFT) |
+| Doing the same kind of task repeatedly | Add context engineering (custom instructions, project files) |
+| Building something that has to be reliable | Add harness engineering, or pick a tool with a good harness |
+| Curious about what is possible | Read about all three, then experiment one layer at a time |
+
+Most people reading this will benefit most from going deeper at Layers 1 and 2. Layer 3 tends to come built into the tools you use — but knowing it is there helps you pick the right tool for the right job.
+
+---
+
+## Where to Read More
+
+**Prompt-engineering frameworks:**
+
+- [CRAFT Prompting Framework](craft-prompting-framework.qmd)
+- [RE2 (Read Twice)](re2-prompting.qmd)
+- [Focused Prompting](focused-prompting.qmd)
+- [Cognitive Prompting](cognitive-prompting.qmd)
+- [Strategic Prompting Guide](strategic-prompting-guide.qmd)
+
+**Context engineering:**
+
+- [Managing Context with AI](managing-context.qmd)
+- [Conversation, Not Delegation](conversation-not-delegation.qmd)
+
+**Harness engineering and agentic AI:**
+
+- [Agentic AI](agentic-ai.qmd)
+- [Using Agentic AI: A Practical Guide](using-agentic-ai-practical-guide.qmd)
+- [Prompt Chaining](prompt-chaining.qmd)
+- [Critique Toolkit](critique-toolkit.qmd)
+
+---
+
+*Curious about the technical and research side — how these layers behave on small local AI models? See [LocoLab](https://locolabo.org), an applied research lab testing these techniques against real small models.*
