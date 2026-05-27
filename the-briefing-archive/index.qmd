@@ -93,6 +93,48 @@ format:
 
     <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
       <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128075;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue #4 &bull; 20 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">A semester-end check-in</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">
+          Rather than another AI focused piece, I want to use this issue to ask a question and offer some options for AI Facilitation within SoMM.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">What is already there</strong><br><br>
+          The AI Skills Passport has grown steadily through semester 1. If you have not had time to look, here is a quick orientation. Note that to meet Curtin&rsquo;s data governance and privacy you will need to be logged into Blackboard (done by visiting a Curtin Blackboard site). So even though it does not look like it, this is a Blackboard site.<br><br>
+          <strong style="color: #F8FAFC;">Arrivals Hall:</strong> the hub that links everything below. If you have not been to the Passport before, <a href="https://lms.curtin.edu.au/bbcswebdav/orgs/The_AI_Skills_Passport/arrivals-hall.html" target="_blank" style="color: #F97316; text-decoration: underline;">start here</a>.<br><br>
+          <strong style="color: #F8FAFC;">AI Toolkit:</strong> a searchable library of practical frameworks, templates, and one-pagers. <a href="https://lms.curtin.edu.au/bbcswebdav/orgs/The_AI_Skills_Passport/ai-toolkit.html" target="_blank" style="color: #F97316; text-decoration: underline;">Browse the full collection</a>.<br><br>
+          <strong style="color: #F8FAFC;">Experiences:</strong> short, role-relevant interactive pieces on detection, ethics, policy, assessment design, and working with AI. <a href="https://lms.curtin.edu.au/bbcswebdav/orgs/The_AI_Skills_Passport/experiences.html" target="_blank" style="color: #F97316; text-decoration: underline;">Browse the experiences</a>.<br><br>
+          <strong style="color: #F8FAFC;">AI in 5:</strong> a five-minute challenge each week, voluntary and low-pressure. <a href="https://forms.office.com/r/3531YvKVeg?origin=lprLink" target="_blank" style="color: #F97316; text-decoration: underline;">Subscribe</a> if you would like one each week.<br><br>
+          <strong style="color: #F8FAFC;">Past Briefings:</strong> every issue, <a href="https://lms.curtin.edu.au/bbcswebdav/orgs/The_AI_Skills_Passport/the-briefing-archive.html" target="_blank" style="color: #F97316; text-decoration: underline;">archived here</a>.
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">What might come next for AI Facilitation?</strong><br><br>
+          The following are ideas, not announcements. Tell me which would be useful and semester 2 will be shaped accordingly:<br><br>
+          &bull; A short, hands-on workshop on assessment redesign for a specific unit, course, or School<br><br>
+          &bull; One-on-one scoping help with an AI problem you are wrestling with (an assessment, a research workflow, a professional process)<br><br>
+          &bull; A bespoke tool or small app for something you do repeatedly. I have built a few of these for colleagues now and they are usually faster than people expect<br><br>
+          &bull; A live conversation session, in person or on Teams, on one topic for an hour. Here are some ideas: AI in the trough of disillusionment (a business school read on the cycle), teaching AI use to students who are still learning their domain or field, AI and research integrity, or whatever you would actually like an hour on<br><br>
+          &bull; More of something already in the Skills Passport that you found useful
+        </div>
+
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; margin-top: 12px; border-top: 1px solid #2D2D4A;">
+          Email <a href="mailto:michael.borck@curtin.edu.au" style="color: #F97316; text-decoration: underline;">michael.borck@curtin.edu.au</a>, or reply to the email version of this Briefing if you got it that way. One line is fine. &ldquo;I would use X&rdquo; or &ldquo;I would not use Y but I wish you would do Z&rdquo; are both genuinely useful.<br><br>
+          The Briefing itself goes quiet for a while, returning in week 2 of semester 2 with whatever shape this round of replies generates.<br><br>
+          The inter-semester gap is a good window for the bespoke options listed above: an assessment you want to redesign, a unit you are reshaping, a small tool you want built, a research workflow you want to tidy before teaching resumes.
+        </div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
         <span style="font-size: 1.3rem; flex-shrink: 0;">&#129504;</span>
         <span style="flex: 1;">
           <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue #3 &bull; 6 May 2026</span>
