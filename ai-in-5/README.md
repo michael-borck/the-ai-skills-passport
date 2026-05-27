@@ -17,7 +17,7 @@ One challenge per week, sent manually via group email.
 | Column | Description |
 |--------|-------------|
 | `week` | Week number (1–15) |
-| `theme` | Tools, Prompts, Ethics, Practice, or Share |
+| `theme` | Tools, Prompts, Ethics, Practice, Strategy, or Share |
 | `subject` | Email subject line |
 | `concept` | The key takeaway being reinforced |
 | `challenge` | The main challenge text — what to try |

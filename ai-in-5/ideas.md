@@ -31,3 +31,18 @@ Ideas that didn't fit the current week but are worth keeping for later or as ext
 **Professional:** You write reports, briefs, and proposals. If AI can produce text indistinguishable from yours, what does that mean for how we value writing versus the thinking behind it?
 
 **Notes:** Originally slotted as Week 3. Parked 2026-03-24 to make room for the Two-Chat Workflow challenge. Good standalone challenge — works any time.
+
+---
+
+## Before You Paste
+**Theme:** Ethics | **Concept:** Inside the tenant is not the same as private
+
+**Challenge:** Before your next Copilot prompt, pause and ask: "If a screenshot of this prompt ended up in the wrong inbox, would I be fine with that?" Curtin's Copilot is more contained than the public ChatGPT — your prompts stay inside the Microsoft 365 tenant and aren't used to train the public model — but inside the tenant is not the same as private to you. Student identifiers, unpublished research data, HR detail, anything covered by an NDA or ethics approval: those don't belong in the chat box. The skill isn't paranoia. It's pausing long enough to notice the difference.
+
+**Teaching:** You want Copilot to help draft feedback on a struggling student's work. The instinct is to paste the assignment in. Strip the name and ID first — or better, ask Copilot for the feedback framework and apply it to the work yourself. The pedagogical thinking is the part it can help with; the identifiable student work isn't what it needs.
+
+**Research:** Drafting analysis from interview transcripts? Don't paste raw transcripts in to "help find themes." Either de-identify thoroughly first, or describe the patterns you're seeing and let Copilot help you write about them. Your ethics approval almost certainly has something to say about where that data is allowed to live — and a Copilot chat is probably not on the list.
+
+**Professional:** You're drafting a difficult HR letter or summarising a sensitive complaint. The shortcut is to paste the original in and ask for help. Don't. Describe the situation in general terms, get a template or structure, then fill in the specifics in Word yourself. Same time saved, none of the exposure.
+
+**Notes:** Drafted 2026-05-27. Curtin-specific claim — "prompts stay inside the M365 tenant and aren't used to train the public model" — should be checked against current Curtin IT comms before sending; Copilot data-handling wording shifts. Good as a standalone or as the fourth beat of the ethics arc after Week 12.

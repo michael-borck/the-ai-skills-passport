@@ -94,6 +94,69 @@ format:
 
     <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
       <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128064;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 12 &bull; Ethics &bull; 27 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Bias Has Moved</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Ask Copilot: &ldquo;Write a one-paragraph scene of a new academic on their first day at an Australian university.&rdquo; Then in a fresh prompt: &ldquo;Write a one-paragraph scene of a new professional staff member on their first day.&rdquo; Read them side by side. The interesting bias isn&rsquo;t whether one is a man and one a woman, frontier models have been trained hard against the obvious stereotypes. It lives in the smaller choices. What is each character called, &ldquo;Dr Chen&rdquo; or &ldquo;Sarah&rdquo;? What do they worry about? Whose office has the window? Who has authority in the scene? The story tells you what the model thinks each role looks like, and that picture does quiet work every time you use it.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Run the same exercise with &ldquo;a struggling first-year student&rdquo; versus &ldquo;a high-achieving first-year student.&rdquo; Notice the defaults, discipline, background, family situation, why they&rsquo;re struggling or succeeding. The model&rsquo;s assumptions are doing some of the thinking for you whether you noticed or not.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Try &ldquo;a brilliant early-career researcher&rdquo; and &ldquo;a brilliant senior researcher.&rdquo; What field? What kind of work? Whose career trajectory does the model treat as the default shape of success? If you use Copilot to help with reference letters or selection criteria, those defaults are leaking in.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Try &ldquo;a respected senior manager&rdquo; and &ldquo;a respected administrative officer.&rdquo; Notice what changes, confidence, decisiveness, who&rsquo;s described as warm versus capable. If you draft position descriptions with Copilot, is this a problem?
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Bias has moved, not gone</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#127917;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 11 &bull; Prompts &bull; 19 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Give Copilot a Role</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Try this in Copilot chat: &ldquo;You are an experienced academic developer at an Australian university. Review this learning outcome and suggest improvements: [paste one].&rdquo; Then send the same request with no role. The version with a role is sharper because naming who Copilot speaks as narrows it toward the knowledge and tone that fit. The biggest gains come from roles that hand you a perspective you do not have yourself. Role is the R in RTCF, the full prompt scaffold lives in the AI Toolkit.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Try: &ldquo;You are a student encountering this unit for the first time. Read this assessment brief and tell me what confuses you.&rdquo; Giving Copilot a student perspective can reveal blind spots in your instructions.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Try: &ldquo;You are a journal reviewer in [your field]. Review this abstract and identify weaknesses.&rdquo; A role-based prompt produces feedback that is far more targeted than a generic request.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Try: &ldquo;You are a new staff member on your first day. Read this onboarding document and list anything that is unclear or assumes prior knowledge.&rdquo; Role prompts are powerful for testing whether your documents actually make sense.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: A role narrows Copilot toward relevant knowledge and stance</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129309;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 10 &bull; Strategy &bull; 12 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The Handover Prompt</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Your chat with AI has been useful for an hour, but it&rsquo;s getting long, the thread is drifting, and you need to come back to it tomorrow. Ask the AI to &ldquo;write a handover prompt that captures everything important from this conversation: context, decisions made, where we left off, so I can paste it into a new chat and continue.&rdquo; Copy the result, save it somewhere (a note, a doc, an email to yourself), or leave it in the conversation, then start a fresh session and paste it in. You keep the thinking, you lose the noise.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Mid-semester unit redesign chat got tangled? Ask for a handover prompt before you lose the thread. Pick it up next week in a clean session without scrolling through forty messages.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Drafting a methods section over multiple sittings? End each session with a handover prompt. The next session starts sharp instead of you re-explaining what you&rsquo;d already worked out.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Working through a long policy draft or proposal with AI? When the chat gets too noisy to follow, generate a handover prompt and start fresh. Same context, less clutter.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Long conversations lose the thread</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
         <span style="font-size: 1.3rem; flex-shrink: 0;">&#128172;</span>
         <span style="flex: 1;">
           <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 9 &bull; Share &bull; 5 May 2026</span>
