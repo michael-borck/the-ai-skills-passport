@@ -1,0 +1,100 @@
+---
+title: "Curtin's AI Position at a Glance"
+---
+
+## Why this exists
+
+A short orientation to where Curtin sits on AI: the principles that govern its use, the tools currently approved, the frameworks they align with, and where to go for more. It is not a substitute for the policy itself, it is a pointer to it.
+
+For the authoritative text, see Curtin's AI Policy and the AI staff FAQ on the staff portal.
+
+## The headline position
+
+AI use at Curtin is **encouraged but not mandatory**, governed by a clear set of ethical principles, and aligned with Australian and international standards. The University is committed to the ethical use of AI as a complement to learning, teaching, research, and professional work, and takes an agile approach because the technology moves quickly.
+
+## The eight AI Guidance Principles
+
+Set out in Curtin's AI Policy. They map cleanly to Australia's national AI Ethics Principles.
+
+1. Human, Societal and Environmental Wellbeing
+2. Human-Centred Values
+3. Fairness
+4. Privacy Protection and Security
+5. Reliability and Safety
+6. Transparency, Explainability and Contestability
+7. Accountability
+8. Accuracy
+
+A short memory hook: *wellbeing, values, fairness, privacy, safety, transparency, accountability, accuracy.* Eight words, in order, covers it.
+
+## Frameworks Curtin's policy draws on
+
+- OECD AI Principles
+- Australia's AI Ethics Principles (Department of Industry, Science and Resources)
+- Voluntary AI Safety Standard (Australian)
+- TEQSA GenAI Knowledge Hub (the higher-education regulator)
+- WA Government AI Policy and Assurance Framework
+
+The framing matters: Curtin is not improvising. The institutional position is anchored in WA, national, and international standards.
+
+## Who shapes AI strategy
+
+AI strategy at Curtin is shaped by the **AI Steering Group**, a cross-cutting body that includes legal, governance, research, teaching, faculty, and corporate communications leadership. It operates alongside the Senior Executive Team.
+
+Major initiatives are deliberately distributed across faculties rather than centralised in one unit. They include:
+
+- **Assessment 2030** (DVC Academic)
+- **Curtin AI in Research Group**
+- **Resources Technology and Critical Minerals Trailblazer**
+- **Centre for Applied Ethics** (Faculty of Business and Law)
+- **Janus Agentic AI** (Faculty of Humanities)
+- **Responsible AI in Health** (Faculty of Health Sciences)
+
+## The tools position
+
+### Approved with Enterprise Data Protection (EDP)
+
+- **M365 Copilot** is currently the **only** Curtin GenAI tool with EDP.
+- Available by default to full-time, fixed-term, and continuing staff (academic and professional), plus HDR students. Casual and sessional staff apply through ServiceNow.
+- Data is stored in Australian Microsoft data centres.
+- Curtin data is not used to train Copilot's foundational models.
+- Respects existing Microsoft 365 permissions.
+
+### Coming soon
+
+- **Claude** is explicitly named in the FAQ: *"Curtin is also preparing for use of additional tools, such as Claude."*
+
+### Explicitly banned
+
+- **DeepSeek** and any tool deemed an unacceptable risk on Australian Government systems.
+
+### Free tools (free ChatGPT, free Claude, free Gemini, others)
+
+- Allowed for experimentation, but **never with confidential, sensitive, or protected data**.
+- Green-tick or shield icons in free tools are **not** a guarantee of compliance.
+
+## The SECURE check
+
+The staff-facing check applied before any data goes into any AI tool. The practical rule: never enter private, confidential, protected, or sensitive information into AI tools, free or enterprise. EDP reduces risk, it does not eliminate it.
+
+## Students
+
+- AI use is **permission-based**: students need explicit permission from their Unit Coordinator to use AI tools for assignment-related work.
+- Inappropriate or undisclosed use may constitute misconduct.
+- Students cannot upload work that isn't theirs (lecture slides, assessments, copyrighted sources).
+- Accuracy must be verified; GenAI contains bias from its training data.
+- Curtin-supported resources for students include the UniSkills GenAI guide, Library GenAI workshops, and the 23 Things AI module.
+
+## Where to go next
+
+| Need | Where to go |
+|---|---|
+| The AI Policy and staff FAQ | Curtin staff portal |
+| Privacy queries (PIAs required for AI projects with personal info) | privacy@curtin.edu.au |
+| Software approval before installing AI tools on Curtin computers | DTS-EAM@curtin.edu.au |
+| General AI feedback or queries | ai@curtin.edu.au |
+| Assessment redesign | Assessment 2030 (DVC Academic) |
+
+## In one line
+
+Curtin's stance is to enable ethical AI use, not mandate it, anchored in eight principles that align with OECD, Australian Government, TEQSA, and WA Government frameworks, with M365 Copilot as the currently approved enterprise tool and the SECURE check governing what data goes in.

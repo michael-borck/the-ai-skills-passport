@@ -2577,6 +2577,34 @@ Now write feedback in my style for:
       `
     },
     {
+      id: 'curtin-ai-position',
+      category: 'guide',
+      roles: ['teaching', 'research', 'admin'],
+      title: "Curtin's AI Position at a Glance",
+      emoji: '🧭',
+      summary: 'The institutional anchors in one place: the eight guidance principles, the frameworks Curtin aligns to, the tools approved and banned, the SECURE check, and where to go for more. A pointer to the official line, not a substitute for it.',
+      downloads: {
+        html: 'downloads/curtin-ai-position.html',
+        docx: 'downloads/curtin-ai-position.docx',
+        pdf: 'downloads/curtin-ai-position.pdf'
+      },
+      content: `
+        <p>A short orientation to where Curtin sits on AI: principles, tools, frameworks, and where to go for more. Use it as a quick reference card; refer to the full AI Policy and staff FAQ on the staff portal for the authoritative text.</p>
+
+        <p><strong>The headline position:</strong> AI use at Curtin is encouraged but not mandatory, governed by a clear set of ethical principles, and aligned with Australian and international standards.</p>
+
+        <p><strong>The eight guidance principles:</strong> wellbeing, human-centred values, fairness, privacy and security, reliability and safety, transparency, accountability, accuracy. They map cleanly to Australia's national AI Ethics Principles, and Curtin's policy also draws on OECD, TEQSA, and WA Government frameworks.</p>
+
+        <p><strong>The tools position:</strong> M365 Copilot is currently the only enterprise tool with Enterprise Data Protection (EDP). Claude is in preparation. DeepSeek is banned. Free tools are allowed for experimentation, never with confidential, sensitive, or protected data, and green-tick or shield icons in those tools are not a guarantee of compliance.</p>
+
+        <p><strong>The SECURE check:</strong> never enter private, confidential, protected, or sensitive information into AI tools, free or enterprise. EDP reduces risk; it does not eliminate it.</p>
+
+        <div style="background: #1E1E36; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>In one line:</strong> Curtin's stance is to enable ethical AI use, not mandate it, anchored in eight principles that align with OECD, Australian Government, TEQSA, and WA Government frameworks, with Copilot as the currently approved enterprise tool and the SECURE check governing what data goes in.
+        </div>
+      `
+    },
+    {
       id: 'focused-prompting',
       category: 'technique',
       roles: ['teaching', 'research', 'admin'],
