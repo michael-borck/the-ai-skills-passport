@@ -1,0 +1,48 @@
+---
+title: "What Actually Teaches Critical Thinking"
+subtitle: "A one-page summary of Abrami et al. (2015) — and what it means for working with AI"
+---
+
+## The study
+
+Abrami and colleagues ran a meta-analysis — a study of studies — on how to teach critical thinking (CT). They pooled **341 effect sizes** from quasi- and true-experimental research that measured CT as an outcome with standardised instruments. The question was simple: can critical thinking actually be taught, and if so, what works?
+
+The answer: **yes, it can be taught**, but the gains depend heavily on *how* you teach it. Across the whole collection the average effect was moderate (a weighted mean of g+ = 0.30) — real, worthwhile, and far from automatic.
+
+## What "critical thinking" means here
+
+The authors use the American Philosophical Association's consensus definition: CT is *purposeful, self-regulatory judgement* — interpreting, analysing, evaluating, and inferring, as well as explaining the reasoning behind that judgement. Crucially, it is both a **skill** and a **disposition**: you can possess the cognitive machinery and still fail to use it without the habit of being inquisitive, open-minded, and willing to reconsider.
+
+## What worked best
+
+Three instructional ingredients stood out as raising CT:
+
+- **Dialogue** — discussion, questioning, and argument. CT grows when learners *talk through* problems and defend positions, not when they passively receive content about thinking.
+- **Authentic, situated problems** — real cases and examples drawn from genuine contexts, rather than abstract drills.
+- **Mentoring** — one-to-one or small-group guidance through the reasoning process.
+
+The strongest results came when these were combined and CT was made an *explicit* objective rather than an assumed by-product of studying a subject.
+
+## Why this matters for working with AI
+
+The single biggest lever — **dialogue** — is exactly what a conversational AI tool can offer on demand. Used well, AI is a tireless sparring partner you can point at your own thinking, any time:
+
+- Ask it for the **strongest case against** your position.
+- Ask **what you're assuming** that you haven't justified.
+- Have it play the **harshest fair critic** — the toughest reviewer, the most sceptical stakeholder.
+
+Then push back, defend, and refine. The value isn't a better answer *from* the AI; it's a sharper argument *from you*.
+
+The same evidence is a warning about the *wrong* way to use AI. Chaining tasks and accepting the first answer is the opposite of dialogue — it offloads the judgement that CT depends on, and the thinking quietly atrophies. AI is something to **argue with**, not delegate to.
+
+## Try it in five minutes
+
+> Take a view you hold or a decision you've half-made. Paste it into Copilot and ask: *"Give me the strongest possible case against this,"* then *"What am I assuming here that I haven't justified?"* Don't accept what comes back — push back, defend, refine.
+
+**Pair this with:** the *Devil's Advocate* technique (the ready-made prompt) and the *Make It Argue Back* **AI in 5** challenge (the weekly habit) in the AI Toolkit.
+
+---
+
+::: {style="font-size: 0.85em; color: #555;"}
+**Source:** Abrami, P. C., Bernard, R. M., Borokhovski, E., Waddington, D. I., Wade, C. A., & Persson, T. (2015). Strategies for Teaching Students to Think Critically: A Meta-Analysis. *Review of Educational Research, 85*(2), 275–314.
+:::

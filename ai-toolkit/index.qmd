@@ -1259,6 +1259,33 @@ Now write feedback in my style for:
         <p style="font-size: 13px; color: #64748B;">References: Perkins & Roe (2025); Roe, Furze & Perkins (2025)</p>
       `
     },
+    {
+      id: 'abrami-critical-thinking',
+      category: 'reading',
+      roles: ['teaching', 'research', 'admin'],
+      title: 'What Actually Teaches Critical Thinking',
+      emoji: '🧠',
+      summary: 'A 341-effect-size meta-analysis on what works for teaching critical thinking — and why AI used as a dialogue partner fits the evidence.',
+      downloads: {
+        html: 'downloads/abrami-critical-thinking.html',
+        docx: 'downloads/abrami-critical-thinking.docx',
+        pdf: 'downloads/abrami-critical-thinking.pdf'
+      },
+      content: `
+        <p>Abrami and colleagues synthesised 341 effect sizes from quasi- and true-experimental studies measuring critical thinking (CT) as an outcome. The headline: CT <em>can</em> be taught — the weighted mean effect was moderate (g+ = 0.30) — but only some approaches move the needle.</p>
+        <p><strong>What worked best:</strong></p>
+        <ul>
+          <li><strong>Dialogue</strong> — discussion, questioning, and argument, rather than CT delivered as passive content</li>
+          <li><strong>Authentic, situated problems</strong> — real examples and cases, not abstract exercises</li>
+          <li><strong>Mentoring</strong> — one-to-one or small-group guidance through the reasoning</li>
+        </ul>
+        <p><strong>Why it matters for AI:</strong> the strongest lever — dialogue — is exactly what a chat tool can provide on demand. Used well, AI is a tireless sparring partner you can point at your own thinking: steelman the opposing view, surface unjustified assumptions, play the harshest fair critic. Used badly (chaining tasks, accepting the first answer), it does the opposite and lets your thinking atrophy. The paper is a useful evidence base for treating AI as something to <em>argue with</em>, not delegate to.</p>
+        <div style="background: #1E1B4B; padding: 16px; border-radius: 8px; margin-top: 16px;">
+          <strong>Pair with:</strong> the <em>Devil's Advocate</em> technique (the prompt) and the <em>Make It Argue Back</em> AI in 5 challenge (the 5-minute habit).
+        </div>
+        <p style="font-size: 13px; color: #64748B;">Abrami, P. C., Bernard, R. M., Borokhovski, E., Waddington, D. I., Wade, C. A., &amp; Persson, T. (2015). Strategies for Teaching Students to Think Critically: A Meta-Analysis. <em>Review of Educational Research, 85</em>(2), 275–314.</p>
+      `
+    },
 
     // FURTHER READING - External Resources
     {
