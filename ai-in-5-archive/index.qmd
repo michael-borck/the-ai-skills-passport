@@ -94,6 +94,49 @@ format:
 
     <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
       <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128269;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 14 &bull; Practice &bull; 18 Jun 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Summarise Before You Read</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Found a long report, policy, or paper you&rsquo;ve been putting off? The instinct is to paste it in and ask &ldquo;Summarise this.&rdquo; Don&rsquo;t. A general summary tells the model to treat every paragraph as equally important, so it gives you bland, evenly-weighted mush. Instead, force it to focus: &ldquo;What&rsquo;s the single main takeaway?&rdquo; or &ldquo;What are the three things in here I need to act on?&rdquo; or &ldquo;What decision is this paper asking me to make?&rdquo; Read what comes back, then skim the original to check it. The narrower your ask, the sharper the answer, because you&rsquo;ve made the model prioritise instead of summarise. Telling it what matters is the whole skill.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Not &ldquo;summarise this curriculum review&rdquo; but &ldquo;what are the three changes in here that affect how I run my unit?&rdquo; The focused version points you straight at what you need to act on.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Not &ldquo;summarise this paper&rdquo; but &ldquo;what&rsquo;s the one central claim, and what&rsquo;s their strongest evidence for it?&rdquo; Far more useful for deciding whether it&rsquo;s worth a full read.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Not &ldquo;summarise this policy&rdquo; but &ldquo;what does this require me to do differently, if anything?&rdquo; The focused question gets you to the part that actually changes your week.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: A focused ask beats a general summary</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129356;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 13 &bull; Strategy &bull; 2 Jun 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Make It Argue Back</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">A few weeks back we looked at not <em>surrendering</em> your thinking to AI. This is the flip side: actively using it to <em>sharpen</em> your thinking. Pick a view you hold or a decision you&rsquo;ve half-made. Paste it into Copilot and ask: &ldquo;Give me the strongest possible case against this,&rdquo; then &ldquo;What am I assuming here that I haven&rsquo;t actually justified?&rdquo; Whatever it says, don&rsquo;t just accept it. Push back, defend, refine. The goal isn&rsquo;t a better answer from AI. It&rsquo;s a sharper argument from you. The evidence on what builds critical thinking points to one thing above all: dialogue. AI is a tireless sparring partner you can point at your own thinking any time you like.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Drafting a stance on an assessment policy, or a decision about AI in your unit? Ask AI for the strongest student objection and the strongest colleague objection. Walk into the conversation having already answered both.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Before you submit, ask AI to play Reviewer 2, the harshest fair reviewer your work could draw. Where&rsquo;s the weakest link in the argument? Better to hear it now than in the decision letter.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Writing a recommendation or a proposal? Ask &ldquo;what would a sceptical decision-maker push back on?&rdquo; The pushback you can answer makes the case stronger; the one you can&rsquo;t is the thing to fix before it goes up.
+        </div>
+        <div style="margin-top: 12px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.6;">&#128218; Go deeper in the <a href="ai-toolkit.html" style="color: #F97316; text-decoration: underline;">AI Toolkit</a>: the ready-made <em>Devil&rsquo;s Advocate</em> prompt, plus a one-page summary of the research behind this, <a href="ai-toolkit.html" style="color: #F97316; text-decoration: underline;">What Actually Teaches Critical Thinking</a> (Abrami et al., 2015).</div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: AI as a sparring partner that sharpens your reasoning</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
         <span style="font-size: 1.3rem; flex-shrink: 0;">&#128064;</span>
         <span style="flex: 1;">
           <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Week 12 &bull; Ethics &bull; 27 May 2026</span>

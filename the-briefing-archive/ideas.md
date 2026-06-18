@@ -84,3 +84,52 @@ Spine if revisited:
 - Closing: AI did not break university assessment. It revealed that university assessment had quietly been broken for a long time. What we are doing now is fixing it.
 
 Toolkit companion already in place: `curtin-ai-position` (Curtin's AI Position at a Glance). Existing companion from Issue #1: Assessment AI Stress Test. If revived, link Mollie Dollinger's public Assessment 2030 page and consider a courtesy heads-up before publishing.
+
+---
+
+## 8. The model is not the product *(seed — 2026-05-28)*
+The thing staff call "ChatGPT" or "Copilot" is not the model — it's the harness around it: chat UI, system prompt, tool wiring, safety layers, file-upload affordances, memory, org-level admin policy. Same model can feel very different across harnesses. Explains "ChatGPT was better last week" and "Copilot won't do what ChatGPT does" — usually harness, not model.
+
+Pairs naturally with [[9]] below as a two-issue arc on "the model is one input among many."
+
+Cross-ref: also captured as a seed in `ai-in-5/ideas.md` ("The Model Is Not the Product"). Decide whether it lives as a 5-min challenge, a Briefing, or both.
+
+---
+
+## 9. What else shapes the output *(seed — 2026-05-28)*
+Output is shaped by far more than the prompt: persistent instructions (ChatGPT custom instructions, Claude project instructions, CLAUDE.md-style files), memory across sessions, uploaded files acting as context (CV, style guide, policy doc), system prompts set by the org or app vendor. Two staff using "the same Copilot" can get systematically different answers because of upstream config. Reframes prompt quality as partly an *information hygiene* problem.
+
+Pairs with [[8]] above.
+
+Cross-ref: also captured as a seed in `ai-in-5/ideas.md` ("What Else Shapes the Output"). Likely meatier than 5 minutes — Briefing may be the better home.
+
+---
+
+## 10. You are the harness *(near-ready draft — 2026-06-18)*
+**Format:** paper-led, same shape as Issue #3 (lead → Worth reading → Something worth thinking about → From the AI Toolkit). Drop into the template block when the Briefing restarts. **Date TBD** — Briefing on break until semester starts.
+
+**Paper:** Cao et al., "LLMs Know When They Know, but Do Not Act on It: A Metacognitive Harness," 2026. *Verify citation (authors, venue, year, DOI/link) before publishing — drafted from the title and a summary, full reference not yet confirmed.*
+
+**Lead:** A paper worth your attention: Cao et al., "LLMs Know When They Know, but Do Not Act on It: A Metacognitive Harness," 2026. [link to confirm]
+
+**Worth reading:**
+There's a gap inside a language model between what it knows and what it does. Ask one how to approach a hard problem — plan first, check your work, reconsider a wrong turn — and it can describe the right method accurately. In that sense it *knows when it knows*. What it doesn't do reliably is act on that knowledge in the moment: recognise that *this* is the point to stop and verify, notice its own approach is failing and switch, or plan more than a step ahead.
+
+A model generates the next likely word. That is a remarkable thing, but it is not planning, and it is not the same as choosing when to deploy a method it can otherwise recite.
+
+The authors' response is a *harness* — an external scaffold that prompts the model, at the right moments, to use the metacognitive knowledge it already has. Performance improves, not because the model got smarter, but because something outside it supplied the timing and the follow-through.
+
+**Something worth thinking about:**
+Read that last line again, because it describes your working relationship with Copilot. The model holds the knowledge; you hold the agency over when to apply it. *You are the harness.* You decide when to trust it, when to check it, when to stop, and whether this is a job for AI at all. "Human in the loop" isn't a compliance phrase — it's a description of cognitive work the model structurally cannot do for itself.
+
+This reframes the anxious version of the AI conversation. The worry is usually "the model knows more than I do." Often it does, in the recite-the-method sense. But knowing the *method* and knowing the *moment* are different skills — and the second one, judgement about when and whether, is exactly what your training and experience are for. AI changes the tasks; the harness stays yours.
+
+**From the AI Toolkit:**
+Two frames make the harness concrete: *Conversation Not Delegation* (staying in the loop on the thinking rather than handing it over) and the *Verification Mindset* (deciding when an output needs checking — the exact "is this the moment?" call the model can't make for itself).
+
+**Closing line:** The model knows the method. You know the moment. That gap is the job.
+
+**Notes:**
+- Pairs with / could absorb **[[4]] "The 10% problem"** — the metacognitive-harness paper is plausibly the *mechanism* behind that hunch (AI does the first 80–90%; the judgement bit is yours). Decide whether this issue precedes #4 or rolls it in.
+- **Terminology watch:** "harness" here means the *cognitive/metacognitive* scaffold (when to apply the method). Seeds [[8]] and [[9]] use "harness" for the *software* scaffold around the model (UI, tools, safety). Different referents — keep them distinct, or make "two kinds of harness" a deliberate thread.
+- Companion AI in 5 challenge: Week 22 "What's Yours to Keep" (the 5-minute version of this idea — write two lists, you are the harness). Drafted for the 2026-06-18 send.
