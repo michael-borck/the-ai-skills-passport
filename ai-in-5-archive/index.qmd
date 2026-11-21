@@ -1,0 +1,491 @@
+---
+pagetitle: "AI in 5 Archive"
+format:
+  html:
+    self-contained: true
+    toc: false
+---
+
+```{=html}
+<!-- AI in 5 Archive: AI Skills Passport -->
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1080px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+
+  <!-- Navigation -->
+  <nav class="sp-nav" data-page="ai-in-5-archive">
+    <button class="sp-nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span class="sp-nav-icon">&#9776;</span>
+    </button>
+    <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
+    <div class="sp-nav-menu">
+      <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
+      <div class="sp-nav-group" data-group="experiences">
+        <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
+        <div class="sp-nav-dropdown">
+          <a href="experiences/is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
+                <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+                <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+                <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with your AI assistant</a>
+                <div class="sp-nav-separator"></div>
+                <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+                <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
+        </div>
+      </div>
+      <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <a href="ai-in-5-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-in-5-archive">AI in 5</a>
+      <div class="sp-nav-group" data-group="more">
+        <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
+        <div class="sp-nav-dropdown">
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
+          <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
+          <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+  (function() {
+    var toggle = document.querySelector('.sp-nav-toggle');
+    var menu = document.querySelector('.sp-nav-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function() {
+        var open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.sp-nav')) {
+          menu.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+    var nav = document.querySelector('.sp-nav');
+    var page = nav ? nav.getAttribute('data-page') : null;
+    if (page) {
+      var el = nav.querySelector('[data-nav="' + page + '"]');
+      if (el) {
+        el.classList.add('is-active');
+        var group = el.closest('.sp-nav-group');
+        if (group) group.classList.add('has-active-child');
+      }
+    }
+  })();
+  </script>
+
+
+  <!-- Hero -->
+  <div style="padding: 32px 0; position: relative;">
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">Missed one?</div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px; margin-bottom: 16px;">Catch up here.</div>
+    <p style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin: 0; max-width: 520px;">Every past AI in 5 challenge, collected in one place. Pick any that catch your eye. They're all standalone.</p>
+    <p style="font-size: 0.95rem; margin-top: 12px;">The fortnightly email is a free service from <a href="https://borck.consulting/contact/" target="_blank" style="color: #F97316; text-decoration: underline;">borck.consulting</a>. This archive stays free to read.</p>
+  </div>
+
+  <!-- Past Challenges -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Past Challenges</div>
+
+    <!-- CHALLENGES START: add new entries above the end marker, newest first -->
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129517;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 15 &bull; Strategy &bull; 29 Jul 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">How Much Should You Trust It?</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Back after the break, so let&rsquo;s start with the one tool that makes every other AI decision easier. When AI hands you something, don&rsquo;t ask &ldquo;is this right?&rdquo; That has a different answer every time. Ask two smaller questions instead. First: does this need to be <em>precise</em>, or is <em>average</em> fine? A brainstorm can be average; a number someone will act on can&rsquo;t. Second: if it&rsquo;s wrong, how big is the <em>blast radius</em>? A clumsy sentence in a draft is small; a recommendation that sends a team the wrong way is large. Put the two together and you have your answer.</div>
+        <div style="margin: 16px 0;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 640" width="100%" style="max-width: 520px; height: auto; display: block; margin: 0 auto;" role="img" aria-labelledby="tt-title tt-desc" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+          <title id="tt-title">The trust tool</title>
+          <desc id="tt-desc">A two-by-two grid. The horizontal axis runs from Average to Precise (how exact the answer must be). The vertical axis runs from Small to Large (consequences, or blast radius). Average and small consequences: lean in, light review. Average and large consequences: verify the load-bearing bits. Precise and small consequences: verify before you ship. Precise and large consequences: human in the loop, non-negotiable.</desc>
+          <defs><marker id="tt-arrow" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto"><path d="M0,0 L6.5,3 L0,6 Z" fill="#F97316"/></marker></defs>
+          <text x="310" y="44" text-anchor="middle" font-size="30" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">The trust tool</text>
+          <text x="310" y="74" text-anchor="middle" font-size="15" fill="#94A3B8">Place any AI output before you act. Judge the <tspan font-style="italic">output</tspan>, not the brand.</text>
+          <g stroke="#2D2D4A" stroke-width="2">
+            <rect x="120" y="105" width="230" height="230" fill="#2B2510"/>
+            <rect x="350" y="105" width="230" height="230" fill="#2E1517"/>
+            <rect x="120" y="335" width="230" height="230" fill="#10271E"/>
+            <rect x="350" y="335" width="230" height="230" fill="#2B2510"/>
+          </g>
+          <rect x="350" y="105" width="230" height="230" fill="none" stroke="#EF4444" stroke-width="2.5"/>
+          <circle cx="146" cy="131" r="8" fill="#EAB308"/>
+          <circle cx="376" cy="131" r="8" fill="#EF4444"/>
+          <circle cx="146" cy="361" r="8" fill="#22C55E"/>
+          <circle cx="376" cy="361" r="8" fill="#EAB308"/>
+          <text x="235" y="198" text-anchor="middle" font-size="12" fill="#FBBF24" font-weight="700" letter-spacing="0.6">AVERAGE &#183; LARGE</text>
+          <text x="235" y="228" text-anchor="middle" font-size="19" fill="#FCD34D" font-weight="800">Verify the</text>
+          <text x="235" y="253" text-anchor="middle" font-size="19" fill="#FCD34D" font-weight="800">load-bearing bits</text>
+          <text x="465" y="190" text-anchor="middle" font-size="12" fill="#F87171" font-weight="700" letter-spacing="0.6">PRECISE &#183; LARGE</text>
+          <text x="465" y="221" text-anchor="middle" font-size="19" fill="#FCA5A5" font-weight="800">Human in the loop</text>
+          <text x="465" y="247" text-anchor="middle" font-size="12.5" fill="#F87171" font-weight="600">non-negotiable: a person owns it</text>
+          <text x="235" y="428" text-anchor="middle" font-size="12" fill="#34D399" font-weight="700" letter-spacing="0.6">AVERAGE &#183; SMALL</text>
+          <text x="235" y="458" text-anchor="middle" font-size="19" fill="#6EE7B7" font-weight="800">Lean in,</text>
+          <text x="235" y="483" text-anchor="middle" font-size="19" fill="#6EE7B7" font-weight="800">light review</text>
+          <text x="465" y="428" text-anchor="middle" font-size="12" fill="#FBBF24" font-weight="700" letter-spacing="0.6">PRECISE &#183; SMALL</text>
+          <text x="465" y="458" text-anchor="middle" font-size="19" fill="#FCD34D" font-weight="800">Verify before</text>
+          <text x="465" y="483" text-anchor="middle" font-size="19" fill="#FCD34D" font-weight="800">you ship</text>
+          <line x1="120" y1="595" x2="588" y2="595" stroke="#F97316" stroke-width="2.5" marker-end="url(#tt-arrow)"/>
+          <text x="122" y="589" font-size="15" fill="#FB923C" font-weight="700">Average</text>
+          <text x="554" y="589" text-anchor="end" font-size="15" fill="#FB923C" font-weight="700">Precise</text>
+          <text x="350" y="618" text-anchor="middle" font-size="12.5" fill="#64748B">how exact the answer must be</text>
+          <line x1="98" y1="565" x2="98" y2="100" stroke="#F97316" stroke-width="2.5" marker-end="url(#tt-arrow)"/>
+          <text x="90" y="562" text-anchor="end" font-size="15" fill="#FB923C" font-weight="700">Small</text>
+          <text x="90" y="126" text-anchor="end" font-size="15" fill="#FB923C" font-weight="700">Large</text>
+          <text x="68" y="335" text-anchor="middle" font-size="12.5" fill="#64748B" transform="rotate(-90 68 335)">consequences (blast radius)</text>
+        </svg></div>
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Average and small: lean in, skim it, move on. One or the other: find the load-bearing claim and check that one thing. Precise and large: a human signs off before it touches anything real. Try placing the next three AI outputs you use. Almost every AI failure you&rsquo;ve read about in the news is someone treating a top-right output as a bottom-left one.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> your AI assistant drafting a rubric is average-and-small: lean in. your AI assistant telling you what an accreditation standard requires is precise-and-large: check the wording at the source before it shapes your unit. Same tool, same afternoon, two very different levels of care.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Rephrasing a clunky paragraph sits bottom-left, so skim it and move on. A statistic, a citation, or a claim about someone else&rsquo;s findings sits top-right, and that&rsquo;s the one that turns up in a decision letter. The placement tells you what you owe the output.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Tidying the wording of a routine email is bottom-left. Summarising what a policy actually requires someone to do is top-right, because someone will act on it. Ask which one you&rsquo;re holding before you hit send.
+        </div>
+        <div style="margin-top: 12px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.6;">&#128218; Pairs with <a href="ai-toolkit.html" style="color: #F97316; text-decoration: underline;">The Flag System</a> in the AI Toolkit. The trust tool asks how much the <em>task</em> can afford to be wrong; the flag system asks what the <em>content</em> itself is signalling. Use both.</div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Trust is a placement, not a score</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128269;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 14 &bull; Practice &bull; 18 Jun 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Stop asking AI to &lsquo;summarise this&rsquo;</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Found a long report, policy, or paper you&rsquo;ve been putting off? The instinct is to paste it in and ask &ldquo;Summarise this.&rdquo; Don&rsquo;t. A general summary tells the model to treat every paragraph as equally important, so it gives you bland, evenly-weighted mush. Instead, force it to focus: &ldquo;What&rsquo;s the single main takeaway?&rdquo; or &ldquo;What are the three things in here I need to act on?&rdquo; or &ldquo;What decision is this paper asking me to make?&rdquo; Read what comes back, then skim the original to check it. The narrower your ask, the sharper the answer, because you&rsquo;ve made the model prioritise instead of summarise. Telling it what matters is the whole skill.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Not &ldquo;summarise this curriculum review&rdquo; but &ldquo;what are the three changes in here that affect how I run my unit?&rdquo; The focused version points you straight at what you need to act on.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Not &ldquo;summarise this paper&rdquo; but &ldquo;what&rsquo;s the one central claim, and what&rsquo;s their strongest evidence for it?&rdquo; Far more useful for deciding whether it&rsquo;s worth a full read.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Not &ldquo;summarise this policy&rdquo; but &ldquo;what does this require me to do differently, if anything?&rdquo; The focused question gets you to the part that actually changes your week.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: A focused ask beats a general summary</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129356;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 13 &bull; Strategy &bull; 2 Jun 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Make It Argue Back</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">A few weeks back we looked at not <em>surrendering</em> your thinking to AI. This is the flip side: actively using it to <em>sharpen</em> your thinking. Pick a view you hold or a decision you&rsquo;ve half-made. Paste it into your AI assistant and ask: &ldquo;Give me the strongest possible case against this,&rdquo; then &ldquo;What am I assuming here that I haven&rsquo;t actually justified?&rdquo; Whatever it says, don&rsquo;t just accept it. Push back, defend, refine. The goal isn&rsquo;t a better answer from AI. It&rsquo;s a sharper argument from you. The evidence on what builds critical thinking points to one thing above all: dialogue. AI is a tireless sparring partner you can point at your own thinking any time you like.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Drafting a stance on an assessment policy, or a decision about AI in your unit? Ask AI for the strongest student objection and the strongest colleague objection. Walk into the conversation having already answered both.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Before you submit, ask AI to play Reviewer 2, the harshest fair reviewer your work could draw. Where&rsquo;s the weakest link in the argument? Better to hear it now than in the decision letter.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Writing a recommendation or a proposal? Ask &ldquo;what would a sceptical decision-maker push back on?&rdquo; The pushback you can answer makes the case stronger; the one you can&rsquo;t is the thing to fix before it goes up.
+        </div>
+        <div style="margin-top: 12px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.6;">&#128218; Go deeper in the <a href="ai-toolkit.html" style="color: #F97316; text-decoration: underline;">AI Toolkit</a>: the ready-made <em>Devil&rsquo;s Advocate</em> prompt, plus a one-page summary of the research behind this, <a href="ai-toolkit.html" style="color: #F97316; text-decoration: underline;">What Actually Teaches Critical Thinking</a> (Abrami et al., 2015).</div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: AI as a sparring partner that sharpens your reasoning</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128064;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 12 &bull; Ethics &bull; 27 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Bias Has Moved</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Ask your AI assistant: &ldquo;Write a one-paragraph scene of a new academic on their first day at an Australian university.&rdquo; Then in a fresh prompt: &ldquo;Write a one-paragraph scene of a new professional staff member on their first day.&rdquo; Read them side by side. The interesting bias isn&rsquo;t whether one is a man and one a woman, frontier models have been trained hard against the obvious stereotypes. It lives in the smaller choices. What is each character called, &ldquo;Dr Chen&rdquo; or &ldquo;Sarah&rdquo;? What do they worry about? Whose office has the window? Who has authority in the scene? The story tells you what the model thinks each role looks like, and that picture does quiet work every time you use it.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Run the same exercise with &ldquo;a struggling first-year student&rdquo; versus &ldquo;a high-achieving first-year student.&rdquo; Notice the defaults, discipline, background, family situation, why they&rsquo;re struggling or succeeding. The model&rsquo;s assumptions are doing some of the thinking for you whether you noticed or not.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Try &ldquo;a brilliant early-career researcher&rdquo; and &ldquo;a brilliant senior researcher.&rdquo; What field? What kind of work? Whose career trajectory does the model treat as the default shape of success? If you use your AI assistant to help with reference letters or selection criteria, those defaults are leaking in.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Try &ldquo;a respected senior manager&rdquo; and &ldquo;a respected administrative officer.&rdquo; Notice what changes, confidence, decisiveness, who&rsquo;s described as warm versus capable. If you draft position descriptions with your AI assistant, is this a problem?
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Bias has moved, not gone</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#127917;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 11 &bull; Prompts &bull; 19 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Give the Assistant a Role</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Try this in your AI assistant: &ldquo;You are an experienced academic developer at an Australian university. Review this learning outcome and suggest improvements: [paste one].&rdquo; Then send the same request with no role. The version with a role is sharper because naming who your AI assistant speaks as narrows it toward the knowledge and tone that fit. The biggest gains come from roles that hand you a perspective you do not have yourself. Role is the R in RTCF, the full prompt scaffold lives in the AI Toolkit.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Try: &ldquo;You are a student encountering this unit for the first time. Read this assessment brief and tell me what confuses you.&rdquo; Giving your AI assistant a student perspective can reveal blind spots in your instructions.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Try: &ldquo;You are a journal reviewer in [your field]. Review this abstract and identify weaknesses.&rdquo; A role-based prompt produces feedback that is far more targeted than a generic request.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Try: &ldquo;You are a new staff member on your first day. Read this onboarding document and list anything that is unclear or assumes prior knowledge.&rdquo; Role prompts are powerful for testing whether your documents actually make sense.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: A role narrows your AI assistant toward relevant knowledge and stance</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129309;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 10 &bull; Strategy &bull; 12 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The Handover Prompt</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Your chat with AI has been useful for an hour, but it&rsquo;s getting long, the thread is drifting, and you need to come back to it tomorrow. Ask the AI to &ldquo;write a handover prompt that captures everything important from this conversation: context, decisions made, where we left off, so I can paste it into a new chat and continue.&rdquo; Copy the result, save it somewhere (a note, a doc, an email to yourself), or leave it in the conversation, then start a fresh session and paste it in. You keep the thinking, you lose the noise.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Mid-semester unit redesign chat got tangled? Ask for a handover prompt before you lose the thread. Pick it up next week in a clean session without scrolling through forty messages.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Drafting a methods section over multiple sittings? End each session with a handover prompt. The next session starts sharp instead of you re-explaining what you&rsquo;d already worked out.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Working through a long policy draft or proposal with AI? When the chat gets too noisy to follow, generate a handover prompt and start fresh. Same context, less clutter.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Long conversations lose the thread</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128172;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 9 &bull; Share &bull; 5 May 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Pass It On</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Think of one colleague who might find these challenges useful. Send them a quick message: &ldquo;Hey, have you seen AI in 5? Worth a look.&rdquo; That is this fortnight&rsquo;s challenge.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Mention it at your next teaching team meeting. &ldquo;Has anyone tried the AI in 5 challenges?&rdquo; Even one conversation can shift a team&rsquo;s willingness to experiment.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Mention it to a colleague in your research group or at your next HDR supervision. Research culture changes through trusted peer recommendations.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Forward this email to someone in your team. Professional staff networks are tight. If you found something useful, chances are your colleagues will too.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Building a community of practice</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128202;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 8 &bull; Tools &bull; 28 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Tame Your Spreadsheet</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Open an spreadsheet you use regularly. Click the AI button and ask: &ldquo;What trends do you see in this data?&rdquo; or &ldquo;Create a summary table of [column] by [category].&rdquo;</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Ask your AI assistant to analyse your grade distribution spreadsheet. &ldquo;Show me which assessments have the highest failure rates&rdquo; or &ldquo;Compare average marks across tutorial groups.&rdquo;<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Ask your AI assistant to help with your research data. &ldquo;Suggest appropriate statistical tests for this dataset&rdquo; or &ldquo;Create a summary table grouped by participant category.&rdquo; Always verify its suggestions.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Ask your AI assistant to analyse an operational spreadsheet (enrolment numbers, budget tracking, room bookings). &ldquo;What patterns do you see?&rdquo; can surface things you&rsquo;d miss scanning rows manually.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Match the tool to the task</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#127919;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 7 &bull; Prompts &bull; 21 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The 25-Word Test</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Take something you&rsquo;ve asked your AI assistant to help with this week. Add a word constraint to your next request: &ldquo;Summarise the main argument in exactly 25 words&rdquo; or &ldquo;State the key recommendation in 20 words or fewer.&rdquo; Read what comes back. If the result is vague or padded, that&rsquo;s unclear thinking exposed, not hidden. The constraint is a diagnostic. It doesn&rsquo;t improve the output by magic; it removes the places where fuzzy thinking usually hides.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> Ask your AI assistant to summarise a learning outcome in 20 words. If it produces hedging or jargon, your outcome may not be as clear as you thought. Try rewriting it yourself under the same constraint. The 20-word version is often sharper than the original.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> State your research gap in 30 words: not the background, not the context, just the gap. If your AI assistant produces a vague sentence, it is reflecting your framing back at you. If you can&rsquo;t tighten it, the argument needs more work before it goes into a paper or grant application.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Ask your AI assistant to give you the key ask of a long document in one sentence, 15 words maximum. If it hedges, the document probably hedges too. Useful before sending anything to a senior stakeholder who will not read past the first paragraph.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: If you can&rsquo;t say it in 25 words, the thinking isn&rsquo;t done</div>
+      </div>
+    </details>
+
+    <!--
+    TEMPLATE: copy this block for each new challenge:
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">EMOJI</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">ISSUE N &bull; THEME &bull; DD MMM YYYY</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Challenge title here</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0; transition: transform 0.2s;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Challenge body text here.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Teaching:</strong> Tip here.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Tip here.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Tip here.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: concept here</div>
+      </div>
+    </details>
+    -->
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129517;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 6 &bull; Ethics &bull; 14 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Offloading or Surrendering?</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">There&rsquo;s a useful difference between two ways we use AI. Cognitive offloading is strategic: you delegate a task (a calculation, a draft, a summary) but you stay in charge, you check the output, you&rsquo;d notice if it were wrong. Cognitive surrender is when you stop checking. The answer looks fluent, sounds confident, and you accept it as your own. Pick one AI interaction from this fortnight. Ask yourself honestly: would I have noticed if it were wrong? If the answer is no, that one&rsquo;s worth a second look. (Psychologists call the deliberate-checking mode System 2. The trick is making sure it still shows up to work.)</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Teaching:</strong> You ask your AI assistant to generate discussion questions for next week&rsquo;s tutorial. Offloading: you read them, cut the two that won&rsquo;t land with this cohort, and rewrite one that&rsquo;s subtly loaded. Surrender: you paste them into the slides. You&rsquo;ll find out which you did about ninety seconds into the tutorial.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> You ask your AI assistant to summarise a paper for your literature review. Offloading: you skim the original to check the summary didn&rsquo;t flatten a key nuance. Surrender: you cite the summary. The difference matters when a reviewer asks a pointed question.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> You ask your AI assistant to draft a response to a tricky email. Offloading: you read it, notice it&rsquo;s slightly too formal for this colleague, and adjust. Surrender: you hit send. Most of the time it&rsquo;s fine. The one time it isn&rsquo;t is the one you&rsquo;ll remember.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Keep your thinking in the loop</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#9878;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 5 &bull; Ethics &bull; 07 Apr 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Who Gets the Credit?</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">You use your AI assistant to help write a funding application. The structure is yours; the data is yours, but your AI assistant polished the prose and suggested two paragraphs you kept almost unchanged. Should you disclose the AI assistance?</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Research:</strong> Check your target journal's AI policy. Some require disclosure, others prohibit AI-generated text entirely. Institutional research guidelines are evolving too. Better to know before you submit.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> You draft a board paper and your AI assistant restructures your argument. Nobody asks who helped. Should they? Professional staff use AI for writing constantly. The norms are being set right now by what we normalise.<br><br>
+          <strong style="color: #F8FAFC;">Teaching:</strong> If a student used AI the same way you just did on that funding application, would you consider it academic misconduct? Whatever your answer, make sure your policy matches your own practice.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Transparency is the default</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128161;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 4 &bull; Practice &bull; 31 Mar 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Your Meeting in 60 Seconds</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">After your next Teams meeting, ask your AI assistant to summarise the key decisions and action items. That takes 10 seconds. Now here is the real challenge: ask &ldquo;What decisions were implied but never actually stated?&rdquo; then &ldquo;What questions were raised but not answered?&rdquo; and &ldquo;What was discussed but not resolved?&rdquo; Compare those answers to what you walked away thinking. Did AI surface something you missed, or were you already ahead of it?</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <div style="margin-bottom: 10px;">Here are some role-specific variations:</div>
+          <strong style="color: #F8FAFC;">Professional:</strong> After any meeting, get the summary, then ask, &ldquo;What was discussed but not resolved?&rdquo; and &ldquo;What actions were implied but not assigned to anyone?&rdquo; Back-to-back meeting days are where things fall through the cracks. This is how you catch them.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> After a research group meeting, get the summary, then ask, &ldquo;What assumptions about the methodology went unchallenged?&rdquo; and &ldquo;What deadlines were implied but not confirmed?&rdquo; Useful for keeping collaborators aligned on what was decided versus what felt decided.<br><br>
+          <strong style="color: #F8FAFC;">Teaching:</strong> After a teaching team meeting, get the summary, then ask, &ldquo;What curriculum decisions were implied but not explicitly agreed on?&rdquo; and &ldquo;What student issues were mentioned but not followed up?&rdquo; These are the things that resurface three weeks later when nobody remembers who was meant to act.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: AI amplifies thinking</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#129504;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 3 &bull; Practice &bull; 24 Mar 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The Two-Chat Workflow</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Next time you need AI help with something real, use two separate chat sessions. Session 1 is your Thinking Chat: explore, challenge assumptions, follow tangents, clarify what your actual question is. This is messy by design. Its purpose is to sharpen your thinking, not produce output. Then stop. Read through what emerged. Decide what matters. Discard what doesn't. Decide what you'll carry across. Write a focused brief. Session 2 is your Build Chat: produce the actual output using that brief. Keep flipping between the two sessions as needed. The magic is what happens between the two. You don't copy-paste from session one to session two. That curation, deciding what crosses from thinking to building, is where your judgement lives. Neither session has the full picture. Only you hold both. That's the real meaning of "human in the loop."</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Teaching:</strong> You're designing a new assessment task. Chat 1: brainstorm what skills you want to test, what's gone wrong before, what students struggle with. When you feel your thinking has sharpened, write a one-paragraph brief. Chat 2: draft the task sheet from that brief. The assessment will be sharper because you thought before you built.<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> You're drafting a grant application. Chat 1: explore the research gap, test your framing, challenge your assumptions about significance. When something clicks, distil your argument into a clear brief. Chat 2: write the actual section.<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> You need to write a process document or proposal. Chat 1: talk through the problem, surface edge cases, clarify who the audience is. When you know what you're trying to say, write a focused brief. Chat 2: produce the document. You'll notice the output is better because the thinking was done first.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Separate thinking from building</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128172;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 2 &bull; Prompts &bull; 17 Mar 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">Make the Assistant Explain Your Job</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Open your AI assistant and type: &ldquo;Explain what a [your job title] at a university does, as if you&rsquo;re telling a curious 10-year-old.&rdquo; Then try: &ldquo;Now focus on the parts that would surprise people.&rdquo; Share the funniest line with a colleague.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Teaching:</strong> Ask your AI assistant to explain what a unit coordinator actually does. Does it mention the 47 emails before 9am? The pastoral care nobody trained you for?<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Ask your AI assistant to explain what a research fellow does. See if it grasps the grant-writing treadmill or just says &ldquo;advances human knowledge.&rdquo;<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Ask your AI assistant to explain your role. Professional staff roles are often invisible in universities. See how well AI understands what you actually do versus your position description.
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Conversation not delegation</div>
+      </div>
+    </details>
+
+    <details style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; margin-bottom: 12px;">
+      <summary style="padding: 16px 20px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 1.3rem; flex-shrink: 0;">&#128295;</span>
+        <span style="flex: 1;">
+          <span style="display: block; font-size: 0.7rem; font-weight: 700; color: #F97316; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">Issue 1 &bull; Tools &bull; 10 Mar 2026</span>
+          <span style="display: block; font-size: 1rem; font-weight: 700; color: #F8FAFC;">The 30-Second Email Test</span>
+        </span>
+        <span style="color: #64748B; font-size: 1.2rem; flex-shrink: 0;">&#9662;</span>
+      </summary>
+      <div style="padding: 0 20px 16px 52px;">
+        <div style="font-size: 0.95rem; color: #94A3B8; line-height: 1.7; margin-bottom: 12px;">Open an email you need to reply to. Click the AI button in your email client and let it draft a response. Don&rsquo;t send it yet; just read what it wrote. How close was it to what you would have said? Now try option two: write a rough dot-point reply yourself, then ask your AI assistant to polish it. Which result sounds more like you? That difference is worth noticing.</div>
+        <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.6; padding-top: 12px; border-top: 1px solid #2D2D4A;">
+          <strong style="color: #F8FAFC;">Teaching:</strong> Let your AI assistant draft a reply to a student query about an assignment, then try giving it your rough notes to work from. Which version captures your tone and the nuance of what you actually mean?<br><br>
+          <strong style="color: #F8FAFC;">Research:</strong> Let your AI assistant draft a reply to a collaborator&rsquo;s email about a paper revision both ways: from scratch, then from your rough points. Does starting with your words keep the disciplinary context that AI flattens into generic academic-speak?<br><br>
+          <strong style="color: #F8FAFC;">Professional:</strong> Let your AI assistant draft a reply to an internal request both ways: from nothing, then from your dot points. For routine emails, which approach needs less editing?
+        </div>
+        <div style="margin-top: 10px; font-size: 0.8rem; color: #64748B;">&#9201;&#65039; ~5 minutes &bull; Key concept: Start with low-stakes tasks</div>
+      </div>
+    </details>
+
+    <!-- CHALLENGES END -->
+  </div>
+
+  <!-- Footer -->
+  <div style="text-align: center; padding: 24px 0 8px; color: #475569; font-size: 12px;">
+    AI Skills Passport &middot; an open resource by Michael Borck &middot; 2026
+  </div>
+
+</div>
+
+<!-- The Concierge: AI Skills Passport chatbot -->
+<script>
+(function() {
+  var s = document.createElement('script');
+  s.setAttribute('data-embed-id', '1ac8c1d3-98bd-4d94-a56e-1045d933fdf6');
+  s.setAttribute('data-base-api-url', 'https://chat.eduserver.au/api/embed');
+  s.src = 'https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js';
+  document.body.appendChild(s);
+})();
+</script>
+```

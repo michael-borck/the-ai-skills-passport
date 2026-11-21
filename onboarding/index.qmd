@@ -36,6 +36,7 @@ format:
         </div>
       </div>
       <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <a href="ai-in-5-archive.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-in-5-archive">AI in 5</a>
       <div class="sp-nav-group" data-group="more">
         <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
         <div class="sp-nav-dropdown">

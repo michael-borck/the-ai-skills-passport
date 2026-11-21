@@ -12,6 +12,7 @@ mkdir -p "$DIST/experiences"
 QUARTO_DIRS=(
   onboarding
   ai-toolkit
+  ai-in-5-archive
   passport
   key-takeaways
   arrivals-hall
@@ -46,7 +47,7 @@ find_output() {
   return 1
 }
 
-for name in onboarding passport key-takeaways arrivals-hall contact about more; do
+for name in onboarding passport key-takeaways arrivals-hall contact about more ai-in-5-archive; do
   cp "$(find_output "$ROOT/$name")" "$DIST/$name.html"
   echo "  Collected $name.html"
 done
@@ -78,6 +79,7 @@ cat > "$DIST/index.html" <<'HTML'
 </html>
 HTML
 
+cp "$ROOT/CNAME" "$DIST/CNAME" 2>/dev/null || true
 cp "$ROOT/.nojekyll" "$DIST/.nojekyll" 2>/dev/null || true
 
 # Experience SPAs live one directory down; resolve their root-relative links.
