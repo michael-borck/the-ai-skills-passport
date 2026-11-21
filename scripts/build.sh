@@ -79,6 +79,7 @@ cat > "$DIST/index.html" <<'HTML'
 </html>
 HTML
 
+cp "$ROOT/CNAME" "$DIST/CNAME" 2>/dev/null || true
 cp "$ROOT/.nojekyll" "$DIST/.nojekyll" 2>/dev/null || true
 
 # Experience SPAs live one directory down; resolve their root-relative links.
