@@ -1,0 +1,335 @@
+---
+pagetitle: "My Passport"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    toc: false
+---
+
+```{=html}
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1080px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+
+<!-- Navigation -->
+  <nav class="sp-nav" data-page="passport">
+    <button class="sp-nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span class="sp-nav-icon">&#9776;</span>
+    </button>
+    <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
+    <div class="sp-nav-menu">
+      <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
+      <div class="sp-nav-group" data-group="experiences">
+        <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
+        <div class="sp-nav-dropdown">
+          <a href="experiences/is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
+                <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+                <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+                <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+                <div class="sp-nav-separator"></div>
+                <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+                <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
+        </div>
+      </div>
+      <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <div class="sp-nav-group" data-group="more">
+        <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
+        <div class="sp-nav-dropdown">
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
+          <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
+          <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+  (function() {
+    var toggle = document.querySelector('.sp-nav-toggle');
+    var menu = document.querySelector('.sp-nav-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function() {
+        var open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.sp-nav')) {
+          menu.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+    var nav = document.querySelector('.sp-nav');
+    var page = nav ? nav.getAttribute('data-page') : null;
+    if (page) {
+      var el = nav.querySelector('[data-nav="' + page + '"]');
+      if (el) {
+        el.classList.add('is-active');
+        var group = el.closest('.sp-nav-group');
+        if (group) group.classList.add('has-active-child');
+      }
+    }
+  })();
+  </script>
+
+
+  <!-- Header -->
+  <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-radius: 16px; padding: 40px 36px; margin-bottom: 28px; text-align: center;">
+    <div style="font-size: 64px; margin-bottom: 12px;">🛂</div>
+    <div style="font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 3px; color: #64748B; text-transform: uppercase; margin-bottom: 8px;">AI Skills Passport</div>
+    <h1 style="font-family: 'Courier New', Consolas, monospace; font-size: 28px; font-weight: bold; color: #F1F5F9; margin: 0 0 8px 0; letter-spacing: 2px;">MY PASSPORT</h1>
+    <p style="font-size: 16px; color: #94A3B8; margin: 0;">Track your progress and collect your badges</p>
+  </div>
+
+  <!-- Badge Collection -->
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 16px; padding: 32px; margin-bottom: 28px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 16px;">Your Badges</div>
+
+    <div id="badge-display" style="display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 24px;">
+      <!-- Badges inserted by JS -->
+    </div>
+
+    <div id="badge-message" style="text-align: center; color: #64748B; font-size: 15px;">
+      <!-- Progress message inserted by JS -->
+    </div>
+  </div>
+
+  <!-- Experience Progress -->
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 16px; padding: 32px; margin-bottom: 28px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 20px;">Experience Progress</div>
+
+    <div id="experience-list" style="display: flex; flex-direction: column; gap: 12px;">
+      <!-- Experience cards inserted by JS -->
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 28px;">
+    <div style="flex: 1; min-width: 150px; background: #0D2818; border: 1px solid #1A4731; border-radius: 12px; padding: 20px; text-align: center;">
+      <div id="stat-completed" style="font-size: 36px; font-weight: bold; color: #16A34A;">0</div>
+      <div style="font-size: 13px; color: #4ADE80;">Completed</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; background: #1E1B4B; border: 1px solid #C7D2FE; border-radius: 12px; padding: 20px; text-align: center;">
+      <div id="stat-remaining" style="font-size: 36px; font-weight: bold; color: #4F46E5;">7</div>
+      <div style="font-size: 13px; color: #A5B4FC;">Remaining</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; background: #3D2E0A; border: 1px solid #FDE68A; border-radius: 12px; padding: 20px; text-align: center;">
+      <div id="stat-badges" style="font-size: 36px; font-weight: bold; color: #D97706;">0</div>
+      <div style="font-size: 13px; color: #FBBF24;">Badges Earned</div>
+    </div>
+  </div>
+
+  <!-- Badge Legend -->
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 12px; padding: 24px;">
+    <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 16px;">Badge Guide</div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 32px;">🧪</span>
+        <div>
+          <div style="font-weight: bold; color: #E2E8F0;">Explorer</div>
+          <div style="font-size: 13px; color: #64748B;">Complete 1 experience</div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 32px;">🧠</span>
+        <div>
+          <div style="font-weight: bold; color: #E2E8F0;">Thinker</div>
+          <div style="font-size: 13px; color: #64748B;">Complete 3 experiences</div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 32px;">🛠️</span>
+        <div>
+          <div style="font-weight: bold; color: #E2E8F0;">Builder</div>
+          <div style="font-size: 13px; color: #64748B;">Complete 5 experiences</div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <span style="font-size: 32px;">🏆</span>
+        <div>
+          <div style="font-weight: bold; color: #E2E8F0;">Champion</div>
+          <div style="font-size: 13px; color: #64748B;">Complete 5 + attend workshop</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data Notice -->
+  <div style="margin-top: 24px; padding: 16px; background: #3D2E0A; border-radius: 8px; text-align: center;">
+    <p style="margin: 0; font-size: 13px; color: #FBBF24;">
+      <strong>Note:</strong> Progress is stored in this browser only. If you switch browsers or clear your data, your progress will reset. A persistent tracking system is coming soon.
+    </p>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  // Core experiences (all roles)
+  const coreExperiences = [
+    { id: 'is-this-ai', name: 'Is This AI?', emoji: '🔍', subtitle: 'Detection & Awareness', url: 'experiences/is-this-ai.html' },
+    { id: 'what-would-you-do', name: 'What Would You Do?', emoji: '🤔', subtitle: 'Ethics & Dilemmas', url: 'experiences/what-would-you-do.html' },
+    { id: 'rules-of-engagement', name: 'Rules of Engagement', emoji: '📋', subtitle: 'Policy & Governance', url: 'experiences/rules-of-engagement.html' },
+    { id: 'teaching-with-ai', name: 'Working with AI', emoji: '🤝', subtitle: 'Co-Creation & Integration', url: 'experiences/teaching-with-ai.html' }
+  ];
+
+  // Role-based experiences
+  const roleExperiences = [
+    { id: 'ai-proof-assessments', name: 'AI-Proof Your Assessments', emoji: '🛡️', subtitle: 'Assessment Design', url: 'experiences/ai-proof-assessments.html' },
+    { id: 'working-with-copilot', name: 'Working with Copilot', emoji: '🤖', subtitle: 'Microsoft 365 Copilot', url: 'experiences/working-with-copilot.html' },
+    { id: 'researching-with-ai', name: 'Researching with AI', emoji: '🔬', subtitle: 'AI-Assisted Research', url: 'experiences/researching-with-ai.html' }
+  ];
+
+  // All experiences combined
+  const experiences = [...coreExperiences, ...roleExperiences];
+
+  // Badge definitions
+  const badges = [
+    { id: 'explorer', emoji: '🧪', name: 'Explorer', requirement: 1 },
+    { id: 'thinker', emoji: '🧠', name: 'Thinker', requirement: 3 },
+    { id: 'builder', emoji: '🛠️', name: 'Builder', requirement: 5 },
+    { id: 'champion', emoji: '🏆', name: 'Champion', requirement: 6 } // 5 + workshop
+  ];
+
+  // Get completions from localStorage
+  function getCompletions() {
+    try {
+      return JSON.parse(localStorage.getItem('ai-passport-completions') || '{}');
+    } catch (e) {
+      return {};
+    }
+  }
+
+  // Count completed experiences
+  function countCompleted() {
+    const completions = getCompletions();
+    return experiences.filter(exp => completions[exp.id]).length;
+  }
+
+  // Check for workshop attendance (stored separately)
+  function hasWorkshopBadge() {
+    try {
+      return localStorage.getItem('ai-passport-workshop') === 'true';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  // Render badge display
+  function renderBadges() {
+    const container = document.getElementById('badge-display');
+    const completedCount = countCompleted();
+    const hasWorkshop = hasWorkshopBadge();
+    const totalForChampion = completedCount + (hasWorkshop ? 1 : 0);
+
+    let badgeHtml = '';
+    let earnedCount = 0;
+
+    badges.forEach(badge => {
+      const earned = (badge.id === 'champion')
+        ? (completedCount >= 5 && hasWorkshop)
+        : completedCount >= badge.requirement;
+
+      if (earned) earnedCount++;
+
+      badgeHtml += `
+        <div style="text-align: center; opacity: ${earned ? '1' : '0.3'}; transition: opacity 0.3s;">
+          <div style="font-size: 48px; ${earned ? '' : 'filter: grayscale(100%);'}">${badge.emoji}</div>
+          <div style="font-size: 13px; font-weight: bold; color: ${earned ? '#E2E8F0' : '#94A3B8'}; margin-top: 4px;">${badge.name}</div>
+          ${earned ? '<div style="font-size: 11px; color: #22C55E;">✓ Earned</div>' : ''}
+        </div>
+      `;
+    });
+
+    container.innerHTML = badgeHtml;
+    document.getElementById('stat-badges').textContent = earnedCount;
+
+    // Update message
+    const messageEl = document.getElementById('badge-message');
+    if (completedCount === 0) {
+      messageEl.innerHTML = 'Complete your first experience to earn the <strong>🧪 Explorer</strong> badge!';
+    } else if (completedCount < 3) {
+      messageEl.innerHTML = `${3 - completedCount} more experience${3 - completedCount > 1 ? 's' : ''} to earn <strong>🧠 Thinker</strong>`;
+    } else if (completedCount < 5) {
+      messageEl.innerHTML = `${5 - completedCount} more experience${5 - completedCount > 1 ? 's' : ''} to earn <strong>🛠️ Builder</strong>`;
+    } else if (!hasWorkshop) {
+      messageEl.innerHTML = 'All experiences complete! Attend a workshop to earn <strong>🏆 Champion</strong>';
+    } else {
+      messageEl.innerHTML = '🎉 <strong>Congratulations!</strong> You\'ve earned all badges!';
+    }
+  }
+
+  // Render a single experience card
+  function renderExpCard(exp, completions) {
+    const completion = completions[exp.id];
+    const isComplete = !!completion;
+    const completedDate = completion ? new Date(completion.completedAt).toLocaleDateString() : null;
+
+    return `
+      <a href="${exp.url}" style="display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: ${isComplete ? '#0D2818' : '#16162A'}; border: 1px solid ${isComplete ? '#1A4731' : '#2D2D4A'}; border-radius: 10px; text-decoration: none; color: inherit; transition: border-color 0.2s;" onmouseover="this.style.borderColor='#4F46E5'" onmouseout="this.style.borderColor='${isComplete ? '#1A4731' : '#2D2D4A'}'">
+        <span style="font-size: 28px;">${exp.emoji}</span>
+        <div style="flex: 1;">
+          <div style="font-weight: bold; color: #E2E8F0;">${exp.name}</div>
+          <div style="font-size: 13px; color: #64748B;">${exp.subtitle}</div>
+        </div>
+        <div style="text-align: right;">
+          ${isComplete
+            ? `<div style="color: #22C55E; font-weight: bold;">✓ Complete</div>
+               <div style="font-size: 12px; color: #64748B;">${completedDate}</div>`
+            : `<div style="color: #94A3B8;">Not started</div>`
+          }
+        </div>
+      </a>
+    `;
+  }
+
+  // Render experience list
+  function renderExperiences() {
+    const container = document.getElementById('experience-list');
+    const completions = getCompletions();
+
+    let html = '';
+
+    // Core experiences header
+    html += '<div style="font-family: \'Courier New\', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 4px;">Core Experiences</div>';
+    html += '<div style="font-size: 13px; color: #94A3B8; margin-bottom: 12px;">For all staff: teaching, research, and admin</div>';
+
+    coreExperiences.forEach(exp => {
+      html += renderExpCard(exp, completions);
+    });
+
+    // Separator
+    html += '<div style="border-top: 1px solid #2D2D4A; margin: 20px 0; position: relative;"><span style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: #16162A; padding: 0 12px; font-size: 12px; color: #64748B;">&#8226; &#8226; &#8226;</span></div>';
+
+    // Role-based experiences header
+    html += '<div style="font-family: \'Courier New\', monospace; font-size: 11px; letter-spacing: 2px; color: #64748B; text-transform: uppercase; margin-bottom: 4px;">Role-Based Experiences</div>';
+    html += '<div style="font-size: 13px; color: #94A3B8; margin-bottom: 12px;">Choose the ones relevant to your role</div>';
+
+    roleExperiences.forEach(exp => {
+      html += renderExpCard(exp, completions);
+    });
+
+    container.innerHTML = html;
+
+    // Update stats
+    const completedCount = countCompleted();
+    document.getElementById('stat-completed').textContent = completedCount;
+    document.getElementById('stat-remaining').textContent = experiences.length - completedCount;
+  }
+
+  // Initialize
+  renderBadges();
+  renderExperiences();
+
+  // Refresh on focus (in case user completed something in another tab)
+  window.addEventListener('focus', function() {
+    renderBadges();
+    renderExperiences();
+  });
+})();
+</script>
+
+```

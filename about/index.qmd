@@ -1,0 +1,163 @@
+---
+pagetitle: "About"
+format:
+  html:
+    self-contained: true
+    toc: false
+---
+
+```{=html}
+<!-- About: AI Skills Passport -->
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1080px; margin: 0 auto; padding: 20px; color: #E2E8F0; position: relative;">
+
+  <!-- Navigation -->
+  <nav class="sp-nav" data-page="about">
+    <button class="sp-nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span class="sp-nav-icon">&#9776;</span>
+    </button>
+    <a href="arrivals-hall.html" class="sp-nav-brand">AI Skills Passport</a>
+    <div class="sp-nav-menu">
+      <a href="key-takeaways.html" class="sp-nav-item sp-nav-toplevel" data-nav="key-takeaways">Key Takeaways</a>
+      <div class="sp-nav-group" data-group="experiences">
+        <a href="experiences.html" class="sp-nav-heading" data-nav="experiences">Experiences</a>
+        <div class="sp-nav-dropdown">
+          <a href="experiences/is-this-ai.html" class="sp-nav-item" data-nav="is-this-ai">Is This AI?</a>
+                <a href="experiences/what-would-you-do.html" class="sp-nav-item" data-nav="what-would-you-do">What Would You Do?</a>
+                <a href="experiences/rules-of-engagement.html" class="sp-nav-item" data-nav="rules-of-engagement">Rules of Engagement</a>
+                <a href="experiences/teaching-with-ai.html" class="sp-nav-item" data-nav="teaching-with-ai">Working with AI</a>
+                <a href="experiences/the-conversation-loop.html" class="sp-nav-item" data-nav="the-conversation-loop">The Conversation Loop</a>
+                <a href="experiences/working-with-copilot.html" class="sp-nav-item" data-nav="working-with-copilot">Working with Copilot</a>
+                <div class="sp-nav-separator"></div>
+                <a href="experiences/ai-proof-assessments.html" class="sp-nav-item" data-nav="ai-proof-assessments">AI-Proof Your Assessments</a>
+                <a href="experiences/researching-with-ai.html" class="sp-nav-item" data-nav="researching-with-ai">Researching with AI</a>
+                <a href="experiences/streamlining-your-workflows.html" class="sp-nav-item" data-nav="streamlining-your-workflows">Streamlining Your Workflows</a>
+        </div>
+      </div>
+      <a href="ai-toolkit.html" class="sp-nav-item sp-nav-toplevel" data-nav="ai-toolkit">AI Toolkit</a>
+      <div class="sp-nav-group" data-group="more">
+        <a href="more.html" class="sp-nav-heading" data-nav="more">More</a>
+        <div class="sp-nav-dropdown">
+          <a href="passport.html" class="sp-nav-item" data-nav="passport">My Passport</a>
+          <a href="onboarding.html" class="sp-nav-item" data-nav="onboarding">Find Your Path</a>
+          <a href="contact.html" class="sp-nav-item" data-nav="contact">Contact</a>
+          <a href="about.html" class="sp-nav-item" data-nav="about">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+  (function() {
+    var toggle = document.querySelector('.sp-nav-toggle');
+    var menu = document.querySelector('.sp-nav-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function() {
+        var open = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.sp-nav')) {
+          menu.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+    var nav = document.querySelector('.sp-nav');
+    var page = nav ? nav.getAttribute('data-page') : null;
+    if (page) {
+      var el = nav.querySelector('[data-nav="' + page + '"]');
+      if (el) {
+        el.classList.add('is-active');
+        var group = el.closest('.sp-nav-group');
+        if (group) group.classList.add('has-active-child');
+      }
+    }
+  })();
+  </script>
+
+
+  <!-- Hero -->
+  <div style="padding: 32px 0; position: relative;">
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #E2E8F0; letter-spacing: -0.5px; margin-bottom: 6px;">What is this?</div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #F97316; letter-spacing: -0.5px; margin-bottom: 6px;">Who built it?</div>
+    <div style="font-size: 2.6rem; font-weight: 800; line-height: 1.1; color: #FBBF24; letter-spacing: -0.5px; margin-bottom: 16px;">Why does it exist?</div>
+    <p style="font-size: 1.05rem; color: #94A3B8; line-height: 1.5; margin: 0; max-width: 520px;">The AI Skills Passport is a professional development initiative for the school at the university. It builds practical AI literacy across teaching, research, and professional staff.</p>
+  </div>
+
+  <!-- About This Initiative -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">About This Initiative</div>
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 22px;">
+      <div style="font-size: 0.9rem; color: #CBD5E1; line-height: 1.7;">
+        <p style="margin: 0 0 14px 0;">The AI Skills Passport helps staff across the school develop practical AI skills they can use in their work. Whether you teach, research, or support the school in a professional capacity, there is something here for you.</p>
+        <p style="margin: 0 0 14px 0;">The program consists of standalone learning experiences, a searchable toolkit of guides and frameworks, and optional workshops. There are no prerequisites and no fixed order. Start with whatever is most relevant to you.</p>
+        <p style="margin: 0;">It began as an institutional pilot and is now published as an open resource for anyone who finds it useful.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Team -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">The Team</div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 18px; text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: 8px;">👤</div>
+        <div style="font-size: 1.1rem; font-weight: 700; color: #F8FAFC;">Michael Borck</div>
+        <div style="font-size: 0.85rem; color: #FBBF24; margin-top: 4px;">AI literacy, content and tools</div>
+        <div style="font-size: 0.8rem; color: #64748B; margin-top: 8px; line-height: 1.5;">Content design, platform development, and workshop facilitation.</div>
+      </div>
+      <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 18px; text-align: center;">
+        <div style="font-size: 2rem; margin-bottom: 8px;">🏛️</div>
+        <div style="font-size: 1.1rem; font-weight: 700; color: #F8FAFC;">Open resource</div>
+        <div style="font-size: 0.85rem; color: #FBBF24; margin-top: 4px;">Free to use and adapt</div>
+        <div style="font-size: 0.8rem; color: #64748B; margin-top: 8px; line-height: 1.5;">Published as an open resource for higher education.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Acknowledgements -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Acknowledgements</div>
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 22px;">
+      <div style="font-size: 0.9rem; color: #CBD5E1; line-height: 1.7;">
+        <p style="margin: 0 0 14px 0;"><span style="font-weight: 700; color: #F8FAFC;">the university</span><br>
+        This initiative is supported by the school. the university acknowledges the Aboriginal and Torres Strait Islander peoples as the traditional owners of the lands on which your institution is located.</p>
+        <p style="margin: 0 0 14px 0;"><span style="font-weight: 700; color: #F8FAFC;">AI Assistance</span><br>
+        Content for the AI Skills Passport was developed with AI assistance (including Claude and other tools) under human editorial oversight. All materials have been reviewed, adapted, and verified for accuracy and relevance to the school context. We believe in modelling the transparent, responsible AI use we encourage in others.</p>
+        <p style="margin: 0 0 14px 0;"><span style="font-weight: 700; color: #F8FAFC;">Open Source Tools</span><br>
+        This project uses <a href="https://quarto.org" target="_blank" style="color: #818CF8; text-decoration: none;">Quarto</a> for content authoring and relies on open web standards. The <a href="https://theaiexchange.serveur.au/" target="_blank" style="color: #818CF8; text-decoration: none;">AI Exchange</a> is open source under the MIT licence.</p>
+        <p style="margin: 0;"><span style="font-weight: 700; color: #F8FAFC;">Early Adopters</span><br>
+        Thank you to the colleagues who piloted these experiences, provided feedback, and helped shape the program into something useful.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content & Copyright -->
+  <div style="margin-bottom: 24px;">
+    <div style="font-size: 0.75rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Content &amp; Copyright</div>
+    <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 22px;">
+      <div style="font-size: 0.9rem; color: #CBD5E1; line-height: 1.7;">
+        <p style="margin: 0 0 14px 0;">All content within the AI Skills Passport was developed for professional development in higher education. Materials are authored by Michael Borck with AI assistance and human editorial oversight.</p>
+        <p style="margin: 0 0 14px 0;">The downloadable guides and frameworks are intended as discussion starters and practical baselines, not definitive references. They reflect current understanding and practice as of early 2026 and will be updated as the field evolves.</p>
+        <p style="margin: 0 0 14px 0;">Content may be shared within the university for educational purposes. For use outside your institution, please contact Michael Borck.</p>
+        <p style="margin: 0;">&copy; 2026 Michael Borck. Text licensed CC BY 4.0 unless noted.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact CTA -->
+  <div style="background: #16162A; border: 1px solid #2D2D4A; border-radius: 10px; padding: 20px 22px; text-align: center; margin-bottom: 24px;">
+    <div style="font-size: 1.3rem; margin-bottom: 8px;">📮</div>
+    <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC; margin-bottom: 6px;">Questions or Feedback?</div>
+    <div style="font-size: 0.85rem; color: #94A3B8; margin-bottom: 14px;">Got a question, an idea, or want to request a workshop?</div>
+    <a href="contact.html" style="display: inline-block; padding: 12px 24px; background: #6366F1; color: white; text-decoration: none; border-radius: 8px; font-size: 0.95rem; font-weight: 700;">Get in Touch &rarr;</a>
+  </div>
+
+  <!-- Footer -->
+  <div style="text-align: center; padding: 24px 0 8px; color: #475569; font-size: 12px;">
+    AI Skills Passport &middot; an open resource by Michael Borck &middot; 2026
+  </div>
+
+</div>
+
+```

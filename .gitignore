@@ -1,0 +1,27 @@
+# Build outputs
+dist/
+*.zip
+
+# Quarto render outputs
+_output/
+_site/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+
+# SQLite databases
+*.db
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# macOS resource forks
+._*

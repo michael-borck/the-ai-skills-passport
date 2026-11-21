@@ -1,0 +1,363 @@
+---
+title: "Group Assessment in an AI-Capable Cohort: Beyond the Presentation Assumption"
+---
+
+**Prepared by:** Michael Borck
+**Purpose:** A position paper for staff designing or reviewing group assessments
+**Companion to:** *Assessing AI Engagement: A Case for Moving Beyond Detection*
+
+---
+
+## Executive Summary
+
+Group assessment is not inherently more AI-resistant than individual
+assessment. The live presentation is widely assumed to be the strongest
+safeguard, but it tests performance rather than understanding unless the Q&A is
+designed to require genuine thinking. AI creates three new problems for group
+work: the rewritten section problem, the free rider via AI problem, and a
+sharpened attribution problem.
+
+The strongest response is process infrastructure combined with a marks
+structure that reflects how professional accountability works. Individual AI
+conversation transcripts submitted alongside the group product make individual
+engagement visible and scalable to assess. A marks structure weighted toward
+individual process (illustratively 60-80%) over group product (20-40%) resolves
+the free rider and attribution problems at once, mirrors real-world performance
+review, and removes the most persistent source of student dissatisfaction with
+group work.
+
+Students should come to group work as individual contributors who collaborate,
+which is what the workplace expects, rather than as members of a unit that
+shares a single outcome.
+
+---
+
+## Introduction
+
+Group assessment has always required students to balance individual
+accountability against shared outcomes. AI does not create that tension, but it
+sharpens it in ways existing frameworks were not designed to handle.
+
+This paper argues for a marks structure and assessment design that reflect how
+collaborative work functions in professional life. Students should come to group
+work as individual contributors who collaborate, which is what the workplace
+expects, rather than as members of a unit that shares a single outcome.
+Assessment built that way is more resistant to AI misuse, and more honest
+about what group work is for.
+
+---
+
+## The Presentation Assumption
+
+Group assessment that culminates in a live presentation is widely assumed to be
+more resistant to AI than individually submitted written work. The reasoning is
+intuitive: students have to show up, speak, and respond to questions in real
+time. AI cannot do that for them.
+
+The assumption is partly right: a live presentation does require physical
+presence and creates some opportunity for questions that test understanding
+beyond a script. A group that has genuinely worked together tends to present
+with a coherence that is difficult to fake.
+
+A group can rehearse a scripted presentation to fluency in the same way an
+individual can rehearse a video submission, and rehearsed fluency does not show
+understanding under pressure. A marker watching a polished ten-minute
+presentation cannot easily tell a group that built deep knowledge over several
+weeks from one that spent two days rehearsing AI-generated content until it
+sounded natural.
+
+What a presentation tests depends almost entirely on whether it includes
+genuine interrogation: questions the group could not have anticipated, asked in
+a way that requires thinking rather than recall. Without that, a presentation
+measures performance, and performance can be rehearsed.
+
+---
+
+## The Q&A as the Strongest Integrity Mechanism
+
+If there is one design change worth prioritising in group presentations, it is
+investing more in the Q&A than the presentation itself.
+
+Questions that require understanding rather than retrieval are easy to
+generate and hard to prepare for. Asking a group to apply their framework to an
+unseen scenario, name the weakest assumption in their own argument, or argue
+against their own conclusion shows whether they understand the material.
+
+Distributing questions across group members at random, so no one knows in
+advance who will answer what, adds another layer: a group that rehearsed
+together without understanding the material will show it quickly.
+
+This does not require a longer assessment session. Five minutes of genuine
+interrogation reveals more than twenty minutes of polished presentation. The
+weighting between the two in the marking rubric should reflect that.
+
+---
+
+## New Problems AI Creates for Group Work
+
+AI introduces three integrity challenges that existing group assessment
+frameworks were not designed to handle.
+
+### The rewritten section problem
+
+Students are reporting that group members rewrite each other's sections using
+AI without consent. Traditional definitions of plagiarism and collusion do not
+cover the practice, yet it undermines individual contribution in a way that is
+hard to detect and currently sits in a grey area most academic integrity
+policies do not address.
+
+The student whose work was rewritten has a legitimate grievance: their
+contribution has been replaced, their voice removed, and the group submission
+no longer reflects their understanding. The student who rewrote it may have
+believed they were helping. Neither peer review nor the final submission shows
+what happened.
+
+This needs explicit treatment in the team contract and in the unit's AI use
+policy, as a collaboration ethics issue as well as an integrity one. Groups need
+to agree upfront on what counts as editing versus replacing, and on what AI use
+within a shared document is acceptable.
+
+### The free rider via AI problem
+
+Free riding in group work is not new. What is new is that AI lowers the cost
+of a particular free riding strategy: a student who contributes nothing to the
+thinking or research can generate a plausible-looking section at the last
+minute. The output may be indistinguishable from genuine contribution in the
+final submission.
+
+Traditional free rider detection relies on peer assessment and process evidence.
+AI makes the output signal less reliable, which places more weight on the
+process signal. Weekly meeting records, contribution logs, and peer review
+become more important in an AI-capable cohort.
+
+### The attribution problem
+
+Individual contribution has always been difficult to attribute in group work.
+AI sharpens this in a specific way: a polished, well-structured section no
+longer signals high individual effort. It may reflect comfort with AI tools, a
+free rider with a good prompt, or genuine deep engagement expressed through an
+AI-assisted drafting process. The output alone cannot tell you which. Attribution
+requires process evidence, and process evidence requires infrastructure.
+
+---
+
+## Process Infrastructure as the Honest Response
+
+AI in group assessment responds to the same fix as free riding and attribution
+problems do: invest in process infrastructure instead of relying on the final
+artefact to tell the whole story.
+
+Useful process infrastructure includes:
+
+- **Team contracts** agreed at the start, covering roles and timelines, plus
+  explicit agreements about AI use within the group, what counts as individual
+  contribution, and how disputes about rewriting will be handled
+- **Weekly meeting records** submitted by the group, covering what was achieved,
+  what is planned, and any issues arising. They create a paper trail that is
+  hard to fabricate convincingly across a semester, and they surface problems
+  early enough to address them
+- **Individual contribution logs** or peer review instruments that ask what each
+  member actually contributed, beyond whether they took part
+- **A taught session on group work** that addresses AI use, the rewritten
+  section problem, and what ethical collaboration looks like in practice.
+  Students are rarely taught how to work in groups; they are placed in them and
+  assessed on the outcome
+
+None of this infrastructure is foolproof. A group that decides collectively to
+game the process can do so. Explicit process scaffolding reduces complaints,
+surfaces genuine problems earlier, and creates a more defensible record when
+disputes arise.
+
+---
+
+## Individual AI Conversation Transcripts in Group Assessment
+
+AI conversation transcripts used as an assessable component in individual
+assessment carry over to group contexts with one addition: each member submits
+their own transcript alongside the shared group product.
+
+The group product alone cannot show individual engagement. Separate transcripts
+show how members approached the same problem differently, which is evidence of
+independent thinking, and they make retroactive fabrication hard: a convincing
+individual transcript across a full semester requires the student to have
+thought about the material throughout.
+
+A transcript also captures the quality of the student's thinking, which peer
+review misses, because it records what they asked rather than whether they
+attended. Shallow one-shot questions show up, and so do iteration, pushback and
+refinement.
+
+For markers, the same signal-based approach from individual assessment applies.
+Reviewing a one-page automated summary per student, covering prompt length,
+number of turns, specificity over time, and evidence of pushback, is scalable
+at group assessment sizes. The full transcript is available when a summary flags
+something worth examining more closely.
+
+The process artefacts described here replace other marking mechanisms rather
+than adding to them. Individual transcripts remove the need to adjudicate peer
+review disputes after the fact, and automated summaries with selective deep
+dives take less time than resolving a formal misconduct complaint. Surfacing
+engagement problems early in the semester, through weekly meeting records and
+contribution logs, reduces the disputes that consume the most marking time. The
+net workload is manageable when the infrastructure is set up at the start of
+semester rather than retrofitted at submission time.
+
+The approach also assumes students know how to engage productively with AI:
+iterating, pushing back and refining a prompt instead of accepting the first
+output. If they have not been taught these skills, a process mark penalises low
+AI literacy rather than low intellectual effort. Building basic AI engagement
+skills early in the unit, through a taught session or a structured early task,
+is a prerequisite for fairness. Staff looking for support can draw on the AI
+Skills Passport resources developed for the school.
+
+### A Group AI Reflection as a Bridging Component
+
+Individual transcripts capture each member's thinking process, and the group
+product captures the shared outcome. A short Group AI Reflection submitted
+alongside both adds a useful middle step.
+
+It asks the group to answer one question together: how did you decide which
+AI-generated ideas to keep, which to discard, and why? To answer it, the group
+has to discuss the AI-generated content rather than divide it up and assemble
+the parts. That shows whether the group made sense of the material together or
+simply submitted separately.
+
+The reflection need not be long. Half a page, or a short segment in the
+presentation, is enough to make the link between individual process and shared
+product visible and assessable.
+
+---
+
+## Marks Structure: From Combined vs Differentiated to Process vs Product
+
+Group assessments typically split between a combined group mark and a
+differentiated individual mark. AI sharpens the weakness in both.
+
+A combined group mark makes individual engagement invisible: a student who
+contributed nothing but generated a polished section with AI receives the same
+mark as one who did the intellectual work. A differentiated mark tries to fix
+this but needs reliable attribution, which AI complicates, because a polished
+section no longer signals individual effort.
+
+Both problems point toward the same solution: stop trying to attribute the
+product and start assessing the process instead. A structure worth considering:
+
+- **Individual process mark (illustratively 60-80%):** each student's AI conversation transcript,
+  quality of prompting, evidence of critical engagement, and demonstrated
+  personal understanding of the group's work
+- **Group product mark (illustratively 20-40%):** the shared artefact, presentation, or report,
+  assessed as a team
+
+This shifts the incentives. Students have a reason to engage deeply with the
+material themselves, because that is where most of the marks sit, and the group
+product becomes the synthesis of that engagement rather than a
+division-of-labour exercise assembled at the last minute.
+
+A student who contributes nothing cannot fabricate a detailed individual
+transcript across a full semester, and attribution no longer turns on who wrote
+which paragraph but on what each individual contributed to the thinking.
+
+### This mirrors how the real world actually works
+
+In professional life, nobody receives a group performance review. Every
+individual is assessed on their contribution, their thinking, and their ability
+to work effectively with others. Good managers evaluate team members the same
+way this structure does: the team delivered the product (30%), but what did you
+specifically bring to it and how did you think through the problems (70%)?
+
+Students who understand the framing from the start approach group work
+differently, as individual contributors who collaborate.
+
+The 70/30 split also removes a persistent source of dissatisfaction with group
+work: the feeling that someone else's lack of effort affects your mark. Under
+this structure your mark is mostly yours, which reflects how contribution and
+accountability work in professional life. Students tend to recognise the
+fairness when it is explained at the start.
+
+---
+
+## What Genuine Engagement Looks Like in a Group Context
+
+The engagement spectrum from individual assessment applies at the group level,
+but the social context creates additional pressures. A group whose members
+discuss ideas, challenge each other's contributions and build on each other's
+thinking produces something different from one that divides the work, completes
+sections separately and assembles them at the end. The final product may look
+the same; the process is different.
+
+Signals worth looking for in process evidence:
+
+- Do the weekly meeting records show genuine discussion of ideas or just task
+  allocation?
+- Do individual peer reviews show awareness of what other members actually
+  contributed, or are they generic?
+- In the presentation Q&A, can members speak to each other's sections, or only
+  their own?
+- Does the team contract show evidence of genuine negotiation, or does it look
+  like a template completed in five minutes?
+
+None of these signals is definitive on its own. Together they give a clearer
+picture of group engagement than the final submitted artefact alone.
+
+---
+
+## What the Marker Sees: A Brief Vignette
+
+Consider two versions of the same group assessment. In the first, the marker
+receives a polished twelve-page report and a twenty-minute presentation. Three
+of the four sections are well-structured and confidently delivered. One member
+is vague under questioning. The marker suspects uneven contribution but has
+nothing concrete to point to.
+
+In the second version, the marker receives the same report and presentation,
+plus four individual transcripts, four brief reflections on key moments, and a
+one-paragraph Group AI Reflection explaining why the group rejected two of the
+AI's initial framework suggestions. The automated summary shows one member's
+prompts were consistently short and generic while the others' became more
+specific over time. The marker knows where to look, what questions to ask, and
+has defensible evidence whatever the outcome.
+
+The group product is identical in both versions; what the marker can see is
+not.
+
+---
+
+## Summary
+
+Group assessment is not inherently more AI-resistant than individual assessment.
+The presentation assumption offers partial protection, and the Q&A carries more
+integrity weight than the presentation itself.
+
+AI creates three new problems: the rewritten section problem, the free rider
+via AI problem, and a sharpened attribution problem. All three point in the same
+direction: process infrastructure matters more in an AI-capable cohort.
+
+A group that decides to perform engagement rather than demonstrate it can do
+so. Weekly meeting records can be written after the fact, peer reviews can be
+generic, and transcripts can be crafted to look iterative. No infrastructure is
+foolproof. Process evidence can be faked, but faking it convincingly across a
+semester takes more effort than genuine engagement, and the signals above make
+unconvincing fabrication visible to an attentive marker.
+
+Individual AI conversation transcripts submitted alongside the group product
+make individual engagement visible, scalable to assess, and difficult to
+fabricate retroactively.
+
+A marks structure weighted toward individual process over group product resolves
+the combined versus differentiated mark dilemma, mirrors real-world professional
+accountability, and removes the persistent student dissatisfaction that comes
+from shared marks for unequal effort.
+
+The goal remains the same as in individual assessment: assess where on the
+engagement spectrum students operated, not whether they used AI. In a group
+context, that question has both a group-level and an individual-level answer,
+and good assessment design surfaces both.
+
+---
+
+*This paper is a companion to Assessing AI Engagement: A Case for Moving
+Beyond Detection. It contributes to ongoing assessment design conversations and
+reflects the author's experience as an AI facilitator.*
+
+This document was developed in a conversation loop with Claude (Anthropic) and
+Copilot (Microsoft).

@@ -1,0 +1,31 @@
+---
+title: "Amplify Your Thinking, Not the Hallucinations"
+---
+
+## The Danger of Unchecked Chains
+
+An increasingly popular alternative to conversation is to chain tasks together: "Do this. Good. Now using that, do this. Good. Now using that, do this." Each step builds on the last, and you delegate each task in turn, with no pushback, verification, or correction. That is the most dangerous way to use AI.
+
+## How Errors Compound
+
+Every AI response carries some chance of error: a misunderstood nuance, a fabricated detail, a plausible-sounding conclusion that is subtly wrong. In a conversation, you catch these errors because you are engaged. You notice when something does not match your experience, and you push back and correct course.
+
+In an unchecked chain, errors compound. The hallucination in step two becomes an assumption in step three, a foundation in step four, and a confident conclusion in step six. Each step builds faithfully on what came before, and what came before was wrong. Nothing here is random: the AI keeps building with confidence, and the structure grows more detailed while the base stays unsound. By the end, the work looks thorough and reads well, though it rests on errors made early.
+
+## The Conversation Loop as Defence
+
+The conversation loop prevents this. Each iteration gives you a checkpoint, and each pushback corrects the work. Every time you say "that doesn't seem right" or "explain why you chose that approach," you keep the work tied to what is actually true. That does more than improve the output: it stops errors from piling up until the result is useless.
+
+Being the human in the loop means taking an active part at every stage, so your judgement and expertise shape the work as it develops. Checking the final output and hoping for the best is not the same job.
+
+## The Choice
+
+You can chain tasks and amplify the hallucinations, or stay in the conversation and amplify your thinking. The process looks similar from the outside, since both involve multiple exchanges with AI. What differs is whether you engage with each step or just click through.
+
+## The Loop at a Glance
+
+- **Brainstorm**: start from the question you actually need answered, before you settle on a solution.
+- **Ideate**: go wide and explore angles you had not considered.
+- **Iterate**: push back, refine, redirect.
+- **Amplify**: make the result yours.
+- **Repeat**: go round again if your thinking has not settled.
